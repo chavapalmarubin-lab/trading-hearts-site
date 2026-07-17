@@ -1,0 +1,36 @@
+{
+ "env": "live",
+ "client_id": "AfhN3A4a74tu0z2-e_LDBlEXO7IUBHtrH81j5be1iTMRtK9z_pPKHtWGyksFiFlYuLJP1emkzIhBNjtO",
+ "plans": {
+  "reader_m": {
+   "plan_id": "P-8LX48730HY2867453NJLNSAY",
+   "price": "6.99",
+   "interval": "MONTH"
+  },
+  "reader_y": {
+   "plan_id": "P-52K14693FN6039013NJLNSAY",
+   "price": "69.00",
+   "interval": "YEAR"
+  },
+  "insider_m": {
+   "plan_id": "P-95B03324SL589962RNJLNSBA",
+   "price": "12.99",
+   "interval": "MONTH"
+  },
+  "insider_y": {
+   "plan_id": "P-0UY45841VC119432TNJLNSBI",
+   "price": "129.00",
+   "interval": "YEAR"
+  },
+  "founder_m": {
+   "plan_id": "P-6D309061M23702947NJLNSBQ",
+   "price": "29.99",
+   "interval": "MONTH"
+  },
+  "founder_y": {
+   "plan_id": "P-5BU93242X1971310ANJLNSBY",
+   "price": "299.00",
+   "interval": "YEAR"
+  }
+ }
+}
