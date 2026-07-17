@@ -1,0 +1,485 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 14,
+  "character_key": "carlos_ibanez",
+  "character_name": "Carlos Ibáñez",
+  "asset": "Spanish Peseta",
+  "ticker": "ESP",
+  "era": "1868",
+  "era_label": "Spanish Revolution Era",
+  "era_year": 1868,
+  "tagline": "Born to erase a monarchy, he outlived the revolution that made him."
+ },
+ "museum_objects": [
+  {
+   "id": "carlos_ibanez_obj_1",
+   "title": "First Peseta Coin (Hispania Design)",
+   "date": "1869",
+   "type": "coin",
+   "material": "silver",
+   "description": "The first official peseta coin, designed by Luis Marchionni, featuring the allegorical figure of Hispania.",
+   "significance": "Carlos was born out of revolution — this coin replaced royal portraits with an idea, a symbol of a country trying to imagine itself without a king.",
+   "museum": "Heritage Auctions (referenced example) / Museo Casa de la Moneda",
+   "museum_location": "Madrid, Spain",
+   "accession_number": "1869 Peseta Hispania",
+   "collection_url": "https://www.museocasadelamoneda.es/",
+   "image_url": "https://www.museocasadelamoneda.es/",
+   "license": "Museo Casa de la Moneda terms",
+   "open_access": false,
+   "plain_language": "The first official peseta coin, made right after Spain's queen was overthrown, showing a symbolic woman instead of a royal portrait.",
+   "url": "https://www.museocasadelamoneda.es/",
+   "accession": "1869 Peseta Hispania",
+   "institution": "Heritage Auctions (referenced example) / Museo Casa de la Moneda",
+   "licence": "Museo Casa de la Moneda terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.museocasadelamoneda.es/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Cupón de la ONCE dedicado a la peseta.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Cup%C3%B3n_de_la_ONCE_dedicado_a_la_peseta.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Cup%C3%B3n_de_la_ONCE_dedicado_a_la_peseta.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "ONCE"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "carlos_ibanez_obj_2",
+   "title": "Goya's Saturn Devouring His Son",
+   "date": "1819-1823",
+   "type": "painting",
+   "material": "oil mural transferred to canvas",
+   "description": "One of Francisco Goya's darkest 'Black Paintings,' depicting the Roman god Saturn devouring his own child.",
+   "significance": "Painted decades before Carlos existed, but it captures exactly the mood of the era that created him — a country consuming its own past to make room for something new.",
+   "museum": "Museo Nacional del Prado",
+   "museum_location": "Madrid, Spain",
+   "accession_number": "P000763",
+   "collection_url": "https://www.museodelprado.es/en/the-collection/art-work/saturn/",
+   "image_url": "https://www.museodelprado.es/en/the-collection/art-work/saturn/",
+   "license": "Museo del Prado terms",
+   "open_access": false,
+   "plain_language": "A famous, disturbing painting by Goya showing a god eating his own son — capturing the dark, chaotic mood of Spain right before the peseta was created.",
+   "url": "https://www.museodelprado.es/en/the-collection/art-work/saturn/",
+   "accession": "P000763",
+   "institution": "Museo Nacional del Prado",
+   "licence": "Museo del Prado terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Francisco de Goya, Saturno devorando a su hijo (1819-1823).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Francisco Goya"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Francisco de Goya y Lucientes - Saturn Devouring One of his Children - WGA10109.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Francisco_de_Goya_y_Lucientes_-_Saturn_Devouring_One_of_his_Children_-_WGA10109.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Francisco_de_Goya_y_Lucientes_-_Saturn_Devouring_One_of_his_Children_-_WGA10109.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Francisco Goya"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Saturn devouring his sons, Goya, c. 1797, red chalk on laid paper.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Saturn_devouring_his_sons%2C_Goya%2C_c._1797%2C_red_chalk_on_laid_paper.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Saturn_devouring_his_sons,_Goya,_c._1797,_red_chalk_on_laid_paper.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Francisco Goya"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image is not 'Goya's Saturn Devouring His Son,' but rather an engraving by Carlo Losi, as indicated by the text at the bottom.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "carlos_ibanez_obj_3",
+   "title": "Museo Casa de la Moneda Collection",
+   "date": "Various",
+   "type": "museum/building",
+   "material": "stone",
+   "description": "Spain's national mint museum, housing coins and printing plates spanning centuries of Spanish currency.",
+   "significance": "This museum is where Carlos's entire life story — from revolutionary coin to today — is kept safe in one building.",
+   "museum": "Museo Casa de la Moneda",
+   "museum_location": "Madrid, Spain",
+   "accession_number": "Museo Casa de la Moneda general collection",
+   "collection_url": "https://www.museocasadelamoneda.es/",
+   "image_url": "https://www.museocasadelamoneda.es/",
+   "license": "Museo Casa de la Moneda terms",
+   "open_access": false,
+   "plain_language": "Spain's national coin museum, where the whole history of the peseta is kept and displayed.",
+   "url": "https://www.museocasadelamoneda.es/",
+   "accession": "Museo Casa de la Moneda general collection",
+   "institution": "Museo Casa de la Moneda",
+   "licence": "Museo Casa de la Moneda terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.museocasadelamoneda.es/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Museo Casa de Moneda - Corredor.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Museo_Casa_de_Moneda_-_Corredor.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Museo_Casa_de_Moneda_-_Corredor.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "SajoR"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Museo Casa de la Moneda.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Museo_Casa_de_la_Moneda.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Museo_Casa_de_la_Moneda.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Martinevans123"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The banknotes on display are not from the Spanish Peseta, but rather appear to be from a different currency, likely related to Cartagena, Colombia.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "carlos_ibanez_obj_4",
+   "title": "FNMT Historical Peseta Printing Plates",
+   "date": "20th century",
+   "type": "document/plate",
+   "material": "metal",
+   "description": "Original printing plates used by the Fábrica Nacional de Moneda y Timbre to produce peseta banknotes.",
+   "significance": "These plates are the literal machinery of Carlos's identity — the exact tools that stamped his image onto every note Spaniards ever carried.",
+   "museum": "Fábrica Nacional de Moneda y Timbre (FNMT)",
+   "museum_location": "Madrid, Spain",
+   "accession_number": "FNMT historical plates",
+   "collection_url": "https://www.fnmt.es/en/historia-de-la-peseta/",
+   "image_url": "https://www.fnmt.es/en/historia-de-la-peseta/",
+   "license": "FNMT terms",
+   "open_access": false,
+   "plain_language": "The actual metal plates used to print peseta banknotes, kept by Spain's official currency printer.",
+   "url": "https://www.fnmt.es/en/historia-de-la-peseta/",
+   "accession": "FNMT historical plates",
+   "institution": "Fábrica Nacional de Moneda y Timbre (FNMT)",
+   "licence": "FNMT terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.fnmt.es/en/historia-de-la-peseta/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "1 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "carlos_ibanez_obj_5",
+   "title": "Puerta del Sol Historical Photographs",
+   "date": "19th-20th century",
+   "type": "photograph",
+   "material": "print",
+   "description": "Historical photographs of Madrid's central square, site of numerous political upheavals tied to Spain's changing governments and currencies.",
+   "significance": "Every major turning point in Carlos's life — revolutions, republics, dictatorships — played out a few steps from this square.",
+   "museum": "Referenced via Spanish national photo archives",
+   "museum_location": "Madrid, Spain",
+   "accession_number": "Puerta del Sol historical photos",
+   "collection_url": "https://en.wikipedia.org/wiki/Puerta_del_Sol",
+   "image_url": "https://en.wikipedia.org/wiki/Puerta_del_Sol",
+   "license": "CC BY-SA (Wikimedia reference)",
+   "open_access": true,
+   "plain_language": "Old photos of Madrid's most famous square, where many of Spain's biggest political changes played out.",
+   "url": "https://en.wikipedia.org/wiki/Puerta_del_Sol",
+   "accession": "Puerta del Sol historical photos",
+   "institution": "Referenced via Spanish national photo archives",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Puerta_del_Sol",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image shows a contemporary photograph of an old stone archway, not a historical photograph of Puerta del Sol",
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "La Puerta del Sol en maqueta del año 1830, Museo de Historia de Madrid.JPG",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/La_Puerta_del_Sol_en_maqueta_del_a%C3%B1o_1830%2C_Museo_de_Historia_de_Madrid.JPG",
+     "page_url": "https://commons.wikimedia.org/wiki/File:La_Puerta_del_Sol_en_maqueta_del_a%C3%B1o_1830,_Museo_de_Historia_de_Madrid.JPG",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "CARLOS TEIXIDOR CADENAS"
+    }
+   ]
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "carlos_ibanez_src_1",
+   "title": "FNMT: History of the Peseta",
+   "type": "official_publication",
+   "date": "Ongoing",
+   "author": "Fábrica Nacional de Moneda y Timbre",
+   "description": "Official government account of the peseta's design and production history.",
+   "held_at": "FNMT",
+   "url": "https://www.fnmt.es/en/historia-de-la-peseta/",
+   "license": "FNMT terms",
+   "plain_language": "Spain's official currency printer's own history of the peseta.",
+   "licence": "FNMT terms",
+   "licence_class": "unknown",
+   "institution": "FNMT",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.fnmt.es/en/historia-de-la-peseta/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "carlos_ibanez_src_2",
+   "title": "Wikipedia: Spanish Peseta",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Overview reference on the peseta's history from 1868 to its retirement for the euro.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spanish_peseta",
+   "license": "CC BY-SA",
+   "plain_language": "A general history of Spain's currency from the 1868 revolution to the euro.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Spanish_peseta",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "carlos_ibanez_src_3",
+   "title": "Museo del Prado Collection Record: Saturn Devouring His Son",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Museo Nacional del Prado",
+   "description": "Official museum documentation of Goya's painting and its historical context.",
+   "held_at": "Museo del Prado",
+   "url": "https://www.museodelprado.es/en/the-collection/art-work/saturn/",
+   "license": "Museo del Prado terms",
+   "plain_language": "The Prado museum's official page about Goya's famous, disturbing painting.",
+   "licence": "Museo del Prado terms",
+   "licence_class": "unknown",
+   "institution": "Museo del Prado",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "carlos_ibanez_src_4",
+   "title": "Museo Casa de la Moneda Official Archive",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Museo Casa de la Moneda",
+   "description": "Spain's national mint museum's archive of coins and monetary history.",
+   "held_at": "Museo Casa de la Moneda",
+   "url": "https://www.museocasadelamoneda.es/",
+   "license": "Museum terms",
+   "plain_language": "Spain's national coin museum's own official records.",
+   "licence": "Museum terms",
+   "licence_class": "unknown",
+   "institution": "Museo Casa de la Moneda",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.museocasadelamoneda.es/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "carlos_ibanez_src_5",
+   "title": "Wikipedia: Puerta del Sol",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference on the historical and political significance of Madrid's central square.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Puerta_del_Sol",
+   "license": "CC BY-SA",
+   "plain_language": "Background on Madrid's most famous square and its role in Spanish political history.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Puerta_del_Sol",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 40.4168,
+  "center_lng": -3.7038,
+  "center_label": "Madrid, Spain",
+  "era_start": 1868,
+  "era_end": 2002,
+  "map_description": "Carlos was born in the chaos of Spain's 1868 revolution and lived through republics, dictatorship, and democracy before retiring for the euro in 2002.",
+  "nodes": [
+   {
+    "label": "Madrid (Museo Casa de la Moneda)",
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "type": "origin",
+    "description": "Spain's capital and home to the national mint museum documenting the peseta's full history."
+   },
+   {
+    "label": "Puerta del Sol",
+    "lat": 40.4169,
+    "lng": -3.7033,
+    "type": "landmark",
+    "description": "The central square at the heart of nearly every major political upheaval in modern Spanish history."
+   },
+   {
+    "label": "Cádiz",
+    "lat": 36.5271,
+    "lng": -6.2886,
+    "type": "origin",
+    "description": "A key port city during the 1868 revolution that toppled Queen Isabella II and set the stage for the peseta's creation."
+   },
+   {
+    "label": "Barcelona",
+    "lat": 41.3851,
+    "lng": 2.1734,
+    "type": "destination",
+    "description": "Spain's second major economic hub, deeply tied to the peseta's use in trade and industry."
+   },
+   {
+    "label": "Frankfurt (ECB)",
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "type": "destination",
+    "description": "Where the peseta's story ended in 2002 with the adoption of the euro."
+   }
+  ],
+  "historical_map_source": {
+   "title": "FNMT — History of the Peseta",
+   "url": "https://www.fnmt.es/en/historia-de-la-peseta/",
+   "license": "FNMT terms"
+  }
+ },
+ "_verified": "2026-07-11 10:39"
+}

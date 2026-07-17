@@ -1,0 +1,309 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 4,
+  "character_name": "ISABELLE DUPONT",
+  "character_key": "isabelle",
+  "header": "ISABELLE DUPONT | French Franc | 793 AD"
+ },
+ "museum_objects": [
+  {
+   "title": "Fastrada coin",
+   "institution": "Centre Charlemagne, Aachen",
+   "accession": "Acquired 2022",
+   "date": "Minted 793–794 AD",
+   "url": "https://www.archaeology.wiki/blog/2023/05/08/a-coin-of-queen-fastrada-and-charlemagne/",
+   "licence_raw": "Contact required",
+   "description": "First Carolingian coin naming a queen other than the Virgin Mary",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.archaeology.wiki/blog/2023/05/08/a-coin-of-queen-fastrada-and-charlemagne/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Charlemagne portrait denarius (\"Temple\" type)",
+   "institution": "Centre Charlemagne, Aachen",
+   "accession": "Minted c. 813–814",
+   "date": "https://centre-charlemagne.eu/ausstellungen/extremely-rare-carolingian-denarius/?lang=en",
+   "url": "https://centre-charlemagne.eu/ausstellungen/extremely-rare-carolingian-denarius/?lang=en",
+   "licence_raw": "Contact required",
+   "description": "One of only ~50 known surviving examples, acquired via eBay auction in 2022",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://centre-charlemagne.eu/ausstellungen/extremely-rare-carolingian-denarius/?lang=en",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Franc à cheval of Jean II le Bon",
+   "institution": "Musée des Beaux-Arts de Lyon",
+   "accession": "Inv. Mon. Au. 837",
+   "date": "Minted 1360",
+   "url": "https://www.mba-lyon.fr/fr/fiche-oeuvre/franc-cheval-de-jean-ii-le-bon",
+   "licence_raw": "Institutional, contact required",
+   "description": "King on horseback obverse, leafy cross reverse",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.mba-lyon.fr/fr/fiche-oeuvre/franc-cheval-de-jean-ii-le-bon",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Franc à cheval",
+   "institution": "Citéco (Banque de France museum)",
+   "accession": "Inventory 568",
+   "date": "Minted 1360",
+   "url": "https://www.citeco.fr/collection/franc-cheval",
+   "licence_raw": "Institutional, contact required",
+   "description": "30mm, 3.86g gold coin with full Latin inscription",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.citeco.fr/collection/franc-cheval",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Carolingian denier, Mainz mint",
+   "institution": "Bibliothèque nationale de France",
+   "accession": "Catalogue cb386395898",
+   "date": "812/814 AD",
+   "url": "https://catalogue.bnf.fr/ark:/12148/cb386395898",
+   "licence_raw": "Gallica public-domain-leaning, verify per notice",
+   "description": "Described as a unique surviving exemplar",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://catalogue.bnf.fr/ark:/12148/cb386395898",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Capitulary of Frankfort on the Legality of Coinage",
+   "detail": "Primary legal capitulary | 794 AD | Fordham Medieval Sourcebook",
+   "url": "https://sourcebooks.web.fordham.edu/source/750caroling-money.asp",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Source 1: Capitulary of Frankfort on the Legality of Coinage | Primary legal capitulary | 794 AD | Fordham Medieval Sourcebook | https://sourcebooks.web.fordham.edu/source/750caroling-money.asp | Free academic sourcebook | The core reform document establishing the new denarii standard",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://sourcebooks.web.fordham.edu/source/750caroling-money.asp",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Utrecht Psalter",
+   "detail": "Illuminated manuscript | c. 820–830 AD | Utrecht University Library",
+   "url": "https://www.uu.nl/en/special-collections/the-treasury/manuscripts/the-utrecht-psalter",
+   "licence_raw": "UNESCO Memory of the World, contact for digitization",
+   "licence_class": "contact_required",
+   "raw": "Source 2: Utrecht Psalter | Illuminated manuscript | c. 820–830 AD | Utrecht University Library | https://www.uu.nl/en/special-collections/the-treasury/manuscripts/the-utrecht-psalter | UNESCO Memory of the World, contact for digitization | 166 pen-and-ink sketches showing Carolingian dress and daily life",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.uu.nl/en/special-collections/the-treasury/manuscripts/the-utrecht-psalter",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Stuttgart Psalter",
+   "detail": "Illuminated manuscript | c. 820–830 AD | Württembergische Landesbibliothek, Bibl.fol.23",
+   "url": "https://digital.wlb-stuttgart.de/sammlungen/sammlungsliste/werksansicht?tx_dlf[id]=8680",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Source 3: Stuttgart Psalter | Illuminated manuscript | c. 820–830 AD | Württembergische Landesbibliothek, Bibl.fol.23 | https://digital.wlb-stuttgart.de/sammlungen/sammlungsliste/werksansicht?tx_dlf[id]=8680 | Digital viewer available | 316 miniatures, richest Carolingian costume detail of any surviving psalter",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://digital.wlb-stuttgart.de/sammlungen/sammlungsliste/werksansicht?tx_dlf[id]=8680",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Vivian Bible (First Bible of Charles the Bald)",
+   "detail": "Illuminated manuscript, MS Latin 1 | Presented 846 AD | Bibliothèque nationale de France (Gallica)",
+   "url": null,
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Source 4: Vivian Bible (First Bible of Charles the Bald) | Illuminated manuscript, MS Latin 1 | Presented 846 AD | Bibliothèque nationale de France (Gallica) | Referenced via BnF Gallica digitization | Public-domain-leaning | Dedication miniature shows Charles the Bald enthroned in full Carolingian royal dress",
+   "verify": {
+    "ok": false,
+    "error": "NO URL IN MANIFEST"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "NO URL"
+   }
+  },
+  {
+   "title": "Library of Congress record, franc à cheval",
+   "detail": "Institutional catalogue record | Item confirms issue date Dec 5, 1360 | Library of Congress",
+   "url": "https://www.loc.gov/item/2021669835/",
+   "licence_raw": "Institutional catalogue record",
+   "licence_class": "contact_required",
+   "raw": "Source 5: Library of Congress record, franc à cheval | Institutional catalogue record | Item confirms issue date Dec 5, 1360 | Library of Congress | https://www.loc.gov/item/2021669835/ | Public institutional record, free | Confirms the ransom context and issue date of the franc à cheval",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence": "<p>The Library of Congress is unaware of any copyright or other restrictions in the World Digital Library Collection. Absent any such restrictions, these materials are free to use ",
+    "licence_class": "check_required",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "Franc à cheval, John II."
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": [
+   {
+    "label": "Aachen",
+    "lat": 50.7753,
+    "lng": 6.0839
+   },
+   {
+    "label": "Corvey Abbey",
+    "lat": 51.7639,
+    "lng": 9.4083
+   },
+   {
+    "label": "Poitiers",
+    "lat": 46.5802,
+    "lng": 0.3404
+   },
+   {
+    "label": "Paris",
+    "lat": 48.8566,
+    "lng": 2.3522
+   },
+   {
+    "label": "Poitou-Charentes",
+    "lat": 46.2231,
+    "lng": -0.1428
+   },
+   {
+    "label": "Corvey Abbey",
+    "lat": 51.7639,
+    "lng": 9.4083
+   },
+   {
+    "label": "Saint-Riquier Abbey",
+    "lat": 50.15,
+    "lng": 1.8167
+   },
+   {
+    "label": "battle",
+    "lat": 46.5802,
+    "lng": 0.3404
+   },
+   {
+    "label": "Paris",
+    "lat": 48.8566,
+    "lng": 2.3522
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Who introduced the pound-shilling-pence monetary reform formalized in 794 AD?",
+   "a": "Charlemagne"
+  },
+  {
+   "q": "Who was Fastrada, and why does her coin matter?",
+   "a": "Charlemagne's third wife — the first Carolingian coin to name a queen"
+  },
+  {
+   "q": "Why was the franc à cheval first minted in 1360?",
+   "a": "To raise the ransom money to free King Jean II, captured at the Battle of Poitiers"
+  },
+  {
+   "q": "Why was the franc à cheval abandoned by 1364?",
+   "a": "Its gold content cost more than its face value"
+  },
+  {
+   "q": "What does \"franc\" possibly refer to in the coin's name?",
+   "a": "Either \"Francorum Rex\" (King of the Franks) or the king being made \"free\" (franc) after ransom payment"
+  }
+ ],
+ "decision_simulation": "Scenario: It's 1360. France must raise 3 million gold écus to free King Jean II from English captivity. The crown must decide how to fund this urgently. Options: (1) Mint a new high-value gold coin (the franc à cheval) specifically for the ransom; (2) Raise taxes sharply across the kingdom; (3) Negotiate a reduced ransom or delay payment Historical outcome: France minted the franc à cheval to help raise the ransom — but the coin's gold cost proved too expensive to sustain, and it was discontinued within four years, even though the name \"franc\" endured for centuries afterward",
+ "understand": {
+  "economic_impact": "One-line summary: Isabelle represents the moment France's money system was built directly out of a national crisis — a king's ransom — and that crisis-born currency lasted for centuries. Three key economic shifts: (1) Charlemagne's 794 reform created a standardized pound-shilling-pence system that structured European money for a millennium; (2) the franc à cheval showed the danger of tying a coin's value too closely to its metal cost — it collapsed within four years; (3) the name \"franc\" outlived the specific coin, becoming the enduring name of French currency for over 600 years Modern parallel: emergency government bonds or special-purpose currencies issued during a national crisis — created to solve one urgent problem, sometimes outliving their original purpose",
+  "political_impact": "One-line summary: The franc's birth from a king's ransom is a permanent reminder that a nation's money and its national pride are deeply tied together. Three key political shifts: (1) Charlemagne's currency reform was a tool for unifying and projecting power across his empire; (2) Fastrada's coin broke convention by naming a queen, a small political shift in how royal power was displayed; (3) the franc à cheval turned a national humiliation (the king's capture) into a symbol of chivalric resolve, showing how currency can be political propaganda Modern parallel: nations today still design currency imagery to project strength or unity, especially after moments of crisis or transition (like the euro's design after the franc was retired)",
+  "why_it_still_matters": "Plain-language answer: France's most famous historical currency, the franc, was literally created to pay off a king's ransom after he was captured in war. Money isn't just abstract numbers — it's often born out of very real, very human emergencies. Connection to today's world: The name \"franc\" survived for over 600 years after that one emergency coin was minted, showing how something created to solve a short-term crisis can become a permanent part of a country's identity — until France gave it up for the euro in 1999, a loss Isabelle still feels personally."
+ },
+ "slots_present": [
+  "(CURRENTLY OPEN — highest priority)",
+  "Animated episode",
+  "Audio drama",
+  "Character narration",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "HEAR IT",
+  "Historical article",
+  "LIVE IT",
+  "Motion comic",
+  "Museum objects",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "READ IT",
+  "UNDERSTAND IT",
+  "WATCH IT",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:37"
+}

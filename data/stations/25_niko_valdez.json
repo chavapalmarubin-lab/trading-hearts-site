@@ -1,0 +1,386 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 25,
+  "character_key": "niko_valdez",
+  "character_name": "Niko Valdez",
+  "asset": "Solana",
+  "ticker": "SOL",
+  "era": "2020",
+  "era_label": "Modern Crypto Era",
+  "era_year": 2020,
+  "tagline": "He doesn't do loyalty. He does microseconds. Whoever blinks last loses everything."
+ },
+ "museum_objects": [
+  {
+   "id": "niko_valdez_obj_1",
+   "title": "Solana Whitepaper (Proof of History)",
+   "date": "November 2017",
+   "type": "document",
+   "material": "digital PDF",
+   "description": "The original technical whitepaper by Anatoly Yakovenko introducing 'Proof of History,' the innovation behind Solana's speed.",
+   "significance": "This document is Niko's entire personality laid out in advance: obsessed with speed, engineered to never waste a microsecond.",
+   "museum": "Solana Foundation (self-published)",
+   "museum_location": "Digital / San Francisco origin",
+   "accession_number": "Solana whitepaper 2017",
+   "collection_url": "https://solana.com/solana-whitepaper.pdf",
+   "image_url": "https://solana.com/solana-whitepaper.pdf",
+   "license": "Solana Foundation terms",
+   "open_access": false,
+   "plain_language": "The original technical document that first described how Solana would work, written years before it actually launched.",
+   "url": "https://solana.com/solana-whitepaper.pdf",
+   "accession": "Solana whitepaper 2017",
+   "institution": "Solana Foundation (self-published)",
+   "licence": "Solana Foundation terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://solana.com/solana-whitepaper.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "niko_valdez_obj_2",
+   "title": "Solana GitHub Source Code Repository",
+   "date": "2018-present",
+   "type": "source_code",
+   "material": "digital repository",
+   "description": "The open-source codebase for the Solana blockchain protocol, licensed under Apache 2.0.",
+   "significance": "Every rule Niko follows is written in code anyone can read — there's no hidden agenda, just cold, published logic running exactly as designed.",
+   "museum": "GitHub (solana-labs/solana)",
+   "museum_location": "Digital repository",
+   "accession_number": "solana-labs/solana",
+   "collection_url": "https://github.com/solana-labs/solana",
+   "image_url": "https://github.com/solana-labs/solana",
+   "license": "Apache License 2.0 (open source)",
+   "open_access": true,
+   "plain_language": "The actual public computer code that runs Solana, free for anyone in the world to read or check.",
+   "url": "https://github.com/solana-labs/solana",
+   "accession": "solana-labs/solana",
+   "institution": "GitHub (solana-labs/solana)",
+   "licence": "Apache License 2.0 (open source)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://github.com/solana-labs/solana",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "4 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "display_image": null
+  },
+  {
+   "id": "niko_valdez_obj_3",
+   "title": "Solana Mainnet Beta Launch Records",
+   "date": "March 16, 2020",
+   "type": "document/announcement",
+   "material": "digital",
+   "description": "Official records and announcements marking the launch of Solana's mainnet beta.",
+   "significance": "This is the exact day Niko went live — and within two years he'd be worth $260, then crash below $10. Speed cuts both ways.",
+   "museum": "Solana Foundation Archive",
+   "museum_location": "Digital",
+   "accession_number": "Mainnet beta launch, March 2020",
+   "collection_url": "https://solana.com/news/year-in-review-2020",
+   "image_url": "https://solana.com/news/year-in-review-2020",
+   "license": "Solana Foundation terms",
+   "open_access": false,
+   "plain_language": "Official records of the day in 2020 when Solana's network actually went live for real use.",
+   "url": "https://solana.com/news/year-in-review-2020",
+   "accession": "Mainnet beta launch, March 2020",
+   "institution": "Solana Foundation Archive",
+   "licence": "Solana Foundation terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://solana.com/news/year-in-review-2020",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "6 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "niko_valdez_obj_4",
+   "title": "FTX/Alameda SOL Holdings Analysis",
+   "date": "2022",
+   "type": "financial_analysis",
+   "material": "digital report",
+   "description": "Financial analysis documenting FTX and Alameda Research's massive holdings of roughly 58 million SOL tokens before the exchange's collapse.",
+   "significance": "Niko's near-death experience — tied so closely to one company's fate that when FTX collapsed, he nearly went down with it.",
+   "museum": "Business Insider Archive",
+   "museum_location": "Digital",
+   "accession_number": "FTX/SOL crash analysis 2022",
+   "collection_url": "https://www.businessinsider.com/",
+   "image_url": "https://www.businessinsider.com/",
+   "license": "Business Insider terms",
+   "open_access": false,
+   "plain_language": "A financial analysis explaining how a huge crypto exchange's collapse in 2022 nearly took Solana's value down with it.",
+   "url": "https://www.businessinsider.com/",
+   "accession": "FTX/SOL crash analysis 2022",
+   "institution": "Business Insider Archive",
+   "licence": "Business Insider terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.businessinsider.com/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "niko_valdez_obj_5",
+   "title": "Solana Breakpoint Conference Records",
+   "date": "2021 onward",
+   "type": "event_archive",
+   "material": "digital/photo",
+   "description": "Archival records from Solana's flagship annual developer and community conference, held in cities including Lisbon.",
+   "significance": "Niko doesn't have a hometown the way old currencies do — his community gathers wherever the conference lands that year.",
+   "museum": "Solana Foundation Archive",
+   "museum_location": "Various (Lisbon 2021, etc.)",
+   "accession_number": "Breakpoint conference archive",
+   "collection_url": "https://solana.com/breakpoint",
+   "image_url": "https://solana.com/breakpoint",
+   "license": "Solana Foundation terms",
+   "open_access": false,
+   "plain_language": "Records from Solana's big annual conference, which travels to a different city around the world each year.",
+   "url": "https://solana.com/breakpoint",
+   "accession": "Breakpoint conference archive",
+   "institution": "Solana Foundation Archive",
+   "licence": "Solana Foundation terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://solana.com/breakpoint",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "niko_valdez_src_1",
+   "title": "Wikipedia: Solana (Blockchain Platform)",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Overview reference on Solana's technology, history, and market performance.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Solana_(blockchain_platform)",
+   "license": "CC BY-SA",
+   "plain_language": "A general overview of how Solana works and its history as a cryptocurrency.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Solana_(blockchain_platform)",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "niko_valdez_src_2",
+   "title": "Solana: Year in Review 2020",
+   "type": "official_publication",
+   "date": "2020",
+   "author": "Solana Foundation",
+   "description": "Official year-end summary of Solana's first year of mainnet operations.",
+   "held_at": "Solana Foundation",
+   "url": "https://solana.com/news/year-in-review-2020",
+   "license": "Solana Foundation terms",
+   "plain_language": "Solana's own official recap of its first year running live in 2020.",
+   "licence": "Solana Foundation terms",
+   "licence_class": "unknown",
+   "institution": "Solana Foundation",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://solana.com/news/year-in-review-2020",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "niko_valdez_src_3",
+   "title": "FTX Collapse and SOL Price Crash Analysis",
+   "type": "news_analysis",
+   "date": "2022",
+   "author": "Business Insider",
+   "description": "Financial journalism analyzing the impact of FTX's collapse on Solana's price and ecosystem.",
+   "held_at": "Business Insider",
+   "url": "https://www.businessinsider.com/",
+   "license": "Business Insider terms",
+   "plain_language": "A news analysis of how the FTX crypto exchange collapse badly hurt Solana's price and reputation.",
+   "licence": "Business Insider terms",
+   "licence_class": "unknown",
+   "institution": "Business Insider",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.businessinsider.com/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "niko_valdez_src_4",
+   "title": "Solana Whitepaper: Proof of History",
+   "type": "technical_document",
+   "date": "2017",
+   "author": "Anatoly Yakovenko",
+   "description": "The founding technical document describing Solana's core innovation for fast transaction processing.",
+   "held_at": "Solana Foundation",
+   "url": "https://solana.com/solana-whitepaper.pdf",
+   "license": "Solana Foundation terms",
+   "plain_language": "The original technical paper explaining the special technology that makes Solana so fast.",
+   "licence": "Solana Foundation terms",
+   "licence_class": "unknown",
+   "institution": "Solana Foundation",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://solana.com/solana-whitepaper.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "niko_valdez_src_5",
+   "title": "Solana GitHub Repository",
+   "type": "source_code_archive",
+   "date": "2018-present",
+   "author": "Solana Labs",
+   "description": "The complete open-source codebase for the Solana protocol.",
+   "held_at": "GitHub",
+   "url": "https://github.com/solana-labs/solana",
+   "license": "Apache License 2.0",
+   "plain_language": "The public, freely viewable computer code that actually runs the Solana network.",
+   "licence": "Apache License 2.0",
+   "licence_class": "unknown",
+   "institution": "GitHub",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://github.com/solana-labs/solana",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 37.7749,
+  "center_lng": -122.4194,
+  "center_label": "San Francisco, USA (Solana Labs)",
+  "era_start": 2017,
+  "era_end": 2026,
+  "map_description": "Niko was engineered in Silicon Valley, launched into a decentralized global network, and nearly destroyed by a single exchange's collapse before recovering.",
+  "nodes": [
+   {
+    "label": "San Francisco (Solana Labs)",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "type": "origin",
+    "description": "Home base of Solana Labs, where the core protocol was developed."
+   },
+   {
+    "label": "Global Validator Network",
+    "lat": 0.0,
+    "lng": 0.0,
+    "type": "destination",
+    "description": "Solana runs on a decentralized network of validators spread across the globe, with no single physical headquarters for the network itself."
+   },
+   {
+    "label": "Lisbon, Portugal (Breakpoint 2021)",
+    "lat": 38.7223,
+    "lng": -9.1393,
+    "type": "landmark",
+    "description": "Host city for one of Solana's major annual developer conferences."
+   },
+   {
+    "label": "Nassau, Bahamas (FTX HQ)",
+    "lat": 25.0343,
+    "lng": -77.3963,
+    "type": "landmark",
+    "description": "Former headquarters of FTX, whose collapse in 2022 severely impacted Solana's price and reputation."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Solana Foundation — Year in Review 2020",
+   "url": "https://solana.com/news/year-in-review-2020",
+   "license": "Solana Foundation terms"
+  }
+ },
+ "_verified": "2026-07-11 10:42"
+}

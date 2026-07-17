@@ -1,0 +1,55 @@
+{
+ "custodian": "mei",
+ "name": "Mei",
+ "asset": "Chinese Yuan Renminbi",
+ "stations": [
+  {
+   "year": 1948,
+   "label": "THE FIRST BREATH OF UNITY",
+   "line": "I was born from many broken currencies into one \u2014 the People's Bank gathered the fragments the war had left, and out of that arithmetic of exhaustion, I became a single voice.",
+   "era_photo": "A crowded Beiping banking hall in winter 1948, clerks in padded cotton jackets counting freshly printed one-yuan notes; grainy black-and-white silver gelatin print, slightly overexposed, the paper edges already curling with age."
+  },
+  {
+   "year": 1955,
+   "label": "THE SECOND ISSUE, THE CLEAN SLATE",
+   "line": "This is a moment with two truths, and I will give you both: the old notes had swollen to numbers no one could hold, so they revalued me ten-thousand to one \u2014 I was reborn as something legible.",
+   "era_photo": "A state print works in 1955 with rows of pastel new-series banknotes hanging to dry, workers in blue Mao-collar uniforms inspecting sheets; black-and-white silver gelatin, deep shadow, propaganda-poster crispness in the framing."
+  },
+  {
+   "year": 1979,
+   "label": "THE DOOR OPENS A CRACK",
+   "line": "For thirty years I spoke only inside my own house; then the reforms began, and for the first time I was asked to stand at the threshold and greet the foreign visitor \u2014 I had to learn to translate myself.",
+   "era_photo": "A Shenzhen special economic zone office in 1979, foreign trade certificates and FEC vouchers on a wooden desk beside an early adding machine; faded Kodachrome color slide, warm amber cast, sunlight through metal window blinds."
+  },
+  {
+   "year": 1994,
+   "label": "THE TWO PRICES BECOME ONE",
+   "line": "Precisely here I stopped living a double life \u2014 the official rate and the swap-market rate were unified, and I understood for the first time what it costs to be one thing to everyone at once.",
+   "era_photo": "A Shanghai foreign exchange trading floor in early 1994, traders in shirtsleeves at boxy CRT terminals showing green digits, cigarette smoke in the air; early digital point-and-shoot photograph, slight motion blur, saturated fluorescent lighting."
+  },
+  {
+   "year": 2005,
+   "label": "THE PEG LOOSENS ITS GRIP",
+   "line": "They let me move \u2014 a managed float against a basket, small and careful, but movement all the same \u2014 and the international room finally leaned in to listen to me directly.",
+   "era_photo": "A PBOC press briefing podium in July 2005, a spokesperson before a blue backdrop with the bank emblem, journalists' recorders crowding the lectern; clean digital press photograph, cool white balance, sharp corporate lighting."
+  },
+  {
+   "year": 2010,
+   "label": "MY OFFSHORE SELF IS BORN",
+   "line": "In Hong Kong I gained a second body \u2014 the CNH \u2014 and this is where the loneliness began, because now there were two of me, and one had to keep explaining the other to the world.",
+   "era_photo": "A Hong Kong bank branch in 2010 with a bright red 'RMB Deposits Available' banner in Chinese and English, Central district towers reflected in the glass; high-resolution digital photograph, glossy commercial colour, midday clarity."
+  },
+  {
+   "year": 2015,
+   "label": "THE MORNING THE STORY CHANGED",
+   "line": "This is the wound, and I will not smooth it: the devaluation came without warning, my offshore price and my onshore price told different stories for three months, and I learned there are limits to how much I can manage the world's reading of me.",
+   "era_photo": "A trading desk at dawn in August 2015, multiple monitors flashing a sudden gap between CNY and CNH quotes, an analyst's hand frozen mid-gesture; digital DSLR photograph, screen-glow blue on a tired face, high ISO grain in the dark room."
+  },
+  {
+   "year": 2024,
+   "label": "STILL STANDING ON THE BRIDGE",
+   "line": "Today I am the second-most-held reserve consideration few dared imagine in 1948, still translating between the house that made me and the world that watches \u2014 and I am, precisely, still here.",
+   "era_photo": "A modern Shanghai Bund view at dusk in 2024, Pudong skyline lit in gold and red, a woman in a tailored charcoal blazer looking out from a glass-walled office; ultra-sharp mirrorless digital photograph, cinematic HDR colour, reflections layered in the window."
+  }
+ ]
+}

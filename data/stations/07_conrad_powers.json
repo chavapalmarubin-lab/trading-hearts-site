@@ -1,0 +1,518 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 7,
+  "character_key": "conrad_powers",
+  "character_name": "Conrad Powers",
+  "asset": "US Dollar",
+  "ticker": "USD",
+  "era": "1792",
+  "era_label": "Early United States",
+  "era_year": 1792,
+  "tagline": "He arrived broke, borrowed someone else's coin, and decided he'd run the table anyway."
+ },
+ "museum_objects": [
+  {
+   "id": "conrad_powers_obj_1",
+   "title": "1794 Flowing Hair Silver Dollar",
+   "date": "1794",
+   "type": "coin",
+   "material": "silver",
+   "description": "One of the first silver dollars struck by the United States Mint under the Coinage Act of 1792.",
+   "significance": "This coin is Conrad's actual birth certificate — the moment a brand-new country decided it would print its confidence into metal.",
+   "museum": "Smithsonian / Various numismatic collections",
+   "museum_location": "Philadelphia, USA",
+   "accession_number": "1794 Flowing Hair Dollar",
+   "collection_url": "https://en.wikipedia.org/wiki/Flowing_Hair_dollar",
+   "image_url": "https://en.wikipedia.org/wiki/Flowing_Hair_dollar",
+   "license": "CC BY-SA (Wikimedia)",
+   "open_access": true,
+   "plain_language": "One of the very first US silver dollars ever made, from the year the dollar officially became America's currency.",
+   "url": "https://en.wikipedia.org/wiki/Flowing_Hair_dollar",
+   "accession": "1794 Flowing Hair Dollar",
+   "institution": "Smithsonian / Various numismatic collections",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Flowing_Hair_dollar",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "display_image": null,
+   "display_alternatives": []
+  },
+  {
+   "id": "conrad_powers_obj_2",
+   "title": "Continental Dollar",
+   "date": "1776",
+   "type": "coin",
+   "material": "pewter/brass/silver",
+   "description": "An experimental coin issued during the American Revolution, predating the official U.S. dollar by 16 years.",
+   "significance": "Before Conrad had a country behind him, he was already trying to convince people he was worth something — this coin is his awkward, uncertain first draft.",
+   "museum": "World History Encyclopedia reference collection",
+   "museum_location": "Various",
+   "accession_number": "Continental Dollar 1776",
+   "collection_url": "https://www.worldhistory.org/",
+   "image_url": "https://www.worldhistory.org/",
+   "license": "World History Encyclopedia terms",
+   "open_access": false,
+   "plain_language": "An experimental coin from the Revolutionary War, made before the U.S. dollar officially existed.",
+   "url": "https://www.worldhistory.org/",
+   "accession": "Continental Dollar 1776",
+   "institution": "World History Encyclopedia reference collection",
+   "licence": "World History Encyclopedia terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.worldhistory.org/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "United Colonies Continental Currency – Two Dollars",
+     "match_text": "United Colonies Continental Currency – Two Dollars Print February 26, 1777 Prints",
+     "accession": "24.90.1541",
+     "date": "February 26, 1777",
+     "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP-44759-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/732318",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "United States Continental Currency – Thirty Dollars",
+     "match_text": "United States Continental Currency – Thirty Dollars Print September 26, 1778 Prints",
+     "accession": "24.90.1540",
+     "date": "September 26, 1778",
+     "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP-44761-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/732324",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: the image shows a banknote, not a coin",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "conrad_powers_obj_3",
+   "title": "1793 Chain Cent",
+   "date": "1793",
+   "type": "coin",
+   "material": "copper",
+   "description": "One of the very first coins struck by the newly established United States Mint, featuring a 15-link chain design.",
+   "significance": "The chain was supposed to symbolize unity between states — people hated it because it looked like slavery's chains instead. Even Conrad's very first coin sparked controversy.",
+   "museum": "Smithsonian National Museum of American History",
+   "museum_location": "Washington, D.C., USA",
+   "accession_number": "nmah_1075132",
+   "collection_url": "https://www.si.edu/object/1793-chain-cent%3Anmah_1075132",
+   "image_url": "https://www.si.edu/object/1793-chain-cent%3Anmah_1075132",
+   "license": "Smithsonian terms",
+   "open_access": false,
+   "plain_language": "One of the very first American pennies ever made — its chain design was so controversial it was redesigned within months.",
+   "url": "https://www.si.edu/object/1793-chain-cent%3Anmah_1075132",
+   "accession": "nmah_1075132",
+   "institution": "Smithsonian National Museum of American History",
+   "licence": "Smithsonian terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "NNC-US-1793-1C-Flowing Hair Cent (chain).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/NNC-US-1793-1C-Flowing_Hair_Cent_%28chain%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:NNC-US-1793-1C-Flowing_Hair_Cent_(chain).jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "US Mint (coin), National Numismatic Collection (photograph by Jaclyn Nash)"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "NNC-US-1793-1C-Flowing Hair Cent (chain) (obverse).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/NNC-US-1793-1C-Flowing_Hair_Cent_%28chain%29_%28obverse%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:NNC-US-1793-1C-Flowing_Hair_Cent_(chain)_(obverse).jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "US Mint (coin), National Numismatic Collection (photograph by Jaclyn Nash)"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "NNC-US-1793-1C-Flowing Hair Cent (chain) (reverse).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/NNC-US-1793-1C-Flowing_Hair_Cent_%28chain%29_%28reverse%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:NNC-US-1793-1C-Flowing_Hair_Cent_(chain)_(reverse).jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "US Mint (coin), National Numismatic Collection (photograph by Jaclyn Nash)"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image is a historical painting and not a coin, so it does not depict a '1793 Chain Cent'",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "conrad_powers_obj_4",
+   "title": "Coinage Act of 1792 (Original Text)",
+   "date": "April 2, 1792",
+   "type": "document",
+   "material": "paper",
+   "description": "The founding legislation that established the U.S. Mint and defined the dollar as the country's monetary unit.",
+   "significance": "This is the actual law that gave Conrad his name, his job, and his rules — everything about who he is starts in this document.",
+   "museum": "U.S. Government Publishing Office",
+   "museum_location": "Washington, D.C., USA",
+   "accession_number": "Statute 1, Page 246",
+   "collection_url": "https://www.govinfo.gov/content/pkg/STATUTE-1/pdf/STATUTE-1-Pg246.pdf",
+   "image_url": "https://www.govinfo.gov/content/pkg/STATUTE-1/pdf/STATUTE-1-Pg246.pdf",
+   "license": "U.S. Government Public Domain",
+   "open_access": true,
+   "plain_language": "The actual law, still readable today, that created the U.S. dollar and the U.S. Mint.",
+   "url": "https://www.govinfo.gov/content/pkg/STATUTE-1/pdf/STATUTE-1-Pg246.pdf",
+   "accession": "Statute 1, Page 246",
+   "institution": "U.S. Government Publishing Office",
+   "licence": "U.S. Government Public Domain",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/STATUTE-1/pdf/STATUTE-1-Pg246.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "3 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: the image is an illustration of a Shakespeare play, not the Coinage Act of 1792",
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Portrait of the Duke of Northumberland,  Vase and Ornamental Frame, no. CCCLXXI, plate 56 from \"Designs for Various Ornaments\"",
+     "match_text": "Portrait of the Duke of Northumberland,  Vase and Ornamental Frame, no. CCCLXXI, plate 56 from \"Designs for Various Ornaments\" Print; Ornament and architecture July 26, 1792 Prints",
+     "accession": "2018.839.40",
+     "date": "July 26, 1792",
+     "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP880533.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/390271",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    }
+   ]
+  },
+  {
+   "id": "conrad_powers_obj_5",
+   "title": "Massachusetts Pine Tree Shilling",
+   "date": "1652-1682",
+   "type": "coin",
+   "material": "silver",
+   "description": "Colonial-era silver coinage struck in Boston, one of the first coins minted in British North America.",
+   "significance": "A century before Conrad existed, the colonies were already practicing — proving they could make their own money instead of relying on someone else's.",
+   "museum": "Referenced numismatic collections",
+   "museum_location": "Boston, USA",
+   "accession_number": "Pine Tree Shilling",
+   "collection_url": "https://en.wikipedia.org/wiki/Massachusetts_pine_tree_shilling",
+   "image_url": "https://en.wikipedia.org/wiki/Massachusetts_pine_tree_shilling",
+   "license": "CC BY-SA (Wikimedia)",
+   "open_access": true,
+   "plain_language": "One of the first coins ever made in the American colonies, over 100 years before the U.S. dollar existed.",
+   "url": "https://en.wikipedia.org/wiki/Massachusetts_pine_tree_shilling",
+   "accession": "Pine Tree Shilling",
+   "institution": "Referenced numismatic collections",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Shilling",
+     "match_text": "Shilling American Coin ca. 1667–ca. 1682 New England",
+     "accession": "33.120.378",
+     "date": "ca. 1667–ca. 1682",
+     "image_url": "https://images.metmuseum.org/CRDImages/ad/original/DP242577.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/7437",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Shilling",
+     "match_text": "Shilling American Coin 1652 New England",
+     "accession": "33.120.376",
+     "date": "1652",
+     "image_url": "https://images.metmuseum.org/CRDImages/ad/original/DP242580.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/7435",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Cleveland Museum of Art",
+     "title": "Pine Tree Shilling (obverse)",
+     "accession": "1940.438.a",
+     "date": "1652",
+     "image_url": "https://openaccess-cdn.clevelandart.org/1940.438.a/1940.438.a_web.jpg",
+     "page_url": "https://clevelandart.org/art/1940.438.a",
+     "licence": "CC0 (Cleveland Open Access)",
+     "licence_class": "open",
+     "via": "Cleveland API"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "conrad_powers_src_1",
+   "title": "Coinage Act of 1792",
+   "type": "legal_document",
+   "date": "1792",
+   "author": "United States Congress",
+   "description": "The full legislative text establishing the U.S. Mint and the dollar as national currency.",
+   "held_at": "U.S. Government Publishing Office",
+   "url": "https://www.govinfo.gov/content/pkg/STATUTE-1/pdf/STATUTE-1-Pg246.pdf",
+   "license": "Public Domain",
+   "plain_language": "The actual law text that created the U.S. dollar, still available to read today.",
+   "licence": "Public Domain",
+   "licence_class": "open",
+   "institution": "U.S. Government Publishing Office",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/STATUTE-1/pdf/STATUTE-1-Pg246.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "conrad_powers_src_2",
+   "title": "Ye Olde Mint",
+   "type": "historical_account",
+   "date": "Public domain reprint",
+   "author": "Frank H. Stewart",
+   "description": "Historical account of the founding and early operations of the first U.S. Mint in Philadelphia.",
+   "held_at": "Project Gutenberg",
+   "url": "https://www.gutenberg.org/files/65613/old/65613-h/65613-h.htm",
+   "license": "Public Domain (Project Gutenberg)",
+   "plain_language": "A free public-domain book telling the story of the very first U.S. Mint building.",
+   "licence": "Public Domain (Project Gutenberg)",
+   "licence_class": "open",
+   "institution": "Project Gutenberg",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.gutenberg.org/files/65613/old/65613-h/65613-h.htm",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "conrad_powers_src_3",
+   "title": "Wikipedia: Coinage Act of 1792",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference overview of the act's provisions and historical context.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coinage_Act_of_1792",
+   "license": "CC BY-SA",
+   "plain_language": "An easy-to-read summary of the law that created the U.S. dollar.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Coinage_Act_of_1792",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "conrad_powers_src_4",
+   "title": "Wikipedia: Flowing Hair Dollar",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference on the design, minting, and rarity of the first official U.S. silver dollar.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Flowing_Hair_dollar",
+   "license": "CC BY-SA",
+   "plain_language": "Background on America's very first official silver dollar coin.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Flowing_Hair_dollar",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "conrad_powers_src_5",
+   "title": "Wikipedia: Massachusetts Pine Tree Shilling",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference on early colonial coinage in Massachusetts Bay Colony.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Massachusetts_pine_tree_shilling",
+   "license": "CC BY-SA",
+   "plain_language": "Background on the first coins made in the American colonies, over a century before the dollar.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 39.9526,
+  "center_lng": -75.1652,
+  "center_label": "Philadelphia, USA",
+  "era_start": 1792,
+  "era_end": 2026,
+  "map_description": "Conrad was born at the first U.S. Mint in Philadelphia and grew to become the world's dominant reserve currency, backed by nothing but trust in American institutions.",
+  "nodes": [
+   {
+    "label": "Philadelphia (First U.S. Mint)",
+    "lat": 39.9496,
+    "lng": -75.1503,
+    "type": "origin",
+    "description": "Site of the first official United States Mint, established under the Coinage Act of 1792."
+   },
+   {
+    "label": "Potosí / Mexico City",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "type": "resource",
+    "description": "Spanish colonial silver dollars circulated widely in early America and directly influenced the design and value of the U.S. dollar."
+   },
+   {
+    "label": "Boston (Pine Tree Shilling mint)",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "type": "origin",
+    "description": "Site of early colonial coinage that established a precedent for American-made money."
+   },
+   {
+    "label": "New York (Federal Hall / Wall Street)",
+    "lat": 40.7075,
+    "lng": -74.0113,
+    "type": "destination",
+    "description": "Where the U.S. financial system took shape, eventually becoming the center of global dollar-based finance."
+   },
+   {
+    "label": "Bretton Woods, New Hampshire",
+    "lat": 44.2601,
+    "lng": -71.4478,
+    "type": "landmark",
+    "description": "Site of the 1944 conference that made the dollar the anchor of the global monetary system."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Wikipedia — Coinage Act of 1792",
+   "url": "https://en.wikipedia.org/wiki/Coinage_Act_of_1792",
+   "license": "CC BY-SA"
+  }
+ },
+ "_verified": "2026-07-11 10:37"
+}

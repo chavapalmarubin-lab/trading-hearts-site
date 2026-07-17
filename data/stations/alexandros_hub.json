@@ -1,0 +1,102 @@
+{
+ "character": "alexandros",
+ "name": "Alexandros",
+ "asset": "Greek Drachma",
+ "watch": [
+  {
+   "title": "The Birth of the Drachma",
+   "href": "media/videos/alexandros/ALEXANDROS_EDU_web.mp4"
+  }
+ ],
+ "explore": [
+  {
+   "title": "His whole world",
+   "href": "explore/alexandros.html"
+  }
+ ],
+ "museum": [
+  {
+   "title": "Athenian Owl Tetradrachm",
+   "institution": "British Museum",
+   "accession": "1905,0309.2",
+   "licence": "British Museum Standard Terms of Use",
+   "href": "https://www.britishmuseum.org/collection/object/C_1905-0309-2",
+   "showable": false
+  },
+  {
+   "title": "Athenian Dekadrachm",
+   "institution": "British Museum",
+   "accession": "G.3183",
+   "licence": "British Museum Standard Terms of Use",
+   "href": "https://www.britishmuseum.org/collection/object/C_G-3183",
+   "showable": false
+  },
+  {
+   "title": "Silver Tetradrachm of Athens",
+   "institution": "Metropolitan Museum of Art",
+   "accession": "330160",
+   "licence": "CC0 (Met Open Access)",
+   "href": "https://www.metmuseum.org/art/collection/search/330160",
+   "showable": true
+  },
+  {
+   "title": "Athenian Tetradrachm",
+   "institution": "Museum of Fine Arts, Boston",
+   "accession": "95.129",
+   "licence": "MFA Boston Terms of Use",
+   "href": "https://collections.mfa.org/objects/4004/",
+   "showable": false
+  },
+  {
+   "title": "Silver Ten-Drachm of Athens",
+   "institution": "Numismatic Museum of Athens",
+   "accession": "NM 1301/1999",
+   "licence": "Numismatic Museum Athens Terms of Use",
+   "href": "https://www.nummus.gr/en/project/silver-ten-drachm-of-athens-nm-1301-1999/",
+   "showable": false
+  },
+  {
+   "title": "Lydian Electrum Stater",
+   "institution": "British Museum",
+   "accession": "1866,1201.3669",
+   "licence": "British Museum Standard Terms of Use",
+   "href": "https://www.britishmuseum.org/collection/object/C_1866-1201-3669",
+   "showable": false
+  }
+ ],
+ "sources": [
+  {
+   "title": "The Athenian Agora, Vol. XXVI: The Greek Coins",
+   "who": "John H. Kroll",
+   "href": "https://www.ascsa.edu.gr/uploads/media/oa_ebooks/oa_agora/Agora_XXVI.pdf"
+  },
+  {
+   "title": "Greek Coins",
+   "who": "Colin Kraay & Max Hirmer",
+   "href": "https://archive.org/details/greekcoins00kraa"
+  },
+  {
+   "title": "Athens's oldest coins reveal ancient, widespread silver trade",
+   "who": "Science.org",
+   "href": "https://www.science.org/content/article/athens-s-oldest-coins-reveal-ancient-widespread-silver-trade"
+  },
+  {
+   "title": "Thorikos Project Archive",
+   "who": "Ghent University",
+   "href": "https://www.thorikos.be/"
+  },
+  {
+   "title": "Mapping Ancient Athens",
+   "who": "Dipylon Society",
+   "href": "https://dipylon.org/en/2018/06/12/mapping-ancient-athens/"
+  }
+ ],
+ "comics": [],
+ "saga": [
+  {
+   "title": "The Compendium",
+   "href": "TH_SAGA_COMPENDIUM.html"
+  }
+ ],
+ "hear": []
+}

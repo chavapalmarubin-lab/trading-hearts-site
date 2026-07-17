@@ -1,0 +1,244 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 8,
+  "character_name": "VALENTINA PAZ",
+  "character_key": "valentina",
+  "header": "VALENTINA PAZ"
+ },
+ "museum_objects": [
+  {
+   "title": "1 Peso Moneda Corriente banknote (Washington portrait)",
+   "institution": "Referenced via Billetes Argentinos archive",
+   "accession": "N/A",
+   "date": "1827",
+   "url": "https://www.billetesargentinos.com.ar/billetes/en_moneda_corriente.htm",
+   "licence_raw": "Licensing not explicitly stated — research reference pending permission",
+   "description": "Early Argentine banknote featuring George Washington's portrait.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.billetesargentinos.com.ar/billetes/en_moneda_corriente.htm",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "100 Pesos Moneda Corriente (Cabildo reverse)",
+   "institution": "Referenced via Billetes Argentinos archive",
+   "accession": "N/A",
+   "date": "1841/1844",
+   "url": "https://www.billetesargentinos.com.ar/billetes/en_moneda_corriente.htm",
+   "licence_raw": "Licensing not explicitly stated",
+   "description": "Banknote depicting the Buenos Aires Cabildo on its reverse.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.billetesargentinos.com.ar/billetes/en_moneda_corriente.htm",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Escudo de las Provincias Unidas del Río de la Plata",
+   "institution": "Museo Histórico y Numismático, Buenos Aires",
+   "accession": "N/A (part of 15,000+ piece collection)",
+   "date": "1813",
+   "url": "https://museohistoriconacional.cultura.gob.ar/noticia/time-of-the-provinces/",
+   "licence_raw": "Unstated — contact museum",
+   "description": "Argentina's first sovereign gold coin, minted 13 years before Valentina's 1826 origin.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "\"Peso del Sitio\" (Siege Peso)",
+   "institution": "Museo del Gaucho y la Moneda (BROU, Montevideo)",
+   "accession": "Declared Historic Patrimony",
+   "date": "19th c.",
+   "url": "https://www.descubrimontevideo.uy/museo-del-gaucho-y-la-moneda",
+   "licence_raw": "Unstated — contact museum",
+   "description": "Emergency currency struck during a historic siege.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.descubrimontevideo.uy/museo-del-gaucho-y-la-moneda",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Charles Pellegrini painting of the Cabildo",
+   "institution": "Referenced via Wikipedia/tourism sources",
+   "accession": "N/A",
+   "date": "1829",
+   "url": "https://en.wikipedia.org/wiki/Cabildo_of_Buenos_Aires",
+   "licence_raw": "Unstated — verify",
+   "description": "Painting of the Cabildo just 3 years after Valentina's 1826 founding.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Cabildo_of_Buenos_Aires",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Emeric Essex Vidal, \"Picturesque Illustrations of Buenos Ayres and Monte Video\" (1820), Internet Archive — full public-domain period illustrated book.",
+   "detail": "",
+   "url": "https://archive.org/details/picturesqueillus00vida_0",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "Emeric Essex Vidal, \"Picturesque Illustrations of Buenos Ayres and Monte Video\" (1820), Internet Archive — full public-domain period illustrated book.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://archive.org/details/picturesqueillus00vida_0",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "public domain / archive-hosted",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Internet Archive metadata API",
+    "title": "Picturesque illustrations of Buenos Ayres and Monte Video, consisting of twenty-four views: accompanied with descriptions of the scenery, and of the costumes, manners, &c., of the inhabitants of those cities and their environs"
+   },
+   "licence": "public domain / archive-hosted"
+  },
+  {
+   "title": "NBER paper on the 1890 Baring Crisis, with political cartoon descriptions — academic primary analysis.",
+   "detail": "",
+   "url": "https://www.nber.org/system/files/chapters/c8837/c8837.pdf",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "NBER paper on the 1890 Baring Crisis, with political cartoon descriptions — academic primary analysis.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.nber.org/system/files/chapters/c8837/c8837.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "New York Times, \"Argentina in Chaos as Food Prices Rise Daily\" (1989) — contemporary hyperinflation reporting.",
+   "detail": "",
+   "url": "https://www.nytimes.com/1989/06/02/world/argentina-in-chaos-as-food-prices-rise-daily.html",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "New York Times, \"Argentina in Chaos as Food Prices Rise Daily\" (1989) — contemporary hyperinflation reporting.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Wikimedia Commons: 2001–2002 Cacerolazo in Argentina photo category — dated protest photo series.",
+   "detail": "",
+   "url": "https://commons.wikimedia.org/wiki/Category:2001-2002_Cacerolazo_in_Argentina",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Wikimedia Commons: 2001–2002 Cacerolazo in Argentina photo category — dated protest photo series.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:2001-2002_Cacerolazo_in_Argentina",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   }
+  },
+  {
+   "title": "BCRA official page on historical banknote and coin emissions — official central bank archival record.",
+   "detail": "",
+   "url": "https://www.bcra.gob.ar/billetes-y-monedas-emisiones-anteriores/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "BCRA official page on historical banknote and coin emissions — official central bank archival record.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bcra.gob.ar/billetes-y-monedas-emisiones-anteriores/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: December 2001, Argentina. The government must decide whether to freeze bank withdrawals (the \"Corralito\") to prevent a total collapse of the banking system, as depositors rush to pull out their savings amid fears the peso's 1:1 peg to the US dollar was about to break. The outcome was genuinely uncertain: freezing withdrawals could either stabilize the banks or trigger the exact social explosion authorities feared.Player choice: Impose the Corralito freeze, or allow unrestricted withdrawals and risk a full bank run.Historical resolution: The government imposed the Corralito. It triggered the Cacerolazo protests and the fall of President Fernando de la Rúa's government within days, followed by the formal abandonment of the dollar peg in early 2002.",
+ "understand": {
+  "economic_impact": "Argentina's currency has been restructured or renamed at least eight times since 1826, including two separate 10,000:1 devaluations (1983 and 1992) that erased four zeros from the currency each time Wikipedia: Argentine peso argentino. The 1989 hyperinflation, reaching 3,000–5,000% annually, wiped out savings and wages in real time Los Angeles Times, 1989.",
+  "political_impact": "The 2001 Corralito banking freeze directly triggered the Cacerolazo protests and the collapse of President Fernando de la Rúa's government within days Wikipedia: December 2001 riots in Argentina. The 2022 banknote series' return to historical Argentine figures after a decade of fauna-only currency was itself a symbolic political statement about national identity 90 Líneas feature.",
+  "why_it_still_matters": "Imagine saving money for a year, and at the end of that year, discovering it can buy far less than when you started — not because you spent it, but because the money itself lost its value while just sitting there. That has happened to Argentina's currency again and again for nearly 200 years, so often that the government has had to rename the currency itself multiple times, sometimes crossing out zeros because the numbers got too big to write comfortably on a banknote. This matters because it shows something most people never have to think about: money only works if everyone trusts it will still be worth something tomorrow. When that trust breaks — through bad decisions, crises, or years of printing too much money — ordinary people's life savings can disappear without them doing anything wrong at all. Valentina's story matters because she proves you can survive that, over and over, and still get up the next morning."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:38"
+}

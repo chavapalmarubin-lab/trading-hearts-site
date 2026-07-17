@@ -1,0 +1,245 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 21,
+  "character_name": "VICTORIA STEELE",
+  "character_key": "victoria",
+  "header": "VICTORIA STEELE"
+ },
+ "museum_objects": [
+  {
+   "title": "Stock Ticker artifact",
+   "institution": "Smithsonian National Museum of American History",
+   "accession": "Object nmah_703474",
+   "date": "19th–20th century",
+   "url": "https://americanhistory.si.edu/collections/object/nmah_703474",
+   "licence_raw": "Verify per object (Smithsonian Open Access may apply)",
+   "description": "Physical stock ticker machine representing pre-digital market reporting technology.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   }
+  },
+  {
+   "title": "Crash of 1929 Ticker Tape",
+   "institution": "Museum of American Finance, 48 Wall Street",
+   "accession": "Object listed in museum collection",
+   "date": "1929",
+   "url": "https://www.moaf.org/publications-collections/museum-collection/objects/crash-1929-ticker-tape",
+   "licence_raw": "Institutional — $8 admission, contact for reproduction",
+   "description": "Physical ticker tape artifact from the 1929 crash, predecessor era to the S&P 500's 1957 founding.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "\"Suit,\" Lord & Taylor (gray flannel suit)",
+   "institution": "Metropolitan Museum of Art",
+   "accession": "Object 159455",
+   "date": "1950",
+   "url": "https://www.metmuseum.org/art/collection/search/159455",
+   "licence_raw": "Check current Open Access/CC0 status",
+   "description": "Iconic postwar businessman's suit — cultural costume reference for the 1957-era Wall Street professional.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": false,
+    "status": 429,
+    "error": "HTTP 429",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "Not public domain — Met",
+    "licence_class": "contact_required",
+    "authoritative": true,
+    "via": "Met Collection API",
+    "accession": "2009.300.877a, b",
+    "title": "Suit",
+    "image": null
+   }
+  },
+  {
+   "title": "Charging Bull sculpture",
+   "institution": "Public art, Bowling Green, New York (artist Arturo Di Modica)",
+   "accession": "N/A",
+   "date": "Created 1989, reinstalled Dec 20-21, 1989",
+   "url": "https://en.wikipedia.org/wiki/Charging_Bull",
+   "licence_raw": "Artist retains copyright — close-up/derivative use may require rights clearance",
+   "description": "7,100 lb bronze bull created in direct response to the 1987 crash.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Charging_Bull",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "New York Stock Exchange Building",
+   "institution": "Landmarked building, 8-18 Broad Street, New York (NYC Landmarks Preservation Commission)",
+   "accession": "LP-1529",
+   "date": "Built 1901–1903",
+   "url": "https://s-media.nyc.gov/agencies/lpc/lp/1529.pdf",
+   "licence_raw": "Official landmark designation document — public record",
+   "description": "The physical trading floor building central to Victoria's entire narrative.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://s-media.nyc.gov/agencies/lpc/lp/1529.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "WRDS (Wharton Research Data Services): \"S&P 500 Constituent Changes Over Time\" — primary academic dataset with exact addition/removal dates.",
+   "detail": "",
+   "url": "https://wrds-www.wharton.upenn.edu/classroom/sp500-introduction/over-time/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "WRDS (Wharton Research Data Services): \"S&P 500 Constituent Changes Over Time\" — primary academic dataset with exact addition/removal dates.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://wrds-www.wharton.upenn.edu/classroom/sp500-introduction/over-time/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Reuters: \"Timeline: Key dates and milestones in the S&P 500's history\" — primary journalistic historical timeline.",
+   "detail": "",
+   "url": "https://www.reuters.com/article/business/timeline-key-dates-and-milestones-in-the-sp-500s-history-idUSBRE939185/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Reuters: \"Timeline: Key dates and milestones in the S&P 500's history\" — primary journalistic historical timeline.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.reuters.com/article/business/timeline-key-dates-and-milestones-in-the-sp-500s-history-idUSBRE939185/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Library of Congress research guide: \"Wall Street and the Stock Exchanges: Historical Resources — Images\" — curated primary image hub.",
+   "detail": "",
+   "url": "https://guides.loc.gov/wall-street-history/stock-exchanges/images",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Library of Congress research guide: \"Wall Street and the Stock Exchanges: Historical Resources — Images\" — curated primary image hub.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://guides.loc.gov/wall-street-history/stock-exchanges/images",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter error: JSONDecodeError"
+   }
+  },
+  {
+   "title": "New York Times, Dec. 16, 1989: \"SoHo Gift to Wall St.: A 3½-Ton Bronze Bull\" — contemporaneous primary news account.",
+   "detail": "",
+   "url": "https://www.nytimes.com/1989/12/16/nyregion/soho-gift-to-wall-st-a-3-1-2-ton-bronze-bull.html",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "New York Times, Dec. 16, 1989: \"SoHo Gift to Wall St.: A 3½-Ton Bronze Bull\" — contemporaneous primary news account.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Global Paper Money: reprint of S&P's 2007 50th-anniversary press release — primary institutional historical document.",
+   "detail": "",
+   "url": "https://www.globalpapermoney.com/s-p-releases-list-of-86-companies-in-the-s-p-500-since-1957-cms-1023",
+   "licence_raw": "Global Paper Money: reprint of S&P's 2007 50th-anniversary press release — primary institutional historical document.",
+   "licence_class": "contact_required",
+   "raw": "Global Paper Money: reprint of S&P's 2007 50th-anniversary press release — primary institutional historical document.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.globalpapermoney.com/s-p-releases-list-of-86-companies-in-the-s-p-500-since-1957-cms-1023",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: December 1989, New York City. Sculptor Arturo Di Modica must decide how to install his self-funded, roughly $360,000 bronze bull sculpture outside the New York Stock Exchange — he had no permit and no permission, and installing large public art without authorization was illegal. The outcome was genuinely uncertain: the NYPD could confiscate or destroy the sculpture entirely, and there was no guarantee the city would ever allow it to stay anywhere.Player choice: Install the sculpture illegally overnight as a surprise \"gift,\" or pursue lengthy official permitting first.Historical resolution: Di Modica installed the bull illegally at 1am on December 15, 1989, under a Christmas tree on Broad Street. It was removed by police the same day, then permanently reinstalled at Bowling Green on December 20-21, 1989, where it remains a global symbol of Wall Street today.",
+ "understand": {
+  "economic_impact": "The S&P 500's shift from a 1957 index dominated by industrials, railroads, and utilities to today's technology-concentrated index (Nvidia, Apple, Microsoft, Amazon, Alphabet) illustrates a fundamental transformation in what drives the American economy [master bible/DEEP file aggregated market-cap research]. Major crashes — 1987, 2008, 2020 — each caused trillions of dollars in market value losses within days, demonstrating how quickly investor sentiment can shift [Getty Images collection reference].",
+  "political_impact": "As the most widely cited benchmark for the US stock market, the S&P 500's daily performance is routinely used by politicians and the public alike as an informal referendum on economic policy and national economic health, even though it technically measures only 500 large companies' stock performance [TH Script Writing Bible voice profile].",
+  "why_it_still_matters": "Imagine a single number that's supposed to tell you how America's biggest businesses are doing today, compared to yesterday — that's basically what the S&P 500 is, and it's been doing that job since 1957, when it was calculated for the first time using early computers instead of by hand. It doesn't create jobs or make anything itself; it simply reports on 500 of the biggest companies, whether they're having a good day or a terrible one, crash after crash, decade after decade. Victoria's story matters because it shows the difference between something that participates in the economy and something that simply, relentlessly, tells the truth about how the economy is actually doing — a scoreboard doesn't play the game, but everyone still checks it to know who's winning."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:41"
+}

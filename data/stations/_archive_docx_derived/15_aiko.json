@@ -1,0 +1,244 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 15,
+  "character_name": "AIKO SATORI",
+  "character_key": "aiko",
+  "header": "AIKO SATORI"
+ },
+ "museum_objects": [
+  {
+   "title": "1 Yen, Japan",
+   "institution": "Smithsonian National Museum of American History",
+   "accession": "Object ID 2017.0060.2874",
+   "date": "1870",
+   "url": "https://americanhistory.si.edu/collections/object/nmah_1848278",
+   "licence_raw": "CC0 / Public Domain",
+   "description": "Japan's first silver 1-yen coin, matched to the Mexican 8-real's specifications.",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   }
+  },
+  {
+   "title": "Wadōkaichin (Japan's oldest official coin)",
+   "institution": "Bank of Japan Currency Museum, Sempeikan Collection",
+   "accession": "Part of permanent collection",
+   "date": "708 AD",
+   "url": "https://www.imes.boj.or.jp/cm/english/",
+   "licence_raw": "Institutional — contact for reproduction",
+   "description": "Japan's oldest official minted coin, anchoring the museum's chronological narrative.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.imes.boj.or.jp/cm/english/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Original 1871 Osaka Mint entrance gate",
+   "institution": "Osaka Mint Museum (Japan Mint)",
+   "accession": "Site/architectural feature",
+   "date": "1871",
+   "url": "https://www.mint.go.jp/eng/kids-eng/museum-eng",
+   "licence_raw": "Institutional — contact for reproduction",
+   "description": "Gate designed by British architect Thomas James Waters.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Tenpō Tsūhō (100-mon bronze coin)",
+   "institution": "Smithsonian 3D Digitization collection",
+   "accession": "Digitized 3D scan object",
+   "date": "1835–1870",
+   "url": "https://3d.si.edu/",
+   "licence_raw": "CC0 (verify per object)",
+   "description": "Late Edo-period coin retired by the 1871 New Currency Act.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   }
+  },
+  {
+   "title": "Han-satsu feudal domain note",
+   "institution": "Wikimedia Commons",
+   "accession": "Verify per file",
+   "date": "Pre-1871",
+   "url": "https://commons.wikimedia.org/wiki/Category:Hansatsu",
+   "licence_raw": "Public domain (verify per file)",
+   "description": "Example of the ~270 competing feudal currencies unified by the New Currency Act.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:Hansatsu",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Industrial History of Hong Kong Group: Hong Kong Mint machinery sale documentation — primary industrial history record.",
+   "detail": "",
+   "url": "https://industrialhistoryhk.org/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Industrial History of Hong Kong Group: Hong Kong Mint machinery sale documentation — primary industrial history record.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://industrialhistoryhk.org/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "National Diet Library Digital Collections (public domain pre-1912 works) — primary Meiji-era published materials.",
+   "detail": "",
+   "url": "https://dl.ndl.go.jp/en/",
+   "licence_raw": "National Diet Library Digital Collections (public domain pre-1912 works) — primary Meiji-era published materials.",
+   "licence_class": "open",
+   "raw": "National Diet Library Digital Collections (public domain pre-1912 works) — primary Meiji-era published materials.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://dl.ndl.go.jp/en/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Wikipedia: Japanese government-issued note (Dajōkan-satsu) — primary transitional currency documentation.",
+   "detail": "",
+   "url": "https://en.wikipedia.org/wiki/Japanese_government-issued_note",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "Wikipedia: Japanese government-issued note (Dajōkan-satsu) — primary transitional currency documentation.",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "Wikipedia: Hansatsu — primary feudal currency reference.",
+   "detail": "",
+   "url": "https://en.wikipedia.org/wiki/Hansatsu",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "Wikipedia: Hansatsu — primary feudal currency reference.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Hansatsu",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "ColBase — joint Japanese national museums collection database — primary museum object catalog.",
+   "detail": "",
+   "url": "https://colbase.nich.go.jp/?locale=en",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "ColBase — joint Japanese national museums collection database — primary museum object catalog.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://colbase.nich.go.jp/?locale=en",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: 1871, Meiji-era Japan. The new government must decide how to design its first modern coinage — copy an existing trusted foreign standard (the Mexican silver dollar, dominant in Pacific trade) to gain instant international credibility, or create a wholly original Japanese design that asserted independence but risked rejection by foreign merchants and banks. The outcome was genuinely uncertain: Japan had only just ended over two centuries of relative isolation, and gaining global trust for a brand-new currency was far from guaranteed.Player choice: Match the Mexican 8-real's exact specifications, or design a fully independent Japanese standard.Historical resolution: Japan matched the Mexican coin's weight and diameter exactly for the 1870 1-yen coin, prioritizing immediate international trade credibility over design independence.",
+ "understand": {
+  "economic_impact": "By matching the Mexican 8-real's exact weight and diameter, Japan's first yen gained immediate credibility in Pacific trade networks already accustomed to Mexican silver dollars Smithsonian NMAH. Decades of near-zero Japanese interest rates in the modern era created the global \"yen carry trade,\" where investors worldwide borrowed cheap yen to invest elsewhere [TH Script Writing Bible voice profile].",
+  "political_impact": "The New Currency Act of 1871 was only possible after the political centralization of haihan-chiken (the abolition of Japan's feudal domain system), directly linking currency unification to the broader Meiji-era dismantling of feudal power Meiji Jingu, Meiji Memorial Picture Gallery.",
+  "why_it_still_matters": "Imagine 270 different towns near you all printing their own separate money, and you had to figure out which was worth what every time you crossed a border — that was Japan before 1871. In one law, the government wiped that all away and created a single currency, deliberately built to match a foreign coin (from Mexico, on the other side of the Pacific) so the rest of the world would trust it right away. Aiko's story matters because it shows that sometimes the fastest way to build trust isn't to insist on doing things your own way — it's to prove you can meet the world's existing standard, perfectly, and then quietly become something entirely your own from there."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:39"
+}

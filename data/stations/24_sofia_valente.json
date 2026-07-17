@@ -1,0 +1,429 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 24,
+  "character_key": "sofia_valente",
+  "character_name": "Sofia Valente",
+  "asset": "Euro",
+  "ticker": "EUR",
+  "era": "1999",
+  "era_label": "European Monetary Union",
+  "era_year": 1999,
+  "tagline": "Seven proud old currencies gave up their names so she could be born. She has never forgotten the debt."
+ },
+ "museum_objects": [
+  {
+   "id": "sofia_valente_obj_1",
+   "title": "Maastricht Treaty Signing Photograph",
+   "date": "February 7, 1992",
+   "type": "photograph",
+   "material": "digital archive",
+   "description": "Official EU photograph of the signing of the Maastricht Treaty, which laid the legal foundation for the euro.",
+   "significance": "Sofia's entire existence was negotiated into being in this room — every clause in this treaty is a small piece of national sovereignty someone agreed to give up for her.",
+   "museum": "European Union Audiovisual Service",
+   "museum_location": "Maastricht, Netherlands",
+   "accession_number": "P-007781/01-25A",
+   "collection_url": "https://audiovisual.ec.europa.eu/en/media/photo/P-007781/01-25A",
+   "image_url": "https://audiovisual.ec.europa.eu/en/media/photo/P-007781/01-25A",
+   "license": "EU Audiovisual Service terms",
+   "open_access": false,
+   "plain_language": "An official photo of the 1992 treaty signing that legally created the plan for a shared European currency.",
+   "url": "https://audiovisual.ec.europa.eu/en/media/photo/P-007781/01-25A",
+   "accession": "P-007781/01-25A",
+   "institution": "European Union Audiovisual Service",
+   "licence": "EU Audiovisual Service terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://audiovisual.ec.europa.eu/en/media/photo/P-007781/01-25A",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "The Treaty of Maastricht on display in Rome, 1997 (clip 3).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/The_Treaty_of_Maastricht_on_display_in_Rome%2C_1997_%28clip_3%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:The_Treaty_of_Maastricht_on_display_in_Rome,_1997_(clip_3).jpg",
+     "licence": "CC BY 3.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "European Commission"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image does not show a photograph of people signing a treaty, it shows a document or book being held, which does not match the claim of a 'Maastricht Treaty Signing Photograph'.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "sofia_valente_obj_2",
+   "title": "Euro Banknote Design ('Ages and Styles of Europe')",
+   "date": "Chosen December 3, 1996",
+   "type": "banknote_design",
+   "material": "paper (final product)",
+   "description": "Robert Kalina's winning design for euro banknotes, depicting generic architectural styles rather than real, nationally-specific landmarks.",
+   "significance": "Sofia couldn't show a single real building from a single real country without offending eleven others — so she was designed to look like everywhere and nowhere at once.",
+   "museum": "European Central Bank Archive",
+   "museum_location": "Frankfurt, Germany",
+   "accession_number": "Kalina banknote design 1996",
+   "collection_url": "https://www.ecb.europa.eu/euro/banknotes/html/index.en.html",
+   "image_url": "https://www.ecb.europa.eu/euro/banknotes/html/index.en.html",
+   "license": "ECB terms",
+   "open_access": false,
+   "plain_language": "The winning design for euro banknotes, deliberately showing fake generic buildings instead of real ones from any single country, to avoid favoritism.",
+   "url": "https://www.ecb.europa.eu/euro/banknotes/html/index.en.html",
+   "accession": "Kalina banknote design 1996",
+   "institution": "European Central Bank Archive",
+   "licence": "ECB terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ecb.europa.eu/euro/banknotes/html/index.en.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Retreats in the Spring Hills",
+     "accession": "1989.363.8",
+     "date": "first half of the 12th century",
+     "image_url": "https://images.metmuseum.org/CRDImages/as/original/DP144257_crd.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/40056",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Blossoming plum",
+     "accession": "1989.363.160",
+     "date": "dated 1759",
+     "image_url": "https://images.metmuseum.org/CRDImages/as/original/DP-32591-002.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/49243",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "6 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "sofia_valente_obj_3",
+   "title": "Euro Coin Design by Luc Luycx",
+   "date": "1996-1999",
+   "type": "coin_design",
+   "material": "metal (final product)",
+   "description": "The winning common-side design for euro coins, created by Belgian designer Luc Luycx at the Royal Belgian Mint.",
+   "significance": "One side of every euro coin says something different depending which country made it — Sofia's other side had to say the exact same thing everywhere.",
+   "museum": "Royal Belgian Mint",
+   "museum_location": "Brussels, Belgium",
+   "accession_number": "Luycx euro coin design",
+   "collection_url": "https://www.ecb.europa.eu/euro/coins/html/index.en.html",
+   "image_url": "https://www.ecb.europa.eu/euro/coins/html/index.en.html",
+   "license": "ECB/Royal Belgian Mint terms",
+   "open_access": false,
+   "plain_language": "The design used on one side of every euro coin, made the same across all countries, while the other side varies by nation.",
+   "url": "https://www.ecb.europa.eu/euro/coins/html/index.en.html",
+   "accession": "Luycx euro coin design",
+   "institution": "Royal Belgian Mint",
+   "licence": "ECB/Royal Belgian Mint terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ecb.europa.eu/euro/coins/html/index.en.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "sofia_valente_obj_4",
+   "title": "ECB Duisenberg Farewell Speech Records",
+   "date": "February 28, 2002",
+   "type": "document/speech",
+   "material": "digital transcript",
+   "description": "The official ECB speech marking the final retirement of the seven founding legacy currencies' legal tender status.",
+   "significance": "This speech is the funeral for seven currencies at once — the deutsche mark, franc, lira, peseta, escudo, drachma, and guilder all officially died the same week Sofia became the only option left.",
+   "museum": "European Central Bank Archive",
+   "museum_location": "Frankfurt, Germany",
+   "accession_number": "Duisenberg farewell speech 2002",
+   "collection_url": "https://www.ecb.europa.eu/press/key/date/2002/html/sp020228.en.html",
+   "image_url": "https://www.ecb.europa.eu/press/key/date/2002/html/sp020228.en.html",
+   "license": "ECB terms",
+   "open_access": false,
+   "plain_language": "An official 2002 speech marking the exact moment the old European currencies — like the franc, lira, and deutsche mark — stopped being legal money for good.",
+   "url": "https://www.ecb.europa.eu/press/key/date/2002/html/sp020228.en.html",
+   "accession": "Duisenberg farewell speech 2002",
+   "institution": "European Central Bank Archive",
+   "licence": "ECB terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ecb.europa.eu/press/key/date/2002/html/sp020228.en.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "sofia_valente_obj_5",
+   "title": "Syntagma Square Protest Photographs (2011)",
+   "date": "2011",
+   "type": "photograph",
+   "material": "digital",
+   "description": "Photographs documenting mass protests in Athens against austerity measures during the Greek debt crisis.",
+   "significance": "Sofia's unity was tested hardest here — a country furious that sharing her meant losing control of its own economic destiny.",
+   "museum": "Wikimedia Commons",
+   "museum_location": "Athens, Greece",
+   "accession_number": "Syntagma Square protests category",
+   "collection_url": "https://commons.wikimedia.org/wiki/Category:Syntagma_Square_protests,_2011",
+   "image_url": "https://commons.wikimedia.org/wiki/Category:Syntagma_Square_protests,_2011",
+   "license": "CC (Wikimedia, varies by image)",
+   "open_access": true,
+   "plain_language": "Photos of massive 2011 protests in Athens, Greece, against harsh economic measures tied to using the shared euro currency during a debt crisis.",
+   "url": "https://commons.wikimedia.org/wiki/Category:Syntagma_Square_protests,_2011",
+   "accession": "Syntagma Square protests category",
+   "institution": "Wikimedia Commons",
+   "licence": "CC (Wikimedia, varies by image)",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "sofia_valente_src_1",
+   "title": "How the Euro Became Our Money",
+   "type": "official_publication",
+   "date": "Ongoing",
+   "author": "European Central Bank",
+   "description": "Official ECB publication explaining the history and introduction of the euro.",
+   "held_at": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/pub/pdf/other/euro_became_our_moneyen.pdf",
+   "license": "ECB terms",
+   "plain_language": "The ECB's own official booklet explaining how and why the euro was created.",
+   "licence": "ECB terms",
+   "licence_class": "unknown",
+   "institution": "European Central Bank",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ecb.europa.eu/pub/pdf/other/euro_became_our_moneyen.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "sofia_valente_src_2",
+   "title": "'Whatever It Takes' Speech",
+   "type": "speech_transcript",
+   "date": "July 26, 2012",
+   "author": "Mario Draghi, European Central Bank",
+   "description": "Transcript of the pivotal ECB speech during the eurozone debt crisis, credited with stabilizing the euro.",
+   "held_at": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html",
+   "license": "ECB terms",
+   "plain_language": "The transcript of a famous 2012 speech where the ECB president promised to do whatever was needed to save the euro.",
+   "licence": "ECB terms",
+   "licence_class": "unknown",
+   "institution": "European Central Bank",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "sofia_valente_src_3",
+   "title": "Duisenberg Farewell Speech",
+   "type": "speech_transcript",
+   "date": "2002",
+   "author": "Wim Duisenberg, European Central Bank",
+   "description": "Official speech marking the retirement of the founding legacy currencies.",
+   "held_at": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/key/date/2002/html/sp020228.en.html",
+   "license": "ECB terms",
+   "plain_language": "An official 2002 speech marking the end of the old European currencies for good.",
+   "licence": "ECB terms",
+   "licence_class": "unknown",
+   "institution": "European Central Bank",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ecb.europa.eu/press/key/date/2002/html/sp020228.en.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "sofia_valente_src_4",
+   "title": "Wikimedia Commons: Syntagma Square Protests 2011",
+   "type": "photo_archive",
+   "date": "2011",
+   "author": "Wikimedia Commons contributors",
+   "description": "Photo archive of the 2011 Athens protests against austerity during the Greek debt crisis.",
+   "held_at": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Category:Syntagma_Square_protests,_2011",
+   "license": "CC (varies)",
+   "plain_language": "A photo collection of massive 2011 protests in Athens against austerity measures tied to the euro crisis.",
+   "licence": "CC (varies)",
+   "licence_class": "check_required",
+   "institution": "Wikimedia Commons",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   }
+  },
+  {
+   "id": "sofia_valente_src_5",
+   "title": "Maastricht Treaty Full Text",
+   "type": "legal_document",
+   "date": "1992",
+   "author": "European Communities",
+   "description": "The full legal text of the treaty that established the framework for European Monetary Union.",
+   "held_at": "EUR-Lex (EU official law database)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A11992M",
+   "license": "EU official document — public access",
+   "plain_language": "The actual legal treaty text that set up the plan for a shared European currency.",
+   "licence": "EU official document — public access",
+   "licence_class": "unknown",
+   "institution": "EUR-Lex (EU official law database)",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A11992M",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 50.8514,
+  "center_lng": 5.691,
+  "center_label": "Maastricht, Netherlands",
+  "era_start": 1992,
+  "era_end": 2026,
+  "map_description": "Sofia was born from the Maastricht Treaty and became the shared currency of most of Europe, tested by financial crises from Athens to Frankfurt.",
+  "nodes": [
+   {
+    "label": "Maastricht, Netherlands",
+    "lat": 50.8514,
+    "lng": 5.691,
+    "type": "origin",
+    "description": "Where the 1992 treaty establishing the framework for European Monetary Union was signed."
+   },
+   {
+    "label": "Frankfurt (ECB HQ)",
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "type": "destination",
+    "description": "Headquarters of the European Central Bank, which manages the euro across the eurozone."
+   },
+   {
+    "label": "Brussels (Cinquantenaire)",
+    "lat": 50.8467,
+    "lng": 4.3525,
+    "type": "landmark",
+    "description": "Home to EU institutions and the Royal Belgian Mint, which designed the common euro coin side."
+   },
+   {
+    "label": "Athens (Syntagma Square)",
+    "lat": 37.9755,
+    "lng": 23.7348,
+    "type": "landmark",
+    "description": "Site of major protests during the Greek debt crisis, one of the euro's most severe internal tests."
+   },
+   {
+    "label": "Rome",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "type": "origin",
+    "description": "Capital of one of the seven founding countries whose legacy currency, the lira, was retired for the euro."
+   }
+  ],
+  "historical_map_source": {
+   "title": "ECB — How the Euro Became Our Money",
+   "url": "https://www.ecb.europa.eu/pub/pdf/other/euro_became_our_moneyen.pdf",
+   "license": "ECB terms"
+  }
+ },
+ "_verified": "2026-07-11 10:42"
+}

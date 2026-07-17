@@ -1,0 +1,532 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 21,
+  "character_key": "victoria_steele",
+  "character_name": "Victoria Steele",
+  "asset": "S&P 500 Index",
+  "ticker": "SPX",
+  "era": "1957",
+  "era_label": "Post-War American Capital Markets",
+  "era_year": 1957,
+  "tagline": "She doesn't have feelings. She has a scoreboard, and she's always counting."
+ },
+ "museum_objects": [
+  {
+   "id": "victoria_steele_obj_1",
+   "title": "Standard & Poor's 500 Index Launch Records",
+   "date": "March 4, 1957",
+   "type": "document",
+   "material": "paper/digital",
+   "description": "Historical records of the launch of the S&P 500, the first computer-calculated stock market index, tracking 425 industrials, 25 railroads, and 60 utilities.",
+   "significance": "Victoria was the first index built by a machine, not a gut feeling — she was designed from day one to never lie about what the market was actually doing.",
+   "museum": "Library of Congress (Business Reference)",
+   "museum_location": "New York, USA",
+   "accession_number": "LOC Business History Guide reference",
+   "collection_url": "https://guides.loc.gov/this-month-in-business-history/march/debut-standard-poors-500",
+   "image_url": "https://guides.loc.gov/this-month-in-business-history/march/debut-standard-poors-500",
+   "license": "Library of Congress terms",
+   "open_access": false,
+   "plain_language": "Historical records of the day in 1957 when the S&P 500 launched as the first stock index calculated by a computer.",
+   "url": "https://guides.loc.gov/this-month-in-business-history/march/debut-standard-poors-500",
+   "accession": "LOC Business History Guide reference",
+   "institution": "Library of Congress (Business Reference)",
+   "licence": "Library of Congress terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://guides.loc.gov/this-month-in-business-history/march/debut-standard-poors-500",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter error: JSONDecodeError"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "S&P 500 Headquarters.svg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/S%26P_500_Headquarters.svg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:S%26P_500_Headquarters.svg",
+     "licence": "CC0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Wikideas1"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "S and P 500 daily linear chart 1950 to 2016.png",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/S_and_P_500_daily_linear_chart_1950_to_2016.png",
+     "page_url": "https://commons.wikimedia.org/wiki/File:S_and_P_500_daily_linear_chart_1950_to_2016.png",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Overjive"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "1 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "victoria_steele_obj_2",
+   "title": "NYSE Building, 8-18 Broad Street",
+   "date": "Built 1901-1903",
+   "type": "building",
+   "material": "marble/stone",
+   "description": "The historic New York Stock Exchange building, epicenter of the American equity markets Victoria measures.",
+   "significance": "Every company Victoria tracks eventually has to answer to this building — a physical monument to the capitalism she keeps score of.",
+   "museum": "New York Stock Exchange",
+   "museum_location": "New York, USA",
+   "accession_number": "NYSE Building, National Historic Landmark",
+   "collection_url": "https://en.wikipedia.org/wiki/New_York_Stock_Exchange_Building",
+   "image_url": "https://en.wikipedia.org/wiki/New_York_Stock_Exchange_Building",
+   "license": "CC BY-SA (Wikimedia reference)",
+   "open_access": true,
+   "plain_language": "The famous New York Stock Exchange building, the physical heart of the American stock market Victoria represents.",
+   "url": "https://en.wikipedia.org/wiki/New_York_Stock_Exchange_Building",
+   "accession": "NYSE Building, National Historic Landmark",
+   "institution": "New York Stock Exchange",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/New_York_Stock_Exchange_Building",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "NYSE-Christmas-Hanukkah.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/NYSE-Christmas-Hanukkah.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:NYSE-Christmas-Hanukkah.jpg",
+     "licence": "CC BY-SA 3.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "The original uploader was Omnibus at English Wikipedia."
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "NYSE headquarters (18 Broad Street).JPG",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/NYSE_headquarters_%2818_Broad_Street%29.JPG",
+     "page_url": "https://commons.wikimedia.org/wiki/File:NYSE_headquarters_(18_Broad_Street).JPG",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Dipsey"
+    }
+   ]
+  },
+  {
+   "id": "victoria_steele_obj_3",
+   "title": "Charging Bull Sculpture",
+   "date": "Installed December 15, 1989",
+   "type": "sculpture",
+   "material": "bronze",
+   "description": "Arturo Di Modica's iconic bronze bull sculpture, installed near Wall Street after the 1987 Black Monday crash as a symbol of market resilience.",
+   "significance": "Installed right after a crash, this bull is basically Victoria's own defiant expression — a reminder that she always finds a way to climb back.",
+   "museum": "Public art installation",
+   "museum_location": "Bowling Green, New York, USA",
+   "accession_number": "Charging Bull, Arturo Di Modica 1989",
+   "collection_url": "https://en.wikipedia.org/wiki/Charging_Bull",
+   "image_url": "https://en.wikipedia.org/wiki/Charging_Bull",
+   "license": "CC BY-SA (Wikimedia reference)",
+   "open_access": true,
+   "plain_language": "The famous bronze bull statue near Wall Street, installed after a big market crash to symbolize the market's ability to recover.",
+   "url": "https://en.wikipedia.org/wiki/Charging_Bull",
+   "accession": "Charging Bull, Arturo Di Modica 1989",
+   "institution": "Public art installation",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Charging_Bull",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "6 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Bowling Green td (2018-12-13) 06 - 26 Broadway, Charging Bull.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Bowling_Green_td_%282018-12-13%29_06_-_26_Broadway%2C_Charging_Bull.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Bowling_Green_td_(2018-12-13)_06_-_26_Broadway,_Charging_Bull.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Tdorante10"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Charging Bull Covered.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Charging_Bull_Covered.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Charging_Bull_Covered.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "NicoARicoA"
+    }
+   ]
+  },
+  {
+   "id": "victoria_steele_obj_4",
+   "title": "Smithsonian Stock Ticker Artifact",
+   "date": "19th-20th century",
+   "type": "machine",
+   "material": "metal/glass",
+   "description": "An original mechanical stock ticker machine, the analog ancestor of the real-time data feeds Victoria is built from today.",
+   "significance": "Before Victoria existed as a number on a screen, this clunky machine was the only way anyone found out how the market was actually doing.",
+   "museum": "Smithsonian National Museum of American History",
+   "museum_location": "Washington, D.C., USA",
+   "accession_number": "nmah_703474",
+   "collection_url": "https://www.si.edu/object/stock-ticker%3Anmah_703474",
+   "image_url": "https://www.si.edu/object/stock-ticker%3Anmah_703474",
+   "license": "Smithsonian terms",
+   "open_access": false,
+   "plain_language": "An old mechanical stock ticker machine, the ancestor of the instant digital stock data we have today.",
+   "url": "https://www.si.edu/object/stock-ticker%3Anmah_703474",
+   "accession": "nmah_703474",
+   "institution": "Smithsonian National Museum of American History",
+   "licence": "Smithsonian terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Leaf of a Writing Tablet",
+     "accession": "38.108",
+     "date": "14th century",
+     "image_url": "https://images.metmuseum.org/CRDImages/md/original/DP318278.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/467643",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Tupu (pin)",
+     "accession": "64.228.606",
+     "date": "Before 17th century",
+     "image_url": "https://images.metmuseum.org/CRDImages/ao/original/hz64_228_606.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/309104",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "victoria_steele_obj_5",
+   "title": "Lord & Taylor Gray Flannel Suit (1950)",
+   "date": "1950",
+   "type": "clothing",
+   "material": "wool flannel",
+   "description": "A classic postwar American gray flannel business suit, symbol of the corporate culture that populated the companies in Victoria's index.",
+   "significance": "This is the uniform of the men who built the companies Victoria measures — buttoned-up, conformist, and utterly convinced the market would only go up.",
+   "museum": "Metropolitan Museum of Art",
+   "museum_location": "New York, USA",
+   "accession_number": "159455",
+   "collection_url": "https://www.metmuseum.org/art/collection/search/159455",
+   "image_url": "https://www.metmuseum.org/art/collection/search/159455",
+   "license": "Met Museum terms",
+   "open_access": false,
+   "plain_language": "A classic 1950s business suit, the exact style worn by the corporate executives who ran the biggest American companies of the era.",
+   "url": "https://www.metmuseum.org/art/collection/search/159455",
+   "accession": "159455",
+   "institution": "Metropolitan Museum of Art",
+   "licence": "Met Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 429,
+    "error": "HTTP 429",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "Not public domain — Met",
+    "licence_class": "contact_required",
+    "authoritative": true,
+    "via": "Met Collection API",
+    "accession": "2009.300.877a, b",
+    "title": "Suit",
+    "image": null
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "The New-Brunswick almanack for the year of our Lord 1845 (microform) - being the first after bissextile or leap year, and the eighth and ninth of the reign of Her Most Gracious Majesty, Queen Victoria (IA cihm 39610).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/The_New-Brunswick_almanack_for_the_year_of_our_Lord_1845_%28microform%29_-_being_the_first_after_bissextile_or_leap_year%2C_and_the_eighth_and_ninth_of_the_reign_of_Her_Most_Gracious_Majesty%2C_Queen_Victoria_%28IA_cihm_39610%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:The_New-Brunswick_almanack_for_the_year_of_our_Lord_1845_(microform)_-_being_the_first_after_bissextile_or_leap_year,_and_the_eighth_and_ninth_of_the_reign_of_Her_Most_Gracious_Majesty,_Queen_Victoria_(IA_cihm_39610).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": ""
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "The Workmen's Compensation for Injuries Act 1892, 55 Vict. Cap. 30 (0.) and the Revised statute of Ontario (1887), chapter 135, commonly known as Lord Campbell's Act (microform) (IA cihm 10619).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/The_Workmen%27s_Compensation_for_Injuries_Act_1892%2C_55_Vict._Cap._30_%280.%29_and_the_Revised_statute_of_Ontario_%281887%29%2C_chapter_135%2C_commonly_known_as_Lord_Campbell%27s_Act_%28microform%29_%28IA_cihm_10619%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:The_Workmen%27s_Compensation_for_Injuries_Act_1892,_55_Vict._Cap._30_(0.)_and_the_Revised_statute_of_Ontario_(1887),_chapter_135,_commonly_known_as_Lord_Campbell%27s_Act_(microform)_(IA_cihm_10619).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nHolmested, George Smith, 1841-1928\nOntario. The Workmen's Compensation for Injuries Act, 1892\nOntar"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "victoria_steele_src_1",
+   "title": "Debut of the Standard & Poor's 500",
+   "type": "reference_guide",
+   "date": "Ongoing",
+   "author": "Library of Congress",
+   "description": "Historical business reference guide documenting the S&P 500's 1957 launch.",
+   "held_at": "Library of Congress",
+   "url": "https://guides.loc.gov/this-month-in-business-history/march/debut-standard-poors-500",
+   "license": "Library of Congress terms",
+   "plain_language": "The Library of Congress's own historical account of the day the S&P 500 launched.",
+   "licence": "Library of Congress terms",
+   "licence_class": "unknown",
+   "institution": "Library of Congress",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://guides.loc.gov/this-month-in-business-history/march/debut-standard-poors-500",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter error: JSONDecodeError"
+   }
+  },
+  {
+   "id": "victoria_steele_src_2",
+   "title": "Wikipedia: List of S&P 500 Companies",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Continuously updated reference list of companies currently in the S&P 500 index.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+   "license": "CC BY-SA",
+   "plain_language": "An always-updated list of every company currently included in the S&P 500.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "victoria_steele_src_3",
+   "title": "Wikipedia: Charging Bull",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference on the history and symbolism of the Charging Bull sculpture.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Charging_Bull",
+   "license": "CC BY-SA",
+   "plain_language": "Background on the famous bull statue near Wall Street and what it represents.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Charging_Bull",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "victoria_steele_src_4",
+   "title": "Smithsonian Object Record: Stock Ticker",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Smithsonian National Museum of American History",
+   "description": "Museum documentation of a historical mechanical stock ticker machine.",
+   "held_at": "Smithsonian",
+   "url": "https://www.si.edu/object/stock-ticker%3Anmah_703474",
+   "license": "Smithsonian terms",
+   "plain_language": "The Smithsonian's own record describing an old mechanical stock ticker machine.",
+   "licence": "Smithsonian terms",
+   "licence_class": "unknown",
+   "institution": "Smithsonian",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   }
+  },
+  {
+   "id": "victoria_steele_src_5",
+   "title": "Met Museum Collection Record: 1950 Suit",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Metropolitan Museum of Art",
+   "description": "Museum documentation of a classic 1950s American business suit.",
+   "held_at": "Metropolitan Museum of Art",
+   "url": "https://www.metmuseum.org/art/collection/search/159455",
+   "license": "Met Museum terms",
+   "plain_language": "The Met's own record describing a classic 1950s business suit worn by corporate America.",
+   "licence": "Met Museum terms",
+   "licence_class": "unknown",
+   "institution": "Metropolitan Museum of Art",
+   "verify": {
+    "ok": false,
+    "status": 429,
+    "error": "HTTP 429",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "Not public domain — Met",
+    "licence_class": "contact_required",
+    "authoritative": true,
+    "via": "Met Collection API",
+    "accession": "2009.300.877a, b",
+    "title": "Suit",
+    "image": null
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 40.7069,
+  "center_lng": -74.0113,
+  "center_label": "New York Stock Exchange, USA",
+  "era_start": 1957,
+  "era_end": 2026,
+  "map_description": "Victoria was calculated into existence on Wall Street in 1957 and has since become the world's most-watched benchmark of corporate American performance.",
+  "nodes": [
+   {
+    "label": "NYSE, Broad Street",
+    "lat": 40.7069,
+    "lng": -74.0113,
+    "type": "origin",
+    "description": "The New York Stock Exchange, home to the majority of companies tracked in the S&P 500."
+   },
+   {
+    "label": "Federal Hall",
+    "lat": 40.7074,
+    "lng": -74.0104,
+    "type": "landmark",
+    "description": "Historic site adjacent to the NYSE, symbolic of the birth of American federal financial institutions."
+   },
+   {
+    "label": "Bowling Green (Charging Bull)",
+    "lat": 40.7051,
+    "lng": -74.0134,
+    "type": "landmark",
+    "description": "Location of the iconic Charging Bull sculpture symbolizing market resilience."
+   },
+   {
+    "label": "Chicago (CME/CBOE)",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "type": "destination",
+    "description": "Major derivatives markets where S&P 500 futures and options are heavily traded."
+   },
+   {
+    "label": "Washington, D.C. (SEC)",
+    "lat": 38.8994,
+    "lng": -77.0244,
+    "type": "landmark",
+    "description": "Home of the Securities and Exchange Commission, which regulates the markets Victoria measures."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Library of Congress — Debut of the Standard & Poor's 500",
+   "url": "https://guides.loc.gov/this-month-in-business-history/march/debut-standard-poors-500",
+   "license": "Library of Congress terms"
+  }
+ },
+ "_verified": "2026-07-11 10:41"
+}

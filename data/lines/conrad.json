@@ -1,0 +1,49 @@
+{
+ "custodian": "conrad",
+ "name": "Conrad Powers",
+ "asset": "US Dollar",
+ "stations": [
+  {
+   "year": 1792,
+   "label": "THE COINAGE ACT BIRTH",
+   "line": "They passed the Coinage Act and put me on paper backed by silver and gold, and I started with nothing but a promise and the nerve to make people believe it.",
+   "era_photo": "A young man in a plain dark wool frock coat and high linen stock, standing in the newly built Philadelphia Mint, rendered as a hand-tinted engraving on rag paper, the only reproduction process of 1792."
+  },
+  {
+   "year": 1861,
+   "label": "THE GREENBACK GOES TO WAR",
+   "line": "The Union needed money to fight and there was no gold to spare, so I printed the greenback and asked a bleeding country to trust ink over metal \u2014 and it did.",
+   "era_photo": "A stern man in a Civil War-era black suit and wide bow tie, seated beside stacked bond ledgers in a Washington Treasury office, captured as a sepia-toned albumen print with the stiff long-exposure stillness of 1861."
+  },
+  {
+   "year": 1913,
+   "label": "THE FEDERAL RESERVE STANDS UP",
+   "line": "They built me a central bank and a lender of last resort, and for the first time I had a floor under my feet instead of just my own word.",
+   "era_photo": "A confident man in a three-piece pinstripe suit and pocket watch chain, standing on the steps of a granite Federal Reserve building, shot as a crisp black-and-white silver gelatin photograph typical of 1913."
+  },
+  {
+   "year": 1944,
+   "label": "BRETTON WOODS CROWNS ME",
+   "line": "Forty-four nations sat in a New Hampshire hotel and pinned the whole world's exchange to me at thirty-five dollars an ounce \u2014 I walked in a currency and walked out the system.",
+   "era_photo": "A commanding man in a broad-shouldered double-breasted suit at the Mount Washington Hotel conference table, delegates behind him, rendered as a grainy wartime black-and-white silver gelatin press photograph, July 1944."
+  },
+  {
+   "year": 1971,
+   "label": "THE GOLD WINDOW CLOSES",
+   "line": "The reserves were draining and there was no floor left to defend, so on a Sunday night I told a hundred and fifty million people I was cutting the cord to gold \u2014 and I did it before I told anyone I should have.",
+   "era_photo": "A resolute man in a wide-lapel 1970s suit and thick knotted tie, addressing a television camera under hot studio lights, captured on warm-toned Kodachrome color film with the slight softness of 1971 broadcast footage."
+  },
+  {
+   "year": 2008,
+   "label": "THE FLOOR HOLDS ANYWAY",
+   "line": "The whole system I anchor nearly went down, and yet when the panic hit, the world ran to me \u2014 they hated the crisis I sat at the center of and they still bought me by the trillion.",
+   "era_photo": "A tense man in a modern dark suit, no tie, sleeves at the wrist, on a trading floor lit by red screens, shot as an early high-ISO digital DSLR photograph with the flat news-wire clarity of 2008."
+  },
+  {
+   "year": 2025,
+   "label": "THE FLOOR THAT DECLINES",
+   "line": "I'm still the reserve the world reaches for in every crisis, and I know the momentum isn't all mine anymore \u2014 I don't say that in public, because saying it makes it true faster.",
+   "era_photo": "A composed older man in a tailored charcoal suit, standing before a wall of live market data, rendered as a sharp full-frame digital photograph with the cool color grading and shallow depth of field of 2025."
+  }
+ ]
+}

@@ -1,0 +1,236 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 16,
+  "character_name": "ISABELLA FROST",
+  "character_key": "isabella",
+  "header": "ISABELLA FROST"
+ },
+ "museum_objects": [
+  {
+   "title": "Dominion of Canada $1 note",
+   "institution": "Bank of Canada Museum",
+   "accession": "1964.0088.00867.000",
+   "date": "July 1, 1870",
+   "url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1964.0088.00867.000/canada-dominion-of-canada-1-dollar-july-1-1870",
+   "licence_raw": "Not explicitly stated — contact museum",
+   "description": "First Dominion of Canada banknote, Jacques Cartier vignette.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1964.0088.00867.000/canada-dominion-of-canada-1-dollar-july-1-1870",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Canada, Victoria, 20 cents",
+   "institution": "Bank of Canada Museum",
+   "accession": "1974.0151.00213.000",
+   "date": "1871",
+   "url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1974.0151.00213.000/canada-victoria-20-cents-1871",
+   "licence_raw": "Not explicitly stated — contact museum",
+   "description": "Silver 20-cent coin from the first Dominion coinage.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1974.0151.00213.000/canada-victoria-20-cents-1871",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Government of British Columbia $20 gold pattern coin",
+   "institution": "Bank of Canada Museum",
+   "accession": "1976.0102.00005.000",
+   "date": "1862",
+   "url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1976.0102.00005.000/canada-government-of-british-columbia-20-dollars-1862",
+   "licence_raw": "Not explicitly stated — contact museum",
+   "description": "Gold pattern coin struck from Cariboo gold rush gold; never circulated.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1976.0102.00005.000/canada-government-of-british-columbia-20-dollars-1862",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Province of Canada 1858 coinage set",
+   "institution": "Bank of Canada Museum",
+   "accession": "1971.0227.00001.000",
+   "date": "1858",
+   "url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1971.0227.00001.000",
+   "licence_raw": "Not explicitly stated — contact museum",
+   "description": "Double-specimen proof set, Canada's first coinage, engraver L.C. Wyon.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1971.0227.00001.000",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Hudson's Bay Company Made Beaver token",
+   "institution": "Royal Museums Greenwich",
+   "accession": "RMGC-object-40198",
+   "date": "19th century",
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-40198",
+   "licence_raw": "Museum copyright — contact required",
+   "description": "Fur-trade proto-currency token used across HBC trading posts.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.rmg.co.uk/collections/objects/rmgc-object-40198",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Bank of Canada, \"A History of the Canadian Dollar\" full book PDF — primary institutional historical account.",
+   "detail": "",
+   "url": "https://www.bankofcanada.ca/wp-content/uploads/2010/07/dollar_book.pdf",
+   "licence_raw": "Bank of Canada, \"A History of the Canadian Dollar\" full book PDF — primary institutional historical account.",
+   "licence_class": "contact_required",
+   "raw": "Bank of Canada, \"A History of the Canadian Dollar\" full book PDF — primary institutional historical account.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanada.ca/wp-content/uploads/2010/07/dollar_book.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "\"Canada's First Coinage,\" Bank of Canada Review, Spring 2008, David Bergeron — primary curatorial research.",
+   "detail": "",
+   "url": "https://www.bankofcanada.ca/wp-content/uploads/2010/06/review_spring08.pdf",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "\"Canada's First Coinage,\" Bank of Canada Review, Spring 2008, David Bergeron — primary curatorial research.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanada.ca/wp-content/uploads/2010/06/review_spring08.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Library and Archives Canada Collection Search — primary archival portal.",
+   "detail": "",
+   "url": "https://recherche-collection-search.bac-lac.gc.ca/eng/home/index",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Library and Archives Canada Collection Search — primary archival portal.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Bank of Canada Museum: \"Fur Trade Economics\" article — primary institutional research on HBC tokens.",
+   "detail": "",
+   "url": "https://www.bankofcanadamuseum.ca/2021/08/fur-trade-economics/",
+   "licence_raw": "Bank of Canada Museum: \"Fur Trade Economics\" article — primary institutional research on HBC tokens.",
+   "licence_class": "contact_required",
+   "raw": "Bank of Canada Museum: \"Fur Trade Economics\" article — primary institutional research on HBC tokens.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanadamuseum.ca/2021/08/fur-trade-economics/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Bank of Canada Museum: \"Army Bills: Funding the War of 1812\" — primary pre-history of Canadian paper currency.",
+   "detail": "",
+   "url": "https://www.bankofcanadamuseum.ca/2022/06/army-bills-funding-the-war-of-1812/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Bank of Canada Museum: \"Army Bills: Funding the War of 1812\" — primary pre-history of Canadian paper currency.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanadamuseum.ca/2022/06/army-bills-funding-the-war-of-1812/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: 1871, newly confederated Canada. The federal government must decide whether to force all former British North American colonies (Province of Canada, Nova Scotia, New Brunswick, PEI, and eventually British Columbia) to abandon their own distinct currencies for a single national dollar, risking local resentment from colonies that had only just joined Confederation and were wary of losing more autonomy. The outcome was genuinely uncertain: some colonies, like Newfoundland, would ultimately choose not to join Confederation at all until 1949, partly over exactly these kinds of sovereignty concerns.Player choice: Mandate immediate currency unification across all confederated provinces, or allow provinces to retain their own currencies longer.Historical resolution: Canada unified its currency quickly via the April 1871 Uniform Currency Act, while Newfoundland — which stayed outside Confederation until 1949 — kept issuing its own currency separately for decades.",
+ "understand": {
+  "economic_impact": "Canada's tight economic integration with the United States means CAD value is heavily influenced by US economic conditions, exactly as Isabella's voice profile frames it — \"when the US sneezes, I get a cold\" [TH Script Writing Bible voice profile]. The 1871 Uniform Currency Act's consolidation of five separate colonial currencies reduced friction for cross-provincial trade at a pivotal moment in Canadian nation-building Bank of Canada history book.",
+  "political_impact": "Currency unification followed directly from Confederation in 1867, with the 1871 Uniform Currency Act reinforcing the new federal government's authority over provinces that had only just joined together Bank of Canada Museum, currency reforms chapter. Newfoundland's decision to stay outside Confederation (and keep its own currency) until 1949 shows how contested this process actually was Wikipedia: Coins of the Newfoundland dollar.",
+  "why_it_still_matters": "Canada's money quietly does something most people never think about: it moves up and down largely based on what's happening in the United States, because the two countries buy and sell so much to each other. That's not a flaw — it's just what happens when your closest neighbor is also your biggest customer and your biggest supplier. Isabella's story matters because it shows that a country's currency doesn't have to be dramatic or attention-seeking to be strong — sometimes stability means quietly managing a relationship you didn't fully choose, and making it work anyway, year after year."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:39"
+}

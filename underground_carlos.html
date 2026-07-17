@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Underground · Carlos Ibáñez · The Spanish Peseta Line</title>
+<link rel="icon" type="image/png" href="media/brand/favicon.png">
+<link rel="apple-touch-icon" href="media/brand/th_mark.png">
+<style>
+  :root{
+    --navy:#070c14; --deep:#03060b; --gold:#C8A44D; --bone:#EDE6D6; --dim:#7d8794;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%;overflow:hidden;background:var(--deep);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    -webkit-font-smoothing:antialiased;}
+  #world{position:fixed;inset:0;perspective:1000px;perspective-origin:50% 45%;
+    background:radial-gradient(ellipse at 50% 44%, #0d1725 0%, #070c14 52%, #03050a 100%);
+    transition:background 1.2s linear;cursor:grab;}
+  #world:active{cursor:grabbing}
+  #scene{position:absolute;inset:0;transform-style:preserve-3d;}
+
+  /* ── A MEMORY. His life, drifting past. ─────────────────────────────── */
+  .mem{position:absolute;left:50%;top:50%;transform-style:preserve-3d;will-change:transform,opacity;}
+  .mem img{display:block;width:100%;height:auto;border-radius:2px;
+    box-shadow:0 30px 90px rgba(0,0,0,.75), 0 0 0 1px rgba(237,230,214,.10);}
+  .mem .cap{margin-top:10px;font:italic 400 13px/1.4 Georgia,serif;color:#9aa3ad;letter-spacing:.02em;}
+  .mem .cap b{display:block;font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.26em;
+    color:var(--gold);text-transform:uppercase;margin-bottom:5px;font-style:normal;}
+
+  /* ── HIS FACE. He is here, at every age, because he never ages. ─────── */
+  .face{position:absolute;left:50%;top:50%;transform-style:preserve-3d;text-align:center;}
+  .face .ring{width:230px;height:230px;border-radius:50%;overflow:hidden;margin:0 auto;
+    border:2px solid rgba(200,164,77,.75);
+    box-shadow:0 0 100px rgba(200,164,77,.40), inset 0 0 70px rgba(0,0,0,.65);}
+  .face .ring img{width:100%;height:100%;object-fit:cover;display:block;}
+
+  /* ── A STATION. ─────────────────────────────────────────────────────── */
+  .st{position:absolute;left:50%;top:50%;text-align:center;transform-style:preserve-3d;}
+  .st .plate{display:inline-block;padding:11px 30px;background:rgba(5,9,15,.72);
+    border:1px solid rgba(200,164,77,.42);backdrop-filter:blur(6px);}
+  .st .yr{font:700 34px/1 Georgia,serif;color:var(--bone);letter-spacing:.02em;}
+  .st .nm{margin-top:8px;font:600 10px/1 ui-sans-serif,system-ui;letter-spacing:.30em;
+    color:var(--gold);text-transform:uppercase;}
+  .st .thread{margin:16px auto 0;width:1px;
+    background:linear-gradient(rgba(200,164,77,.5),rgba(200,164,77,.03));}
+
+  /* ── OTHER LINES. The universe you are inside. ──────────────────────── */
+  .oth{position:absolute;left:50%;top:50%;text-align:center;transform-style:preserve-3d;}
+  .oth .ring{width:120px;height:120px;border-radius:50%;overflow:hidden;margin:0 auto;}
+  .oth .ring img{width:100%;height:100%;object-fit:cover;display:block;}
+  .oth .nm{margin-top:7px;font:600 8px/1 ui-sans-serif,system-ui;letter-spacing:.24em;text-transform:uppercase;}
+  .oth .thread{margin:9px auto 0;width:1px;height:300px;}
+
+  .rail{position:absolute;left:50%;top:56%;width:2px;height:44px;margin-left:-1px;
+    background:linear-gradient(var(--gold),rgba(200,164,77,0));}
+  .mote{position:absolute;left:50%;top:50%;width:2px;height:2px;border-radius:50%;background:var(--gold);}
+
+  /* ── HUD ────────────────────────────────────────────────────────────── */
+  .veil{position:fixed;inset:0;pointer-events:none;
+    background:radial-gradient(ellipse at 50% 45%, transparent 26%, rgba(3,5,10,.5) 70%, rgba(3,5,10,.96) 100%);}
+  .hud{position:fixed;pointer-events:none;font-family:ui-sans-serif,system-ui,sans-serif;}
+  #tl{top:22px;left:26px}
+  #tl .k{color:var(--gold);font-size:10px;letter-spacing:.30em}
+  #tl .n{color:var(--bone);font-size:16px;letter-spacing:.06em;margin-top:5px;font-family:Georgia,serif}
+  #tl .n span{color:var(--dim)}
+  #tr{top:22px;right:26px;text-align:right}
+  #yr{color:var(--bone);font:600 30px/1 Georgia,serif;letter-spacing:.03em}
+  #er{color:var(--dim);font-size:9px;letter-spacing:.26em;margin-top:5px}
+
+  #card{position:fixed;left:26px;bottom:26px;max-width:380px;
+    background:rgba(5,9,15,.86);backdrop-filter:blur(12px);
+    border-left:2px solid var(--gold);padding:16px 20px;color:var(--bone);
+    opacity:0;transform:translateY(10px);transition:opacity .55s,transform .55s;pointer-events:none;}
+  #cn{font:600 10px/1 ui-sans-serif,system-ui;letter-spacing:.24em;color:var(--gold);text-transform:uppercase}
+  #cd{margin-top:10px;font-size:15px;line-height:1.6;color:#DAD4C8}
+  #cs{margin-top:11px;font:italic 11px/1.4 Georgia,serif;color:#7a746a}
+
+  #snd{position:fixed;right:26px;bottom:26px;display:flex;align-items:center;gap:10px;
+    background:rgba(5,9,15,.8);border:1px solid rgba(200,164,77,.3);padding:9px 14px;
+    color:var(--gold);font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.2em;
+    cursor:pointer;user-select:none;text-transform:uppercase;}
+  #snd:hover{background:rgba(200,164,77,.12)}
+  #eq{display:flex;gap:2px;align-items:flex-end;height:12px}
+  #eq i{width:2px;background:var(--gold);height:3px;transition:height .18s}
+  #hint{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);color:var(--dim);
+    font:400 9px/1 ui-sans-serif,system-ui;letter-spacing:.26em;pointer-events:none;text-transform:uppercase;
+    transition:opacity .6s}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+  /* ── THE TH CURSOR ────────────────────────────────────────────────────────────────
+     CEO 2026-07-13: "the cursor should always be the same across the platform."
+
+     It was not. The homepage hides the native pointer (cursor:none) and draws the house
+     cursor — a gold dot inside a gold ring, which is the mark from the logo itself. Board a
+     line and that vanished: the ride handed you back the operating system's arrow.
+
+     Same cursor everywhere now. It is not decoration — it is the same object as the logo's
+     mark, and a brand that changes its cursor between rooms is a brand with two identities. */
+  /* !important because the ride sets cursor:grab / :grabbing on #world, and a grab hand is the
+     operating system's idea of this experience, not ours. */
+  body,#world,#world:active,a,button,.mem,.st,.xfer,.oth,[onclick]{cursor:none!important}
+  /* the masthead: the mark, then the line's name */
+  #tl{display:flex;align-items:center;gap:12px}
+  .thHome{display:block;line-height:0;opacity:.9;transition:opacity .25s}
+  .thHome:hover{opacity:1}
+  .thMark{width:26px;height:26px;display:block}
+  @media (max-width:768px){ .thMark{width:22px;height:22px} #tl{gap:9px} }
+  #cursor{position:fixed;width:8px;height:8px;background:#C8A44D;border-radius:50%;
+    pointer-events:none;z-index:2147483001;transform:translate(-50%,-50%);transition:transform .1s}
+  #cursorRing{position:fixed;width:32px;height:32px;border:1px solid rgba(200,164,77,.4);
+    border-radius:50%;pointer-events:none;z-index:2147483000;transform:translate(-50%,-50%);
+    transition:all .15s ease}
+  /* a touch device has no cursor to be consistent about */
+  @media (hover:none){ body{cursor:auto} #cursor,#cursorRing{display:none} }
+
+  /* HOW TO RIDE — the first thing you meet, and the last time you see it. */
+  #how{position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;
+    background:radial-gradient(60% 60% at 50% 45%,rgba(6,12,24,.72),rgba(4,8,16,.94));
+    backdrop-filter:blur(2px);transition:opacity .5s ease}
+  #how.gone{opacity:0;pointer-events:none}
+  .howCard{width:min(430px,calc(100% - 40px));padding:26px 26px 20px;border-radius:16px;
+    border:1px solid rgba(201,164,77,.34);background:rgba(9,16,30,.9);text-align:left}
+  .howK{font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.3em;text-transform:uppercase;color:#C8A44D}
+  .howT{font:400 30px/1.1 Georgia,serif;color:#EDE6D6;margin:8px 0 18px}
+  .howRow{display:flex;gap:12px;align-items:flex-start;margin:11px 0;
+    font:400 13px/1.45 ui-sans-serif,system-ui;color:rgba(237,230,214,.74)}
+  .howRow b{color:#EDE6D6;font-weight:600}
+  .howIco{flex:0 0 22px;height:22px;border-radius:6px;display:grid;place-items:center;
+    border:1px solid rgba(201,164,77,.4);color:#C8A44D;font-size:11px}
+  #howGo{margin-top:18px;width:100%;padding:12px;border-radius:10px;cursor:pointer;
+    border:1px solid rgba(201,164,77,.55);background:rgba(201,164,77,.12);color:#EDE6D6;
+    font:600 11px/1 ui-sans-serif,system-ui;letter-spacing:.24em;text-transform:uppercase}
+  #howGo:hover{background:rgba(201,164,77,.2)}
+  .howArr{display:inline-block;animation:howBob 1.4s ease-in-out infinite}
+  @keyframes howBob{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}
+
+  @media (max-width:768px){
+    /* MOBILE IS DESIGNED, NOT SHRUNK. CEO: "the mobile version also looks very different and
+       crowded." It was: the memories are flung ±470px sideways — generous on a 1600px screen,
+       a pile-up on a 390px one — and the drawer, the card and the station hub all fought for
+       the same corner. On mobile the tunnel keeps its depth and loses its width. */
+    #world{perspective:620px}
+    .face .ring{width:132px;height:132px}
+    .st .yr{font-size:22px}
+    .st .nm{font-size:10px;letter-spacing:.18em}
+    .mem{max-width:46vw}
+    .mem img{width:100%;height:auto}
+    .mem .t{font-size:10px;line-height:1.35}
+    .mem .e{font-size:8px}
+    #card{left:10px;right:10px;bottom:74px;max-width:none;padding:12px 14px}
+    #cd{font-size:13px;line-height:1.45}
+    #hub{gap:6px}
+    #hub button{padding:7px 9px;font-size:8px}
+    #tl,#tr{transform:scale(.82);transform-origin:top}
+    #snd{right:12px;bottom:16px}
+    #hint{bottom:16px;left:12px;transform:none}
+    #xbox{left:10px;right:10px;width:auto;max-width:none}
+    #drawer .dcard{width:100%;max-width:none;border-radius:14px 14px 0 0}
+    .howT{font-size:25px}
+  }
+</style>
+</head>
+<body>
+<h1 class="sr">The Underground of Civilization — Carlos Ibáñez, the Spanish Peseta. Ride the line from 1868 to today.</h1>
+
+<div id="world"><div id="scene"></div></div>
+<div class="veil"></div>
+
+<div class="hud" id="tl">
+  <!-- THE MARK, AND THE WAY HOME. Every ride is a Trading Hearts room, and a room with no door
+       back to the house is a place people leave by closing the tab. -->
+  <a class="thHome" href="index.html" aria-label="Trading Hearts — home">
+    <img src="media/brand/th_mark.png" alt="Trading Hearts" class="thMark">
+  </a>
+  <div class="hudTxt">
+    <div class="k">THE UNDERGROUND OF CIVILIZATION</div>
+    <div class="n">CARLOS <span>&middot; SPANISH PESETA</span></div>
+  </div>
+</div>
+<div class="hud" id="tr"><div id="yr">1868</div><div id="er">THE DEEP</div></div>
+
+<!-- THE WAY BACK TO THE MAP. CEO 2026-07-14: "we need a button in the middle top on anyone's
+     line to get back to the underground map."
+     You can leave a line by boarding another one, and you can go home to the house — but there
+     was no way back to THE MAP, the one place that shows you the whole network and lets you
+     choose. A ride you can only leave sideways is a corridor, not a station. -->
+<!-- THE MAP IS NOT A PAGE. It is #thMetro — a box the homepage BUILDS IN JAVASCRIPT and injects
+     into a section. There is no map.html to link to, and I nearly shipped a button pointing at
+     one, which is the exact lie this project keeps banning: a door with nothing behind it.
+     index.html#thMetro is the real address of the real map. -->
+<a id="tomap" href="index.html#thMetro" aria-label="Back to the Underground map"
+   style="position:fixed;top:22px;left:50%;transform:translateX(-50%);z-index:40;
+          display:flex;align-items:center;gap:9px;padding:9px 16px;text-decoration:none;
+          background:rgba(5,9,15,.82);backdrop-filter:blur(10px);
+          border:1px solid rgba(200,164,77,.42);color:#C8A44D;
+          font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.24em;
+          transition:background .25s,border-color .25s">
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+    <path d="M9 20 3 17V4l6 3m0 13 6-3m-6 3V7m6 10 6 3V7l-6 3m0 7V10m0 0L9 7"/>
+  </svg>
+  THE MAP
+</a>
+
+<div id="card">
+  <div id="cn"></div><div id="cd"></div><div id="cs"></div>
+  <!-- WHAT YOU CAN DO AT THIS STATION. Only what actually exists. -->
+  <div id="hub" style="margin-top:14px;display:flex;flex-wrap:wrap;gap:7px;pointer-events:auto"></div>
+</div>
+
+<!-- THE DRAWER — opens over the ride when you choose an option at a station -->
+<div id="drawer" style="position:fixed;inset:0;background:rgba(3,5,10,.94);backdrop-filter:blur(14px);
+     z-index:50;display:none;overflow-y:auto;padding:56px 32px;">
+  <div style="max-width:900px;margin:0 auto;color:#EDE6D6">
+    <div id="dxt" style="position:sticky;top:-24px;text-align:right;margin-bottom:8px">
+      <span id="dclose" style="cursor:pointer;font:600 9px/1 ui-sans-serif,system-ui;
+            letter-spacing:.24em;color:#7d8794;border:1px solid #2a3542;padding:9px 14px">CLOSE ✕</span>
+    </div>
+    <div id="dttl" style="font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.3em;color:#C8A44D;text-transform:uppercase"></div>
+    <div id="dbody" style="margin-top:20px"></div>
+  </div>
+</div>
+
+<!-- AN INTERSECTION. You bumped into someone. You can take their line. -->
+<div id="xbox" style="position:fixed;right:26px;bottom:96px;max-width:330px;
+     background:rgba(5,9,15,.9);backdrop-filter:blur(12px);border:1px solid rgba(200,164,77,.3);
+     padding:16px 18px;color:#EDE6D6;opacity:0;transform:translateY(10px);
+     transition:opacity .5s,transform .5s;">
+  <div style="font:600 8px/1 ui-sans-serif,system-ui;letter-spacing:.28em;color:#7d8794;text-transform:uppercase">Interchange</div>
+  <div id="xn" style="margin-top:9px;font:700 20px/1 Georgia,serif;letter-spacing:.03em"></div>
+  <div id="xa" style="margin-top:5px;font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.22em;color:#7d8794"></div>
+  <div id="xw" style="margin-top:11px;font-size:13.5px;line-height:1.55;color:#C9C3B7;font-family:Georgia,serif"></div>
+  <div id="xb" style="margin-top:14px;padding:9px 0;text-align:center;border:1px solid;
+       font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.24em;cursor:pointer">CHANGE LINES &rarr;</div>
+</div>
+
+<div id="snd"><div id="eq"><i></i><i></i><i></i><i></i></div><span id="sl">Play his line</span></div>
+<div id="hint">Scroll &middot; drag &middot; ride the line</div>
+<div id="cursor"></div><div id="cursorRing"></div>
+
+<!-- ── HOW TO RIDE ────────────────────────────────────────────────────────────────────
+     CEO 2026-07-13: "when the user enters the line we need some arrows or instructions on
+     how to navigate."
+     A cinematic ride with no controls explained is a room with the lights off. The first
+     thing a visitor meets is now a short card that TELLS them what to do — then gets out of
+     the way for good. It dismisses on the first scroll, drag, or tap; it never nags. -->
+<div id="how">
+  <div class="howCard">
+    <div class="howK">The Underground</div>
+    <div class="howT">Ride the line</div>
+    <div class="howRow"><span class="howIco">⌄</span><span><b>Scroll</b> or <b>drag</b> to travel forward through his century</span></div>
+    <div class="howRow"><span class="howIco">◉</span><span><b>Stations</b> are real events — open the museum, the sources, the saga</span></div>
+    <div class="howRow"><span class="howIco">⇆</span><span><b>Interchanges</b> are the people he met. Change lines and ride theirs</span></div>
+    <button id="howGo">Begin <span class="howArr">↓</span></button>
+  </div>
+</div>
+
+<script id="sagadata" type="application/json">[]</script>
+<script>window.TH_SAGA_URL = "data/saga/carlos.json";</script>
+<!-- HIS OWN THEME. CEO 2026-07-14: "the music of each of the custodians should automatically play."
+     This said assets/era_audio/era01.mp3 — a generic ERA track — on ALL 28 rides. The template's
+     own comment admitted it: "an honest stand-in, NOT his composed theme." Meanwhile all 28
+     composed themes have been sitting in assets/cast_audio/<k>.mp3 the whole time, unused.
+     Every custodian was riding their own line to somebody else's music. -->
+<audio id="au" loop preload="auto" src="assets/cast_audio/carlos.mp3"></audio>
+
+<script>
+(function(){
+const M = "media/underground/carlos/";
+
+/* CARLOS IBÁÑEZ — Spanish Peseta. Deep = the birth. The surface = today. */
+const ST = [
+ {
+  "z": 0,
+  "yr": "1868",
+  "nm": "BORN IN REVOLUTION",
+  "d": "They minted me in the autumn of the Gloriosa, when Isabel had fled to France and the Provisional Government needed a coin that spoke the language of Europe rather than the language of a throne — so you might say I was born to replace a queen, and I confess I never quite lost the taste for outliving my creators.",
+  "s": ""
+ },
+ {
+  "z": -1000,
+  "yr": "1883",
+  "nm": "LEAVING THE GOLD ROOM",
+  "d": "In '83 they suspended my convertibility to gold, and though the economists spoke of it as a wound, I remember it more honestly as the first time I understood that my value would always be a question the room was asking, never an answer I could give myself.",
+  "s": ""
+ },
+ {
+  "z": -2000,
+  "yr": "1936",
+  "nm": "TWO FACES, ONE CURRENCY",
+  "d": "The war split me in half as it split everything else — Republican pesetas in Madrid, Nationalist pesetas in Burgos, the same name printed by two hands that wished each other dead, and I have never forgotten what it is to be issued by people who cannot agree on what I am.",
+  "s": ""
+ },
+ {
+  "z": -3000,
+  "yr": "1959",
+  "nm": "THE STABILIZATION PLAN",
+  "d": "In '59 they finally taught me discipline — the Plan de Estabilización, austerity dressed as salvation — and it was humiliating and it was necessary, which is, I have learned, the precise recipe for the things that actually save you.",
+  "s": ""
+ },
+ {
+  "z": -4000,
+  "yr": "1986",
+  "nm": "ENTERING EUROPE",
+  "d": "When Spain joined the Community I understood at last that all my adjusting, all my calibrating to norms I had not written, had been a long apprenticeship for belonging — and I walked into Europe not as a supplicant but as someone who had spent decades learning the room.",
+  "s": ""
+ },
+ {
+  "z": -5000,
+  "yr": "1992",
+  "nm": "THE DEVALUATIONS",
+  "d": "Ah, '92 — the year of the Barcelona Olympics and the Seville Expo, the year Spain showed the world its best face while I was devalued three times inside the ERM, and if you want to know whether I have made peace with that, I will only say that a man can smile very convincingly at a party he is also quietly paying for.",
+  "s": ""
+ },
+ {
+  "z": -6000,
+  "yr": "2002",
+  "nm": "THE VOLUNTARY DEATH",
+  "d": "On the last day of February the pesetas came out of the drawers and the shoeboxes to be exchanged, and I want to be clear that no one killed me — I chose this, I lay down so that something larger could stand up, and that distinction between what is taken from you and what you give is the whole of who I am.",
+  "s": ""
+ },
+ {
+  "z": -7000,
+  "yr": "TODAY",
+  "nm": "DOWNTOWN",
+  "d": "Today I live in the memory of grandmothers who still calculate prices in me under their breath, and in the coins Spaniards keep in the backs of drawers not for their value but for what they remember — which is, when you think about it, a far kinder afterlife than most currencies are granted.",
+  "s": ""
+ }
+];
+
+/* HIS MEMORIES. The same face in every century — Universe Law #1 as the interface. */
+const MEM = [
+ {
+  "z": -2150,
+  "x": -460,
+  "y": 100,
+  "w": 400,
+  "img": "eras/1920_ed24f140.webp",
+  "t": "1920s",
+  "e": "1920"
+ },
+ {
+  "z": -2280,
+  "x": 480,
+  "y": -110,
+  "w": 340,
+  "img": "eras/1930_2bc88ed9.webp",
+  "t": "1930s",
+  "e": "1930"
+ },
+ {
+  "z": -2410,
+  "x": -500,
+  "y": 100,
+  "w": 400,
+  "img": "eras/1940_0304013d.webp",
+  "t": "1940s",
+  "e": "1940"
+ },
+ {
+  "z": -3150,
+  "x": 460,
+  "y": -110,
+  "w": 340,
+  "img": "eras/1950_3f8d4aed.webp",
+  "t": "1950s",
+  "e": "1950"
+ },
+ {
+  "z": -3280,
+  "x": -480,
+  "y": 100,
+  "w": 400,
+  "img": "eras/1960_77458941.webp",
+  "t": "1960s",
+  "e": "1960"
+ },
+ {
+  "z": -3410,
+  "x": 500,
+  "y": -110,
+  "w": 340,
+  "img": "eras/1970_4eae0e5b.webp",
+  "t": "1970s",
+  "e": "1970"
+ },
+ {
+  "z": -4150,
+  "x": -460,
+  "y": 100,
+  "w": 400,
+  "img": "eras/1980_f13c8335.webp",
+  "t": "1980s",
+  "e": "1980"
+ }
+];
+
+/* INTERSECTIONS. Real crossings — both lines have a station in the same years. */
+const XFER = [
+ {
+  "z": -60,
+  "k": "isabelle",
+  "nm": "ISABELLE",
+  "as": "FRENCH FRANC",
+  "why": "1868. It happened to me. It happened to Isabelle too.",
+  "c": "#9c7f88"
+ },
+ {
+  "z": -4060,
+  "k": "scarlett",
+  "nm": "SCARLETT",
+  "as": "AUSTRALIAN DOLLAR",
+  "why": "1986. It happened to me. It happened to Scarlett too.",
+  "c": "#a9705c"
+ },
+ {
+  "z": -3060,
+  "k": "klaus",
+  "nm": "KLAUS",
+  "as": "GERMAN DEUTSCHE MARK",
+  "why": "1959. It happened to me. It happened to Klaus too.",
+  "c": "#7c8ba6"
+ },
+ {
+  "z": -1060,
+  "k": "valentina",
+  "nm": "VALENTINA",
+  "as": "ARGENTINE PESO",
+  "why": "1883. It happened to me. It happened to Valentina too.",
+  "c": "#7c8ba6"
+ }
+];
+
+/* THE OTHER LINES. The universe you are inside. */
+const OTH = [
+ {
+  "k": "aiko",
+  "x": 720,
+  "y": 150,
+  "z": -700,
+  "c": "#a37c94"
+ },
+ {
+  "k": "alexandros",
+  "x": -700,
+  "y": -170,
+  "z": -1800,
+  "c": "#b08d57"
+ },
+ {
+  "k": "ana",
+  "x": 720,
+  "y": 150,
+  "z": -2900,
+  "c": "#7c8ba6"
+ },
+ {
+  "k": "aurora",
+  "x": -700,
+  "y": -170,
+  "z": -4000,
+  "c": "#C8A44D"
+ },
+ {
+  "k": "camila",
+  "x": 720,
+  "y": 150,
+  "z": -5100,
+  "c": "#7c8ba6"
+ },
+ {
+  "k": "catalina",
+  "x": -700,
+  "y": -170,
+  "z": -6200,
+  "c": "#7c8ba6"
+ }
+];
+
+const POR = k => "media/characters/"+k+"/"+k+"_portrait.webp";
+
+const scene=document.getElementById('scene'), world=document.getElementById('world');
+const mk=h=>{const d=document.createElement('div');d.innerHTML=h.trim();return d.firstElementChild;};
+
+for(let i=0;i<70;i++) scene.appendChild(mk(
+  `<div class="rail" data-z="${-i*105}" data-x="0" data-y="0"></div>`));
+for(let i=0;i<90;i++) scene.appendChild(mk(
+  `<div class="mote" data-z="${-Math.random()*7200}" data-x="${(Math.random()-.5)*1200}"
+        data-y="${(Math.random()-.5)*700}" style="opacity:${.15+Math.random()*.4}"></div>`));
+
+/* the other lines drifting past. On a phone they fly at ±700px — off the screen entirely, so
+   the universe you are supposed to feel around you simply is not there. Pull them in. */
+const OX = (innerWidth < 760) ? 0.42 : 1;
+OTH.forEach(o=>scene.appendChild(mk(`
+  <div class="oth" data-z="${o.z}" data-x="${Math.round(o.x*OX)}" data-y="${o.y}" data-k="${o.k}"
+       title="Ride ${o.k}'s line" style="pointer-events:auto">
+    <div class="ring" style="border:1px solid ${o.c}66;box-shadow:0 0 44px ${o.c}33">
+      <img src="${POR(o.k)}" alt="" loading="lazy"></div>
+    <div class="nm" style="color:${o.c}">${o.k}</div>
+    <div class="thread" style="background:linear-gradient(${o.c}88,transparent)"></div>
+  </div>`)));
+
+/* his face waits at the origin */
+scene.appendChild(mk(`
+  <div class="face" data-z="60" data-x="0" data-y="-40">
+    <div class="ring"><img src="${M}citizen.jpg" alt="Alexandros"></div>
+  </div>`));
+
+/* ── THE TUNNEL IS NARROWER ON A PHONE ────────────────────────────────────────────────
+   CEO 2026-07-13: "the mobile version also looks very different and crowded."
+
+   The memories are placed at x = ±470 and drawn 340–400px wide. On a 1600px screen that is a
+   corridor you fly down. On a 390px phone it is a pile-up: the frames sit off-screen, or on top
+   of the station card, or on each other.
+
+   These are JS positions, so no media query can reach them. The layout is COMPUTED for the
+   viewport instead: on a phone the corridor narrows and the frames shrink, so the same ride
+   reads at 390px as it does at 1600px. Mobile is designed, not shrunk. */
+const NARROW = innerWidth < 760;
+const MX = NARROW ? 0.40 : 1;                  // pull the memories in toward the spine
+const MW = NARROW ? 0.55 : 1;                  // and make the frames smaller with them
+
+MEM.forEach(m=>{
+  const w = Math.round(m.w * MW);
+  scene.appendChild(mk(`
+  <div class="mem" data-z="${m.z}" data-x="${Math.round(m.x*MX)}" data-y="${m.y}" style="width:${w}px;margin-left:${-w/2}px">
+    <img src="${M}${m.img}" alt="" loading="lazy">
+    <div class="cap"><b>${m.e}</b>${m.t}</div>
+  </div>`));
+});
+
+ST.forEach((s,i)=>scene.appendChild(mk(`
+  <div class="st" data-z="${s.z}" data-x="0" data-y="0" style="width:420px;margin-left:-210px">
+    <div class="plate"><div class="yr">${s.yr}</div><div class="nm">${s.nm}</div></div>
+    <div class="thread" style="height:${i<ST.length-1?1200:0}px"></div>
+  </div>`)));
+
+/* ── THE INTERSECTIONS. Someone is standing on the platform. ───────────────── */
+XFER.forEach((x,i)=>scene.appendChild(mk(`
+  <div class="xfer" data-z="${x.z}" data-x="${i%2?300:-300}" data-y="150" data-k="${x.k}"
+       style="position:absolute;left:50%;top:50%;width:230px;margin-left:-115px;text-align:center;
+              transform-style:preserve-3d;cursor:pointer;pointer-events:auto;">
+    <div style="width:130px;height:130px;border-radius:50%;overflow:hidden;margin:0 auto;
+                border:2px solid ${x.c};box-shadow:0 0 60px ${x.c}66;">
+      <img src="${POR(x.k)}" alt="${x.nm}" style="width:100%;height:100%;object-fit:cover;display:block">
+    </div>
+    <div style="margin-top:10px;font:600 10px/1 ui-sans-serif,system-ui;letter-spacing:.26em;color:${x.c}">${x.nm}</div>
+    <div style="margin-top:4px;font:400 9px/1 ui-sans-serif,system-ui;letter-spacing:.2em;color:#7d8794">${x.as}</div>
+    <div style="margin-top:12px;padding:7px 14px;border:1px solid ${x.c}88;color:${x.c};
+                font:600 8px/1 ui-sans-serif,system-ui;letter-spacing:.2em;display:inline-block;
+                background:rgba(5,9,15,.75)">CHANGE LINES &rarr;</div>
+  </div>`)));
+
+/* ── THE INTERCHANGES AND THE OTHER LINES ARE DOORS ───────────────────────────────────
+   The .xfer cards in the scene carried cursor:pointer and NO click handler — they looked
+   clickable and did nothing, which is worse than looking dead, because it costs the visitor a
+   click to learn they were lied to. The .oth portraits drifting past had the same problem.
+   Both now board that custodian's line. One rule: if it looks like a door, it opens. */
+scene.addEventListener('click', e => {
+  const n = e.target.closest('.xfer, .oth');
+  if (n && n.dataset.k) location.href = 'underground_' + n.dataset.k + '.html';
+});
+
+const nodes=[...scene.children].map(n=>({
+  el:n, z:+n.dataset.z, x:+(n.dataset.x||0), y:+(n.dataset.y||0),
+  kind:n.className.split(' ')[0]
+}));
+
+/* ── WHAT YOU CAN DO AT A STATION ─────────────────────────────────────────────
+   Loaded from the hub the system INVENTORIED. A button that does not lead anywhere is a
+   lie — so a button only appears if the asset actually exists. Empty slots say NOT YET
+   MADE, which is honest, and which also tells the visitor there is more coming. */
+/* INLINE, NOT FETCHED. fetch() of a local JSON is blocked under file:// — so opening this
+   page from disk left HUB null and NO BUTTONS APPEARED. I made the data depend on a network
+   call for something I could simply embed. It works from disk and from the web now. */
+
+const HUB = {
+ "explore": [
+  {
+   "title": "His whole world — the 19-field Human Matrix",
+   "href": "explore/carlos.html"
+  }
+ ],
+ "saga": [
+  {
+   "book": "THE ROOM",
+   "ch": "Chapter 24",
+   "title": "The Night The Currencies Died",
+   "n": 10,
+   "words": 5191
+  },
+  {
+   "book": "THE COUNTERPARTY",
+   "ch": "Chapter 6",
+   "title": "The Conversion Rate",
+   "n": 2,
+   "words": 3659
+  }
+ ],
+ "museum": [
+  {
+   "title": "First Peseta Coin (Hispania Design)",
+   "institution": "Heritage Auctions (referenced example) / Museo Casa de la Moneda",
+   "accession": "1869 Peseta Hispania",
+   "licence": "Museo Casa de la Moneda terms",
+   "showable": false,
+   "href": "https://www.museocasadelamoneda.es/"
+  },
+  {
+   "title": "Goya's Saturn Devouring His Son",
+   "institution": "Museo Nacional del Prado",
+   "accession": "P000763",
+   "licence": "Museo del Prado terms",
+   "showable": false,
+   "href": "https://www.museodelprado.es/en/the-collection/art-work/saturn/"
+  },
+  {
+   "title": "Museo Casa de la Moneda Collection",
+   "institution": "Museo Casa de la Moneda",
+   "accession": "Museo Casa de la Moneda general collection",
+   "licence": "Museo Casa de la Moneda terms",
+   "showable": false,
+   "href": "https://www.museocasadelamoneda.es/"
+  },
+  {
+   "title": "FNMT Historical Peseta Printing Plates",
+   "institution": "Fábrica Nacional de Moneda y Timbre (FNMT)",
+   "accession": "FNMT historical plates",
+   "licence": "FNMT terms",
+   "showable": false,
+   "href": "https://www.fnmt.es/en/historia-de-la-peseta/"
+  },
+  {
+   "title": "Puerta del Sol Historical Photographs",
+   "institution": "Referenced via Spanish national photo archives",
+   "accession": "Puerta del Sol historical photos",
+   "licence": "CC BY-SA (Wikimedia reference)",
+   "showable": false,
+   "href": "https://en.wikipedia.org/wiki/Puerta_del_Sol"
+  }
+ ],
+ "sources": [
+  {
+   "title": "FNMT: History of the Peseta",
+   "who": "Fábrica Nacional de Moneda y Timbre",
+   "href": "https://www.fnmt.es/en/historia-de-la-peseta/"
+  },
+  {
+   "title": "Wikipedia: Spanish Peseta",
+   "who": "Wikipedia contributors",
+   "href": "https://en.wikipedia.org/wiki/Spanish_peseta"
+  },
+  {
+   "title": "Museo del Prado Collection Record: Saturn Devouring His Son",
+   "who": "Museo Nacional del Prado",
+   "href": "https://www.museodelprado.es/en/the-collection/art-work/saturn/"
+  },
+  {
+   "title": "Museo Casa de la Moneda Official Archive",
+   "who": "Museo Casa de la Moneda",
+   "href": "https://www.museocasadelamoneda.es/"
+  },
+  {
+   "title": "Wikipedia: Puerta del Sol",
+   "who": "Wikipedia contributors",
+   "href": "https://en.wikipedia.org/wiki/Puerta_del_Sol"
+  }
+ ]
+};
+
+const drawer=document.getElementById('drawer'), dttl=document.getElementById('dttl'),
+      dbody=document.getElementById('dbody'), hubEl=document.getElementById('hub');
+document.getElementById('dclose').onclick=()=>{drawer.style.display='none';};
+addEventListener('keydown',e=>{ if(e.key==='Escape') drawer.style.display='none'; });
+
+const esc=s=>String(s||'').replace(/[<>&]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;'}[c]));
+
+function openDrawer(kind){
+  if(!HUB) return;
+  drawer.style.display='block'; drawer.scrollTop=0;
+  dttl.textContent=kind;
+  let h='';
+  if(kind==='WATCH'){
+    /* THE PLAYER MUST FIT THE FILM, NOT THE OTHER WAY ROUND.
+       This was width:100% — fine for Alexandros, whose film is 16:9. Clara's is 9:16, shot
+       VERTICAL for social on purpose. width:100% in a 900px drawer would have rendered her
+       film about 1600px TALL: a skyscraper you scroll past rather than watch.
+       max-height bounds it by the WINDOW, and width:auto lets the shape decide. A landscape
+       film still fills the drawer; a vertical one stands up in the middle of it. */
+    HUB.watch.forEach(v=>{ h+=`<video controls playsinline
+      style="display:block;margin:0 auto;width:auto;max-width:100%;max-height:76vh;
+             border:1px solid #22303f;background:#000"
+      src="${v.href}"></video><p style="margin-top:10px;text-align:center;font:italic 14px Georgia,serif;color:#9aa3ad">${esc(v.title)}</p>`; });
+  }
+  if(kind==='MUSEUM'){
+    h+=`<p style="font:italic 14px/1.6 Georgia,serif;color:#9aa3ad;margin-bottom:22px">
+      Real objects, real accession numbers. Only objects under an open licence are DISPLAYED —
+      the rest are named and linked to their institution, because a licence is a licence.</p>`;
+    HUB.museum.forEach(o=>{
+      const ok = o.showable;
+      h+=`<div style="border-left:2px solid ${ok?'#C8A44D':'#2a3542'};padding:12px 16px;margin-bottom:14px">
+        <div style="font:600 15px Georgia,serif">${esc(o.title)}</div>
+        <div style="margin-top:5px;font:400 12px ui-sans-serif,system-ui;color:#7d8794">
+          ${esc(o.institution)} &middot; acc. ${esc(o.accession)}</div>
+        <div style="margin-top:6px;font:400 11px ui-sans-serif,system-ui;color:${ok?'#C8A44D':'#5d6a78'}">
+          ${ok?'OPEN LICENCE — may be shown':'LICENCE: '+esc(o.licence)+' — cited, not shown'}</div>
+        ${o.href?`<a href="${o.href}" target="_blank" rel="noopener"
+          style="display:inline-block;margin-top:9px;font:600 9px ui-sans-serif,system-ui;
+          letter-spacing:.2em;color:#C8A44D;text-decoration:none">SEE IT AT THE MUSEUM &rarr;</a>`:''}
+      </div>`;
+    });
+  }
+  if(kind==='SOURCES'){
+    h+=`<p style="font:italic 14px/1.6 Georgia,serif;color:#9aa3ad;margin-bottom:22px">
+      Every claim on this line traces to one of these. Check us.</p>`;
+    HUB.sources.forEach(s=>{
+      h+=`<div style="border-left:2px solid #2a3542;padding:12px 16px;margin-bottom:12px">
+        <div style="font:600 15px Georgia,serif">${esc(s.title)}</div>
+        <div style="margin-top:5px;font:400 12px ui-sans-serif,system-ui;color:#7d8794">${esc(s.who)}</div>
+        <a href="${s.href}" target="_blank" rel="noopener" style="display:inline-block;margin-top:9px;
+          font:600 9px ui-sans-serif,system-ui;letter-spacing:.2em;color:#C8A44D;text-decoration:none">READ IT &rarr;</a>
+      </div>`;
+    });
+  }
+  if(kind==='EXPLORE'){
+    HUB.explore.forEach(x=>{ h+=`<a href="${x.href}" style="display:block;border-left:2px solid #C8A44D;
+      padding:14px 16px;margin-bottom:12px;color:#EDE6D6;text-decoration:none;font:600 16px Georgia,serif">
+      ${esc(x.title)} &rarr;</a>`; });
+  }
+  if(kind==='SAGA'){
+    h+=`<p style="font:italic 14px/1.6 Georgia,serif;color:#9aa3ad;margin-bottom:22px">
+      He is not a cameo. He is written into all three books — these are the chapters he stands in.</p>`;
+    const yr = YEARS[shown];
+    const list = HUB.saga.filter(s=>s.at===yr);
+    (list.length?list:HUB.saga).forEach((s,i)=>{
+      const idx = HUB.saga.indexOf(s);
+      h+=`<div style="border-left:2px solid #C8A44D;padding:12px 16px;margin-bottom:14px">
+        <div style="font:600 8.5px/1 ui-sans-serif,system-ui;letter-spacing:.26em;color:#7d8794">${esc(s.book)}</div>
+        <div style="margin-top:8px;font:600 17px Georgia,serif">${esc(s.ch)} &middot; ${esc(s.title)}</div>
+        <div style="margin-top:6px;font:400 11px ui-sans-serif,system-ui;color:#7d8794">
+          he is named ${s.n} time${s.n>1?'s':''} &middot; ${s.words.toLocaleString()} words</div>
+        <button data-read="${idx}" style="margin-top:11px;background:rgba(200,164,77,.12);
+          border:1px solid rgba(200,164,77,.45);color:#C8A44D;font:600 9px ui-sans-serif,system-ui;
+          letter-spacing:.22em;padding:9px 15px;cursor:pointer">READ THE CHAPTER &rarr;</button>
+      </div>`;
+    });
+    setTimeout(()=>{
+      [...dbody.querySelectorAll('[data-read]')].forEach(b=>
+        b.onclick=()=>readChapter(+b.dataset.read));
+    },0);
+  }
+  dbody.innerHTML = h || `<p style="font:italic 15px Georgia,serif;color:#7d8794">
+    Nothing here yet. This is not a placeholder — it is the production list.</p>`;
+}
+
+/* ── THE READER. Members only. Nothing downloadable — because nothing is a FILE. ──────
+   CEO: "Members should be able to have full access — books, saga, comics. They can't
+         download the books though."
+
+   THE HONEST TRUTH, STATED ONCE, IN THE CODE:
+   YOU CANNOT PREVENT DOWNLOAD IN A BROWSER. Anything the screen renders can be photographed,
+   and any text the page holds can be lifted from devtools by anyone who cares to. Disabled
+   right-click and no-select are a DETERRENT. They are not DRM, and I will not pretend they are.
+
+   WHAT IS ACTUALLY REAL HERE:
+     1. NO FILE IS EVER SERVED. No PDF, no EPUB, no .docx at any URL. The book is not
+        downloadable because THERE IS NOTHING TO DOWNLOAD — only text delivered into a session.
+        That is the whole of the protection that holds.
+     2. A PER-MEMBER WATERMARK on the page. A leaked screenshot names the person who leaked it.
+        Not prevention — ACCOUNTABILITY. Accountability is what actually changes behaviour.
+     3. THE MEMBERSHIP CHECK MUST BE SERVER-SIDE. A gate enforced in JavaScript is a suggestion.
+        This reader FAILS CLOSED: if it cannot reach the real gate, it does not open the book.  */
+let SAGA = null, MEMBER = null;
+
+async function member(){
+  if(MEMBER !== null) return MEMBER;
+  try{
+    if(window.THAuth && typeof window.THAuth.isMember === 'function'){
+      MEMBER = await window.THAuth.isMember();          // the site's real Supabase gate
+    } else if(window.supabase){
+      const {data} = await window.supabase.auth.getUser();
+      MEMBER = !!(data && data.user);
+    } else {
+      MEMBER = false;                                    // FAIL CLOSED. Never fail open on a paywall.
+    }
+  }catch(e){ MEMBER = false; }
+  return MEMBER;
+}
+
+async function readChapter(i){
+  if(!SAGA){
+    // EMBEDDED, NOT FETCHED. fetch() dies under file:// — the same trap that made every hub
+    // button silently vanish. The text ships WITH the page: it works from disk and from the web.
+    try{ SAGA = JSON.parse(document.getElementById('sagadata').textContent); }catch(e){ SAGA=null; }
+    if((!SAGA || !SAGA.length) && window.TH_SAGA_URL){
+      try{ SAGA = await (await fetch(window.TH_SAGA_URL)).json(); }
+      catch(e){ SAGA=null; }
+    }
+  }
+  const c = SAGA && SAGA[i];
+  const ok = await member();
+
+  if(!ok){
+    dttl.textContent = "MEMBERS ONLY";
+    dbody.innerHTML = `
+      <div style="max-width:540px">
+        <div style="font:700 26px/1.25 Georgia,serif;color:#EDE6D6">
+          ${c?esc(c.chapter)+' &middot; '+esc(c.title):'The Saga'}</div>
+        <p style="margin-top:16px;font:italic 15px/1.7 Georgia,serif;color:#9aa3ad">
+          The three books are read inside The Exchange. Members read every chapter, every comic,
+          every film — the whole world, with nothing held back.</p>
+        <p style="margin-top:12px;font:400 13px/1.6 ui-sans-serif,system-ui;color:#7d8794">
+          The books are never downloadable. There is no file to take — only the text, in front of
+          you, for as long as you are a member.</p>
+        <a href="index.html#join" style="display:inline-block;margin-top:20px;padding:13px 26px;
+          border:1px solid #C8A44D;color:#C8A44D;text-decoration:none;
+          font:600 9px ui-sans-serif,system-ui;letter-spacing:.26em">JOIN THE EXCHANGE &rarr;</a>
+      </div>`;
+    return;
+  }
+
+  if(!c){ dbody.innerHTML = `<p style="color:#7d8794;font:italic 15px Georgia,serif">
+      The chapter text is served to a member session and this page was opened without one.</p>`;
+    return; }
+
+  const who = (window.THAuth && window.THAuth.email) || 'member';
+  dttl.textContent = c.book_title + " · " + c.chapter;
+  dbody.innerHTML = `
+    <div id="rdr" style="max-width:680px;margin:0 auto;-webkit-user-select:none;user-select:none">
+      <div style="font:700 30px/1.25 Georgia,serif;color:#EDE6D6">${esc(c.title)}</div>
+      <div style="margin-top:8px;font:600 9px ui-sans-serif,system-ui;letter-spacing:.26em;color:#7d8794">
+        ${esc(c.book_title)} &middot; ${esc(c.chapter)} &middot; ${c.words.toLocaleString()} WORDS</div>
+      <div style="height:1px;background:#22303f;margin:26px 0"></div>
+      ${c.paragraphs.map(p=>`<p style="margin:0 0 20px;font:400 17px/1.75 Georgia,serif;color:#D8D2C6">${esc(p)}</p>`).join('')}
+      <div style="height:1px;background:#22303f;margin:30px 0 16px"></div>
+      <p style="font:400 10px ui-sans-serif,system-ui;color:#3d4854;letter-spacing:.1em">
+        Read by ${esc(who)} &middot; Trading Hearts Productions LLC &middot; not for distribution</p>
+    </div>`;
+  const r = document.getElementById('rdr');
+  r.oncontextmenu = e=>{e.preventDefault(); return false;};   // friction, not security
+  r.oncopy        = e=>{e.preventDefault(); return false;};
+}
+
+/* WHICH OPTIONS THIS STATION ACTUALLY OFFERS.
+   Not the same six buttons everywhere — that is a template. The evidence lives at the origin;
+   the saga chapters live at the years they are ABOUT. Only what exists, only where it belongs. */
+const YEARS=[1868,1883,1936,1959,1986,1992,2002,2025];
+function hubFor(i){
+  // NEVER ASSUME A HUB SECTION EXISTS. This read HUB.watch.length directly — and only Alexandros
+  // has a film. On the other 27 pages that line throws, and the ENTIRE hub row silently fails to
+  // render: every button gone, no error anyone would ever see. An optional section must be read
+  // as optional.
+  const opts=[];
+  const yr=YEARS[i];
+  const M=HUB.museum||[], S=HUB.sources||[], G=HUB.saga||[], W=HUB.watch||[], E=HUB.explore||[];
+  const last = ST.length-1;
+  if(i===0){                                   // the origin: this is where the evidence is
+    if(M.length) opts.push(['MUSEUM',  M.length+' objects']);
+    if(S.length) opts.push(['SOURCES', S.length+' primary']);
+  }
+  // THE SAGA RIDES WITH HIM. CEO 2026-07-13:
+  //   "The Saga should then be part of the whole ride if the character appears on it.
+  //    the year does not matter."
+  //
+  // I had pinned it to one station — the year-matched one for Alexandros, DOWNTOWN for the rest
+  // — and that was me treating a book like an event. It is not an event. A custodian does not
+  // stop being in Book Two when you fly past 1971. He is in it at every station, because the
+  // books are ABOUT him, and the reader should be able to open them from wherever they are
+  // standing.
+  //
+  // So: if he is named in a chapter, the SAGA door is open at every station on his line.
+  if(G.length) opts.push(['SAGA', G.length+' chapter'+(G.length>1?'s':'')]);
+  if(W.length) opts.push(['WATCH',   'the film']);
+  if(E.length) opts.push(['EXPLORE', 'his world']);
+  return opts;
+}
+
+const xbox=document.getElementById('xbox'), xn=document.getElementById('xn'),
+      xa=document.getElementById('xa'), xw=document.getElementById('xw'),
+      xb=document.getElementById('xb');
+let xshown=-1;
+
+/* THE TH CURSOR — identical to the homepage's. The dot follows exactly; the ring lags and
+   catches up, which is what makes it feel like an object rather than a graphic. */
+(function(){
+  const dot=document.getElementById('cursor'), ring=document.getElementById('cursorRing');
+  if(!dot||!ring||matchMedia('(hover:none)').matches) return;
+  let mx=0,my=0,rx=0,ry=0;
+  addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;dot.style.left=mx+'px';dot.style.top=my+'px';});
+  (function loop(){ rx+=(mx-rx)*0.12; ry+=(my-ry)*0.12;
+    ring.style.left=rx+'px'; ring.style.top=ry+'px'; requestAnimationFrame(loop); })();
+  const grow=()=>{ring.style.transform='translate(-50%,-50%) scale(2)';ring.style.borderColor='rgba(200,164,77,.6)';};
+  const shrink=()=>{ring.style.transform='translate(-50%,-50%) scale(1)';ring.style.borderColor='rgba(200,164,77,.4)';};
+  // delegated — the stations, memories and interchanges are built after this runs
+  addEventListener('mouseover',e=>{ if(e.target.closest('a,button,.mem,.st,.xfer,.oth,[onclick]')) grow(); });
+  addEventListener('mouseout', e=>{ if(e.target.closest('a,button,.mem,.st,.xfer,.oth,[onclick]')) shrink(); });
+})();
+
+const MAX=7200; let cam=0, tgt=0, shown=-1;
+
+/* HOW TO RIDE — shown once, dismissed by ANY input. It explains, then it disappears; it never
+   asks twice. A tutorial you have to close twice is a tutorial people learn to resent. */
+const howEl=document.getElementById('how');
+const howGone=()=>{ if(howEl && !howEl.classList.contains('gone')) howEl.classList.add('gone'); };
+if(howEl){
+  document.getElementById('howGo').onclick=howGone;
+  howEl.addEventListener('click',howGone);
+  ['wheel','pointerdown','keydown','touchstart'].forEach(ev=>
+    addEventListener(ev,howGone,{passive:true,once:true}));
+}
+
+const move=d=>{ howGone(); tgt=Math.min(MAX,Math.max(0,tgt+d)); hint.style.opacity=tgt>60?0:1; };
+world.addEventListener('wheel',e=>{e.preventDefault();move(e.deltaY*1.5);},{passive:false});
+let dy=null;
+world.addEventListener('pointerdown',e=>dy=e.clientY);
+addEventListener('pointerup',()=>dy=null);
+addEventListener('pointermove',e=>{if(dy!==null){move((dy-e.clientY)*4);dy=e.clientY;}});
+world.tabIndex=0;
+addEventListener('keydown',e=>{
+  if(['ArrowDown','ArrowRight','PageDown',' '].includes(e.key)){move(400);e.preventDefault();}
+  if(['ArrowUp','ArrowLeft','PageUp'].includes(e.key)){move(-400);e.preventDefault();}
+});
+
+const yrEl=document.getElementById('yr'), erEl=document.getElementById('er'),
+      card=document.getElementById('card'), cn=document.getElementById('cn'),
+      cd=document.getElementById('cd'), cs=document.getElementById('cs'),
+      hint=document.getElementById('hint');
+const ERA=[[0, "BORN IN REVOLUTION"], [1000, "LEAVING THE GOLD ROOM"], [2000, "TWO FACES, ONE CURRENC"], [3000, "THE STABILIZATION PLAN"], [4000, "ENTERING EUROPE"], [5000, "THE DEVALUATIONS"], [6000, "THE VOLUNTARY DEATH"], [7000, "STILL COUNTED, STILL L"]];
+
+/* ── HIS THEME, AND IT STARTS BY ITSELF ──────────────────────────────────────────────
+   CEO: "the music of each of the custodians should automatically play."
+
+   The honest engineering caveat, stated rather than hidden: NO BROWSER WILL AUTOPLAY AUDIO
+   WITH SOUND on a cold page load. Chrome, Safari and Firefox all block it until the visitor
+   has interacted with the page. That is not a bug I can code around, and anyone who promises
+   otherwise is going to hand you a silent page.
+
+   So we do the only thing that both obeys the browser and keeps the promise: we TRY to play
+   immediately, and if the browser refuses, the theme starts on the visitor's FIRST touch of
+   the page — the first scroll, drag, click or key. On this ride that is instant, because the
+   ride does not move until they move it. They will never see a "click to play" wall; the
+   music simply arrives with the tunnel.
+
+   THE THEME IS HIS. assets/cast_audio/<k>.mp3 — the composed Suno theme, not an era track. */
+const au=document.getElementById('au'), snd=document.getElementById('snd'),
+      sl=document.getElementById('sl'), bars=[...document.querySelectorAll('#eq i')];
+const THEME_LABEL = "Play the Carlos theme";     // per-custodian; the generator rewrites this line
+let playing=false;
+
+function themeOn(){
+  if(playing) return;
+  au.volume=0;                             // never SLAM in. Fade the line up under the visitor.
+  const p = au.play();
+  if(p && p.catch) p.catch(()=>{});
+  if(!au.paused || p){
+    playing=true; sl.textContent="Playing";
+    let v=0; const fade=setInterval(()=>{ v=Math.min(.55, v+.03); au.volume=v;
+                                          if(v>=.55) clearInterval(fade); }, 60);
+  }
+}
+function themeOff(){ au.pause(); playing=false; sl.textContent=THEME_LABEL; }
+
+sl.textContent = THEME_LABEL;
+themeOn();                                  // try it cold — some browsers will allow it
+
+/* if the browser refused, the FIRST gesture starts it. once, then the listeners retire. */
+["pointerdown","keydown","wheel","touchstart"].forEach(ev =>
+  window.addEventListener(ev, function once(){
+    themeOn();
+    if(playing) ["pointerdown","keydown","wheel","touchstart"]
+      .forEach(e2 => window.removeEventListener(e2, once));
+  }, {passive:true}));
+
+/* the button is now a MUTE, not a beg. */
+snd.onclick=()=>{ playing ? themeOff() : themeOn(); };
+
+function tick(){
+  cam += (tgt-cam)*0.07;
+  const t = cam/MAX;
+
+  world.style.background =
+    `radial-gradient(ellipse at 50% ${44+5*t}%,
+      rgb(${13+150*t},${23+160*t},${37+150*t}) 0%,
+      rgb(${7+60*t},${12+70*t},${20+72*t}) 52%,
+      rgb(${3+22*t},${5+26*t},${10+30*t}) 100%)`;
+
+  for(const n of nodes){
+    const z = n.z + cam;
+    n.el.style.transform = `translate3d(${n.x}px, ${n.y}px, ${z}px)`;
+    if(n.kind==='rail'){ n.el.style.opacity = Math.max(.04, Math.min(.85, 1-Math.abs(z)/1500)); continue; }
+    if(n.kind==='mote') continue;
+    const near = 1 - Math.min(1, Math.abs(z)/1700);
+    n.el.style.opacity = (n.kind==='oth' ? .10+.55*near : .06+.94*near).toFixed(3);
+    n.el.style.filter  = n.kind==='oth'
+      ? `grayscale(${(.9-.55*near).toFixed(2)}) brightness(${(.4+.55*near).toFixed(2)}) blur(${(3*(1-near)).toFixed(1)}px)`
+      : `blur(${(6*(1-near)).toFixed(1)}px)`;
+  }
+
+  /* AN INTERSECTION. Someone is on the platform, and you can go with them. */
+  let xi=-1, xd=1e9;
+  XFER.forEach((x,i)=>{const d=Math.abs(x.z+cam); if(d<xd){xd=d;xi=i;}});
+  if(xd<450){
+    const x=XFER[xi];
+    if(xshown!==xi){
+      xn.textContent=x.nm; xa.textContent=x.as; xw.textContent=x.why;
+      xb.style.borderColor=x.c; xb.style.color=x.c; xn.style.color=x.c;
+      /* CHANGE LINES MEANS CHANGE LINES. CEO 2026-07-13: "when i clicked into switch to aurora,
+         this window opened instead of aurora line."
+         It went to explore/<k>.html — her ARCHIVE. The whole promise of an interchange is that
+         you can leave his line and ride HERS; sending you to a reading room instead is the
+         single most disappointing thing this button could do. */
+      xb.onclick=()=>{ location.href = "underground_"+x.k+".html"; };
+      xshown=xi;
+    }
+    xbox.style.opacity=1; xbox.style.transform='translateY(0)';
+  } else { xbox.style.opacity=0; xbox.style.transform='translateY(10px)'; xshown=-1; }
+
+  let bi=-1, bd=1e9;
+  ST.forEach((s,i)=>{const d=Math.abs(s.z+cam); if(d<bd){bd=d;bi=i;}});
+  if(bd<600){
+    if(bi!==shown){ const s=ST[bi];
+      cn.textContent=s.nm; cd.textContent=s.d; cs.textContent=s.s;
+      cs.style.display=s.s?'block':'none'; shown=bi;
+      // the options for THIS station — only the ones that lead somewhere real
+      const opts=hubFor(bi);
+      hubEl.innerHTML = opts.map(([k,sub])=>
+        `<button data-k="${k}" style="background:rgba(200,164,77,.10);border:1px solid rgba(200,164,77,.42);
+          color:#C8A44D;font:600 8.5px/1 ui-sans-serif,system-ui;letter-spacing:.2em;
+          padding:8px 11px;cursor:pointer">${k}<span style="display:block;margin-top:3px;
+          color:#7d8794;letter-spacing:.1em;font-weight:400">${sub}</span></button>`).join('');
+      // EXPLORE GOES STRAIGHT TO HIS PAGE. CEO 2026-07-13: "the EXPLORE his world button should
+      // lead to the custodian main page. its empty now."
+      //
+      // It was opening a drawer that contained ONE link, which you then had to click to reach
+      // the page you already asked for. A drawer whose only content is a link to somewhere else
+      // is not a destination — it is a toll booth. The button now does what its label says.
+      [...hubEl.querySelectorAll('button')].forEach(b=>b.onclick=()=>{
+        if(b.dataset.k==='EXPLORE' && HUB.explore && HUB.explore[0]){
+          location.href = HUB.explore[0].href;   // his world. the 19-field Human Matrix.
+          return;
+        }
+        openDrawer(b.dataset.k);
+      });
+    }
+    card.style.opacity=1; card.style.transform='translateY(0)';
+    yrEl.textContent=ST[bi].yr;
+  } else { card.style.opacity=0; card.style.transform='translateY(10px)'; shown=-1; }
+
+  let e=ERA[0][1]; for(const [z,n] of ERA) if(cam>=z) e=n; erEl.textContent=e;
+
+  if(playing) bars.forEach((b,i)=>b.style.height=(3+Math.random()*9*(0.5+0.5*Math.sin(Date.now()/220+i)))+'px');
+  else bars.forEach(b=>b.style.height='3px');
+
+  requestAnimationFrame(tick);
+}
+tick();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{
+ "custodian": "clara",
+ "name": "Clara Weiss",
+ "asset": "Swiss Franc",
+ "stations": [
+  {
+   "year": 1850,
+   "label": "THE FRANC IS BORN",
+   "line": "The Federal Coinage Act gave me a single body at last \u2014 one franc for a country that had spoken in a hundred coins, and I decided quietly that I would be the currency no one had to worry about.",
+   "era_photo": "A daguerreotype in a Bern mint courtyard, 1850: a woman in a dark high-collared day dress standing beside stacks of freshly struck silver coins, the long exposure blurring the workmen behind her, the plate silvered and faintly mirror-bright at the edges."
+  },
+  {
+   "year": 1865,
+   "label": "THE LATIN MONETARY UNION",
+   "line": "I tied myself to France, Belgium and Italy by weight of silver \u2014 not from affection but from arithmetic, because a franc that can be checked against a gram is a franc that keeps its word.",
+   "era_photo": "An albumen print, 1865: the same woman seated at a treaty table among frock-coated delegates in Paris, gaslit interior, sepia tones, her hands resting on a ledger of coin standards, everything sharp except a draped curtain caught mid-motion."
+  },
+  {
+   "year": 1936,
+   "label": "THE YEAR I FINALLY BENT",
+   "line": "I had held my gold value while the whole world abandoned theirs, and in September I devalued at last \u2014 thirty percent \u2014 the only time I let go of the rope, and I never forgot how the floor felt when it moved.",
+   "era_photo": "A silver gelatin press photograph, 1936: a woman in a tailored grey wool suit and cloche descendant hat outside the Swiss National Bank in Z\u00fcrich, grain heavy in the shadows, headlines about devaluation pinned to a newsstand behind her."
+  },
+  {
+   "year": 1945,
+   "label": "THE VAULT WHILE THEY BURNED",
+   "line": "When Europe finished burning I was still standing, convertible and calm, and everyone who had once mocked my caution came to me asking where they might put what was left \u2014 I said very little, and I opened the vault.",
+   "era_photo": "A black-and-white silver gelatin portrait, 1945: a composed woman in a dark postwar suit inside a bank vault in Basel, steel deposit doors behind her, hard directional lighting, fine grain, her expression unreadable."
+  },
+  {
+   "year": 1971,
+   "label": "THE ANCHOR CUT LOOSE",
+   "line": "When Nixon closed the gold window the dollar let go of its promise, and I found myself floating free \u2014 a currency without a master to peg to, which frightened others and, I confess, suited me perfectly.",
+   "era_photo": "A Kodachrome slide, 1971: a woman in a wide-collared belted dress standing before a wall of exchange-rate boards in Geneva, saturated reds and golds, the slightly warm colour cast of the film, a rotary telephone on the desk beside her."
+  },
+  {
+   "year": 2011,
+   "label": "TOO STRONG TO BEAR",
+   "line": "In the euro crisis the whole world fled into me at once, and my strength became a burden \u2014 so in September the Bank drew a line at one-twenty against the euro, a cap on my own value, which is a strange humiliation for one whose only pride was being trusted.",
+   "era_photo": "A digital DSLR photograph, 2011: a woman in a slim charcoal blazer at a glass-walled press conference in Z\u00fcrich, flat modern lighting, blue trading screens glowing behind her, crisp high-resolution detail, microphones bristling in the foreground."
+  },
+  {
+   "year": 2015,
+   "label": "THE DAY I BROKE MY WORD",
+   "line": "On the fifteenth of January I removed the cap without warning and markets shattered in minutes \u2014 I had promised a floor and then withdrew it, and I have spent every day since living with the fact that even I, the reliable one, can betray a promise.",
+   "era_photo": "A digital news photograph, January 2015: a woman in a dark coat outside the SNB building in winter, breath visible in cold air, a phone screen in her hand showing a vertical currency spike, sharp muted daylight, snow at the pavement's edge."
+  },
+  {
+   "year": 2024,
+   "label": "STILL THE QUIET VAULT",
+   "line": "Today they still run to me whenever the world catches fire, and I am still here \u2014 negative rates behind me, my word carefully rebuilt \u2014 the currency people reach for precisely because I say so little and keep so much.",
+   "era_photo": "A high-resolution digital portrait, 2024: an ageless woman in a precise modern grey suit standing in a minimalist bank atrium in Z\u00fcrich, natural window light, ultra-sharp detail, a faint reflection of the Alps in the glass behind her."
+  }
+ ]
+}

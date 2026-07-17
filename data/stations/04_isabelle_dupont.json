@@ -1,0 +1,457 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 4,
+  "character_key": "isabelle_dupont",
+  "character_name": "Isabelle Dupont",
+  "asset": "French Franc",
+  "ticker": "FRF",
+  "era": "793",
+  "era_label": "Carolingian France",
+  "era_year": 793,
+  "tagline": "She was born to ransom a king — and she never stopped being expensive."
+ },
+ "museum_objects": [
+  {
+   "id": "isabelle_dupont_obj_1",
+   "title": "Fastrada Coin of Charlemagne",
+   "date": "793-794 AD",
+   "type": "coin",
+   "material": "silver",
+   "description": "A silver denier bearing the name of Fastrada, Charlemagne's third wife, acquired by the Centre Charlemagne in 2022.",
+   "significance": "A coin minted for a queen who died within the year — dated so precisely by her death that we know almost the exact week Isabelle's story begins.",
+   "museum": "Centre Charlemagne",
+   "museum_location": "Aachen, Germany",
+   "accession_number": "2022 acquisition",
+   "collection_url": "https://www.archaeology.wiki/blog/2023/05/08/a-coin-of-queen-fastrada-and-charlemagne/",
+   "image_url": "https://www.archaeology.wiki/blog/2023/05/08/a-coin-of-queen-fastrada-and-charlemagne/",
+   "license": "Centre Charlemagne terms",
+   "open_access": false,
+   "plain_language": "A coin naming Charlemagne's wife Fastrada, who died the same year it was made — this tiny coin pins down the exact birth moment of French money.",
+   "url": "https://www.archaeology.wiki/blog/2023/05/08/a-coin-of-queen-fastrada-and-charlemagne/",
+   "accession": "2022 acquisition",
+   "institution": "Centre Charlemagne",
+   "licence": "Centre Charlemagne terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.archaeology.wiki/blog/2023/05/08/a-coin-of-queen-fastrada-and-charlemagne/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "WK Fastrada-Allee; May 2024 in the Städteregion Aachen, Dieses Kreuz erinnert an die Opfer, die in den Kriegsjahren 1944 45 in Würselen ums Leben kamen 1st Lt. R. A. Remik, Hubert Aretz; Fastradaallee (vormals Paulinenstraße.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/WK_Fastrada-Allee%3B_May_2024_in_the_St%C3%A4dteregion_Aachen%2C_Dieses_Kreuz_erinnert_an_die_Opfer%2C_die_in_den_Kriegsjahren_1944_45_in_W%C3%BCrselen_ums_Leben_kamen_1st_Lt._R._A._Remik%2C_Hubert_Aretz%3B_Fastradaallee_%28vormals_Paulinenstra%C3%9Fe.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:WK_Fastrada-Allee;_May_2024_in_the_St%C3%A4dteregion_Aachen,_Dieses_Kreuz_erinnert_an_die_Opfer,_die_in_den_Kriegsjahren_1944_45_in_W%C3%BCrselen_ums_Leben_kamen_1st_Lt._R._A._Remik,_Hubert_Aretz;_Fastradaallee_(vormals_Paulinenstra%C3%9Fe.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Qwertzu111111"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Werbung Fastrada Rethelquelle 1931.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Werbung_Fastrada_Rethelquelle_1931.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Werbung_Fastrada_Rethelquelle_1931.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Unknown authorUnknown author"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image is a painting, not a coin, so it does not match the claim of being the 'Fastrada Coin of Charlemagne'.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "isabelle_dupont_obj_2",
+   "title": "Charlemagne Portrait Denarius (Temple Type)",
+   "date": "c. 813-814 AD",
+   "type": "coin",
+   "material": "silver",
+   "description": "An extremely rare silver coin showing Charlemagne in classical portrait style, only about 50 known to survive.",
+   "significance": "Charlemagne wanted to look like a Roman emperor on his own money — proof that even the most powerful man in Europe still needed a Roman stamp of legitimacy.",
+   "museum": "Centre Charlemagne",
+   "museum_location": "Aachen, Germany",
+   "accession_number": "Temple type denier",
+   "collection_url": "https://www.centre-charlemagne.eu/",
+   "image_url": "https://www.centre-charlemagne.eu/",
+   "license": "Centre Charlemagne terms",
+   "open_access": false,
+   "plain_language": "One of only about 50 surviving coins that actually show what Charlemagne looked like, styled to resemble ancient Roman emperors.",
+   "url": "https://www.centre-charlemagne.eu/",
+   "accession": "Temple type denier",
+   "institution": "Centre Charlemagne",
+   "licence": "Centre Charlemagne terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://centre-charlemagne.eu/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "isabelle_dupont_obj_3",
+   "title": "Carolingian Denier (Mainz Mint)",
+   "date": "812-814 AD",
+   "type": "coin",
+   "material": "silver",
+   "description": "A unique surviving silver denier from the Mainz mint, part of the Bibliothèque nationale de France's medieval coin collection.",
+   "significance": "One of a kind — literally the only one known to survive from its mint and date, a single silver witness to an entire monetary system.",
+   "museum": "Bibliothèque nationale de France",
+   "museum_location": "Paris, France",
+   "accession_number": "catalogue ark:/12148/cb386395898",
+   "collection_url": "https://catalogue.bnf.fr/ark:/12148/cb386395898",
+   "image_url": "https://catalogue.bnf.fr/ark:/12148/cb386395898",
+   "license": "BnF terms",
+   "open_access": false,
+   "plain_language": "A silver coin that is the only known surviving example of its kind — one coin representing an entire vanished system of money.",
+   "url": "https://catalogue.bnf.fr/ark:/12148/cb386395898",
+   "accession": "catalogue ark:/12148/cb386395898",
+   "institution": "Bibliothèque nationale de France",
+   "licence": "BnF terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://catalogue.bnf.fr/ark:/12148/cb386395898",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "15 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "isabelle_dupont_obj_4",
+   "title": "Aachen Penny of Charlemagne",
+   "date": "c. 800-814 AD",
+   "type": "coin",
+   "material": "silver",
+   "description": "A Carolingian penny found through archaeological excavation in 2008, part of the standardized reform coinage.",
+   "significance": "Dug out of the ground centuries later, still legible — Charlemagne's reform was built to last, and this coin is the proof.",
+   "museum": "Referenced via academic literature",
+   "museum_location": "Aachen, Germany",
+   "accession_number": "2008 archaeological find",
+   "collection_url": "https://en.wikipedia.org/wiki/Aachen_penny_of_Charlemagne",
+   "image_url": "https://en.wikipedia.org/wiki/Aachen_penny_of_Charlemagne",
+   "license": "CC BY-SA (Wikipedia)",
+   "open_access": true,
+   "plain_language": "A silver penny dug up by archaeologists, part of the currency reform that gave medieval Europe its first standardized money.",
+   "url": "https://en.wikipedia.org/wiki/Aachen_penny_of_Charlemagne",
+   "accession": "2008 archaeological find",
+   "institution": "Referenced via academic literature",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Aachen_penny_of_Charlemagne",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "display_image": null,
+   "display_alternatives": []
+  },
+  {
+   "id": "isabelle_dupont_obj_5",
+   "title": "KAROLUS Monogram Denier",
+   "date": "c. 793-814 AD",
+   "type": "coin",
+   "material": "silver",
+   "description": "A silver denier bearing Charlemagne's monogram, struck across France, Germany, Northern Italy, and Northeast Spain.",
+   "significance": "The same stamped symbol, accepted from Barcelona to the Rhine — this is the coin that first made 'French money' mean something across borders.",
+   "museum": "Various — referenced via Encyclopedia Britannica",
+   "museum_location": "Multiple mints, Carolingian Empire",
+   "accession_number": "Monogram type",
+   "collection_url": "https://www.britannica.com/money/coin/Charlemagne-and-the-Carolingian-coinages",
+   "image_url": "https://www.britannica.com/money/coin/Charlemagne-and-the-Carolingian-coinages",
+   "license": "Britannica terms",
+   "open_access": false,
+   "plain_language": "A coin stamped with Charlemagne's personal symbol, accepted across a huge stretch of medieval Europe as if it were one currency zone.",
+   "url": "https://www.britannica.com/money/coin/Charlemagne-and-the-Carolingian-coinages",
+   "accession": "Monogram type",
+   "institution": "Various — referenced via Encyclopedia Britannica",
+   "licence": "Britannica terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Denier Charlemagne1.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Denier_Charlemagne1.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Denier_Charlemagne1.jpg",
+     "licence": "CC BY-SA 3.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": ""
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Denier of Charles the Bald (reverse) (FindID 763187).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Denier_of_Charles_the_Bald_%28reverse%29_%28FindID_763187%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Denier_of_Charles_the_Bald_(reverse)_(FindID_763187).jpg",
+     "licence": "CC BY 2.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nRoyal Institution of Cornwall, Anna Tyacke, 2016-01-21 14:32:34"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "isabelle_dupont_src_1",
+   "title": "A Coin of Queen Fastrada and Charlemagne",
+   "type": "news_article",
+   "date": "2023",
+   "author": "Archaeology Wiki / Simon Coupland",
+   "description": "Report on the discovery and dating of the rare Fastrada coin.",
+   "held_at": "Archaeology Wiki",
+   "url": "https://www.archaeology.wiki/blog/2023/05/08/a-coin-of-queen-fastrada-and-charlemagne/",
+   "license": "Publisher rights apply",
+   "plain_language": "A news story about how researchers identified a coin naming Charlemagne's wife.",
+   "licence": "Publisher rights apply",
+   "licence_class": "unknown",
+   "institution": "Archaeology Wiki",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.archaeology.wiki/blog/2023/05/08/a-coin-of-queen-fastrada-and-charlemagne/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "isabelle_dupont_src_2",
+   "title": "Capitulary of Aix-la-Chapelle on the Value of Commodities",
+   "type": "legal_document",
+   "date": "797 AD",
+   "author": "Charlemagne's court",
+   "description": "Royal decree fixing prices and establishing that 12 denarii equal 1 solidus.",
+   "held_at": "Historical legal record",
+   "url": "https://en.wikipedia.org/wiki/Capitulary",
+   "license": "CC BY-SA (Wikipedia reference)",
+   "plain_language": "An actual royal law from 797 AD that fixed prices and set the exchange rate between coin denominations.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Historical legal record",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Capitulary",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "isabelle_dupont_src_3",
+   "title": "Capitulary of Aix-la-Chapelle Concerning Adulterers of Money",
+   "type": "legal_document",
+   "date": "817 AD",
+   "author": "Louis the Pious's court",
+   "description": "Law imposing severe punishment — loss of a hand — for counterfeiters.",
+   "held_at": "Historical legal record",
+   "url": "https://en.wikipedia.org/wiki/Capitulary",
+   "license": "CC BY-SA (Wikipedia reference)",
+   "plain_language": "A brutal medieval law: counterfeit the currency, and you lose a hand.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Historical legal record",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Capitulary",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "isabelle_dupont_src_4",
+   "title": "Charlemagne and the Carolingian Coinages",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Encyclopaedia Britannica",
+   "description": "Scholarly reference article on the structure and spread of Carolingian coin reform.",
+   "held_at": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/money/coin/Charlemagne-and-the-Carolingian-coinages",
+   "license": "Publisher rights apply",
+   "plain_language": "An encyclopedia article explaining how Charlemagne redesigned money across his whole empire.",
+   "licence": "Publisher rights apply",
+   "licence_class": "unknown",
+   "institution": "Encyclopaedia Britannica",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "isabelle_dupont_src_5",
+   "title": "Gallica Digitized Carolingian Coin Images",
+   "type": "digital_archive",
+   "date": "Ongoing",
+   "author": "Bibliothèque nationale de France",
+   "description": "High-resolution digitized images of Carolingian-era coins from the BnF collection.",
+   "held_at": "Gallica (BnF)",
+   "url": "https://www.bnf.fr/fr/departement-monnaies-medailles-antiques",
+   "license": "BnF terms",
+   "plain_language": "A digital photo archive of ancient French coins, free to browse online.",
+   "licence": "BnF terms",
+   "licence_class": "unknown",
+   "institution": "Gallica (BnF)",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bnf.fr/fr/departement-monnaies-medailles-antiques",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 50.7753,
+  "center_lng": 6.0839,
+  "center_label": "Aachen, Carolingian Empire",
+  "era_start": 793,
+  "era_end": 2026,
+  "map_description": "Isabelle's franc began as Charlemagne's silver denier reform in Aachen and traveled through royal écus and gold louis d'or before becoming the modern French franc.",
+  "nodes": [
+   {
+    "label": "Aachen (Aix-la-Chapelle)",
+    "lat": 50.7753,
+    "lng": 6.0839,
+    "type": "origin",
+    "description": "Charlemagne's capital, where the livre-sou-denier monetary reform was decreed and much of the coinage was minted."
+   },
+   {
+    "label": "Mainz Mint",
+    "lat": 49.9929,
+    "lng": 8.2473,
+    "type": "origin",
+    "description": "One of the key mints producing Carolingian silver deniers under the reform."
+   },
+   {
+    "label": "Paris",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "type": "destination",
+    "description": "Became the center of French royal coinage for centuries, home to the Monnaie de Paris and the BnF's coin collection."
+   },
+   {
+    "label": "Barcelona",
+    "lat": 41.3851,
+    "lng": 2.1734,
+    "type": "trade_route",
+    "description": "Carolingian monogram coinage circulated as far as Northeast Spain, showing the reach of the reform."
+   },
+   {
+    "label": "Rome",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "type": "landmark",
+    "description": "Charlemagne modeled his imperial coin portraits on Roman precedent, tying his currency to the legacy of empire."
+   },
+   {
+    "label": "Frankfurt (Modern Eurozone)",
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "type": "destination",
+    "description": "Centuries later, the franc's story would end here — at the European Central Bank, when the franc was retired for the euro in 2002."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Encyclopaedia Britannica — Charlemagne and the Carolingian Coinages",
+   "url": "https://www.britannica.com/money/coin/Charlemagne-and-the-Carolingian-coinages",
+   "license": "Publisher rights apply"
+  }
+ },
+ "_verified": "2026-07-11 10:37"
+}

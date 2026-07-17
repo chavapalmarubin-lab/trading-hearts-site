@@ -1,0 +1,252 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 5,
+  "character_name": "LARS VAN HOLST",
+  "character_key": "lars",
+  "header": "LARS VAN HOLST"
+ },
+ "museum_objects": [
+  {
+   "title": "Gold guilder of Willem V of Bavaria",
+   "institution": "Rijksmuseum, Amsterdam",
+   "accession": "KOG-MP-1-1525C",
+   "date": "1378",
+   "url": "https://www.rijksmuseum.nl/en/collection/object/Gold-guilder-William-V-of-Bavaria-count-of-Holland-first-gold-coin-of-the-County-of-Holland--c21c5be1f1ef0a693b0305b939fe72c0",
+   "licence_raw": "Verify per-object rights flag (typically public domain)",
+   "description": "The first gold coin of the County of Holland, struck at Dordrecht.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.rijksmuseum.nl/en/collection/object/Gold-guilder-William-V-of-Bavaria-count-of-Holland-first-gold-coin-of-the-County-of-Holland--c21c5be1f1ef0a693b0305b939fe72c0",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   }
+  },
+  {
+   "title": "Jan Uytenbogaert (\"The Goldweigher\") etching",
+   "institution": "Rijksmuseum, Amsterdam",
+   "accession": "RP-P-OB-568",
+   "date": "1639",
+   "url": "https://www.rijksmuseum.nl/en/collection/object/Jan-Uytenbogaert-The-Goldweigher--12e6889a2d3d70fa94487e725bd9aae3",
+   "licence_raw": "Verify per-object flag",
+   "description": "Rembrandt's etching of Amsterdam's receiver-general of taxes weighing coin.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.rijksmuseum.nl/en/collection/object/Jan-Uytenbogaert-The-Goldweigher--12e6889a2d3d70fa94487e725bd9aae3",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   }
+  },
+  {
+   "title": "Regents of the Old Men's Almshouse",
+   "institution": "Frans Hals Museum, Haarlem",
+   "accession": "N/A (see WGA11182)",
+   "date": "1664",
+   "url": "https://en.wikipedia.org/wiki/Regents_of_the_Old_Men's_Almshouse",
+   "licence_raw": "Public domain (Wikimedia WGA file)",
+   "description": "Frans Hals's painting of the men governing a Haarlem charitable almshouse.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Regents_of_the_Old_Men's_Almshouse",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "VOC share certificate (second-oldest, Amsterdam Chamber)",
+   "institution": "Wikimedia Commons (documentary source of Amsterdam City Archives original)",
+   "accession": "N/A",
+   "date": "Sept 27, 1606",
+   "url": "https://nl.wikipedia.org/wiki/Bestand:Voc-stock.jpg",
+   "licence_raw": "Public domain",
+   "description": "Signed by Arent ten Grotenhuys and Dirck van Os; sister document to the world's oldest certificate.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://nl.wikipedia.org/wiki/Bestand:Voc-stock.jpg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "\"The Courtyard of the Old Stock Exchange in Amsterdam\" (Kaspar Karsen)",
+   "institution": "Amsterdam Museum",
+   "accession": "SA 7526 (formerly Rijksmuseum SK-C-159)",
+   "date": "19th c. (depicting the 1608 exchange)",
+   "url": "https://en.wikipedia.org/wiki/File:The_Courtyard_of_the_Old_Stock_Exchange_in_Amsterdam_by_Kaspar_Karsen_Amsterdam_Museum_SA_7526.jpg",
+   "licence_raw": "Public domain",
+   "description": "Oil painting depicting the courtyard of the world's first purpose-built stock exchange.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/File:The_Courtyard_of_the_Old_Stock_Exchange_in_Amsterdam_by_Kaspar_Karsen_Amsterdam_Museum_SA_7526.jpg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "VOC share certificate, Sept 9, 1606 — the world's oldest surviving share certificate, Guinness World Record holder.",
+   "detail": "",
+   "url": "https://en.wikipedia.org/wiki/File:VOC_aandeel_9_september_1606.jpg",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "VOC share certificate, Sept 9, 1606 — the world's oldest surviving share certificate, Guinness World Record holder.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/File:VOC_aandeel_9_september_1606.jpg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "Guinness World Records: Oldest share certificate — official verification record.",
+   "detail": "",
+   "url": "https://www.guinnessworldrecords.com/world-records/oldest-share-certificate",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Guinness World Records: Oldest share certificate — official verification record.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.guinnessworldrecords.com/world-records/oldest-share-certificate",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "DNB working paper: \"An early stablecoin? The Bank of Amsterdam and the governance of money\" — academic primary analysis of the Wisselbank.",
+   "detail": "",
+   "url": "https://www.dnb.nl/media/b11ekie2/wp_696.pdf",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "DNB working paper: \"An early stablecoin? The Bank of Amsterdam and the governance of money\" — academic primary analysis of the Wisselbank.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Reuters: \"Dutch history student finds world's oldest share\" — contemporary news account of the 2010 discovery.",
+   "detail": "",
+   "url": "https://www.reuters.com/article/lifestyle/dutch-history-student-finds-worlds-oldest-share-idUSTRE6891DZ/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Reuters: \"Dutch history student finds world's oldest share\" — contemporary news account of the 2010 discovery.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.reuters.com/article/lifestyle/dutch-history-student-finds-worlds-oldest-share-idUSTRE6891DZ/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Rijksmuseum object page for the 1378 gold guilder — primary museum catalog record.",
+   "detail": "",
+   "url": "https://www.rijksmuseum.nl/en/collection/object/Gold-guilder-William-V-of-Bavaria-count-of-Holland-first-gold-coin-of-the-County-of-Holland--c21c5be1f1ef0a693b0305b939fe72c0",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Rijksmuseum object page for the 1378 gold guilder — primary museum catalog record.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.rijksmuseum.nl/en/collection/object/Gold-guilder-William-V-of-Bavaria-count-of-Holland-first-gold-coin-of-the-County-of-Holland--c21c5be1f1ef0a693b0305b939fe72c0",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: September 1606, Hoorn. Pieter Harmensz, a town messenger, must decide whether to pay his final 12.5-guilder installment on a VOC share — a completely new, unproven financial instrument with no track record, no legal precedent for what a \"tradeable share\" even meant, and no guarantee the VOC's risky Asia voyages would ever return a profit. The outcome was genuinely uncertain: VOC ships regularly sank, crews died of disease, and the entire venture could have failed within a few years.Player choice: Pay the final installment and hold the share, or withdraw before the deadline.Historical resolution: He paid. The VOC went on to become the most valuable company in history (by some inflation-adjusted estimates) and paid dividends for nearly two centuries.",
+ "understand": {
+  "economic_impact": "The VOC pioneered permanent, transferable capital — instead of dissolving after each voyage (as earlier trading ventures did), investors could sell their stake to someone else at any time, which is the foundational mechanic of every stock market that exists today Wikipedia: VOC coinage. The Amsterdam Wisselbank's ledger-transfer system let merchants move money without physically moving coin, reducing the risk and cost of long-distance trade across Europe and Asia DNB working paper.",
+  "political_impact": "The VOC held quasi-state powers unprecedented for a company — it could wage war, sign treaties, and found colonies under a charter granted directly by the States General in 1602 Wikipedia: Hendrick de Keyser. This blurred the line between private commerce and state power in a way that shaped Dutch colonial expansion into Indonesia, South Africa, and the Americas — and, per Nederlandsche Bank President Klaas Knot's 2022 Keti Koti speech, the Dutch financial sector's role in that expansion included direct entanglement with slavery, a fact now being formally acknowledged BIS: Knot speech.",
+  "why_it_still_matters": "Every time you hear about the stock market on the news — prices going up or down, people buying and holding shares — that entire idea started in Amsterdam, on paper, in the early 1600s. Before that, if you invested in a trading voyage, your money was locked up until the ship came back, if it came back at all. The Dutch invented a way to buy a piece of a company and then sell that piece to someone else whenever you wanted. That single idea — that ownership could be split into pieces and traded — is the reason your parents (or you, one day) can buy a small piece of a huge company like Apple for the price of a meal. It's also why a random town messenger's paperwork from 1606, just a receipt for money he paid, is now treated like a national treasure: he was there at the exact moment the modern financial world was invented."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:37"
+}

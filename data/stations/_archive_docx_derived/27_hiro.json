@@ -1,0 +1,250 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 27,
+  "character_name": "HIRO CIPHER",
+  "character_key": "hiro",
+  "header": "HIRO CIPHER"
+ },
+ "museum_objects": [
+  {
+   "title": "Bitcoin whitepaper (original PDF)",
+   "institution": "Self-published/bitcoin.org (widely archived)",
+   "accession": "N/A",
+   "date": "October 31, 2008",
+   "url": "https://bitcoin.org/bitcoin.pdf",
+   "licence_raw": "Released without copyright restriction, freely distributable",
+   "description": "The founding document that defined Bitcoin's design and philosophy.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://bitcoin.org/bitcoin.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Casascius physical Bitcoin coin",
+   "institution": "British Museum",
+   "accession": "Object ID 3451279, Collection ID CJE305673",
+   "date": "2011–2013 era",
+   "url": "https://www.britishmuseum.org/collectionimages/AN01156/AN01156701_001_l.jpg",
+   "licence_raw": "Standard museum image licensing — contact British Museum Images",
+   "description": "A rare physical embodiment of a digital-only currency, held in the British Museum's numismatic collection.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.britishmuseum.org/collection",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "title": "Antminer ASIC miner (S9)",
+   "institution": "Wikimedia Commons (photographed by Steve Rainwater)",
+   "accession": "File:Antminer_ASIC_Miner.jpeg",
+   "date": "Contemporary (post-2016)",
+   "url": "https://commons.wikimedia.org/wiki/File:Antminer_ASIC_Miner.jpeg",
+   "licence_raw": "CC BY-SA 2.0 (confirmed)",
+   "description": "Representative specialized mining hardware from Bitcoin's industrial mining era.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/File:Antminer_ASIC_Miner.jpeg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA 2.0",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikimedia Commons API",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Antminer_ASIC_Miner.jpeg",
+    "attribution": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8386148@N06\">Steve Rainwater</a> from Irving"
+   },
+   "licence": "CC BY-SA 2.0",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Antminer_ASIC_Miner.jpeg"
+  },
+  {
+   "title": "The Times of London, January 3, 2009 front page (embedded Genesis Block reference)",
+   "institution": "The Times Archive / British Library (unresolved direct digitized image)",
+   "accession": "N/A",
+   "date": "January 3, 2009",
+   "url": "https://bitcointalk.org/index.php?topic=5580931.0",
+   "licence_raw": "[NEEDS RESEARCH — direct Times Archive/British Library image not resolved]",
+   "description": "The real newspaper front page whose headline was permanently embedded in Bitcoin's first block.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://bitcointalk.org/index.php?topic=5580931.0",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "A Cypherpunk's Manifesto (Eric Hughes, 1993)",
+   "institution": "Internet Archive",
+   "accession": "N/A",
+   "date": "1993",
+   "url": "https://archive.org/details/anarchy_Cypherpunk_Manifesto",
+   "licence_raw": "Historical text, widely reproduced without restriction",
+   "description": "The foundational ideological document underpinning Bitcoin's cypherpunk origins.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://archive.org/details/anarchy_Cypherpunk_Manifesto",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "public domain / archive-hosted",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Internet Archive metadata API",
+    "title": " Cypherpunk Manifesto"
+   },
+   "licence": "public domain / archive-hosted"
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Official Satoshi Nakamoto Bitcoin whitepaper, bitcoin.org — the primary founding document.",
+   "detail": "",
+   "url": "https://bitcoin.org/bitcoin.pdf",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Official Satoshi Nakamoto Bitcoin whitepaper, bitcoin.org — the primary founding document.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://bitcoin.org/bitcoin.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Satoshi Nakamoto Institute, full cryptography mailing list archive — primary correspondence archive.",
+   "detail": "",
+   "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Satoshi Nakamoto Institute, full cryptography mailing list archive — primary correspondence archive.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Wikipedia: History of Bitcoin — primary citable timeline.",
+   "detail": "",
+   "url": "https://en.wikipedia.org/wiki/History_of_bitcoin",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "Wikipedia: History of Bitcoin — primary citable timeline.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/History_of_bitcoin",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "Eric Hughes, \"A Cypherpunk's Manifesto\" (1993) — primary ideological founding text.",
+   "detail": "",
+   "url": "https://www.activism.net/cypherpunk/manifesto.html",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Eric Hughes, \"A Cypherpunk's Manifesto\" (1993) — primary ideological founding text.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.activism.net/cypherpunk/manifesto.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Satoshi Nakamoto Institute, Hal Finney profile — primary biographical/historical source on the first transaction recipient.",
+   "detail": "",
+   "url": "https://nakamotoinstitute.org/finney/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Satoshi Nakamoto Institute, Hal Finney profile — primary biographical/historical source on the first transaction recipient.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://nakamotoinstitute.org/finney/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: Early January 2009, in the depths of the global financial crisis. An anonymous creator has just built a new digital currency system explicitly designed so no central authority could ever print more than 21 million units — a radical departure from every existing currency, all of which could be expanded by central banks or governments. The outcome was genuinely uncertain: would anyone trust or use a currency created by an anonymous stranger, with no bank, no government, and no company standing behind it?Player choice: Launch the currency with a hard, unchangeable supply cap of 21 million, or design it with flexibility for future adjustment.Historical resolution: Satoshi Nakamoto launched Bitcoin with the hard 21 million cap embedded directly into the code from the Genesis Block onward. Despite widespread skepticism in its earliest years, the currency eventually reached a price of $69,000 per coin at its November 2021 peak, though the fixed supply has never been changed.",
+ "understand": {
+  "economic_impact": "Bitcoin's fixed supply of 21 million coins, embedded permanently in its code, created a fundamentally new kind of monetary asset whose scarcity cannot be altered by any government or institution Kraken, \"History of Bitcoin halving\". Its price has moved from under $1 to nearly $69,000 across roughly thirteen years, reflecting both speculative enthusiasm and genuine adoption as a store of value Wikipedia: History of Bitcoin.",
+  "political_impact": "China's 2021 nationwide ban on cryptocurrency mining forced massive Chinese mining operations to shut down or relocate overseas, reshaping the global geography of Bitcoin mining infrastructure Reuters, \"China's ban forces some bitcoin miners to flee overseas\". Bitcoin's existence as a currency outside any single government's control continues to raise fundamental political questions about monetary sovereignty worldwide.",
+  "why_it_still_matters": "Every dollar, euro, or peso in your pocket exists because some government or central bank decided, at some point, to create it — and they can decide to create more, whenever they choose. Bitcoin was built specifically so that no person, company, or government could ever do that with it: the total number that will ever exist, 21 million, was locked into the code from the very first day, and nobody — not even its own anonymous creator — can change that number now. Hiro's story matters because it shows there's a fundamentally different kind of money possible: one where the rules are fixed in advance and can't be bent later, no matter how badly someone in charge might want to."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:42"
+}

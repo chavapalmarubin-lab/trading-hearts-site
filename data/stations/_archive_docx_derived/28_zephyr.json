@@ -1,0 +1,246 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 28,
+  "character_name": "ZEPHYR COLE",
+  "character_key": "zephyr",
+  "header": "ZEPHYR COLE"
+ },
+ "museum_objects": [
+  {
+   "title": "Ethereum whitepaper (official)",
+   "institution": "Ethereum Foundation (self-published digital document)",
+   "accession": "N/A",
+   "date": "November 2013 / posted Jan 23, 2014",
+   "url": "https://ethereum.org/en/whitepaper/",
+   "licence_raw": "Ethereum Foundation-hosted, open content",
+   "description": "The founding document proposing programmable blockchain smart contracts.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://ethereum.org/whitepaper/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "GitHub repo go-ethereum (geth) commit history",
+   "institution": "GitHub (public code repository)",
+   "accession": "N/A",
+   "date": "Ongoing since project founding",
+   "url": "https://github.com/ethereum/go-ethereum",
+   "licence_raw": "LGPL-3.0 (library) / GPL-3.0 (binaries)",
+   "description": "Primary Ethereum client codebase, screen-recordable \"code genesis\" sequence.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://github.com/ethereum/go-ethereum",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Vitalik Buterin, TechCrunch London 2015 photograph",
+   "institution": "Wikimedia Commons",
+   "accession": "File:Vitalik_Buterin_TechCrunch_London_2015_(cropped).jpg",
+   "date": "2015",
+   "url": "https://commons.wikimedia.org/wiki/File:Vitalik_Buterin_TechCrunch_London_2015_(cropped).jpg",
+   "licence_raw": "CC BY 2.0 (TechCrunch/Flickr-sourced)",
+   "description": "Photo of Ethereum's founder shortly after mainnet launch, around age 21.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/File:Vitalik_Buterin_TechCrunch_London_2015_(cropped).jpg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY 2.0",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikimedia Commons API",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Vitalik_Buterin_TechCrunch_London_2015_%28cropped%29.jpg",
+    "attribution": "John Phillips"
+   },
+   "licence": "CC BY 2.0",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Vitalik_Buterin_TechCrunch_London_2015_%28cropped%29.jpg"
+  },
+  {
+   "title": "Gavin Wood, TechCrunch Disrupt Berlin 2017 photograph",
+   "institution": "Wikimedia Commons",
+   "accession": "Referenced within Category:Gavin_Wood",
+   "date": "2017",
+   "url": "https://commons.wikimedia.org/wiki/Category:Gavin_Wood",
+   "licence_raw": "Check individual file license tag",
+   "description": "Co-founder and author of Ethereum's technical \"Yellow Paper\" specification.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:Gavin_Wood",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   }
+  },
+  {
+   "title": "Devcon 0 welcome address footage (Gavin Wood)",
+   "institution": "YouTube (Ethereum Foundation channel)",
+   "accession": "N/A",
+   "date": "November 2014",
+   "url": "https://www.youtube.com/watch?v=_BvvUlKDqp0&list=PLJqWcTqh_zKEjpSej3ddtDOKPRGl_7MhS",
+   "licence_raw": "Standard YouTube license — written permission required for broadcast use",
+   "description": "Direct footage from Ethereum's first-ever developer conference in Berlin.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.youtube.com/watch?v=_BvvUlKDqp0&list=PLJqWcTqh_zKEjpSej3ddtDOKPRGl_7MhS",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Official Ethereum whitepaper — the primary founding technical document.",
+   "detail": "",
+   "url": "https://ethereum.org/en/whitepaper/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Official Ethereum whitepaper — the primary founding technical document.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://ethereum.org/whitepaper/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Ethereum Foundation, official history page — primary authoritative founder/ownership history.",
+   "detail": "",
+   "url": "https://ethereum.org/ethereum-history-founder-and-ownership/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Ethereum Foundation, official history page — primary authoritative founder/ownership history.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://ethereum.org/ethereum-history-founder-and-ownership/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Ethereum Foundation blog, \"Hard Fork Completed\" (July 20, 2016) — primary source confirming the DAO fork's technical execution.",
+   "detail": "",
+   "url": "https://blog.ethereum.org/2016/07/20/hard-fork-completed",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Ethereum Foundation blog, \"Hard Fork Completed\" (July 20, 2016) — primary source confirming the DAO fork's technical execution.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://blog.ethereum.org/2016/07/20/hard-fork-completed",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Wikipedia: The DAO — primary reference on the hack and its consequences.",
+   "detail": "",
+   "url": "https://en.wikipedia.org/wiki/The_DAO",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "Wikipedia: The DAO — primary reference on the hack and its consequences.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/The_DAO",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "Ethereum Foundation, official \"The Merge\" page — primary source on the 2022 proof-of-stake transition.",
+   "detail": "",
+   "url": "https://ethereum.org/roadmap/merge/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Ethereum Foundation, official \"The Merge\" page — primary source on the 2022 proof-of-stake transition.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://ethereum.org/roadmap/merge/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: July 2016, in the aftermath of The DAO hack. A hacker has legitimately exploited a flaw in the DAO's smart contract code to drain 3.64 million ETH — technically following the code's actual rules, even though it clearly wasn't the intended outcome. The Ethereum community must decide whether to honor the principle that \"code is law\" (accepting the theft as valid because it followed the contract's literal code) or execute an unprecedented hard fork to reverse the hack and return the funds. The outcome was genuinely uncertain: a fork could fracture the community and the currency itself, and there was no guarantee everyone would accept it.Player choice: Accept the hack's outcome as valid under \"code is law,\" or execute a hard fork to reverse it.Historical resolution: The majority of the community executed the hard fork at block 1,920,000 on July 20, 2016, reversing the hack. A minority who believed in strict \"code is law\" principles rejected the fork and continued the original chain, which became Ethereum Classic — permanently splitting the currency into two based on this single philosophical disagreement.",
+ "understand": {
+  "economic_impact": "Ethereum's introduction of programmable smart contracts enabled entirely new categories of financial activity, with decentralized finance (DeFi) total value locked growing from roughly $1 billion to $100 billion across blockchains during 2020-2021 Statista, DeFi TVL data. The Merge's transition to proof-of-stake in September 2022 reduced new ETH issuance by roughly 88%, fundamentally changing the currency's supply dynamics Ethereum Foundation, \"How the Merge impacted ETH supply\".",
+  "political_impact": "The DAO hack and subsequent hard fork forced the Ethereum community to confront a fundamental philosophical question about whether blockchain rules should ever be reversible, resulting in a permanent split into two separate currencies (Ethereum and Ethereum Classic) based on irreconcilable views on the matter Wikipedia: Ethereum Classic.",
+  "why_it_still_matters": "Imagine a vending machine that nobody can trick, bribe, or argue with — you put money in, and it gives you exactly what it promised, every single time, because the rules are locked into a machine instead of a person's judgment. That's basically what Ethereum lets people build, called a \"smart contract,\" and it opened the door to entirely new kinds of deals and agreements that don't need a bank, lawyer, or company standing in the middle. But when a huge exploit drained millions of dollars from one of these contracts in 2016, it forced a hard question: if the code technically allowed it, was reversing it fair, or was breaking the \"rules are the rules\" principle even worse than the theft itself? Zephyr's story matters because it shows that even when you build a system to remove human judgment from money, tough human questions about fairness and trust don't actually go away."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:42"
+}

@@ -1,0 +1,55 @@
+{
+ "custodian": "sofia",
+ "name": "Sofia Valente",
+ "asset": "Euro",
+ "stations": [
+  {
+   "year": 1999,
+   "label": "BORN INTO ELEVEN NATIONS",
+   "line": "On the first day of January I existed only as a promise \u2014 a currency in which one could keep accounts but not yet hold in the hand, born from eleven currencies who agreed to stop being themselves so that I could begin.",
+   "era_photo": "A late-1990s press conference in Frankfurt, European Central Bank interior with the twelve-star flag, subject in a tailored charcoal blazer of the period, shot on early digital press camera with slight grain and the flat fluorescent light of a 1999 institutional room."
+  },
+  {
+   "year": 2002,
+   "label": "THE COINS IN HAND",
+   "line": "This was the morning I became touchable \u2014 notes and coins in the pockets of three hundred million people at once, and I confess I did not sleep, watching whether the shopkeepers of Lisbon and Helsinki would trust the same paper.",
+   "era_photo": "January 2002, a Paris boulangerie counter with new euro coins being counted, subject in a wool coat and scarf in the cold morning light, shot on consumer digital camera of the early 2000s with warm interior tones and mild motion blur."
+  },
+  {
+   "year": 2008,
+   "label": "THE STORM FROM ABROAD",
+   "line": "The crisis came, as they say, from the other side of the Atlantic \u2014 and I understood for the first time that a shared currency means shared weather, whether or not you asked for that particular storm.",
+   "era_photo": "Autumn 2008, a Brussels summit corridor with anxious officials, subject in a dark suit reading a document, shot on mid-2000s DSLR, cool blue-grey tones, harsh flash catching tired faces."
+  },
+  {
+   "year": 2012,
+   "label": "WHATEVER IT TAKES",
+   "line": "I understand the concern that the union was only ever fair-weather \u2014 but on the twenty-sixth of July, in London, three words held me together when the markets had already begun to price my funeral, and I have never forgotten who was and was not willing to pay the cost.",
+   "era_photo": "July 2012, a London conference stage with dark backdrop, subject standing composed in a navy suit at a lectern, shot on professional DSLR, warm stage lighting against deep shadow, sharp and cinematic."
+  },
+  {
+   "year": 2015,
+   "label": "THE GREXIT SUMMER",
+   "line": "That summer I sat in a room while some argued that one of my own children should be sent away, and I learned \u2014 precisely, quietly \u2014 how conditional the word solidarity can become when the tabloids are printing.",
+   "era_photo": "July 2015, a fluorescent-lit Eurogroup meeting room after midnight, subject at a long table with cold coffee and papers, shot on 2010s DSLR, harsh overhead light, exhausted realism, muted institutional colours."
+  },
+  {
+   "year": 2020,
+   "label": "THE FUND WE DARED",
+   "line": "When the pandemic closed every border, we did the thing the founding generation had never dared \u2014 we borrowed together, as one, and for a moment I felt the union surprise itself with how real it could be.",
+   "era_photo": "Summer 2020, a socially-distanced European Council chamber with plexiglass dividers and masks, subject in a blazer with a mask lowered mid-sentence, shot on modern mirrorless camera, clinical daylight, sharp high-resolution detail."
+  },
+  {
+   "year": 2023,
+   "label": "TWENTY MEMBERS STRONG",
+   "line": "Croatia joined me at the start of that year, the twentieth to do so, and the question was never whether but when \u2014 a small confirmation, in a decade of doubts, that the line still moves in the direction I have built my life upon.",
+   "era_photo": "January 2023, a Zagreb bank exchange with new euro signage and the Croatian flag, subject smiling warmly in a bright coat in winter sun, shot on modern smartphone or mirrorless camera, crisp contemporary colour and clarity."
+  },
+  {
+   "year": 2024,
+   "label": "STILL HOLDING THE COALITION",
+   "line": "Twenty-five years now, and I am tired in the particular way of someone who mediates daily between people who would prefer not to compromise \u2014 but I am still here, still whole, still asking the question of how deep this union truly runs.",
+   "era_photo": "Present day, a modern Frankfurt or Brussels office with glass and the twelve-star flag, subject in an elegant contemporary suit, composed and present, shot on high-end digital camera, natural window light, editorial sharpness and warm neutral tones."
+  }
+ ]
+}

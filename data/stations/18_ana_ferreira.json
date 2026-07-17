@@ -1,0 +1,473 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 18,
+  "character_key": "ana_ferreira",
+  "character_name": "Ana Ferreira",
+  "asset": "Portuguese Escudo",
+  "ticker": "PTE",
+  "era": "1911",
+  "era_label": "Early Portuguese Republic",
+  "era_year": 1911,
+  "tagline": "She was first to sail past every horizon — and first to feel how lonely that is."
+ },
+ "museum_objects": [
+  {
+   "id": "ana_ferreira_obj_1",
+   "title": "Escudo Founding Decree-Law Documentation",
+   "date": "May 22, 1911",
+   "type": "document",
+   "material": "paper",
+   "description": "Documentation of the decree-law that created the Portuguese escudo, replacing the real just after the fall of the monarchy.",
+   "significance": "Ana was born the same year Portugal became a republic — she carries the weight of being the first currency of a country reinventing itself entirely.",
+   "museum": "Museu do Dinheiro, Banco de Portugal",
+   "museum_location": "Lisbon, Portugal",
+   "accession_number": "Museu do Dinheiro collection",
+   "collection_url": "https://www.museudodinheiro.pt/en/tesouros-da-colecao",
+   "image_url": "https://www.museudodinheiro.pt/en/tesouros-da-colecao",
+   "license": "Museu do Dinheiro terms",
+   "open_access": false,
+   "plain_language": "Records of the 1911 law that created Portugal's escudo, right after the country overthrew its monarchy and became a republic.",
+   "url": "https://www.museudodinheiro.pt/en/tesouros-da-colecao",
+   "accession": "Museu do Dinheiro collection",
+   "institution": "Museu do Dinheiro, Banco de Portugal",
+   "licence": "Museu do Dinheiro terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Translation of the mining law and regulations in force in the Philippines (IA aek6642.0001.001.umich.edu).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Translation_of_the_mining_law_and_regulations_in_force_in_the_Philippines_%28IA_aek6642.0001.001.umich.edu%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Translation_of_the_mining_law_and_regulations_in_force_in_the_Philippines_(IA_aek6642.0001.001.umich.edu).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nPhilippines\nUnited States. Division of insular affairs"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Translation of the mining law applied to Cuba by royal decrees of October 10, 1883, and June 27, 1884 with an appendix containing all the provisions issued to date (IA translationofmin00cubarich).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Translation_of_the_mining_law_applied_to_Cuba_by_royal_decrees_of_October_10%2C_1883%2C_and_June_27%2C_1884_with_an_appendix_containing_all_the_provisions_issued_to_date_%28IA_translationofmin00cubarich%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Translation_of_the_mining_law_applied_to_Cuba_by_royal_decrees_of_October_10,_1883,_and_June_27,_1884_with_an_appendix_containing_all_the_provisions_issued_to_date_(IA_translationofmin00cubarich).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nCuba\nSpain\nUnited States. Division of Customs and Insular Affairs"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "6 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "ana_ferreira_obj_2",
+   "title": "Portuguese Caravel Model",
+   "date": "Historical replica",
+   "type": "model",
+   "material": "wood",
+   "description": "A detailed model of a Portuguese caravel, the ship type that powered the Age of Discovery centuries before Ana's birth.",
+   "significance": "Ana inherited a nation's entire identity as history's great explorers — she was 'first' before she was even born, and that legacy never let her rest.",
+   "museum": "Museu de Marinha",
+   "museum_location": "Lisbon, Portugal",
+   "accession_number": "Museu de Marinha caravel model",
+   "collection_url": "https://cultura.marinha.pt/en/museumarinha_web/multimedia_web",
+   "image_url": "https://cultura.marinha.pt/en/museumarinha_web/multimedia_web",
+   "license": "Museu de Marinha terms",
+   "open_access": false,
+   "plain_language": "A detailed wooden model of the ships Portuguese explorers used centuries ago to become the first Europeans to sail around Africa and reach Asia.",
+   "url": "https://cultura.marinha.pt/en/museumarinha_web/multimedia_web",
+   "accession": "Museu de Marinha caravel model",
+   "institution": "Museu de Marinha",
+   "licence": "Museu de Marinha terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Portuguese Caravel.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Portuguese_Caravel.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Portuguese_Caravel.jpg",
+     "licence": "CC BY-SA 3.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "PHGCOM"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Portuguese caravel, Swiss National Museum, Zurich, Switzerland julesvernex2.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Portuguese_caravel%2C_Swiss_National_Museum%2C_Zurich%2C_Switzerland_julesvernex2.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Portuguese_caravel,_Swiss_National_Museum,_Zurich,_Switzerland_julesvernex2.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Jules Verne Times Two"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "ana_ferreira_obj_3",
+   "title": "Portuguese Caravel Model (Royal Museums Greenwich)",
+   "date": "Historical replica",
+   "type": "model",
+   "material": "wood",
+   "description": "Another detailed caravel model held in the UK's premier maritime museum, illustrating the ship design that enabled Portuguese exploration.",
+   "significance": "Even a British museum keeps a model of the ships that made Ana's ancestors the first in the world to chart new oceans.",
+   "museum": "Royal Museums Greenwich",
+   "museum_location": "Greenwich, UK",
+   "accession_number": "RMGC-object-66267",
+   "collection_url": "https://www.rmg.co.uk/collections/objects/rmgc-object-66267",
+   "image_url": "https://www.rmg.co.uk/collections/objects/rmgc-object-66267",
+   "license": "Royal Museums Greenwich terms",
+   "open_access": false,
+   "plain_language": "A model of a Portuguese exploration ship, kept in a British maritime museum because of how influential these ships were.",
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-66267",
+   "accession": "RMGC-object-66267",
+   "institution": "Royal Museums Greenwich",
+   "licence": "Royal Museums Greenwich terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.rmg.co.uk/collections/objects/rmgc-object-66267",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "2 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "ana_ferreira_obj_4",
+   "title": "Jerónimos Monastery (UNESCO Site)",
+   "date": "Built 1501-1601",
+   "type": "building",
+   "material": "limestone",
+   "description": "A monumental monastery in Lisbon built to commemorate Vasco da Gama's voyage to India, funded partly by the spice trade.",
+   "significance": "This building is what Ana's early economic power actually looked like — spice-trade wealth turned into limestone monuments to a golden age.",
+   "museum": "UNESCO World Heritage Site",
+   "museum_location": "Belém, Lisbon, Portugal",
+   "accession_number": "UNESCO Site 263",
+   "collection_url": "https://whc.unesco.org/en/list/263/",
+   "image_url": "https://whc.unesco.org/en/list/263/",
+   "license": "UNESCO terms",
+   "open_access": false,
+   "plain_language": "A stunning monastery in Lisbon built with wealth from Portugal's spice trade after its explorers found new routes to Asia.",
+   "url": "https://whc.unesco.org/en/list/263/",
+   "accession": "UNESCO Site 263",
+   "institution": "UNESCO World Heritage Site",
+   "licence": "UNESCO terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://whc.unesco.org/en/list/263/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Jerónimos Monastery Tower and Façade, Belém, Lisbon (54697229117).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Jer%C3%B3nimos_Monastery_Tower_and_Fa%C3%A7ade%2C_Bel%C3%A9m%2C_Lisbon_%2854697229117%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Jer%C3%B3nimos_Monastery_Tower_and_Fa%C3%A7ade,_Bel%C3%A9m,_Lisbon_(54697229117).jpg",
+     "licence": "CC BY 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Dale Cruse - 10M views from San Francisco, CA, USA"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Manueline Window Detail at Jerónimos Monastery, Lisbon (54700941022).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Manueline_Window_Detail_at_Jer%C3%B3nimos_Monastery%2C_Lisbon_%2854700941022%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Manueline_Window_Detail_at_Jer%C3%B3nimos_Monastery,_Lisbon_(54700941022).jpg",
+     "licence": "CC BY 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Dale Cruse - 10M views from San Francisco, CA, USA"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "ana_ferreira_obj_5",
+   "title": "Lisbon Photographs (1910-1926)",
+   "date": "1910-1926",
+   "type": "photograph",
+   "material": "print",
+   "description": "A photographic collection documenting Lisbon during the exact period of the Portuguese Republic's founding and Ana's birth.",
+   "significance": "These are the actual streets Ana was born onto — a capital in the middle of political upheaval, still carrying centuries of maritime pride.",
+   "museum": "Library of Congress",
+   "museum_location": "Washington, D.C., USA (photographs of Lisbon)",
+   "accession_number": "npc2008012507",
+   "collection_url": "https://www.loc.gov/item/npc2008012507/",
+   "image_url": "https://www.loc.gov/item/npc2008012507/",
+   "license": "Library of Congress — verify rights",
+   "open_access": false,
+   "plain_language": "Old photographs of Lisbon from right around the time Portugal became a republic and the escudo was created.",
+   "url": "https://www.loc.gov/item/npc2008012507/",
+   "accession": "npc2008012507",
+   "institution": "Library of Congress",
+   "licence": "Library of Congress — verify rights",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot g",
+    "licence_class": "check_required",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "Spain. Lisbon water front & Plaza of Commerce"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "ana_ferreira_src_1",
+   "title": "Wikipedia: Portuguese Escudo",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Overview reference on the escudo's history from 1911 to its retirement for the euro.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Portuguese_escudo",
+   "license": "CC BY-SA",
+   "plain_language": "A general history of Portugal's currency from its creation to the euro.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Portuguese_escudo",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "ana_ferreira_src_2",
+   "title": "UNESCO Memory of the World: Treaty of Tordesillas",
+   "type": "official_record",
+   "date": "1494 (treaty); ongoing (UNESCO listing)",
+   "author": "UNESCO",
+   "description": "Official heritage documentation of the treaty dividing newly discovered lands between Spain and Portugal.",
+   "held_at": "UNESCO",
+   "url": "https://www.unesco.org/en/memory-world/treaty-tordesillas",
+   "license": "UNESCO terms",
+   "plain_language": "The UN's official record about a historic treaty that divided the newly discovered world between Spain and Portugal.",
+   "licence": "UNESCO terms",
+   "licence_class": "unknown",
+   "institution": "UNESCO",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.unesco.org/en/memory-world/treaty-tordesillas",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "ana_ferreira_src_3",
+   "title": "UNESCO World Heritage Listing: Jerónimos Monastery",
+   "type": "official_record",
+   "date": "Ongoing",
+   "author": "UNESCO",
+   "description": "Official heritage listing for the monastery commemorating Portugal's Age of Discovery.",
+   "held_at": "UNESCO",
+   "url": "https://whc.unesco.org/en/list/263/",
+   "license": "UNESCO terms",
+   "plain_language": "The UN's official listing explaining why this monastery matters to world history.",
+   "licence": "UNESCO terms",
+   "licence_class": "unknown",
+   "institution": "UNESCO",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://whc.unesco.org/en/list/263/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "ana_ferreira_src_4",
+   "title": "Lisbon Photographs, 1910-1926",
+   "type": "photo_archive",
+   "date": "1910-1926",
+   "author": "Library of Congress",
+   "description": "Digitized historical photograph collection of Lisbon during the founding of the Portuguese Republic.",
+   "held_at": "Library of Congress",
+   "url": "https://www.loc.gov/item/npc2008012507/",
+   "license": "Verify rights",
+   "plain_language": "Old photos of Lisbon from the exact years Portugal became a republic.",
+   "licence": "Verify rights",
+   "licence_class": "check_required",
+   "institution": "Library of Congress",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot g",
+    "licence_class": "check_required",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "Spain. Lisbon water front & Plaza of Commerce"
+   }
+  },
+  {
+   "id": "ana_ferreira_src_5",
+   "title": "Museu do Dinheiro: Treasures of the Collection",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Banco de Portugal",
+   "description": "Official museum publication showcasing key items from Portugal's money museum collection.",
+   "held_at": "Museu do Dinheiro",
+   "url": "https://www.museudodinheiro.pt/en/tesouros-da-colecao",
+   "license": "Museu do Dinheiro terms",
+   "plain_language": "Portugal's central bank museum's own showcase of its most important money-related artifacts.",
+   "licence": "Museu do Dinheiro terms",
+   "licence_class": "unknown",
+   "institution": "Museu do Dinheiro",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 38.7223,
+  "center_lng": -9.1393,
+  "center_label": "Lisbon, Portugal",
+  "era_start": 1911,
+  "era_end": 2002,
+  "map_description": "Ana's escudo was born from the fall of the Portuguese monarchy and carried the legacy of the Age of Discovery until its retirement for the euro in 2002.",
+  "nodes": [
+   {
+    "label": "Lisbon (Museu do Dinheiro)",
+    "lat": 38.7071,
+    "lng": -9.1354,
+    "type": "origin",
+    "description": "Portugal's capital, where the escudo was established in 1911 and where its history is preserved today."
+   },
+   {
+    "label": "Belém Tower / Jerónimos Monastery",
+    "lat": 38.6916,
+    "lng": -9.216,
+    "type": "landmark",
+    "description": "Iconic monuments built with wealth from the Age of Discovery, symbolizing Portugal's maritime golden age."
+   },
+   {
+    "label": "Sagres Navigation School",
+    "lat": 37.0058,
+    "lng": -8.9457,
+    "type": "origin",
+    "description": "Legendary site associated with Prince Henry the Navigator's efforts to advance Portuguese maritime exploration."
+   },
+   {
+    "label": "Angola",
+    "lat": -11.2027,
+    "lng": 17.8739,
+    "type": "destination",
+    "description": "Former Portuguese colony whose 1975 independence marked a major turning point in the escudo's colonial-era economic reach."
+   },
+   {
+    "label": "Mozambique",
+    "lat": -18.6657,
+    "lng": 35.5296,
+    "type": "destination",
+    "description": "Another former Portuguese colony, part of the broader decolonization that reshaped the escudo's economic footprint."
+   }
+  ],
+  "historical_map_source": {
+   "title": "UNESCO — Jerónimos Monastery",
+   "url": "https://whc.unesco.org/en/list/263/",
+   "license": "UNESCO terms"
+  }
+ },
+ "_verified": "2026-07-11 10:40"
+}

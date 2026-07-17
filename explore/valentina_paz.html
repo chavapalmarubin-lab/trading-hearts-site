@@ -1,0 +1,225 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Valentina Paz — Explore · Trading Hearts</title><style>
+:root{--navy:#0a1526;--navy2:#0e1c31;--card:#122241;--gold:#c9a961;--gold2:#e3c988;
+--ink:#e7e2d6;--dim:rgba(231,226,214,.62);--line:rgba(201,169,97,.22)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--navy);color:var(--ink);
+font:16px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+a{color:var(--gold2)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 26px 90px}
+header.hero{padding:54px 26px 30px;border-bottom:1px solid var(--line);background:var(--navy2)}
+header.hero .in{max-width:1120px;margin:0 auto;display:flex;gap:26px;align-items:center}
+.era{color:var(--gold);letter-spacing:.18em;text-transform:uppercase;font-size:.74rem}
+h1{font-family:Georgia,serif;font-size:2.5rem;margin:.15em 0 .1em;font-weight:400}
+.tag{color:var(--dim);max-width:62ch;font-style:italic}
+.pt{width:104px;height:104px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);flex:0 0 auto}
+h2{font-family:Georgia,serif;font-weight:400;font-size:1.6rem;margin:52px 0 6px;color:var(--gold2)}
+.sub{color:var(--dim);font-size:.92rem;margin:0 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;
+display:flex;flex-direction:column}
+.card img{width:100%;height:210px;object-fit:cover;background:#0a1526}
+/* The "cited, not shown" state must read as RIGOUR, not as a broken image. */
+.cite{height:210px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+text-align:center;padding:22px;gap:9px;
+background:linear-gradient(160deg,#0e1c31,#0a1526);border-bottom:1px solid var(--line)}
+.cite .seal{width:38px;height:38px;border:1px solid var(--gold);border-radius:50%;
+display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:1.05rem}
+.cite .acc{font:600 .96rem/1.3 Georgia,serif;color:var(--gold2);letter-spacing:.02em}
+.cite .inst{font-size:.78rem;color:var(--dim)}
+.cite .why{font-size:.7rem;color:rgba(231,226,214,.45);max-width:26ch;line-height:1.45}
+.cite a{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;
+border-bottom:1px solid var(--line);padding-bottom:2px}
+.attr{font-size:.7rem;color:rgba(231,226,214,.45);line-height:1.5}
+.attr a{color:rgba(231,226,214,.62)}
+.card .b{padding:16px 18px 18px;flex:1;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font:600 1.02rem/1.35 Georgia,serif;color:var(--ink)}
+.meta{font-size:.78rem;color:var(--dim)}
+.desc{font-size:.9rem;color:rgba(231,226,214,.85)}
+.sig{font-size:.88rem;color:var(--gold2);border-left:2px solid var(--gold);padding-left:10px}
+.badge{display:inline-block;font-size:.64rem;letter-spacing:.09em;text-transform:uppercase;
+padding:3px 8px;border-radius:5px;border:1px solid var(--line);color:var(--dim)}
+.badge.ok{color:#8fd6a0;border-color:rgba(143,214,160,.4)}
+.badge.warn{color:#e0b96a;border-color:rgba(224,185,106,.4)}
+.badge.bad{color:#e08c8c;border-color:rgba(224,140,140,.4)}
+.foot{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding-top:6px}
+.src{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.src li{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.src h3{margin:0 0 4px;font:600 1rem/1.4 Georgia,serif}
+.unk{background:rgba(224,140,140,.07);border:1px solid rgba(224,140,140,.3);
+border-radius:12px;padding:22px 24px}
+.unk li{margin:8px 0;color:rgba(231,226,214,.9)}
+.mapnodes{display:grid;gap:8px}
+.mapnodes div{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 14px;
+font-size:.9rem;display:flex;justify-content:space-between;gap:12px}
+.mapnodes span{color:var(--dim);font-size:.78rem;font-variant-numeric:tabular-nums}
+footer{border-top:1px solid var(--line);margin-top:60px;padding:26px;text-align:center;color:var(--dim);font-size:.8rem}
+
+/* NAVIGATION — a reader who cannot get back is a reader you lost. */
+.topnav{position:sticky;top:0;z-index:50;background:rgba(10,21,38,.94);
+backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid var(--line)}
+.topnav .in{max-width:1120px;margin:0 auto;padding:11px 26px;display:flex;align-items:center;
+gap:18px;flex-wrap:wrap}
+.home{display:inline-flex;align-items:center;gap:7px;text-decoration:none;color:var(--gold2);
+font:600 .82rem/1 -apple-system;letter-spacing:.04em;white-space:nowrap}
+.home:hover{color:#fff}
+.jump{display:flex;gap:14px;margin-left:auto;flex-wrap:wrap}
+.jump a{color:var(--dim);text-decoration:none;font-size:.78rem;letter-spacing:.06em;
+text-transform:uppercase;white-space:nowrap}
+.jump a:hover{color:var(--gold2)}
+.pager{display:flex;justify-content:space-between;gap:14px;margin-top:44px;
+border-top:1px solid var(--line);padding-top:22px}
+.pager a{text-decoration:none;color:var(--gold2);font-size:.85rem}
+.pager a:hover{color:#fff}
+.pager .nx{text-align:right}
+.pager small{display:block;color:var(--dim);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase}
+@media(max-width:640px){.jump{display:none}}
+</style></head><body>
+
+<nav class="topnav"><div class="in">
+<a class="home" href="../index.html">&larr; Trading Hearts</a>
+<a class="home" href="index.html" style="color:var(--dim)">All 28 characters</a>
+<div class="jump">
+<a href="#objects">Objects</a><a href="#sources">Sources</a>
+<a href="#map">Map</a><a href="#unknown">What we don't know</a>
+</div></div></nav>
+
+<header class="hero"><div class="in">
+<div style="flex:1">
+<div class="era">1826 · Early Argentine Republic · Argentine Peso</div>
+<h1>Valentina Paz</h1>
+<p class="tag">She has died under six different names and walked back into the room every time.</p>
+</div>
+<img class="pt" src="../media/characters/valentina_paz/valentina_paz_portrait.webp"
+ onerror="this.style.display='none'" alt="Valentina Paz">
+</div></header>
+<div class="wrap">
+
+<h2 id="objects">Museum objects</h2>
+<p class="sub">0 shown · 5 cited but not shown. An image only appears here if it is openly
+licensed <em>and</em> confirmed to depict the object we claim. Otherwise we cite it and link you to
+the museum — we would rather show you nothing than show you the wrong thing.</p>
+<div class="grid"><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">Peso Moneda Corriente 1827</div>
+<div class="inst">Referenced numismatic archives</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://en.wikipedia.org/wiki/Argentine_peso_moneda_corriente" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>Peso Moneda Corriente Note</h3>
+<div class="meta">Referenced numismatic archives · Peso Moneda Corriente 1827 · 1827</div>
+<div class="desc">An early paper peso note issued by the Banco de las Provincias Unidas del Río de la Plata.</div>
+<div class="sig">This flimsy paper note is the first of six times Valentina would be reborn under a new name after her value collapsed — a pattern that would repeat for two centuries.</div>
+
+
+<div class="foot"><span class="badge warn">licence unruled</span><span class="badge">Creative Commons Attribution-ShareAlike 4.0 </span>
+<a class="badge" href="https://en.wikipedia.org/wiki/Argentine_peso_moneda_corriente" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">picturesqueillus00vida_0</div>
+<div class="inst">Internet Archive digital collection</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://archive.org/details/picturesqueillus00vida_0" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>Picturesque Illustrations of Buenos Ayres and Montevideo</h3>
+<div class="meta">Internet Archive digital collection · picturesqueillus00vida_0 · 1820</div>
+<div class="desc">An illustrated travel account by British artist Emeric Essex Vidal depicting daily life and commerce in Buenos Aires.</div>
+<div class="sig">These illustrations show the world Valentina was born into — a young, chaotic port city about to gamble everything on its own currency.</div>
+
+
+<div class="foot"><span class="badge warn">licence unruled</span><span class="badge">No licenseurl in metadata</span>
+<a class="badge" href="https://archive.org/details/picturesqueillus00vida_0" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">Eva Perón 100 Peso Note</div>
+<div class="inst">Referenced numismatic archives</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://en.wikipedia.org/wiki/Argentine_peso" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>Eva Perón 100 Peso Note</h3>
+<div class="meta">Referenced numismatic archives · Eva Perón 100 Peso Note · 20th century</div>
+<div class="desc">An Argentine peso banknote featuring the image of Eva Perón, one of the country&#x27;s most iconic historical figures.</div>
+<div class="sig">Valentina wearing the face of a woman as fiercely loved and fought over as she herself has always been — devalued again and again, but never forgotten.</div>
+
+
+<div class="foot"><span class="badge warn">licence unruled</span><span class="badge">Creative Commons Attribution-ShareAlike 4.0 </span>
+<a class="badge" href="https://en.wikipedia.org/wiki/Argentine_peso" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">Museo del Bicentenario / Casa Rosada</div>
+<div class="inst">Museo Casa Rosada</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://www.casarosada.gob.ar/" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>Casa Rosada (Presidential Palace)</h3>
+<div class="meta">Museo Casa Rosada · Museo del Bicentenario / Casa Rosada · completed 1898</div>
+<div class="desc">The presidential palace of Argentina, site of countless economic policy announcements including currency crises and devaluations.</div>
+<div class="sig">Every one of Valentina&#x27;s six deaths and rebirths was announced from balconies in or near this building.</div>
+
+
+<div class="foot"><span class="badge ok">open licence</span><span class="badge">Casa Rosada / Argentine Government — governm</span>
+<a class="badge" href="https://www.casarosada.gob.ar/" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">Cacerolazo category</div>
+<div class="inst">Wikimedia Commons</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://commons.wikimedia.org/wiki/Category:Cacerolazo" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>Cacerolazo Protest Photographs</h3>
+<div class="meta">Wikimedia Commons · Cacerolazo category · 2001</div>
+<div class="desc">Photographs documenting the mass pot-banging protests during Argentina&#x27;s 2001 economic collapse.</div>
+<div class="sig">This is what it looks like when an entire country loses faith in Valentina all at once — pots and pans banged in the streets instead of trust in a currency.</div>
+
+
+<div class="foot"><span class="badge ok">open licence</span><span class="badge">Wikimedia Commons Category — individual file</span>
+<a class="badge" href="https://commons.wikimedia.org/wiki/Category:Cacerolazo" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article></div>
+
+<h2 id="sources">Primary sources</h2>
+<p class="sub">The documents themselves. We link and quote — that is citation, and it needs no licence.</p>
+<ul class="src"><li><h3>Wikipedia: Argentine Peso</h3>
+<div class="meta">encyclopedia_entry · Ongoing · Wikipedia contributors · Wikipedia</div>
+<div class="desc">Overview of the Argentine peso&#x27;s many historical incarnations and devaluations since 1826.</div>
+<div class="sig">A general history of Argentina&#x27;s currency and its many collapses and reinventions.</div>
+<div class="foot"><span class="badge warn">tertiary — pointer only</span><span class="badge">Creative Commons Attribution-ShareAlike 4.0 </span>
+<a class="badge" href="https://en.wikipedia.org/wiki/Argentine_peso" target="_blank" rel="noopener">read the source ↗</a></div></li><li><h3>Wikimedia Commons: Cacerolazo</h3>
+<div class="meta">photo_archive · 2001-present · Wikimedia Commons contributors · Wikimedia Commons</div>
+<div class="desc">Photo archive documenting pot-banging protests during Argentine economic crises.</div>
+<div class="sig">A photo collection of Argentina&#x27;s famous pot-banging street protests during economic crises.</div>
+<div class="foot"><span class="badge ok">open</span><span class="badge">Wikimedia Commons Category — individual file</span>
+<a class="badge" href="https://commons.wikimedia.org/wiki/Category:Cacerolazo" target="_blank" rel="noopener">read the source ↗</a></div></li><li><h3>Picturesque Illustrations of Buenos Ayres and Montevideo</h3>
+<div class="meta">illustrated_book · 1820 · Emeric Essex Vidal · Internet Archive</div>
+<div class="desc">Early 19th-century illustrated account of life in Buenos Aires just before Argentine independence-era currency.</div>
+<div class="sig">An old illustrated travel book showing what Buenos Aires looked like right before Argentina had its own money.</div>
+<div class="foot"><span class="badge">unclear</span><span class="badge">No licenseurl in metadata</span>
+<a class="badge" href="https://archive.org/details/picturesqueillus00vida_0" target="_blank" rel="noopener">read the source ↗</a></div></li><li><h3>Wikipedia: Argentine Peso Moneda Corriente</h3>
+<div class="meta">encyclopedia_entry · Ongoing · Wikipedia contributors · Wikipedia</div>
+<div class="desc">Reference on the earliest paper peso issued by Buenos Aires Province.</div>
+<div class="sig">Background on the very first paper peso ever issued in Argentina.</div>
+<div class="foot"><span class="badge warn">tertiary — pointer only</span><span class="badge">Creative Commons Attribution-ShareAlike 4.0 </span>
+<a class="badge" href="https://en.wikipedia.org/wiki/Argentine_peso_moneda_corriente" target="_blank" rel="noopener">read the source ↗</a></div></li><li><h3>Casa Rosada Museum Historical Archive</h3>
+<div class="meta">museum_record · Ongoing · Museo Casa Rosada · Museo Casa Rosada</div>
+<div class="desc">Official historical archive of Argentina&#x27;s presidential palace and its role in national economic history.</div>
+<div class="sig">The official historical archive of Argentina&#x27;s presidential palace.</div>
+<div class="foot"><span class="badge ok">open</span><span class="badge">Casa Rosada / Argentine Government — governm</span>
+<a class="badge" href="https://www.casarosada.gob.ar/" target="_blank" rel="noopener">read the source ↗</a></div></li></ul>
+
+<h2 id="map">Where this money travelled</h2>
+<p class="sub">Valentina&#x27;s peso was born in a Buenos Aires bank in 1826 and has been reborn under new names again and again, from Baring Brothers&#x27; London loans to the 2001 collapse.</p>
+<div class="mapnodes"><div><b>Buenos Aires (Banco de las Provincias Unidas)</b><span>-34.6037, -58.3816</span></div><div><b>Casa Rosada</b><span>-34.6084, -58.3702</span></div><div><b>London (Baring Brothers)</b><span>51.5072, -0.1276</span></div><div><b>The Pampas</b><span>-36.6167, -64.2833</span></div><div><b>Washington, D.C. (IMF)</b><span>38.8994, -77.0447</span></div></div>
+
+<h2 id="unknown">What we don't know</h2>
+<p class="sub">The page no competitor will build.</p>
+<div class="unk"><ul><li>5 of 5 objects on this page are <strong>cited but not shown</strong> — either the rights are not cleared, or we could not verify that an available image really depicts the object. We would rather show you nothing than show you the wrong thing.</li><li>2 source(s) here are Wikipedia — a <strong>tertiary</strong> source. It is a pointer, not our evidence. These are being replaced with the primary documents Wikipedia itself cites.</li></ul></div>
+
+<div class="pager">
+<a href="conrad_powers.html"><small>Previous</small>&larr; Conrad Powers · 1792</a>
+<a class="nx" href="catalina_restrepo.html"><small>Next</small>Catalina Restrepo · 1837 &rarr;</a>
+</div>
+
+</div>
+<footer><a href="../index.html" style="color:var(--gold2);text-decoration:none">&larr; Back to Trading Hearts</a>
+&nbsp;·&nbsp; every claim carries a source ·
+sources re-verified weekly by <code>run_pipeline.sh</code></footer></body></html>

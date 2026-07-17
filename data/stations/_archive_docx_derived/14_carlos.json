@@ -1,0 +1,243 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 14,
+  "character_name": "CARLOS IBÁÑEZ",
+  "character_key": "carlos",
+  "header": "CARLOS IBÁÑEZ"
+ },
+ "museum_objects": [
+  {
+   "title": "First 1869 Hispania peseta coin",
+   "institution": "Museo Casa de la Moneda, Madrid (FNMT)",
+   "accession": "Part of permanent numismatic collection",
+   "date": "1869",
+   "url": "https://museo.fnmt.es/en/home",
+   "licence_raw": "State institution — free admission, contact for reproduction",
+   "description": "The founding peseta coin design by Luis Marchionni.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": false,
+    "status": null,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Franco-era peseta coin, \"Caudillo\" legend",
+   "institution": "Wikimedia Commons (Coins of Spain category)",
+   "accession": "Verify per file",
+   "date": "1939–1975",
+   "url": "https://commons.wikimedia.org/wiki/Category:Coins_of_Spain",
+   "licence_raw": "Verify individually — Spanish state copyright terms may differ from Commons default",
+   "description": "Coin bearing the legend \"Caudillo de España por la Gracia de Dios.\"",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:Coins_of_Spain",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   }
+  },
+  {
+   "title": "Goya, \"Saturn Devouring His Son\"",
+   "institution": "Museo del Prado, Madrid",
+   "accession": "P000763",
+   "date": "1819–1823",
+   "url": "https://www.museodelprado.es/en/the-collection/art-work/saturn/18568761-2926-4193-9814-d087e692d1e2",
+   "licence_raw": "CC BY-SA 4.0 (Wikimedia copy); Prado Image Bank charges ~€220+VAT for broadcast use",
+   "description": "Thematic visual metaphor for a nation devouring its own monarchical continuity.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Mantilla (traditional lace veil)",
+   "institution": "Museo del Traje, Madrid",
+   "accession": "MT-103172-73",
+   "date": "19th century",
+   "url": "https://ceres.mcu.es/pages/Main",
+   "licence_raw": "State museum catalog — contact for reproduction",
+   "description": "Traditional Spanish lace veil, useful for Hispania-allegory period costume styling.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://ceres.mcu.es/pages/Main",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Spanish Civil War local emergency banknote",
+   "institution": "Wikimedia Commons",
+   "accession": "Verify per file",
+   "date": "1936–1939",
+   "url": "https://commons.wikimedia.org/wiki/Category:Local_banknotes_of_the_Spanish_Civil_War",
+   "licence_raw": "No known restrictions (verify per item)",
+   "description": "Emergency \"billete local\" currency issued during the Civil War's dual-currency period.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Wikipedia: Spanish peseta, full regime-by-regime design catalog — comprehensive primary reference.",
+   "detail": "",
+   "url": "https://en.wikipedia.org/wiki/Spanish_peseta",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "Wikipedia: Spanish peseta, full regime-by-regime design catalog — comprehensive primary reference.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Spanish_peseta",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "Library of Congress: Spanish Civil War poster collection — primary propaganda documentation.",
+   "detail": "",
+   "url": "https://www.loc.gov/collections/spanish-civil-war-posters/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Library of Congress: Spanish Civil War poster collection — primary propaganda documentation.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence": "see LoC rights statement",
+    "licence_class": "check_required",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": null
+   }
+  },
+  {
+   "title": "UC San Diego Library: Southworth Spanish Civil War collection — digitized posters and ephemera.",
+   "detail": "",
+   "url": "https://library.ucsd.edu/dc/collection/bb2795286h",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "UC San Diego Library: Southworth Spanish Civil War collection — digitized posters and ephemera.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://library.ucsd.edu/dc/collection/bb2795286h",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Banco de España Historical Archive, 1874–2023 — institutional primary archive.",
+   "detail": "",
+   "url": "https://www.bde.es/bde/en/secciones/sobreelbanco/Archivo_e_Historia/",
+   "licence_raw": "Banco de España Historical Archive, 1874–2023 — institutional primary archive.",
+   "licence_class": "contact_required",
+   "raw": "Banco de España Historical Archive, 1874–2023 — institutional primary archive.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bde.es/wbe/en/sobre-banco/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "CERES — Spanish state museums' collective online catalog — cross-institutional primary object search.",
+   "detail": "",
+   "url": "https://ceres.mcu.es/pages/Main",
+   "licence_raw": "CERES — Spanish state museums' collective online catalog — cross-institutional primary object search.",
+   "licence_class": "contact_required",
+   "raw": "CERES — Spanish state museums' collective online catalog — cross-institutional primary object search.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://ceres.mcu.es/pages/Main",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: 1868, Spain, immediately after La Gloriosa forced Isabella II into exile. The revolutionary government must decide what to put on the new national coinage — using a monarch's portrait risked re-legitimizing exactly the kind of personal royal power the revolution had just overthrown, but abandoning royal portraiture entirely was a radical break from centuries of Spanish coinage tradition. The outcome was genuinely uncertain: no one knew yet what kind of government Spain would become, or whether the monarchy would even stay abolished (Amadeo I would in fact be invited to become king just three years later, in 1871).Player choice: Use an allegorical figure (Hispania) instead of any monarch's portrait, or wait to select a new king first.Historical resolution: The revolutionary government chose the allegorical \"Hispania\" design in 1869 — a currency without a monarch's face, even though the monarchy itself would return briefly in 1871 with Amadeo I.",
+ "understand": {
+  "economic_impact": "Spain's transition from the Franco dictatorship (ending 1975) to a modern eurozone-ready economy in roughly twenty-five years required building institutional currency credibility essentially from scratch [TH Script Writing Bible voice profile]. The Spanish Civil War's dual-currency period created severe economic fragmentation, with two competing monetary systems operating in the same country simultaneously Wikimedia Commons: Local banknotes of the Spanish Civil War.",
+  "political_impact": "The peseta's creation was a direct act of political erasure — replacing a deposed queen's portrait with an allegorical figure just months after her exile [master bible coin design data]. Its journey through five distinct regimes (Savoy monarchy, First Republic, Bourbon Restoration, Second Republic, Franco dictatorship, and constitutional monarchy) makes it one of the clearest single-currency records of a nation's turbulent 20th-century political history Wikipedia: Spanish peseta.",
+  "why_it_still_matters": "When Spain kicked out its queen in 1868, the new government had to decide what picture to put on their money instead of a royal face — and they chose an imaginary woman instead of a new king, because nobody was sure yet what kind of country Spain would become. Over the next hundred years, that same currency watched Spain cycle through kings, republics, a civil war fought with two different kinds of money at once, and a forty-year dictatorship, before finally becoming a stable modern democracy in just twenty-five years. Carlos's story matters because it shows that a country's money can be a mirror of everything chaotic happening around it, and that a nation can rebuild trust in itself — and its currency — remarkably fast, if it decides to."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:39"
+}

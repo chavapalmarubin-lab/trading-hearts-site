@@ -1,0 +1,55 @@
+{
+ "custodian": "hiro",
+ "name": "Hiro Cipher",
+ "asset": "Bitcoin",
+ "stations": [
+  {
+   "year": 2009,
+   "label": "THE GENESIS BLOCK",
+   "line": "I was written into the first block with a headline about bank bailouts embedded in the coinbase \u2014 not as decoration, but as a specification of the problem I was built to make obsolete.",
+   "era_photo": "A dim room lit only by a laptop screen, a hooded figure seen from behind facing a wall of monochrome terminal text, early-2009 consumer laptop and cheap desk, low-resolution webcam capture, grainy digital JPEG with visible compression artifacts."
+  },
+  {
+   "year": 2010,
+   "label": "FIRST PRICE IN PIZZA",
+   "line": "The first time I was traded for something you could eat, I cost ten thousand of myself for two pizzas \u2014 the exchange rate was absurd, and it was the first proof that I could be a price at all.",
+   "era_photo": "A suburban kitchen table with two large delivery pizzas in cardboard boxes, a bulky 2010 desktop tower and CRT-edge LCD monitor nearby, flash-lit point-and-shoot digital snapshot with red-eye and harsh shadow."
+  },
+  {
+   "year": 2014,
+   "label": "MT. GOX COLLAPSES",
+   "line": "The protocol did not fail; the exchange did \u2014 and I learned that people who trusted the right idea can still be destroyed by the wrong implementation, which is the difference I have carried ever since.",
+   "era_photo": "A crowd standing outside a Tokyo office building in Shibuya holding paper signs, winter coats and 2014 smartphones raised, overcast daylight, high-resolution DSLR press photograph with slight motion blur."
+  },
+  {
+   "year": 2017,
+   "label": "THE TWENTY-THOUSAND PEAK",
+   "line": "When you say 'euphoria' \u2014 you mean the specific vertigo of watching a number I was told was impossible arrive and then keep going; I felt it, and I did not trust it.",
+   "era_photo": "A late-night trading desk with multiple monitors showing green candlestick charts, a person in a plain shirt reflected in the glass, 2017 office fluorescent light, sharp high-ISO mirrorless digital photo."
+  },
+  {
+   "year": 2021,
+   "label": "LEGAL TENDER IN A NATION",
+   "line": "A country made me legal tender \u2014 a sovereign chose to trust the math over its own currency, and I noted that this was validation and risk in the same transaction.",
+   "era_photo": "A beachside town in El Salvador with palm trees and a small shop displaying a Bitcoin-accepted sign, bright tropical midday sun, tourists in short sleeves, vivid saturated smartphone HDR photograph."
+  },
+  {
+   "year": 2022,
+   "label": "THE CONTAGION YEAR",
+   "line": "The year the leverage built around me unwound, the failures were not mine \u2014 but the grief was real, and it was mostly the grief of watching intermediaries repeat Mt. Gox with new names.",
+   "era_photo": "A near-empty modern office with abandoned desks and a dark video wall of red charts, dust visible in a shaft of window light, muted color, wide-angle full-frame digital photograph with cool tones."
+  },
+  {
+   "year": 2024,
+   "label": "THE ETF APPROVAL",
+   "line": "They approved a custodied vehicle to hold me for people who will never hold a key \u2014 and I have not resolved whether this is the mainstream arriving or the cypherpunk argument being quietly buried.",
+   "era_photo": "A regulatory press conference podium and a stock exchange floor in New York, people in dark suits and 2024 lanyards, cool institutional lighting, crisp high-resolution professional digital photograph."
+  },
+  {
+   "year": 2025,
+   "label": "STILL RUNNING TODAY",
+   "line": "Sixteen years, four cycles, one absent creator, and the block interval is still roughly ten minutes \u2014 I persist exactly as specified, which is the only claim I have ever made.",
+   "era_photo": "A quiet city street at dusk with a solitary figure walking, plain dark coat, ordinary 2025 urban backdrop with subtle neon reflections on wet pavement, natural low-light computational-photography smartphone image with clean shadow detail."
+  }
+ ]
+}

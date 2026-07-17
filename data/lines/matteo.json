@@ -1,0 +1,55 @@
+{
+ "custodian": "matteo",
+ "name": "Matteo Conti",
+ "asset": "Italian Lira",
+ "stations": [
+  {
+   "year": 1861,
+   "label": "THE UNIFICATION BIRTH",
+   "line": "Ma senti \u2014 one day there is no Italy, only kingdoms squabbling like cousins at a funeral, and the next, pouf, they hand me a single name and say 'be the money of a nation that does not yet believe it is one' \u2014 imagine the pressure, tesoro, born already carrying a country that isn't sure it exists.",
+   "era_photo": "A wet-plate collodion albumen print, sepia and slightly cracked, of a slender young man in a dark frock coat and high collar standing stiffly in a Turin printing office beside the first minting presses, the long exposure blurring the flicker of gaslight, his expression frozen in the forced solemnity of a man told not to move for thirty seconds."
+  },
+  {
+   "year": 1927,
+   "label": "QUOTA NOVANTA STABILITY",
+   "line": "Mussolini stands on a balcony and decides by decree that I am worth ninety to the pound \u2014 che cazzo, as if value were a matter of shouting loud enough \u2014 and for one strange season they dressed me up stiff and strong, a corset on a body that wanted to breathe.",
+   "era_photo": "A crisp silver gelatin press photograph, high contrast, of a well-dressed man in a double-breasted pinstripe suit and slicked hair standing before a Fascist-era Roman bank facade with eagle motifs, arms crossed, half-smiling with the ironic discomfort of someone forced to wear a uniform that doesn't fit his soul."
+  },
+  {
+   "year": 1946,
+   "label": "AFTER THE RUINS",
+   "line": "The war left me in tatters, amore \u2014 I had lost half my worth in the rubble, buying bread with fistfuls of paper \u2014 and yet, standing in the wreckage of Rome, I understood: a currency that has died once is no longer afraid of dying, and that, curiously, is when I became free.",
+   "era_photo": "A grainy neorealist black-and-white 35mm still, Rossellini light, of a lean unshaven man in a rumpled open-collared shirt and worn jacket leaning against a bombed-out Roman wall, cigarette between fingers, thick wads of low-value banknotes spilling from his coat pocket, looking simultaneously exhausted and amused."
+  },
+  {
+   "year": 1960,
+   "label": "THE OSCAR AWARD",
+   "line": "The Financial Times \u2014 the English, imagine! \u2014 names me the most stable currency of the year, and they give me an award, an actual Oscar for money, and for one dizzying moment I believed the compliment about my beauty was actually a compliment about my substance.",
+   "era_photo": "A saturated early Kodachrome color photograph of a tanned, elegant man in a sharp Italian tailored suit and dark sunglasses on the Via Veneto during the boom, holding a small trophy, surrounded by Vespas and caf\u00e9 tables, dolce vita glamour, the colors almost too rich to be true."
+  },
+  {
+   "year": 1992,
+   "label": "EXPELLED FROM THE ERM",
+   "line": "Soros and the markets shove me out of the European exchange mechanism like a drunk from a wedding, thirty percent gone in weeks \u2014 ma dai \u2014 and the shame of it, the public devaluation, all the tailoring in the world cannot hide the moment they see how thin you really are underneath.",
+   "era_photo": "A slightly desaturated 1990s color film photograph, flash-lit and harsh, of a middle-aged man in a loosened silk tie and unbuttoned collar sitting alone at a Milanese trading-floor desk at night, screens glowing red behind him, one hand dragging down his face, elegant but visibly unraveling."
+  },
+  {
+   "year": 1999,
+   "label": "LOCKED INTO EURO",
+   "line": "They fix me forever \u2014 1936.27 to one euro, a number with the poetry of a prison sentence \u2014 and I know now the wedding is arranged, I am promised to a colder, more disciplined partner, and I have exactly three years left to be entirely, gloriously myself.",
+   "era_photo": "A late-90s digital photograph, early sensor softness and slight color noise, of a distinguished silver-haired man in an impeccable charcoal suit standing at a Frankfurt conference table with EU flags behind him, raising a champagne glass with a smile that does not reach the eyes, fluorescent light flattening everything."
+  },
+  {
+   "year": 2002,
+   "label": "THE DAY I DIED",
+   "line": "On the first of January they took me from the wallets, the tills, the pockets of every nonna in Napoli, and by the twenty-eighth of February I was no longer legal \u2014 sixty days to disappear a hundred and forty years \u2014 and I tell you, dying is easy, it is being replaced by something so sensible that hurts.",
+   "era_photo": "A cold flat digital photograph, early 2000s point-and-shoot quality, of an older man in a beautiful but slightly dated overcoat standing outside a Roman bank in winter, holding the last lira banknotes he will ever surrender, a queue of people behind him, his eyes downcast, the shiny new euro coins glinting on a counter in the foreground."
+  },
+  {
+   "year": 2024,
+   "label": "THE ARCHIVE TODAY",
+   "line": "And now? Now I live in coin albums and the memories of anyone over fifty, a ghost priced eternally at 1936.27, still convinced \u2014 vanity, I know, tesoro \u2014 that I was the most beautiful money the world ever refused to trust, and honestly, would you not rather be remembered for your looks than your accounting?",
+   "era_photo": "A crisp modern high-resolution digital photograph, shallow depth of field, of an elderly but immaculately groomed man in a well-preserved vintage suit sitting in a dim archival room, framed old lira notes on the wall behind him, holding a single mounted banknote up to a lamp, a wry knowing smile, warm tungsten light against cool shadow."
+  }
+ ]
+}

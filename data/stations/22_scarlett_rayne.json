@@ -1,0 +1,428 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 22,
+  "character_key": "scarlett_rayne",
+  "character_name": "Scarlett Rayne",
+  "asset": "Australian Dollar",
+  "ticker": "AUD",
+  "era": "1966",
+  "era_label": "Decimal-Era Australia",
+  "era_year": 1966,
+  "tagline": "She traded her mother country's coins for her own name and bet it all on rocks in the ground."
+ },
+ "museum_objects": [
+  {
+   "id": "scarlett_rayne_obj_1",
+   "title": "C-Day Decimal Currency Launch Materials",
+   "date": "February 14, 1966",
+   "type": "document/ephemera",
+   "material": "paper",
+   "description": "Original promotional and educational materials from 'C-Day,' when Australia switched from pounds to decimal dollars.",
+   "significance": "Australia gave up its British pounds and shillings for good on this day — Scarlett's very first act was declaring independence from her mother country's math.",
+   "museum": "Reserve Bank of Australia Museum",
+   "museum_location": "Sydney, Australia",
+   "accession_number": "The Decimal Revolution exhibition materials",
+   "collection_url": "https://museum.rba.gov.au/exhibitions/the-decimal-revolution/",
+   "image_url": "https://museum.rba.gov.au/exhibitions/the-decimal-revolution/",
+   "license": "RBA Museum terms",
+   "open_access": false,
+   "plain_language": "Original materials from 1966's 'C-Day,' when Australia switched from British pounds to its own decimal dollar system.",
+   "url": "https://museum.rba.gov.au/exhibitions/the-decimal-revolution/",
+   "accession": "The Decimal Revolution exhibition materials",
+   "institution": "Reserve Bank of Australia Museum",
+   "licence": "RBA Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://museum.rba.gov.au/exhibitions/the-decimal-revolution/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "scarlett_rayne_obj_2",
+   "title": "Holey Dollar",
+   "date": "1813",
+   "type": "coin",
+   "material": "silver",
+   "description": "An early Australian coin created by cutting the center out of a Spanish dollar to prevent hoarding and export.",
+   "significance": "A century and a half before Scarlett existed, colonial Australia was already improvising its own money out of pure necessity — cutting holes in someone else's currency to make it theirs.",
+   "museum": "Museums Victoria",
+   "museum_location": "Melbourne, Australia",
+   "accession_number": "55645",
+   "collection_url": "https://collections.museumsvictoria.com.au/items/55645",
+   "image_url": "https://collections.museumsvictoria.com.au/items/55645",
+   "license": "Museums Victoria terms",
+   "open_access": false,
+   "plain_language": "An old Australian coin made by literally cutting a hole in the middle of a Spanish coin — an early, improvised form of Australian money.",
+   "url": "https://collections.museumsvictoria.com.au/items/55645",
+   "accession": "55645",
+   "institution": "Museums Victoria",
+   "licence": "Museums Victoria terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://collections.museumsvictoria.com.au/items/55645",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Holey Dollar, British Museum.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Holey_Dollar%2C_British_Museum.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Holey_Dollar,_British_Museum.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Photograph by Mike Peel (www.mikepeel.net)."
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Holey dollar coinage NSW 1813 a128577 02.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Holey_dollar_coinage_NSW_1813_a128577_02.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Holey_dollar_coinage_NSW_1813_a128577_02.jpg",
+     "licence": "CC BY-SA 3.0 au",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Colonial Government of New South Wales"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "7 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "scarlett_rayne_obj_3",
+   "title": "First Polymer Banknote (1988 Bicentennial $10)",
+   "date": "1988",
+   "type": "banknote",
+   "material": "polymer",
+   "description": "The world's first polymer banknote, designed by Harry Williamson with technology developed by Australia's CSIRO.",
+   "significance": "Scarlett didn't just adopt currency technology — she invented it. This note is the reason nearly every country's banknotes today resist counterfeiting the way they do.",
+   "museum": "Reserve Bank of Australia Museum",
+   "museum_location": "Sydney, Australia",
+   "accession_number": "1988 Bicentennial $10 polymer note",
+   "collection_url": "https://museum.rba.gov.au/exhibitions/the-decimal-revolution/",
+   "image_url": "https://museum.rba.gov.au/exhibitions/the-decimal-revolution/",
+   "license": "RBA Museum terms",
+   "open_access": false,
+   "plain_language": "The world's very first plastic banknote, invented in Australia in 1988 — most countries' money is based on this same technology today.",
+   "url": "https://museum.rba.gov.au/exhibitions/the-decimal-revolution/",
+   "accession": "1988 Bicentennial $10 polymer note",
+   "institution": "Reserve Bank of Australia Museum",
+   "licence": "RBA Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://museum.rba.gov.au/exhibitions/the-decimal-revolution/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "scarlett_rayne_obj_4",
+   "title": "eGold Archive: Ballarat/Bendigo Gold Rush Photographs",
+   "date": "1850s-1860s",
+   "type": "photograph",
+   "material": "print",
+   "description": "Historical photographs documenting the Victorian gold rush that first made Australia a resource-driven economy.",
+   "significance": "A century before mining stocks and iron ore exports, Scarlett's national character was already being forged in these dusty goldfields.",
+   "museum": "State Library of Victoria",
+   "museum_location": "Melbourne, Australia",
+   "accession_number": "AEG000010",
+   "collection_url": "https://www.egold.net.au/archives/AEG000010.htm",
+   "image_url": "https://www.egold.net.au/archives/AEG000010.htm",
+   "license": "State Library of Victoria terms",
+   "open_access": false,
+   "plain_language": "Old photographs of the 1850s Australian gold rush, which first turned the country's economy into a resource-driven one.",
+   "url": "https://www.egold.net.au/archives/AEG000010.htm",
+   "accession": "AEG000010",
+   "institution": "State Library of Victoria",
+   "licence": "State Library of Victoria terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.egold.net.au/archives/AEG000010.htm",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "scarlett_rayne_obj_5",
+   "title": "Royal Australian Mint Opening Records",
+   "date": "February 22, 1965",
+   "type": "document",
+   "material": "paper",
+   "description": "Official records of the opening of the Royal Australian Mint in Canberra, established just before decimal currency's launch.",
+   "significance": "This mint was built specifically to give Scarlett her own physical body — coins struck by Australians, for Australians, for the first time.",
+   "museum": "Royal Australian Mint",
+   "museum_location": "Canberra, Australia",
+   "accession_number": "RAM founding records 1965",
+   "collection_url": "https://www.ramint.gov.au/",
+   "image_url": "https://www.ramint.gov.au/",
+   "license": "Royal Australian Mint terms",
+   "open_access": false,
+   "plain_language": "Official records of the opening of Australia's own mint in 1965, built specifically to make Australia's new decimal coins.",
+   "url": "https://www.ramint.gov.au/",
+   "accession": "RAM founding records 1965",
+   "institution": "Royal Australian Mint",
+   "licence": "Royal Australian Mint terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ramint.gov.au/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Opening Plaque, Royal Australian Mint building, Canberra, 2022.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Opening_Plaque%2C_Royal_Australian_Mint_building%2C_Canberra%2C_2022.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Opening_Plaque,_Royal_Australian_Mint_building,_Canberra,_2022.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Kgbo"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: the image shows a coin, not a record of the Royal Australian Mint's opening",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "scarlett_rayne_src_1",
+   "title": "Defining Moments: Decimal Currency",
+   "type": "official_publication",
+   "date": "Ongoing",
+   "author": "National Museum of Australia",
+   "description": "Official national museum account of Australia's switch to decimal currency.",
+   "held_at": "National Museum of Australia",
+   "url": "https://www.nma.gov.au/defining-moments/resources/decimal-currency",
+   "license": "NMA terms",
+   "plain_language": "Australia's national museum's own account of the country's switch to decimal money.",
+   "licence": "NMA terms",
+   "licence_class": "unknown",
+   "institution": "National Museum of Australia",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "scarlett_rayne_src_2",
+   "title": "RBA 1966 Annual Report",
+   "type": "official_publication",
+   "date": "1966",
+   "author": "Reserve Bank of Australia",
+   "description": "The RBA's official annual report covering the year of the decimal currency changeover.",
+   "held_at": "Reserve Bank of Australia",
+   "url": "https://museum.rba.gov.au/exhibitions/the-decimal-revolution/",
+   "license": "RBA terms",
+   "plain_language": "The Reserve Bank of Australia's own official report from the year decimal currency launched.",
+   "licence": "RBA terms",
+   "licence_class": "unknown",
+   "institution": "Reserve Bank of Australia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://museum.rba.gov.au/exhibitions/the-decimal-revolution/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "scarlett_rayne_src_3",
+   "title": "The Decimal Revolution Exhibition",
+   "type": "museum_exhibition",
+   "date": "Ongoing",
+   "author": "Reserve Bank of Australia Museum",
+   "description": "Museum exhibition documenting Australia's 1966 currency changeover.",
+   "held_at": "RBA Museum",
+   "url": "https://museum.rba.gov.au/exhibitions/the-decimal-revolution/",
+   "license": "RBA Museum terms",
+   "plain_language": "A museum exhibition telling the full story of Australia's switch to decimal currency.",
+   "licence": "RBA Museum terms",
+   "licence_class": "unknown",
+   "institution": "RBA Museum",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://museum.rba.gov.au/exhibitions/the-decimal-revolution/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "scarlett_rayne_src_4",
+   "title": "State Library of Victoria eGold Archive",
+   "type": "photo_archive",
+   "date": "1850s-1860s",
+   "author": "State Library of Victoria",
+   "description": "Digitized archive of photographs and documents from the Victorian gold rush era.",
+   "held_at": "State Library of Victoria",
+   "url": "https://www.egold.net.au/archives/AEG000010.htm",
+   "license": "State Library of Victoria terms",
+   "plain_language": "An online photo archive documenting Australia's 1850s gold rush.",
+   "licence": "State Library of Victoria terms",
+   "licence_class": "unknown",
+   "institution": "State Library of Victoria",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.egold.net.au/archives/AEG000010.htm",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "scarlett_rayne_src_5",
+   "title": "Museums Victoria Collection Record: Holey Dollar",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Museums Victoria",
+   "description": "Museum documentation of the historic Holey Dollar coin.",
+   "held_at": "Museums Victoria",
+   "url": "https://collections.museumsvictoria.com.au/items/55645",
+   "license": "Museums Victoria terms",
+   "plain_language": "A museum's official record describing the old coin Australians made by cutting a hole in a Spanish dollar.",
+   "licence": "Museums Victoria terms",
+   "licence_class": "unknown",
+   "institution": "Museums Victoria",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://collections.museumsvictoria.com.au/items/55645",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": -35.2809,
+  "center_lng": 149.13,
+  "center_label": "Canberra, Australia",
+  "era_start": 1966,
+  "era_end": 2026,
+  "map_description": "Scarlett was born on Decimal Currency Day in 1966 and grew into a resource-backed currency shaped by gold rushes, iron ore, and the vast mineral wealth of the Australian outback.",
+  "nodes": [
+   {
+    "label": "Canberra (Royal Australian Mint)",
+    "lat": -35.3439,
+    "lng": 149.1094,
+    "type": "origin",
+    "description": "Home of the Royal Australian Mint, established in 1965 to produce the new decimal coinage."
+   },
+   {
+    "label": "Ballarat / Bendigo Goldfields",
+    "lat": -37.5622,
+    "lng": 143.8503,
+    "type": "resource",
+    "description": "Site of the 1850s Victorian gold rush that first established Australia's resource-driven economic identity."
+   },
+   {
+    "label": "Pilbara Iron Ore Region",
+    "lat": -22.6,
+    "lng": 118.7,
+    "type": "resource",
+    "description": "One of the world's largest iron ore-producing regions, a modern pillar of the Australian dollar's value."
+   },
+   {
+    "label": "Kalgoorlie Super Pit",
+    "lat": -30.7489,
+    "lng": 121.4708,
+    "type": "resource",
+    "description": "One of Australia's largest gold mines, symbolizing the country's ongoing dependence on mineral wealth."
+   },
+   {
+    "label": "Sydney (RBA Museum)",
+    "lat": -33.8688,
+    "lng": 151.2093,
+    "type": "destination",
+    "description": "Home to the Reserve Bank of Australia's museum documenting the full history of Australian currency."
+   }
+  ],
+  "historical_map_source": {
+   "title": "National Museum of Australia — Defining Moments: Decimal Currency",
+   "url": "https://www.nma.gov.au/defining-moments/resources/decimal-currency",
+   "license": "NMA terms"
+  }
+ },
+ "_verified": "2026-07-11 10:41"
+}

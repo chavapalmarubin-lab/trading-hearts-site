@@ -1,0 +1,520 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 3,
+  "character_key": "charlotte_windsor",
+  "character_name": "Charlotte Windsor",
+  "asset": "British Pound Sterling",
+  "ticker": "GBP",
+  "era": "775",
+  "era_label": "Anglo-Saxon England",
+  "era_year": 775,
+  "tagline": "Twelve hundred years of composure, and she has never once raised her voice."
+ },
+ "museum_objects": [
+  {
+   "id": "charlotte_windsor_obj_1",
+   "title": "Coenwulf Gold Mancus",
+   "date": "c. 805-810 AD",
+   "type": "coin",
+   "material": "gold",
+   "description": "An extraordinarily rare Anglo-Saxon gold coin from the successor system to Offa's silver penny standard.",
+   "significance": "Only a handful of these survive — a reminder that behind every steady currency is a moment so fragile that almost all the evidence of it was lost to time.",
+   "museum": "British Museum",
+   "museum_location": "London, UK",
+   "accession_number": "2006,0204.1",
+   "collection_url": "https://www.britishmuseum.org/collection/object/C_2006-0204-1",
+   "image_url": "https://www.britishmuseum.org/collection/object/C_2006-0204-1",
+   "license": "British Museum Standard Terms of Use",
+   "open_access": false,
+   "plain_language": "An extremely rare gold coin from Anglo-Saxon England — so rare the British Museum had to fight to keep it from being sold abroad.",
+   "url": "https://www.britishmuseum.org/collection/object/C_2006-0204-1",
+   "accession": "2006,0204.1",
+   "institution": "British Museum",
+   "licence": "British Museum Standard Terms of Use",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.britishmuseum.org/collection/object/C_2006-0204-1",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Coenwulf, King of Mercia, gold mancus; struck 796–821 AD (obverse).png",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Coenwulf%2C_King_of_Mercia%2C_gold_mancus%3B_struck_796%E2%80%93821_AD_%28obverse%29.png",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Coenwulf,_King_of_Mercia,_gold_mancus;_struck_796%E2%80%93821_AD_(obverse).png",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Scan: British Museum"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Coenwulf of Mercia.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Coenwulf_of_Mercia.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Coenwulf_of_Mercia.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "DrKay"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "4 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "charlotte_windsor_obj_2",
+   "title": "Cynethryth Penny (Offa's Queen)",
+   "date": "c. 787-792 AD",
+   "type": "coin",
+   "material": "silver",
+   "description": "A silver penny struck in the name of Cynethryth, wife of King Offa — the only Anglo-Saxon queen ever to have coinage struck in her own name.",
+   "significance": "A woman's name on money, thirteen centuries before anyone thought that was normal. Charlotte's whole story starts with someone insisting she deserved to be named.",
+   "museum": "British Museum",
+   "museum_location": "London, UK",
+   "accession_number": "CM TYS / BMC 60",
+   "collection_url": "https://www.britishmuseum.org/collection/search?keyword=Cynethryth",
+   "image_url": "https://www.britishmuseum.org/collection/search?keyword=Cynethryth",
+   "license": "British Museum Standard Terms of Use",
+   "open_access": false,
+   "plain_language": "A coin stamped with a queen's name — over 1,200 years ago, this was the only time an English queen got her own money.",
+   "url": "https://www.britishmuseum.org/collection/search?keyword=Cynethryth",
+   "accession": "CM TYS / BMC 60",
+   "institution": "British Museum",
+   "licence": "British Museum Standard Terms of Use",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Early-medieval coin , Penny of Cynethryth, wife of Offa, King of Mercia (FindID 197414).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Early-medieval_coin_%2C_Penny_of_Cynethryth%2C_wife_of_Offa%2C_King_of_Mercia_%28FindID_197414%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Early-medieval_coin_,_Penny_of_Cynethryth,_wife_of_Offa,_King_of_Mercia_(FindID_197414).jpg",
+     "licence": "CC BY-SA 2.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nYork Museums Trust, Liz Andrews-Wilson, 2007-10-18 11:16:04"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Offa and Cynethryth pennies.gif",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Offa_and_Cynethryth_pennies.gif",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Offa_and_Cynethryth_pennies.gif",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": ""
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "2 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "charlotte_windsor_obj_3",
+   "title": "Silver Penny of Offa (East Anglian mint)",
+   "date": "c. 780-793 AD",
+   "type": "coin",
+   "material": "silver",
+   "description": "A silver penny of King Offa of Mercia, struck by the moneyer Lul, establishing the 240-pennies-to-a-pound system.",
+   "significance": "This is the coin that invented the pound as a unit — the ancestor of every British pound that would ever be spent.",
+   "museum": "Fitzwilliam Museum",
+   "museum_location": "Cambridge, UK",
+   "accession_number": "media-208429",
+   "collection_url": "https://data.fitzmuseum.cam.ac.uk/id/image/media-208429",
+   "image_url": "https://data.fitzmuseum.cam.ac.uk/id/image/media-208429",
+   "license": "Fitzwilliam Museum terms",
+   "open_access": false,
+   "plain_language": "The actual coin design that created the math behind the British pound: 240 pennies to one pound of silver.",
+   "url": "https://data.fitzmuseum.cam.ac.uk/id/image/media-208429",
+   "accession": "media-208429",
+   "institution": "Fitzwilliam Museum",
+   "licence": "Fitzwilliam Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://data.fitzmuseum.cam.ac.uk/id/image/media-208429",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Early medieval silver penny of Offa of Mercia (Heavy coinage) c. 792-3 - 796AD. (FindID 993480).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Early_medieval_silver_penny_of_Offa_of_Mercia_%28Heavy_coinage%29_c._792-3_-_796AD._%28FindID_993480%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Early_medieval_silver_penny_of_Offa_of_Mercia_(Heavy_coinage)_c._792-3_-_796AD._(FindID_993480).jpg",
+     "licence": "CC BY 2.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nNational Museum Wales , Susie White, 2020-02-17 12:49:37"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Penny of Offa, obverse (FindID 78539).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Penny_of_Offa%2C_obverse_%28FindID_78539%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Penny_of_Offa,_obverse_(FindID_78539).jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nColchester Museums, Caroline McDonald, 2004-10-20 10:53:05"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "charlotte_windsor_obj_4",
+   "title": "Sutton Hoo Helmet",
+   "date": "early 7th century AD",
+   "type": "armor",
+   "material": "iron, bronze, gilt",
+   "description": "The iconic ceremonial helmet from the Sutton Hoo ship burial, the richest Anglo-Saxon grave ever found.",
+   "significance": "Charlotte's world was already this rich and ceremonial before a single coin bore her likeness — this helmet is what wealth looked like before money had a face.",
+   "museum": "British Museum",
+   "museum_location": "London, UK",
+   "accession_number": "1939,1010.93",
+   "collection_url": "https://www.britishmuseum.org/collection/object/H_1939-1010-93",
+   "image_url": "https://www.britishmuseum.org/collection/object/H_1939-1010-93",
+   "license": "British Museum Standard Terms of Use",
+   "open_access": false,
+   "plain_language": "A famous ancient warrior's helmet buried with a king, showing how wealthy and elaborate Anglo-Saxon England already was.",
+   "url": "https://www.britishmuseum.org/collection/object/H_1939-1010-93",
+   "accession": "1939,1010.93",
+   "institution": "British Museum",
+   "licence": "British Museum Standard Terms of Use",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Sutton Hoo helmet design 2-reconstructed-known.svg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Sutton_Hoo_helmet_design_2-reconstructed-known.svg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Sutton_Hoo_helmet_design_2-reconstructed-known.svg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Goran tek-en"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Sutton Hoo helmet fig1 - reconstructed-known.svg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Sutton_Hoo_helmet_fig1_-_reconstructed-known.svg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Sutton_Hoo_helmet_fig1_-_reconstructed-known.svg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Goran tek-en"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "12 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "charlotte_windsor_obj_5",
+   "title": "Staffordshire Hoard",
+   "date": "c. 650-675 AD",
+   "type": "treasure_hoard",
+   "material": "gold, garnet",
+   "description": "The largest hoard of Anglo-Saxon gold and silver metalwork ever found, unearthed in a Staffordshire field in 2009.",
+   "significance": "Buried in a hurry and never reclaimed — a whole kingdom's wealth left in the dirt, waiting 1,300 years to tell its story.",
+   "museum": "Birmingham Museums Trust",
+   "museum_location": "Birmingham, UK",
+   "accession_number": "Staffordshire Hoard collection",
+   "collection_url": "https://www.staffordshirehoard.org.uk/",
+   "image_url": "https://www.staffordshirehoard.org.uk/",
+   "license": "Contact Birmingham Museums Trust rights office",
+   "open_access": false,
+   "plain_language": "The biggest pile of Anglo-Saxon gold ever discovered, found by an ordinary person using a metal detector in a farm field.",
+   "url": "https://www.staffordshirehoard.org.uk/",
+   "accession": "Staffordshire Hoard collection",
+   "institution": "Birmingham Museums Trust",
+   "licence": "Contact Birmingham Museums Trust rights office",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.birminghammuseums.org.uk/birmingham-museum-and-art-gallery/highlights/staffordshire-hoard",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Staffordshire Hoard Pommel Caps.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Staffordshire_Hoard_Pommel_Caps.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Staffordshire_Hoard_Pommel_Caps.jpg",
+     "licence": "CC BY 2.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Jon Callas from San Jose, USA"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Staffordshire hoard annotated.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Staffordshire_hoard_annotated.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Staffordshire_hoard_annotated.jpg",
+     "licence": "CC BY 2.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "David Rowan, Birmingham Museum and Art Gallery"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "charlotte_windsor_src_1",
+   "title": "Sylloge of Coins of the British Isles Vol. 67: British Museum Anglo-Saxon Coins II",
+   "type": "academic_publication",
+   "date": "2016",
+   "author": "Rory Naismith",
+   "description": "Definitive scholarly catalogue of 1,436 Anglo-Saxon coins from Offa to Alfred.",
+   "held_at": "British Academy",
+   "url": "https://www.thebritishacademy.ac.uk/publishing/specialist-scholarly-publications/sylloge-coins-british-isles/",
+   "license": "Publisher rights apply",
+   "plain_language": "The most complete official list ever made of early English coins, cataloguing over 1,400 of them.",
+   "licence": "Publisher rights apply",
+   "licence_class": "unknown",
+   "institution": "British Academy",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "charlotte_windsor_src_2",
+   "title": "Corpus of Early Medieval Coin Finds (EMC)",
+   "type": "database",
+   "date": "Ongoing",
+   "author": "Fitzwilliam Museum, Cambridge",
+   "description": "Database recording single coin finds in Britain from 410-1180 AD, with roughly 12,000 entries.",
+   "held_at": "Fitzwilliam Museum",
+   "url": "https://emc.fitzmuseum.cam.ac.uk/",
+   "license": "Fitzwilliam Museum terms",
+   "plain_language": "A searchable database of every early English coin ever found by archaeologists or metal detectorists.",
+   "licence": "Fitzwilliam Museum terms",
+   "licence_class": "unknown",
+   "institution": "Fitzwilliam Museum",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://emc.fitzmuseum.cam.ac.uk/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "charlotte_windsor_src_3",
+   "title": "Portable Antiquities Scheme Database",
+   "type": "database",
+   "date": "Ongoing",
+   "author": "British Museum / PAS",
+   "description": "National database recording archaeological objects found by the public, including thousands of Anglo-Saxon coins.",
+   "held_at": "finds.org.uk",
+   "url": "https://finds.org.uk/",
+   "license": "CC BY 3.0",
+   "plain_language": "A public database where regular people report ancient coins and objects they've dug up.",
+   "licence": "CC BY 3.0",
+   "licence_class": "open",
+   "institution": "finds.org.uk",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "charlotte_windsor_src_4",
+   "title": "History of the English Penny (c.600-1066)",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "General reference timeline confirming Offa's penny system remained England's monetary basis until the 14th century.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_the_English_penny_(c._600_%E2%80%93_1066)",
+   "license": "CC BY-SA",
+   "plain_language": "An overview explaining how one king's coin design stayed in use for over 500 years.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/History_of_the_English_penny_(c._600_%E2%80%93_1066)",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "charlotte_windsor_src_5",
+   "title": "A Short History of the Pound",
+   "type": "news_explainer",
+   "date": "2014",
+   "author": "BBC News",
+   "description": "Explainer article tracing the pound sterling's history from Anglo-Saxon origins to the present.",
+   "held_at": "BBC News",
+   "url": "https://www.bbc.com/news/uk-politics-26169070",
+   "license": "BBC terms",
+   "plain_language": "A news article explaining, in simple terms, how the British pound got its name and history.",
+   "licence": "BBC terms",
+   "licence_class": "unknown",
+   "institution": "BBC News",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bbc.com/news/uk-politics-26169070",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 51.5074,
+  "center_lng": -0.1278,
+  "center_label": "London, England",
+  "era_start": 775,
+  "era_end": 2026,
+  "map_description": "Charlotte's pound sterling was born in Anglo-Saxon Mercia and grew into the currency of a global empire, then a modern financial capital.",
+  "nodes": [
+   {
+    "label": "Mercia (Offa's Kingdom)",
+    "lat": 52.5,
+    "lng": -2.0,
+    "type": "origin",
+    "description": "The Anglo-Saxon kingdom where King Offa established the silver penny system that became the ancestor of the pound."
+   },
+   {
+    "label": "Canterbury Mint",
+    "lat": 51.2802,
+    "lng": 1.0789,
+    "type": "origin",
+    "description": "One of Offa's most active mints, striking pennies that circulated across southern England."
+   },
+   {
+    "label": "Sutton Hoo, Suffolk",
+    "lat": 52.0899,
+    "lng": 1.3389,
+    "type": "landmark",
+    "description": "Site of the richest Anglo-Saxon ship burial ever found, showing the wealth of the world Charlotte was born into."
+   },
+   {
+    "label": "Offa's Dyke",
+    "lat": 52.2,
+    "lng": -3.1,
+    "type": "landmark",
+    "description": "The massive earthwork boundary built by King Offa, symbol of Mercian power and organization."
+   },
+   {
+    "label": "City of London",
+    "lat": 51.5142,
+    "lng": -0.0931,
+    "type": "destination",
+    "description": "Modern financial heart of Britain and home to the Bank of England, where the pound is managed today."
+   },
+   {
+    "label": "Royal Mint, Llantrisant",
+    "lat": 51.5477,
+    "lng": -3.3719,
+    "type": "destination",
+    "description": "The current home of British coin production, descended from over a thousand years of minting tradition."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Offa's Dyke Resource",
+   "url": "https://cadw.gov.wales/sites/default/files/2025-06/Offa's%20Dyke%20Resource%20English%20(1).pdf",
+   "license": "Cadw (Welsh Government) terms"
+  }
+ },
+ "_verified": "2026-07-11 10:37"
+}

@@ -1,0 +1,236 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 24,
+  "character_name": "SOFIA VALENTE",
+  "character_key": "sofia",
+  "header": "SOFIA VALENTE"
+ },
+ "museum_objects": [
+  {
+   "title": "\"Signature of the Maastricht Treaty\" photograph",
+   "institution": "European Commission Audiovisual Service",
+   "accession": "Photo ID P-007781/01-25A",
+   "date": "Feb 7, 1992",
+   "url": "https://audiovisual.ec.europa.eu/en/media/photo/P-007781/01-25A",
+   "licence_raw": "© European Communities — verify terms",
+   "description": "Official photograph of the treaty signing that founded the legal basis for the euro.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://audiovisual.ec.europa.eu/en/media/photo/P-007781/01-25A",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Original euro banknote design competition entries",
+   "institution": "Bank of Greece exhibition (per Archis/Volume magazine reference)",
+   "accession": "N/A",
+   "date": "1996 design competition",
+   "url": "https://archis.org/volume/volumes-archive-on-money-selling-money-from-volume-3/",
+   "licence_raw": "Institutional — verify with Bank of Greece",
+   "description": "Competition entries from the 1995-98 euro banknote design process.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://archis.org/volume/volumes-archive-on-money-selling-money-from-volume-3/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Deutsche Mark banknotes/coins (final series)",
+   "institution": "Deutsche Bundesbank Money Museum, Frankfurt",
+   "accession": "Numismatic Collection inv. numbers vary",
+   "date": "Pre-2002",
+   "url": "https://www.bundesbank.de/en/bundesbank/money-museum/exhibitions/permanent-exhibition-all-about-money-970514",
+   "licence_raw": "Free on request, credit \"Numismatic Collection Deutsche Bundesbank\"",
+   "description": "Representative artifact of one of the seven founding currencies replaced by the euro.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bundesbank.de/en/bundesbank/money-museum/exhibitions/permanent-exhibition-all-about-money-970514",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Maastricht Treaty replica",
+   "institution": "Maastricht Treaty Building (\"Treaty House\")",
+   "accession": "Permanent exhibition (original held in Italy)",
+   "date": "Signed 1992",
+   "url": "https://maastrichtmagazine.com/maastricht-treaty-building-visit-the-exhibition/",
+   "licence_raw": "Institutional — contact required",
+   "description": "Full-scale replica of the founding treaty document displayed at the signing location.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://maastrichtmagazine.com/maastricht-treaty-building-visit-the-exhibition/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "First series €5 banknote (\"Ages and Styles of Europe\" — Classical period)",
+   "institution": "Banco de España",
+   "accession": "N/A",
+   "date": "Issued 2002",
+   "url": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/billetes-euros/contenido/conoce-tus-billetes/primera-serie/",
+   "licence_raw": "Institutional — verify with Banco de España",
+   "description": "Original euro banknote featuring Robert Kalina's deliberately fictional architectural design.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/billetes-euros/contenido/conoce-tus-billetes/primera-serie/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "ECB, verbatim transcript of Mario Draghi's \"whatever it takes\" speech (July 26, 2012) — primary institutional transcript.",
+   "detail": "",
+   "url": "https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html",
+   "licence_raw": "ECB, verbatim transcript of Mario Draghi's \"whatever it takes\" speech (July 26, 2012) — primary institutional transcript.",
+   "licence_class": "contact_required",
+   "raw": "ECB, verbatim transcript of Mario Draghi's \"whatever it takes\" speech (July 26, 2012) — primary institutional transcript.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "ECB PDF, \"How the Euro Became Our Money\" — primary institutional history.",
+   "detail": "",
+   "url": "https://www.ecb.europa.eu/pub/pdf/other/euro_became_our_moneyen.pdf",
+   "licence_raw": "ECB PDF, \"How the Euro Became Our Money\" — primary institutional history.",
+   "licence_class": "contact_required",
+   "raw": "ECB PDF, \"How the Euro Became Our Money\" — primary institutional history.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ecb.europa.eu/pub/pdf/other/euro_became_our_moneyen.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "European Commission (Medium), \"The person behind the design of the euro coins\" — first-person primary account by designer Luc Luycx.",
+   "detail": "",
+   "url": "https://europeancommission.medium.com/euro-coin-design-story-30a675fae016",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "European Commission (Medium), \"The person behind the design of the euro coins\" — first-person primary account by designer Luc Luycx.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://europeancommission.medium.com/euro-coin-design-story-30a675fae016",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Bank of England PDF, \"The Maastricht agreement on economic and monetary union\" (1992 Quarterly Bulletin) — primary contemporaneous institutional analysis.",
+   "detail": "",
+   "url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1992/the-maastricht-agreement-on-economic-and-monetary-union.pdf",
+   "licence_raw": "Bank of England PDF, \"The Maastricht agreement on economic and monetary union\" (1992 Quarterly Bulletin) — primary contemporaneous institutional analysis.",
+   "licence_class": "contact_required",
+   "raw": "Bank of England PDF, \"The Maastricht agreement on economic and monetary union\" (1992 Quarterly Bulletin) — primary contemporaneous institutional analysis.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1992/the-maastricht-agreement-on-economic-and-monetary-union.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "The New York Times, \"A Farewell to the Franc: Little Sorrow in France\" (Dec 27, 2001) — contemporaneous primary news account.",
+   "detail": "",
+   "url": "https://www.nytimes.com/2001/12/27/world/a-farewell-to-the-franc-little-sorrow-in-france.html",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "The New York Times, \"A Farewell to the Franc: Little Sorrow in France\" (Dec 27, 2001) — contemporaneous primary news account.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: July 2012, during the European debt crisis. Financial markets are betting heavily that the euro could break apart as countries like Greece, Spain, and Italy face soaring borrowing costs. ECB President Mario Draghi must decide whether to make an unprecedented, open-ended public commitment to defend the currency — a promise with no clearly defined limit — or maintain the ECB's traditional, more cautious and limited approach. The outcome was genuinely uncertain: an open-ended commitment could fail to convince markets, or could commit the ECB to enormous, unbounded intervention.Player choice: Make an unlimited, open-ended public commitment to preserve the euro, or continue with limited, conventional interventions.Historical resolution: On July 26, 2012, Draghi declared the ECB would do \"whatever it takes\" to preserve the euro — a deliberately open-ended commitment. The statement is widely credited with calming markets and reversing the crisis, even though the ECB was never required to test the full extent of that promise.",
+ "understand": {
+  "economic_impact": "The euro created a shared monetary policy across dozens of countries with vastly different economies, requiring the European Central Bank to set a single interest rate for economies as different as Germany and Greece [TH Script Writing Bible voice profile]. Mario Draghi's 2012 \"whatever it takes\" commitment is widely credited with ending the acute phase of the European debt crisis by convincing markets the ECB would not allow the currency to collapse ECB transcript.",
+  "political_impact": "The euro required seven proud nations to give up centuries-old national currencies and symbols, a significant act of political integration formalized through years of treaty negotiation beginning with Maastricht in 1992 Visit Maastricht official history. The eurozone debt crisis later tested whether that political commitment to shared currency could survive serious economic strain among member states.",
+  "why_it_still_matters": "Picture 27 different countries, each with their own proud history and their own money, agreeing to throw all of that away and share one single currency instead — that's an enormous act of trust, and it's exactly what happened when the euro was created. To make sure no single country felt like it \"won,\" the money itself was designed to show bridges and windows that don't actually exist anywhere in the real world, so nobody could claim the currency favored their country over another. Sofia's story matters because it shows that sharing money means sharing risk and responsibility with people you may never meet, in countries you may never visit — and that kind of trust has to be built and defended constantly, especially when times get hard."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:42"
+}

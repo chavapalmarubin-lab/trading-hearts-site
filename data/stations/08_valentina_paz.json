@@ -1,0 +1,494 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 8,
+  "character_key": "valentina_paz",
+  "character_name": "Valentina Paz",
+  "asset": "Argentine Peso",
+  "ticker": "ARS",
+  "era": "1826",
+  "era_label": "Early Argentine Republic",
+  "era_year": 1826,
+  "tagline": "She has died under six different names and walked back into the room every time."
+ },
+ "museum_objects": [
+  {
+   "id": "valentina_paz_obj_1",
+   "title": "Peso Moneda Corriente Note",
+   "date": "1827",
+   "type": "banknote",
+   "material": "paper",
+   "description": "An early paper peso note issued by the Banco de las Provincias Unidas del Río de la Plata.",
+   "significance": "This flimsy paper note is the first of six times Valentina would be reborn under a new name after her value collapsed — a pattern that would repeat for two centuries.",
+   "museum": "Referenced numismatic archives",
+   "museum_location": "Buenos Aires, Argentina",
+   "accession_number": "Peso Moneda Corriente 1827",
+   "collection_url": "https://en.wikipedia.org/wiki/Argentine_peso_moneda_corriente",
+   "image_url": "https://en.wikipedia.org/wiki/Argentine_peso_moneda_corriente",
+   "license": "CC BY-SA (Wikimedia)",
+   "open_access": true,
+   "plain_language": "One of the very first paper peso notes ever printed in Argentina, from the 1820s.",
+   "url": "https://en.wikipedia.org/wiki/Argentine_peso_moneda_corriente",
+   "accession": "Peso Moneda Corriente 1827",
+   "institution": "Referenced numismatic archives",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Argentine_peso_moneda_corriente",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The note is issued by 'La Provincia de Buenos Ayres' not 'Banco de las Provincias Unidas del Río de la Plata'",
+   "display_image": null,
+   "display_alternatives": []
+  },
+  {
+   "id": "valentina_paz_obj_2",
+   "title": "Picturesque Illustrations of Buenos Ayres and Montevideo",
+   "date": "1820",
+   "type": "book/illustration",
+   "material": "paper, engraving",
+   "description": "An illustrated travel account by British artist Emeric Essex Vidal depicting daily life and commerce in Buenos Aires.",
+   "significance": "These illustrations show the world Valentina was born into — a young, chaotic port city about to gamble everything on its own currency.",
+   "museum": "Internet Archive digital collection",
+   "museum_location": "Digital / Originally London",
+   "accession_number": "picturesqueillus00vida_0",
+   "collection_url": "https://archive.org/details/picturesqueillus00vida_0",
+   "image_url": "https://archive.org/details/picturesqueillus00vida_0",
+   "license": "Public Domain",
+   "open_access": true,
+   "plain_language": "An illustrated book from 1820 showing what Buenos Aires looked like right before Argentina created its own currency.",
+   "url": "https://archive.org/details/picturesqueillus00vida_0",
+   "accession": "picturesqueillus00vida_0",
+   "institution": "Internet Archive digital collection",
+   "licence": "public domain / archive-hosted",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://archive.org/details/picturesqueillus00vida_0",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "public domain / archive-hosted",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Internet Archive metadata API",
+    "title": "Picturesque illustrations of Buenos Ayres and Monte Video, consisting of twenty-four views: accompanied with descriptions of the scenery, and of the costumes, manners, &c., of the inhabitants of those cities and their environs"
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "6 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "General view of Buenos Ayres from the Plaza de Toros - Emeric Essex Vidal - Picturesque illustrations of Buenos Ayres and Monte Video (1820).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/General_view_of_Buenos_Ayres_from_the_Plaza_de_Toros_-_Emeric_Essex_Vidal_-_Picturesque_illustrations_of_Buenos_Ayres_and_Monte_Video_%281820%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:General_view_of_Buenos_Ayres_from_the_Plaza_de_Toros_-_Emeric_Essex_Vidal_-_Picturesque_illustrations_of_Buenos_Ayres_and_Monte_Video_(1820).jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Emeric Essex Vidal"
+    }
+   ]
+  },
+  {
+   "id": "valentina_paz_obj_3",
+   "title": "Eva Perón 100 Peso Note",
+   "date": "20th century",
+   "type": "banknote",
+   "material": "paper",
+   "description": "An Argentine peso banknote featuring the image of Eva Perón, one of the country's most iconic historical figures.",
+   "significance": "Valentina wearing the face of a woman as fiercely loved and fought over as she herself has always been — devalued again and again, but never forgotten.",
+   "museum": "Referenced numismatic archives",
+   "museum_location": "Buenos Aires, Argentina",
+   "accession_number": "Eva Perón 100 Peso Note",
+   "collection_url": "https://en.wikipedia.org/wiki/Argentine_peso",
+   "image_url": "https://en.wikipedia.org/wiki/Argentine_peso",
+   "license": "CC BY-SA (Wikimedia)",
+   "open_access": true,
+   "plain_language": "An Argentine banknote featuring Eva Perón, one of the most famous women in the country's history.",
+   "url": "https://en.wikipedia.org/wiki/Argentine_peso",
+   "accession": "Eva Perón 100 Peso Note",
+   "institution": "Referenced numismatic archives",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Argentine_peso",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "5 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "100 pesos eva peron 2022 b.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/100_pesos_eva_peron_2022_b.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:100_pesos_eva_peron_2022_b.jpg",
+     "licence": "CC BY 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Unknown"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Presentación billete de Eva Perón 01.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Presentaci%C3%B3n_billete_de_Eva_Per%C3%B3n_01.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Presentaci%C3%B3n_billete_de_Eva_Per%C3%B3n_01.jpg",
+     "licence": "CC BY-SA 2.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Casa Rosada Argentina"
+    }
+   ]
+  },
+  {
+   "id": "valentina_paz_obj_4",
+   "title": "Casa Rosada (Presidential Palace)",
+   "date": "completed 1898",
+   "type": "building",
+   "material": "stone/brick",
+   "description": "The presidential palace of Argentina, site of countless economic policy announcements including currency crises and devaluations.",
+   "significance": "Every one of Valentina's six deaths and rebirths was announced from balconies in or near this building.",
+   "museum": "Museo Casa Rosada",
+   "museum_location": "Buenos Aires, Argentina",
+   "accession_number": "Museo del Bicentenario / Casa Rosada",
+   "collection_url": "https://www.casarosada.gob.ar/",
+   "image_url": "https://www.casarosada.gob.ar/",
+   "license": "Government terms",
+   "open_access": false,
+   "plain_language": "Argentina's presidential palace, where many of the country's dramatic currency crises were announced.",
+   "url": "https://www.casarosada.gob.ar/",
+   "accession": "Museo del Bicentenario / Casa Rosada",
+   "institution": "Museo Casa Rosada",
+   "licence": "Government terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.casarosada.gob.ar/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Department of Homeland Security (DHS) Secretary Kristi Noem signs an agreement with the Minister of National Security of Argentina Patricia Bullrich at the Casa Rosada Presidential Palace in Buenos Aires, Argentina on July 28, 2025.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Department_of_Homeland_Security_%28DHS%29_Secretary_Kristi_Noem_signs_an_agreement_with_the_Minister_of_National_Security_of_Argentina_Patricia_Bullrich_at_the_Casa_Rosada_Presidential_Palace_in_Buenos_Aires%2C_Argentina_on_July_28%2C_2025.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Department_of_Homeland_Security_(DHS)_Secretary_Kristi_Noem_signs_an_agreement_with_the_Minister_of_National_Security_of_Argentina_Patricia_Bullrich_at_the_Casa_Rosada_Presidential_Palace_in_Buenos_Aires,_Argentina_on_July_28,_2025.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "DHSgov"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Minister of National Security of Argentina Patricia Bullrich at the Casa Rosada Presidential Palace in Buenos Aires, Argentina on July 28, 2025 (cropped).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Minister_of_National_Security_of_Argentina_Patricia_Bullrich_at_the_Casa_Rosada_Presidential_Palace_in_Buenos_Aires%2C_Argentina_on_July_28%2C_2025_%28cropped%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Minister_of_National_Security_of_Argentina_Patricia_Bullrich_at_the_Casa_Rosada_Presidential_Palace_in_Buenos_Aires,_Argentina_on_July_28,_2025_(cropped).jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "DHSgov"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "valentina_paz_obj_5",
+   "title": "Cacerolazo Protest Photographs",
+   "date": "2001",
+   "type": "photograph",
+   "material": "digital/print",
+   "description": "Photographs documenting the mass pot-banging protests during Argentina's 2001 economic collapse.",
+   "significance": "This is what it looks like when an entire country loses faith in Valentina all at once — pots and pans banged in the streets instead of trust in a currency.",
+   "museum": "Wikimedia Commons",
+   "museum_location": "Buenos Aires, Argentina",
+   "accession_number": "Cacerolazo category",
+   "collection_url": "https://commons.wikimedia.org/wiki/Category:Cacerolazo",
+   "image_url": "https://commons.wikimedia.org/wiki/Category:Cacerolazo",
+   "license": "CC (Wikimedia, varies by image)",
+   "open_access": true,
+   "plain_language": "Photos of Argentines banging pots and pans in the streets during the country's massive 2001 economic collapse.",
+   "url": "https://commons.wikimedia.org/wiki/Category:Cacerolazo",
+   "accession": "Cacerolazo category",
+   "institution": "Wikimedia Commons",
+   "licence": "CC (Wikimedia, varies by image)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:Cacerolazo",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "5 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image does not show people banging pots, which is a key element of a 'Cacerolazo Protest'.",
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Cacerolazo SantaFe 21-12-23 Flor Rittiner 7.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Cacerolazo_SantaFe_21-12-23_Flor_Rittiner_7.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Cacerolazo_SantaFe_21-12-23_Flor_Rittiner_7.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Popi RB"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Cacerolazo en Buenos Aires.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Cacerolazo_en_Buenos_Aires.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Cacerolazo_en_Buenos_Aires.jpg",
+     "licence": "CC BY-SA 2.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "loco085"
+    }
+   ]
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "valentina_paz_src_1",
+   "title": "Wikipedia: Argentine Peso",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Overview of the Argentine peso's many historical incarnations and devaluations since 1826.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Argentine_peso",
+   "license": "CC BY-SA",
+   "plain_language": "A general history of Argentina's currency and its many collapses and reinventions.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Argentine_peso",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "valentina_paz_src_2",
+   "title": "Wikimedia Commons: Cacerolazo",
+   "type": "photo_archive",
+   "date": "2001-present",
+   "author": "Wikimedia Commons contributors",
+   "description": "Photo archive documenting pot-banging protests during Argentine economic crises.",
+   "held_at": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Category:Cacerolazo",
+   "license": "CC (varies by image)",
+   "plain_language": "A photo collection of Argentina's famous pot-banging street protests during economic crises.",
+   "licence": "CC (varies by image)",
+   "licence_class": "check_required",
+   "institution": "Wikimedia Commons",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:Cacerolazo",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   }
+  },
+  {
+   "id": "valentina_paz_src_3",
+   "title": "Picturesque Illustrations of Buenos Ayres and Montevideo",
+   "type": "illustrated_book",
+   "date": "1820",
+   "author": "Emeric Essex Vidal",
+   "description": "Early 19th-century illustrated account of life in Buenos Aires just before Argentine independence-era currency.",
+   "held_at": "Internet Archive",
+   "url": "https://archive.org/details/picturesqueillus00vida_0",
+   "license": "Public Domain",
+   "plain_language": "An old illustrated travel book showing what Buenos Aires looked like right before Argentina had its own money.",
+   "licence": "public domain / archive-hosted",
+   "licence_class": "open",
+   "institution": "Internet Archive",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://archive.org/details/picturesqueillus00vida_0",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "public domain / archive-hosted",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Internet Archive metadata API",
+    "title": "Picturesque illustrations of Buenos Ayres and Monte Video, consisting of twenty-four views: accompanied with descriptions of the scenery, and of the costumes, manners, &c., of the inhabitants of those cities and their environs"
+   }
+  },
+  {
+   "id": "valentina_paz_src_4",
+   "title": "Wikipedia: Argentine Peso Moneda Corriente",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference on the earliest paper peso issued by Buenos Aires Province.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Argentine_peso_moneda_corriente",
+   "license": "CC BY-SA",
+   "plain_language": "Background on the very first paper peso ever issued in Argentina.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Argentine_peso_moneda_corriente",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "valentina_paz_src_5",
+   "title": "Casa Rosada Museum Historical Archive",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Museo Casa Rosada",
+   "description": "Official historical archive of Argentina's presidential palace and its role in national economic history.",
+   "held_at": "Museo Casa Rosada",
+   "url": "https://www.casarosada.gob.ar/",
+   "license": "Government terms",
+   "plain_language": "The official historical archive of Argentina's presidential palace.",
+   "licence": "Government terms",
+   "licence_class": "unknown",
+   "institution": "Museo Casa Rosada",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.casarosada.gob.ar/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": -34.6037,
+  "center_lng": -58.3816,
+  "center_label": "Buenos Aires, Argentina",
+  "era_start": 1826,
+  "era_end": 2026,
+  "map_description": "Valentina's peso was born in a Buenos Aires bank in 1826 and has been reborn under new names again and again, from Baring Brothers' London loans to the 2001 collapse.",
+  "nodes": [
+   {
+    "label": "Buenos Aires (Banco de las Provincias Unidas)",
+    "lat": -34.6037,
+    "lng": -58.3816,
+    "type": "origin",
+    "description": "Where the first Argentine peso was issued on January 28, 1826."
+   },
+   {
+    "label": "Casa Rosada",
+    "lat": -34.6084,
+    "lng": -58.3702,
+    "type": "landmark",
+    "description": "The presidential palace at the center of Argentina's political and economic upheavals."
+   },
+   {
+    "label": "London (Baring Brothers)",
+    "lat": 51.5072,
+    "lng": -0.1276,
+    "type": "trade_route",
+    "description": "The British bank whose loans to Argentina in the 1820s-1890s created cycles of debt and devaluation."
+   },
+   {
+    "label": "The Pampas",
+    "lat": -36.6167,
+    "lng": -64.2833,
+    "type": "resource",
+    "description": "Argentina's vast agricultural heartland, the economic engine behind the peso's value for over a century."
+   },
+   {
+    "label": "Washington, D.C. (IMF)",
+    "lat": 38.8994,
+    "lng": -77.0447,
+    "type": "destination",
+    "description": "Site of numerous IMF bailout negotiations tied to Argentina's repeated currency crises."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Wikipedia — Argentine Peso",
+   "url": "https://en.wikipedia.org/wiki/Argentine_peso",
+   "license": "CC BY-SA"
+  }
+ },
+ "_verified": "2026-07-11 10:38"
+}

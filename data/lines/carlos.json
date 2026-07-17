@@ -1,0 +1,55 @@
+{
+ "custodian": "carlos",
+ "name": "Carlos Ib\u00e1\u00f1ez",
+ "asset": "Spanish Peseta",
+ "stations": [
+  {
+   "year": 1868,
+   "label": "BORN IN REVOLUTION",
+   "line": "They minted me in the autumn of the Gloriosa, when Isabel had fled to France and the Provisional Government needed a coin that spoke the language of Europe rather than the language of a throne \u2014 so you might say I was born to replace a queen, and I confess I never quite lost the taste for outliving my creators.",
+   "era_photo": "Wet-plate collodion, 1868 Madrid, a mint official in a dark frock coat and high collar standing beside a coining press at the Casa de la Moneda, the image slightly soft with the long exposure, silvered and cool-toned on glass."
+  },
+  {
+   "year": 1883,
+   "label": "LEAVING THE GOLD ROOM",
+   "line": "In '83 they suspended my convertibility to gold, and though the economists spoke of it as a wound, I remember it more honestly as the first time I understood that my value would always be a question the room was asking, never an answer I could give myself.",
+   "era_photo": "Albumen print, 1883, interior of a Madrid banking house with ledgers and a wall clock, men in waistcoats and pocket watches, warm sepia tones, formal seated composition with a wooden desk."
+  },
+  {
+   "year": 1936,
+   "label": "TWO FACES, ONE CURRENCY",
+   "line": "The war split me in half as it split everything else \u2014 Republican pesetas in Madrid, Nationalist pesetas in Burgos, the same name printed by two hands that wished each other dead, and I have never forgotten what it is to be issued by people who cannot agree on what I am.",
+   "era_photo": "Silver gelatin black-and-white, 1936, a war-worn Spanish street with sandbagged windows, a man in a threadbare jacket and rope-soled alpargatas holding banknotes, high contrast, grainy documentary style."
+  },
+  {
+   "year": 1959,
+   "label": "THE STABILIZATION PLAN",
+   "line": "In '59 they finally taught me discipline \u2014 the Plan de Estabilizaci\u00f3n, austerity dressed as salvation \u2014 and it was humiliating and it was necessary, which is, I have learned, the precise recipe for the things that actually save you.",
+   "era_photo": "Kodachrome, 1959 Madrid, a technocrat in a grey suit and narrow tie before a modest office window, muted saturated colors, the slightly warm cast of early color film, a SEAT 600 visible on the street below."
+  },
+  {
+   "year": 1986,
+   "label": "ENTERING EUROPE",
+   "line": "When Spain joined the Community I understood at last that all my adjusting, all my calibrating to norms I had not written, had been a long apprenticeship for belonging \u2014 and I walked into Europe not as a supplicant but as someone who had spent decades learning the room.",
+   "era_photo": "35mm color print, 1986 Madrid, a middle-aged official in a broad-shouldered 1980s suit signing a document at a table with European flags, slightly grainy, the warm-flat color palette of mid-eighties film photography."
+  },
+  {
+   "year": 1992,
+   "label": "THE DEVALUATIONS",
+   "line": "Ah, '92 \u2014 the year of the Barcelona Olympics and the Seville Expo, the year Spain showed the world its best face while I was devalued three times inside the ERM, and if you want to know whether I have made peace with that, I will only say that a man can smile very convincingly at a party he is also quietly paying for.",
+   "era_photo": "35mm color photojournalism, 1992, a trading floor with phones and CRT screens, a man in shirtsleeves loosening his tie, harsh fluorescent light, the saturated documentary color of early-nineties press film."
+  },
+  {
+   "year": 2002,
+   "label": "THE VOLUNTARY DEATH",
+   "line": "On the last day of February the pesetas came out of the drawers and the shoeboxes to be exchanged, and I want to be clear that no one killed me \u2014 I chose this, I lay down so that something larger could stand up, and that distinction between what is taken from you and what you give is the whole of who I am.",
+   "era_photo": "Early digital photograph, 2002, a Spanish bank counter with a euro conversion sign, an elderly woman in a wool coat handing over peseta notes, slightly low-resolution digital color with visible sensor grain, cool interior lighting."
+  },
+  {
+   "year": 2025,
+   "label": "STILL COUNTED, STILL LOVED",
+   "line": "Today I live in the memory of grandmothers who still calculate prices in me under their breath, and in the coins Spaniards keep in the backs of drawers not for their value but for what they remember \u2014 which is, when you think about it, a far kinder afterlife than most currencies are granted.",
+   "era_photo": "High-resolution digital photograph, 2025, a warm-lit Spanish home interior, weathered peseta coins arranged on an old wooden table beside a modern euro coin, shallow depth of field, natural window light, crisp contemporary color."
+  }
+ ]
+}

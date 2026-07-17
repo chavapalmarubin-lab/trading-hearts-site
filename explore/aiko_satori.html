@@ -1,0 +1,225 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aiko Satori — Explore · Trading Hearts</title><style>
+:root{--navy:#0a1526;--navy2:#0e1c31;--card:#122241;--gold:#c9a961;--gold2:#e3c988;
+--ink:#e7e2d6;--dim:rgba(231,226,214,.62);--line:rgba(201,169,97,.22)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--navy);color:var(--ink);
+font:16px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+a{color:var(--gold2)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 26px 90px}
+header.hero{padding:54px 26px 30px;border-bottom:1px solid var(--line);background:var(--navy2)}
+header.hero .in{max-width:1120px;margin:0 auto;display:flex;gap:26px;align-items:center}
+.era{color:var(--gold);letter-spacing:.18em;text-transform:uppercase;font-size:.74rem}
+h1{font-family:Georgia,serif;font-size:2.5rem;margin:.15em 0 .1em;font-weight:400}
+.tag{color:var(--dim);max-width:62ch;font-style:italic}
+.pt{width:104px;height:104px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);flex:0 0 auto}
+h2{font-family:Georgia,serif;font-weight:400;font-size:1.6rem;margin:52px 0 6px;color:var(--gold2)}
+.sub{color:var(--dim);font-size:.92rem;margin:0 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;
+display:flex;flex-direction:column}
+.card img{width:100%;height:210px;object-fit:cover;background:#0a1526}
+/* The "cited, not shown" state must read as RIGOUR, not as a broken image. */
+.cite{height:210px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+text-align:center;padding:22px;gap:9px;
+background:linear-gradient(160deg,#0e1c31,#0a1526);border-bottom:1px solid var(--line)}
+.cite .seal{width:38px;height:38px;border:1px solid var(--gold);border-radius:50%;
+display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:1.05rem}
+.cite .acc{font:600 .96rem/1.3 Georgia,serif;color:var(--gold2);letter-spacing:.02em}
+.cite .inst{font-size:.78rem;color:var(--dim)}
+.cite .why{font-size:.7rem;color:rgba(231,226,214,.45);max-width:26ch;line-height:1.45}
+.cite a{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;
+border-bottom:1px solid var(--line);padding-bottom:2px}
+.attr{font-size:.7rem;color:rgba(231,226,214,.45);line-height:1.5}
+.attr a{color:rgba(231,226,214,.62)}
+.card .b{padding:16px 18px 18px;flex:1;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font:600 1.02rem/1.35 Georgia,serif;color:var(--ink)}
+.meta{font-size:.78rem;color:var(--dim)}
+.desc{font-size:.9rem;color:rgba(231,226,214,.85)}
+.sig{font-size:.88rem;color:var(--gold2);border-left:2px solid var(--gold);padding-left:10px}
+.badge{display:inline-block;font-size:.64rem;letter-spacing:.09em;text-transform:uppercase;
+padding:3px 8px;border-radius:5px;border:1px solid var(--line);color:var(--dim)}
+.badge.ok{color:#8fd6a0;border-color:rgba(143,214,160,.4)}
+.badge.warn{color:#e0b96a;border-color:rgba(224,185,106,.4)}
+.badge.bad{color:#e08c8c;border-color:rgba(224,140,140,.4)}
+.foot{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding-top:6px}
+.src{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.src li{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.src h3{margin:0 0 4px;font:600 1rem/1.4 Georgia,serif}
+.unk{background:rgba(224,140,140,.07);border:1px solid rgba(224,140,140,.3);
+border-radius:12px;padding:22px 24px}
+.unk li{margin:8px 0;color:rgba(231,226,214,.9)}
+.mapnodes{display:grid;gap:8px}
+.mapnodes div{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 14px;
+font-size:.9rem;display:flex;justify-content:space-between;gap:12px}
+.mapnodes span{color:var(--dim);font-size:.78rem;font-variant-numeric:tabular-nums}
+footer{border-top:1px solid var(--line);margin-top:60px;padding:26px;text-align:center;color:var(--dim);font-size:.8rem}
+
+/* NAVIGATION — a reader who cannot get back is a reader you lost. */
+.topnav{position:sticky;top:0;z-index:50;background:rgba(10,21,38,.94);
+backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid var(--line)}
+.topnav .in{max-width:1120px;margin:0 auto;padding:11px 26px;display:flex;align-items:center;
+gap:18px;flex-wrap:wrap}
+.home{display:inline-flex;align-items:center;gap:7px;text-decoration:none;color:var(--gold2);
+font:600 .82rem/1 -apple-system;letter-spacing:.04em;white-space:nowrap}
+.home:hover{color:#fff}
+.jump{display:flex;gap:14px;margin-left:auto;flex-wrap:wrap}
+.jump a{color:var(--dim);text-decoration:none;font-size:.78rem;letter-spacing:.06em;
+text-transform:uppercase;white-space:nowrap}
+.jump a:hover{color:var(--gold2)}
+.pager{display:flex;justify-content:space-between;gap:14px;margin-top:44px;
+border-top:1px solid var(--line);padding-top:22px}
+.pager a{text-decoration:none;color:var(--gold2);font-size:.85rem}
+.pager a:hover{color:#fff}
+.pager .nx{text-align:right}
+.pager small{display:block;color:var(--dim);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase}
+@media(max-width:640px){.jump{display:none}}
+</style></head><body>
+
+<nav class="topnav"><div class="in">
+<a class="home" href="../index.html">&larr; Trading Hearts</a>
+<a class="home" href="index.html" style="color:var(--dim)">All 28 characters</a>
+<div class="jump">
+<a href="#objects">Objects</a><a href="#sources">Sources</a>
+<a href="#map">Map</a><a href="#unknown">What we don't know</a>
+</div></div></nav>
+
+<header class="hero"><div class="in">
+<div style="flex:1">
+<div class="era">1871 · Meiji Restoration Japan · Japanese Yen</div>
+<h1>Aiko Satori</h1>
+<p class="tag">Discipline is the only apology she&#x27;s ever needed to give.</p>
+</div>
+<img class="pt" src="../media/characters/aiko_satori/aiko_satori_portrait.webp"
+ onerror="this.style.display='none'" alt="Aiko Satori">
+</div></header>
+<div class="wrap">
+
+<h2 id="objects">Museum objects</h2>
+<p class="sub">0 shown · 5 cited but not shown. An image only appears here if it is openly
+licensed <em>and</em> confirmed to depict the object we claim. Otherwise we cite it and link you to
+the museum — we would rather show you nothing than show you the wrong thing.</p>
+<div class="grid"><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">2017.0060.2874</div>
+<div class="inst">Smithsonian National Museum of American History</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://www.si.edu/object/1-yen-japan-1870:nmah_1848278" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>1 Yen Coin (1870)</h3>
+<div class="meta">Smithsonian National Museum of American History · 2017.0060.2874 · 1870</div>
+<div class="desc">One of the earliest yen coins struck under Japan&#x27;s New Currency Act, part of the Meiji government&#x27;s modernization program.</div>
+<div class="sig">Aiko was born the moment Japan decided to abandon centuries of feudal currency and adopt a single, disciplined, Western-style system almost overnight.</div>
+
+
+<div class="foot"><span class="badge warn">licence unruled</span><span class="badge">Smithsonian Open Access — API key not config</span>
+<a class="badge" href="https://www.si.edu/object/1-yen-japan-1870:nmah_1848278" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">BOJ Currency Museum general collection</div>
+<div class="inst">Bank of Japan Currency Museum</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://www.imes.boj.or.jp/cm/english/" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>Bank of Japan Currency Museum Collection</h3>
+<div class="meta">Bank of Japan Currency Museum · BOJ Currency Museum general collection · Various</div>
+<div class="desc">The official currency museum of the Bank of Japan, housing the full history of Japanese money.</div>
+<div class="sig">Everything Aiko has ever been — coin, note, digital balance — is documented here, steps from where the modern Bank of Japan itself sits.</div>
+
+
+<div class="foot"><span class="badge warn">licence unruled</span><span class="badge">Bank of Japan — content reusable with attrib</span>
+<a class="badge" href="https://www.imes.boj.or.jp/cm/english/" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">Meiji Tsuho note</div>
+<div class="inst">Osaka Mint Museum</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://www.mint.go.jp/" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>Meiji Tsuho Banknote</h3>
+<div class="meta">Osaka Mint Museum · Meiji Tsuho note · 1868-1872</div>
+<div class="desc">Early Meiji-era paper currency issued before the yen&#x27;s formal standardization, printed using German technology.</div>
+<div class="sig">Before Aiko had her disciplined, modern form, she was this — an experimental note trying to hold together a government mid-transformation.</div>
+
+
+<div class="foot"><span class="badge warn">licence unruled</span><span class="badge">Japan Mint (独立行政法人造幣局) — Japanese government</span>
+<a class="badge" href="https://www.mint.go.jp/" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">New Currency Act 1871</div>
+<div class="inst">National Archives of Japan</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://www.archives.go.jp/english/" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>New Currency Act Original Text (1871)</h3>
+<div class="meta">National Archives of Japan · New Currency Act 1871 · 1871</div>
+<div class="desc">The founding legislation establishing the yen as Japan&#x27;s national currency, replacing the old feudal system.</div>
+<div class="sig">This law is the reason Aiko exists — the moment Japan chose modern discipline over centuries of feudal currency chaos.</div>
+
+
+<div class="foot"><span class="badge ok">open licence</span><span class="badge">National Archives of Japan — CC0 for catalog</span>
+<a class="badge" href="https://www.archives.go.jp/english/" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">Osaka Mint historical press</div>
+<div class="inst">Osaka Mint Museum</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://www.mint.go.jp/" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>Osaka Mint Museum Historical Coin Press</h3>
+<div class="meta">Osaka Mint Museum · Osaka Mint historical press · 1871 onward</div>
+<div class="desc">An original 19th-century coin-striking press used at the newly established Osaka Mint.</div>
+<div class="sig">This machine physically stamped Aiko&#x27;s discipline into every coin — a literal engine of the modernization Japan chose for itself.</div>
+
+
+<div class="foot"><span class="badge warn">licence unruled</span><span class="badge">Japan Mint (独立行政法人造幣局) — Japanese government</span>
+<a class="badge" href="https://www.mint.go.jp/" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article></div>
+
+<h2 id="sources">Primary sources</h2>
+<p class="sub">The documents themselves. We link and quote — that is citation, and it needs no licence.</p>
+<ul class="src"><li><h3>MoneyMuseum: History of the Yen</h3>
+<div class="meta">museum_publication · Ongoing · MoneyMuseum · MoneyMuseum</div>
+<div class="desc">Educational publication tracing the yen&#x27;s history from the Meiji Restoration to today.</div>
+<div class="sig">An educational guide explaining the full history of the Japanese yen.</div>
+<div class="foot"><span class="badge">unclear</span><span class="badge">Sunflower Foundation / Money Museum Zurich —</span>
+<a class="badge" href="https://www.moneymuseum.com/" target="_blank" rel="noopener">read the source ↗</a></div></li><li><h3>Wikipedia: Meiji Tsuho</h3>
+<div class="meta">encyclopedia_entry · Ongoing · Wikipedia contributors · Wikipedia</div>
+<div class="desc">Reference on the transitional paper currency issued before the yen&#x27;s formal standardization.</div>
+<div class="sig">Background on the experimental paper money Japan used right before creating the yen.</div>
+<div class="foot"><span class="badge warn">tertiary — pointer only</span><span class="badge">Creative Commons Attribution-ShareAlike 4.0 </span>
+<a class="badge" href="https://en.wikipedia.org/wiki/Meiji_Tsuho" target="_blank" rel="noopener">read the source ↗</a></div></li><li><h3>New Currency Act of 1871 (Full Text)</h3>
+<div class="meta">legal_document · 1871 · Meiji government of Japan · National Archives of Japan</div>
+<div class="desc">The founding law establishing the yen as Japan&#x27;s official currency.</div>
+<div class="sig">The actual law text that created the yen in 1871.</div>
+<div class="foot"><span class="badge ok">open</span><span class="badge">National Archives of Japan — CC0 for catalog</span>
+<a class="badge" href="https://www.archives.go.jp/english/" target="_blank" rel="noopener">read the source ↗</a></div></li><li><h3>Bank of Japan Currency Museum Official Archive</h3>
+<div class="meta">museum_record · Ongoing · Bank of Japan · Bank of Japan Currency Museum</div>
+<div class="desc">Official archive documenting the full history of Japanese currency.</div>
+<div class="sig">Japan&#x27;s central bank&#x27;s own official archive about its currency&#x27;s history.</div>
+<div class="foot"><span class="badge">unclear</span><span class="badge">Bank of Japan — content reusable with attrib</span>
+<a class="badge" href="https://www.imes.boj.or.jp/cm/english/" target="_blank" rel="noopener">read the source ↗</a></div></li><li><h3>Osaka Mint Historical Records</h3>
+<div class="meta">museum_record · Ongoing · Japan Mint · Osaka Mint Museum</div>
+<div class="desc">Historical records documenting the establishment and operations of Japan&#x27;s first modern mint.</div>
+<div class="sig">Official records from Japan&#x27;s first modern coin-making mint.</div>
+<div class="foot"><span class="badge">unclear</span><span class="badge">Japan Mint (独立行政法人造幣局) — Japanese government</span>
+<a class="badge" href="https://www.mint.go.jp/" target="_blank" rel="noopener">read the source ↗</a></div></li></ul>
+
+<h2 id="map">Where this money travelled</h2>
+<p class="sub">Aiko was born from Japan&#x27;s Meiji-era modernization and became one of the world&#x27;s most disciplined reserve currencies, shaped by Tokyo, Osaka, and decades of trade with the West.</p>
+<div class="mapnodes"><div><b>Tokyo (Bank of Japan)</b><span>35.6875, 139.7745</span></div><div><b>Osaka Mint</b><span>34.6937, 135.5023</span></div><div><b>Yokohama</b><span>35.4437, 139.6380</span></div><div><b>Hong Kong</b><span>22.3193, 114.1694</span></div><div><b>Bretton Woods, New Hampshire</b><span>44.2601, -71.4478</span></div></div>
+
+<h2 id="unknown">What we don't know</h2>
+<p class="sub">The page no competitor will build.</p>
+<div class="unk"><ul><li>5 of 5 objects on this page are <strong>cited but not shown</strong> — either the rights are not cleared, or we could not verify that an available image really depicts the object. We would rather show you nothing than show you the wrong thing.</li><li>1 source(s) here are Wikipedia — a <strong>tertiary</strong> source. It is a pointer, not our evidence. These are being replaced with the primary documents Wikipedia itself cites.</li></ul></div>
+
+<div class="pager">
+<a href="carlos_ibanez.html"><small>Previous</small>&larr; Carlos Ibáñez · 1868</a>
+<a class="nx" href="isabella_frost.html"><small>Next</small>Isabella Frost · 1871 &rarr;</a>
+</div>
+
+</div>
+<footer><a href="../index.html" style="color:var(--gold2);text-decoration:none">&larr; Back to Trading Hearts</a>
+&nbsp;·&nbsp; every claim carries a source ·
+sources re-verified weekly by <code>run_pipeline.sh</code></footer></body></html>

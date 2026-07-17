@@ -1,0 +1,244 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 23,
+  "character_name": "FERNANDA LUZ",
+  "character_key": "fernanda",
+  "header": "FERNANDA LUZ"
+ },
+ "museum_objects": [
+  {
+   "title": "\"Peça da Coroação\" coronation coin of Pedro I",
+   "institution": "Banco Central do Brasil, Museu de Valores",
+   "accession": "Highlight object (only 64 minted)",
+   "date": "1822",
+   "url": "https://www.bcb.gov.br/en/about/museum",
+   "licence_raw": "Institutional — verify via BCB",
+   "description": "Rare coronation coin from Brazil's founding monarchy, part of the Museu de Valores collection of ~125,000-135,000 items.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bcb.gov.br/en/about/museum",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Cruzeiro real CR$100 banknote (maned wolf reverse)",
+   "institution": "Referenced via Wikipedia numismatic catalog",
+   "accession": "N/A",
+   "date": "1993–1994",
+   "url": "https://en.wikipedia.org/wiki/Brazilian_cruzeiro_real",
+   "licence_raw": "Wikipedia/public reference — verify individual scan license",
+   "description": "Predecessor hyperinflation-era currency directly preceding the real.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Brazilian_cruzeiro_real",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "1937 minting press",
+   "institution": "Banco Central do Brasil, Museu de Valores (Gold Room / Issuance Room)",
+   "accession": "Featured museum artifact",
+   "date": "1937",
+   "url": "https://www.bcb.gov.br/ingles/museu-espacos/omuseui.asp?frame=1",
+   "licence_raw": "Institutional — contact required",
+   "description": "Physical minting press used in Brazilian currency production, on display at the Museu de Valores.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bcb.gov.br/ingles/museu-espacos/omuseui.asp?frame=1",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Real Plan launch banknote set",
+   "institution": "Banco Central do Brasil",
+   "accession": "Real Plan documentation",
+   "date": "July 1, 1994",
+   "url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+   "licence_raw": "Institutional — contact required",
+   "description": "The original real banknotes/coins distributed at launch (940 million banknotes + 688 million coins).",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Zélia Cardoso de Mello Collor Plan announcement photograph",
+   "institution": "Folhapress (via G1)",
+   "accession": "Photo credit: Jorge Araújo/Folhapress",
+   "date": "March 1990",
+   "url": "https://g1.globo.com/economia/noticia/2020/03/17/entre-infartos-falencias-e-suicidios-os-30-anos-do-confisco-da-poupanca.ghtml",
+   "licence_raw": "Press agency — licensing required",
+   "description": "Contemporary photograph of the Minister of Economy announcing the bank deposit freeze.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://g1.globo.com/economia/noticia/2020/03/17/entre-infartos-falencias-e-suicidios-os-30-anos-do-confisco-da-poupanca.ghtml",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Banco Central do Brasil, \"Real Plan\" official page — primary institutional documentation.",
+   "detail": "",
+   "url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+   "licence_raw": "Banco Central do Brasil, \"Real Plan\" official page — primary institutional documentation.",
+   "licence_class": "contact_required",
+   "raw": "Banco Central do Brasil, \"Real Plan\" official page — primary institutional documentation.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Fundação FHC, \"Thirty Years of the Real Plan\" — primary retrospective from the plan's architect's foundation.",
+   "detail": "",
+   "url": "https://fundacaofhc.org.br/en/debate/thirty-years-of-the-real-plan-memories-lessons-learned-and-challenges/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Fundação FHC, \"Thirty Years of the Real Plan\" — primary retrospective from the plan's architect's foundation.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://fundacaofhc.org.br/en/debate/thirty-years-of-the-real-plan-memories-lessons-learned-and-challenges/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "The New York Times, \"New Money No Novelty in Brazil\" (July 9, 1994) — contemporaneous primary news account.",
+   "detail": "",
+   "url": "https://www.nytimes.com/1994/07/09/business/new-money-no-novelty-in-brazil.html",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "The New York Times, \"New Money No Novelty in Brazil\" (July 9, 1994) — contemporaneous primary news account.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Los Angeles Times, contemporary Collor Plan coverage (March 17, 1990) — contemporaneous primary news account.",
+   "detail": "",
+   "url": "https://www.latimes.com/archives/la-xpm-1990-03-17-fi-292-story.html",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Los Angeles Times, contemporary Collor Plan coverage (March 17, 1990) — contemporaneous primary news account.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.latimes.com/archives/la-xpm-1990-03-17-fi-292-story.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Wikipedia: Unidade real de valor — primary reference on the virtual pre-currency mechanism.",
+   "detail": "",
+   "url": "https://en.wikipedia.org/wiki/Unidade_real_de_valor",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "Wikipedia: Unidade real de valor — primary reference on the virtual pre-currency mechanism.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Unidade_real_de_valor",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: Early 1994, Brazil. After the catastrophic 1990 Collor Plan confiscation destroyed public trust in monetary reforms, Finance Minister Fernando Henrique Cardoso's team must decide how to introduce a new, stable currency to a population that had already been burned by five failed stabilization plans in less than a decade. The outcome was genuinely uncertain: would Brazilians trust yet another new currency, or would the real fail just like its predecessors?Player choice: Launch the new currency immediately and directly, or introduce an intermediate, non-physical transitional unit first to rebuild trust gradually.Historical resolution: The team chose the gradual path — the URV, a purely virtual unit with no physical banknotes, used for several months to retrain price expectations before the real physically launched on July 1, 1994. The plan succeeded in ending hyperinflation and propelled Cardoso to the presidency later that year.",
+ "understand": {
+  "economic_impact": "The Plano Real successfully ended decades of chronic hyperinflation in Brazil, using the psychological bridge of the URV to retrain an entire population's price expectations before introducing physical currency BCB official Real Plan page. The plan's success was directly tied to Fernando Henrique Cardoso's subsequent election as President later in 1994 Fundação FHC retrospective.",
+  "political_impact": "The 1990 Collor Plan's deposit freeze remains one of the most traumatic government economic interventions in modern Brazilian history, and President Collor publicly apologized for it three decades later Rio Times. The Real Plan's success directly enabled its architect's rise to the presidency, reshaping Brazilian politics for years afterward.",
+  "why_it_still_matters": "Imagine your government suddenly telling you that you can't touch most of your own savings for a year and a half — that actually happened in Brazil in 1990, and it broke people's trust in money completely. A few years later, the people fixing the problem came up with a clever trick: before creating a real new currency, they first got everyone used to prices quoted in a currency that didn't even physically exist, just to rebuild trust slowly before risking the real thing. Fernanda's story matters because it shows that sometimes you can't just declare a new currency and expect people to believe in it — you may need to rebuild that trust step by step, especially after it's been broken."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:42"
+}

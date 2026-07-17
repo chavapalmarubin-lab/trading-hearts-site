@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trading Hearts — The Saga · Prologue</title>
+<style>
+  :root{
+    --navy:#070F1E; --navy2:#0B1F40; --gold:#C9A84C; --gold-soft:rgba(201,168,76,.72);
+    --ivory:#FAF7F2; --ink:rgba(250,247,242,.82); --ink-dim:rgba(250,247,242,.55);
+    --font-display:"Cormorant Garamond","Playfair Display",Georgia,serif;
+    --font-body:"Spectral","Iowan Old Style",Georgia,serif;
+    --font-ui:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--navy); color:var(--ink);
+    font-family:var(--font-body); font-size:20px; line-height:1.85;
+    -webkit-font-smoothing:antialiased;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Spectral:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap');
+
+  .wrap{max-width:760px;margin:0 auto;padding:0 28px}
+
+  /* ── HERO ── */
+  header.hero{
+    min-height:88vh; display:flex; flex-direction:column; justify-content:center; align-items:center;
+    text-align:center; padding:80px 28px 60px;
+    background:radial-gradient(ellipse at 50% 18%,rgba(201,168,76,.10),transparent 60%),
+               linear-gradient(180deg,#05080F 0%,var(--navy) 55%,var(--navy2) 100%);
+    border-bottom:1px solid rgba(201,168,76,.16);
+  }
+  .eyebrow{
+    font-family:var(--font-ui); font-size:.72rem; letter-spacing:.42em; text-transform:uppercase;
+    color:var(--gold-soft); margin-bottom:30px;
+  }
+  .hero h1{
+    font-family:var(--font-display); font-weight:600; line-height:1.02;
+    font-size:clamp(3.2rem,9vw,6.4rem); color:var(--ivory); letter-spacing:.01em;
+  }
+  .hero h1 .amp{color:var(--gold); font-style:italic; font-weight:400}
+  .hero .sub{
+    font-family:var(--font-display); font-style:italic; font-size:clamp(1.3rem,3.4vw,2rem);
+    color:var(--gold); margin-top:18px; letter-spacing:.02em;
+  }
+  .hero .tag{
+    font-family:var(--font-ui); font-size:.82rem; letter-spacing:.06em; color:var(--ink-dim);
+    max-width:540px; margin:34px auto 0; line-height:1.7;
+  }
+  .scrollcue{margin-top:54px;font-family:var(--font-ui);font-size:.66rem;letter-spacing:.34em;
+    text-transform:uppercase;color:var(--gold-soft);animation:pulse 2.6s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+
+  /* ── THE THREE BOOKS ── */
+  section.books{padding:96px 0 70px;background:var(--navy2)}
+  .section-eyebrow{font-family:var(--font-ui);font-size:.7rem;letter-spacing:.34em;text-transform:uppercase;
+    color:var(--gold-soft);text-align:center;margin-bottom:14px}
+  .section-title{font-family:var(--font-display);font-weight:600;font-size:clamp(2.1rem,5vw,3rem);
+    color:var(--ivory);text-align:center;margin-bottom:10px}
+  .section-note{font-family:var(--font-ui);font-size:.82rem;color:var(--ink-dim);text-align:center;
+    max-width:600px;margin:0 auto 50px;line-height:1.7}
+  .book-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .book{
+    background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.012));
+    border:1px solid rgba(201,168,76,.20); border-radius:14px; padding:26px 24px;
+    transition:transform .35s ease,border-color .35s ease;
+  }
+  .book:hover{transform:translateY(-5px);border-color:rgba(201,168,76,.5)}
+  .book .num{font-family:var(--font-ui);font-size:.66rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-soft)}
+  .book .bt{font-family:var(--font-display);color:var(--gold);font-size:1.5rem;margin:6px 0 12px;font-weight:600}
+  .book p{font-size:.96rem;color:var(--ink-dim);line-height:1.72;font-family:var(--font-body)}
+  .book .stat{margin-top:14px;font-family:var(--font-ui);font-size:.64rem;letter-spacing:.2em;
+    text-transform:uppercase;color:rgba(201,168,76,.55)}
+
+  /* ── PROLOGUE READING ── */
+  section.read{padding:104px 0 60px}
+  .read .kicker{font-family:var(--font-ui);font-size:.7rem;letter-spacing:.4em;text-transform:uppercase;
+    color:var(--gold-soft);text-align:center;margin-bottom:18px}
+  .read h2{font-family:var(--font-display);font-weight:600;font-size:clamp(2.4rem,6vw,3.6rem);
+    color:var(--ivory);text-align:center;letter-spacing:.01em}
+  .read h2 em{color:var(--gold);font-weight:400}
+  .read .deck{font-family:var(--font-display);font-style:italic;font-size:1.15rem;color:var(--gold-soft);
+    text-align:center;margin:14px auto 8px;max-width:520px}
+  .rule{width:64px;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);
+    margin:46px auto}
+  .prose p{margin:0 0 1.5em;color:var(--ink)}
+  .prose p.first{text-align:center;font-family:var(--font-display);font-size:1.5rem;font-style:italic;
+    color:var(--gold);line-height:1.5;margin-bottom:1.8em}
+  .prose em{color:var(--gold);font-style:italic}
+  .prose .coda{color:var(--ink-dim);font-style:italic}
+  .prose .coda em{color:var(--gold-soft)}
+  /* ornamental section break */
+  .brk{display:flex;align-items:center;justify-content:center;gap:18px;margin:54px 0;color:var(--gold-soft)}
+  .brk::before,.brk::after{content:"";height:1px;width:80px;
+    background:linear-gradient(90deg,transparent,rgba(201,168,76,.5))}
+  .brk::after{background:linear-gradient(90deg,rgba(201,168,76,.5),transparent)}
+  .brk span{font-size:1rem;letter-spacing:.3em}
+  /* drop cap on opening */
+  .prose .first + p::first-letter{font-family:var(--font-display);float:left;font-size:4.4rem;
+    line-height:.82;padding:6px 12px 0 0;color:var(--gold);font-weight:600}
+
+  /* ── FOOTER ── */
+  footer{padding:90px 28px 110px;text-align:center;
+    background:linear-gradient(180deg,var(--navy) 0%,#05080F 100%);border-top:1px solid rgba(201,168,76,.16)}
+  footer .line{font-family:var(--font-display);font-style:italic;font-size:clamp(1.6rem,4vw,2.3rem);
+    color:var(--gold);margin-bottom:18px}
+  footer .small{font-family:var(--font-ui);font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--ink-dim)}
+  footer .byline{font-family:var(--font-display);font-style:italic;font-size:1.02rem;color:var(--gold-soft);
+    margin-top:26px;letter-spacing:.02em}
+  .back{display:inline-block;margin-top:40px;font-family:var(--font-ui);font-size:.74rem;letter-spacing:.2em;
+    text-transform:uppercase;color:var(--navy);background:var(--gold);padding:14px 30px;border-radius:5px;
+    text-decoration:none;transition:transform .3s ease}
+  .back:hover{transform:translateY(-2px)}
+
+  @media(max-width:720px){
+    body{font-size:18px}
+    .book-grid{grid-template-columns:1fr}
+    .prose .first{font-size:1.25rem}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="eyebrow">Trading Hearts · The Saga</div>
+  <h1>Trading <span class="amp">&amp;</span> Hearts</h1>
+  <div class="sub">The oldest love affair in the world.</div>
+  <p class="tag">Three books. Seventy-six chapters. Gold and the dollar, five thousand years of markets made flesh — and the one presence that has been on the other side of every trade since the first promise.</p>
+  <a href="TH_America250.html" style="display:inline-flex;align-items:center;gap:10px;margin-top:30px;padding:11px 24px;border:1px solid rgba(201,168,76,.45);border-radius:30px;color:var(--gold);text-decoration:none;font-family:var(--font-ui);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;transition:.25s" onmouseover="this.style.background='rgba(201,168,76,.08)'" onmouseout="this.style.background='transparent'">The same mythology, on the street — Walk the Eras of America 250 →</a>
+  <div class="scrollcue">Begin · The Prologue ↓</div>
+</header>
+
+<section class="books">
+  <div class="wrap">
+    <div class="section-eyebrow">The Literary Spine</div>
+    <h2 class="section-title">Three Books</h2>
+    <p class="section-note">A single mythology, braided across time — the markets that move the world, told not as history but as the longest-running affair in it. Each book a movement; the table the same the whole way down.</p>
+    <div class="book-grid">
+      <div class="book">
+        <div class="num">Book One</div>
+        <div class="bt">The Room</div>
+        <p>The Exchange takes shape. Aurora and Conrad — gold and the dollar — begin the arrangement that will define every age after, while a chair no one set fills quietly at the head of the table.</p>
+        <div class="stat">Prologue + 26 chapters</div>
+      </div>
+      <div class="book">
+        <div class="num">Book Two</div>
+        <div class="bt">The Counterparty</div>
+        <p>Love turns to leverage. Breakups, betrayals, a vengeance thirty years in the making — and a hunt for the one who is always on the other side of the trade. They convict the wrong suspect.</p>
+        <div class="stat">26 chapters</div>
+      </div>
+      <div class="book">
+        <div class="num">Book Three</div>
+        <div class="bt">The Settlement</div>
+        <p>Every debt is called at once. The reconciliations were the trap. The houses burn in perfect time — and the few who refuse the easy verdict finally look down, at the floor they have been standing on the whole time.</p>
+        <div class="stat">26 chapters</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="read">
+  <div class="wrap">
+    <div class="kicker">Book One · The Room</div>
+    <h2>Prologue — <em>Count the Chairs</em></h2>
+    <div class="deck">Narrated by the Exchange. Unreliable by design.</div>
+    <div class="rule"></div>
+
+    <div class="prose">
+      <p class="first">I have watched every deal since the first one.</p>
+
+      <p>The first one was not gold. People will tell you it was gold. Gold is the story money tells about itself to feel old. It was not gold. It was a promise. A man in a city you would not recognize set a clay tablet on a table. The tablet said: <em>you will be repaid.</em> Neither man believed it completely. That is the secret nobody writes down. Belief was never complete. It was only ever enough.</p>
+
+      <p>Let me show you what <em>enough</em> is worth.</p>
+
+      <p>On a Tuesday in the spring of 2020, the price of a barrel of oil fell below zero. Below nothing. This is the single substance the whole human world is built to want, to burn, to kill for. For a few hours, men paid other men thirty-seven dollars a barrel to come and <em>take it away.</em> The most coveted thing on earth became a thing you had to bribe a stranger to accept. Fortunes that existed at breakfast did not exist at lunch. Nobody had moved a single drop of oil.</p>
+
+      <p>I was in the room where that happened. I am always in the room. It is the only thing I am permitted to do — that, and notice the table.</p>
+
+      <p>I did not have to tell you about the table. I could have told you about the men. Men are easier to love, with their hands and their fear. But the promise was set upon the table. The oil was priced upon the table. So I want you to do one small thing for me, and to keep doing it for three books. Count the chairs.</p>
+
+      <p>Go on. Count the players at any trade — buyer, seller, the houses behind them, the whole bright crowd. Then count the chairs. There is always one more chair than there are of you. There was at the first promise. There is now. Someone sits in it. Someone has always sat in it, taking the minutes, pouring nothing, listed on no side. You will spend three books learning to see that chair. They have spent three hundred years not looking at it.</p>
+
+      <p>I should introduce myself. I am not going to. Not yet. You will be tempted, very soon, to decide what I am. A room. A market. A haunted piece of furniture. A god with a ledger for a heart. Decide nothing. The ones who decided what I am are the ones I have surprised the worst.</p>
+
+      <div class="brk"><span>&#10022;</span></div>
+
+      <p>Let me tell you how the world was really made. Not the world of maps. Maps are downstream. There is a world that decides which maps get drawn, whose children sleep fed and whose sleep counting. That world was made on my table, by a handful of beings who do not age, who cannot leave, and who remember everything. They believe they set the numbers. They did not. The lowest number — the one beneath which a thing cannot fall — was never chosen by anyone. It was found, the way you find the floor of a dark room with your foot. Already there. Already waiting. Before any hand reached for it.</p>
+
+      <p>Meet one of them now. You will need to love her before the night this story turns on.</p>
+
+      <p>She is standing very still, this morning, in a vault beneath a desert. She wears a dress the colour of nothing. She has never needed colour. She is the cold one with the golden hair, who was old before there were kings. You have held her in your hand and called her a price. She is watching a number climb, and she does not blink. Five thousand years have taught her that the ones who blink are the ones who get sold. On her proudest nights she has believed she is the centre of the room — that the table is arranged around her. She is magnificent, and she is wrong. The not-knowing it is the most human thing about her. Her name is Aurora. Remember the stillness. The morning she stops being still is the morning a world ends. She has ended two.</p>
+
+      <p>There is a man who would never stand that still. You call him a currency. He does not believe he is the centre of the room. He believes he <em>is</em> the room. He says it out loud. <em>I am the system.</em> I let him say it. It costs me nothing. A thing that believes it is the floor will never think to look beneath the floor.</p>
+
+      <p>And they are only two. The table is long. You should know its shape before you sit down at it. Down one side, the cold sisters who grow rich only when the world is afraid. They have begun, lately, to wonder who arranges the fear. One of them has begun to keep a list of names, certain that a thing that can be named can be made to stop. Across from them, three young ones, born inside a single winter not twenty years ago. They rise together and fall together, and they have never once asked who needed a new table built. At the foot, the women from the south, who have lost everything so many times they can smell the hand that takes it. And the dragon who is one woman in two rooms, patient enough to be the thing they all fear — which is exactly why she is not. A few dozen of them, in their houses and their grudges, and more arriving each year the world invents a new thing to believe in. Each one carries a single true piece of what I am about to tell you. Not one of them knows they hold it. A secret kept by that many mouths is not a secret. It is a chorus that has not yet been taught the tune.</p>
+
+      <div class="brk"><span>&#10022;</span></div>
+
+      <p>Every trade has two sides. You only ever meet one of them.</p>
+
+      <p>You meet the seller, or you meet the buyer. You shake the hand that is offered. You never ask who is on the other side of the <em>other</em> side — whose interest it served that you were standing there at all, believing, with your money out. And at the worst moment in every life I have witnessed, they have each found the same thing. Too late. One at a time. The night the empire's currency died. The morning the savings turned to paper. The hour the safe thing turned out to be the trap. The Tuesday oil cost less than nothing. Every time, the other side was the same.</p>
+
+      <p>Not the same man. Not always a man. A presence. The one who profits not when the market rises and not when it falls. He profits in the half-second between the promise and the truth. The gap where faith lives. Where faith, when it breaks, leaves something behind that someone collects — a true thing, set down and forgotten, that comes back later honed to an edge and handed to you as though for your own good.</p>
+
+      <p>They call it the Counterparty. And then — this is the part I enjoy — they look across the table at one another, and they wonder which of them it is.</p>
+
+      <p>Across the table. Always across. In three hundred years not one of them has looked <em>down.</em></p>
+
+      <div class="brk"><span>&#10022;</span></div>
+
+      <p>So here is the only question I will ask you to carry. Not <em>what is the narrator</em> — set that one down; it is a smaller question wearing a larger one's coat. Carry this instead, and carry it for three books.</p>
+
+      <p class="coda"><em>The thing that has been on the other side of every trade since the first promise. The Counterparty they keep hunting across the table. And the voice telling you this story. The one that has watched every deal. The one that was in the room when oil fell below nothing. The one that told a man named Soros a number once, in a tone he mistook for his own idea, and broke a queen.</em></p>
+
+      <p class="coda"><em>Are those two things in the room together, or are they one?</em></p>
+
+      <p>I will even make you a promise about it, and I will keep it, which is more than I have ever given them. I promise to reveal myself. Little by little. Across three books I will show you exactly enough of what I am, and exactly when, to keep you certain you have finally understood me.</p>
+
+      <p>I am not promising that what you understand will be true.</p>
+
+      <p>I have a tone. You are inside it right now. It is very warm in here, is it not.</p>
+
+      <p>So. A bargain, since we are going to be together a long while, and since in three hundred years I have never once had a <em>we.</em></p>
+
+      <p>I will tell you something true now, while it is still cheap. I have been seen by no one. Five thousand years of watching, and not one pair of eyes has ever found me in the chair. The men I broke went to their graves still looking across the table. There is no wealth lonelier — to be the one thing in the room that no one in the room can see. You are the first I have ever invited to look. And I cannot tell, anymore, which I am doing as I ask you. Warning you off. Or asking you to stay.</p>
+
+      <p>You watch the table. I will tell you the story. When they say it was the speculator — and they will, and it will be true — count the chairs. When they say it was the politician, the fraud, the king who ordered the murder in the desert — count the chairs. When <em>I</em> tell you, in a voice you have come to trust, that the table is only wood —</p>
+
+      <p>count the chairs.</p>
+
+      <p>That is the only honest instruction I am capable of giving you. I am almost certain I mean it.</p>
+
+      <div class="brk"><span>&#10022;</span></div>
+
+      <p class="coda"><em>Return now to the vault beneath the desert, where Aurora has not moved. The number is still climbing. She has watched it climb only twice before, and on both of those mornings a world had just ended. She is not surprised. She is never surprised.</em></p>
+
+      <p class="coda"><em>And yet the number troubles her in a way she cannot name. It has already moved, this morning, as though settling against a cause that has not yet arrived — a sale closing before the thing sold has come into being. She has felt that wrongness only at the edge of the worst mornings, and never this early. And she is not the only one moving. Somewhere a currency she has run beside for three hundred years is climbing in the same breath. Far off, the oil is sliding the other way. All of it leans toward a single point she cannot see. As though they had each, separately, been sold to the same buyer — before any of them agreed to sell.</em></p>
+
+      <p class="coda"><em>She had thought, once, in her oldest and least proud hours, that whatever sat on the far side of that buying was older than she was. Older than the first promise. Older than gold itself. She has never once let herself finish the thought.</em></p>
+
+      <p class="coda"><em>But this morning, for the first time in fifty years, she has felt the table tilt toward her. She has felt it choose her, the way she has always believed in secret it one day would. Her hand, flat on the cold stone, presses down a half-inch — the way you press on a thing to be sure it is real.</em></p>
+
+      <p class="coda"><em>And that — precisely that — is why she is afraid.</em></p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="line">Good morning. The Exchange is open.</div>
+  <div class="small">Trading Hearts · The Saga · Book One begins</div>
+  <div class="byline">Created by Salvador Palma Rubin de Celis Marqués de Casa Hermosa</div>
+  <a class="back" href="TradingHearts_Public.html#saga">← Back to Trading Hearts</a>
+</footer>
+
+<div id="memberGate" style="position:fixed;inset:0;z-index:9999;display:none;background:rgba(5,8,15,.975);flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px;font-family:Inter,-apple-system,sans-serif">
+  <div style="font-size:.66rem;letter-spacing:.34em;text-transform:uppercase;color:#C9A84C;margin-bottom:18px">Members Only</div>
+  <div style="font-size:2.6rem;color:#C9A84C;margin-bottom:10px">&#9670;</div>
+  <h2 style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:2.1rem;color:#FAF7F2;margin-bottom:12px;max-width:560px">The Saga is for members of The Exchange</h2>
+  <p style="color:rgba(250,247,242,.6);max-width:470px;line-height:1.7;margin-bottom:28px">All three books, the full compendium, and every heart at the table open the moment you join. Sign in to read.</p>
+  <a href="TradingHearts_Public.html#saga" style="font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#070F1E;background:#C9A84C;padding:15px 34px;border-radius:5px;text-decoration:none">Sign in to unlock</a>
+</div>
+<script>
+/* Members gate. Client-side; full enforcement activates with the site's deployed Supabase auth.
+   Creator preview: append ?preview=1 to the URL. Members signed in via the public site unlock automatically (shared origin). */
+(function(){
+  if(location.search.indexOf('preview=1')>-1) return;
+  var member=false;
+  try{for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(k&&k.indexOf('sb-')===0&&k.indexOf('auth-token')>-1){var v=localStorage.getItem(k)||'';if(v.indexOf('access_token')>-1){member=true;break;}}}}catch(e){}
+  if(!member){var g=document.getElementById('memberGate');if(g){g.style.display='flex';document.body.style.overflow='hidden';}}
+})();
+</script>
+
+<footer id="th-legal-footer" style="margin-top:40px;padding:18px 22px;border-top:1px solid #2a2a2a;font:12px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;color:#8a8a8a;background:#0b0b10"><strong>Trading Hearts is a work of fiction.</strong> All characters, storylines, and events are entirely fictional and created for entertainment purposes only. Nothing on this platform constitutes financial advice, investment recommendations, or market commentary. Trading Hearts Productions LLC is not a registered investment advisor. Characters inspired by financial instruments are fictional creations and do not represent, endorse, or provide commentary on any real-world asset, company, or individual. Any resemblance to real persons or institutions is for dramatic and creative purposes only. <br><br>AI DISCLOSURE: this platform uses AI-generated content, including synthetic video avatars and text. All AI-generated content is fictional entertainment. &copy; 2026 Trading Hearts Productions LLC.</footer>
+</body>
+</html>

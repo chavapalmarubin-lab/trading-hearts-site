@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trading Hearts — The Story of Civilization, Told by Those Who Lived It</title>
+<meta name="description" content="Trading Hearts is a living knowledge platform where the forces of money and history are people. Explore the world, meet the characters, understand civilization.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --onyx:#0b0a08; --onyx2:#12100c; --panel:#161309; --gold:#c4a44a; --gold-lt:#e8c97a;
+  --cream:#faf7f2; --muted:rgba(250,247,242,.55); --line:rgba(201,168,76,.16);
+  --disp:'Cormorant Garamond',Georgia,serif; --ui:'Inter',system-ui,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--onyx);color:var(--cream);font-family:var(--ui);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+a{color:inherit;text-decoration:none}
+.disp{font-family:var(--disp)}
+::selection{background:var(--gold);color:#000}
+
+/* ============ ENTER GATE ============ */
+#gate{position:fixed;inset:0;z-index:1000;background:radial-gradient(120% 90% at 50% 40%,#1b160c 0%,#0b0a08 60%,#050403 100%);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:32px;transition:opacity 1.1s ease,visibility 1.1s}
+#gate.gone{opacity:0;visibility:hidden;pointer-events:none}
+#gate .mark{font-family:var(--disp);font-size:clamp(2.6rem,8vw,6.2rem);letter-spacing:.06em;color:var(--cream);line-height:1;opacity:0;transform:translateY(18px);animation:rise 1.4s .2s forwards}
+#gate .rule{width:0;height:1px;background:var(--gold);margin:26px 0 24px;opacity:.7;animation:grow 1.2s 1s forwards}
+#gate .sub{font-family:var(--disp);font-size:clamp(1.1rem,2.4vw,1.7rem);font-style:italic;color:var(--muted);max-width:640px;opacity:0;animation:fade 1.4s 1.1s forwards}
+#gate .enter{margin-top:52px;font-family:var(--ui);font-size:.72rem;letter-spacing:.42em;text-transform:uppercase;color:var(--onyx);
+  background:var(--gold);padding:20px 46px;border-radius:2px;opacity:0;animation:fade 1.2s 1.7s forwards;transition:transform .3s,box-shadow .3s;box-shadow:0 0 0 rgba(196,164,74,0)}
+#gate .enter:hover{transform:translateY(-2px);box-shadow:0 14px 44px rgba(196,164,74,.36)}
+#gate .hint{margin-top:26px;font-size:.6rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(250,247,242,.3);opacity:0;animation:fade 1.2s 2.2s forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+@keyframes fade{to{opacity:1}}
+@keyframes grow{to{width:min(340px,70vw)}}
+#gate canvas{position:absolute;inset:0;width:100%;height:100%;z-index:-1;opacity:.5}
+
+/* ============ NAV ============ */
+#nav{position:fixed;top:0;left:0;right:0;z-index:500;display:flex;align-items:center;justify-content:space-between;
+  padding:16px clamp(18px,4vw,46px);background:linear-gradient(180deg,rgba(8,7,5,.92),rgba(8,7,5,0));
+  transform:translateY(-110%);transition:transform .7s ease;backdrop-filter:blur(2px)}
+#nav.show{transform:none}
+#nav .logo{font-family:var(--disp);font-size:1.15rem;letter-spacing:.14em;color:var(--cream)}
+#nav .logo b{color:var(--gold);font-weight:500}
+#nav .links{display:flex;gap:clamp(10px,2vw,30px);align-items:center}
+#nav .links a{font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);padding:6px 2px;position:relative;transition:color .25s}
+#nav .links a::after{content:'';position:absolute;left:0;right:100%;bottom:-3px;height:1px;background:var(--gold);transition:right .3s}
+#nav .links a:hover,#nav .links a.on{color:var(--cream)}
+#nav .links a.on::after{right:0}
+#nav .signin{font-size:.6rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);border:1px solid var(--line);padding:9px 16px;border-radius:2px;transition:.25s}
+#nav .signin:hover{border-color:var(--gold);background:rgba(196,164,74,.08)}
+#nav .burger{display:none;font-size:1.2rem;color:var(--gold)}
+
+/* ============ VIEWS ============ */
+.view{display:none;min-height:100vh;padding-top:78px}
+.view.active{display:block;animation:viewin .8s ease}
+@keyframes viewin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.kicker{font-size:.62rem;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+.scene-title{font-family:var(--disp);font-size:clamp(2rem,5vw,3.6rem);line-height:1.02;color:var(--cream);font-weight:500}
+.scene-sub{font-family:var(--disp);font-style:italic;font-size:clamp(1.05rem,2.2vw,1.5rem);color:var(--muted);margin-top:10px;max-width:640px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 clamp(18px,4vw,46px)}
+
+/* ---- EXPLORE: map ---- */
+#explore .exp-hero{padding:clamp(30px,5vw,58px) 0 20px}
+.mapstage{position:relative;margin-top:30px;border:1px solid var(--line);border-radius:6px;overflow:hidden;
+  background:radial-gradient(120% 120% at 50% 30%,#14110a,#0a0906);aspect-ratio:16/8.4;min-height:340px}
+.mapstage .grid{position:absolute;inset:0;background-image:linear-gradient(rgba(196,164,74,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(196,164,74,.05) 1px,transparent 1px);background-size:60px 60px;opacity:.6}
+.mapstage .cont{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(196,164,74,.09),transparent 70%);filter:blur(2px)}
+.node{position:absolute;transform:translate(-50%,-50%);z-index:3;display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer}
+.node .dot{width:12px;height:12px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 0 rgba(196,164,74,.6);animation:pulse 2.6s infinite}
+.node:nth-child(3n) .dot{animation-delay:.6s}.node:nth-child(3n+1) .dot{animation-delay:1.2s}
+.node .lab{font-size:.56rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);white-space:nowrap;opacity:0;transition:opacity .25s;pointer-events:none}
+.node:hover .lab,.node.near .lab{opacity:1;color:var(--cream)}
+.node:hover .dot{background:var(--gold-lt);transform:scale(1.35)}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(196,164,74,.5)}70%{box-shadow:0 0 0 16px rgba(196,164,74,0)}100%{box-shadow:0 0 0 0 rgba(196,164,74,0)}}
+.forces{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;align-items:center}
+.forces .flabel{font-size:.58rem;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+.chip{font-size:.64rem;letter-spacing:.12em;color:var(--cream);border:1px solid var(--line);padding:8px 13px;border-radius:40px;transition:.25s;display:flex;gap:8px;align-items:center}
+.chip:hover{border-color:var(--gold);background:rgba(196,164,74,.08)}
+.chip i{width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block}
+
+/* ---- EXPLORE: timeline ---- */
+.timeline{margin-top:64px}
+.tl-rail{display:flex;gap:0;overflow-x:auto;padding:18px 2px 6px;scrollbar-width:thin}
+.tl-rail::-webkit-scrollbar{height:4px}.tl-rail::-webkit-scrollbar-thumb{background:var(--line)}
+.tl-node{flex:0 0 auto;text-align:center;padding:0 clamp(14px,2.4vw,30px);position:relative;cursor:pointer;color:var(--muted);transition:color .25s}
+.tl-node::before{content:'';position:absolute;left:0;right:0;top:7px;height:1px;background:var(--line)}
+.tl-node .yr{font-family:var(--disp);font-size:1.15rem;position:relative;display:inline-block;background:var(--onyx);padding:0 4px}
+.tl-node .yd{width:9px;height:9px;border-radius:50%;background:#2a2414;border:1px solid var(--gold);margin:8px auto 0;position:relative;z-index:2;transition:.25s}
+.tl-node:hover{color:var(--cream)}
+.tl-node.on{color:var(--gold-lt)}
+.tl-node.on .yd{background:var(--gold);box-shadow:0 0 12px var(--gold)}
+.tl-stage{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;margin-top:30px;border:1px solid var(--line);border-radius:6px;overflow:hidden;min-height:320px}
+.tl-stage .tl-img{height:100%;min-height:320px;background-size:cover;background-position:center;filter:saturate(.9)}
+.tl-stage .tl-txt{padding:clamp(22px,3vw,40px)}
+.tl-stage .tl-era{font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
+.tl-stage h3{font-family:var(--disp);font-size:clamp(1.6rem,3.4vw,2.6rem);margin:10px 0 6px;font-weight:500}
+.tl-stage .tl-note{color:var(--muted);font-size:.95rem;line-height:1.7;font-family:var(--disp);font-style:italic}
+.tl-stage .tl-cta{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap}
+
+/* ---- generic tiles ---- */
+.tiles{display:grid;gap:16px;margin-top:34px}
+.tiles.c3{grid-template-columns:repeat(3,1fr)}.tiles.c4{grid-template-columns:repeat(4,1fr)}.tiles.c2{grid-template-columns:repeat(2,1fr)}
+.tile{position:relative;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--panel);aspect-ratio:3/4;cursor:pointer;transition:.35s}
+.tile.wide{aspect-ratio:16/9}
+.tile:hover{transform:translateY(-4px);border-color:rgba(196,164,74,.4)}
+.tile .ti{position:absolute;inset:0;background-size:cover;background-position:center top;transition:transform .6s}
+.tile:hover .ti{transform:scale(1.05)}
+.tile .tv{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.tile .grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,7,5,0) 40%,rgba(8,7,5,.92))}
+.tile .cap{position:absolute;left:0;right:0;bottom:0;padding:16px}
+.tile .cap .cap-k{font-size:.54rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+.tile .cap .cap-t{font-family:var(--disp);font-size:1.15rem;line-height:1.15;margin-top:5px}
+.tile .play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:54px;height:54px;border-radius:50%;border:1px solid rgba(250,247,242,.5);display:flex;align-items:center;justify-content:center;background:rgba(8,7,5,.35);backdrop-filter:blur(2px)}
+.tile .play::after{content:'';border-left:14px solid var(--cream);border-top:9px solid transparent;border-bottom:9px solid transparent;margin-left:4px}
+
+/* ---- Learn cards ---- */
+.qcards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:34px}
+.qcard{border:1px solid var(--line);border-radius:6px;padding:26px;background:var(--panel);cursor:pointer;transition:.3s;position:relative;overflow:hidden}
+.qcard:hover{border-color:rgba(196,164,74,.4)}
+.qcard .who{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.qcard .who img{width:44px;height:44px;border-radius:50%;object-fit:cover;object-position:center top;border:1px solid var(--line)}
+.qcard .who span{font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.qcard .q{font-family:var(--disp);font-size:1.5rem;line-height:1.2;color:var(--cream)}
+.qcard .a{max-height:0;opacity:0;overflow:hidden;transition:.5s;color:var(--muted);font-size:.95rem;line-height:1.7;margin-top:0}
+.qcard.open .a{max-height:260px;opacity:1;margin-top:16px}
+.qcard .more{margin-top:16px;font-size:.58rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+
+/* ---- Today ---- */
+.today-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}
+.tcard{border:1px solid var(--line);border-radius:6px;padding:24px;background:var(--panel);display:flex;flex-direction:column;gap:14px}
+.tcard .th{display:flex;align-items:center;gap:12px}
+.tcard .th img{width:48px;height:48px;border-radius:50%;object-fit:cover;object-position:center top;border:1px solid var(--line)}
+.tcard .th .nm{font-family:var(--disp);font-size:1.15rem}.tcard .th .as{font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.tcard .say{font-family:var(--disp);font-style:italic;font-size:1.15rem;line-height:1.4;color:var(--cream)}
+.tcard .ctx{font-size:.8rem;color:var(--muted);line-height:1.6}
+
+/* ---- Join ---- */
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}
+.plan{border:1px solid var(--line);border-radius:6px;padding:32px 26px;background:var(--panel);display:flex;flex-direction:column;gap:14px}
+.plan.feat{border-color:rgba(196,164,74,.5);background:linear-gradient(180deg,rgba(196,164,74,.06),var(--panel))}
+.plan .pn{font-size:.6rem;letter-spacing:.26em;text-transform:uppercase;color:var(--gold)}
+.plan .pp{font-family:var(--disp);font-size:2.4rem}
+.plan .pp small{font-size:.9rem;color:var(--muted)}
+.plan ul{list-style:none;display:flex;flex-direction:column;gap:9px;margin:8px 0 14px}
+.plan li{font-size:.85rem;color:var(--muted);padding-left:18px;position:relative;line-height:1.5}
+.plan li::before{content:'—';position:absolute;left:0;color:var(--gold)}
+.btn{display:inline-block;text-align:center;font-size:.64rem;letter-spacing:.26em;text-transform:uppercase;padding:15px 24px;border-radius:2px;transition:.25s}
+.btn.gold{background:var(--gold);color:var(--onyx)}.btn.gold:hover{background:var(--gold-lt)}
+.btn.ghost{border:1px solid var(--line);color:var(--cream)}.btn.ghost:hover{border-color:var(--gold)}
+.section-foot{margin-top:60px;padding:40px 0 70px;border-top:1px solid var(--line);color:var(--muted);font-size:.78rem;display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:center}
+.section-foot a{color:var(--muted)}.section-foot a:hover{color:var(--gold)}
+
+/* ---- Greeter ---- */
+#greeter{position:fixed;left:0;right:0;bottom:0;z-index:400;transform:translateY(120%);transition:transform .8s cubic-bezier(.2,.8,.2,1)}
+#greeter.show{transform:none}
+#greeter .g-in{max-width:1000px;margin:0 auto;padding:0 clamp(18px,4vw,46px) 30px;display:flex;align-items:flex-end;gap:22px}
+#greeter .g-card{flex:1;background:linear-gradient(180deg,rgba(8,7,5,.4),rgba(8,7,5,.96));border:1px solid var(--line);border-top-width:2px;border-top-color:var(--gold);border-radius:8px;padding:22px 26px;display:flex;gap:20px;align-items:center;backdrop-filter:blur(6px)}
+#greeter img{width:74px;height:74px;border-radius:50%;object-fit:cover;object-position:center top;border:1px solid var(--gold)}
+#greeter .g-say{font-family:var(--disp);font-style:italic;font-size:clamp(1.1rem,2.3vw,1.6rem);line-height:1.3;flex:1}
+#greeter .g-who{font-size:.55rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;font-style:normal}
+#greeter .g-btns{display:flex;flex-direction:column;gap:8px}
+
+/* ---- Character reveal ---- */
+#reveal{position:fixed;inset:0;z-index:700;background:rgba(5,4,3,.86);backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;padding:24px}
+#reveal.show{display:flex;animation:fade .4s}
+#reveal .rc{max-width:900px;width:100%;max-height:88vh;overflow:auto;background:var(--onyx2);border:1px solid var(--line);border-radius:10px;display:grid;grid-template-columns:300px 1fr}
+#reveal .rc-img{background-size:cover;background-position:center top;min-height:420px}
+#reveal .rc-body{padding:34px}
+#reveal .rc-as{font-size:.58rem;letter-spacing:.26em;text-transform:uppercase;color:var(--gold)}
+#reveal .rc-nm{font-family:var(--disp);font-size:2.4rem;line-height:1;margin:8px 0 4px}
+#reveal .rc-tag{color:var(--muted);font-style:italic;font-family:var(--disp);font-size:1.15rem;margin-bottom:18px}
+#reveal .rc-quote{font-family:var(--disp);font-size:1.3rem;line-height:1.4;color:var(--cream);border-left:2px solid var(--gold);padding-left:16px;margin:18px 0}
+#reveal .rc-bio{font-size:.9rem;line-height:1.75;color:var(--muted)}
+#reveal .rc-cta{display:flex;gap:12px;margin-top:24px;flex-wrap:wrap}
+#reveal .rc-x{position:absolute;top:20px;right:24px;font-size:1.5rem;color:var(--muted);z-index:2}
+#reveal .rc-x:hover{color:var(--gold)}
+
+/* ---- Player ---- */
+#player{position:fixed;inset:0;z-index:800;background:rgba(3,2,2,.95);display:none;align-items:center;justify-content:center;padding:24px}
+#player.show{display:flex;animation:fade .3s}
+#player video{max-width:94vw;max-height:88vh;border:1px solid var(--line);border-radius:6px;background:#000}
+#player .p-x{position:absolute;top:22px;right:28px;font-size:1.7rem;color:var(--muted)}#player .p-x:hover{color:var(--gold)}
+
+@media(max-width:860px){
+  #nav .links{display:none}#nav .burger{display:block}
+  #nav.open .links{display:flex;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--onyx2);padding:16px 24px;gap:14px;border-bottom:1px solid var(--line)}
+  .tiles.c4,.tiles.c3{grid-template-columns:repeat(2,1fr)}
+  .tl-stage{grid-template-columns:1fr}.tl-stage .tl-img{min-height:220px}
+  .qcards,.today-grid,.plans{grid-template-columns:1fr}
+  #reveal .rc{grid-template-columns:1fr}#reveal .rc-img{min-height:240px}
+  #greeter .g-in{flex-direction:column;align-items:stretch}
+}
+</style>
+</head>
+<body>
+
+<!-- ENTER GATE -->
+<div id="gate">
+  <canvas id="stars"></canvas>
+  <div class="mark disp">TRADING&nbsp;HEARTS</div>
+  <div class="rule"></div>
+  <div class="sub">The Story of Civilization.<br>Told by Those Who Lived It.</div>
+  <button class="enter" onclick="enterSite()">Enter</button>
+  <div class="hint">Money is a character. History is a cast.</div>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a class="logo disp" href="#" onclick="go('explore');return false">Trading <b>Hearts</b></a>
+  <div class="links">
+    <a data-v="explore" onclick="go('explore');return false">Explore</a>
+    <a data-v="experience" onclick="go('experience');return false">Experience</a>
+    <a data-v="learn" onclick="go('learn');return false">Learn</a>
+    <a data-v="today" onclick="go('today');return false">Today</a>
+    <a data-v="join" onclick="go('join');return false">Join</a>
+  </div>
+  <button class="signin" onclick="go('join')">Sign In</button>
+  <button class="burger" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+</nav>
+
+<!-- EXPLORE -->
+<section class="view" id="explore">
+  <div class="wrap exp-hero">
+    <div class="kicker">Explore</div>
+    <h1 class="scene-title">Every country is alive.</h1>
+    <p class="scene-sub">Touch a place. The force that shaped it steps forward — and tells you its story.</p>
+    <div class="mapstage" id="mapstage">
+      <div class="grid"></div>
+    </div>
+    <div class="forces" id="forces"><span class="flabel">Borderless forces</span></div>
+    <!-- LIVING TIMELINE -->
+    <div class="timeline">
+      <div class="kicker" style="margin-top:10px">The Living Timeline</div>
+      <h2 class="scene-title" style="font-size:clamp(1.6rem,4vw,2.6rem)">Money, through time.</h2>
+      <div class="tl-rail" id="tlRail"></div>
+      <div class="tl-stage" id="tlStage"></div>
+    </div>
+    <div class="section-foot">
+      <span>Trading Hearts — a living knowledge platform.</span>
+      <span><a onclick="go('experience');return false">Experience the stories →</a></span>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="view" id="experience">
+  <div class="wrap" style="padding-top:clamp(30px,5vw,58px)">
+    <div class="kicker">Experience</div>
+    <h1 class="scene-title">Don't read history. Watch it happen.</h1>
+    <p class="scene-sub">Films, comics and a three-book saga — every one told from the inside.</p>
+    <h3 class="disp" style="font-size:1.4rem;margin:44px 0 0;color:var(--gold-lt)">Featured film</h3>
+    <div class="tiles c2" id="featFilm"></div>
+    <h3 class="disp" style="font-size:1.4rem;margin:44px 0 0;color:var(--gold-lt)">Character reels</h3>
+    <div class="tiles c4" id="reels"></div>
+    <h3 class="disp" style="font-size:1.4rem;margin:44px 0 0;color:var(--gold-lt)">America 250 — the comics</h3>
+    <div class="tiles c4" id="comics"></div>
+    <h3 class="disp" style="font-size:1.4rem;margin:44px 0 0;color:var(--gold-lt)">The Saga — three novels</h3>
+    <div class="tiles c3" id="saga"></div>
+    <div class="section-foot"><span>Curiosity over completeness. One story at a time.</span><span><a onclick="go('learn');return false">Learn with a guide →</a></span></div>
+  </div>
+</section>
+
+<!-- LEARN -->
+<section class="view" id="learn">
+  <div class="wrap" style="padding-top:clamp(30px,5vw,58px)">
+    <div class="kicker">Learn</div>
+    <h1 class="scene-title">Pick a guide. Ask a question.</h1>
+    <p class="scene-sub">No lectures. A character asks. You click. You understand.</p>
+    <div class="qcards" id="qcards"></div>
+    <div class="section-foot"><span>Choose your guide — the whole world looks different through their eyes.</span></div>
+  </div>
+</section>
+
+<!-- TODAY -->
+<section class="view" id="today">
+  <div class="wrap" style="padding-top:clamp(30px,5vw,58px)">
+    <div class="kicker">Today's World</div>
+    <h1 class="scene-title">History didn't stop. It's happening now.</h1>
+    <p class="scene-sub">Every day, the cast reacts to the real markets moving under your feet.</p>
+    <div class="today-grid" id="todayGrid"></div>
+    <div class="section-foot"><span>Updated as the world moves. Yesterday's certainty is today's question.</span></div>
+  </div>
+</section>
+
+<!-- JOIN -->
+<section class="view" id="join">
+  <div class="wrap" style="padding-top:clamp(30px,5vw,58px)">
+    <div class="kicker">Join</div>
+    <h1 class="scene-title">Come inside the world.</h1>
+    <p class="scene-sub">Founding members shape the cast, unlock every chapter, and get the story first.</p>
+    <div class="plans">
+      <div class="plan">
+        <div class="pn">Free</div><div class="pp">$0</div>
+        <ul><li>Explore the world & timeline</li><li>Meet all 28 characters</li><li>Three free comics + prologues</li></ul>
+        <a class="btn ghost" onclick="go('explore')">Start exploring</a>
+      </div>
+      <div class="plan feat">
+        <div class="pn">Founding Member</div><div class="pp">$9<small>/mo</small></div>
+        <ul><li>Every comic & full saga</li><li>New films first</li><li>Vote on arcs & characters</li><li>Members-only vault</li></ul>
+        <a class="btn gold" href="mailto:hello@tradinghearts.com?subject=Founding%20Member">Become a founder</a>
+      </div>
+      <div class="plan">
+        <div class="pn">Patron</div><div class="pp">$29<small>/mo</small></div>
+        <ul><li>Everything in Founding</li><li>Name in the credits</li><li>Early access to originals</li><li>Direct line to the studio</li></ul>
+        <a class="btn ghost" href="mailto:hello@tradinghearts.com?subject=Patron">Become a patron</a>
+      </div>
+    </div>
+    <div class="section-foot">
+      <span>© Trading Hearts · Every asset has a story. This one is true.</span>
+      <span><a href="index_classic.html">Full archive site</a> · <a href="https://www.youtube.com/@TradingHearts" target="_blank">YouTube</a> · <a href="https://www.instagram.com/tradinghearts_saga/" target="_blank">Instagram</a></span>
+    </div>
+  </div>
+</section>
+
+<!-- GREETER -->
+<div id="greeter"><div class="g-in"><div class="g-card">
+  <img id="grImg" alt="">
+  <div class="g-say"><div class="g-who" id="grWho"></div><span id="grSay"></span></div>
+  <div class="g-btns">
+    <button class="btn gold" id="grGo">Continue</button>
+    <button class="btn ghost" onclick="hideGreeter()">Meet someone else</button>
+  </div>
+</div></div></div>
+
+<!-- REVEAL -->
+<div id="reveal"><div class="rc" id="rcInner"></div><button class="rc-x" onclick="closeReveal()">✕</button></div>
+
+<!-- PLAYER -->
+<div id="player"><button class="p-x" onclick="closePlayer()">✕</button><video id="pvid" controls playsinline></video></div>
+
+<script src="data/chars.js"></script>
+<script>
+/* ============ curated meta layered on real CHARS data ============ */
+const ASSET = {aurora:'Gold · XAU',conrad:'US Dollar · DXY',sofia:'Euro · EUR',isabella:'Pound · GBP',
+ victoria:'Swiss Franc · CHF',charlotte:'Canadian Dollar · CAD',aiko:'Japanese Yen · JPY',scarlett:'Aussie Dollar · AUD',
+ clara:'Bonds · Safe Haven',zane:'Oil · WTI/Brent',hiro:'Bitcoin · BTC',zephyr:'Ethereum · ETH',niko:'Solana · SOL',
+ alexandros:'The Drachma · Greece',valentina:'Argentine Peso · ARS',camila:'Brazilian Real · BRL',fernanda:'Mexican Peso · MXN',
+ catalina:'Colombian Peso · COP',marisol:'Peruvian Sol · PEN',simon:'Bolívar · VES',mei:'Yuan Offshore · CNH',wei:'Yuan Onshore · CNY',
+ klaus:'Europe',isabelle:'Europe',lars:'Europe',matteo:'Europe',carlos:'Latin America',ana:'Iberia'};
+
+/* geo nodes: key -> [country label, x%, y%] */
+const MAP = {
+ conrad:['United States',24,40], charlotte:['Canada',22,29], alexandros:['Greece',53.5,41],
+ sofia:['Italy · EU',51,38], isabella:['United Kingdom',48,31], victoria:['Switzerland',50,36.5],
+ aiko:['Japan',84,42], mei:['China',77,44], scarlett:['Australia',86,76],
+ camila:['Brazil',34,66], fernanda:['Mexico',18,50], valentina:['Argentina',32,82],
+ simon:['Venezuela',30,55], catalina:['Colombia',28,58], marisol:['Peru',28,66]};
+const CONT=[[24,42,26,20],[52,40,20,16],[80,46,20,20],[32,66,16,22],[86,74,12,10]]; // faint continents x,y,w,h %
+
+const FORCES=['aurora','hiro','zephyr','niko','zane','clara'];
+
+/* living timeline: money through time (img pulled from character portrait) */
+const ERAS=[
+ {yr:'600 BCE',key:'alexandros',era:'Antiquity · Athens',title:'The first trusted coin',note:'Athens stamps silver with an owl. For the first time, a stranger takes your money without weighing it. Money becomes trust.',film:true},
+ {yr:'1776',key:'conrad',era:'A nation is born',title:'Borrowed into being',note:'A young country funds a revolution on debt it cannot yet pay. The dollar learns to promise.'},
+ {yr:'1865',key:'charlotte',era:'A country reforged',title:'Union, at a price',note:'War is paid for in paper and blood. The greenback is printed, and a nation argues about what money should be.'},
+ {yr:'1929',key:'aurora',era:'The Crash',title:'When trust evaporated',note:'The floor fell out of the market. Fortunes became rumors overnight. Gold watched, unmoved.'},
+ {yr:'1944',key:'aurora',era:'Bretton Woods',title:'Gold anchors the world',note:'The nations tie every currency to the dollar, and the dollar to gold. Aurora is, briefly, queen of everything.'},
+ {yr:'1971',key:'conrad',era:'August Fifteenth',title:'The gold window closes',note:'Nixon cuts the last thread between the dollar and gold. Money becomes pure belief. Aurora never forgives him.'},
+ {yr:'2008',key:'zane',era:'The Great Crisis',title:'The system nearly ends',note:'Debt built on debt collapses. The world discovers, again, how fragile trust is.'},
+ {yr:'2009',key:'hiro',era:'A currency with no country',title:'Bitcoin appears',note:'A stranger publishes nine pages and vanishes. Money without a government is born. Aurora finally has a rival.'},
+ {yr:'Today',key:'niko',era:'Now',title:'Every asset has a story',note:'Dollars, yen, gold, code — every force in the market is alive, and arguing. You are standing inside the story.'}
+];
+
+/* Learn: character-led questions */
+const LESSONS=[
+ {key:'aurora',q:'Why did people ever stop trusting paper money?',a:'Because paper is only a promise. When a government prints more than it can back, each note buys less — that is inflation. Gold can\'t be printed, so in every panic the world runs back to Aurora. Trust is the whole product; once it cracks, the paper is just paper.'},
+ {key:'conrad',q:'How can a dollar be worth anything if it isn\'t backed by gold?',a:'Since 1971 the dollar is backed by belief and by the size of the economy that stands behind it. It works as long as everyone agrees it works — and almost everyone does, because they all need it to trade. Power, not metal, is the modern anchor.'},
+ {key:'hiro',q:'What actually is Bitcoin?',a:'It is money that no country controls — a shared ledger that thousands of computers agree on, with a supply that can never be increased. Whether that makes it the future or a mirage is the argument of our century. Hiro only smiles.'},
+ {key:'alexandros',q:'Where does money even come from?',a:'From a problem: barter only works if the other person wants what you have. A city solved it by stamping a fixed weight of silver and guaranteeing it. That stamp — that guarantee — is money. Everything since is a variation on the drachma.'},
+ {key:'zane',q:'Why does the whole world flinch when oil moves?',a:'Because oil is the price of moving everything else — food, goods, war. When Zane rises, the cost of the entire economy rises with him. He is the one character every other one has to watch.'},
+ {key:'aiko',q:'Why do investors run to the yen when they\'re afraid?',a:'For decades Japan lent the world cheap money. In a panic that money rushes home, and the yen strengthens exactly when everything else falls. Aiko says little; the silence is the point.'}
+];
+
+/* Today: reaction cards (curated template, updated daily) */
+const TODAY=[
+ {key:'conrad',say:'Strength is a burden. The whole world borrows in me, and resents me for it.',ctx:'The dollar holds near multi-month highs as markets weigh rate expectations.'},
+ {key:'aurora',say:'They remember me only when they are afraid. They are becoming afraid.',ctx:'Gold trades close to record territory amid geopolitical uncertainty.'},
+ {key:'hiro',say:'Three words: I am patient.',ctx:'Bitcoin consolidates after a volatile week of institutional flows.'},
+ {key:'zane',say:'Move me a dollar, and every kitchen in the world feels it.',ctx:'Crude swings on supply headlines and demand signals from Asia.'},
+ {key:'aiko',say:'…',ctx:'The yen firms as risk sentiment wobbles and traders seek shelter.'},
+ {key:'alexandros',say:'I have seen currencies die. It always begins with a small, forgivable lie.',ctx:'Two thousand six hundred years of monetary history, still rhyming today.'}
+];
+
+/* ============ helpers ============ */
+const $=s=>document.querySelector(s), C=window.CHARS||{};
+function portrait(k){return (C[k]&&C[k].portrait)||'assets/'+k+'.jpg';}
+function assetOf(k){return ASSET[k]|| (C[k]&&C[k].tagline)||'';}
+
+/* ============ build EXPLORE map ============ */
+function buildMap(){
+ const m=$('#mapstage');
+ CONT.forEach(c=>{const d=document.createElement('div');d.className='cont';d.style.cssText=`left:${c[0]-c[2]/2}%;top:${c[1]-c[3]/2}%;width:${c[2]}%;height:${c[3]}%`;m.appendChild(d);});
+ Object.keys(MAP).forEach(k=>{const [lab,x,y]=MAP[k];const n=document.createElement('div');n.className='node';n.style.cssText=`left:${x}%;top:${y}%`;
+  n.innerHTML=`<span class="dot"></span><span class="lab">${lab}</span>`;n.onclick=()=>openReveal(k);m.appendChild(n);});
+ const f=$('#forces');
+ FORCES.forEach(k=>{const b=document.createElement('button');b.className='chip';b.innerHTML=`<i></i>${(C[k]&&C[k].name)||k} · ${assetOf(k).split(' · ')[0]}`;b.onclick=()=>openReveal(k);f.appendChild(b);});
+}
+
+/* ============ build TIMELINE ============ */
+let tlIdx=0;
+function buildTL(){
+ const rail=$('#tlRail');
+ ERAS.forEach((e,i)=>{const n=document.createElement('div');n.className='tl-node'+(i===0?' on':'');n.innerHTML=`<span class="yr">${e.yr}</span><div class="yd"></div>`;n.onclick=()=>setEra(i);rail.appendChild(n);});
+ setEra(0);
+}
+function setEra(i){
+ tlIdx=i;const e=ERAS[i];
+ document.querySelectorAll('.tl-node').forEach((n,j)=>n.classList.toggle('on',j===i));
+ const ch=C[e.key]||{};
+ const filmBtn=e.film?`<button class="btn gold" onclick="playFilm()">Watch the film</button>`:'';
+ $('#tlStage').innerHTML=`<div class="tl-img" style="background-image:url('${portrait(e.key)}')"></div>
+  <div class="tl-txt"><div class="tl-era">${e.era} · ${e.yr}</div><h3 class="disp">${e.title}</h3>
+  <p class="tl-note">${e.note}</p><div class="tl-cta">${filmBtn}<button class="btn ghost" onclick="openReveal('${e.key}')">Meet ${(ch.name||'').split(' ')[0]}</button></div></div>`;
+}
+
+/* ============ EXPERIENCE ============ */
+function playFilm(){openPlayer('media/videos/alexandros/ALEXANDROS_EDU_web.mp4');}
+function buildExperience(){
+ // featured film
+ $('#featFilm').innerHTML=`
+  <div class="tile wide" onclick="playFilm()"><div class="ti" style="background-image:url('${portrait('alexandros')}')"></div><div class="grad"></div><div class="play"></div>
+    <div class="cap"><div class="cap-k">Educational film · New</div><div class="cap-t">Where Money Comes From — told by the drachma</div></div></div>
+  <div class="tile wide" onclick="openReveal('alexandros')"><div class="ti" style="background-image:url('${portrait('alexandros')}')"></div><div class="grad"></div>
+    <div class="cap"><div class="cap-k">The narrator</div><div class="cap-t">Alexandros · 2,600 years old · still talking</div></div></div>`;
+ // reels — gather unique videos
+ const seen={},reels=[];
+ Object.keys(C).forEach(k=>{(C[k].videos||[]).forEach(v=>{if(v.path&&!seen[v.path]){seen[v.path]=1;reels.push({k,v});}});});
+ $('#reels').innerHTML=reels.slice(0,8).map(({k,v})=>`
+  <div class="tile" onclick="openPlayer('${v.path}')"><div class="ti" style="background-image:url('${portrait(k)}')"></div><div class="grad"></div><div class="play"></div>
+   <div class="cap"><div class="cap-k">${assetOf(k).split(' · ')[0]}</div><div class="cap-t">${v.title}</div></div></div>`).join('');
+ // comics — gather unique by num
+ const cs={},comics=[];
+ Object.keys(C).forEach(k=>{(C[k].comics||[]).forEach(c=>{if(c.num&&!cs[c.num]){cs[c.num]=1;comics.push(c);}});});
+ comics.sort((a,b)=>(a.num>b.num?1:-1));
+ $('#comics').innerHTML=comics.slice(0,12).map(c=>`
+  <a class="tile" href="${c.url}" target="_blank"><div class="ti" style="background-image:url('${c.img}')"></div><div class="grad"></div>
+   <div class="cap"><div class="cap-k">${c.era} · ${c.chars}</div><div class="cap-t">${c.title}</div></div></a>`).join('');
+ // saga
+ const books=[['Book I','The Exchange','TH_SAGA.html'],['Book II','The Counterparty','TH_SAGA.html'],['Book III','The Settlement','TH_SAGA.html']];
+ $('#saga').innerHTML=books.map((b,i)=>`
+  <a class="tile" href="${b[2]}" target="_blank" style="aspect-ratio:3/4"><div class="ti" style="background-image:url('${portrait(['aurora','conrad','aiko'][i])}')"></div><div class="grad"></div>
+   <div class="cap"><div class="cap-k">${b[0]}</div><div class="cap-t">${b[1]}</div></div></a>`).join('');
+}
+
+/* ============ LEARN ============ */
+function buildLearn(){
+ $('#qcards').innerHTML=LESSONS.map((l,i)=>`
+  <div class="qcard" onclick="this.classList.toggle('open')">
+   <div class="who"><img src="${portrait(l.key)}" alt=""><span>${(C[l.key]&&C[l.key].name)||l.key} asks</span></div>
+   <div class="q">${l.q}</div><div class="a">${l.a}</div><div class="more">Tap to reveal ›</div></div>`).join('');
+}
+
+/* ============ TODAY ============ */
+function buildToday(){
+ $('#todayGrid').innerHTML=TODAY.map(t=>`
+  <div class="tcard"><div class="th"><img src="${portrait(t.key)}" alt=""><div><div class="nm disp">${(C[t.key]&&C[t.key].name)||t.key}</div><div class="as">${assetOf(t.key).split(' · ')[0]}</div></div></div>
+   <div class="say">“${t.say}”</div><div class="ctx">${t.ctx}</div></div>`).join('');
+}
+
+/* ============ REVEAL ============ */
+function openReveal(k){
+ const c=C[k];if(!c)return;
+ const q=(c.quotes&&c.quotes[0])?c.quotes[0]:'';
+ const hasFilm=(k==='alexandros');
+ $('#rcInner').innerHTML=`<div class="rc-img" style="background-image:url('${portrait(k)}')"></div>
+  <div class="rc-body"><div class="rc-as">${assetOf(k)}</div><div class="rc-nm disp">${c.name}</div><div class="rc-tag">${c.tagline||''}</div>
+   ${q?`<div class="rc-quote">${q}</div>`:''}
+   <p class="rc-bio">${(c.bio||'').slice(0,420)}${(c.bio||'').length>420?'…':''}</p>
+   <div class="rc-cta">${hasFilm?`<button class="btn gold" onclick="closeReveal();playFilm()">Watch his film</button>`:''}
+     ${(c.comics&&c.comics.length)?`<a class="btn ghost" href="${c.comics[0].url}" target="_blank">Read a comic</a>`:''}
+     <button class="btn ghost" onclick="closeReveal()">Close</button></div></div>`;
+ $('#reveal').classList.add('show');
+}
+function closeReveal(){$('#reveal').classList.remove('show');}
+
+/* ============ PLAYER ============ */
+function openPlayer(src){const p=$('#player'),v=$('#pvid');v.src=src;p.classList.add('show');v.play().catch(()=>{});}
+function closePlayer(){const p=$('#player'),v=$('#pvid');v.pause();v.src='';p.classList.remove('show');}
+
+/* ============ GREETER ============ */
+function showGreeter(){
+ if(sessionStorage.getItem('th_greeted'))return;
+ $('#grImg').src=portrait('alexandros');
+ $('#grWho').textContent='Alexandros · the drachma';
+ $('#grSay').textContent='"I have been waiting two thousand six hundred years to tell you my story."';
+ $('#grGo').onclick=()=>{hideGreeter();playFilm();};
+ setTimeout(()=>$('#greeter').classList.add('show'),700);
+}
+function hideGreeter(){$('#greeter').classList.remove('show');sessionStorage.setItem('th_greeted','1');}
+
+/* ============ NAV / VIEWS ============ */
+function go(v){
+ document.querySelectorAll('.view').forEach(s=>s.classList.toggle('active',s.id===v));
+ document.querySelectorAll('#nav .links a').forEach(a=>a.classList.toggle('on',a.dataset.v===v));
+ document.getElementById('nav').classList.remove('open');
+ window.scrollTo({top:0,behavior:'instant'});
+}
+function enterSite(){
+ document.getElementById('gate').classList.add('gone');
+ document.getElementById('nav').classList.add('show');
+ go('explore');
+ showGreeter();
+}
+
+/* ============ gate starfield ============ */
+(function(){const cv=document.getElementById('stars');if(!cv)return;const cx=cv.getContext('2d');let w,h,ps;
+ function rs(){w=cv.width=innerWidth;h=cv.height=innerHeight;ps=Array.from({length:70},()=>({x:Math.random()*w,y:Math.random()*h,r:Math.random()*1.4+.2,a:Math.random()*.5+.2,s:Math.random()*.3+.05}));}
+ rs();addEventListener('resize',rs);
+ (function loop(){cx.clearRect(0,0,w,h);ps.forEach(p=>{p.y-=p.s;if(p.y<0)p.y=h;cx.beginPath();cx.arc(p.x,p.y,p.r,0,7);cx.fillStyle='rgba(196,164,74,'+p.a+')';cx.fill();});requestAnimationFrame(loop);})();
+})();
+
+/* ============ init ============ */
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeReveal();closePlayer();}});
+buildMap();buildTL();buildExperience();buildLearn();buildToday();
+/* QA/deeplink: ?enter=1&view=experience skips the gate for screenshots/sharing */
+(function(){const q=new URLSearchParams(location.search);if(q.get('enter')==='1'){sessionStorage.setItem('th_greeted','1');document.getElementById('gate').classList.add('gone');document.getElementById('nav').classList.add('show');go(q.get('view')||'explore');}})();
+</script>
+</body>
+</html>

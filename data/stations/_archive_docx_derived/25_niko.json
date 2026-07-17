@@ -1,0 +1,246 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 25,
+  "character_name": "NIKO VALDEZ",
+  "character_key": "niko",
+  "header": "NIKO VALDEZ"
+ },
+ "museum_objects": [
+  {
+   "title": "Solana original whitepaper PDF",
+   "institution": "Solana Labs (self-published digital document)",
+   "accession": "N/A",
+   "date": "November 2017",
+   "url": "https://solana.com/solana-whitepaper.pdf",
+   "licence_raw": "Company-owned; use under fair-use/documentary commentary",
+   "description": "The founding \"Proof of History\" document by Anatoly Yakovenko.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://solana.com/solana-whitepaper.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "GitHub repo solana-labs/solana (commit history)",
+   "institution": "GitHub (public code repository)",
+   "accession": "N/A",
+   "date": "First commits ~Feb 2018",
+   "url": "https://github.com/solana-labs/solana",
+   "licence_raw": "Apache 2.0 (code)",
+   "description": "The literal \"birth of the code\" — screen-recordable commit graph.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://github.com/solana-labs/solana",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Solana cryptocurrency token/logo asset",
+   "institution": "Wikimedia Commons",
+   "accession": "File:Solana cryptocurrency two.jpg",
+   "date": "N/A",
+   "url": "https://commons.wikimedia.org/wiki/File:Solana_cryptocurrency_two.jpg",
+   "licence_raw": "Check individual file license tag",
+   "description": "Generic SOL logo/token art, usable insert graphic.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/File:Solana_cryptocurrency_two.jpg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA 4.0",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikimedia Commons API",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/Solana_cryptocurrency_two.jpg",
+    "attribution": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Clearus&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:C"
+   },
+   "licence": "CC BY-SA 4.0",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Solana_cryptocurrency_two.jpg"
+  },
+  {
+   "title": "Breakpoint 2021 closing ceremony footage",
+   "institution": "YouTube (Solana Foundation channel)",
+   "accession": "N/A",
+   "date": "2021",
+   "url": "https://www.youtube.com/watch?v=kFs6eDh8oVM",
+   "licence_raw": "Standard YouTube license — written permission required for broadcast use",
+   "description": "Anatoly/Raj closing ceremony, strong B-roll candidate.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.youtube.com/watch?v=kFs6eDh8oVM",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Solana Foundation official brand assets",
+   "institution": "Solana Foundation",
+   "accession": "N/A",
+   "date": "Current",
+   "url": "https://solana.org/branding",
+   "licence_raw": "Explicit brand guidelines — logo usage restricted",
+   "description": "Official logo/branding for the nonprofit entity behind Solana.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://solana.org/branding",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Solana original whitepaper — primary founding technical document.",
+   "detail": "",
+   "url": "https://solana.com/solana-whitepaper.pdf",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Solana original whitepaper — primary founding technical document.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://solana.com/solana-whitepaper.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Wikipedia: Solana (blockchain platform) — primary reference timeline.",
+   "detail": "",
+   "url": "https://en.wikipedia.org/wiki/Solana_(blockchain_platform)",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "Wikipedia: Solana (blockchain platform) — primary reference timeline.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Solana_(blockchain_platform)",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "Solana, \"Year in Review 2020\" — primary company retrospective referencing the first PoH commit.",
+   "detail": "",
+   "url": "https://solana.com/news/year-in-review-2020",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Solana, \"Year in Review 2020\" — primary company retrospective referencing the first PoH commit.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://solana.com/news/year-in-review-2020",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "MEXC, \"Why Did Solana Crash: Reasons, History and What Comes Next\" — detailed crash-timeline data source.",
+   "detail": "",
+   "url": "https://www.mexc.com/learn/article/why-did-solana-crash-reasons-history-and-what-comes-next/1",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "MEXC, \"Why Did Solana Crash: Reasons, History and What Comes Next\" — detailed crash-timeline data source.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.mexc.com/learn/article/why-did-solana-crash-reasons-history-and-what-comes-next/1",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Spark.money, blockchain speed comparison tool — primary comparative technical data source.",
+   "detail": "",
+   "url": "https://www.spark.money/tools/blockchain-speed-comparison",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Spark.money, blockchain speed comparison tool — primary comparative technical data source.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.spark.money/tools/blockchain-speed-comparison",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: November 2022, as FTX's financial troubles become public. Solana's ecosystem is deeply intertwined with FTX and Alameda Research, who hold tens of millions of SOL tokens. As news breaks, holders of SOL must decide whether to sell immediately amid the uncertainty, or hold, betting that Solana's underlying technology has value independent of FTX's fate. The outcome was genuinely uncertain: no one knew in the moment whether Solana's network itself would survive its association with a collapsing exchange.Player choice: Sell SOL immediately as FTX's collapse unfolds, or hold through the crash betting on the technology's independent value.Historical resolution: SOL's price crashed roughly 97% from its November 2021 peak to about $8 by December 2022. Those who held through the crash and into subsequent years saw the network's technology and developer community persist and eventually recover significant value, though the initial crash was severe and prolonged.",
+ "understand": {
+  "economic_impact": "Solana's price became so closely tied to FTX and Alameda Research's holdings that the exchange's November 2022 collapse triggered a roughly 97% crash in SOL's value within weeks Business Insider. The network's core technical value proposition — extremely high transaction throughput at low cost — continues to attract developers building decentralized applications regardless of price volatility Spark.money.",
+  "political_impact": "The FTX collapse and its close ties to Solana intensified regulatory scrutiny of cryptocurrency exchanges and their token holdings globally, feeding directly into broader political debates about cryptocurrency regulation in the years following.",
+  "why_it_still_matters": "Imagine building something genuinely fast and impressive, only to watch its value crash almost overnight because the company that had bought a huge pile of it collapsed in a scandal that had nothing to do with how well your technology actually worked. That's what happened to Solana in November 2022, when FTX fell apart and dragged Solana's price down with it — even though the underlying network kept working exactly as designed the whole time. Niko's story matters because it shows the difference between a technology's actual usefulness and its price — sometimes they move together, and sometimes the market punishes something for being associated with the wrong people, even when the thing itself hasn't changed at all."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:42"
+}

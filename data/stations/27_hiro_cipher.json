@@ -1,0 +1,461 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 27,
+  "character_key": "hiro_cipher",
+  "character_name": "Hiro Cipher",
+  "asset": "Bitcoin",
+  "ticker": "BTC",
+  "era": "2009",
+  "era_label": "Cypherpunk / Genesis Era",
+  "era_year": 2009,
+  "tagline": "No one has ever seen his face. That was the whole point — and it worked better than he ever promised."
+ },
+ "museum_objects": [
+  {
+   "id": "hiro_cipher_obj_1",
+   "title": "Bitcoin Whitepaper (Original PDF)",
+   "date": "October 31, 2008",
+   "type": "document",
+   "material": "digital PDF",
+   "description": "The nine-page document titled 'Bitcoin: A Peer-to-Peer Electronic Cash System,' published by the pseudonymous Satoshi Nakamoto, released without copyright restriction.",
+   "significance": "This is Hiro's birth certificate, except no one signed their real name to it — a stranger handed the world a blueprint and then disappeared, and that vanishing act became the entire foundation of who he is.",
+   "museum": "bitcoin.org (self-published)",
+   "museum_location": "Digital / origin unknown",
+   "accession_number": "Bitcoin whitepaper, Oct 2008",
+   "collection_url": "https://bitcoin.org/bitcoin.pdf",
+   "image_url": "https://bitcoin.org/bitcoin.pdf",
+   "license": "Released without copyright restriction by Satoshi Nakamoto; public domain/freely distributable",
+   "open_access": true,
+   "plain_language": "The original nine-page document that first described Bitcoin, written by an anonymous person and given away for free with no copyright.",
+   "url": "https://bitcoin.org/bitcoin.pdf",
+   "accession": "Bitcoin whitepaper, Oct 2008",
+   "institution": "bitcoin.org (self-published)",
+   "licence": "Released without copyright restriction by Satoshi Nakamoto; public domain/freely distributable",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://bitcoin.org/bitcoin.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "4 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image does not show the original PDF of the Bitcoin Whitepaper, but rather a printed booklet with the same title.",
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Bitcoin Cash wallet and whitepaper 3.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bitcoin_Cash_wallet_and_whitepaper_3.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Bitcoin_Cash_wallet_and_whitepaper_3.jpg",
+     "licence": "CC0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "BitcoinXio"
+    }
+   ]
+  },
+  {
+   "id": "hiro_cipher_obj_2",
+   "title": "Genesis Block (Block 0)",
+   "date": "January 3, 2009",
+   "type": "blockchain_record",
+   "material": "digital ledger entry",
+   "description": "The first-ever block mined on the Bitcoin network, containing a reward address that has never once been spent.",
+   "significance": "Hiro's address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa has sat untouched since the day he was born — the one thing in his whole existence that has never moved.",
+   "museum": "Bitcoin blockchain (public ledger)",
+   "museum_location": "Digital / distributed",
+   "accession_number": "Genesis block, address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+   "collection_url": "https://phemex.com/academy/bitcoin-genesis-block",
+   "image_url": "https://phemex.com/academy/bitcoin-genesis-block",
+   "license": "Public blockchain data; explainer article copyrighted",
+   "open_access": false,
+   "plain_language": "The very first block of the Bitcoin network, created in January 2009, whose reward money has never been spent to this day.",
+   "url": "https://phemex.com/academy/bitcoin-genesis-block",
+   "accession": "Genesis block, address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+   "institution": "Bitcoin blockchain (public ledger)",
+   "licence": "Public blockchain data; explainer article copyrighted",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://phemex.com/academy/bitcoin-genesis-block",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Genesis-block-newspaper-bitcoin.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Genesis-block-newspaper-bitcoin.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Genesis-block-newspaper-bitcoin.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Kowtko21"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image shows source code, not the Genesis Block itself, which is a data structure or block of data on the Bitcoin network.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "4 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "hiro_cipher_obj_3",
+   "title": "The Times of London, Jan 3, 2009 (Embedded Headline)",
+   "date": "January 3, 2009",
+   "type": "newspaper/embedded_text",
+   "material": "newsprint (referenced)/digital text",
+   "description": "The headline 'The Times 03/Jan/2009 Chancellor on brink of second bailout for banks' was embedded directly into the Genesis Block's code as a timestamp and statement.",
+   "significance": "Hiro was born quoting the very financial system he was built to replace — his first words, encoded forever, were literally a headline about banks failing.",
+   "museum": "Bitcoin blockchain / The Times archive (referenced)",
+   "museum_location": "London, UK (referenced) / Digital (embedded)",
+   "accession_number": "Genesis block coinbase parameter",
+   "collection_url": "https://bitcointalk.org/index.php?topic=5580931.0",
+   "image_url": "https://bitcointalk.org/index.php?topic=5580931.0",
+   "license": "Forum discussion, community sourced; original newspaper copyrighted to The Times",
+   "open_access": false,
+   "plain_language": "A real newspaper headline about a bank bailout that Bitcoin's creator hid inside the very first block of the network, as permanent proof of the exact date it was born.",
+   "url": "https://bitcointalk.org/index.php?topic=5580931.0",
+   "accession": "Genesis block coinbase parameter",
+   "institution": "Bitcoin blockchain / The Times archive (referenced)",
+   "licence": "Forum discussion, community sourced; original newspaper copyrighted to The Times",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://bitcointalk.org/index.php?topic=5580931.0",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "State 2009-03- Iss 532 (IA sim state-magazine 2009-03 532).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/State_2009-03-_Iss_532_%28IA_sim_state-magazine_2009-03_532%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:State_2009-03-_Iss_532_(IA_sim_state-magazine_2009-03_532).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": ""
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "State 2009-11- Iss 539 (IA sim state-magazine 2009-11 539).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/State_2009-11-_Iss_539_%28IA_sim_state-magazine_2009-11_539%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:State_2009-11-_Iss_539_(IA_sim_state-magazine_2009-11_539).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": ""
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "hiro_cipher_obj_4",
+   "title": "A Cypherpunk's Manifesto (Eric Hughes, 1993)",
+   "date": "1993",
+   "type": "document",
+   "material": "digital text",
+   "description": "The foundational ideological text of the cypherpunk movement, arguing that privacy in an electronic age requires cryptography, not laws.",
+   "significance": "Fifteen years before Hiro existed, someone wrote down exactly why he'd need to exist — this manifesto is his ideology's grandfather.",
+   "museum": "Activism.net (self-published archive)",
+   "museum_location": "Digital",
+   "accession_number": "Cypherpunk Manifesto, 1993",
+   "collection_url": "https://www.activism.net/cypherpunk/manifesto.html",
+   "image_url": "https://www.activism.net/cypherpunk/manifesto.html",
+   "license": "Historical text, widely reproduced without restriction",
+   "open_access": true,
+   "plain_language": "A 1993 essay that first argued people need private, uncrackable codes to protect their freedom — the philosophy Bitcoin was later built on.",
+   "url": "https://www.activism.net/cypherpunk/manifesto.html",
+   "accession": "Cypherpunk Manifesto, 1993",
+   "institution": "Activism.net (self-published archive)",
+   "licence": "Historical text, widely reproduced without restriction",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.activism.net/cypherpunk/manifesto.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "display_image": null
+  },
+  {
+   "id": "hiro_cipher_obj_5",
+   "title": "Casascius Physical Bitcoin Coin",
+   "date": "2011-2013",
+   "type": "coin",
+   "material": "metal (brass/silver) with embedded holographic private key",
+   "description": "Physical brass or silver tokens created by Mike Caldwell, each embedded with a real private key holding actual bitcoin, held today in the British Museum's numismatic collection.",
+   "significance": "For a currency that was supposed to exist only as code, someone eventually needed to hold him in their hand — the British Museum agreed, and put him in a case next to coins two thousand years older.",
+   "museum": "British Museum",
+   "museum_location": "London, UK",
+   "accession_number": "Object ID 3451279, Collection ID CJE305673",
+   "collection_url": "https://www.britishmuseum.org/collection",
+   "image_url": "https://britishmuseum.org/collectionimages/AN01156/AN01156701_001_l.jpg",
+   "license": "British Museum collection licensing (permission required for commercial/documentary use)",
+   "open_access": false,
+   "plain_language": "A real physical coin, made in the early 2010s, that actually held real bitcoin inside it — now kept in the British Museum next to ancient coins thousands of years old.",
+   "url": "https://www.britishmuseum.org/collection",
+   "accession": "Object ID 3451279, Collection ID CJE305673",
+   "institution": "British Museum",
+   "licence": "British Museum collection licensing (permission required for commercial/documentary use)",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Physical Bitcoin 2011 Casascius 1 Bitcoin Coin Token Typo Hologram Back.png",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Physical_Bitcoin_2011_Casascius_1_Bitcoin_Coin_Token_Typo_Hologram_Back.png",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Physical_Bitcoin_2011_Casascius_1_Bitcoin_Coin_Token_Typo_Hologram_Back.png",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Tiberiandusk"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "6 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "hiro_cipher_src_1",
+   "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+   "type": "founding_whitepaper",
+   "date": "October 31, 2008",
+   "author": "Satoshi Nakamoto (pseudonym)",
+   "description": "The original whitepaper describing Bitcoin's design and purpose.",
+   "held_at": "bitcoin.org",
+   "url": "https://bitcoin.org/bitcoin.pdf",
+   "license": "Public domain/freely distributable",
+   "plain_language": "The original document, written by an anonymous person, that first explained how Bitcoin would work.",
+   "licence": "Public domain/freely distributable",
+   "licence_class": "open",
+   "institution": "bitcoin.org",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://bitcoin.org/bitcoin.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "hiro_cipher_src_2",
+   "title": "Wikipedia: History of Bitcoin",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Comprehensive timeline covering Bitcoin's founding, price milestones, and major events.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_bitcoin",
+   "license": "CC BY-SA 4.0",
+   "plain_language": "A detailed timeline of Bitcoin's entire history, from its creation to major price milestones.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/History_of_bitcoin",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "hiro_cipher_src_3",
+   "title": "Satoshi Nakamoto Cryptography Mailing List Archive",
+   "type": "correspondence_archive",
+   "date": "2008-2011",
+   "author": "Satoshi Nakamoto (pseudonym)",
+   "description": "The archived original emails Satoshi sent to the cryptography mailing list announcing and discussing Bitcoin.",
+   "held_at": "Satoshi Nakamoto Institute / metzdowd.com",
+   "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/",
+   "license": "Nonprofit archive, generally freely quotable with attribution",
+   "plain_language": "The actual saved emails that Bitcoin's anonymous creator sent to other computer scientists when first announcing the idea.",
+   "licence": "Nonprofit archive, generally freely quotable with attribution",
+   "licence_class": "unknown",
+   "institution": "Satoshi Nakamoto Institute / metzdowd.com",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "hiro_cipher_src_4",
+   "title": "Ethereum Foundation Blog — 'Hard Fork Completed'",
+   "type": "blog_post",
+   "date": "July 20, 2016",
+   "author": "Ethereum Foundation",
+   "description": "Referenced for cross-character context on blockchain governance events relevant to crypto-era characters.",
+   "held_at": "Ethereum Foundation",
+   "url": "https://blog.ethereum.org/2016/07/20/hard-fork-completed",
+   "license": "Ethereum Foundation content",
+   "plain_language": "An official blog post about a major decision point in blockchain history, useful for comparing how different cryptocurrencies handle crises.",
+   "licence": "Ethereum Foundation content",
+   "licence_class": "unknown",
+   "institution": "Ethereum Foundation",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://blog.ethereum.org/2016/07/20/hard-fork-completed",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "hiro_cipher_src_5",
+   "title": "Wikipedia: Bitcoin Genesis Block / Casascius Coins",
+   "type": "encyclopedia_reference",
+   "date": "Ongoing",
+   "author": "Wikipedia / Wikimedia Commons contributors",
+   "description": "Reference material on the Genesis Block and physical Bitcoin tokens like Casascius coins.",
+   "held_at": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Casascius_coin.jpg",
+   "license": "CC BY 2.0 (Flickr-sourced, verify file page)",
+   "plain_language": "Photos and information about physical coins that were made to hold real bitcoin inside them.",
+   "licence": "CC BY 2.0",
+   "licence_class": "open",
+   "institution": "Wikimedia Commons",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/File:Casascius_coin.jpg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY 2.0",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikimedia Commons API",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/Casascius_coin.jpg",
+    "attribution": "<a rel=\"nofollow\" class=\"external text\" href=\"https://secure.flickr.com/photos/jurvetson/\">Steve Jurvetson</a>"
+   },
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Casascius_coin.jpg"
+  }
+ ],
+ "world_map": {
+  "center_lat": 51.5074,
+  "center_lng": -0.1278,
+  "center_label": "London, UK (embedded newspaper reference) / Decentralized origin",
+  "era_start": 2008,
+  "era_end": 2026,
+  "map_description": "Hiro has no hometown — he was born from an anonymous whitepaper, referenced a London newspaper in his first block, and spread through a leaderless global network with no headquarters.",
+  "nodes": [
+   {
+    "label": "Decentralized / Unknown Origin",
+    "lat": 0.0,
+    "lng": 0.0,
+    "type": "origin",
+    "description": "Satoshi Nakamoto's real identity and location have never been confirmed — Hiro's true birthplace is unknown by design."
+   },
+   {
+    "label": "London, UK (The Times headline)",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "type": "landmark",
+    "description": "The Times of London newspaper headline from January 3, 2009 was embedded permanently into the Genesis Block."
+   },
+   {
+    "label": "British Museum, London",
+    "lat": 51.5194,
+    "lng": -0.127,
+    "type": "landmark",
+    "description": "Home to a real Casascius physical bitcoin coin in its numismatic collection."
+   },
+   {
+    "label": "Sichuan, China (mining farms)",
+    "lat": 30.6171,
+    "lng": 102.7103,
+    "type": "trade_route",
+    "description": "Site of major bitcoin mining operations before China's 2021 crackdown forced miners to flee overseas."
+   },
+   {
+    "label": "Global Peer-to-Peer Network",
+    "lat": 20.0,
+    "lng": 0.0,
+    "type": "destination",
+    "description": "Bitcoin runs on a leaderless, distributed network of computers worldwide with no single physical headquarters."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Wikipedia — History of Bitcoin",
+   "url": "https://en.wikipedia.org/wiki/History_of_bitcoin",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ "_verified": "2026-07-11 10:42"
+}

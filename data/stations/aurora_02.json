@@ -1,0 +1,479 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — no facts authored by an assistant",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 2,
+  "character_name": "AURORA LUX",
+  "character_key": "aurora",
+  "asset": "Gold (XAU)",
+  "era": "550 BCE",
+  "id": "aurora_02"
+ },
+ "museum_objects": [
+  {
+   "raw": "Gold Croeseid stater | British Museum | 1877,0201.1 | Late 6th century BC | https://www.britishmuseum.org/collection/object/C_1877-0201-1 | CC BY-NC-SA 4.0 (non-commercial); commercial via British Museum Images | Foreparts of lion and bull, the defining Croesus-era gold coin",
+   "title": "Gold Croeseid stater",
+   "institution": "British Museum",
+   "accession": "1877,0201.1",
+   "date": "Late 6th century BC",
+   "url": "https://www.britishmuseum.org/collection/object/C_1877-0201-1",
+   "licence_raw": "",
+   "note": "Foreparts of lion and bull, the defining Croesus-era gold coin",
+   "kind": "museum_object",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Gold stater",
+     "accession": "52.127.4",
+     "date": "286–281 BCE",
+     "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP102283.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/254719",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Gold stater",
+     "accession": "26.59.3",
+     "date": "ca. 560–546 BCE",
+     "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP-17546-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/252455",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Gold stater. Lydia. ca. 560–546 B.C. The Metropolitan Museum of Art.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Gold_stater._Lydia._ca._560%E2%80%93546_B.C._The_Metropolitan_Museum_of_Art.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Gold_stater._Lydia._ca._560%E2%80%93546_B.C._The_Metropolitan_Museum_of_Art.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Ismoon (talk) 10:44, 11 February 2022 (UTC)"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "raw": "Gold Croeseid Twelfth-Stater | Manisa Museum (Sardis Expedition) | inv. 19267 | 2nd quarter 6th century BC | https://sardisexpedition.org/en/artifacts/latw-27 | Contact required (Harvard/Cornell Sardis Expedition) | Small denomination gold coin from the Sardis excavations",
+   "title": "Gold Croeseid Twelfth-Stater",
+   "institution": "Manisa Museum (Sardis Expedition)",
+   "accession": "inv. 19267",
+   "date": "2nd quarter 6th century BC",
+   "url": "https://sardisexpedition.org/en/artifacts/latw-27",
+   "licence_raw": "Contact required (Harvard/Cornell Sardis Expedition)",
+   "note": "Small denomination gold coin from the Sardis excavations",
+   "kind": "museum_object",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://sardisexpedition.org/en/artifacts/latw-27",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "14 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "raw": "Mask of Agamemnon | National Archaeological Museum Athens | Object 624 | 16th century BCE | https://en.wikipedia.org/wiki/Mask_of_Agamemnon | Institutional, contact required | Gold sheet repoussé funerary mask from Mycenae Grave Circle A",
+   "title": "Mask of Agamemnon",
+   "institution": "National Archaeological Museum Athens",
+   "accession": "Object 624",
+   "date": "16th century BCE",
+   "url": "https://en.wikipedia.org/wiki/Mask_of_Agamemnon",
+   "licence_raw": "Institutional, contact required",
+   "note": "Gold sheet repoussé funerary mask from Mycenae Grave Circle A",
+   "kind": "museum_object",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Mask_of_Agamemnon",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)",
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Funeral mask of Agamemnon-colorcorr.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Funeral_mask_of_Agamemnon-colorcorr.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Funeral_mask_of_Agamemnon-colorcorr.jpg",
+     "licence": "CC BY-SA 3.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "DieBuche"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "raw": "Earring from the \"Great Death Pit\" | Metropolitan Museum of Art | Object 33.35.45 | Royal Cemetery of Ur, 2600–2300 BC | https://www.metmuseum.org/art/collection/search/322907 | Open Access, public domain/unrestricted | Sumerian gold jewelry from Ur's royal tombs",
+   "title": "Earring from the \"Great Death Pit\"",
+   "institution": "Metropolitan Museum of Art",
+   "accession": "Object 33.35.45",
+   "date": "Royal Cemetery of Ur, 2600–2300 BC",
+   "url": "https://www.metmuseum.org/art/collection/search/322907",
+   "licence_raw": "Open Access, public domain/unrestricted",
+   "note": "Sumerian gold jewelry from Ur's royal tombs",
+   "kind": "museum_object",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 429,
+    "error": "HTTP 429",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC0 (Met Open Access)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Met Collection API",
+    "accession": "33.35.45",
+    "title": "Earring",
+    "image": "https://images.metmuseum.org/CRDImages/an/original/DP-23695-001.jpg"
+   },
+   "licence": "CC0 (Met Open Access)",
+   "image_url": "https://images.metmuseum.org/CRDImages/an/original/DP-23695-001.jpg",
+   "display_image": {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Earring",
+    "match_text": "Earring Sumerian Earring ca. 2600–2500 BCE Mesopotamia",
+    "accession": "33.35.46",
+    "date": "ca. 2600–2500 BCE",
+    "image_url": "https://images.metmuseum.org/CRDImages/an/original/DP-24106-001.jpg",
+    "page_url": "https://www.metmuseum.org/art/collection/search/322908",
+    "licence": "CC0 (Met Open Access)",
+    "licence_class": "open",
+    "via": "Met API"
+   },
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Earring",
+     "match_text": "Earring Sumerian Earring ca. 2600–2500 BCE Mesopotamia",
+     "accession": "33.35.45",
+     "date": "ca. 2600–2500 BCE",
+     "image_url": "https://images.metmuseum.org/CRDImages/an/original/DP-23695-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/322907",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Gold Double-crescent earring, Body 36, Great Death Pit, Ur, Early Dynastic III period.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Gold_Double-crescent_earring%2C_Body_36%2C_Great_Death_Pit%2C_Ur%2C_Early_Dynastic_III_period.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Gold_Double-crescent_earring,_Body_36,_Great_Death_Pit,_Ur,_Early_Dynastic_III_period.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "SpeakingArch"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "PASS",
+    "confidence": 8,
+    "what_i_see": "A gold earring with a crescent-shaped design",
+    "why": "The image depicts a gold earring that matches the description of an earring from the 'Great Death Pit'",
+    "model": "meta-llama/Llama-3.2-90B-Vision-Instruct"
+   },
+   "showable": true
+  },
+  {
+   "raw": "Gold bull's-head lyre | British Museum (electrotype); original at Penn Museum | W_C-285 | Royal Cemetery of Ur, c. 2600 BC | https://www.britishmuseum.org/collection/object/W_C-285 | CC BY-NC-SA 4.0 | Iconic Mesopotamian gold-and-lapis ceremonial lyre",
+   "title": "Gold bull's-head lyre",
+   "institution": "British Museum (electrotype); original at Penn Museum",
+   "accession": "W_C-285",
+   "date": "Royal Cemetery of Ur, c. 2600 BC",
+   "url": "https://www.britishmuseum.org/collection/object/W_C-285",
+   "licence_raw": "",
+   "note": "Iconic Mesopotamian gold-and-lapis ceremonial lyre",
+   "kind": "museum_object",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Gold earring with head of a bull",
+     "match_text": "Gold earring with head of a bull Greek Earring with head of bull 4th–3rd century BCE Gold and Silver",
+     "accession": "74.51.3449",
+     "date": "4th–3rd century BCE",
+     "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP135944.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/242884",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Gold earring with head of a bull",
+     "match_text": "Gold earring with head of a bull Cypriot Earring with head of bull 4th–3rd century BCE Gold and Silver",
+     "accession": "74.51.3450",
+     "date": "4th–3rd century BCE",
+     "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP135944.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/242885",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Bull-headed lyre recovered from the royal cemetery of Ur Iraq 2550-2450 BCE Gold Lapis Lazuli.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Bull-headed_lyre_recovered_from_the_royal_cemetery_of_Ur_Iraq_2550-2450_BCE_Gold_Lapis_Lazuli.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Bull-headed_lyre_recovered_from_the_royal_cemetery_of_Ur_Iraq_2550-2450_BCE_Gold_Lapis_Lazuli.jpg",
+     "licence": "CC BY 2.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Mary Harrsch"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image shows a gold object shaped like a bull's head, but it is not a lyre.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "14 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "raw": "\"The Coins of Sardis\" essay (J. Kroll) | Academic essay | Sardis Expedition Archive | https://sardisexpedition.org/en/essays/latw-kroll-coins-of-sardis | Contact required for reuse | Narrates Croesus's currency reform and key excavation finds",
+   "title": "\"The Coins of Sardis\" essay (J. Kroll)",
+   "institution": "Academic essay",
+   "accession": "Sardis Expedition Archive",
+   "date": "https://sardisexpedition.org/en/essays/latw-kroll-coins-of-sardis",
+   "url": "https://sardisexpedition.org/en/essays/latw-kroll-coins-of-sardis",
+   "licence_raw": "Contact required for reuse",
+   "note": "Narrates Croesus's currency reform and key excavation finds",
+   "kind": "primary_source",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://sardisexpedition.org/en/essays/latw-kroll-coins-of-sardis",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "raw": "\"Gold and Silver Refining at Sardis\" (Greenewalt) | Academic essay | Sardis Expedition Archive | https://sardisexpedition.org/en/essays/latw-greenewalt-gold-silver-refining | Contact required | Details the cementation/cupellation refining process and 200 cupels found at Pactolus North",
+   "title": "\"Gold and Silver Refining at Sardis\" (Greenewalt)",
+   "institution": "Academic essay",
+   "accession": "Sardis Expedition Archive",
+   "date": "https://sardisexpedition.org/en/essays/latw-greenewalt-gold-silver-refining",
+   "url": "https://sardisexpedition.org/en/essays/latw-greenewalt-gold-silver-refining",
+   "licence_raw": "Contact required",
+   "note": "Details the cementation/cupellation refining process and 200 cupels found at Pactolus North",
+   "kind": "primary_source",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://sardisexpedition.org/en/essays/latw-greenewalt-gold-silver-refining",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "raw": "Ramage & Craddock, King Croesus' Gold: Excavations at Sardis and the History of Gold Refining | Academic book | 2000 | Reviewed at BMCR | https://bmcr.brynmawr.edu/2001/2001.08.10/ | Academic review, free to read | Definitive technical study of ancient gold refining",
+   "title": "Ramage & Craddock, King Croesus' Gold: Excavations at Sardis and the History of Gold Refining",
+   "institution": "Academic book",
+   "accession": "2000",
+   "date": "Reviewed at BMCR",
+   "url": "https://bmcr.brynmawr.edu/2001/2001.08.10/",
+   "licence_raw": "Academic review, free to read",
+   "note": "Definitive technical study of ancient gold refining",
+   "kind": "primary_source",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://bmcr.brynmawr.edu/2001/2001.08.10/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "raw": "Wikipedia, Karun Treasure | Historical/legal case summary | — | https://en.wikipedia.org/wiki/Karun_Treasure | Free, CC BY-SA | Details the looting, Met acquisition, and 1993 repatriation of the Lydian Hoard",
+   "title": "Wikipedia, Karun Treasure",
+   "institution": "Historical/legal case summary",
+   "accession": "—",
+   "date": "https://en.wikipedia.org/wiki/Karun_Treasure",
+   "url": "https://en.wikipedia.org/wiki/Karun_Treasure",
+   "licence_raw": "",
+   "note": "Details the looting, Met acquisition, and 1993 repatriation of the Lydian Hoard",
+   "kind": "primary_source",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Karun_Treasure",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "raw": "Map of Lydia in ancient times | Historical map (SVG) | Wikimedia Commons | https://en.wikipedia.org/wiki/File:Map_of_Lydia_ancient_times-en.svg | CC-licensed, free | Shows Lydia's borders under Croesus, mid-6th century BC",
+   "title": "Map of Lydia in ancient times",
+   "institution": "Historical map (SVG)",
+   "accession": "Wikimedia Commons",
+   "date": "https://en.wikipedia.org/wiki/File:Map_of_Lydia_ancient_times-en.svg",
+   "url": "https://en.wikipedia.org/wiki/File:Map_of_Lydia_ancient_times-en.svg",
+   "licence_raw": "",
+   "note": "Shows Lydia's borders under Croesus, mid-6th century BC",
+   "kind": "primary_source",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/File:Map_of_Lydia_ancient_times-en.svg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  }
+ ],
+ "world_map": {
+  "nodes": [
+   {
+    "label": "",
+    "lat": 38.4863,
+    "lng": 28.0375
+   },
+   {
+    "label": "Sardis",
+    "lat": 38.4863,
+    "lng": 28.0375
+   },
+   {
+    "label": "Ephesus",
+    "lat": 37.9495,
+    "lng": 27.3639
+   },
+   {
+    "label": "Mesopotamia",
+    "lat": 30.9625,
+    "lng": 46.1088
+   },
+   {
+    "label": "Greece",
+    "lat": 37.7311,
+    "lng": 22.7559
+   },
+   {
+    "label": "Spain",
+    "lat": 42.4694,
+    "lng": -6.7297
+   }
+  ],
+  "raw": "Center point: 38.4863° N, 28.0375° E (Sardis)\nReach radius/trade zone description: gold's reach spans the entire ancient world — from Nubian and Egyptian gold sources to Mesopotamian Ur, to Mycenaean Greece, to Lydia, and onward to Roman Spain\nKey nodes: Sardis (38.4863° N, 28.0375° E); Temple of Artemis, Ephesus (37.9495° N, 27.3639° E); Ur, Mesopotamia (30.9625° N, 46.1088° E); Mycenae, Greece (37.7311° N, 22.7559° E); Las Médulas, Spain (42.4694° N, 6.7297° W)\nSuggested map era: 4600 BCE – 546 BCE\nHistorical map source: Wikimedia Commons, Map of Lydia in ancient times; Central Lydia Archaeological Survey maps"
+ },
+ "quiz": [
+  {
+   "q": "Who introduced the first pure gold/silver bimetallic coinage?",
+   "a": "Croesus of Lydia"
+  },
+  {
+   "q": "What river near Sardis was the natural source of Lydian electrum?",
+   "a": "The Pactolus River"
+  },
+  {
+   "q": "Where was the oldest known coin hoard discovered?",
+   "a": "The Temple of Artemis at Ephesus"
+  },
+  {
+   "q": "What two-step process did Lydian refiners use to separate gold and silver?",
+   "a": "Cementation and cupellation"
+  },
+  {
+   "q": "What is the Karun Treasure, and what happened to it?",
+   "a": "A hoard of looted Lydian gold artifacts acquired by the Met Museum, later returned to Turkey in 1993"
+  }
+ ],
+ "decision_simulation": "Scenario: It's 546 BC. Croesus must decide whether to trust his refined gold/silver coinage system to fund his war against Persia's Cyrus the Great, or rely on traditional wealth-in-goods.\nOptions: (1) Fund the war using minted coinage; (2) Rely on stored bullion and goods without standardized coins; (3) Delay the campaign to build more monetary reserves\nHistorical outcome: Croesus went to war using his wealth and was ultimately defeated and captured by Cyrus — but the bimetallic coinage system he created outlived his kingdom and became the model for coined money across the ancient world\nEXPLORE IT (CURRENTLY OPEN — highest priority)",
+ "understand": {
+  "economic_impact": "One-line summary: Aurora represents gold's 2,600-year-plus role as the one thing almost every culture on Earth has independently agreed is valuable, even without a government backing it.\nThree key economic shifts: (1) Refining electrum into pure, standardized gold and silver let Croesus create the first bimetallic coinage system that could be trusted across borders; (2) gold's role as a store of value meant it could hold wealth across generations, wars, and currency collapses; (3) gold became the ultimate benchmark against which paper currencies were later measured (the gold standard)\nModern parallel: gold today functions as the world's classic \"safe haven\" asset — the thing investors buy when they don't trust anything else, from stocks to currencies",
+  "political_impact": "One-line summary: Because gold doesn't answer to any single government, it has repeatedly outlasted the empires, kings, and currencies that tried to control it.\nThree key political shifts: (1) Gold reserves became a symbol and tool of state power, from Lydian treasuries to modern central bank vaults; (2) the 20th century's gold standard tied national currencies' credibility directly to gold reserves until it was abandoned; (3) repatriation fights over looted gold artifacts, like the Karun Treasure, became modern political and legal battles between nations\nModern parallel: central banks today still hold large gold reserves (like the Bank of England's vaults) as a hedge against political and financial instability, just as ancient kingdoms once did",
+  "why_it_still_matters": "Plain-language answer: Gold has been valuable for so long, in so many different places, that people trust it almost automatically — even today, when scary things happen in the world, people still rush to buy gold because it has never once become worthless.\nConnection to today's world: When you hear that gold prices are rising during a war or a financial crisis, that's the same instinct people had thousands of years ago at the Pactolus River — the belief that gold is one of the few things that will always be worth something."
+ },
+ "_verified": "2026-07-11 10:43"
+}

@@ -1,0 +1,248 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 11,
+  "character_name": "MARISOL FERRO",
+  "character_key": "marisol",
+  "header": "MARISOL FERRO"
+ },
+ "museum_objects": [
+  {
+   "title": "1857-series Banco Español de La Habana banknote",
+   "institution": "Wikipedia Picture of the Day archive (source: digitized banknote collections)",
+   "accession": "N/A",
+   "date": "1857",
+   "url": "https://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day/September_2021",
+   "licence_raw": "Verify individual Wikimedia file license",
+   "description": "Cuba's first-ever issued banknote series.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day/September_2021",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "Banco Español de la Isla de Cuba stock certificate",
+   "institution": "Referenced via private numismatic dealer (glabarre.com)",
+   "accession": "N/A",
+   "date": "19th c.",
+   "url": "http://glabarre.com",
+   "licence_raw": "Commercial listing — verify rights before use",
+   "description": "Corporate stock certificate from Cuba's first issuing bank.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.glabarre.com/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "1869 Republic of Cuba currency (Céspedes government)",
+   "institution": "Museo Numismático, Havana",
+   "accession": "N/A (part of collection)",
+   "date": "1869",
+   "url": "https://numismatic-directory.com/en/oum-location/numismatic-museum-havana-cuba/",
+   "licence_raw": "Unstated — contact museum",
+   "description": "Ten Years' War-era independence currency, signed by Carlos Manuel de Céspedes.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://numismatic-directory.com/en/oum-location/numismatic-museum-havana-cuba/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Cuban Missile Crisis U-2 reconnaissance photograph",
+   "institution": "US National Archives",
+   "accession": "Photograph PX1966-020-007 (JFK-5047 collection)",
+   "date": "Oct 14, 1962",
+   "url": "https://www.archives.gov/milestone-documents/aerial-photograph-of-missiles-in-cuba",
+   "licence_raw": "Public Domain (US government work)",
+   "description": "Aerial photograph documenting the era of Cuba's deepening isolation.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.archives.gov/milestone-documents/aerial-photograph-of-missiles-in-cuba",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Castillo de la Real Fuerza and La Giraldilla weathervane",
+   "institution": "Museo de la Ciudad, Havana (original weathervane); fort itself now Museo de Navegación",
+   "accession": "N/A",
+   "date": "Fort: 1558–1577; weathervane cast 1632",
+   "url": "https://en.wikipedia.org/wiki/Castillo_de_la_Real_Fuerza",
+   "licence_raw": "Unstated — contact museum",
+   "description": "Oldest stone fort in the Americas; iconic bronze weathervane crowning its tower.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Castillo_de_la_Real_Fuerza",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Banco de España academic PDF, \"La banca de emisión en Cuba (1856-1898)\" — primary academic banking history.",
+   "detail": "",
+   "url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/EstudiosHistoriaEconomica/Fic/roja44.pdf",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Banco de España academic PDF, \"La banca de emisión en Cuba (1856-1898)\" — primary academic banking history.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/EstudiosHistoriaEconomica/Fic/roja44.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "National Security Archive: Cuba Embargoed, US Trade Sanctions Turn Sixty — declassified documents on the embargo's origins.",
+   "detail": "",
+   "url": "https://archive.org/details/cuba-embargoed-u.s.-trade-sanctions-turn-sixty-national-security-archive",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "National Security Archive: Cuba Embargoed, US Trade Sanctions Turn Sixty — declassified documents on the embargo's origins.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://archive.org/details/cuba-embargoed-u.s.-trade-sanctions-turn-sixty-national-security-archive",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "public domain / archive-hosted",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Internet Archive metadata API",
+    "title": "Cuba Embargoed: U.S. Trade Sanctions Turn Sixty - National Security Archive"
+   },
+   "licence": "public domain / archive-hosted"
+  },
+  {
+   "title": "National Archives: Aerial Photograph of Missiles in Cuba, Oct 14, 1962 — primary Cold War-era documentation.",
+   "detail": "",
+   "url": "https://www.archives.gov/milestone-documents/aerial-photograph-of-missiles-in-cuba",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "National Archives: Aerial Photograph of Missiles in Cuba, Oct 14, 1962 — primary Cold War-era documentation.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.archives.gov/milestone-documents/aerial-photograph-of-missiles-in-cuba",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "banknote.ws Cuban banknote catalog, 1857–1868 issues — full issue-by-issue visual catalog.",
+   "detail": "",
+   "url": "http://www.banknote.ws/COLLECTION/countries/AME/CUB/CUB-ESP.htm",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "banknote.ws Cuban banknote catalog, 1857–1868 issues — full issue-by-issue visual catalog.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "http://www.banknote.ws/COLLECTION/countries/AME/CUB/CUB-ESP.htm",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Cambridge Core: Cuba's Monetary Reform and Triple-Digit Inflation — academic analysis of the 2021 currency reunification.",
+   "detail": "",
+   "url": "https://www.cambridge.org/core/journals/latin-american-research-review/article/cubas-monetary-reform-and-tripledigit-inflation/1086A26D58D4B72FF84F21A57A2F2794",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Cambridge Core: Cuba's Monetary Reform and Triple-Digit Inflation — academic analysis of the 2021 currency reunification.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.cambridge.org/core/journals/latin-american-research-review/article/cubas-monetary-reform-and-tripledigit-inflation/1086A26D58D4B72FF84F21A57A2F2794",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: 1993–1994, Cuba, amid a severe economic collapse following the loss of Soviet subsidies (the \"Special Period\"). The government must decide whether to legalize the US dollar and introduce a new convertible currency (the CUC) to attract foreign currency and stabilize the economy — a controversial move given decades of official rejection of the dollar as a symbol of the country the revolution had defined itself against. The outcome was genuinely uncertain: legalizing the dollar could either rescue the economy or be seen as an ideological capitulation that undermined the government's own founding principles.Player choice: Legalize the US dollar and introduce the CUC, or maintain currency policy and risk deeper economic collapse.Historical resolution: Cuba legalized the dollar in 1993 and introduced the CUC in 1994. The dual-currency system persisted for 27 years until its formal abolition on January 1, 2021.",
+ "understand": {
+  "economic_impact": "The 1962 US trade embargo cut Cuba off from most Western banking and trade relationships for over six decades, forcing the country into a heavily state-managed, often improvised economic model National Security Archive. The 1994–2021 dual-currency system created persistent distortions between the officially pegged rate and the real value of money in daily Cuban life, a gap the 2021 \"Day Zero\" reform attempted to close Cambridge Core.",
+  "political_impact": "Currency policy in Cuba has been inseparable from geopolitics for over a century — from Spanish colonial banking, to a US dollar peg after 1898, to a revolutionary currency introduced under Che Guevara, to a dollar re-legalization in 1993 that directly confronted the government's own founding ideology Wikipedia: Dual economy of Cuba.",
+  "why_it_still_matters": "Imagine not being allowed to use your money to buy things from most of the rest of the world — not because your money isn't good, but because of decisions made by other countries decades ago that are still in effect today. That's been reality for Cuba's currency for over sixty years, ever since the United States cut off trade in 1962. It forced Cuba to build workarounds for everything — currency, banking, even keeping 1950s American cars running for decades because new parts couldn't be imported. Marisol's story matters because it shows that money isn't just about numbers — it's about whether the rest of the world will let you participate in the same system everyone else takes for granted. When that door gets closed, people don't just give up. They get creative, and they wait."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:38"
+}

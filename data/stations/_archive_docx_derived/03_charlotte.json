@@ -1,0 +1,302 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 3,
+  "character_name": "CHARLOTTE WINDSOR",
+  "character_key": "charlotte",
+  "header": "CHARLOTTE WINDSOR | British Pound (GBP) | 775 AD"
+ },
+ "museum_objects": [
+  {
+   "title": "Coenwulf gold mancus",
+   "institution": "British Museum",
+   "accession": "2006,0204.1",
+   "date": "c. 805–810 AD",
+   "url": "https://www.britishmuseum.org/collection/object/C_2006-0204-1",
+   "licence_raw": "",
+   "description": "Gold coin from the same Mercian monetary system Offa established, acquired after an export bar",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.britishmuseum.org/collection/object/C_2006-0204-1",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "title": "Silver penny of Offa (East Anglian), moneyer Lul",
+   "institution": "Fitzwilliam Museum, Cambridge",
+   "accession": "media-208429",
+   "date": "c. 780–793",
+   "url": "https://data.fitzmuseum.cam.ac.uk/id/image/media-208429",
+   "licence_raw": "",
+   "description": "1.1g, 18.7mm silver penny bearing +OFF`REX",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://data.fitzmuseum.cam.ac.uk/id/image/media-208429",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Sutton Hoo helmet",
+   "institution": "British Museum",
+   "accession": "1939,1010.93",
+   "date": "Early 7th century AD",
+   "url": "https://www.britishmuseum.org/collection/object/H_1939-1010-93",
+   "licence_raw": "",
+   "description": "Iconic Anglo-Saxon ceremonial helmet, same material culture tradition as Offa's era",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "title": "Sutton Hoo shoulder clasps",
+   "institution": "British Museum",
+   "accession": "1939,1010.4 / 1939,1010.5",
+   "date": "Early 7th century AD",
+   "url": "https://www.britishmuseum.org/collection/object/H_1939-1010-4",
+   "licence_raw": "",
+   "description": "Gold, garnet cloisonné, glass — dress-fastening evidence for Anglo-Saxon royal costume",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "title": "Offa penny, moneyer Wilhun (heavy coinage)",
+   "institution": "Portable Antiquities Scheme",
+   "accession": "FindID 499387",
+   "date": "c. 792–796, minted London",
+   "url": "https://finds.org.uk/",
+   "licence_raw": "",
+   "description": "Metal-detector find documented with findspot and photograph",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Capitulary of Frankfort on the Legality of Coinage",
+   "detail": "Primary legal document | 794 AD | Fordham Medieval Sourcebook",
+   "url": "https://sourcebooks.web.fordham.edu/source/750caroling-money.asp",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Source 1: Capitulary of Frankfort on the Legality of Coinage | Primary legal document | 794 AD | Fordham Medieval Sourcebook | https://sourcebooks.web.fordham.edu/source/750caroling-money.asp | Free, academic sourcebook | The core Carolingian reform text that Offa's system mirrored",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://sourcebooks.web.fordham.edu/source/750caroling-money.asp",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Sylloge of Coins of the British Isles, Vol. 67",
+   "detail": "Academic catalogue | 2016 (Rory Naismith) | British Academy",
+   "url": "https://www.thebritishacademy.ac.uk/publishing/specialist-scholarly-publications/sylloge-coins-british-isles/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Source 2: Sylloge of Coins of the British Isles, Vol. 67 | Academic catalogue | 2016 (Rory Naismith) | British Academy | https://www.thebritishacademy.ac.uk/publishing/specialist-scholarly-publications/sylloge-coins-british-isles/ | Academic publication | Catalogues 1,436 coins from Offa to Alfred",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Corpus of Early Medieval Coin Finds (EMC)",
+   "detail": "Coin find database | Ongoing | Fitzwilliam Museum",
+   "url": "https://emc.fitzmuseum.cam.ac.uk/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Source 3: Corpus of Early Medieval Coin Finds (EMC) | Coin find database | Ongoing | Fitzwilliam Museum | https://emc.fitzmuseum.cam.ac.uk/ | Free, academic database | ~12,000 single coin finds, AD 410–1180",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://emc.fitzmuseum.cam.ac.uk/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "BBC News, rare King Offa coin acquisition",
+   "detail": "News article | 2023 | BBC",
+   "url": "https://www.bbc.com/news/uk-england-hereford-worcester-64817622",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Source 4: BBC News, rare King Offa coin acquisition | News article | 2023 | BBC | https://www.bbc.com/news/uk-england-hereford-worcester-64817622 | Free editorial content | Hereford Museum's 2023 acquisition of a rare Offa coin",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bbc.com/news/uk-england-hereford-worcester-64817622",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Wikipedia, History of the English penny (c. 600–1066)",
+   "detail": "Historical reference article | — | https://en.wikipedia.org/wiki/History_of_the_English_penny_(c.600%E2%80%93_1066)",
+   "url": "https://en.wikipedia.org/wiki/History_of_the_English_penny_(c.600%E2%80%93_1066)",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "Source 5: Wikipedia, History of the English penny (c. 600–1066) | Historical reference article | — | https://en.wikipedia.org/wiki/History_of_the_English_penny_(c.600%E2%80%93_1066) | Free, CC BY-SA | General timeline reference confirming Offa's penny form persisted until the 14th century",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  }
+ ],
+ "world_map": {
+  "nodes": [
+   {
+    "label": "Tamworth",
+    "lat": 52.6338,
+    "lng": -1.6953
+   },
+   {
+    "label": "Canterbury mint",
+    "lat": 51.2802,
+    "lng": 1.0789
+   },
+   {
+    "label": "Aachen",
+    "lat": 50.7753,
+    "lng": 6.0839
+   },
+   {
+    "label": "approx.",
+    "lat": 52.6338,
+    "lng": -1.6953
+   },
+   {
+    "label": "Canterbury mint",
+    "lat": 51.2802,
+    "lng": 1.0789
+   },
+   {
+    "label": "Offa's Dyke",
+    "lat": 52.5,
+    "lng": -3.1
+   },
+   {
+    "label": "West Stow",
+    "lat": 52.2733,
+    "lng": 0.6883
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Who introduced the 240-penny pound system in England?",
+   "a": "King Offa of Mercia"
+  },
+  {
+   "q": "What does the £ symbol come from?",
+   "a": "The Latin word \"Libra,\" meaning pound weight"
+  },
+  {
+   "q": "Who was the only Anglo-Saxon queen to have coins struck in her own name?",
+   "a": "Cynethryth, Offa's wife"
+  },
+  {
+   "q": "What monetary system did Offa deliberately mirror?",
+   "a": "Charlemagne's Frankish livre-sou-denier system"
+  },
+  {
+   "q": "Until what year did Britain's pound-shilling-pence system last?",
+   "a": "1971 (decimalization)"
+  }
+ ],
+ "decision_simulation": "Scenario: It's 793 AD. Offa must decide whether to align Mercia's currency system with the powerful Frankish kingdom's new reform under Charlemagne, risking dependency, or maintain a separate English standard. Options: (1) Adopt a compatible 240-penny system matching Charlemagne's reform; (2) Keep an independent, incompatible coinage; (3) Negotiate a formal currency treaty Historical outcome: Offa adopted a closely mirrored system, enabling smoother cross-Channel trade — and that basic structure survived for nearly 1,200 years, until 1971",
+ "understand": {
+  "economic_impact": "One-line summary: Charlotte represents the moment England got its first truly standardized money system — one so well-designed it lasted, almost unchanged, for nearly 1,200 years. Three key economic shifts: (1) Offa's 240-penny pound created a single trusted unit of value across Mercia and beyond; (2) matching the Frankish system made cross-Channel trade far easier, boosting commerce; (3) royal control over minting (with harsh penalties for counterfeiting) made English money more trustworthy than ad-hoc local coinages Modern parallel: modern national currencies with central bank oversight and legal tender laws — the same principle of one trusted, government-backed unit of value",
+  "political_impact": "One-line summary: Controlling the currency was one of the clearest ways a king could show — and prove — his power over the whole kingdom. Three key political shifts: (1) Minting coins with the king's name and image became a direct tool of royal authority and propaganda; (2) Cynethryth's coinage broke convention by naming a queen, a small but real shift in how power could be visually represented; (3) matching currency systems with Charlemagne's Francia signaled Mercia's status as a serious European power Modern parallel: national currencies today still carry political symbolism — whose face is on the money is still a statement about power and identity",
+  "why_it_still_matters": "Plain-language answer: The idea of \"100 pennies make a pound\" (or 100 cents make a dollar) traces back to decisions made over a thousand years ago by a king trying to make trade easier and taxes fairer. Money systems that feel permanent today were actually just really good ideas that stuck around for centuries. Connection to today's world: Every time you split a bill into smaller units — dollars and cents, pounds and pence — you're using the same basic logic Offa set up in the 8th century, just updated for modern math."
+ },
+ "slots_present": [
+  "(CURRENTLY OPEN — highest priority)",
+  "Animated episode",
+  "Audio drama",
+  "Character narration",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "HEAR IT",
+  "Historical article",
+  "LIVE IT",
+  "Motion comic",
+  "Museum objects",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "READ IT",
+  "UNDERSTAND IT",
+  "WATCH IT",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:37"
+}

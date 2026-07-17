@@ -1,0 +1,216 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 9,
+  "character_name": "CATALINA RESTREPO",
+  "character_key": "catalina",
+  "header": "CATALINA RESTREPO"
+ },
+ "museum_objects": [
+  {
+   "title": "[NEEDS RESEARCH]",
+   "institution": "[NEEDS RESEARCH]",
+   "accession": "[NEEDS RESEARCH]",
+   "date": "[NEEDS RESEARCH]",
+   "url": null,
+   "licence_raw": "[NEEDS RESEARCH]",
+   "description": "[NEEDS RESEARCH]",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "error": "NO URL IN MANIFEST"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "NO URL"
+   }
+  },
+  {
+   "title": "[NEEDS RESEARCH]",
+   "institution": "[NEEDS RESEARCH]",
+   "accession": "[NEEDS RESEARCH]",
+   "date": "[NEEDS RESEARCH]",
+   "url": null,
+   "licence_raw": "[NEEDS RESEARCH]",
+   "description": "[NEEDS RESEARCH]",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "error": "NO URL IN MANIFEST"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "NO URL"
+   }
+  },
+  {
+   "title": "[NEEDS RESEARCH]",
+   "institution": "[NEEDS RESEARCH]",
+   "accession": "[NEEDS RESEARCH]",
+   "date": "[NEEDS RESEARCH]",
+   "url": null,
+   "licence_raw": "[NEEDS RESEARCH]",
+   "description": "[NEEDS RESEARCH]",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "error": "NO URL IN MANIFEST"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "NO URL"
+   }
+  },
+  {
+   "title": "[NEEDS RESEARCH]",
+   "institution": "[NEEDS RESEARCH]",
+   "accession": "[NEEDS RESEARCH]",
+   "date": "[NEEDS RESEARCH]",
+   "url": null,
+   "licence_raw": "[NEEDS RESEARCH]",
+   "description": "[NEEDS RESEARCH]",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "error": "NO URL IN MANIFEST"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "NO URL"
+   }
+  },
+  {
+   "title": "[NEEDS RESEARCH]",
+   "institution": "[NEEDS RESEARCH]",
+   "accession": "[NEEDS RESEARCH]",
+   "date": "[NEEDS RESEARCH]",
+   "url": null,
+   "licence_raw": "[NEEDS RESEARCH]",
+   "description": "[NEEDS RESEARCH]",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "error": "NO URL IN MANIFEST"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "NO URL"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "[NEEDS RESEARCH]",
+   "detail": "",
+   "url": null,
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "[NEEDS RESEARCH]",
+   "verify": {
+    "ok": false,
+    "error": "NO URL IN MANIFEST"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "NO URL"
+   }
+  },
+  {
+   "title": "[NEEDS RESEARCH]",
+   "detail": "",
+   "url": null,
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "[NEEDS RESEARCH]",
+   "verify": {
+    "ok": false,
+    "error": "NO URL IN MANIFEST"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "NO URL"
+   }
+  },
+  {
+   "title": "[NEEDS RESEARCH]",
+   "detail": "",
+   "url": null,
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "[NEEDS RESEARCH]",
+   "verify": {
+    "ok": false,
+    "error": "NO URL IN MANIFEST"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "NO URL"
+   }
+  },
+  {
+   "title": "[NEEDS RESEARCH]",
+   "detail": "",
+   "url": null,
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "[NEEDS RESEARCH]",
+   "verify": {
+    "ok": false,
+    "error": "NO URL IN MANIFEST"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "NO URL"
+   }
+  },
+  {
+   "title": "[NEEDS RESEARCH]",
+   "detail": "",
+   "url": null,
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "[NEEDS RESEARCH]",
+   "verify": {
+    "ok": false,
+    "error": "NO URL IN MANIFEST"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "NO URL"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "[NEEDS RESEARCH] — Per Rule 4, the decision simulation must be a real historical moment with genuinely uncertain outcome. No such moment has been verified for Catalina in this research pass. Candidate area for future research: Colombia's late-20th-century security and economic reform decisions that preceded its \"comeback\" narrative — but specific decision points, dates, and stakeholders are unconfirmed.",
+ "understand": {
+  "economic_impact": "[NEEDS RESEARCH] — Requires verified data on Colombian peso history, inflation episodes, and the economic dimensions of Colombia's \"comeback\" narrative referenced in her voice profile.",
+  "political_impact": "[NEEDS RESEARCH] — Requires verified data on the political/security history (e.g., decades of conflict and subsequent stabilization) that underlies the \"comeback story\" framing in her voice profile.",
+  "why_it_still_matters": "[NEEDS RESEARCH] — A \"why it matters\" explanation for a 16-year-old cannot be responsibly written without verified underlying facts. Draft direction only (unverified): Catalina's story could illustrate how a country's money and its reputation are connected — and how both can be rebuilt through patient, consistent effort rather than a single dramatic fix. This direction must be confirmed against real sources before use. RECOMMENDED NEXT STEP: Commission a dedicated deep-research file (e.g., DEEP_CATALINA.md) covering: the 1837 real-to-peso transition and founding legislation; Banco de la República de Colombia numismatic holdings and museum details; 19th-century New Granada/Gran Colombia portraiture and dress reference; Colombian peso banknote design history; and any verifiable historical basis for the \"comeback story\" (security, tourism, tech-sector, and gastronomy narrative) referenced in her existing voice profile."
+ },
+ "slots_present": [
+  "Animated episode [NEEDS RESEARCH]",
+  "Audio drama [NEEDS RESEARCH]",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic [NEEDS RESEARCH]",
+  "Decision simulation [NEEDS RESEARCH]",
+  "Documentary [NEEDS RESEARCH]",
+  "Economic impact [NEEDS RESEARCH]",
+  "Explore the map [NEEDS RESEARCH]",
+  "Historical article [NEEDS RESEARCH]",
+  "Motion comic [NEEDS RESEARCH]",
+  "Museum objects (5 real objects) [NEEDS RESEARCH — ALL 5 SLOTS]",
+  "Podcast [NEEDS RESEARCH]",
+  "Political impact [NEEDS RESEARCH]",
+  "Primary sources [NEEDS RESEARCH — ALL 5 SLOTS]",
+  "Quiz [NEEDS RESEARCH]",
+  "The Saga (novel) [NEEDS RESEARCH]",
+  "Why it still matters [NEEDS RESEARCH]",
+  "World map [NEEDS RESEARCH]"
+ ],
+ "_verified": "2026-07-11 10:38"
+}

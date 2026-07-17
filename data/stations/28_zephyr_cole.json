@@ -1,0 +1,440 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 28,
+  "character_key": "zephyr_cole",
+  "character_name": "Zephyr Cole",
+  "asset": "Ethereum",
+  "ticker": "ETH",
+  "era": "2015",
+  "era_label": "Smart Contract / DeFi Era",
+  "era_year": 2015,
+  "tagline": "He didn't just want to be money. He wanted to be the place where every deal in the world gets made."
+ },
+ "museum_objects": [
+  {
+   "id": "zephyr_cole_obj_1",
+   "title": "Ethereum Whitepaper (Official)",
+   "date": "November 2013",
+   "type": "document",
+   "material": "digital text",
+   "description": "The founding whitepaper written by a then-19-year-old Vitalik Buterin, proposing a blockchain that could run programmable 'smart contracts,' not just move currency.",
+   "significance": "Zephyr was never content just being money — this document is the moment a teenager decided currency should be able to think, negotiate, and build entire economies on top of itself.",
+   "museum": "Ethereum Foundation",
+   "museum_location": "Digital",
+   "accession_number": "Ethereum whitepaper, Nov 2013",
+   "collection_url": "https://ethereum.org/en/whitepaper/",
+   "image_url": "https://ethereum.org/en/whitepaper/",
+   "license": "Ethereum Foundation-hosted, freely quotable with attribution",
+   "open_access": false,
+   "plain_language": "The original document, written by a 19-year-old, that proposed a new kind of currency that could also run computer programs called 'smart contracts.'",
+   "url": "https://ethereum.org/en/whitepaper/",
+   "accession": "Ethereum whitepaper, Nov 2013",
+   "institution": "Ethereum Foundation",
+   "licence": "Ethereum Foundation-hosted, freely quotable with attribution",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://ethereum.org/whitepaper/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "zephyr_cole_obj_2",
+   "title": "Devcon 0 Archive (Berlin, November 2014)",
+   "date": "November 2014",
+   "type": "event_archive/video",
+   "material": "digital video",
+   "description": "Footage and records from Ethereum's first-ever developer conference, held in Berlin, including Gavin Wood's welcome address before the network had even launched.",
+   "significance": "This is Zephyr's first public gathering — a room full of strangers betting on an idea that didn't technically exist yet.",
+   "museum": "Ethereum Foundation Archive",
+   "museum_location": "Berlin, Germany",
+   "accession_number": "Devcon 0, Nov 2014",
+   "collection_url": "https://blog.ethereum.org/2014/12/05/devcon-0-recap",
+   "image_url": "https://www.youtube.com/watch?v=_BvvUlKDqp0",
+   "license": "Ethereum Foundation content / Standard YouTube license",
+   "open_access": false,
+   "plain_language": "Video and records from Ethereum's very first conference in Berlin in 2014, held a year before the network officially launched.",
+   "url": "https://blog.ethereum.org/2014/12/05/devcon-0-recap",
+   "accession": "Devcon 0, Nov 2014",
+   "institution": "Ethereum Foundation Archive",
+   "licence": "Ethereum Foundation content / Standard YouTube license",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://blog.ethereum.org/2014/12/05/devcon-0-recap",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "2 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "zephyr_cole_obj_3",
+   "title": "'Hard Fork Completed' Blog Post — The DAO Crisis",
+   "date": "July 20, 2016",
+   "type": "document",
+   "material": "digital text",
+   "description": "Official Ethereum Foundation announcement confirming the controversial hard fork executed at block 1,920,000 to reverse The DAO hack, which had drained 3.64 million ETH.",
+   "significance": "This is Zephyr's identity crisis laid bare — when code got hacked for $50-60 million, the community broke in two over whether rules should ever bend, even to fix a theft.",
+   "museum": "Ethereum Foundation",
+   "museum_location": "Digital",
+   "accession_number": "Hard fork completed, block 1,920,000",
+   "collection_url": "https://blog.ethereum.org/2016/07/20/hard-fork-completed",
+   "image_url": "https://blog.ethereum.org/2016/07/20/hard-fork-completed",
+   "license": "Ethereum Foundation content",
+   "open_access": false,
+   "plain_language": "An official 2016 announcement explaining how Ethereum's community made the controversial choice to reverse a huge hack by changing the rules of the network itself.",
+   "url": "https://blog.ethereum.org/2016/07/20/hard-fork-completed",
+   "accession": "Hard fork completed, block 1,920,000",
+   "institution": "Ethereum Foundation",
+   "licence": "Ethereum Foundation content",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://blog.ethereum.org/2016/07/20/hard-fork-completed",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "The Annunciation",
+     "accession": "17.190.7",
+     "date": "ca. 1465–70",
+     "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP240360.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/437490",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "6 of Tethers, from The Cloisters Playing Cards",
+     "accession": "1983.515.21",
+     "date": "ca. 1475–80",
+     "image_url": "https://images.metmuseum.org/CRDImages/cl/original/DP354516.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/475546",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "zephyr_cole_obj_4",
+   "title": "The Merge Announcement",
+   "date": "September 15, 2022",
+   "type": "document",
+   "material": "digital text",
+   "description": "Official record of Ethereum's transition from energy-intensive proof-of-work to proof-of-stake, cutting energy consumption by 99.95%.",
+   "significance": "After years of being criticized for burning electricity like an old furnace, Zephyr rebuilt his own engine mid-flight and came out cleaner than anyone thought possible.",
+   "museum": "Ethereum Foundation",
+   "museum_location": "Digital / Zug, Switzerland (Ethereum Foundation HQ)",
+   "accession_number": "The Merge, Sept 15 2022",
+   "collection_url": "https://ethereum.org/roadmap/merge/",
+   "image_url": "https://blog.ethereum.org/2022/08/24/mainnet-merge-announcement",
+   "license": "Ethereum Foundation content",
+   "open_access": false,
+   "plain_language": "The official record of the moment in 2022 when Ethereum changed its entire technical engine to use 99.95% less electricity.",
+   "url": "https://ethereum.org/roadmap/merge/",
+   "accession": "The Merge, Sept 15 2022",
+   "institution": "Ethereum Foundation",
+   "licence": "Ethereum Foundation content",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://ethereum.org/roadmap/merge/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Hungary road sign merge lanes.svg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Hungary_road_sign_merge_lanes.svg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Hungary_road_sign_merge_lanes.svg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Byankuren"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "1 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "zephyr_cole_obj_5",
+   "title": "Vitalik Buterin, TechCrunch London 2015 (Photograph)",
+   "date": "2015",
+   "type": "photograph",
+   "material": "digital image",
+   "description": "A photograph of Ethereum co-founder Vitalik Buterin at a TechCrunch conference in London, taken shortly after Ethereum's mainnet launch.",
+   "significance": "This is the only face anyone ever really associates with Zephyr — a 21-year-old who looked far too young to be reinventing what money could do.",
+   "museum": "Wikimedia Commons (TechCrunch/Flickr sourced)",
+   "museum_location": "London, UK",
+   "accession_number": "Vitalik Buterin TechCrunch London 2015 (cropped)",
+   "collection_url": "https://commons.wikimedia.org/wiki/File:Vitalik_Buterin_TechCrunch_London_2015_(cropped).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Vitalik_Buterin_TechCrunch_London_2015_%28cropped%29.jpg",
+   "license": "CC BY 2.0 (verify exact file page license)",
+   "open_access": true,
+   "plain_language": "A photo of Ethereum's young co-founder taken at a London tech conference in 2015, shortly after the network went live.",
+   "url": "https://commons.wikimedia.org/wiki/File:Vitalik_Buterin_TechCrunch_London_2015_(cropped).jpg",
+   "accession": "Vitalik Buterin TechCrunch London 2015 (cropped)",
+   "institution": "Wikimedia Commons (TechCrunch/Flickr sourced)",
+   "licence": "CC BY 2.0",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/File:Vitalik_Buterin_TechCrunch_London_2015_(cropped).jpg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY 2.0",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikimedia Commons API",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Vitalik_Buterin_TechCrunch_London_2015_%28cropped%29.jpg",
+    "attribution": "John Phillips"
+   },
+   "image_qa": {
+    "verdict": "PASS",
+    "confidence": 8,
+    "what_i_see": "A man with short brown hair and a green shirt, wearing a microphone, in front of a 'TechCrunch' backdrop.",
+    "why": "The image matches the description of Vitalik Buterin at a TechCrunch conference, as it shows a man in a setting consistent with the claim.",
+    "model": "meta-llama/Llama-3.2-90B-Vision-Instruct"
+   },
+   "showable": true,
+   "rights_note": "IMAGE QA ERROR: HTTPError: HTTP Error 400: Bad Request"
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "zephyr_cole_src_1",
+   "title": "Ethereum Whitepaper",
+   "type": "founding_whitepaper",
+   "date": "2013",
+   "author": "Vitalik Buterin",
+   "description": "The original proposal for a blockchain supporting programmable smart contracts.",
+   "held_at": "Ethereum Foundation",
+   "url": "https://ethereum.org/en/whitepaper/",
+   "license": "Ethereum Foundation content, freely quotable with attribution",
+   "plain_language": "The founding document explaining how Ethereum would let people build programs directly into a currency.",
+   "licence": "Ethereum Foundation content, freely quotable with attribution",
+   "licence_class": "unknown",
+   "institution": "Ethereum Foundation",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://ethereum.org/whitepaper/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "zephyr_cole_src_2",
+   "title": "Wikipedia: The DAO",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Detailed account of The DAO's May 2016 launch, its June 2016 hack, and the resulting hard fork.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/The_DAO",
+   "license": "CC BY-SA 4.0",
+   "plain_language": "The full story of a 2016 hack that drained millions of dollars in Ethereum and forced the community to change the network's rules.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/The_DAO",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "zephyr_cole_src_3",
+   "title": "Ethereum Foundation Blog — Mainnet Merge Announcement",
+   "type": "official_announcement",
+   "date": "August 24, 2022",
+   "author": "Ethereum Foundation",
+   "description": "Official announcement detailing the technical mechanics and timeline of The Merge.",
+   "held_at": "Ethereum Foundation",
+   "url": "https://blog.ethereum.org/2022/08/24/mainnet-merge-announcement",
+   "license": "Ethereum Foundation content",
+   "plain_language": "An official announcement explaining exactly how and when Ethereum switched to a much more energy-efficient system in 2022.",
+   "licence": "Ethereum Foundation content",
+   "licence_class": "unknown",
+   "institution": "Ethereum Foundation",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://blog.ethereum.org/2022/08/24/mainnet-merge-announcement",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "zephyr_cole_src_4",
+   "title": "Wikipedia: Ethereum Classic",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Explains the split between Ethereum and Ethereum Classic following The DAO hard fork, and the 'code is law' philosophical debate.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ethereum_Classic",
+   "license": "CC BY-SA 4.0",
+   "plain_language": "The story of how Ethereum split into two separate currencies after a disagreement about whether a hack should ever be reversed.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Ethereum_Classic",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "zephyr_cole_src_5",
+   "title": "Statista: DeFi Total Value Locked Across Blockchains",
+   "type": "data_report",
+   "date": "2020-2021",
+   "author": "Statista",
+   "description": "Data tracking the growth of decentralized finance (DeFi) total value locked from roughly $1 billion to $100 billion during 2020-2021.",
+   "held_at": "Statista",
+   "url": "https://www.statista.com/statistics/1272181/defi-tvl-in-multiple-blockchains/",
+   "license": "Statista — free for citation, paid license required for chart reuse",
+   "plain_language": "Data showing how the amount of money locked into Ethereum-based financial apps grew from $1 billion to $100 billion in about a year.",
+   "licence": "Statista — free for citation, paid license required for chart reuse",
+   "licence_class": "unknown",
+   "institution": "Statista",
+   "verify": {
+    "ok": false,
+    "status": 302,
+    "error": "HTTP 302",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 52.52,
+  "center_lng": 13.405,
+  "center_label": "Berlin, Germany (Devcon 0, 2014)",
+  "era_start": 2013,
+  "era_end": 2026,
+  "map_description": "Zephyr was conceived on internet forums, formally introduced to developers in Berlin, launched globally, and now operates through a foundation based in Switzerland.",
+  "nodes": [
+   {
+    "label": "Berlin, Germany (Devcon 0)",
+    "lat": 52.52,
+    "lng": 13.405,
+    "type": "origin",
+    "description": "Site of Ethereum's first developer conference in November 2014, before the network had even launched."
+   },
+   {
+    "label": "Zug, Switzerland (Ethereum Foundation)",
+    "lat": 47.1662,
+    "lng": 8.5155,
+    "type": "landmark",
+    "description": "Home of the Ethereum Foundation, the nonprofit organization supporting Ethereum's development, located in Switzerland's 'Crypto Valley.'"
+   },
+   {
+    "label": "Global Mainnet Network ('Frontier')",
+    "lat": 0.0,
+    "lng": 0.0,
+    "type": "destination",
+    "description": "Ethereum's mainnet, launched July 30, 2015, runs on a decentralized global network of nodes with no single headquarters."
+   },
+   {
+    "label": "Bogotá, Colombia (Devcon VI, 2022)",
+    "lat": 4.711,
+    "lng": -74.0721,
+    "type": "landmark",
+    "description": "Host city for Devcon VI in October 2022, held shortly after The Merge."
+   },
+   {
+    "label": "Bangkok, Thailand (Devcon SEA, 2024)",
+    "lat": 13.7563,
+    "lng": 100.5018,
+    "type": "landmark",
+    "description": "Host city for the 2024 Devcon Southeast Asia event, reflecting Ethereum's continually shifting, borderless community."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Ethereum Foundation Blog — Devcon 0 Recap",
+   "url": "https://blog.ethereum.org/2014/12/05/devcon-0-recap",
+   "license": "Ethereum Foundation content"
+  }
+ },
+ "_verified": "2026-07-11 10:42"
+}

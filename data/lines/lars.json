@@ -1,0 +1,55 @@
+{
+ "custodian": "lars",
+ "name": "Lars Van Holst",
+ "asset": "Dutch Guilder",
+ "stations": [
+  {
+   "year": 1378,
+   "label": "MINTED IN THE LOW COUNTRIES",
+   "line": "I was struck from gold in an age of plague and petty princes, which is to say the conditions were not entirely encouraging, and yet here I stand.",
+   "era_photo": "A medieval mint courtyard in the Burgundian Low Countries, hand-struck gold coins cooling on an oak table, a man in a fur-trimmed wool houppelande and simple linen coif \u2014 rendered as an illuminated manuscript miniature on vellum, egg-tempera pigment, gold leaf, the flat perspective and gilded background of the fourteenth century."
+  },
+  {
+   "year": 1602,
+   "label": "I FINANCED THE FIRST EXCHANGE",
+   "line": "They gathered in Amsterdam to trade shares of a single company, and I was the blood in that room; I would do it again tonight, op de lange termijn.",
+   "era_photo": "The courtyard of the early Amsterdam Beurs under a wooden colonnade, merchants in black doublets, wide starched ruffs and tall felt hats, a sober bearded man holding a leather ledger \u2014 painted as a Dutch Golden Age oil portrait in the manner of Rembrandt, chiaroscuro lighting, warm brown and black tones, canvas texture."
+  },
+  {
+   "year": 1637,
+   "label": "THE TULIPS TAUGHT THEIR LESSON",
+   "line": "A bulb sold for the price of a canal house, then for nothing, and I watched grown men learn that a promise is not a value \u2014 a lesson I have never had the luxury of forgetting.",
+   "era_photo": "A dim Haarlem tavern with account books and dried tulip bulbs on the table, men in dark Puritan-plain coats and broad hats arguing, one silent figure at the edge with a wry, weary set to his mouth \u2014 Dutch Golden Age genre-painting style, oil on panel, candle-and-window light, muted ochres and greys."
+  },
+  {
+   "year": 1816,
+   "label": "REFORGED FOR A NEW KINGDOM",
+   "line": "After the French had come and gone, the new Kingdom of the Netherlands re-established me by law; being rebuilt is not the same as being reborn, but one takes what stability one can.",
+   "era_photo": "A neoclassical mint hall in The Hague, milled silver guilders and a coin press, a gentleman in a high-collared dark tailcoat, cravat, and side-whiskers \u2014 early hand-tinted engraving aesthetic transitioning toward the very first daguerreotype: silvered copper plate, extreme sharpness at centre, cool metallic sheen, formal frozen pose."
+  },
+  {
+   "year": 1936,
+   "label": "THE GOLD STANDARD LET GO",
+   "line": "We were the last in Europe to abandon gold, holding the dyke long after the others had swum for shore; it was not stubbornness \u2014 it was principle, and principle is expensive.",
+   "era_photo": "A Nederlandsche Bank office in Amsterdam, ledgers and a telephone, a tall reserved man in a three-piece charcoal suit and round spectacles standing by a tall window \u2014 black-and-white silver gelatin photograph, grainy 1930s press stock, hard side light, unsmiling composure."
+  },
+  {
+   "year": 1992,
+   "label": "I SIGNED MY OWN SENTENCE",
+   "line": "At Maastricht, in my own country, I put my name to the treaty that would dissolve me into the euro \u2014 a master carpenter setting fire to his workshop to warm the village.",
+   "era_photo": "A modern Dutch conference hall by the Maas river, flags of the Community behind a long table, a silver-haired man in a well-cut but understated navy suit signing a document, expression unreadable \u2014 early-1990s color photograph, Kodachrome-warm tones, slight video-era softness, fluorescent interior light."
+  },
+  {
+   "year": 2002,
+   "label": "WITHDRAWN FROM CIRCULATION",
+   "line": "On the first day of the euro I ceased to be legal tender, and I confess the silence in the tills was, how shall I put it, not nothing.",
+   "era_photo": "An Amsterdam bank counter with the last guilder banknotes bundled and stamped, an older man in a plain grey overcoat watching from the queue, hands folded \u2014 early digital photograph circa 2002, low-resolution DSLR grain, flat interior lighting, slightly desaturated documentary colour."
+  },
+  {
+   "year": 2024,
+   "label": "THE ARCHIVIST AT THE EDGE",
+   "line": "I sit now at the edge of the marketplace I built, keeping the reserves as I always have, watching others play in structures I designed \u2014 and privately keeping the ledgers, in case the dyke breaks again.",
+   "era_photo": "A quiet modern study in Amsterdam with old Delftware, a laptop, and a chilled bottle of genever, an elderly composed man in a fine dark sweater and open collar seated in low lamplight \u2014 high-resolution contemporary digital photograph, natural window light, shallow depth of field, muted Dutch interior palette."
+  }
+ ]
+}

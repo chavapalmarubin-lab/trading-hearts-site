@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Join Trading Hearts</title>
+<style>
+  :root{--gold:#C9A84C}
+  body{margin:0;background:linear-gradient(180deg,#0a1122,#070d18);color:#EDE6D6;
+       font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;min-height:100vh;
+       display:flex;align-items:center;justify-content:center;padding:28px}
+  .card{width:min(460px,100%);background:rgba(12,20,38,.7);border:1px solid rgba(201,168,76,.28);
+        border-radius:16px;padding:34px 30px;text-align:center}
+  .ey{font:600 11px/1 sans-serif;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)}
+  h1{font:300 30px/1.15 Georgia,serif;color:#f6efd8;margin:12px 0 4px}
+  .price{font:700 34px/1 Georgia,serif;color:#fff;margin:14px 0 2px}
+  .per{color:#9aa3ad;font-size:14px}
+  .desc{color:#c9c3b7;font-size:14.5px;margin:16px auto 22px;max-width:360px}
+  .fld{width:100%;box-sizing:border-box;background:rgba(255,255,255,.04);color:#EDE6D6;
+       border:1px solid rgba(201,168,76,.35);border-radius:10px;padding:13px 14px;font-size:15px;
+       margin:2px 0 6px;outline:none}
+  .fld:focus{border-color:var(--gold)}
+  .fld::placeholder{color:#8b93a5}
+  .hint{color:#8b93a5;font-size:12.5px;margin:0 0 18px}
+  #paypal-button-container{min-height:48px;margin-top:6px}
+  .back{display:inline-block;margin-top:22px;color:#8b93a5;font-size:13px;text-decoration:none}
+  .back:hover{color:var(--gold)}
+  .err{color:#e0857a;font-size:14px;margin-top:14px}
+  .safe{margin-top:16px;color:#7d8794;font-size:12px}
+</style>
+</head>
+<body>
+  <div class="card">
+    <p class="ey">Trading Hearts · Membership</p>
+    <h1 id="tier">Loading…</h1>
+    <div class="price" id="price"></div>
+    <div class="per" id="per"></div>
+    <p class="desc" id="desc"></p>
+    <input class="fld" id="email" type="email" inputmode="email" autocomplete="email"
+           placeholder="Email for your membership">
+    <p class="hint">We unlock access and send your welcome email to this address.</p>
+    <div id="paypal-button-container"></div>
+    <div class="err" id="err"></div>
+    <p class="safe">Secure recurring billing by PayPal. Cancel anytime.</p>
+    <a class="back" href="/index.html#membership">← Back to the plans</a>
+  </div>
+
+<script>
+(async function(){
+  var META = {
+    reader_m:{t:"Reader",per:"per month",desc:"The whole comic library, every new issue, weekly written recaps."},
+    reader_y:{t:"Reader · Annual",per:"per year",desc:"The whole comic library, every new issue, weekly written recaps."},
+    insider_m:{t:"Insider",per:"per month",desc:"Everything in Reader, plus weekly video recaps, character reels, early access, ad-free."},
+    insider_y:{t:"Insider · Annual",per:"per year",desc:"Everything in Reader, plus weekly video recaps, character reels, early access, ad-free."},
+    founder_m:{t:"Founder",per:"per month",desc:"Everything in Insider, plus the writers' room, a vote on arcs, your name in the credits."},
+    founder_y:{t:"Founder · Annual",per:"per year",desc:"Everything in Insider, plus the writers' room, a vote on arcs, your name in the credits."}
+  };
+  function q(k){return new URLSearchParams(location.search).get(k);}
+  var key=(q('plan')||'reader_m').toLowerCase();
+  var err=document.getElementById('err');
+  var data;
+  try{ data=await fetch('assets/paypal_plans.json?_='+Date.now()).then(r=>r.json()); }
+  catch(e){ err.textContent="Could not load plans. Please try again."; return; }
+  var plan=(data.plans||{})[key];
+  var meta=META[key];
+  if(!plan||!meta){ err.textContent="Unknown plan."; return; }
+  document.getElementById('tier').textContent="The "+meta.t.replace(' · Annual','')+" membership";
+  document.getElementById('price').textContent="$"+plan.price;
+  document.getElementById('per').textContent=meta.per;
+  document.getElementById('desc').textContent=meta.desc;
+
+  // PayPal JS SDK — subscription intent. client-id is a PUBLIC value (safe in the browser).
+  var s=document.createElement('script');
+  s.src="https://www.paypal.com/sdk/js?client-id="+encodeURIComponent(data.client_id)+"&vault=true&intent=subscription";
+  var emailEl=document.getElementById('email');
+  function validEmail(){ return /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test((emailEl.value||'').trim()); }
+  emailEl.addEventListener('input',function(){ if(validEmail()) err.textContent=''; });
+  s.onload=function(){
+    paypal.Buttons({
+      style:{shape:'pill',color:'gold',layout:'vertical',label:'subscribe'},
+      // Require a valid email before opening PayPal — it's how we grant access + send the welcome.
+      onClick:function(d,actions){
+        if(!validEmail()){ err.textContent="Please enter a valid email first."; emailEl.focus(); return actions.reject(); }
+        return actions.resolve();
+      },
+      createSubscription:function(d,actions){
+        var email=emailEl.value.trim().toLowerCase();
+        return actions.subscription.create({
+          plan_id:plan.plan_id,
+          custom_id:email,                       // the webhook grants access to THIS address
+          subscriber:{ email_address:email }     // prefill PayPal with it too
+        });
+      },
+      onApprove:function(d){
+        // Access is granted by the PayPal webhook → Supabase, keyed to the email above.
+        location.href="/index.html?welcome="+encodeURIComponent(key)+"&sub="+encodeURIComponent(d.subscriptionID);
+      },
+      onError:function(e){ err.textContent="Something went wrong with checkout. Please try again."; }
+    }).render('#paypal-button-container');
+  };
+  s.onerror=function(){ err.textContent="Could not reach PayPal. Please try again."; };
+  document.head.appendChild(s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{
+ "custodian": "catalina",
+ "name": "Catalina Restrepo",
+ "asset": "Colombian Peso",
+ "stations": [
+  {
+   "year": 1837,
+   "label": "BORN FROM THE REAL",
+   "line": "They named me after the Spanish real I was meant to replace, as if a young republic could simply declare its independence from the money of its old master and have the markets believe it overnight \u2014 eso no es gratis, and I would spend the next century learning exactly what it cost.",
+   "era_photo": "A young woman standing in a colonial minting house in Bogot\u00e1, 1837, in a high-waisted Empire gown of dark cotton with a lace fichu, surrounded by hand-struck silver coins; rendered as an early daguerreotype \u2014 silvery, slightly warped at the edges, long exposure giving her a solemn stillness."
+  },
+  {
+   "year": 1871,
+   "label": "PLEDGED TO GOLD",
+   "line": "For the first time someone anchored me to something that could not be argued with \u2014 a gold peso, convertible, serious \u2014 and I remember thinking, so this is what it feels like to be trusted, before I learned how quickly a nation at war with itself would spend that trust down to nothing.",
+   "era_photo": "A woman in a bustled Victorian day dress of deep burgundy, standing beside the Casa de Moneda's iron scales, holding a single gold coin to the light; wet-plate collodion photograph, rich contrast, the fine grain of 1871, her expression cautiously proud."
+  },
+  {
+   "year": 1923,
+   "label": "THE KEMMERER RESCUE",
+   "line": "A gringo professor came from Princeton to build me a central bank, and I accepted the medicine \u2014 the Banco de la Rep\u00fablica, the discipline, the institutional spine \u2014 because I had learned that pride is a luxury and survival is a strategy, \u00bfy entonces? I let him teach me the architecture I still stand on.",
+   "era_photo": "A woman in a drop-waist 1920s dress and cloche hat, standing on the steps of the newly founded Banco de la Rep\u00fablica in Bogot\u00e1 among men in dark three-piece suits; silver gelatin print, sharp midday light, formal group-portrait composition, her chin lifted."
+  },
+  {
+   "year": 1991,
+   "label": "THE NEW CONSTITUTION",
+   "line": "They rewrote the whole country around me and gave the Bank real independence, and I felt something I do not permit myself often \u2014 hope \u2014 because in the middle of the worst decade, the years everyone still tries to define me by, we were quietly building the institutions that would let me survive them.",
+   "era_photo": "A woman in a structured 1991 power suit with strong shoulders, standing before a wall of newspaper front pages announcing the Constituent Assembly; Kodachrome color photograph, saturated reds and blues, faint newsprint grain, her posture composed and watchful."
+  },
+  {
+   "year": 1999,
+   "label": "THE FLOAT AND THE FALL",
+   "line": "They cut the band and let me float free into the worst recession of my life, and I watched my value drop on a screen while my fundamentals had not changed one bit \u2014 uno no se acostumbra, no matter how many times the market decides you are a risk premium and not a person.",
+   "era_photo": "A woman in a plain dark blouse standing alone in a dim trading room lit by CRT monitors flashing falling numbers, Bogot\u00e1 1999; early digital photograph, slightly noisy, cool blue screen-glow on her still, quiet face, her arms crossed."
+  },
+  {
+   "year": 2013,
+   "label": "INVESTMENT GRADE, ALL THREE",
+   "line": "By this year all three agencies had upgraded me to investment grade \u2014 the thing I had wanted since 1871, to have the world stop treating my warmth as weakness \u2014 and I will admit, mija, I let myself celebrate, because I do not know how to celebrate alone.",
+   "era_photo": "A woman in an elegant tailored emerald dress at a lively investor reception in a Bogot\u00e1 hotel, glass in hand, mid-laugh among a crowd; crisp DSLR digital photograph, warm ambient lighting, shallow depth of field, genuine celebration in her eyes."
+  },
+  {
+   "year": 2016,
+   "label": "THE PEACE, THE OIL CRASH",
+   "line": "We signed the peace in Havana after fifty years of war the same season oil collapsed and dragged me down with it \u2014 the poetry and the shock arriving together \u2014 and that is the whole truth of me, coraz\u00f3n: I improve and I bleed in the same breath, and I refuse to let you see only one.",
+   "era_photo": "A woman in a somber but dignified navy suit watching the Havana peace signing on a large screen, a currency ticker scrolling red beneath it; documentary digital photograph, high dynamic range, mixed screen light on her face, expression holding both grief and resolve."
+  },
+  {
+   "year": 2024,
+   "label": "STILL STANDING, STILL COUNTING",
+   "line": "Here I am today, still trading at a discount to a dollar that has never had to survive what I have survived, still patient \u2014 and people keep mistaking my patience for smallness, which tells me they have never once done the math on what it costs to endure.",
+   "era_photo": "A woman in her prime in a sharp contemporary charcoal blazer, standing in a modern glass office overlooking Bogot\u00e1 at dusk, a phone with live exchange rates in her hand; ultra-sharp full-frame digital photograph, natural window light, calm and formidable, a faint knowing half-smile."
+  }
+ ]
+}

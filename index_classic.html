@@ -4,11 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TRADING HEARTS — A Saga in the World of Markets</title>
-<!-- THE MARK, not the wordmark. A 16px tab is too small for "TRADING HEARTS" to be anything but
-     a gold smudge; the circled dot survives at that size — and it is the same object as the
-     site's cursor. -->
-<link rel="icon" type="image/png" href="media/brand/favicon.png">
-<link rel="apple-touch-icon" href="media/brand/th_mark.png">
 <style>
   :root {
     --navy: #0B1F40;
@@ -46,12 +41,7 @@
 
   /* NAV */
   nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:24px 60px;background:linear-gradient(180deg,rgba(7,15,30,0.95) 0%,transparent 100%);backdrop-filter:blur(10px)}
-  .nav-logo{display:flex;align-items:center;text-decoration:none;line-height:0}
-  /* the lockup is a WIDE wordmark over a rule — it needs height, not a square. 30px reads at a
-     glance and still resolves the circled mark under the rule. */
-  .nav-logo-img{height:52px;width:auto;display:block;opacity:.96;transition:opacity .25s}
-  .nav-logo:hover .nav-logo-img{opacity:1}
-  @media (max-width:768px){ .nav-logo-img{height:40px} }
+  .nav-logo{font-family:var(--font-display);font-size:1.2rem;letter-spacing:0.3em;color:var(--gold);text-transform:uppercase;text-decoration:none}
   .nav-links{display:flex;gap:40px;list-style:none}
   .nav-links a{font-size:0.65rem;letter-spacing:0.25em;text-transform:uppercase;color:rgba(250,247,242,0.6);text-decoration:none;transition:color 0.3s}
   .nav-links a:hover{color:var(--gold)}
@@ -608,12 +598,7 @@
 
 <!-- NAV -->
 <nav>
-  <!-- THE OFFICIAL LOGO. Built from brand/Trading Hearts Logo.png by scripts/th_brand_build.py:
-       background measured and removed, trimmed to its own ink. The alt text carries the
-       wordmark so the name still exists for a screen reader and for Google. -->
-  <a href="#hero" class="nav-logo" aria-label="Trading Hearts — home">
-    <img src="media/brand/th_lockup.webp" alt="Trading Hearts" class="nav-logo-img">
-  </a>
+  <a href="#hero" class="nav-logo">Trading Hearts</a>
   <ul class="nav-links">
     <li><a href="#characters">The People</a></li>
     <li><a href="#eramap">Stories</a></li>
@@ -1380,46 +1365,25 @@
 #relmap .rm-ey{font:600 11px/1 -apple-system,sans-serif;letter-spacing:3px;text-transform:uppercase;color:rgba(201,168,76,.8)}
 #relmap .rm-t{font:300 34px/1.1 Georgia,serif;color:#f6efd8;margin:10px 0 6px}
 #relmap .rm-s{color:#b8b4a8;font:15px/1.6 -apple-system,sans-serif}
-/* ── THE LIVING WEB ── */
-.rm-livebadge{display:inline-flex;align-items:center;gap:6px;color:#e0507a}
-.rm-livebadge i{width:7px;height:7px;border-radius:50%;background:#e0507a;box-shadow:0 0 8px #e0507a;animation:rmPulse 1.6s infinite}
-@keyframes rmPulse{0%,100%{opacity:1}50%{opacity:.35}}
-#rmWebWrap{position:relative;max-width:1500px;margin:26px auto 0;border:1px solid rgba(201,168,76,.12);border-radius:14px;background:radial-gradient(ellipse at 50% 45%,rgba(20,32,58,.55),rgba(7,15,30,.2));overflow:hidden}
-#rmWeb{display:block;width:100%;touch-action:none}
-#rmWeb .rmEdge{transition:opacity .18s}
-#rmWeb .rmNode{cursor:grab;transition:opacity .18s}
-#rmWeb .rmNode:active{cursor:grabbing}
-#rmWeb .rmLbl{fill:#cdd3e0;font:600 10px/1 -apple-system,sans-serif;letter-spacing:.4px;pointer-events:none;opacity:.72;transition:opacity .18s,fill .18s}
-#rmWeb .rmNode:hover .rmLbl,#rmWeb .rmNode.rmActive .rmLbl{opacity:1;fill:#f6efd8}
-#rmWeb .rmNode.rmActive circle{stroke-width:2.4}
-#rmWeb .rmNode.rmActive .rmDot{fill:#ffe08a}
-#rmWeb .rmNode .rmRing{transition:stroke .18s,stroke-width .18s}
-#rmWeb .rmNode:hover .rmRing,#rmWeb .rmNode.rmActive .rmRing{stroke:#ffe6a3;stroke-width:3.4}
-#rmWeb .rmNode.rmActive{filter:drop-shadow(0 0 10px rgba(201,168,76,.6))}
-#rmWeb .rmNode image{transition:opacity .18s}
-#rmWeb .rmNode.rmSilent{opacity:.4}
-#rmWeb .rmNode.rmSilent:hover{opacity:1}
-#rmWeb .rmNode.rmHot .rmRing{stroke:#ffcf6a;stroke-width:3}
-#rmWeb .rmNode.rmLead{filter:drop-shadow(0 0 22px rgba(201,168,76,.75))}
-#rmWeb .rmNode.rmLead .rmRing{stroke:#ffe6a3;stroke-width:3.6}
-#rmWeb .rmLeadLbl{font-size:12px;fill:#f6efd8;opacity:1}
-#rmWeb .rmToday{fill:#ffe6a3;font:800 10px/1 -apple-system,sans-serif;letter-spacing:3.5px;opacity:.92}
-#rmBody .eph-top{display:flex;gap:12px;align-items:center;margin-bottom:14px}
-#rmBody .eph-av{width:54px;height:54px;border-radius:50%;object-fit:cover;border:2px solid var(--gold,#C9A84C);flex:0 0 auto}
-#rmBody .eph-eyebrow{font:700 9px/1.4 -apple-system,sans-serif;letter-spacing:2.5px;color:var(--gold,#C9A84C)}
-#rmBody .eph-title{font:600 18px/1.2 Georgia,serif;color:#f6efd8;margin-top:4px}
-#rmBody .eph-meta{font:11px/1 -apple-system,sans-serif;color:rgba(230,224,200,.5);margin-top:5px;letter-spacing:.5px}
-#rmBody .eph-body{max-height:52vh;overflow:auto;padding:12px 4px;border-top:1px solid rgba(201,168,76,.22);border-bottom:1px solid rgba(201,168,76,.22)}
-#rmBody .eph-h{font:700 11px/1.5 -apple-system,sans-serif;letter-spacing:1.5px;color:#ffe6a3;margin:12px 0 3px}
-#rmBody .eph-l{font:14px/1.7 Georgia,serif;color:rgba(246,239,216,.82)}
-#rmHint.rmHintLive{pointer-events:auto;cursor:pointer}
-#rmHint{position:absolute;left:16px;bottom:12px;font:11px/1 -apple-system,sans-serif;letter-spacing:.5px;color:rgba(201,168,76,.6);pointer-events:none}
-#rmLegend{position:absolute;right:16px;top:14px;display:flex;flex-wrap:wrap;gap:4px 14px;max-width:260px;justify-content:flex-end}
-#rmLegend span{display:inline-flex;align-items:center;gap:6px;font:10px/1.4 -apple-system,sans-serif;color:#b8b4a8}
-#rmLegend i{width:14px;height:3px;border-radius:2px}
-@media(max-width:768px){#rmLegend{position:static;justify-content:center;max-width:none;margin:12px auto 0;padding:0 16px}#rmHint{position:static;display:block;text-align:center;padding:10px 0 4px}}
+.rm-scroll{overflow:auto;margin:26px auto 0;max-width:1500px;border:1px solid rgba(201,168,76,.12);border-radius:12px}
+table.rm{border-collapse:collapse;font:11px/1.1 -apple-system,sans-serif;min-width:1100px}
+table.rm th,table.rm td{border:1px solid rgba(255,255,255,.05);text-align:center}
+table.rm th.col{min-width:62px;padding:6px 3px;background:#0b1326;position:sticky;top:0;z-index:2}
+table.rm th.row{padding:6px 8px;background:#0b1326;position:sticky;left:0;z-index:1;text-align:right;white-space:nowrap}
+table.rm th .nm{color:#e9c46a;font-weight:600;font-size:10px;letter-spacing:.3px}
+table.rm th .tk{color:#7e8298;font-size:8.5px}
+table.rm td{height:42px;width:62px;position:relative;cursor:default}
+table.rm td.diag{background:#0a1020;color:#3a4a66}
+table.rm td.empty{background:#0a0f1c}
+table.rm td.has{cursor:pointer}
+table.rm td .ty{display:block;font-weight:700;font-size:9px;color:#fff;letter-spacing:.3px}
+table.rm td .lb{display:block;font-size:7.5px;color:rgba(255,255,255,.6);padding:0 2px}
+table.rm td .hb{position:absolute;left:0;bottom:0;height:2px;background:#ffd479;opacity:.8}
+td.aff{background:#3a0f24}td.cour{background:#341033}td.charge{background:#3a1330}td.rival{background:#3a1216}
+td.pact{background:#0e2a1c}td.sis{background:#241a3e}td.ex{background:#2c2030}td.cold{background:#10131f}
+table.rm td.has:hover{outline:1px solid rgba(201,168,76,.6);outline-offset:-1px}
 /* drawer */
-#rmDrawer{position:absolute;top:0;right:0;bottom:0;width:min(430px,88%);background:rgba(9,20,38,.92);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border-left:1px solid rgba(201,168,76,.24);z-index:20;transform:translateX(101%);transition:transform .4s cubic-bezier(.16,1,.3,1);overflow-y:auto;padding:40px 26px}
+#rmDrawer{position:fixed;top:0;right:0;bottom:0;width:min(440px,100vw);background:#0B1A30;border-left:1px solid rgba(201,168,76,.2);z-index:9500;transform:translateX(100%);transition:transform .4s cubic-bezier(.16,1,.3,1);overflow-y:auto;padding:48px 30px}
 #rmDrawer.open{transform:translateX(0)}
 #rmDrawer .x{position:absolute;top:16px;right:18px;cursor:pointer;color:rgba(201,168,76,.7);font-size:18px}
 #rmDrawer .rd-pair{font:300 26px/1.2 Georgia,serif;color:#f6efd8}
@@ -1431,7 +1395,7 @@
 #rmDrawer .rd-card img{width:54px;height:72px;object-fit:cover;border-radius:7px}
 #rmDrawer .rd-card .rn{font:600 16px/1.2 Georgia,serif;color:#f0ead6}
 #rmDrawer .rd-card .rg{font:11px/1 -apple-system;color:rgba(201,168,76,.75);margin-top:4px}
-#rmScrim{position:absolute;inset:0;background:rgba(5,10,22,.45);z-index:15;display:none}
+#rmScrim{position:fixed;inset:0;background:rgba(5,10,22,.6);z-index:9400;display:none}
 /* members live teaser */
 .rm-live{max-width:1500px;margin:60px auto 0;position:relative;border:1px solid rgba(201,168,76,.25);border-radius:14px;overflow:hidden}
 .rm-live iframe{width:100%;height:560px;border:0;filter:blur(7px) saturate(.85);pointer-events:none;opacity:.7}
@@ -1446,214 +1410,55 @@
 
 <section id="relmap">
   <div class="rm-h">
-    <p class="rm-ey">The Web · <span class="rm-livebadge"><i></i>LIVE</span></p>
-    <h2 class="rm-t">The Living Web</h2>
-    <p class="rm-s">Twenty-eight assets. Seventy-four entanglements, breathing with the market. Drag anyone. Hover to light up their ties. Tap a thread to see the dynamic — and meet both hearts.</p>
+    <p class="rm-ey">The Web</p>
+    <h2 class="rm-t">The Relationship Map</h2>
+    <p class="rm-s">Twenty-eight assets. Seventy-four entanglements. Affairs, rivalries, pacts, cold wars. Click any tie to see the dynamic — and meet both characters.</p>
   </div>
-  <div id="rmWebWrap">
-    <svg id="rmWeb" role="img" aria-label="The living relationship web of 28 currency characters"></svg>
-    <div id="rmHint">drag a character · hover to trace their ties · tap a thread</div>
-    <div id="rmLegend"></div>
-    <div id="rmScrim" onclick="rmClose()"></div>
-    <div id="rmDrawer"><span class="x" onclick="rmClose()">✕</span><div id="rmBody"></div></div>
+  <div class="rm-scroll"><table class="rm" id="rmGrid"></table></div>
+
+  <div class="rm-live">
+    <iframe src="live-matrix.html" title="Live relationship matrix" loading="lazy"></iframe>
+    <div class="lock">
+      <div class="badge">★ Members</div>
+      <h3>The floor moves in real time.</h3>
+      <p>Members watch every tie heat up and cool with the live tape — the market drives the drama. See whose charge is spiking right now, the day's hottest pair, and the story the floor is writing.</p>
+      <a href="#membership">Join to see the floor live →</a>
+    </div>
   </div>
 </section>
+<div id="rmScrim" onclick="rmClose()"></div>
+<div id="rmDrawer"><span class="x" onclick="rmClose()">✕</span><div id="rmBody"></div></div>
 
 <script id="th-relmatrix-js">
 (function(){
-  var R=null, CMI=null, TODAY=null, EPISODES=null, leadId=null, silentSet={}, hotSet={}, RGUT=0;
-  var TYCOL={aff:'#e0507a',cour:'#c057c0',charge:'#e05ab0',rival:'#e0503a',pact:'#3ec98a',sis:'#8a6fe0',ex:'#b078c0',cold:'#5a6a90'};
-  var TYNAME={aff:'Affair',cour:'Confessor',charge:'Charge',rival:'Rivalry / War',pact:'Pact / Alliance',sis:'Kin',ex:'Broken',cold:'Cold / Latent'};
-  var SVGNS='http://www.w3.org/2000/svg';
+  var R=null, CMI=null;
+  var TYCOL={aff:'#7a2348',cour:'#6a2168',charge:'#7a2a60',rival:'#7a242c',pact:'#1c5a3c',sis:'#48347e',ex:'#5a4060',cold:'#26304a'};
   Promise.all([
     fetch('assets/relationships.json').then(r=>r.json()),
-    fetch('assets/cast_media.json').then(r=>r.json()).catch(function(){return {};}),
-    fetch('assets/today.json?_='+Date.now()).then(r=>r.json()).catch(function(){return null;}),
-    fetch('assets/episodes_index.json?_='+Date.now()).then(r=>r.json()).catch(function(){return null;})
-  ]).then(function(res){ R=res[0]; CMI=res[1]||{}; TODAY=res[2]||null; EPISODES=(res[3]&&res[3].episodes)||null; buildWeb(); });
+    fetch('assets/cast_media.json').then(r=>r.json()).catch(function(){return {};})
+  ]).then(function(res){ R=res[0]; CMI=res[1]||{}; build(); });
   function cell(a,b){ return R.pairs[a+'|'+b]||R.pairs[b+'|'+a]||null; }
   function disp(s){ var r=R.roster.find(function(x){return x[0]===s;}); return r?r[1]:s; }
   function tick(s){ var r=R.roster.find(function(x){return x[0]===s;}); return r?r[2]:''; }
   function full(s){ return (R.names&&R.names[s])||disp(s); }
   function thumb(s){ try{ return CMI[s].img[0].src; }catch(e){ return ''; } }
-
-  // ── THE LIVING WEB. One live, interactive force graph — no static duplicate, no blur. ──
-  // 28 nodes, 74 ties from the SAME canon (relationships.json). A tiny vanilla force sim
-  // (no CDN): ties pull, nodes repel, a soft pull to centre. Thread colour = the KIND of
-  // relationship; thread thickness + glow = live HEAT; the hottest ties pulse so the web
-  // breathes. Drag a node, hover to trace someone's ties, tap a thread for the drawer.
-  var svg, W, H, nodes=[], links=[], byId={}, hoverId=null, dragId=null, raf=null;
-
-  function buildWeb(){
-    svg=document.getElementById('rmWeb');
-    var wrap=document.getElementById('rmWebWrap');
-    W=wrap.clientWidth; H=Math.max(560, Math.min(820, W*0.66));
-    RGUT = (W>760 && TODAY && TODAY.lead) ? Math.min(430, Math.round(W*0.30)) : 0;  // reserve room for the docked reader
-    svg.setAttribute('viewBox','0 0 '+W+' '+H);
-    svg.setAttribute('width',W); svg.setAttribute('height',H);
-
-    nodes = R.roster.map(function(r,i){
-      var ang=(i/R.roster.length)*Math.PI*2;
-      return {id:r[0], nm:r[1], tk:r[2],
-              x:(W-RGUT)/2+Math.cos(ang)*(W-RGUT)*0.32, y:H/2+Math.sin(ang)*H*0.34,
-              vx:0, vy:0, deg:0};
+  function build(){
+    var ros=R.roster, h='<tr><th class="col"></th>';
+    ros.forEach(function(c){ h+='<th class="col"><div class="nm">'+c[1]+'</div><div class="tk">'+c[2]+'</div></th>'; });
+    h+='</tr>';
+    ros.forEach(function(ra){
+      h+='<tr><th class="row"><span class="nm">'+ra[1]+'</span> <span class="tk">'+ra[2]+'</span></th>';
+      ros.forEach(function(rb){
+        if(ra[0]===rb[0]){ h+='<td class="diag">—</td>'; return; }
+        var c=cell(ra[0],rb[0]);
+        if(!c){ h+='<td class="empty"></td>'; return; }
+        h+='<td class="has '+(c.css||'cold')+'" data-a="'+ra[0]+'" data-b="'+rb[0]+'"><span class="ty">'+(c.short||'')+'</span><span class="lb">'+((c.label||'').slice(0,14))+'</span><i class="hb" style="width:'+(c.heat||0)+'%"></i></td>';
+      });
+      h+='</tr>';
     });
-    byId={}; nodes.forEach(function(n){ byId[n.id]=n; });
-    links=[];
-    Object.keys(R.pairs).forEach(function(k){
-      var p=R.pairs[k]; if(!byId[p.a]||!byId[p.b]) return;
-      links.push({a:p.a, b:p.b, css:p.css||'cold', heat:p.heat||12, tier:p.tier, type:p.type, p:p});
-      byId[p.a].deg++; byId[p.b].deg++;
-    });
-
-    // TODAY — the day's authoring character comes to the FRONT of the matrix.
-    leadId = (TODAY && byId[TODAY.lead]) ? TODAY.lead : null;
-    silentSet = {}; ((TODAY&&TODAY.silent)||[]).forEach(function(x){ if(x!==leadId) silentSet[x]=1; });
-    hotSet = {}; ((TODAY&&TODAY.hot)||[]).forEach(function(x){ hotSet[x]=1; });
-    if(leadId){ byId[leadId].x=(W-RGUT)/2; byId[leadId].y=H*0.45; }   // seat lead at centre from frame one
-
-    drawLegend();
-    render();          // build DOM once
-    for(var i=0;i<220;i++) step(0.9);   // pre-settle so it opens calm, not exploding
-    if(leadId){ byId[leadId].x=(W-RGUT)/2; byId[leadId].y=H*0.45; place(); }
-    var hint=document.getElementById('rmHint');
-    if(hint && leadId){
-      var ld=byId[leadId], line=(TODAY.lines&&TODAY.lines[leadId])||'';
-      hint.innerHTML='<b style="color:#ffe6a3">'+ld.nm.toUpperCase()+'</b> wrote today'+(line?' — “'+line+'”':'')+'  ·  read today’s market drama →';
-      hint.classList.add('rmHintLive');
-      hint.onclick=function(){ window.rmEpisode(leadId); };
-    }
-    var lg=document.getElementById('rmLegend'); if(lg) lg.style.right=(RGUT?RGUT+18:14)+'px';
-    // THE PANEL IS ALWAYS THERE: open today's lead on load; clicking any custodian swaps it.
-    if(leadId && EPISODES && EPISODES[leadId]){ setTimeout(function(){ window.rmEpisode(leadId); }, 500); }
-    tickLoop();
-    window.addEventListener('resize', debounce(function(){ buildWeb(); }, 250));
+    document.getElementById('rmGrid').innerHTML=h;
+    document.querySelectorAll('#rmGrid td.has').forEach(function(td){ td.onclick=function(){ rmDrawer(td.dataset.a, td.dataset.b); }; });
   }
-
-  function drawLegend(){
-    var seen={}, h='';
-    links.forEach(function(l){ seen[l.css]=1; });
-    Object.keys(TYNAME).forEach(function(k){ if(seen[k]) h+='<span><i style="background:'+TYCOL[k]+'"></i>'+TYNAME[k]+'</span>'; });
-    document.getElementById('rmLegend').innerHTML=h;
-  }
-
-  // one physics step
-  function step(alpha){
-    var i,j,a,b,dx,dy,d,f;
-    // repulsion
-    for(i=0;i<nodes.length;i++){ for(j=i+1;j<nodes.length;j++){
-      a=nodes[i]; b=nodes[j]; dx=a.x-b.x; dy=a.y-b.y; d=Math.sqrt(dx*dx+dy*dy)||1;
-      f=(5200/(d*d))*alpha; var ux=dx/d, uy=dy/d;
-      a.vx+=ux*f; a.vy+=uy*f; b.vx-=ux*f; b.vy-=uy*f;
-    }}
-    // link springs — hotter ties sit a little closer
-    links.forEach(function(l){
-      a=byId[l.a]; b=byId[l.b]; dx=b.x-a.x; dy=b.y-a.y; d=Math.sqrt(dx*dx+dy*dy)||1;
-      var target=188-(l.heat*0.5); f=((d-target)/d)*0.045*alpha;
-      a.vx+=dx*f; a.vy+=dy*f; b.vx-=dx*f; b.vy-=dy*f;
-    });
-    // gentle gravity to centre + integrate
-    nodes.forEach(function(n){
-      if(n.id===dragId) return;
-      if(n.id===leadId){ n.x+=((W-RGUT)/2-n.x)*0.16; n.y+=(H*0.45-n.y)*0.16; n.vx=0; n.vy=0; return; } // pinned centre
-      n.vx+=((W-RGUT)/2-n.x)*0.0016*alpha; n.vy+=(H/2-n.y)*0.0016*alpha;
-      n.vx*=0.86; n.vy*=0.86; n.x+=n.vx; n.y+=n.vy;
-      n.x=Math.max(40,Math.min(W-RGUT-30,n.x)); n.y=Math.max(34,Math.min(H-34,n.y));
-    });
-  }
-
-  function render(){
-    var h='<defs><clipPath id="rmClip" clipPathUnits="userSpaceOnUse"><circle r="22"></circle></clipPath>'+
-          '<clipPath id="rmClipLead" clipPathUnits="userSpaceOnUse"><circle r="34"></circle></clipPath></defs><g id="rmEdges">';
-    links.forEach(function(l,idx){
-      var w=1+ (l.heat/22);
-      h+='<line class="rmEdge" data-i="'+idx+'" data-a="'+l.a+'" data-b="'+l.b+'" '+
-         'stroke="'+TYCOL[l.css]+'" stroke-width="'+w.toFixed(2)+'" '+
-         'stroke-opacity="'+(0.22+Math.min(0.5,l.heat/140)).toFixed(2)+'" '+
-         (l.tier==='hot'||l.tier==='critical'?'data-hot="1" ':'')+'/>';
-    });
-    h+='</g><g id="rmNodes">';
-    nodes.forEach(function(n){
-      var t=thumb(n.id); var hub=n.deg>6;
-      var isLead=n.id===leadId, isSilent=!!silentSet[n.id], isHot=!!hotSet[n.id];
-      var R0=isLead?34:22, clip=isLead?'rmClipLead':'rmClip';
-      var inner = t
-        ? '<image href="'+t+'" xlink:href="'+t+'" x="'+(-R0)+'" y="'+(-R0)+'" width="'+(R0*2)+'" height="'+(R0*2)+'" preserveAspectRatio="xMidYMid slice" clip-path="url(#'+clip+')"></image>'
-        : '<circle r="'+(R0-2)+'" fill="#0b1326"></circle><circle class="rmDot" r="8" fill="#C9A84C"></circle>';
-      var cls='rmNode'+(hub?' rmHub':'')+(isLead?' rmLead':'')+(isSilent?' rmSilent':'')+(isHot?' rmHot':'');
-      var lbl=isLead
-        ? '<text class="rmToday" y="'+(-R0-12)+'" text-anchor="middle">TODAY</text><text class="rmLbl rmLeadLbl" y="'+(R0+15)+'" text-anchor="middle">'+n.nm+'</text>'
-        : '<text class="rmLbl" y="36" text-anchor="middle">'+n.nm+'</text>';
-      h+='<g class="'+cls+'" data-id="'+n.id+'" tabindex="0">'+
-         inner+
-         '<circle class="rmRing" r="'+R0+'" fill="none" stroke="#C9A84C" stroke-width="'+(isLead?3.4:(hub?2.6:1.7))+'" stroke-opacity="0.9"></circle>'+
-         lbl+'</g>';
-    });
-    h+='</g>';
-    svg.innerHTML=h;
-    place();
-    wire();
-  }
-
-  function place(){
-    var edges=svg.querySelectorAll('.rmEdge');
-    edges.forEach(function(e){ var a=byId[e.dataset.a], b=byId[e.dataset.b];
-      e.setAttribute('x1',a.x); e.setAttribute('y1',a.y); e.setAttribute('x2',b.x); e.setAttribute('y2',b.y); });
-    svg.querySelectorAll('.rmNode').forEach(function(g){ var n=byId[g.dataset.id];
-      g.setAttribute('transform','translate('+n.x.toFixed(1)+','+n.y.toFixed(1)+')'); });
-  }
-
-  var pulse=0;
-  function tickLoop(){
-    step(0.35); pulse+=0.05;
-    place();
-    // breathe: hot threads pulse their opacity
-    svg.querySelectorAll('.rmEdge[data-hot]').forEach(function(e){
-      e.setAttribute('stroke-opacity', (0.5+0.28*Math.sin(pulse)).toFixed(2));
-    });
-    raf=requestAnimationFrame(tickLoop);
-  }
-
-  function highlight(id){
-    hoverId=id;
-    var lit={};
-    if(id){ links.forEach(function(l){ if(l.a===id||l.b===id){ lit[l.a]=1; lit[l.b]=1; } }); }
-    svg.querySelectorAll('.rmEdge').forEach(function(e){
-      var on=!id||e.dataset.a===id||e.dataset.b===id;
-      e.style.opacity=on?1:0.12;
-      e.style.strokeWidth=on&&id?(parseFloat(e.getAttribute('stroke-width'))+1.4):e.getAttribute('stroke-width');
-    });
-    svg.querySelectorAll('.rmNode').forEach(function(g){
-      var on=!id||g.dataset.id===id||lit[g.dataset.id];
-      g.style.opacity=on?1:0.2;
-      g.classList.toggle('rmActive', id&&g.dataset.id===id);
-    });
-  }
-
-  function wire(){
-    svg.querySelectorAll('.rmEdge').forEach(function(e){
-      e.style.cursor='pointer';
-      e.addEventListener('click', function(){ rmDrawer(e.dataset.a, e.dataset.b); });
-      e.addEventListener('mouseenter', function(){ highlight(null); e.style.opacity=1; });
-    });
-    svg.querySelectorAll('.rmNode').forEach(function(g){
-      var id=g.dataset.id;
-      g.addEventListener('mouseenter', function(){ highlight(id); });
-      g.addEventListener('mouseleave', function(){ highlight(null); });
-      g.addEventListener('focus', function(){ highlight(id); });
-      g.addEventListener('click', function(ev){ if(!g._moved){ window.rmEpisode(id); } });
-      // drag
-      g.addEventListener('pointerdown', function(ev){ dragId=id; g._moved=false; g.setPointerCapture&&g.setPointerCapture(ev.pointerId); });
-    });
-    svg.addEventListener('pointermove', function(ev){
-      if(!dragId) return; var n=byId[dragId]; var pt=toSvg(ev);
-      n._moved=true; svg.querySelector('.rmNode[data-id="'+dragId+'"]')._moved=true;
-      n.x=pt.x; n.y=pt.y; n.vx=0; n.vy=0; place();
-    });
-    window.addEventListener('pointerup', function(){ dragId=null; });
-  }
-  function toSvg(ev){ var b=svg.getBoundingClientRect(); return {x:(ev.clientX-b.left)/b.width*W, y:(ev.clientY-b.top)/b.height*H}; }
-  function debounce(fn,ms){ var t; return function(){ clearTimeout(t); t=setTimeout(fn,ms); }; }
   window.rmDrawer=function(a,b){
     var c=cell(a,b); if(!c) return;
     function card(s){ var t=thumb(s); return '<div class="rd-card" onclick="rmClose();if(window.openChar)openChar(\''+s+'\')">'+
@@ -1669,30 +1474,6 @@
     document.getElementById('rmScrim').style.display='block';
   };
   window.rmClose=function(){ document.getElementById('rmDrawer').classList.remove('open'); document.getElementById('rmScrim').style.display='none'; };
-  // THE DAILY MARKET DRAMA reader — click a face → read that character's dated episode.
-  window.rmEpisode=function(cid){
-    var e = EPISODES && EPISODES[cid];
-    if(!e){ if(window.openChar) return openChar(cid); return; }
-    function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-    var body = esc(e.body).split('\n').map(function(ln){
-      var t=ln.trim();
-      if(!t) return '<div style="height:7px"></div>';
-      if(/^[A-Z0-9 À-Þ'()\/×.\-]{3,60}$/.test(t)) return '<div class="eph-h">'+ln+'</div>';
-      return '<div class="eph-l">'+ln+'</div>';
-    }).join('');
-    var t=thumb(cid), isToday=(cid===leadId);
-    var html='<div class="eph-top">'+
-        (t?'<img class="eph-av" src="'+t+'">':'')+
-        '<div><div class="eph-eyebrow">TH DAILY MARKET DRAMA · EPISODE '+(e.no||'')+(isToday?' · TODAY':'')+'</div>'+
-        '<div class="eph-title">'+esc(e.title||full(cid))+'</div>'+
-        '<div class="eph-meta">'+esc(e.date||'')+(e.time?' · '+esc(e.time):'')+'</div></div></div>'+
-        '<div class="eph-body">'+body+'</div>'+
-        '<div class="rd-bond" style="font-size:13px;margin-top:16px"><a href="javascript:;" onclick="rmClose();if(window.openChar)openChar(\''+cid+'\')" style="color:var(--gold)">View '+esc(full(cid))+'’s full profile →</a></div>';
-    document.getElementById('rmBody').innerHTML=html;
-    document.getElementById('rmDrawer').classList.add('open');
-    // NO scrim — the panel lives alongside the web so the CEO can click other custodians to swap it.
-    document.getElementById('rmScrim').style.display='none';
-  };
   document.addEventListener('keydown',function(e){ if(e.key==='Escape')rmClose(); });
 })();
 </script>
@@ -3471,13 +3252,13 @@ const CHARS = {
       {code:'S4E08 / The Year Gold Looked',title:'The Year Gold Finally Looked',role:'Lead — Dubai 2013. Aurora at her lowest. The year gold crashed 28%.'},
     ],
     comics:[
-      {era:'Era 1',num:'002',title:'The Debt That Built a Nation',chars:'Conrad × Aurora',img:'comics/002/comic.jpg',url:'comics/002/comic.jpg'},
-      {era:'Era 1',num:'003',title:'Hamilton Invents the Future',chars:'Aurora × Charlotte × Conrad',img:'comics/003/comic.jpg',url:'comics/003/comic.jpg'},
-      {era:'Era 1',num:'006',title:'The Constitutional Convention',chars:'Conrad × Charlotte × Aurora',img:'comics/006/comic.jpg',url:'comics/006/comic.jpg'},
-      {era:'Era 1',num:'008',title:'The Whiskey Rebellion',chars:'Conrad × Charlotte',img:'comics/008/comic.jpg',url:'comics/008/index.html'},
-      {era:'Era 1',num:'009',title:'The Alien and Sedition Acts',chars:'Conrad × Charlotte',img:'comics/009/comic.jpg',url:'comics/009/comic.jpg'},
-      {era:'Era 1',num:'012',title:'The Embargo',chars:'Conrad × Charlotte × Aurora',img:'comics/012/comic.jpg',url:'comics/012/index.html'},
-      {era:'Era 1',num:'013',title:'The Burning of Washington',chars:'Conrad × Charlotte × Aurora',img:'comics/013/comic.jpg',url:'comics/013/index.html'},{era:'Era 2',num:'014',title:'Gold Changes Everything',chars:'Aurora × Conrad',img:'media/america_250/era_02/comic_014/TH_A250_ERA02_014_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_02/comic_014/TH_A250_014_FINAL_ASSEMBLY.html'},
+      {era:'Era 1',num:'002',title:'The Debt That Built a Nation',chars:'Conrad × Aurora',img:'media/america_250/era_01/comic_002/TH_A250_002_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_002/TH_A250_002_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'003',title:'Hamilton Invents the Future',chars:'Aurora × Charlotte × Conrad',img:'media/america_250/era_01/comic_003/TH_A250_003_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_003/TH_A250_003_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'006',title:'The Constitutional Convention',chars:'Conrad × Charlotte × Aurora',img:'media/america_250/era_01/comic_006/TH_A250_006_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_006/TH_A250_006_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'008',title:'The Whiskey Rebellion',chars:'Conrad × Charlotte',img:'media/america_250/era_01/comic_008/TH_A250_008_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_008/TH_A250_008_FINAL_ASSEMBLY.html'},
+      {era:'Era 1',num:'009',title:'The Alien and Sedition Acts',chars:'Conrad × Charlotte',img:'media/america_250/era_01/comic_009/TH_A250_009_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_009/TH_A250_009_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'012',title:'The Embargo',chars:'Conrad × Charlotte × Aurora',img:'media/america_250/era_01/comic_012/TH_A250_ERA01_012_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_01/comic_012/TH_A250_012_FINAL_ASSEMBLY.html'},
+      {era:'Era 1',num:'013',title:'The Burning of Washington',chars:'Conrad × Charlotte × Aurora',img:'media/america_250/era_01/comic_013/TH_A250_ERA01_013_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_01/comic_013/TH_A250_013_FINAL_ASSEMBLY.html'},{era:'Era 2',num:'014',title:'Gold Changes Everything',chars:'Aurora × Conrad',img:'media/america_250/era_02/comic_014/TH_A250_ERA02_014_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_02/comic_014/TH_A250_014_FINAL_ASSEMBLY.html'},
       {era:'Era 2',num:'020',title:'Indian Removal',chars:'Conrad × Charlotte',img:'media/america_250/era_02/comic_020_photoreal/TH_A250_020_PHOTOREAL_FINAL.jpg',url:'media/america_250/era_02/comic_020_photoreal/TH_A250_020_READER.html'},
       {era:'Era 2',num:'021',title:'The Alamo',chars:'Conrad × Charlotte',img:'media/america_250/era_02/comic_021_photoreal/TH_A250_021_PHOTOREAL_FINAL.jpg',url:'media/america_250/era_02/comic_021_photoreal/TH_A250_021_READER.html'},
       {era:'Era 2',num:'022',title:'The Irish Famine Migration',chars:'Conrad × Charlotte',img:'media/america_250/era_02/comic_022_photoreal/TH_A250_022_PHOTOREAL_FINAL.jpg',url:'media/america_250/era_02/comic_022_photoreal/TH_A250_022_READER.html'},
@@ -3814,13 +3595,13 @@ const CHARS = {
     ],
     episodes:[{code:'S4E07',title:'The Lettuce',role:'Lead — Truss government crisis, the lettuce, the call to Isabelle'}],
     comics:[
-      {era:'Era 1',num:'001',title:'The Declaration',chars:'Conrad × Aurora × Charlotte',img:'comics/001/comic.jpg',url:'comics/001/comic.jpg'},
-      {era:'Era 1',num:'002',title:'The Debt That Built a Nation',chars:'Conrad × Aurora',img:'comics/002/comic.jpg',url:'comics/002/comic.jpg'},
-      {era:'Era 1',num:'005',title:'The Empire Test',chars:'Charlotte × Conrad × Aurora',img:'comics/005/comic.jpg',url:'comics/005/comic.jpg'},
-      {era:'Era 1',num:'007',title:'The Buttonwood Agreement',chars:'Aurora × Conrad × Charlotte',img:'comics/007/comic.jpg',url:'comics/007/comic.jpg'},
-      {era:'Era 1',num:'010',title:'The First Transfer of Power',chars:'Conrad × Charlotte',img:'comics/010/comic.jpg',url:'comics/010/index.html'},
-      {era:'Era 1',num:'012',title:'The Embargo',chars:'Conrad × Charlotte × Aurora',img:'comics/012/comic.jpg',url:'comics/012/index.html'},
-      {era:'Era 1',num:'013',title:'The Burning of Washington',chars:'Conrad × Charlotte × Aurora',img:'comics/013/comic.jpg',url:'comics/013/index.html'},{era:'Era 2',num:'014',title:'Gold Changes Everything',chars:'Aurora × Conrad',img:'media/america_250/era_02/comic_014/TH_A250_ERA02_014_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_02/comic_014/TH_A250_014_FINAL_ASSEMBLY.html'},
+      {era:'Era 1',num:'001',title:'The Declaration',chars:'Conrad × Aurora × Charlotte',img:'media/america_250/era_01/comic_001/TH_A250_001_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_001/TH_A250_001_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'002',title:'The Debt That Built a Nation',chars:'Conrad × Aurora',img:'media/america_250/era_01/comic_002/TH_A250_002_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_002/TH_A250_002_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'005',title:'The Empire Test',chars:'Charlotte × Conrad × Aurora',img:'media/america_250/era_01/comic_005/TH_A250_005_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_005/TH_A250_005_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'007',title:'The Buttonwood Agreement',chars:'Aurora × Conrad × Charlotte',img:'media/america_250/era_01/comic_007/TH_A250_007_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_007/TH_A250_007_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'010',title:'The First Transfer of Power',chars:'Conrad × Charlotte',img:'media/america_250/era_01/comic_010/TH_A250_ERA01_010_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_01/comic_010/TH_A250_010_FINAL_ASSEMBLY.html'},
+      {era:'Era 1',num:'012',title:'The Embargo',chars:'Conrad × Charlotte × Aurora',img:'media/america_250/era_01/comic_012/TH_A250_ERA01_012_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_01/comic_012/TH_A250_012_FINAL_ASSEMBLY.html'},
+      {era:'Era 1',num:'013',title:'The Burning of Washington',chars:'Conrad × Charlotte × Aurora',img:'media/america_250/era_01/comic_013/TH_A250_ERA01_013_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_01/comic_013/TH_A250_013_FINAL_ASSEMBLY.html'},{era:'Era 2',num:'014',title:'Gold Changes Everything',chars:'Aurora × Conrad',img:'media/america_250/era_02/comic_014/TH_A250_ERA02_014_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_02/comic_014/TH_A250_014_FINAL_ASSEMBLY.html'},
     ],
     videos:[],
     rels:[
@@ -4018,19 +3799,19 @@ const CHARS = {
     ],
     episodes:[{code:'S4E03',title:'The First Meeting',role:'Lead — confronts Wei for the first time at The Exchange'}],
     comics:[
-      {era:'Era 1',num:'001',title:'The Declaration',chars:'Conrad × Aurora × Charlotte',img:'comics/001/comic.jpg',url:'comics/001/comic.jpg'},
-      {era:'Era 1',num:'002',title:'The Debt That Built a Nation',chars:'Conrad × Aurora',img:'comics/002/comic.jpg',url:'comics/002/comic.jpg'},
-      {era:'Era 1',num:'003',title:'Hamilton Invents the Future',chars:'Aurora × Charlotte × Conrad',img:'comics/003/comic.jpg',url:'comics/003/comic.jpg'},
-      {era:'Era 1',num:'004',title:'The Louisiana Purchase',chars:'Conrad × Aurora × Charlotte × Isabelle',img:'comics/004/comic.jpg',url:'comics/004/comic.jpg'},
-      {era:'Era 1',num:'005',title:'The Empire Test',chars:'Charlotte × Conrad × Aurora',img:'comics/005/comic.jpg',url:'comics/005/comic.jpg'},
-      {era:'Era 1',num:'006',title:'The Constitutional Convention',chars:'Conrad × Charlotte × Aurora',img:'comics/006/comic.jpg',url:'comics/006/comic.jpg'},
-      {era:'Era 1',num:'007',title:'The Buttonwood Agreement',chars:'Aurora × Conrad × Charlotte',img:'comics/007/comic.jpg',url:'comics/007/comic.jpg'},
-      {era:'Era 1',num:'008',title:'The Whiskey Rebellion',chars:'Conrad × Charlotte',img:'comics/008/comic.jpg',url:'comics/008/index.html'},
-      {era:'Era 1',num:'009',title:'The Alien and Sedition Acts',chars:'Conrad × Charlotte',img:'comics/009/comic.jpg',url:'comics/009/comic.jpg'},
-      {era:'Era 1',num:'010',title:'The First Transfer of Power',chars:'Conrad × Charlotte',img:'comics/010/comic.jpg',url:'comics/010/index.html'},
+      {era:'Era 1',num:'001',title:'The Declaration',chars:'Conrad × Aurora × Charlotte',img:'media/america_250/era_01/comic_001/TH_A250_001_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_001/TH_A250_001_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'002',title:'The Debt That Built a Nation',chars:'Conrad × Aurora',img:'media/america_250/era_01/comic_002/TH_A250_002_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_002/TH_A250_002_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'003',title:'Hamilton Invents the Future',chars:'Aurora × Charlotte × Conrad',img:'media/america_250/era_01/comic_003/TH_A250_003_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_003/TH_A250_003_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'004',title:'The Louisiana Purchase',chars:'Conrad × Aurora × Charlotte × Isabelle',img:'media/america_250/era_01/comic_004/TH_A250_004_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_004/TH_A250_004_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'005',title:'The Empire Test',chars:'Charlotte × Conrad × Aurora',img:'media/america_250/era_01/comic_005/TH_A250_005_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_005/TH_A250_005_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'006',title:'The Constitutional Convention',chars:'Conrad × Charlotte × Aurora',img:'media/america_250/era_01/comic_006/TH_A250_006_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_006/TH_A250_006_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'007',title:'The Buttonwood Agreement',chars:'Aurora × Conrad × Charlotte',img:'media/america_250/era_01/comic_007/TH_A250_007_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_007/TH_A250_007_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'008',title:'The Whiskey Rebellion',chars:'Conrad × Charlotte',img:'media/america_250/era_01/comic_008/TH_A250_008_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_008/TH_A250_008_FINAL_ASSEMBLY.html'},
+      {era:'Era 1',num:'009',title:'The Alien and Sedition Acts',chars:'Conrad × Charlotte',img:'media/america_250/era_01/comic_009/TH_A250_009_FINAL_COMIC.jpg',url:'media/america_250/era_01/comic_009/TH_A250_009_FINAL_COMIC.jpg'},
+      {era:'Era 1',num:'010',title:'The First Transfer of Power',chars:'Conrad × Charlotte',img:'media/america_250/era_01/comic_010/TH_A250_ERA01_010_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_01/comic_010/TH_A250_010_FINAL_ASSEMBLY.html'},
       {era:'Era 1',num:'011',title:'The Duel',chars:'Conrad',img:'media/america_250/era_01/comic_011_the_duel_with_intro.jpeg',url:'https://www.jenova.ai/f/file_01kse4rv14hg2xkadske75waaz.jpeg'},
-      {era:'Era 1',num:'012',title:'The Embargo',chars:'Conrad × Charlotte × Aurora',img:'comics/012/comic.jpg',url:'comics/012/index.html'},
-      {era:'Era 1',num:'013',title:'The Burning of Washington',chars:'Conrad × Charlotte × Aurora',img:'comics/013/comic.jpg',url:'comics/013/index.html'},{era:'Era 2',num:'014',title:'Gold Changes Everything',chars:'Aurora × Conrad',img:'media/america_250/era_02/comic_014/TH_A250_ERA02_014_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_02/comic_014/TH_A250_014_FINAL_ASSEMBLY.html'},
+      {era:'Era 1',num:'012',title:'The Embargo',chars:'Conrad × Charlotte × Aurora',img:'media/america_250/era_01/comic_012/TH_A250_ERA01_012_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_01/comic_012/TH_A250_012_FINAL_ASSEMBLY.html'},
+      {era:'Era 1',num:'013',title:'The Burning of Washington',chars:'Conrad × Charlotte × Aurora',img:'media/america_250/era_01/comic_013/TH_A250_ERA01_013_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_01/comic_013/TH_A250_013_FINAL_ASSEMBLY.html'},{era:'Era 2',num:'014',title:'Gold Changes Everything',chars:'Aurora × Conrad',img:'media/america_250/era_02/comic_014/TH_A250_ERA02_014_PANEL00_MULTI_V01.jpg',url:'media/america_250/era_02/comic_014/TH_A250_014_FINAL_ASSEMBLY.html'},
     ],
     videos:[
       {title:'Conrad Powers — Character Reel',desc:'The dollar personified. Authority. Consequence. Eight decades of dominance.',path:'media/videos/conrad/CONRAD_master.mp4'},
@@ -7609,7 +7390,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')fpClose();})
           <div class="a250-card-beat">Conrad is born — not as a man, but as a presumption. He doesn't yet know he exists. Aurora, sitting in a Paris salon half a world away, feels him the way one feels a draft from an opened door. Charlotte, across the Channel, refuses to look up from her tea.</div>
           <div class="a250-card-room">A Paris drawing room at dusk. Beeswax candles guttering against tall windows. The smell of bergamot and old velvet. A harpsichord untouched in the corner. Aurora wears a gown the color of nothing, her hair so pale it catches the candlelight and gives it back doubled.</div>
           <div class="a250-card-line">AURORA (to no one, turning a coin between her fingers): &quot;Someone in the colonies just promised something they cannot afford. I felt it. Like a man drawing his first breath in a room I am not in.&quot;</div>
-          <div class="a250-card-line" style="margin-top:10px;color:#C9A84C"><strong>Available now</strong> &nbsp;&middot;&nbsp; <a href="comics/001/index.html" target="_blank" style="color:#C9A84C;text-decoration:underline">&rarr; Read the full comic</a></div>
+          <div class="a250-card-line" style="margin-top:10px;color:#C9A84C"><strong>Available now</strong> &nbsp;&middot;&nbsp; <a href="TH_A250_001_FINAL_ASSEMBLY.html" target="_blank" style="color:#C9A84C;text-decoration:underline">&rarr; Read the full comic</a></div>
           <a href="media/america_250/panels/panels_001/panel_00_intro_card.jpeg" target="_blank" class="a250-card-comic-thumb ">
             <img src="media/america_250/panels/panels_001/panel_00_intro_card.jpeg" alt="Comic #001 — The Declaration" loading="lazy" />
             <div class="a250-card-comic-thumb-label">✦ View Comic #001 — Drama Regen</div>
@@ -7642,14 +7423,14 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')fpClose();})
           <div class="a250-card-beat">Conrad discovers, for the first time, that he can have something before he has earned it. The shame of asking is eclipsed by the thrill of receiving. He will spend the next two hundred and fifty years chasing that feeling.</div>
           <div class="a250-card-room">A cramped countinghouse in Philadelphia. Tallow candles. Ledgers open like wounds. The smell of ink, tobacco, sweat through wool. Outside, a slow autumn rain ruining the dispatches before they reach the door.</div>
           <div class="a250-card-line">CONRAD (alone, reading the French terms by candlelight, hand trembling): &quot;So this is what a future tastes like. Borrowed. And sweeter for it.&quot;</div>
-          <div class="a250-card-line" style="margin-top:10px;color:#C9A84C"><strong>Available now</strong> &nbsp;&middot;&nbsp; <a href="comics/002/index.html" target="_blank" style="color:#C9A84C;text-decoration:underline">&rarr; Read the full comic</a></div>
-          <a href="comics/002/comic.jpg" target="_blank" class="a250-card-comic-thumb ">
-            <img src="comics/002/comic.jpg" alt="Comic #002 — The Debt That Built a Nation" loading="lazy" />
+          <div class="a250-card-line" style="margin-top:10px;color:#C9A84C"><strong>Available now</strong> &nbsp;&middot;&nbsp; <a href="TH_A250_002_FINAL_ASSEMBLY.html" target="_blank" style="color:#C9A84C;text-decoration:underline">&rarr; Read the full comic</a></div>
+          <a href="media/america_250/panels/panels_002/002_page_00_intro.jpeg" target="_blank" class="a250-card-comic-thumb ">
+            <img src="media/america_250/panels/panels_002/002_page_00_intro.jpeg" alt="Comic #002 — The Debt That Built a Nation" loading="lazy" />
             <div class="a250-card-comic-thumb-label">✦ View Comic #002 — Drama Regen</div>
           </a>
           <div class="a250-card-boords"><span class="a250-boords-btn" onclick="window.open('https://app.boords.com/storyboards/dkg8xm-002-the-debt-that-built-a-nation-era-01','_blank')">▣ Storyboard in Boords ↗</span></div>
           <div class="a250-panel-strip">
-            <a href="comics/002/comic.jpg" target="_blank"><img src="comics/002/comic.jpg" alt="Intro Card" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_002/002_page_00_intro.jpeg" target="_blank"><img src="media/america_250/panels/panels_002/002_page_00_intro.jpeg" alt="Intro Card" loading="lazy" /></a>
             <a href="media/america_250/panels/panels_002/002_page_02_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_002/002_page_02_regen.jpeg" alt="Page 2" loading="lazy" /></a>
             <a href="media/america_250/panels/panels_002/002_page_03_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_002/002_page_03_regen.jpeg" alt="Page 3" loading="lazy" /></a>
             <a href="media/america_250/panels/panels_002/002_page_04_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_002/002_page_04_regen.jpeg" alt="Page 4" loading="lazy" /></a>
@@ -7671,14 +7452,14 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')fpClose();})
           <div class="a250-card-beat">Aurora finally crosses the Atlantic — not in body, but in attention. She has watched empires invent gold-backed promises before. She has never seen one invent the promise first and look for the gold later. It frightens her in a way she will not name. Charlotte calls it a parlor trick.</div>
           <div class="a250-card-room">A salon in Philadelphia. New mahogany still smelling of varnish. Candles in silver holders that are too new to have stories. Hamilton's papers spread like a fan. Aurora stands at the window. Her reflection is brighter than the snow outside.</div>
           <div class="a250-card-line">AURORA (quietly, to Charlotte, who has just laughed): &quot;Don't. He has just taught a child how to build a city out of words. The dangerous ones always start with words.&quot;</div>
-          <div class="a250-card-line" style="margin-top:10px;color:#C9A84C"><strong>Available now</strong> &nbsp;&middot;&nbsp; <a href="comics/003/index.html" target="_blank" style="color:#C9A84C;text-decoration:underline">&rarr; Read the full comic</a></div>
-          <a href="comics/003/comic.jpg" target="_blank" class="a250-card-comic-thumb ">
-            <img src="comics/003/comic.jpg" alt="Comic #003 — Hamilton Invents the Future" loading="lazy" />
+          <div class="a250-card-line" style="margin-top:10px;color:#C9A84C"><strong>Available now</strong> &nbsp;&middot;&nbsp; <a href="TH_A250_003_FINAL_ASSEMBLY.html" target="_blank" style="color:#C9A84C;text-decoration:underline">&rarr; Read the full comic</a></div>
+          <a href="media/america_250/panels/panels_003/003_page_00_intro.jpeg" target="_blank" class="a250-card-comic-thumb ">
+            <img src="media/america_250/panels/panels_003/003_page_00_intro.jpeg" alt="Comic #003 — Hamilton Invents the Future" loading="lazy" />
             <div class="a250-card-comic-thumb-label">✦ View Comic #003 — Drama Regen</div>
           </a>
           <div class="a250-card-boords"><span class="a250-boords-btn" onclick="window.open('https://app.boords.com/storyboards/3km61d-003-hamilton-invents-the-future-era-01','_blank')">▣ Storyboard in Boords ↗</span></div>
           <div class="a250-panel-strip">
-            <a href="comics/003/comic.jpg" target="_blank"><img src="comics/003/comic.jpg" alt="Intro Card" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_003/003_page_00_intro.jpeg" target="_blank"><img src="media/america_250/panels/panels_003/003_page_00_intro.jpeg" alt="Intro Card" loading="lazy" /></a>
             <a href="media/america_250/panels/panels_003/003_page_03_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_003/003_page_03_regen.jpeg" alt="Page 3" loading="lazy" /></a>
             <a href="media/america_250/panels/panels_003/003_page_04_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_003/003_page_04_regen.jpeg" alt="Page 4" loading="lazy" /></a>
             <a href="media/america_250/panels/panels_003/003_page_05_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_003/003_page_05_regen.jpeg" alt="Page 5" loading="lazy" /></a>
@@ -7706,7 +7487,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')fpClose();})
           </a>
           <div class="a250-card-boords"><span class="a250-boords-btn" onclick="window.open('https://app.boords.com/storyboards/7n1mxk-004-the-louisiana-purchase-era-01','_blank')">▣ Storyboard in Boords ↗</span></div>
           <div class="a250-panel-strip">
-            <a href="comics/004/comic.jpg" target="_blank"><img src="comics/004/comic.jpg" alt="Intro Card" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_004/004_page_00_intro.jpeg" target="_blank"><img src="media/america_250/panels/panels_004/004_page_00_intro.jpeg" alt="Intro Card" loading="lazy" /></a>
             <a href="media/america_250/panels/panels_004/004_page_01_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_004/004_page_01_regen.jpeg" alt="9-Panel Comic" loading="lazy" /></a>
           </div>
           <div class="a250-panel-strip-label">✦ Drama Regen · intro card + 9-panel composite · click to expand</div>
@@ -7729,7 +7510,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')fpClose();})
           </a>
           <div class="a250-card-boords"><span class="a250-boords-btn" onclick="window.open('https://app.boords.com/storyboards/nxljw8-005-the-empire-test-era-01','_blank')">▣ Storyboard in Boords ↗</span></div>
           <div class="a250-panel-strip">
-            <a href="comics/005/comic.jpg" target="_blank"><img src="comics/005/comic.jpg" alt="Intro Card" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_005/005_page_00_intro.jpeg" target="_blank"><img src="media/america_250/panels/panels_005/005_page_00_intro.jpeg" alt="Intro Card" loading="lazy" /></a>
             <a href="media/america_250/panels/panels_005/005_page_01_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_005/005_page_01_regen.jpeg" alt="9-Panel Comic" loading="lazy" /></a>
           </div>
           <div class="a250-panel-strip-label">✦ Drama Regen · intro card + 9-panel composite · click to expand</div>
@@ -7769,14 +7550,14 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')fpClose();})
           <div class="a250-card-beat">The Exchange is born — and Aurora is the first thing traded on it. She finds this neither flattering nor offensive. She finds it inevitable. Conrad mistakes her presence for endorsement. She lets him. There is more to learn from a man's misunderstanding than from his accuracy.</div>
           <div class="a250-card-room">A spring afternoon on Wall Street. The buttonwood tree casting a lattice of new green shadow. The smell of horse, river mud, fresh-cut lumber from the wharves. Twenty-four men in coats too warm for the weather, signing a single sheet of paper that none of them will read aloud.</div>
           <div class="a250-card-line">AURORA (watching from the steps of a coffeehouse across the street, to herself): &quot;They think they are founding a market. They are founding the room where every grief of theirs will be priced.&quot;</div>
-          <a href="comics/007/comic.jpg" target="_blank" class="a250-card-comic-thumb ">
-            <img src="comics/007/comic.jpg" alt="Comic #007 — The Buttonwood Agreement" loading="lazy" />
+          <a href="media/america_250/panels/panels_007/007_page_01_regen.jpeg" target="_blank" class="a250-card-comic-thumb ">
+            <img src="media/america_250/panels/panels_007/007_page_01_regen.jpeg" alt="Comic #007 — The Buttonwood Agreement" loading="lazy" />
             <div class="a250-card-comic-thumb-label">✦ View Comic #007 — Drama Regen</div>
           </a>
           <div class="a250-card-boords"><span class="a250-boords-btn" onclick="window.open('https://app.boords.com/storyboards/von4dw-007-the-buttonwood-agreement-era-01','_blank')">▣ Storyboard in Boords ↗</span></div>
           <div class="a250-panel-strip">
-            <a href="comics/007/comic.jpg" target="_blank"><img src="comics/007/comic.jpg" alt="Intro Card" loading="lazy" /></a>
-            <a href="comics/007/comic.jpg" target="_blank"><img src="comics/007/comic.jpg" alt="9-Panel Comic" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_007/007_page_00_intro.jpeg" target="_blank"><img src="media/america_250/panels/panels_007/007_page_00_intro.jpeg" alt="Intro Card" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_007/007_page_01_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_007/007_page_01_regen.jpeg" alt="9-Panel Comic" loading="lazy" /></a>
           </div>
           <div class="a250-panel-strip-label">✦ Drama Regen · intro card + 9-panel composite · click to expand</div>
         </div>
@@ -7792,14 +7573,14 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')fpClose();})
           <div class="a250-card-beat">Conrad learns, with a sickness in his stomach, that the people he is made of will not pay him simply because he asked. Taxation is not authority. It is intimacy. It is a relationship that must be maintained, flattered, occasionally threatened. He had thought it was an order. It is a marriage.</div>
           <div class="a250-card-room">A muddy field in western Pennsylvania. Mist rising off the still being smashed by federal axes. The smell of mash, woodsmoke, fear-sweat under flannel. A militia drummer too young to shave, keeping a beat for men older than his father.</div>
           <div class="a250-card-line">CONRAD (looking at a farmer who will not meet his eye): &quot;I thought I was your country. It turns out I am your landlord. I will have to learn the difference before you teach it to me the hard way.&quot;</div>
-          <a href="comics/008/comic.jpg" target="_blank" class="a250-card-comic-thumb ">
-            <img src="comics/008/comic.jpg" alt="Comic #008 — The Whiskey Rebellion" loading="lazy" />
+          <a href="media/america_250/panels/panels_008/008_page_01_regen.jpeg" target="_blank" class="a250-card-comic-thumb ">
+            <img src="media/america_250/panels/panels_008/008_page_01_regen.jpeg" alt="Comic #008 — The Whiskey Rebellion" loading="lazy" />
             <div class="a250-card-comic-thumb-label">✦ View Comic #008 — Drama Regen</div>
           </a>
           <div class="a250-card-boords"><span class="a250-boords-btn" onclick="window.open('https://app.boords.com/storyboards/l4ywr4-008-the-whiskey-rebellion-era-01','_blank')">▣ Storyboard in Boords ↗</span></div>
           <div class="a250-panel-strip">
-            <a href="comics/008/comic.jpg" target="_blank"><img src="comics/008/comic.jpg" alt="Intro Card" loading="lazy" /></a>
-            <a href="comics/008/comic.jpg" target="_blank"><img src="comics/008/comic.jpg" alt="9-Panel Comic" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_008/008_page_00_intro.jpeg" target="_blank"><img src="media/america_250/panels/panels_008/008_page_00_intro.jpeg" alt="Intro Card" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_008/008_page_01_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_008/008_page_01_regen.jpeg" alt="9-Panel Comic" loading="lazy" /></a>
           </div>
           <div class="a250-panel-strip-label">✦ Drama Regen · intro card + 9-panel composite · click to expand</div>
         </div>
@@ -7815,14 +7596,14 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')fpClose();})
           <div class="a250-card-beat">Conrad has his first panic attack. He looks around at the people inside him — the French, the Irish, the printers, the dissenters — and he does not recognize his own body. He passes the laws not out of strength but out of the kind of fear that pretends to be strength. Aurora notes that fear has a particular smell, even in a young currency.</div>
           <div class="a250-card-room">A senate chamber in Philadelphia. Oil lamps smoking. The smell of damp wool, ink, the sour-milk note of anxiety. A draft from a window that will not close properly. Outside, a printer being arrested on his own front step.</div>
           <div class="a250-card-line">AURORA (in a letter, never sent, to Charlotte): &quot;He is afraid of the people inside him. Always note when a country becomes afraid of its own organs. It tells you what year it will eat itself.&quot;</div>
-          <a href="comics/009/comic.jpg" target="_blank" class="a250-card-comic-thumb ">
-            <img src="comics/009/comic.jpg" alt="Comic #009 — The Alien and Sedition Acts" loading="lazy" />
+          <a href="media/america_250/panels/panels_009/009_page_01_regen.jpeg" target="_blank" class="a250-card-comic-thumb ">
+            <img src="media/america_250/panels/panels_009/009_page_01_regen.jpeg" alt="Comic #009 — The Alien and Sedition Acts" loading="lazy" />
             <div class="a250-card-comic-thumb-label">✦ View Comic #009 — Drama Regen</div>
           </a>
           <div class="a250-card-boords"><span class="a250-boords-btn" onclick="window.open('https://app.boords.com/storyboards/8ml7y9-009-the-alien-and-sedition-acts-era-01','_blank')">▣ Storyboard in Boords ↗</span></div>
           <div class="a250-panel-strip">
-            <a href="comics/009/comic.jpg" target="_blank"><img src="comics/009/comic.jpg" alt="Intro Card" loading="lazy" /></a>
-            <a href="comics/009/comic.jpg" target="_blank"><img src="comics/009/comic.jpg" alt="9-Panel Comic" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_009/009_page_00_intro.jpeg" target="_blank"><img src="media/america_250/panels/panels_009/009_page_00_intro.jpeg" alt="Intro Card" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_009/009_page_01_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_009/009_page_01_regen.jpeg" alt="9-Panel Comic" loading="lazy" /></a>
           </div>
           <div class="a250-panel-strip-label">✦ Drama Regen · intro card + 9-panel composite · click to expand</div>
         </div>
@@ -7838,14 +7619,14 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')fpClose();})
           <div class="a250-card-beat">Conrad does something no empire has done before — he hands himself, voluntarily, from one man to another, without a body falling. Charlotte, who has watched four hundred years of crowns require corpses to change heads, cannot quite believe it. For the first time, she wonders if Conrad is not temporary.</div>
           <div class="a250-card-room">A drafty room in the half-finished President's House. Plaster still drying on the walls. The smell of wet lime, cold ash in the grate, a single cup of weak coffee gone tepid. Adams putting on his hat by candlelight at four in the morning, before anyone can watch him leave.</div>
           <div class="a250-card-line">CHARLOTTE (reading the dispatch in London, very still): &quot;No one died. He simply walked out. I think — I think I may have miscounted him.&quot;</div>
-          <a href="comics/010/comic.jpg" target="_blank" class="a250-card-comic-thumb ">
-            <img src="comics/010/comic.jpg" alt="Comic #010 — The First Transfer of Power" loading="lazy" />
+          <a href="media/america_250/panels/panels_010/010_page_01_regen.jpeg" target="_blank" class="a250-card-comic-thumb ">
+            <img src="media/america_250/panels/panels_010/010_page_01_regen.jpeg" alt="Comic #010 — The First Transfer of Power" loading="lazy" />
             <div class="a250-card-comic-thumb-label">✦ View Comic #010 — Drama Regen</div>
           </a>
           <div class="a250-card-boords"><span class="a250-boords-btn" onclick="window.open('https://app.boords.com/storyboards/1274z7-010-the-first-transfer-of-power-era-01','_blank')">▣ Storyboard in Boords ↗</span></div>
           <div class="a250-panel-strip">
-            <a href="comics/010/comic.jpg" target="_blank"><img src="comics/010/comic.jpg" alt="Intro Card" loading="lazy" /></a>
-            <a href="comics/010/comic.jpg" target="_blank"><img src="comics/010/comic.jpg" alt="9-Panel Comic" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_010/010_page_00_intro.jpeg" target="_blank"><img src="media/america_250/panels/panels_010/010_page_00_intro.jpeg" alt="Intro Card" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_010/010_page_01_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_010/010_page_01_regen.jpeg" alt="9-Panel Comic" loading="lazy" /></a>
           </div>
           <div class="a250-panel-strip-label">✦ Drama Regen · intro card + 9-panel composite · click to expand</div>
         </div>
@@ -7861,14 +7642,14 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')fpClose();})
           <div class="a250-card-beat">The man who wrote Conrad's architecture is shot dead by the man who first taught Conrad to want power. Conrad survives them both, and the survival feels like theft. He will spend two centuries pretending he chose Hamilton's vision. He didn't. He inherited it from a corpse.</div>
           <div class="a250-card-room">A grass ledge above the Hudson at dawn. Mist on the water like a held breath. The smell of river salt and gunpowder. Two pairs of polished boots making prints in the dew. A surgeon waiting at a respectful distance with his back turned.</div>
           <div class="a250-card-line">CONRAD (years later, alone in the Treasury, to a portrait of Hamilton): &quot;You gave me a spine. He gave me a hunger. I have spent every day since trying to forgive myself for needing both of you.&quot;</div>
-          <a href="comics/011/comic.jpg" target="_blank" class="a250-card-comic-thumb ">
-            <img src="comics/011/comic.jpg" alt="Comic #011 — The Duel" loading="lazy" />
+          <a href="media/america_250/panels/panels_011/011_page_01_regen.jpeg" target="_blank" class="a250-card-comic-thumb ">
+            <img src="media/america_250/panels/panels_011/011_page_01_regen.jpeg" alt="Comic #011 — The Duel" loading="lazy" />
             <div class="a250-card-comic-thumb-label">✦ View Comic #011 — Drama Regen</div>
           </a>
           <div class="a250-card-boords"><span class="a250-boords-btn" onclick="window.open('https://app.boords.com/storyboards/meyn3o-011-the-duel-era-01','_blank')">▣ Storyboard in Boords ↗</span></div>
           <div class="a250-panel-strip">
-            <a href="comics/011/comic.jpg" target="_blank"><img src="comics/011/comic.jpg" alt="Intro Card" loading="lazy" /></a>
-            <a href="comics/011/comic.jpg" target="_blank"><img src="comics/011/comic.jpg" alt="9-Panel Comic" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_011/011_page_00_intro.jpeg" target="_blank"><img src="media/america_250/panels/panels_011/011_page_00_intro.jpeg" alt="Intro Card" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_011/011_page_01_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_011/011_page_01_regen.jpeg" alt="9-Panel Comic" loading="lazy" /></a>
           </div>
           <div class="a250-panel-strip-label">✦ Drama Regen · intro card + 9-panel composite · click to expand</div>
         </div>
@@ -7884,14 +7665,14 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')fpClose();})
           <div class="a250-card-beat">Conrad tries to wound Europe by refusing to feed it. He learns that withholding only works if the other person was hungry. Charlotte was not hungry. Conrad starves his own harbors. It is his first lesson in the geometry of leverage: you can only deny what someone wanted in the first place.</div>
           <div class="a250-card-room">A New England dock at low tide. Ships rotting at anchor in a row, sails furled, hulls greening below the waterline. The smell of tar, dead fish, rope mildewing in coils. A dockmaster's ledger blank for the third month running.</div>
           <div class="a250-card-line">AURORA (to Conrad, who has come to her late at night, ashamed): &quot;Darling. You cannot punish a woman by leaving a room she had already decided to leave.&quot;</div>
-          <a href="comics/012/comic.jpg" target="_blank" class="a250-card-comic-thumb ">
-            <img src="comics/012/comic.jpg" alt="Comic #012 — The Embargo" loading="lazy" />
+          <a href="media/america_250/panels/panels_012/012_page_01_regen.jpeg" target="_blank" class="a250-card-comic-thumb ">
+            <img src="media/america_250/panels/panels_012/012_page_01_regen.jpeg" alt="Comic #012 — The Embargo" loading="lazy" />
             <div class="a250-card-comic-thumb-label">✦ View Comic #012 — Drama Regen</div>
           </a>
           <div class="a250-card-boords"><span class="a250-boords-btn" onclick="window.open('https://app.boords.com/storyboards/dkg8ly-012-the-embargo-era-01','_blank')">▣ Storyboard in Boords ↗</span></div>
           <div class="a250-panel-strip">
-            <a href="comics/012/comic.jpg" target="_blank"><img src="comics/012/comic.jpg" alt="Intro Card" loading="lazy" /></a>
-            <a href="comics/012/comic.jpg" target="_blank"><img src="comics/012/comic.jpg" alt="9-Panel Comic" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_012/012_page_00_intro.jpeg" target="_blank"><img src="media/america_250/panels/panels_012/012_page_00_intro.jpeg" alt="Intro Card" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_012/012_page_01_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_012/012_page_01_regen.jpeg" alt="9-Panel Comic" loading="lazy" /></a>
           </div>
           <div class="a250-panel-strip-label">✦ Drama Regen · intro card + 9-panel composite · click to expand</div>
         </div>
@@ -7907,14 +7688,14 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')fpClose();})
           <div class="a250-card-beat">Charlotte walks into Conrad's house and sets it on fire — not in rage, but in housekeeping. She is tidying up an experiment she still believes will be canceled. Conrad watches the smoke from a hill outside the city and understands, with a clarity that will define the next century, that survival is not the same as being respected. He will have to become something Charlotte cannot tidy.</div>
           <div class="a250-card-room">A hill east of Washington at twilight. The capital below burning in three places — the President's House, the Capitol, the Navy Yard — each fire a different color against the August sky. The smell of woodsmoke, paper ash, river damp. A horse pawing the ground because it cannot understand why no one is moving.</div>
           <div class="a250-card-line">CONRAD (watching the fires reflect in his own eyes, very quiet): &quot;Burn it. Burn all of it. You have just taught me that I am the only one who can decide whether I exist tomorrow.&quot;</div>
-          <a href="comics/013/comic.jpg" target="_blank" class="a250-card-comic-thumb ">
-            <img src="comics/013/comic.jpg" alt="Comic #013 — The Burning of Washington" loading="lazy" />
+          <a href="media/america_250/panels/panels_013/013_page_01_regen.jpeg" target="_blank" class="a250-card-comic-thumb ">
+            <img src="media/america_250/panels/panels_013/013_page_01_regen.jpeg" alt="Comic #013 — The Burning of Washington" loading="lazy" />
             <div class="a250-card-comic-thumb-label">✦ View Comic #013 — Drama Regen</div>
           </a>
           <div class="a250-card-boords"><span class="a250-boords-btn" onclick="window.open('https://app.boords.com/storyboards/7n1myk-013-the-burning-of-washington-era-01','_blank')">▣ Storyboard in Boords ↗</span></div>
           <div class="a250-panel-strip">
-            <a href="comics/013/comic.jpg" target="_blank"><img src="comics/013/comic.jpg" alt="Intro Card" loading="lazy" /></a>
-            <a href="comics/013/comic.jpg" target="_blank"><img src="comics/013/comic.jpg" alt="9-Panel Comic" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_013/013_page_00_intro.jpeg" target="_blank"><img src="media/america_250/panels/panels_013/013_page_00_intro.jpeg" alt="Intro Card" loading="lazy" /></a>
+            <a href="media/america_250/panels/panels_013/013_page_01_regen.jpeg" target="_blank"><img src="media/america_250/panels/panels_013/013_page_01_regen.jpeg" alt="9-Panel Comic" loading="lazy" /></a>
           </div>
           <div class="a250-panel-strip-label">✦ Drama Regen · intro card + 9-panel composite · click to expand</div>
         </div>
@@ -10808,14 +10589,6 @@ document.addEventListener('keydown', function(e) {
 @media(max-width:720px){.ths-full-grid{grid-template-columns:1fr}.ths-items{grid-template-columns:1fr}}
 </style>
 
-<!-- THE UNDERGROUND FIRST. CEO 2026-07-14: the Underground is far more interactive than the
-     flat world map, so it leads; the map is demoted below it. -->
-<section id="thtimeline"><div class="th-wrap">
-  <p class="th-ey">Living Timeline</p>
-  <h2 class="th-h">600 BCE → today, in one line</h2>
-  <p class="th-s">Pull the thread anywhere and the whole fabric moves. Every date is owned by a character.</p>
-<style>.tht-ev.tht-has{cursor:pointer;transition:transform .2s}.tht-ev.tht-has:hover{transform:translateY(-4px)}.tht-ev.tht-has:hover .tht-yr{color:#E8C97A}.tht-go{margin-top:8px;font:600 .5rem/1.3 -apple-system;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}.tht-soon{margin-top:8px;font:600 .5rem/1.3 -apple-system;letter-spacing:.14em;text-transform:uppercase;color:rgba(250,247,242,.28)}</style></div><div class="tht-scroll"><div class="tht-line" id="thtLine"></div></div></section>
-
 <section id="thworld"><div class="th-wrap">
   <p class="th-ey">Interactive World</p>
   <h2 class="th-h">Every country, a currency character</h2>
@@ -10861,6 +10634,12 @@ document.addEventListener('keydown', function(e) {
   })();
   </script>
 </div></section>
+
+<section id="thtimeline"><div class="th-wrap">
+  <p class="th-ey">Living Timeline</p>
+  <h2 class="th-h">600 BCE → today, in one line</h2>
+  <p class="th-s">Pull the thread anywhere and the whole fabric moves. Every date is owned by a character.</p>
+<style>.tht-ev.tht-has{cursor:pointer;transition:transform .2s}.tht-ev.tht-has:hover{transform:translateY(-4px)}.tht-ev.tht-has:hover .tht-yr{color:#E8C97A}.tht-go{margin-top:8px;font:600 .5rem/1.3 -apple-system;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}.tht-soon{margin-top:8px;font:600 .5rem/1.3 -apple-system;letter-spacing:.14em;text-transform:uppercase;color:rgba(250,247,242,.28)}</style></div><div class="tht-scroll"><div class="tht-line" id="thtLine"></div></div></section>
 
 <section id="thsources"><div class="th-wrap">
   <p class="th-ey">Provenance</p>
@@ -11041,9 +10820,9 @@ g.innerHTML=html;
 <script>
   // TH membership — Stripe payment links (SANDBOX). Replace with LIVE links at go-live.
   var TH_PLANS = {
-    reader:  { m:'subscribe.html?plan=reader_m', y:'subscribe.html?plan=reader_y', pm:'$6.99',  py:'$69'  },
-    insider: { m:'subscribe.html?plan=insider_m', y:'subscribe.html?plan=insider_y', pm:'$12.99', py:'$129' },
-    founder: { m:'subscribe.html?plan=founder_m', y:'subscribe.html?plan=founder_y', pm:'$29.99', py:'$299' }
+    reader:  { m:'https://buy.stripe.com/14AfZh4MCd2U9P1fMW9fW06', y:'https://buy.stripe.com/6oU5kDbb0gf6gdp44e9fW07', pm:'$6.99',  py:'$69'  },
+    insider: { m:'https://buy.stripe.com/14A3cv2Eugf62mz7gq9fW08', y:'https://buy.stripe.com/eVqcN5bb08MEbX9gR09fW09', pm:'$12.99', py:'$129' },
+    founder: { m:'https://buy.stripe.com/28E6oH0wm1kc3qD1W69fW0a', y:'https://buy.stripe.com/00wfZha6W7IAgdpasC9fW0b', pm:'$29.99', py:'$299' }
   };
   function thCycle(c) {
     document.getElementById('thc-m').style.background = c==='m' ? 'var(--gold)' : '#1d1d24';
@@ -11507,9 +11286,9 @@ g.innerHTML=html;
 </div></div>
 <script id="th-join-js">
 (function(){
-  var P={reader:{m:'subscribe.html?plan=reader_m',y:'subscribe.html?plan=reader_y',pm:'$6.99',py:'$69'},
-         insider:{m:'subscribe.html?plan=insider_m',y:'subscribe.html?plan=insider_y',pm:'$12.99',py:'$129'},
-         founder:{m:'subscribe.html?plan=founder_m',y:'subscribe.html?plan=founder_y',pm:'$29.99',py:'$299'}};
+  var P={reader:{m:'https://buy.stripe.com/14AfZh4MCd2U9P1fMW9fW06',y:'https://buy.stripe.com/6oU5kDbb0gf6gdp44e9fW07',pm:'$6.99',py:'$69'},
+         insider:{m:'https://buy.stripe.com/14A3cv2Eugf62mz7gq9fW08',y:'https://buy.stripe.com/eVqcN5bb08MEbX9gR09fW09',pm:'$12.99',py:'$129'},
+         founder:{m:'https://buy.stripe.com/28E6oH0wm1kc3qD1W69fW0a',y:'https://buy.stripe.com/00wfZha6W7IAgdpasC9fW0b',pm:'$29.99',py:'$299'}};
   window.joinCycle=function(c){
     document.getElementById('jmM').classList.toggle('on',c==='m'); document.getElementById('jmY').classList.toggle('on',c==='y');
     ['reader','insider','founder'].forEach(function(t){var p=P[t];
@@ -11643,25 +11422,6 @@ g.innerHTML=html;
 #thHubOv .hub1 .hubPer .hubPerNm{font-size:1.3rem}
 @media(max-width:760px){#thHubOv .hubHead{flex-direction:column}#thHubOv .hubHeadR{justify-content:flex-start;padding-right:0;max-width:none}}
 #thHubOv .hubQ{margin:22px 0 13px;font:600 .6rem/1 -apple-system;letter-spacing:.24em;text-transform:uppercase;color:rgba(250,247,242,.5);text-align:center}
-/* THE HERO — RIDE THE LINE. The only thing in this card that is an experience and not a link. */
-#thHubOv .hubRideWrap{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:26px 0 4px}
-#thHubOv .hubRideWrap.many .hubRide{flex:1 1 300px;max-width:360px}
-#thHubOv .hubRide{display:flex;align-items:center;gap:16px;cursor:pointer;text-decoration:none;
-  width:min(560px,100%);padding:14px 18px 14px 14px;border-radius:14px;
-  border:1px solid rgba(201,168,76,.45);
-  background:linear-gradient(90deg,rgba(201,168,76,.13),rgba(201,168,76,.04));
-  transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
-#thHubOv .hubRide:hover{transform:translateY(-2px);
-  background:linear-gradient(90deg,rgba(201,168,76,.22),rgba(201,168,76,.07));
-  box-shadow:0 10px 34px rgba(0,0,0,.45)}
-#thHubOv .hubRideImg{flex:0 0 auto;width:64px;height:64px;border-radius:10px;background-size:cover;
-  background-position:center 22%;border:1px solid rgba(201,168,76,.5)}
-#thHubOv .hubRideTxt{display:flex;flex-direction:column;gap:2px;text-align:left;min-width:0}
-#thHubOv .hubRideK{font:700 .58rem/1 -apple-system;letter-spacing:.26em;text-transform:uppercase;color:#C9A84C}
-#thHubOv .hubRideN{font:700 1.35rem/1.15 Georgia,serif;color:#F5EFE2}
-#thHubOv .hubRideA{font:400 .74rem/1.3 -apple-system;color:rgba(250,247,242,.55);
-  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-#thHubOv .hubRideGo{margin-left:auto;font-size:1.5rem;line-height:1;opacity:.85}
 #thHubOv .hubGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
 #thHubOv .hubG{background:#08182b;border:1px solid rgba(201,168,76,.14);border-radius:12px;padding:15px 15px 16px}
 #thHubOv .hubG .gi{font-size:1.25rem;line-height:1}
@@ -11725,90 +11485,25 @@ g.innerHTML=html;
   LINES.forEach(function(l){byk[l.k]=l;col[l.k]=l.c;});
   function esc(s){return (s||'').replace(/&/g,'&amp;');}
   function nm(k){return byk[k]?byk[k].n:k;}
-  /* THE DOOR TO THE UNDERGROUND. One definition, used by the track, the name, and the hub —
-     so there is exactly one answer to "how do I ride a line", and it cannot drift. */
-  window.thRide=function(k){ location.href='underground_'+k+'.html'; };
-
   function metroSVG(){
     var HUBX=1200,FUTX=1380,HY0=250,HDY=15,li={};LINES.forEach(function(l,i){li[l.k]=i;});
     function hubY(i){return HY0+i*HDY;}
     function oc(x1,y1,x2,y2){var dx=x2-x1,dy=y2-y1,adx=Math.abs(dx),ady=Math.abs(dy),sx=dx<0?-1:1,sy=dy<0?-1:1;if(adx>=ady)return ' L'+(x2-sx*ady)+' '+y1+' L'+x2+' '+y2;return ' L'+x1+' '+(y2-sy*adx)+' L'+x2+' '+y2;}
-    /* ── EVERY LINE GETS ITS OWN TRACK ────────────────────────────────────────────────
-       CEO 2026-07-13: "the underground lines are messy. look at conrad — some of them ride
-       over or under others and then they appear later on. all lines have to have their space,
-       and separate lines heading in the same direction should all show in parallel."
-
-       He is describing the bug exactly. Every line was routed through the SAME (px,py) at a
-       shared station, so six lines leaving Bretton Woods together were drawn one on top of
-       another: five of them vanish, and the survivor looks like it teleports when they
-       separate again.
-
-       Real transit maps never do this. A shared station has a PLATFORM PER LINE. The lines run
-       parallel into it, each on its own track, and the station is drawn as one body spanning
-       them. That is what this does: at each station a line's stop is offset perpendicular to
-       travel by its rank among the lines calling there, so nothing is ever hidden under
-       anything else. */
-    var GAP=8;                                   // the space between two parallel tracks
-    function plat(st,k){
-      var ls=st.L.slice().sort(function(a,b){return li[a]-li[b];});
-      var j=ls.indexOf(k), m=ls.length;
-      if(j<0||m<2) return [st.px, st.py];
-      return [st.px, st.py + (j-(m-1)/2)*GAP];   // its own track through this station
-    }
-    function span(st){                            // how tall the station body must be
-      return st.L.length<2 ? 0 : (st.L.length-1)*GAP;
-    }
-    function pathFor(k){
-      var ss=STN.filter(function(z){return z.L.indexOf(k)>=0;}).sort(function(a,b){return a.px-b.px;});
-      var pts=ss.map(function(z){return plat(z,k);});
-      pts.push([HUBX,hubY(li[k])]);
-      var d='M'+pts[0][0]+' '+pts[0][1];
-      for(var i=1;i<pts.length;i++)d+=oc(pts[i-1][0],pts[i-1][1],pts[i][0],pts[i][1]);
-      return d;
-    }
+    function pathFor(k){var ss=STN.filter(function(z){return z.L.indexOf(k)>=0;}).sort(function(a,b){return a.px-b.px;});var pts=ss.map(function(z){return [z.px,z.py];});pts.push([HUBX,hubY(li[k])]);var d='M'+pts[0][0]+' '+pts[0][1];for(var i=1;i<pts.length;i++)d+=oc(pts[i-1][0],pts[i-1][1],pts[i][0],pts[i][1]);return d;}
     var W=1520,H=1010,s='<svg viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMinYMin meet" style="min-width:1200px;width:100%;height:auto;font-family:-apple-system,Segoe UI,Roboto,sans-serif">';
     [[430,'rgba(255,255,255,.02)'],[300,'rgba(255,255,255,.028)'],[170,'rgba(201,168,76,.05)']].forEach(function(z){s+='<circle cx="'+HUBX+'" cy="500" r="'+z[0]+'" fill="'+z[1]+'"/>';});
-    /* ── THE LINE ITSELF IS THE DOOR ──────────────────────────────────────────────────
-       CEO 2026-07-13: "where is the door to each of the lines? i dont find it. it should be
-       in the map itself."
-
-       It was three clicks deep — station → hub → "Live it" → "Ride his line". On a transit map
-       you board a line by touching THE LINE. So: the track and its name are now the door. Click
-       either and you are on the ride.
-
-       A wide invisible stroke sits under each line so it is actually catchable with a mouse —
-       a 3.4px hairline is a target you have to aim at, and a door you have to aim at is a door
-       people do not find. */
-    LINES.forEach(function(l){
-      var d=pathFor(l.k);
-      s+='<path d="'+d+'" fill="none" stroke="transparent" stroke-width="16" style="cursor:pointer" '
-        +'onclick="thRide(\''+l.k+'\')"><title>Ride '+l.n+'’s line — '+l.a+'</title></path>';
-      s+='<path d="'+d+'" fill="none" stroke="'+l.c+'" stroke-width="3.4" stroke-linejoin="round" '
-        +'stroke-linecap="round" opacity="0.9" style="pointer-events:none"/>';
-    });
+    LINES.forEach(function(l){s+='<path d="'+pathFor(l.k)+'" fill="none" stroke="'+l.c+'" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.9"/>';});
     s+='<rect x="'+(HUBX-7)+'" y="'+(hubY(0)-9)+'" width="14" height="'+(hubY(27)-hubY(0)+18)+'" rx="7" fill="#0a1526" stroke="#C9A84C" stroke-width="2.5"/>';
     LINES.forEach(function(l,i){s+='<circle cx="'+HUBX+'" cy="'+hubY(i)+'" r="4.4" fill="'+l.c+'"/>';});
-    /* THE NAME BOARDS THE LINE. On a transit map you get on a line by its name. */
-    LINES.forEach(function(l,i){s+='<text x="'+(HUBX+13)+'" y="'+(hubY(i)+3)+'" fill="'+l.c+'" font-size="8.5" font-weight="600" style="cursor:pointer" onclick="thRide(\''+l.k+'\')"><title>Ride '+l.n+'’s line</title>'+l.n+' ›</text>';});
+    LINES.forEach(function(l,i){s+='<text x="'+(HUBX+13)+'" y="'+(hubY(i)+3)+'" fill="'+l.c+'" font-size="8.5" font-weight="600" style="cursor:pointer" onclick="thMeet(\''+l.k+'\')">'+l.n+'</text>';});
     s+='<line x1="'+HUBX+'" y1="500" x2="'+FUTX+'" y2="500" stroke="#C9A84C" stroke-width="4" stroke-dasharray="3 6"/><circle cx="'+FUTX+'" cy="500" r="8" fill="#0a1526" stroke="#C9A84C" stroke-width="2.5"/>';
-    /* THE STATION IS A BODY, NOT A DOT. An interchange now spans every platform calling there —
-       a white capsule the parallel tracks run into — so you can SEE that six lines meet at
-       Bretton Woods instead of seeing one line and taking it on faith. */
-    STN.forEach(function(st){
-      var h=span(st);
-      if(st.L.length>1){
-        s+='<rect x="'+(st.px-6.5)+'" y="'+(st.py-h/2-6.5)+'" width="13" height="'+(h+13)+'" rx="6.5" '
-          +'fill="#fff" stroke="#243b5e" stroke-width="2"/>';
-      } else {
-        s+='<circle cx="'+st.px+'" cy="'+st.py+'" r="4.6" fill="'+(col[st.L[0]]||'#fff')+'"/>';
-      }
-    });
-    STN.forEach(function(st){s+='<text x="'+st.px+'" y="'+(st.py-span(st)/2-14)+'" text-anchor="middle" fill="#C9A84C" font-size="10" font-weight="600">'+st.y+'</text>';});
+    STN.forEach(function(st){if(st.L.length>1)s+='<circle cx="'+st.px+'" cy="'+st.py+'" r="7" fill="#fff" stroke="#333" stroke-width="2"/>';else s+='<circle cx="'+st.px+'" cy="'+st.py+'" r="4.6" fill="'+(col[st.L[0]]||'#fff')+'"/>';});
+    STN.forEach(function(st){s+='<text x="'+st.px+'" y="'+(st.py-12)+'" text-anchor="middle" fill="#C9A84C" font-size="10" font-weight="600">'+st.y+'</text>';});
     [[0,'alexandros'],[2,'aurora'],[3,'isabella'],[4,'aiko'],[5,'conrad'],[6,'klaus']].forEach(function(o){var st=STN[o[0]],l=byk[o[1]];if(st&&l)s+='<text x="'+st.px+'" y="'+(st.py+17)+'" text-anchor="middle" fill="'+l.c+'" font-size="9" font-weight="600" style="cursor:pointer" onclick="thMeet(\''+o[1]+'\')">'+l.n+'</text>';});
     var PX=70;
     s+='<rect x="'+PX+'" y="498" width="344" height="140" rx="8" fill="rgba(255,255,255,.022)" stroke="rgba(201,168,76,.25)"/><text x="'+(PX+18)+'" y="524" fill="#C9A84C" font-size="11" font-weight="700" letter-spacing="2">HOW TO READ THE MAP</text>';
     var ry=546;
-    s+='<line x1="'+(PX+18)+'" y1="'+ry+'" x2="'+(PX+42)+'" y2="'+ry+'" stroke="#C9A84C" stroke-width="4" stroke-linecap="round"/><text x="'+(PX+52)+'" y="'+(ry+4)+'" fill="#d8d2c4" font-size="10">A line is a character — <tspan fill="#C9A84C" font-weight="700">tap it to ride it</tspan></text>';ry+=21;
+    s+='<line x1="'+(PX+18)+'" y1="'+ry+'" x2="'+(PX+42)+'" y2="'+ry+'" stroke="#C9A84C" stroke-width="4" stroke-linecap="round"/><text x="'+(PX+52)+'" y="'+(ry+4)+'" fill="#d8d2c4" font-size="10">A line is a character — an asset</text>';ry+=21;
     s+='<line x1="'+(PX+30)+'" y1="'+(ry-5)+'" x2="'+(PX+30)+'" y2="'+(ry+5)+'" stroke="#C9A84C" stroke-width="3" stroke-linecap="round"/><text x="'+(PX+52)+'" y="'+(ry+4)+'" fill="#d8d2c4" font-size="10">A station is a real event</text>';ry+=21;
     s+='<circle cx="'+(PX+30)+'" cy="'+ry+'" r="5.5" fill="#fff" stroke="#C9A84C" stroke-width="2"/><text x="'+(PX+52)+'" y="'+(ry+4)+'" fill="#d8d2c4" font-size="10">A white circle is a transfer — many hearts</text>';ry+=21;
     s+='<rect x="'+(PX+27)+'" y="'+(ry-6)+'" width="5" height="12" rx="2.5" fill="#0a1526" stroke="#C9A84C" stroke-width="1.6"/><text x="'+(PX+52)+'" y="'+(ry+4)+'" fill="#d8d2c4" font-size="10">Downtown is TODAY — every line meets</text>';ry+=21;
@@ -11828,11 +11523,6 @@ g.innerHTML=html;
     {i:'🎬',k:'Watch it',items:[{l:'Documentary',tag:'p'},{l:'Animated episode',tag:'s'},{l:'Motion comic',tag:'s'}]},
     {i:'📖',k:'Read it',items:[{l:'Comic',act:st.e?'era':null},{l:'The Saga — novel',act:'saga'},{l:'Historical article',tag:'s'}]},
     {i:'🎧',k:'Hear it',items:[{l:'Character narration',tag:'s'},{l:'Podcast',tag:'s'},{l:'Audio drama',tag:'p'}]},
-    /* RIDE THE LINE is NOT in this grid any more — CEO 2026-07-13: "the RIDE the line option
-       should be in the center TOP. it is the most important LINK, with an image."
-       He is right. It was the one thing here that is a whole experience rather than a link, and
-       it sat at the bottom of a list between a Quiz and a Decision Simulation that don't exist
-       yet. It is now the hero of the card. See thOpenHub. */
     {i:'🎮',k:'Live it',items:[{l:'Explore the map',act:'timeline'},{l:'Quiz',tag:'s'},{l:'Decision simulation',tag:'p'}]},
     {i:'🏛',k:'Explore it',items:[{l:'Museum objects',act:'sources'},{l:'Primary sources',act:'sources'},{l:'World map',act:'map'}]},
     {i:'🧠',k:'Understand it',items:[{l:'Economic impact',tag:'s'},{l:'Political impact',tag:'s'},{l:'Why it still matters',tag:'s'}]}
@@ -11842,24 +11532,7 @@ g.innerHTML=html;
     var chips=st.L.map(function(k){return '<a class="hubPer" data-char="'+k+'"><span class="hubPerDot" style="background:'+(col[k]||'#fff')+'"></span><img class="hubPerPic" alt=""/><span class="hubPerNm">'+nm(k)+'</span></a>';}).join('');
     var gh=groups(st).map(function(g){return '<div class="hubG"><div class="gi">'+g.i+'</div><div class="gk">'+g.k+'</div>'+g.items.map(itemHtml).join('')+'</div>';}).join('');
     var nextI=(i+1<STN.length)?i+1:null;
-    /* ── THE HERO: RIDE THE LINE ──────────────────────────────────────────────────────
-       Every other option in this card is a LINK. This one is the EXPERIENCE — the cinematic
-       flight down that custodian's century, his memories drifting past, his interchanges with
-       the others. It goes at the top, centre, with his face on it.
-       One card per custodian standing on this platform. */
-    var ride=(st.L||[]).map(function(k){
-      var por=(window.CHARS&&window.CHARS[k]&&window.CHARS[k].portrait)||('media/characters/'+k+'/'+k+'_portrait.webp');
-      return '<a class="hubRide" onclick="thRide(\''+k+'\')" style="border-color:'+((col[k]||'#C9A84C')+'55')+'">'
-        +'<span class="hubRideImg" style="background-image:url('+por+')"></span>'
-        +'<span class="hubRideTxt"><span class="hubRideK">Ride the line</span>'
-        +'<span class="hubRideN">'+nm(k)+'</span>'
-        +'<span class="hubRideA">'+((byk[k]&&byk[k].a)||'')+' — his whole century, end to end</span></span>'
-        +'<span class="hubRideGo" style="color:'+(col[k]||'#C9A84C')+'">→</span></a>';
-    }).join('');
-
-    document.getElementById('hubBody').innerHTML='<div class="hubHead'+(st.L.length===1?' hub1':'')+'"><div class="hubHeadL"><div class="hubYr">'+st.y+'</div><div class="hubT">'+esc(st.n)+'</div><p class="hubPlat">'+(st.L.length>1?'On the platform · '+st.L.length+' hearts lived this moment':'On the platform')+'</p></div><div class="hubHeadR">'+chips+'</div></div>'
-      +'<div class="hubRideWrap'+(st.L.length>1?' many':'')+'">'+ride+'</div>'
-      +'<div class="hubQ">Or explore this story another way</div><div class="hubGrid">'+gh+'</div><div class="hubNext"><a onclick="thCloseHub()">&times; Close</a>'+(nextI!=null?'<a onclick="thOpenHub('+nextI+')">Continue to '+STN[nextI].y+' &rarr;</a>':'<span></span>')+'</div>';
+    document.getElementById('hubBody').innerHTML='<div class="hubHead'+(st.L.length===1?' hub1':'')+'"><div class="hubHeadL"><div class="hubYr">'+st.y+'</div><div class="hubT">'+esc(st.n)+'</div><p class="hubPlat">'+(st.L.length>1?'On the platform · '+st.L.length+' hearts lived this moment':'On the platform')+'</p></div><div class="hubHeadR">'+chips+'</div></div><div class="hubQ">How would you like to experience this story?</div><div class="hubGrid">'+gh+'</div><div class="hubNext"><a onclick="thCloseHub()">&times; Close</a>'+(nextI!=null?'<a onclick="thOpenHub('+nextI+')">Continue to '+STN[nextI].y+' &rarr;</a>':'<span></span>')+'</div>';
     [].forEach.call(o.querySelectorAll('.hubPer'),function(n){n.onclick=function(){thMeet(n.getAttribute('data-char'));};});(function fp(n){var pend=false;[].forEach.call(o.querySelectorAll('.hubPer'),function(c){var im=c.querySelector('.hubPerPic');if(im&&!im.getAttribute('src')){var k=c.getAttribute('data-char');var por=(window.CHARS&&window.CHARS[k]&&window.CHARS[k].portrait);if(por){im.onload=function(){c.classList.add('haspic');};im.src=por;}else pend=true;}});if(pend&&n<25)setTimeout(function(){fp(n+1);},200);})(0);
     [].forEach.call(o.querySelectorAll('.hubIt.live'),function(n){n.onclick=function(){thHubAct(n.getAttribute('data-act'),st);};});
     o.classList.add('on');document.body.style.overflow='hidden';o.scrollTop=0;
@@ -11869,10 +11542,6 @@ g.innerHTML=html;
   function toId(id){var s=document.getElementById(id);if(s)s.scrollIntoView({behavior:'smooth'});}
   window.thMeet=function(k){thCloseHub();if(window.thShowHome)thShowHome();toId('characters');if(window.openChar)setTimeout(function(){openChar(k);},480);};
   window.thHubAct=function(a,st){thCloseHub();
-    /* RIDE HIS LINE. The Underground — the CSS-3D flight through his century, his memories
-       drifting past, his interchanges with the other custodians. One page per custodian:
-       underground_<key>.html. This is the door. */
-    if(a && a.indexOf('ride:')===0){ location.href='underground_'+a.slice(5)+'.html'; return; }
     if(a==='era'){if(window.eraDrawer)eraDrawer(st.e);else toId('eramap');}
     else if(a==='saga'){if(window.thShowHome)thShowHome();toId('saga');}
     else if(a==='timeline'){if(window.thShowHome)thShowHome();toId('thtimeline');}
@@ -11934,11 +11603,9 @@ g.innerHTML=html;
         el=nxt;
       }
       if(src) toAbout.push(src);
-      // 2) THE UNDERGROUND leads (it is the interactive star). CEO 2026-07-14: the flat world
-      //    map is "not that interactive — the underground is way better," so the map is NO
-      //    LONGER pulled up here; it stays near the bottom of the page in source order.
+      // 2) move the interactive map + timeline directly below the hero
       if(tl) hero.parentNode.insertBefore(tl, hero.nextSibling);
-      // (map intentionally left in place, low on the page)
+      if(map) hero.parentNode.insertBefore(map, hero.nextSibling);
       // 3) build the About Us view and move the marketing + sources into it
       var au=document.createElement('div'); au.id='aboutus'; au.style.display='none';
       var hd=document.createElement('div'); hd.className='au-head';

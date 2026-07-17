@@ -1,0 +1,502 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 6,
+  "character_key": "camila_reyes",
+  "character_name": "Camila Reyes",
+  "asset": "Mexican Peso",
+  "ticker": "MXN",
+  "era": "1535",
+  "era_label": "Colonial New Spain",
+  "era_year": 1535,
+  "tagline": "Her coin built the first global economy — and the world still hasn't paid her back."
+ },
+ "museum_objects": [
+  {
+   "id": "camila_reyes_obj_1",
+   "title": "Chop-Marked 8 Reales Coin",
+   "date": "1805",
+   "type": "coin",
+   "material": "silver",
+   "description": "A Spanish colonial silver 8-reales coin stamped repeatedly with Chinese merchant chop marks, proof it circulated across Asia.",
+   "significance": "Every chop mark on this coin is a stranger, somewhere on the other side of the world, deciding they trusted Camila's silver enough to stamp their own name on it too.",
+   "museum": "Smithsonian National Museum of American History",
+   "museum_location": "Washington, D.C., USA",
+   "accession_number": "NU.68.159.2418",
+   "collection_url": "https://www.si.edu/es/object/nmah_1111342",
+   "image_url": "https://www.si.edu/es/object/nmah_1111342",
+   "license": "Smithsonian terms",
+   "open_access": false,
+   "plain_language": "An old Mexican silver coin covered in small stamps added by Chinese traders — proof this coin traveled all the way around the world and back.",
+   "url": "https://www.si.edu/es/object/nmah_1111342",
+   "accession": "NU.68.159.2418",
+   "institution": "Smithsonian National Museum of American History",
+   "licence": "Smithsonian terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "The Lamentation",
+     "accession": "2000.68",
+     "date": "ca. 1582",
+     "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-26972-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/438427",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "November",
+     "accession": "06.382a",
+     "date": "ca. 1765",
+     "image_url": "https://images.metmuseum.org/CRDImages/es/original/87935.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/189022",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "An account of the recent epidemic of puerperal fever as it appeared in the Dublin Lying-in Hospital (IA b30562077).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/An_account_of_the_recent_epidemic_of_puerperal_fever_as_it_appeared_in_the_Dublin_Lying-in_Hospital_%28IA_b30562077%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:An_account_of_the_recent_epidemic_of_puerperal_fever_as_it_appeared_in_the_Dublin_Lying-in_Hospital_(IA_b30562077).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nMcClintock, Alfred H. (Alfred Henry), 1821-1881"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "camila_reyes_obj_2",
+   "title": "Codex Mendoza",
+   "date": "c. 1541",
+   "type": "manuscript",
+   "material": "paper, pigment",
+   "description": "An Aztec pictorial and Spanish-annotated manuscript detailing tribute, economy, and daily life in early colonial Mexico.",
+   "significance": "Before the peso, there was this — a record of an entire economy of tribute and trade that the Spanish silver dollar would eventually replace and erase.",
+   "museum": "Bodleian Library, University of Oxford",
+   "museum_location": "Oxford, UK",
+   "accession_number": "MS. Arch. Selden. A. 1",
+   "collection_url": "https://digital.bodleian.ox.ac.uk/objects/2fea788e-2aa2-4f08-b6d9-648c00486220/",
+   "image_url": "https://digital.bodleian.ox.ac.uk/objects/2fea788e-2aa2-4f08-b6d9-648c00486220/",
+   "license": "Bodleian Library terms",
+   "open_access": false,
+   "plain_language": "An illustrated Aztec record book showing how the economy worked right before Spanish silver coins took over.",
+   "url": "https://digital.bodleian.ox.ac.uk/objects/2fea788e-2aa2-4f08-b6d9-648c00486220/",
+   "accession": "MS. Arch. Selden. A. 1",
+   "institution": "Bodleian Library, University of Oxford",
+   "licence": "Bodleian Library terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://digital.bodleian.ox.ac.uk/objects/2fea788e-2aa2-4f08-b6d9-648c00486220/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Tlamatini observe stars - Codex Mendoza.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Tlamatini_observe_stars_-_Codex_Mendoza.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Tlamatini_observe_stars_-_Codex_Mendoza.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Codex Mendoza"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "6 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "camila_reyes_obj_3",
+   "title": "Florentine Codex",
+   "date": "1575-1577",
+   "type": "manuscript",
+   "material": "paper, pigment",
+   "description": "A monumental illustrated ethnographic work documenting Aztec culture, compiled under Spanish friar Bernardino de Sahagún.",
+   "significance": "This is the last full portrait of a world before Camila's silver economy swallowed it whole.",
+   "museum": "Getty Research Institute (digital edition)",
+   "museum_location": "Los Angeles, USA / Florence, Italy",
+   "accession_number": "Florentine Codex digital edition",
+   "collection_url": "https://florentinecodex.getty.edu/",
+   "image_url": "https://florentinecodex.getty.edu/",
+   "license": "Getty terms",
+   "open_access": false,
+   "plain_language": "A giant illustrated encyclopedia of Aztec life, made right as Spanish silver money was taking over the region.",
+   "url": "https://florentinecodex.getty.edu/",
+   "accession": "Florentine Codex digital edition",
+   "institution": "Getty Research Institute (digital edition)",
+   "licence": "Getty terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://florentinecodex.getty.edu/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "General History of the Things of New Spain by Fray Bernardino de Sahagún- The Florentine Codex WDL10096.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/General_History_of_the_Things_of_New_Spain_by_Fray_Bernardino_de_Sahag%C3%BAn-_The_Florentine_Codex_WDL10096.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:General_History_of_the_Things_of_New_Spain_by_Fray_Bernardino_de_Sahag%C3%BAn-_The_Florentine_Codex_WDL10096.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Sahagún, Bernardino de, 1499-1590"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Lunar eclipse in Book 7 of the Florentine Codex, 1577.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Lunar_eclipse_in_Book_7_of_the_Florentine_Codex%2C_1577.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Lunar_eclipse_in_Book_7_of_the_Florentine_Codex,_1577.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Bernardino de Sahagún."
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "7 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "camila_reyes_obj_4",
+   "title": "Casa Nacional de Moneda de Potosí",
+   "date": "founded 1572",
+   "type": "building/mint",
+   "material": "stone",
+   "description": "The colonial mint building in Potosí, Bolivia, where much of the silver that became Spanish colonial pesos was struck.",
+   "significance": "This building turned mountain silver into global money — and worked its laborers to death doing it. Camila carries that weight in every coin she represents.",
+   "museum": "UNESCO World Heritage Site / Casa Nacional de la Moneda",
+   "museum_location": "Potosí, Bolivia",
+   "accession_number": "UNESCO Site ref 420",
+   "collection_url": "https://whc.unesco.org/en/list/420/",
+   "image_url": "https://whc.unesco.org/en/list/420/",
+   "license": "UNESCO terms",
+   "open_access": false,
+   "plain_language": "The actual mint building in Bolivia where much of the silver for Spanish colonial coins was turned into money.",
+   "url": "https://whc.unesco.org/en/list/420/",
+   "accession": "UNESCO Site ref 420",
+   "institution": "UNESCO World Heritage Site / Casa Nacional de la Moneda",
+   "licence": "UNESCO terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://whc.unesco.org/en/list/420/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Casa Nacional de la Moneda, Potosí ingreso y Mascaron.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Casa_Nacional_de_la_Moneda%2C_Potos%C3%AD_ingreso_y_Mascaron.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Casa_Nacional_de_la_Moneda,_Potos%C3%AD_ingreso_y_Mascaron.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Azulazul5"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "From Casa Nacional de la Moneda, Potosí, Bolivia.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/From_Casa_Nacional_de_la_Moneda%2C_Potos%C3%AD%2C_Bolivia.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:From_Casa_Nacional_de_la_Moneda,_Potos%C3%AD,_Bolivia.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Jbmurray"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image does not match the description of the Casa Nacional de Moneda de Potosí, as it appears to be a different building, possibly in Spain due to the presence of a 'Cabezudo', a type of decoration commonly found in Spanish culture.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "camila_reyes_obj_5",
+   "title": "Macuquina (Cob Coinage)",
+   "date": "16th-18th century",
+   "type": "coin",
+   "material": "silver",
+   "description": "Roughly hand-cut irregular silver coins produced in colonial Spanish American mints, predecessors to the milled 8-reales.",
+   "significance": "Crude, uneven, hand-cut — but every irregular edge on these coins carried real silver value across oceans and empires.",
+   "museum": "Banco de México numismatic collection",
+   "museum_location": "Mexico City, Mexico",
+   "accession_number": "Referenced in Banco de México archive",
+   "collection_url": "https://www.banxico.org.mx/billetes-monedas/",
+   "image_url": "https://www.banxico.org.mx/billetes-monedas/",
+   "license": "Banco de México terms",
+   "open_access": false,
+   "plain_language": "Rough, hand-cut silver coins made in the earliest days of Spanish colonial money in the Americas.",
+   "url": "https://www.banxico.org.mx/billetes-monedas/",
+   "accession": "Referenced in Banco de México archive",
+   "institution": "Banco de México numismatic collection",
+   "licence": "Banco de México terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Catalogue of the numismatic collection of a lady of western new york ... (02-01-1887) (IA catalogueofnumis00wood 20).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Catalogue_of_the_numismatic_collection_of_a_lady_of_western_new_york_..._%2802-01-1887%29_%28IA_catalogueofnumis00wood_20%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Catalogue_of_the_numismatic_collection_of_a_lady_of_western_new_york_..._(02-01-1887)_(IA_catalogueofnumis00wood_20).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nWoodward, Elliot"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "1 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "camila_reyes_src_1",
+   "title": "Banco de México Numismatic History",
+   "type": "official_publication",
+   "date": "Ongoing",
+   "author": "Banco de México",
+   "description": "Official central bank publication detailing the history of Mexican coinage from colonial times to present.",
+   "held_at": "Banco de México",
+   "url": "https://www.banxico.org.mx/billetes-monedas/",
+   "license": "Banco de México terms",
+   "plain_language": "Mexico's central bank's own official history of its money, from Spanish colonial coins to today.",
+   "licence": "Banco de México terms",
+   "licence_class": "unknown",
+   "institution": "Banco de México",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "camila_reyes_src_2",
+   "title": "Wikipedia: Macuquina",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference entry on hand-cut colonial Spanish American coinage.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cob_(coin)",
+   "license": "CC BY-SA",
+   "plain_language": "A general explainer on the rough, hand-cut coins made in early colonial Spanish America.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Cob_(coin)",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "camila_reyes_src_3",
+   "title": "UNESCO World Heritage Listing: City of Potosí",
+   "type": "official_record",
+   "date": "1987",
+   "author": "UNESCO",
+   "description": "Official heritage listing documenting the historical and economic significance of Potosí's silver mines and mint.",
+   "held_at": "UNESCO",
+   "url": "https://whc.unesco.org/en/list/420/",
+   "license": "UNESCO terms",
+   "plain_language": "The United Nations' official record explaining why this silver-mining city matters to world history.",
+   "licence": "UNESCO terms",
+   "licence_class": "unknown",
+   "institution": "UNESCO",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://whc.unesco.org/en/list/420/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "camila_reyes_src_4",
+   "title": "Florentine Codex Digital Edition",
+   "type": "digital_archive",
+   "date": "2020s digitization",
+   "author": "Getty Research Institute",
+   "description": "Full digitized and translated edition of the 16th-century ethnographic manuscript on Aztec life.",
+   "held_at": "Getty Research Institute",
+   "url": "https://florentinecodex.getty.edu/",
+   "license": "Getty terms",
+   "plain_language": "A free online version of a huge illustrated book about Aztec life just before Spanish silver economy took hold.",
+   "licence": "Getty terms",
+   "licence_class": "unknown",
+   "institution": "Getty Research Institute",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://florentinecodex.getty.edu/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "camila_reyes_src_5",
+   "title": "Codex Mendoza Digital Facsimile",
+   "type": "digital_archive",
+   "date": "Ongoing",
+   "author": "Bodleian Library, University of Oxford",
+   "description": "Digitized version of the Aztec tribute and economy manuscript.",
+   "held_at": "Bodleian Library",
+   "url": "https://digital.bodleian.ox.ac.uk/objects/2fea788e-2aa2-4f08-b6d9-648c00486220/",
+   "license": "Bodleian Library terms",
+   "plain_language": "An online version of an old illustrated book showing how the Aztec economy worked before Spanish coins arrived.",
+   "licence": "Bodleian Library terms",
+   "licence_class": "unknown",
+   "institution": "Bodleian Library",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://digital.bodleian.ox.ac.uk/objects/2fea788e-2aa2-4f08-b6d9-648c00486220/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 19.4326,
+  "center_lng": -99.1332,
+  "center_label": "Mexico City, New Spain",
+  "era_start": 1535,
+  "era_end": 2026,
+  "map_description": "Camila's silver peso was struck in Mexico City and Potosí, then sailed the Manila Galleon route to become the first truly global currency, trusted from Boston to Beijing.",
+  "nodes": [
+   {
+    "label": "Mexico City (Casa de Moneda)",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "type": "origin",
+    "description": "Site of the colonial mint that struck Spanish silver pesos for over two centuries."
+   },
+   {
+    "label": "Potosí, Bolivia",
+    "lat": -19.5836,
+    "lng": -65.7531,
+    "type": "resource",
+    "description": "The mountain of silver that funded the entire Spanish colonial economy and much of early global trade."
+   },
+   {
+    "label": "Manila, Philippines",
+    "lat": 14.5995,
+    "lng": 120.9842,
+    "type": "trade_route",
+    "description": "Terminus of the Manila Galleon trade route, where Mexican silver pesos were exchanged for Chinese silk and porcelain."
+   },
+   {
+    "label": "Acapulco",
+    "lat": 16.8531,
+    "lng": -99.8237,
+    "type": "trade_route",
+    "description": "The Pacific port from which silver-laden galleons departed for Asia every year."
+   },
+   {
+    "label": "Fujian, China",
+    "lat": 26.0789,
+    "lng": 117.9874,
+    "type": "destination",
+    "description": "Region where enormous quantities of Spanish silver pesos entered the Chinese economy, becoming a preferred trade currency."
+   }
+  ],
+  "historical_map_source": {
+   "title": "UNESCO — City of Potosí",
+   "url": "https://whc.unesco.org/en/list/420/",
+   "license": "UNESCO terms"
+  }
+ },
+ "_verified": "2026-07-11 10:37"
+}

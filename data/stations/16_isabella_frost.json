@@ -1,0 +1,510 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 16,
+  "character_key": "isabella_frost",
+  "character_name": "Isabella Frost",
+  "asset": "Canadian Dollar",
+  "ticker": "CAD",
+  "era": "1871",
+  "era_label": "Post-Confederation Canada",
+  "era_year": 1871,
+  "tagline": "Everyone assumes they already know her. That's exactly how she likes it."
+ },
+ "museum_objects": [
+  {
+   "id": "isabella_frost_obj_1",
+   "title": "Dominion of Canada $1 Note (1870)",
+   "date": "July 1, 1870",
+   "type": "banknote",
+   "material": "paper",
+   "description": "An early Dominion of Canada dollar note, issued just three years after Confederation.",
+   "significance": "Everyone assumed this note was just a copy of American or British money — it wasn't. Isabella was quietly building her own identity from her very first printing.",
+   "museum": "Bank of Canada Museum",
+   "museum_location": "Ottawa, Canada",
+   "accession_number": "1964.0088.00867.000",
+   "collection_url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1964.0088.00867.000/",
+   "image_url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1964.0088.00867.000/",
+   "license": "Bank of Canada Museum terms",
+   "open_access": false,
+   "plain_language": "One of the very first Canadian dollar bills, printed just a few years after Canada became its own country.",
+   "url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1964.0088.00867.000/",
+   "accession": "1964.0088.00867.000",
+   "institution": "Bank of Canada Museum",
+   "licence": "Bank of Canada Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1964.0088.00867.000/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Sulking",
+     "match_text": "Sulking Painting ca. 1870 Paintings",
+     "accession": "29.100.43",
+     "date": "ca. 1870",
+     "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-25463-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/436162",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Shinplaster Canada 1870.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Shinplaster_Canada_1870.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Shinplaster_Canada_1870.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Snd3054"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: the image is a painting, not a banknote",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "isabella_frost_obj_2",
+   "title": "Canada Victoria 20 Cents Coin (1871)",
+   "date": "1871",
+   "type": "coin",
+   "material": "silver",
+   "description": "An early Canadian silver coin bearing the portrait of Queen Victoria.",
+   "significance": "A coin with a British queen's face, but Canadian words and Canadian purpose — Isabella's split identity started on day one.",
+   "museum": "Bank of Canada Museum",
+   "museum_location": "Ottawa, Canada",
+   "accession_number": "1974.0151.00213.000",
+   "collection_url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1974.0151.00213.000/",
+   "image_url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1974.0151.00213.000/",
+   "license": "Bank of Canada Museum terms",
+   "open_access": false,
+   "plain_language": "An old Canadian coin from 1871 with Queen Victoria's face on it, from Canada's earliest years as a country.",
+   "url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1974.0151.00213.000/",
+   "accession": "1974.0151.00213.000",
+   "institution": "Bank of Canada Museum",
+   "licence": "Bank of Canada Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1974.0151.00213.000/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image is a painting, not a coin, and does not depict Queen Victoria or any coin from Canada.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "isabella_frost_obj_3",
+   "title": "British Columbia $20 Gold Pattern Coin (1862)",
+   "date": "1862",
+   "type": "coin",
+   "material": "gold",
+   "description": "A rare pattern coin proposed for the colony of British Columbia before it joined Confederation.",
+   "significance": "Before Canada existed as we know it, this gold coin imagined a completely different currency future — a road Isabella never took, but almost did.",
+   "museum": "Bank of Canada Museum",
+   "museum_location": "Ottawa, Canada",
+   "accession_number": "1976.0102.00005.000",
+   "collection_url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1976.0102.00005.000/canada-government-of-british-columbia-20-dollars-1862",
+   "image_url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1976.0102.00005.000/canada-government-of-british-columbia-20-dollars-1862",
+   "license": "Bank of Canada Museum terms",
+   "open_access": false,
+   "plain_language": "A rare gold coin design proposed for British Columbia before it even joined Canada — a currency path that never happened.",
+   "url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1976.0102.00005.000/canada-government-of-british-columbia-20-dollars-1862",
+   "accession": "1976.0102.00005.000",
+   "institution": "Bank of Canada Museum",
+   "licence": "Bank of Canada Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanadamuseum.ca/collection/artefact/view/1976.0102.00005.000/canada-government-of-british-columbia-20-dollars-1862",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Flag of Prince George, British Columbia.svg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Flag_of_Prince_George%2C_British_Columbia.svg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Prince_George,_British_Columbia.svg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Svgalbertian"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Four years in British Columbia and Vancouver Island - an account of their forests, rivers, coasts, gold fields and resources for colonisation (IA fouryearsinbrit00mayn).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Four_years_in_British_Columbia_and_Vancouver_Island_-_an_account_of_their_forests%2C_rivers%2C_coasts%2C_gold_fields_and_resources_for_colonisation_%28IA_fouryearsinbrit00mayn%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Four_years_in_British_Columbia_and_Vancouver_Island_-_an_account_of_their_forests,_rivers,_coasts,_gold_fields_and_resources_for_colonisation_(IA_fouryearsinbrit00mayn).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nMayne, Richard C. (Richard Charles), 1835-1892"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Notes on the Shuswap people of British Columbia (IA notesonshuswappe00daws).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Notes_on_the_Shuswap_people_of_British_Columbia_%28IA_notesonshuswappe00daws%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Notes_on_the_Shuswap_people_of_British_Columbia_(IA_notesonshuswappe00daws).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nDawson, George Mercer, 1849-1901"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "12 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "isabella_frost_obj_4",
+   "title": "Hudson's Bay Company Made Beaver Token",
+   "date": "19th century",
+   "type": "token",
+   "material": "brass",
+   "description": "A trade token used by the Hudson's Bay Company, valued in units equivalent to one prime beaver pelt.",
+   "significance": "Long before Isabella had a face or a number, Canada's economy ran on beaver pelts — this little brass token is the ancestor of everything she'd become.",
+   "museum": "Royal Museums Greenwich",
+   "museum_location": "Greenwich, UK",
+   "accession_number": "RMGC-object-40198",
+   "collection_url": "https://www.rmg.co.uk/collections/objects/rmgc-object-40198",
+   "image_url": "https://www.rmg.co.uk/collections/objects/rmgc-object-40198",
+   "license": "Royal Museums Greenwich terms",
+   "open_access": false,
+   "plain_language": "An old trade token used by fur traders in Canada, worth one beaver pelt — Canada's economy before it had its own dollar.",
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-40198",
+   "accession": "RMGC-object-40198",
+   "institution": "Royal Museums Greenwich",
+   "licence": "Royal Museums Greenwich terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.rmg.co.uk/collections/objects/rmgc-object-40198",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Hudson's Bay Company Vancouver.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Hudson%27s_Bay_Company_Vancouver.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Hudson%27s_Bay_Company_Vancouver.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Xicotencatl"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Hudson's Bay Company seal Lower Fort Garry.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Hudson%27s_Bay_Company_seal_Lower_Fort_Garry.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Hudson%27s_Bay_Company_seal_Lower_Fort_Garry.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Fd52"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Hudson Bay Company, Fort George, Hudson Bay (S2004-840 LS).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Hudson_Bay_Company%2C_Fort_George%2C_Hudson_Bay_%28S2004-840_LS%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Hudson_Bay_Company,_Fort_George,_Hudson_Bay_(S2004-840_LS).jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Agnes Deans Cameron"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image is a painting of a scene, not a trade token or currency, so it does not depict a Beaver Token.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "isabella_frost_obj_5",
+   "title": "A History of the Canadian Dollar (Bank of Canada)",
+   "date": "2012 edition",
+   "type": "document",
+   "material": "paper",
+   "description": "The Bank of Canada's own comprehensive published history of the Canadian dollar.",
+   "significance": "This book is Isabella's own autobiography, written by the institution that has managed her identity since Confederation.",
+   "museum": "Bank of Canada",
+   "museum_location": "Ottawa, Canada",
+   "accession_number": "dollar_book",
+   "collection_url": "https://www.bankofcanada.ca/wp-content/uploads/2010/07/dollar_book.pdf",
+   "image_url": "https://www.bankofcanada.ca/wp-content/uploads/2010/07/dollar_book.pdf",
+   "license": "Bank of Canada terms",
+   "open_access": false,
+   "plain_language": "The Bank of Canada's own official book telling the complete history of the Canadian dollar.",
+   "url": "https://www.bankofcanada.ca/wp-content/uploads/2010/07/dollar_book.pdf",
+   "accession": "dollar_book",
+   "institution": "Bank of Canada",
+   "licence": "Bank of Canada terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanada.ca/wp-content/uploads/2010/07/dollar_book.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "CAN-S1930c-Bank of Prince Edward Island-2 Dollars (1877).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/CAN-S1930c-Bank_of_Prince_Edward_Island-2_Dollars_%281877%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:CAN-S1930c-Bank_of_Prince_Edward_Island-2_Dollars_(1877).jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "National Museum of American History\n"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "CAN-S559-Bank of Montreal-10 Dollars (1935).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/CAN-S559-Bank_of_Montreal-10_Dollars_%281935%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:CAN-S559-Bank_of_Montreal-10_Dollars_(1935).jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "National Museum of American History\n"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The claim is about the Canadian Dollar and a publication by the Bank of Canada, but the image shows a banknote from the Bank of Prince Edward Island, which is not directly related to the Bank of Canada's history of the Canadian dollar.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "isabella_frost_src_1",
+   "title": "A History of the Canadian Dollar",
+   "type": "official_publication",
+   "date": "2012",
+   "author": "James Powell, Bank of Canada",
+   "description": "Comprehensive official history of Canadian currency from Confederation to modern times.",
+   "held_at": "Bank of Canada",
+   "url": "https://www.bankofcanada.ca/wp-content/uploads/2010/07/dollar_book.pdf",
+   "license": "Bank of Canada terms",
+   "plain_language": "The Bank of Canada's full official history book about the Canadian dollar.",
+   "licence": "Bank of Canada terms",
+   "licence_class": "unknown",
+   "institution": "Bank of Canada",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanada.ca/wp-content/uploads/2010/07/dollar_book.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "isabella_frost_src_2",
+   "title": "Bank of Canada Museum Collection Search Portal",
+   "type": "database",
+   "date": "Ongoing",
+   "author": "Bank of Canada Museum",
+   "description": "Searchable database of over 130,000 numismatic and financial artifacts.",
+   "held_at": "Bank of Canada Museum",
+   "url": "https://www.bankofcanadamuseum.ca/explore/collections/search-collection/",
+   "license": "Bank of Canada Museum terms",
+   "plain_language": "A giant searchable online database of Canadian money artifacts, with over 130,000 items.",
+   "licence": "Bank of Canada Museum terms",
+   "licence_class": "unknown",
+   "institution": "Bank of Canada Museum",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bankofcanadamuseum.ca/explore/collections/search-collection/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "isabella_frost_src_3",
+   "title": "Fathers of Confederation Records",
+   "type": "archive",
+   "date": "1867",
+   "author": "Library and Archives Canada",
+   "description": "Historical government records related to Canada's founding Confederation and early monetary decisions.",
+   "held_at": "Library and Archives Canada",
+   "url": "https://recherche-collection-search.bac-lac.gc.ca/eng/home/record?idnumber=4949610&app=FonAndCol",
+   "license": "Library and Archives Canada terms",
+   "plain_language": "Government records from when Canada was founded, related to its earliest decisions about money.",
+   "licence": "Library and Archives Canada terms",
+   "licence_class": "unknown",
+   "institution": "Library and Archives Canada",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "isabella_frost_src_4",
+   "title": "McCord Stewart Museum Collections",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "McCord Stewart Museum",
+   "description": "Public collection of Canadian historical artifacts, including economic and monetary history items, with explicit public-domain policy.",
+   "held_at": "McCord Stewart Museum, Montreal",
+   "url": "https://www.musee-mccord-stewart.ca/en/collections/",
+   "license": "Public Domain (explicit museum policy)",
+   "plain_language": "A Montreal museum's public collection of Canadian historical items, free to use and share.",
+   "licence": "Public Domain (explicit museum policy)",
+   "licence_class": "open",
+   "institution": "McCord Stewart Museum, Montreal",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.musee-mccord-stewart.ca/en/collections/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "isabella_frost_src_5",
+   "title": "Royal Museums Greenwich: Hudson's Bay Company Token",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Royal Museums Greenwich",
+   "description": "Museum documentation of the Made Beaver trade token used by the Hudson's Bay Company.",
+   "held_at": "Royal Museums Greenwich",
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-40198",
+   "license": "Royal Museums Greenwich terms",
+   "plain_language": "A British museum's record of the old fur-trading tokens used in early Canada.",
+   "licence": "Royal Museums Greenwich terms",
+   "licence_class": "unknown",
+   "institution": "Royal Museums Greenwich",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.rmg.co.uk/collections/objects/rmgc-object-40198",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 45.4215,
+  "center_lng": -75.6972,
+  "center_label": "Ottawa, Canada",
+  "era_start": 1871,
+  "era_end": 2026,
+  "map_description": "Isabella's dollar emerged from Confederation-era Canada, shaped by fur trade economics, gold rushes, and a careful balance between British and American monetary influence.",
+  "nodes": [
+   {
+    "label": "Ottawa (Parliament)",
+    "lat": 45.4215,
+    "lng": -75.6972,
+    "type": "origin",
+    "description": "Canada's capital, where post-Confederation monetary decisions were made and the Bank of Canada now operates."
+   },
+   {
+    "label": "Cariboo Gold Rush Region, BC",
+    "lat": 52.9784,
+    "lng": -121.9268,
+    "type": "resource",
+    "description": "Site of a major 1860s gold rush that shaped British Columbia's early currency proposals before joining Confederation."
+   },
+   {
+    "label": "Montreal (McCord Museum)",
+    "lat": 45.5019,
+    "lng": -73.5674,
+    "type": "destination",
+    "description": "Historic financial center of early Canada, home to a museum documenting the country's monetary artifacts."
+   },
+   {
+    "label": "Nova Scotia",
+    "lat": 45.0,
+    "lng": -63.0,
+    "type": "origin",
+    "description": "One of the founding provinces of Confederation, with its own pre-Confederation currency history."
+   },
+   {
+    "label": "Newfoundland",
+    "lat": 48.9517,
+    "lng": -56.4593,
+    "type": "landmark",
+    "description": "Held its own separate currency until joining Canada in 1949, illustrating the gradual unification of Canadian money."
+   }
+  ],
+  "historical_map_source": {
+   "title": "A History of the Canadian Dollar",
+   "url": "https://www.bankofcanada.ca/wp-content/uploads/2010/07/dollar_book.pdf",
+   "license": "Bank of Canada terms"
+  }
+ },
+ "_verified": "2026-07-11 10:40"
+}

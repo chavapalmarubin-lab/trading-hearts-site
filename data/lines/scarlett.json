@@ -1,0 +1,49 @@
+{
+ "custodian": "scarlett",
+ "name": "Scarlett Rayne",
+ "asset": "Australian Dollar",
+ "stations": [
+  {
+   "year": 1966,
+   "label": "DECIMAL DAY BIRTH",
+   "line": "Fourteenth of February, they retired the pound and cut me loose \u2014 two dollars to the quid, a fresh name, and no bloody idea yet what I was worth.",
+   "era_photo": "A young woman standing outside a Sydney bank branch on a hot February morning, wearing a crisp 1966 shift dress and white gloves, holding a handful of the brand-new decimal coins; shot on Kodachrome colour film, slightly warm cast, deep saturated reds, the grain fine but unmistakably mid-sixties."
+  },
+  {
+   "year": 1983,
+   "label": "THE FLOAT INTO OPEN WATER",
+   "line": "December, and Keating and Hawke threw me off the peg into open water \u2014 sink or swim, mate, and I learned fast that you survive by swimming, not by wishing for the shore.",
+   "era_photo": "A woman in her thirties on a Sydney harbourside dock at dusk, wearing a boxy 1983 power blazer with shoulder pads, wind pulling at her hair, arms crossed and jaw set; shot on early-eighties 35mm colour negative film, slightly muddy tones, visible grain, a faint blue evening light."
+  },
+  {
+   "year": 2001,
+   "label": "THE BOTTOM AT FORTY-SEVEN",
+   "line": "Dot-com boom, and everyone wanted the shiny American story \u2014 I got dumped down under forty-eight US cents, the loneliest a currency can feel, but I dug in and waited.",
+   "era_photo": "A woman sitting alone on a red-dirt roadside somewhere in the outback, dusty boots, faded work shirt, a battered ute in the background under a vast empty sky; shot on early digital compact camera circa 2001, low resolution, slightly noisy in the shadows, flat contrast."
+  },
+  {
+   "year": 2008,
+   "label": "THE GFC ABANDONMENT",
+   "line": "October \u2014 I'd been the golden girl of the carry trade, everyone borrowing me for yield, and then the whole thing turned risk-off and they dropped me thirty per cent in a matter of weeks, straight through the floor.",
+   "era_photo": "A woman standing at a rain-streaked office window overlooking a grey city skyline, wearing a dark tailored suit, phone pressed to her ear, expression carefully unbothered; shot on a 2008 DSLR, clean but cool-toned, sharp detail, the reflection of ticker-red numbers faint in the glass."
+  },
+  {
+   "year": 2011,
+   "label": "ABOVE PARITY ON ROCKS",
+   "line": "Mining boom in full roar, China buying every tonne of iron ore we could ship, and for the first time I traded above the greenback \u2014 dollar-ten, and it was built on rocks in the ground, which is the only kind of value I trust.",
+   "era_photo": "A woman in high-vis and a hard hat standing at a Pilbara ore-loading port, red iron dust on everything, a Cape-size bulk carrier behind her, grinning into hard sunlight; shot on a 2011 DSLR, crisp and bright, strong saturated orange-red earth against deep blue sky."
+  },
+  {
+   "year": 2020,
+   "label": "THE COVID FLASH CRASH",
+   "line": "March, and the world seized up overnight \u2014 I got sold down to fifty-five cents in the panic, that gut-drop you never forget, then rebuilt myself off the back of every commodity the planet still needed.",
+   "era_photo": "A woman alone in an empty airport terminal wearing a face mask pulled below her chin, casual travel clothes, harsh fluorescent overhead light, deserted seats stretching behind her; shot on a 2020 smartphone, clean high-resolution digital, slightly clinical white balance."
+  },
+  {
+   "year": 2025,
+   "label": "STILL DIGGING TODAY",
+   "line": "Here now \u2014 still tied to what comes out of the ground, still swinging on China's mood and the price of ore, and still telling anyone who'll listen that what's real doesn't need a footnote.",
+   "era_photo": "A woman in her present day, weathered and steady, standing on a coastal cliff with the Indian Ocean behind her, plain shirt and sun-lined face, looking directly at the lens; shot on a 2025 mirrorless camera, ultra-sharp, natural colour, the light of late afternoon warm on her skin."
+  }
+ ]
+}

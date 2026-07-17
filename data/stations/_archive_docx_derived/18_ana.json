@@ -1,0 +1,239 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 18,
+  "character_name": "ANA FERREIRA",
+  "character_key": "ana",
+  "header": "ANA FERREIRA"
+ },
+ "museum_objects": [
+  {
+   "title": "1 centavo coin",
+   "institution": "Museu do Dinheiro (Banco de Portugal Museum)",
+   "accession": "Listed in Acervo Museológico",
+   "date": "c.1917–1924",
+   "url": "https://www.museudodinheiro.pt/acervo-museologico",
+   "licence_raw": "Not explicitly stated — contact required",
+   "description": "Early escudo-era small-denomination coin.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "1 centavo coin, dated 06-05-1920",
+   "institution": "Museu do Dinheiro",
+   "accession": "Listed in Acervo Museológico",
+   "date": "1920",
+   "url": "https://www.museudodinheiro.pt/acervo-museologico",
+   "licence_raw": "Not explicitly stated — contact required",
+   "description": "Dated example of early escudo-era coinage.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Padrão de Santo Agostinho (stone pillar)",
+   "institution": "Metropolitan Museum of Art",
+   "accession": "Object 630053",
+   "date": "Age of Discovery era",
+   "url": "https://www.metmuseum.org/art/collection/search/630053",
+   "licence_raw": "Open Access policy for public-domain works (verify per object)",
+   "description": "Stone marker pillar used by Portuguese explorers to claim discovered territory.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": false,
+    "status": 429,
+    "error": "HTTP 429",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter error: HTTPError"
+   }
+  },
+  {
+   "title": "Portuguese Caravel model",
+   "institution": "Royal Museums Greenwich (creator credit: Museu de Marinha)",
+   "accession": "RMGC-object-66267",
+   "date": "Model of Age of Discovery-era vessel",
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-66267",
+   "licence_raw": "Museum copyright — contact required",
+   "description": "Scale model of the caravela latina, Portugal's key exploration-era ship.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.rmg.co.uk/collections/objects/rmgc-object-66267",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Mozambique 100 Escudos banknote",
+   "institution": "Referenced via Gary's Coin Shop (collector listing)",
+   "accession": "Pick 110",
+   "date": "1961",
+   "url": "https://www.garyscoinshop.com/product/21777283/1961-mozambique-100-escudos-banknote-banco-de-mocambique-pick-110-vf-colonial-issue",
+   "licence_raw": "Commercial listing — verify rights before use",
+   "description": "Colonial-era Mozambique escudo banknote issued by Banco de Moçambique.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.garyscoinshop.com/product/21777283/1961-mozambique-100-escudos-banknote-banco-de-mocambique-pick-110-vf-colonial-issue",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "UNESCO Memory of the World: Treaty of Tordesillas — primary international treaty documentation.",
+   "detail": "",
+   "url": "https://www.unesco.org/en/memory-world/treaty-tordesillas",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "UNESCO Memory of the World: Treaty of Tordesillas — primary international treaty documentation.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.unesco.org/en/memory-world/treaty-tordesillas",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Yale Avalon Project: full Treaty of Tordesillas text — primary legal text.",
+   "detail": "",
+   "url": "https://avalon.law.yale.edu/15th_century/mod001.asp",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Yale Avalon Project: full Treaty of Tordesillas text — primary legal text.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://avalon.law.yale.edu/15th_century/mod001.asp",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "European Central Bank official press release, escudo-to-euro conversion, Dec 31 1998 — primary institutional conversion record.",
+   "detail": "",
+   "url": "https://www.ecb.europa.eu/press/pr/date/1998/html/pr981231_2.en.html",
+   "licence_raw": "European Central Bank official press release, escudo-to-euro conversion, Dec 31 1998 — primary institutional conversion record.",
+   "licence_class": "contact_required",
+   "raw": "European Central Bank official press release, escudo-to-euro conversion, Dec 31 1998 — primary institutional conversion record.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ecb.europa.eu/press/pr/date/1998/html/pr981231_2.en.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "RTP Arquivos: \"5 de Outubro – Implantação da República\" archival photo inventory — primary archival documentation of the 1910 revolution.",
+   "detail": "",
+   "url": "https://arquivos.rtp.pt/conteudos/5-de-outubro-implantacao-da-republica/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "RTP Arquivos: \"5 de Outubro – Implantação da República\" archival photo inventory — primary archival documentation of the 1910 revolution.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://arquivos.rtp.pt/conteudos/5-de-outubro-implantacao-da-republica/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Library of Congress: Lisbon waterfront and Plaza of Commerce photograph, 1910–1926 — primary photographic documentation.",
+   "detail": "",
+   "url": "https://www.loc.gov/item/npc2008012507/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Library of Congress: Lisbon waterfront and Plaza of Commerce photograph, 1910–1926 — primary photographic documentation.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot g",
+    "licence_class": "check_required",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "Spain. Lisbon water front & Plaza of Commerce"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: 1998, Portugal, preparing for euro adoption. The government must decide whether to join the first wave of eurozone countries in 1999, giving up full control of its own monetary policy just as it had only recently stabilized its economy after decades of upheaval — including the 1974 Carnation Revolution and the loss of its African colonies. The outcome was genuinely uncertain: some European countries chose to delay or avoid euro adoption entirely, weighing the loss of currency independence against the benefits of full economic integration.Player choice: Join the euro in the first 1999 wave, or delay adoption to preserve monetary independence longer.Historical resolution: Portugal joined the euro in the first wave, with the escudo fixed at 200.482 per euro from December 31, 1998, and coins exchangeable until December 31, 2002.",
+ "understand": {
+  "economic_impact": "Portugal's decision to fix the escudo to the euro at 200.482 per euro and fully adopt the euro in the first 1999 wave required a significant fiscal consolidation effort, ending centuries of independent Portuguese monetary policy European Commission. The loss of African colonies in 1974–75 also meant the escudo's economic footprint shrank dramatically, from a currency used across multiple continents to one confined to mainland Portugal [PALOP decolonization timeline, master bible research].",
+  "political_impact": "The escudo's creation was a direct consequence of a revolution — Portugal's centuries-old monarchy ended in October 1910, and the new republic asserted its identity partly through a new currency the following year Wikipedia: 5 October 1910 revolution. Decolonization in the mid-1970s ended the escudo's use across Angola, Mozambique, and other former colonies, each adopting independent national currencies within a few years of independence Wikipedia: Angolan kwanza.",
+  "why_it_still_matters": "Portugal was once one of the most powerful countries in the world — its ships reached places no European had ever sailed to before, and its money and influence went with them across multiple continents. Centuries later, after losing a monarchy, an empire, and its African colonies, Portugal became one of Europe's smaller, quieter economies, and quietly chose to give up its own currency altogether for the euro. Ana's story matters because it shows that being smaller now doesn't erase having once been extraordinary — a country, like a person, can carry pride and loss for the same history at the same time, and that feeling has a name in Portuguese: saudade."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:40"
+}

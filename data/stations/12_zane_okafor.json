@@ -1,0 +1,463 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 12,
+  "character_key": "zane_okafor",
+  "character_name": "Zane Okafor",
+  "asset": "WTI Crude Oil",
+  "ticker": "WTI",
+  "era": "1859",
+  "era_label": "Birth of the Oil Industry",
+  "era_year": 1859,
+  "tagline": "Nobody loves him. Everybody needs him. He's made his peace with which one matters."
+ },
+ "museum_objects": [
+  {
+   "id": "zane_okafor_obj_1",
+   "title": "Original Crude Oil Sample from the Drake Well",
+   "date": "1859",
+   "type": "specimen",
+   "material": "crude oil",
+   "description": "The only surviving original crude oil sample from the world's first commercial oil well, drilled by Edwin Drake.",
+   "significance": "This is the actual liquid that started it all — before pipelines, before OPEC, before a single barrel was ever priced, this was just oil bubbling out of the ground in Pennsylvania.",
+   "museum": "Drake Well Museum",
+   "museum_location": "Titusville, Pennsylvania, USA",
+   "accession_number": "Drake Well original sample",
+   "collection_url": "https://drakewell.org/",
+   "image_url": "https://drakewell.org/",
+   "license": "Drake Well Museum terms",
+   "open_access": false,
+   "plain_language": "The actual surviving sample of oil from the very first commercial oil well ever drilled, in 1859.",
+   "url": "https://drakewell.org/",
+   "accession": "Drake Well original sample",
+   "institution": "Drake Well Museum",
+   "licence": "Drake Well Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.drakewell.org/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Sketches in crude oil. Some accidents and incidents of the petroleum development in all parts of the globe.. (IA sketchesincrudeo00mclaiala).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Sketches_in_crude_oil._Some_accidents_and_incidents_of_the_petroleum_development_in_all_parts_of_the_globe.._%28IA_sketchesincrudeo00mclaiala%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Sketches_in_crude_oil._Some_accidents_and_incidents_of_the_petroleum_development_in_all_parts_of_the_globe.._(IA_sketchesincrudeo00mclaiala).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nMcLaurin, John J. (John James), b. 1841"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Sketches in crude oil. Some accidents and incidents of the petroleum development in all parts of the globe (IA incrudesketcheso00mclarich).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sketches_in_crude_oil._Some_accidents_and_incidents_of_the_petroleum_development_in_all_parts_of_the_globe_%28IA_incrudesketcheso00mclarich%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Sketches_in_crude_oil._Some_accidents_and_incidents_of_the_petroleum_development_in_all_parts_of_the_globe_(IA_incrudesketcheso00mclarich).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nMcLaurin, John J. (John James), b. 1841\nMcLaurin, John James, 1841-"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "7 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "zane_okafor_obj_2",
+   "title": "John A. Mather Oil Industry Photographs",
+   "date": "1860s-1880s",
+   "type": "photograph",
+   "material": "glass plate/print",
+   "description": "A photographic archive documenting the earliest days of the Pennsylvania oil boom by pioneering photographer John A. Mather.",
+   "significance": "These photos are the only visual record of the exact moment the world realized oil could be an industry, not just a curiosity.",
+   "museum": "Harvard Business School, Baker Library",
+   "museum_location": "Boston, USA",
+   "accession_number": "Oil Industry Photographs collection",
+   "collection_url": "https://www.library.hbs.edu/hc/nd/visual-evidence/oil-industry-photographs/",
+   "image_url": "https://www.library.hbs.edu/hc/nd/visual-evidence/oil-industry-photographs/",
+   "license": "Harvard Business School terms",
+   "open_access": false,
+   "plain_language": "Old photographs documenting the very first oil boom in Pennsylvania during the 1860s.",
+   "url": "https://www.library.hbs.edu/hc/nd/visual-evidence/oil-industry-photographs/",
+   "accession": "Oil Industry Photographs collection",
+   "institution": "Harvard Business School, Baker Library",
+   "licence": "Harvard Business School terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Tanner - James, Narrative of captivity and adventures of John Tanner, 1830.djvu",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Tanner_-_James%2C_Narrative_of_captivity_and_adventures_of_John_Tanner%2C_1830.djvu",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Tanner_-_James,_Narrative_of_captivity_and_adventures_of_John_Tanner,_1830.djvu",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "John Tanner, Edwin James"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "The Appalachian oil field; with special reference to its potentialities in view of present conditions in the oil industry (IA appalachianoilfi00reed).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/The_Appalachian_oil_field%3B_with_special_reference_to_its_potentialities_in_view_of_present_conditions_in_the_oil_industry_%28IA_appalachianoilfi00reed%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:The_Appalachian_oil_field;_with_special_reference_to_its_potentialities_in_view_of_present_conditions_in_the_oil_industry_(IA_appalachianoilfi00reed).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nReeder &amp; company. [from old catalog]\nFinlay &amp; Davenport. [from old catalog]"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "5 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "zane_okafor_obj_3",
+   "title": "First Oil Well Photograph",
+   "date": "c. 1861-1865",
+   "type": "photograph",
+   "material": "print",
+   "description": "An early photograph of the Drake oil well site, part of the Library of Congress's historical photo collection.",
+   "significance": "A single black-and-white image of a wooden derrick — the modest, unglamorous birthplace of the industry that would eventually run the world.",
+   "museum": "Library of Congress",
+   "museum_location": "Washington, D.C., USA",
+   "accession_number": "2010649522",
+   "collection_url": "https://www.loc.gov/item/2010649522/",
+   "image_url": "https://www.loc.gov/item/2010649522/",
+   "license": "Library of Congress — Public Domain (verify)",
+   "open_access": true,
+   "plain_language": "An old photo of the very first oil well, showing how modest and small the birthplace of the oil industry really was.",
+   "url": "https://www.loc.gov/item/2010649522/",
+   "accession": "2010649522",
+   "institution": "Library of Congress",
+   "licence": "No known restrictions on publication.",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence": "No known restrictions on publication.",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "The first oil well"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Oil well in construction in Bashkortostan, Russia.png",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Oil_well_in_construction_in_Bashkortostan%2C_Russia.png",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Oil_well_in_construction_in_Bashkortostan,_Russia.png",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Rubin16"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image shows contemporary oil extraction equipment in a desert, not an early photograph of the Drake oil well site.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "18 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "zane_okafor_obj_4",
+   "title": "OPEC Founding Treaty Document",
+   "date": "1960",
+   "type": "document",
+   "material": "paper",
+   "description": "The founding treaty establishing the Organization of the Petroleum Exporting Countries.",
+   "significance": "This is the moment Zane stopped being controlled by a handful of American companies and started being fought over by entire nations.",
+   "museum": "United Nations Treaty Series",
+   "museum_location": "Baghdad, Iraq (founding location)",
+   "accession_number": "UNTS Vol. 443, Doc. I-6363",
+   "collection_url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20443/volume-443-I-6363-English.pdf",
+   "image_url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20443/volume-443-I-6363-English.pdf",
+   "license": "United Nations Public Domain",
+   "open_access": true,
+   "plain_language": "The actual founding treaty of OPEC, the organization of oil-producing countries that changed who controls oil prices.",
+   "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20443/volume-443-I-6363-English.pdf",
+   "accession": "UNTS Vol. 443, Doc. I-6363",
+   "institution": "United Nations Treaty Series",
+   "licence": "United Nations Public Domain",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20443/volume-443-I-6363-English.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "display_image": null
+  },
+  {
+   "id": "zane_okafor_obj_5",
+   "title": "Samuel Kier's Rock Oil Advertisement",
+   "date": "1850s",
+   "type": "advertisement",
+   "material": "print",
+   "description": "An early advertisement by Samuel Kier marketing petroleum as a medicinal 'rock oil' before its fuel value was understood.",
+   "significance": "Before anyone knew oil would fuel the modern world, someone was trying to sell it as medicine. Zane's whole identity started as a misunderstanding.",
+   "museum": "Referenced via Wikipedia/historical archives",
+   "museum_location": "Pittsburgh, Pennsylvania, USA",
+   "accession_number": "Samuel Kier rock oil ad",
+   "collection_url": "https://en.wikipedia.org/wiki/Samuel_Kier",
+   "image_url": "https://en.wikipedia.org/wiki/Samuel_Kier",
+   "license": "CC BY-SA (Wikimedia reference)",
+   "open_access": true,
+   "plain_language": "An old advertisement selling oil as a medicine — years before anyone realized it would become the world's most important fuel.",
+   "url": "https://en.wikipedia.org/wiki/Samuel_Kier",
+   "accession": "Samuel Kier rock oil ad",
+   "institution": "Referenced via Wikipedia/historical archives",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Samuel_Kier",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "1 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "display_image": null
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "zane_okafor_src_1",
+   "title": "OPEC Founding Treaty (1960)",
+   "type": "legal_document",
+   "date": "1960",
+   "author": "OPEC founding members",
+   "description": "The full treaty text establishing OPEC as an intergovernmental organization of oil-exporting nations.",
+   "held_at": "United Nations Treaty Series",
+   "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20443/volume-443-I-6363-English.pdf",
+   "license": "Public Domain (UN)",
+   "plain_language": "The actual legal document that created OPEC in 1960.",
+   "licence": "Public Domain (UN)",
+   "licence_class": "open",
+   "institution": "United Nations Treaty Series",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20443/volume-443-I-6363-English.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "zane_okafor_src_2",
+   "title": "Wikipedia: Samuel Kier",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Biographical reference on the early petroleum marketer who preceded the commercial oil industry.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Samuel_Kier",
+   "license": "CC BY-SA",
+   "plain_language": "Background on the man who tried to sell oil as medicine before the oil industry existed.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Samuel_Kier",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "zane_okafor_src_3",
+   "title": "Yale Energy History: Oil Shocks of the 1970s",
+   "type": "academic_publication",
+   "date": "Ongoing",
+   "author": "Yale University",
+   "description": "Academic analysis of the 1970s oil crises and their lasting impact on global energy markets.",
+   "held_at": "Yale University",
+   "url": "https://energyhistory.yale.edu/",
+   "license": "Yale University terms",
+   "plain_language": "Academic research explaining the 1970s oil crises that reshaped the global economy.",
+   "licence": "Yale University terms",
+   "licence_class": "unknown",
+   "institution": "Yale University",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://energyhistory.yale.edu/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "zane_okafor_src_4",
+   "title": "Oil Industry Photographs Collection",
+   "type": "photo_archive",
+   "date": "1860s-1880s",
+   "author": "John A. Mather / Harvard Business School",
+   "description": "Digitized photographic archive of the earliest Pennsylvania oil boom.",
+   "held_at": "Harvard Business School, Baker Library",
+   "url": "https://www.library.hbs.edu/hc/nd/visual-evidence/oil-industry-photographs/",
+   "license": "Harvard Business School terms",
+   "plain_language": "A photo archive of the earliest days of the American oil industry.",
+   "licence": "Harvard Business School terms",
+   "licence_class": "unknown",
+   "institution": "Harvard Business School, Baker Library",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "zane_okafor_src_5",
+   "title": "Library of Congress: First Oil Well Photograph",
+   "type": "photo_archive",
+   "date": "c. 1861-1865",
+   "author": "Library of Congress",
+   "description": "Digitized historical photograph of the Drake oil well site.",
+   "held_at": "Library of Congress",
+   "url": "https://www.loc.gov/item/2010649522/",
+   "license": "Public Domain (verify)",
+   "plain_language": "A photo from the Library of Congress showing the very first commercial oil well.",
+   "licence": "No known restrictions on publication.",
+   "licence_class": "open",
+   "institution": "Library of Congress",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence": "No known restrictions on publication.",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "The first oil well"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 41.6297,
+  "center_lng": -79.6759,
+  "center_label": "Titusville, Pennsylvania, USA",
+  "era_start": 1859,
+  "era_end": 2026,
+  "map_description": "Zane's crude oil market was born in a Pennsylvania forest and grew into a globe-spanning commodity fought over from Texas to the Middle East.",
+  "nodes": [
+   {
+    "label": "Titusville, Pennsylvania",
+    "lat": 41.6297,
+    "lng": -79.6759,
+    "type": "origin",
+    "description": "Site of the Drake Well, the first commercial oil well in the United States, drilled in 1859."
+   },
+   {
+    "label": "Baku, Azerbaijan",
+    "lat": 40.4093,
+    "lng": 49.8671,
+    "type": "resource",
+    "description": "One of the world's earliest and largest oil-producing regions, rivaling Pennsylvania in the 19th century."
+   },
+   {
+    "label": "Spindletop, Texas",
+    "lat": 30.0663,
+    "lng": -94.1266,
+    "type": "resource",
+    "description": "Site of the 1901 gusher that launched the modern Texas oil boom and Gulf Coast refining industry."
+   },
+   {
+    "label": "Baghdad, Iraq",
+    "lat": 33.3152,
+    "lng": 44.3661,
+    "type": "landmark",
+    "description": "Region central to OPEC's founding and the geopolitics of Middle Eastern oil production."
+   },
+   {
+    "label": "Pittsburgh, Pennsylvania",
+    "lat": 40.4406,
+    "lng": -79.9959,
+    "type": "trade_route",
+    "description": "Early refining and distribution hub for Pennsylvania crude oil in the industry's first decades."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Drake Well Museum",
+   "url": "https://drakewell.org/",
+   "license": "Drake Well Museum terms"
+  }
+ },
+ "_verified": "2026-07-11 10:39"
+}

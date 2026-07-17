@@ -1,0 +1,580 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_note": "Reference implementation. Every other station is built to match this shape. Every fact has a named source; every image has an explicit licence.",
+ "_built": "2026-07-11",
+ "station": {
+  "id": "alexandros_600bce",
+  "character_key": "alexandros",
+  "character_name": "Alexandros",
+  "chronology_number": 1,
+  "asset": "Greek Drachma (Athenian owl tetradrachm)",
+  "archetype": "TRUST",
+  "era_label": "600 BCE",
+  "title": "The Birth of Money",
+  "thesis": "Money is trust. Everything else is evidence.",
+  "lifespan": "c. 600 BCE — 2002 CE",
+  "status": "Retired. Still influential.",
+  "next_transfers": [
+   "aurora",
+   "conrad",
+   "hiro"
+  ]
+ },
+ "museum_objects": [
+  {
+   "id": "bm_1905_0309_2",
+   "title": "Silver tetradrachm of Athens",
+   "institution": "British Museum",
+   "accession": "1905,0309.2",
+   "date": "5th century BC",
+   "material": "silver",
+   "url": "https://www.britishmuseum.org/collection/object/C_1905-0309-2",
+   "licence": "Rights vary per object — VERIFY before broadcast use",
+   "licence_flag": "blocked_pending_check",
+   "hero": true,
+   "marks_explained": [
+    {
+     "mark": "Owl (reverse)",
+     "meaning": "The bird of Athena, goddess of wisdom. It does not blink. Neither does the coin."
+    },
+    {
+     "mark": "Olive sprig",
+     "meaning": "Athena's gift to Athens — the tree she planted to win the city."
+    },
+    {
+     "mark": "Crescent",
+     "meaning": "A moon, its exact meaning still debated by numismatists."
+    },
+    {
+     "mark": "ΑΘΕ",
+     "meaning": "Alpha, Theta, Epsilon — 'of the Athenians'. Not a king's name. A people's name. Every other coinage in the world carried a ruler's face."
+    },
+    {
+     "mark": "Athena (obverse)",
+     "meaning": "Helmeted, shown frontally-eyed in archaic style — she looks straight out at the holder."
+    }
+   ],
+   "how_it_was_made": "A blank (flan) of refined silver was cast to a fixed weight, heated, laid on the fixed lower die (obverse), and struck by a hammer blow to the upper die (reverse). The weight standard, not the artistry, is the promise.",
+   "how_made_sources": [
+    "kroll_agora_xxvi",
+    "berlin_foundry_cup"
+   ],
+   "appears_in_film": {
+    "video": "why_we_started_trusting_strangers",
+    "beat": 7
+   },
+   "connects_to": [
+    {
+     "character": "aurora",
+     "why": "The Lydian electrum stater — the coin before the coin. She was there for that."
+    }
+   ],
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "id": "mfa_95_129",
+   "title": "Tetradrachm of Athens",
+   "institution": "Museum of Fine Arts, Boston",
+   "accession": "95.129",
+   "date": "c. 470–455 BC",
+   "material": "silver",
+   "weight_g": 17.21,
+   "diameter_mm": 24,
+   "provenance": "Purchased by the MFA in 1895.",
+   "url": "https://collections.mfa.org/objects/4004/",
+   "licence": "Rights vary per object — verify",
+   "licence_flag": "check_required",
+   "why_this_one": "The best-documented weight and diameter of any owl in the set — this is where the 17.2 g figure in the film comes from.",
+   "verify": {
+    "ok": true,
+    "status": 202,
+    "final_url": "https://collections.mfa.org/objects/4004/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "met_330160",
+   "title": "Silver tetradrachm",
+   "institution": "Metropolitan Museum of Art",
+   "accession": "330160",
+   "date": "Classical period",
+   "url": "https://www.metmuseum.org/art/collection/search/330160",
+   "licence": "CC0 (Met Open Access)",
+   "licence_flag": "open",
+   "why_this_one": "High-resolution zoomable photography, openly licensed. Safe for publication.",
+   "verify": {
+    "ok": false,
+    "status": 429,
+    "error": "HTTP 429",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC0 (Met Open Access)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Met Collection API",
+    "accession": "2021.40.80",
+    "title": "Silver tetradrachm",
+    "image": "https://images.metmuseum.org/CRDImages/gr/original/KN366.JPG"
+   },
+   "licence_class": "open",
+   "image_url": "https://images.metmuseum.org/CRDImages/gr/original/KN366.JPG"
+  },
+  {
+   "id": "cma_1916_992",
+   "title": "Tetradrachm: Head of Athena (obv.); Owl (rev.)",
+   "institution": "Cleveland Museum of Art",
+   "accession": "1916.992",
+   "date": "449–407 BC",
+   "material": "silver",
+   "diameter_mm": 23,
+   "url": "https://clevelandart.org/art/1916.992",
+   "licence": "CC0 (Cleveland Open Access)",
+   "licence_flag": "open",
+   "hero": true,
+   "why_this_one": "CC0. This is the coin actually used on screen in the film — TH generates nothing; it shows the real object.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.clevelandart.org/art/1916.992",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC0 (Cleveland Open Access)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Cleveland Open Access API",
+    "accession": "1916.992",
+    "title": "Tetradrachm: Head of Athena (obverse); Owl (reverse)",
+    "image": "https://openaccess-cdn.clevelandart.org/1916.992/1916.992_web.jpg"
+   },
+   "licence_class": "open",
+   "image_url": "https://openaccess-cdn.clevelandart.org/1916.992/1916.992_web.jpg"
+  },
+  {
+   "id": "bm_g3183_dekadrachm",
+   "title": "Silver dekadrachm of Athens",
+   "institution": "British Museum",
+   "accession": "G.3183",
+   "date": "5th century BC",
+   "provenance": "Ex-Burgon collection, purchased 1841. On display, Gallery 68 / G15.",
+   "url": "https://www.britishmuseum.org/collection/object/C_G-3183",
+   "licence": "Rights vary per object — verify",
+   "licence_flag": "check_required",
+   "survivors": "Only about 40 Athenian dekadrachms are known to exist anywhere in the world.",
+   "why_this_one": "The rarest thing Alexandros ever was. A coin so scarce it is effectively a legend.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "id": "nma_1301_1999",
+   "title": "Silver dekadrachm",
+   "institution": "Numismatic Museum of Athens",
+   "accession": "NM 1301/1999",
+   "date": "5th century BC",
+   "provenance": "Donated 1999.",
+   "url": "https://www.nummus.gr/en/project/silver-ten-drachm-of-athens-nm-1301-1999/",
+   "licence": "Institutional — contact required",
+   "licence_flag": "contact_required",
+   "why_this_one": "Displayed in a motorised rotating case in Athens — the museum itself understood that this object needs to be seen from every side.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.nummus.gr/en/project/silver-ten-drachm-of-athens-nm-1301-1999/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "science_2025_provenance",
+   "title": "Athens's oldest coins reveal ancient, widespread silver trade",
+   "type": "Academic study, reported",
+   "year": 2025,
+   "publisher": "Science.org",
+   "url": "https://www.science.org/content/article/athens-s-oldest-coins-reveal-ancient-widespread-silver-trade",
+   "access": "Free to read",
+   "difficulty": "general",
+   "why_it_matters": "22 archaic Athenian coins were scientifically analysed. The silver in Athens's EARLIEST coins was imported — Spain, southern France, Turkey, Romania — not from Laurion. Athens was trusted before it was rich.",
+   "what_it_does_not_prove": "It does not tell us the silver source of the later classical owls, which are generally attributed to Laurion after the 483 BC strike.",
+   "overturns": "The common assumption — including TH's own first script draft — that the drachma was born out of Laurion silver.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "id": "kroll_agora_xxvi",
+   "title": "The Athenian Agora, Volume XXVI: The Greek Coins",
+   "author": "John H. Kroll",
+   "type": "Academic monograph",
+   "year": 1993,
+   "publisher": "American School of Classical Studies at Athens",
+   "url": "https://www.ascsa.edu.gr/uploads/media/oa_ebooks/oa_agora/Agora_XXVI.pdf",
+   "access": "Free, open access (PDF)",
+   "difficulty": "scholar",
+   "why_it_matters": "Contains site plans of the actual Athenian mint and the full catalogue of coin finds from the Agora excavations. This is what grounds TH's mint set in archaeology instead of imagination.",
+   "what_it_does_not_prove": "A catalogue is not a narrative — it records what was found, not how the striking felt or who did it.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ascsa.edu.gr/uploads/media/oa_ebooks/oa_agora/Agora_XXVI.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "kraay_hirmer_1966",
+   "title": "Greek Coins",
+   "author": "Colin Kraay & Max Hirmer",
+   "type": "Photographic reference",
+   "year": 1966,
+   "publisher": "Internet Archive",
+   "url": "https://archive.org/details/greekcoins00kraa",
+   "access": "Free (archive)",
+   "difficulty": "student",
+   "why_it_matters": "1,329 black-and-white plates plus 20 in colour — still the definitive photographic reference for Greek coinage, and the base reference for any minting reenactment.",
+   "what_it_does_not_prove": "Photographs of coins, not of the process. The minting sequence must be reconstructed from other evidence.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://archive.org/details/greekcoins00kraa",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "public domain / archive-hosted",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Internet Archive metadata API",
+    "title": "Greek Coins"
+   },
+   "licence_class": "open",
+   "licence": "public domain / archive-hosted"
+  },
+  {
+   "id": "bm_money_gallery_guide",
+   "title": "Large Print Guide, Room 68: Money",
+   "type": "Museum gallery guide (PDF)",
+   "year": 2020,
+   "publisher": "British Museum",
+   "url": "https://www.britishmuseum.org/sites/default/files/2021-05/Money_Gallery_LPG_2020_Room_68.pdf",
+   "access": "Free institutional PDF",
+   "difficulty": "general",
+   "why_it_matters": "Places the Wappenmünzen and earliest Athenian coinage in context alongside Aegina and Corinth — shows Athens was one competitor among several, not an obvious winner.",
+   "what_it_does_not_prove": "A gallery guide is a summary written for visitors; it is not the underlying scholarship.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.britishmuseum.org/sites/default/files/2021-05/Money_Gallery_LPG_2020_Room_68.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "id": "ans_mantis",
+   "title": "ANS MANTIS — numismatic database",
+   "type": "Museum database",
+   "publisher": "American Numismatic Society",
+   "access": "Free",
+   "difficulty": "student",
+   "why_it_matters": "1,606 owl tetradrachms catalogued. The owl was not rare — that was the entire point of it. A coin that only works if there are enough of it to meet a stranger with.",
+   "what_it_does_not_prove": "Catalogued survivors are not a measure of ancient circulation — survival is biased by hoarding and by what archaeologists happened to find.",
+   "verify": {
+    "ok": false,
+    "error": "NO URL IN MANIFEST"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "NO URL"
+   }
+  }
+ ],
+ "world_map": {
+  "center": {
+   "lat": 37.9755,
+   "lng": 23.7222,
+   "label": "Athens"
+  },
+  "era": "600–400 BCE",
+  "reach": "Athenian silver circulated across the entire Eastern Mediterranean and Near East. Hoards have been found from Egypt to Turkey.",
+  "nodes": [
+   {
+    "lat": 37.7167,
+    "lng": 24.05,
+    "label": "Laurion silver mines",
+    "role": "The 483 BC strike. ~700 shafts, ~200 ore-washing stations.",
+    "beat": 15
+   },
+   {
+    "lat": 37.9755,
+    "lng": 23.7222,
+    "label": "Athenian Agora & Mint",
+    "role": "Where he was struck.",
+    "beat": 6
+   },
+   {
+    "lat": 37.9475,
+    "lng": 23.6378,
+    "label": "Piraeus",
+    "role": "The port. Where the fleet was built and the coin left home.",
+    "beat": 3
+   },
+   {
+    "lat": 37.9475,
+    "lng": 23.51,
+    "label": "Salamis",
+    "role": "480 BC. The battle the coin paid for.",
+    "beat": 11
+   },
+   {
+    "lat": 38.4824,
+    "lng": 22.501,
+    "label": "Delphi",
+    "role": "Where Greeks came to ask what to do — and paid to ask.",
+    "beat": null
+   },
+   {
+    "lat": 36.7351,
+    "lng": 29.9152,
+    "label": "Elmalı, Turkey",
+    "role": "Site of the 1984 dekadrachm hoard — proof the coin travelled far beyond Athens.",
+    "beat": 8
+   },
+   {
+    "lat": 37.65,
+    "lng": 24.0242,
+    "label": "Cape Sounion",
+    "role": "Temple of Poseidon. The last thing a departing ship saw.",
+    "beat": 19
+   }
+  ],
+  "historical_map_sources": [
+   "Dipylon 'Mapping Ancient Athens' GIS project",
+   "Barbié du Bocage, map of Ancient Attica, 1785"
+  ]
+ },
+ "timeline": [
+  {
+   "date": "c. 600 BCE",
+   "event": "Archaic Greek city-states begin striking coin.",
+   "evidence": "bm_money_gallery_guide"
+  },
+  {
+   "date": "c. 560–510 BCE",
+   "event": "Athens strikes the Wappenmünzen under Peisistratus — from IMPORTED silver, not Laurion.",
+   "evidence": "science_2025_provenance"
+  },
+  {
+   "date": "c. 545–510 BCE",
+   "event": "The owl tetradrachm begins.",
+   "evidence": "bm_1905_0309_2"
+  },
+  {
+   "date": "483 BCE",
+   "event": "A major new silver vein is struck at Laurion. Themistocles moves to spend the windfall on 200 warships rather than distribute it to citizens. The assembly agrees.",
+   "evidence": "herodotus_vii"
+  },
+  {
+   "date": "480 BCE",
+   "event": "The fleet wins at Salamis.",
+   "evidence": "herodotus_vii"
+  },
+  {
+   "date": "447–432 BCE",
+   "event": "The Parthenon is built. Paid for in drachmas — the accounts survive, carved in marble.",
+   "evidence": "ig_i3_449"
+  },
+  {
+   "date": "1 Jan 2002",
+   "event": "The drachma is retired for the euro, after roughly 26 centuries.",
+   "evidence": "ecb"
+  },
+  {
+   "date": "2010–2015",
+   "event": "€289bn in bailouts. GDP falls ~25%. In 2015, 61% vote 'No' to the terms — and the terms are accepted anyway.",
+   "evidence": "imf_ec_ecb"
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Drachma",
+   "plain": "The main Greek coin. The name outlived every empire that tried to replace it — 26 centuries."
+  },
+  {
+   "term": "Tetradrachm",
+   "plain": "Four drachmas in one coin. The famous 'owl'. About 17 grams of silver."
+  },
+  {
+   "term": "Dekadrachm",
+   "plain": "Ten drachmas. Enormous, rare, probably ceremonial. Only ~40 survive."
+  },
+  {
+   "term": "Thete",
+   "plain": "The lowest class of Athenian citizen. No land, no armour. Which is why he rows — and why a wage in coin changes his life."
+  },
+  {
+   "term": "Wappenmünzen",
+   "plain": "Athens's earliest coins, before the owl. Struck from imported silver."
+  },
+  {
+   "term": "Flan",
+   "plain": "The blank disc of metal, cast to a fixed weight, before it is struck."
+  },
+  {
+   "term": "Die",
+   "plain": "The engraved metal stamp that puts the image into the coin. Hit it hard enough and the promise is in the silver."
+  },
+  {
+   "term": "Trireme",
+   "plain": "A warship with three banks of oars. 200 of them were bought with Laurion silver."
+  },
+  {
+   "term": "ΑΘΕ",
+   "plain": "'Of the Athenians.' The coin belongs to a people, not a king."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "What creature is on the reverse of the Athenian tetradrachm?",
+   "a": "An owl",
+   "why": "Athena's bird — wisdom. And it doesn't blink."
+  },
+  {
+   "q": "Where did the silver in Athens's EARLIEST coins come from?",
+   "a": "Imported — Spain, southern France, Turkey, Romania. Not Laurion.",
+   "why": "A 2025 scientific provenance study overturned the old assumption. Athens was trusted before it was rich.",
+   "source": "science_2025_provenance"
+  },
+  {
+   "q": "What did Athens do with the 483 BC Laurion silver windfall?",
+   "a": "Built a fleet of 200 warships",
+   "why": "Themistocles argued against handing it out as a cash dividend. The fleet won at Salamis three years later."
+  },
+  {
+   "q": "How many Athenian dekadrachms are known to survive?",
+   "a": "About 40",
+   "why": "One of them, ex-Burgon, sits in the British Museum."
+  },
+  {
+   "q": "What does ΑΘΕ mean, and why does it matter?",
+   "a": "'Of the Athenians' — the coin carries a city's name, not a ruler's face.",
+   "why": "Every other coinage said 'trust me because I can hurt you.' This one said: trust us."
+  }
+ ],
+ "decision_simulation": {
+  "title": "The Vote at Laurion",
+  "year": "483 BCE",
+  "setup": "You are an Athenian citizen. A huge new silver vein has been struck at Laurion. Themistocles stands up and proposes spending all of it on a war fleet — against a Persian threat that many think will never come. The alternative is simple: divide it. Ten drachmas, in your hand, tonight.",
+  "options": [
+   {
+    "id": "distribute",
+    "label": "Take the silver — 10 drachmas each, tonight",
+    "consequence": "Every citizen is richer this month. Athens has no navy. Three years later, the Persian fleet arrives."
+   },
+   {
+    "id": "fleet",
+    "label": "Build the ships",
+    "consequence": "You get nothing. Two hundred triremes are built. In 480 BC they win at Salamis, and Athens survives to invent most of what you think of as the classical world."
+   },
+   {
+    "id": "treasury",
+    "label": "Save it in the treasury",
+    "consequence": "Prudent. Also useless — silver in a vault does not row."
+   }
+  ],
+  "historical_outcome": "Athens voted to build the fleet.",
+  "the_hard_part": "It was not an obvious call. The Persians had not come. Themistocles was asking thousands of poor men to vote AGAINST money in their own hands, on a threat that might never arrive. Most of the men who voted yes rowed the ships themselves.",
+  "callback": "The film returns to this vote at the end: 'They are still holding that vote. Every country. Every year. They have simply stopped telling you it is happening.'"
+ },
+ "what_we_dont_know": [
+  "We do not know the names of any of the roughly twenty thousand enslaved people who worked the Laurion galleries. Not one.",
+  "We do not reliably know their life expectancy. A figure of '3 to 5 years' circulates widely — TH could not trace it to a named scholarly source, so we do not state it.",
+  "The Laurion output figure sometimes quoted as '$350 billion in today's money' has no source we could verify. We do not use it.",
+  "Until 2025, almost everyone — including this production's first draft — believed Athens's first coins were struck from Laurion silver. They were not. That correction is three months old.",
+  "The meaning of the crescent on the owl's reverse is still debated.",
+  "'Kallias', the rower in the film, is a composite. The record preserves the fleet, the wage and the battle. It does not preserve the man."
+ ],
+ "reading_list": {
+  "start_here": {
+   "title": "Athens's oldest coins reveal ancient, widespread silver trade",
+   "source_id": "science_2025_provenance",
+   "why": "Short, free, and it overturns the thing everyone thinks they know."
+  },
+  "go_deeper": {
+   "title": "Greek Coins — Kraay & Hirmer (1966)",
+   "source_id": "kraay_hirmer_1966",
+   "why": "The photographs that made the field. Free on the Internet Archive."
+  },
+  "the_primary_text": {
+   "title": "The Athenian Agora XXVI: The Greek Coins — Kroll (1993)",
+   "source_id": "kroll_agora_xxvi",
+   "why": "The excavation catalogue, including plans of the real mint. Free PDF, and genuinely difficult."
+  }
+ },
+ "slot_status": {
+  "_rule": "OPEN only when Layer 2 is complete. An OPEN badge on a thin page teaches the user that TH depth is a bluff.",
+  "museum_objects": "OPEN",
+  "primary_sources": "OPEN",
+  "world_map": "OPEN",
+  "quiz": "READY — content complete, needs UI",
+  "decision_simulation": "READY — content complete, needs UI",
+  "glossary": "READY — new slot, needs UI",
+  "timeline": "READY — new slot, needs UI",
+  "what_we_dont_know": "READY — new slot, needs UI",
+  "documentary": "IN PRODUCTION — 'Why We Started Trusting Strangers'",
+  "character_narration": "SOON",
+  "saga_novel": "OPEN (existing)",
+  "comic": "SOON",
+  "historical_article": "DRAFTED — headline: 'The Owl That Funded a Civilization'",
+  "podcast": "SOON",
+  "audio_drama": "SOON",
+  "animated_episode": "SOON",
+  "motion_comic": "SOON",
+  "economic_impact": "READY — content complete, needs UI",
+  "political_impact": "READY — content complete, needs UI",
+  "why_it_still_matters": "READY — content complete, needs UI"
+ },
+ "licence_blockers": [
+  "British Museum objects (1905,0309.2 and G.3183) are 'rights vary per object'. DO NOT publish these images until cleared. Use Cleveland (CC0) and Met (Open Access) for anything public-facing.",
+  "Numismatic Museum of Athens NM 1301/1999 requires institutional contact.",
+  "SAFE TO SHIP TODAY: Cleveland Museum of Art 1916.992 (CC0) and Met 330160 (Open Access)."
+ ],
+ "_verified": "2026-07-11 10:43"
+}

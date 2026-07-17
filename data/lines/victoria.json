@@ -1,0 +1,55 @@
+{
+ "custodian": "victoria",
+ "name": "Victoria Steele",
+ "asset": "S&P 500 Index",
+ "stations": [
+  {
+   "year": 1957,
+   "label": "THE DAY I BECAME 500",
+   "line": "They expanded me from ninety names to five hundred and handed me the whole American economy to count \u2014 I have been counting ever since.",
+   "era_photo": "Black-and-white silver gelatin print, a woman in a tailored 1957 gray flannel suit standing on a wood-paneled trading floor lined with chalkboards and ticker-tape machines, natural window light, slight film grain, formal posture."
+  },
+  {
+   "year": 1974,
+   "label": "THE FIRST APOCALYPSE",
+   "line": "Stagflation and oil shock cut me nearly in half, and I learned the lesson that has never once failed me \u2014 extremes correct.",
+   "era_photo": "Grainy 1974 Kodachrome color photograph, a woman in a wide-lapel earth-toned pantsuit seated at a cluttered desk under fluorescent light, muted brown-and-orange tones, paper stock quotes scattered, faded color cast typical of mid-70s film."
+  },
+  {
+   "year": 1987,
+   "label": "BLACK MONDAY",
+   "line": "I fell twenty percent in a single session and my voice did not crack; by the next year the record was already broken again.",
+   "era_photo": "1987 color film photograph with slight motion blur, a woman in a sharp-shouldered navy power suit with a silk blouse standing amid frantic traders in a New York exchange, harsh overhead lighting, warm 80s film saturation."
+  },
+  {
+   "year": 2000,
+   "label": "THE DOT-COM PEAK",
+   "line": "They told me the old rules were dead and priced my technology names for eternity \u2014 I expelled the pretenders and kept counting.",
+   "era_photo": "Early digital photograph circa 2000, low resolution and slightly soft, a woman in a minimalist charcoal skirt suit standing before a wall of glowing CRT monitors displaying green tickers, cool office lighting."
+  },
+  {
+   "year": 2008,
+   "label": "THE YEAR THEY BURIED ME",
+   "line": "Lehman was inside me when it died, and I carried the loss the way I carry everything \u2014 as the weighted average, not the wound.",
+   "era_photo": "High-resolution digital photograph, a woman in an impeccable black tailored suit standing composed before a red-drenched market display board, deep shadows, sharp DSLR clarity, cold blue-and-crimson lighting."
+  },
+  {
+   "year": 2020,
+   "label": "THE FASTEST CRASH",
+   "line": "A virus took a third of me in thirty-three days and then I made new highs before the year was out \u2014 calm the way tectonic plates are calm.",
+   "era_photo": "Digital photograph, a woman in a sleek dark suit alone in an empty glass-walled office, a face mask resting on the desk, laptop and multiple screens glowing, stark daylight through floor-to-ceiling windows, crisp 2020 clarity."
+  },
+  {
+   "year": 2024,
+   "label": "THE MONOCULTURE QUESTION",
+   "line": "Technology now owns more than forty percent of my weight, and in private I wonder whether I am still an index or simply a tech fund in a blue-chip disguise.",
+   "era_photo": "Ultra-sharp modern digital photograph, a woman in a precise slate-gray designer suit standing before a vast curved LED display dominated by a few enormous tech logos, high dynamic range, clean cool studio lighting."
+  },
+  {
+   "year": 2025,
+   "label": "STILL THE SCOREBOARD",
+   "line": "I have survived every crisis that was supposed to end me, and today, as always, my close is the only truth that needs no footnote.",
+   "era_photo": "Contemporary high-end digital portrait, a woman in a timeless tailored dark suit standing at the center of a modern trading floor bathed in soft closing-bell golden light, shallow depth of field, magazine-quality sharpness."
+  }
+ ]
+}

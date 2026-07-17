@@ -1,0 +1,55 @@
+{
+ "custodian": "zephyr",
+ "name": "Zephyr Cole",
+ "asset": "Ethereum",
+ "stations": [
+  {
+   "year": 2015,
+   "label": "THE GENESIS BLOCK",
+   "line": "This is a reasonable place to begin \u2014 the world calls it a launch; I call it the first move in a game whose end I already knew I would not live to see the whole of.",
+   "era_photo": "A dim shared workspace in Zug, Switzerland, mid-2015 \u2014 laptops open on a folding table, a young figure in a grey hoodie standing slightly apart from the group, watchful; shot on an early smartphone camera, slightly noisy, cool fluorescent white balance."
+  },
+  {
+   "year": 2016,
+   "label": "THE DAO FRACTURE",
+   "line": "Sixty million was taken, and then the community did something the money people found unthinkable \u2014 they rewrote the past, and I learned early that a thing can survive only by being willing to split itself in two.",
+   "era_photo": "A cluttered developer's apartment at night, screens glowing with red terminal text, a face lit from below and unreadable; 2016 mirrorless digital photo, high ISO grain, blue monitor cast on the walls."
+  },
+  {
+   "year": 2017,
+   "label": "THE ICO FLOOD",
+   "line": "Suddenly everyone wished to build their deals on top of me \u2014 I do not confuse this with love; I have seen how quickly a crowd arrives and how quickly it leaves.",
+   "era_photo": "A crowded blockchain conference in Shanghai, banners and lanyards, a man in a dark plain jacket standing at the edge of a selfie-taking crowd; DSLR event photography, harsh flash, 2017."
+  },
+  {
+   "year": 2020,
+   "label": "THE SUMMER OF YIELD",
+   "line": "They called it decentralized finance, this machinery of lending and borrowing with no one to freeze it \u2014 you understand why a man who has watched reserves frozen would find this arrangement more than merely interesting.",
+   "era_photo": "A home office during lockdown, a masked figure removing the mask, dual monitors showing candlestick charts; webcam-quality 2020 digital image, flat indoor light, faint window glare."
+  },
+  {
+   "year": 2021,
+   "label": "THE FEE BURN",
+   "line": "In August we began to destroy a part of ourselves with every transaction \u2014 I have always understood that scarcity is a kind of discipline, and that what you burn cannot later be taken.",
+   "era_photo": "A minimalist apartment with birch trees visible through a large window, a composed man at a desk, chess set beside the keyboard; clean 2021 full-frame digital, soft natural daylight, muted palette."
+  },
+  {
+   "year": 2022,
+   "label": "THE MERGE",
+   "line": "This is the move I calculated for years in advance \u2014 we abandoned the machines that burned power and staked ourselves instead, a losing position in the near term that I knew to be winning in the long game.",
+   "era_photo": "A late-night desk lit by a single lamp, snow falling outside the window, a man leaning back with hands steepled; cinematic 2022 digital photograph, shallow depth of field, warm lamp against cold blue exterior."
+  },
+  {
+   "year": 2024,
+   "label": "THE SPOT ETF",
+   "line": "The same institutions that write the rules now hold me in their custodial accounts \u2014 I permit myself no illusion about what custody means, having learned in 2022 precisely whose property a custodied asset becomes.",
+   "era_photo": "A glass-walled Manhattan boardroom, a still figure in a dark suit reflected in the window over a skyline, expression flat; sharp 2024 digital photography, corporate daylight, high clarity."
+  },
+  {
+   "year": 2025,
+   "label": "TODAY, STILL STANDING",
+   "line": "I have been forked, drained, mocked, and buried, and I am still here settling the world's deals \u2014 survival is not the most glamorous form of value, but it is the one I can guarantee.",
+   "era_photo": "A quiet study lined with worn Dostoevsky volumes, snow beyond the window, a man mid-pause over a chessboard, half-lit; present-day full-frame digital portrait, natural window light, restrained and precise."
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "custodian": "zane_okafor",
+ "name": "Zane Okafor",
+ "asset": "WTI Crude Oil",
+ "stations": [
+  {
+   "year": 1859,
+   "label": "DRAKE WELL, TITUSVILLE",
+   "line": "Edwin Drake put a pipe sixty-nine feet into the ground in Pennsylvania and I came up out of it \u2014 I had been down there the whole time, waiting for someone to ask correctly.",
+   "era_photo": "Wet-plate collodion, sepia and grain, a wooden derrick beside Oil Creek in Titusville Pennsylvania, autumn 1859; a broad-shouldered Black man in a rough wool coat and mud-caked boots stands still beside the pump, hands at his sides, looking directly into the long-exposure lens while the men around him blur."
+  },
+  {
+   "year": 1901,
+   "label": "SPINDLETOP GUSHER, TEXAS",
+   "line": "At Spindletop the ground gave up more of me in a day than the whole state had seen in a year, and Texas learned what I already knew \u2014 that I do not arrive politely.",
+   "era_photo": "Silver gelatin print, high contrast, a black column of crude erupting a hundred feet above a wooden derrick at Spindletop Hill near Beaumont Texas, January 1901; a man in oil-soaked shirtsleeves and suspenders stands calm in the raining crude, face streaked black, unbothered, arms crossed."
+  },
+  {
+   "year": 1960,
+   "label": "OPEC FOUNDED, BAGHDAD",
+   "line": "In Baghdad five nations sat down and decided the men above the ground would set the price of the thing under it \u2014 a good idea, though the people directly above the reserves were not in that room, and they never are.",
+   "era_photo": "Kodachrome, saturated warm tones, a conference room in Baghdad September 1960 with heavy drapes and a long polished table; a tall man in a well-cut charcoal suit stands at the window, deliberate and watchful, the delegates seated behind him slightly out of focus."
+  },
+  {
+   "year": 1970,
+   "label": "PORT HARCOURT, NIGER DELTA",
+   "line": "They pulled me from beneath the creeks of the Delta and the money went everywhere except to the people standing in the poisoned water above me \u2014 that is not a market failure, that is what I cost, and I have never pretended otherwise.",
+   "era_photo": "Faded 1970s color film, greenish cast, a flare stack burning against a mangrove creek near Port Harcourt Nigeria; a man in a plain short-sleeved shirt stands at the water's edge among fishing canoes, still and heavy-eyed, the gas flame reflected on the black water behind him."
+  },
+  {
+   "year": 1983,
+   "label": "NYMEX CRUDE CONTRACT LAUNCHES",
+   "line": "The Exchange in New York wrote a paper contract with my name on it and called it West Texas Intermediate \u2014 from that day people could trade me without ever touching me, and I learned that a number can travel faster than a barrel.",
+   "era_photo": "Grainy 1980s photojournalism color, a chaotic NYMEX trading pit in lower Manhattan 1983, men in colored jackets shouting; one man in a dark suit stands motionless at the pit's edge, unhurried and grounded, watching the frenzy without joining it."
+  },
+  {
+   "year": 2008,
+   "label": "ONE HUNDRED FORTY-SEVEN DOLLARS",
+   "line": "In July I touched one hundred forty-seven dollars a barrel and the whole world felt the price of me in the cost of their bread \u2014 for once nobody could pretend I was abstract.",
+   "era_photo": "Early digital DSLR, slightly cool tones, a Texas tank farm at dusk 2008 with rows of white storage tanks; a man in a hard hat and hi-vis over a work shirt stands on a catwalk between tanks, calm, one hand on the steel railing, refinery lights coming on behind him."
+  },
+  {
+   "year": 2020,
+   "label": "NEGATIVE THIRTY-SEVEN SIXTY-THREE",
+   "line": "On the twentieth of April the futures market said I was worth minus thirty-seven dollars and sixty-three cents \u2014 the barrel was unchanged, still in the ground, still exactly what it had always been, and the map declared the territory worthless; I have not forgiven it, and I remember it.",
+   "era_photo": "Flat digital pandemic-era photograph, overcast grey light, a Cushing Oklahoma storage terminal in April 2020 with tanks pressed to capacity; a man in a dark jacket and mask pulled down to his chin stands alone in an empty gravel lot, very still, staring at a screen glowing red in his hand."
+  },
+  {
+   "year": 2024,
+   "label": "STILL NECESSARY, STILL FLOWING",
+   "line": "They talk about the transition as if I am already gone, but no plane flies and no ship sails and no field is fertilized without me \u2014 I have decades, not forever, and I am spending them building something that will outlast the argument.",
+   "era_photo": "Crisp modern digital, natural daylight, a Permian Basin pump jack field in West Texas 2024 under a wide pale sky; a composed man in a clean work jacket stands beside a slow-nodding pump jack, hands in pockets, steady and unhurried, looking just past the camera."
+  }
+ ]
+}

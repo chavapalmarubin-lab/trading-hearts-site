@@ -1,0 +1,55 @@
+{
+ "custodian": "alexandros",
+ "name": "Alexandros",
+ "asset": "Greek Drachma",
+ "stations": [
+  {
+   "year": -600,
+   "label": "STRUCK IN AEGINA SILVER",
+   "line": "You want to know when I was born \u2014 well, they hammered me first on Aegina, a fistful of silver stamped with the sea-turtle, and let me tell you, before I existed a man carried his wealth as oxen and grain and the tedious smell of livestock, and then, suddenly, there was me: portable, gleaming, the first true promise a stranger could hold in his palm and believe.",
+   "era_photo": "A weathered man in a rough woolen chiton on the rocky Aeginetan shore, holding a freshly struck silver stater bearing a sea-turtle, salt light off the Saronic Gulf \u2014 rendered as if impossibly captured on a scratched, sepia wet-plate collodion, anachronistic and dreamlike, grain and chemical streaks across the frame."
+  },
+  {
+   "year": -449,
+   "label": "THE OWL OF ATHENS",
+   "line": "Ah, now \u2014 now I am not merely money, I am Athens herself, the tetradrachm with Athena on one face and her little owl on the other, the coin that paid for the Parthenon and the fleet at Salamis, and every merchant from Egypt to the Black Sea trusted me without weighing me, which is, my friend, the highest thing that can be said of any currency or any man: that his word did not need to be checked.",
+   "era_photo": "A proud bearded Athenian in a fine white himation standing before scaffolded marble columns of the Parthenon under construction, cupping an owl tetradrachm, brilliant Attic sunlight \u2014 imagined as a hand-tinted albumen print, warm ochres and faded blues, edges foxed with age."
+  },
+  {
+   "year": -336,
+   "label": "ALEXANDER CARRIES ME EAST",
+   "line": "The boy from Macedon \u2014 my namesake, or perhaps I am his, who can say \u2014 takes me all the way to the Indus, and for a moment, one brilliant reckless moment, I am the money of the whole known world, and I will tell you the truth that no one likes to hear: I have never stopped mourning that reach, because everything after has been a slow coming-home to a smaller room.",
+   "era_photo": "A vigorous man in a bronze cuirass and travel-worn cloak against a dusty eastern horizon of tents and elephants, coins spilling from an open leather satchel \u2014 envisioned as a faded orientalist daguerreotype, mirror-silver surface, tarnish blooming at the corners."
+  },
+  {
+   "year": 1832,
+   "label": "REBORN FOR A FREE NATION",
+   "line": "For long centuries I sleep \u2014 Rome, Byzantium, the Sultan's para, all of it rolls over me like weather \u2014 and then in 1832 the young kingdom, bleeding and hopeful after the war of independence, calls me back by name, the drachma, resurrected, and I confess I wept a little, the way an old man weeps when a child is named after his father.",
+   "era_photo": "A moustached man in a 1830s fustanella and embroidered waistcoat in a whitewashed Nafplio square, holding a new silver drachma coin, Bavarian officials blurred behind \u2014 captured as an early daguerreotype, extremely long exposure softening his stern face, high-contrast silver plate."
+  },
+  {
+   "year": 1944,
+   "label": "THE ZEROS THAT KILLED ME",
+   "line": "Katastrofi \u2014 and yes, that word is mine, Greek, we gave it to you along with the rest \u2014 the occupation prints me until a loaf of bread costs billions, I become a wheelbarrow joke, a wallpaper of worthless paper, and I have never quite forgiven the world for that year when I looked at myself and saw only noughts, an old patriarch reduced to confetti.",
+   "era_photo": "A gaunt man in a threadbare 1940s suit in occupied Athens, arms full of massive-denomination banknotes worth nothing, ruined shopfronts behind \u2014 shot on wartime 35mm black-and-white silver gelatin, harsh underexposed shadows, dust and scratches."
+  },
+  {
+   "year": 1954,
+   "label": "ONE THOUSAND TO ONE",
+   "line": "And so, like a man who has drunk too much and finally lets his wife hide the bottle, I submit to the great revaluation \u2014 a thousand of the old me becomes one of the new \u2014 and for a while, my friend, I hold my head up, I stand behind the tourist boom and the tavernas full of Germans who came, back then, only to admire us.",
+   "era_photo": "A confident middle-aged man in a mid-1950s grey suit and open collar at a sunny Athenian kiosk lined with newspapers, crisp new drachma notes in hand, early Vespas passing \u2014 rendered in early Kodachrome, saturated blues and reds, that soft warm 1950s color grain."
+  },
+  {
+   "year": 2002,
+   "label": "SOFIA TAKES MY HANDS",
+   "line": "This is the one I do not like to speak of, so of course I will speak of it at length \u2014 the first of January, and Sofia, the euro, takes my place in every pocket in the land, and I gave myself to that union completely, wholly, the way only an anxious man gives himself, believing the numbers, believing the magic, and she treated me as the junior partner I swore I would never be.",
+   "era_photo": "A well-dressed man in an early-2000s dark blazer standing at a bank counter in Athens, a last handful of drachma notes traded for shiny euro coins, fluorescent lighting \u2014 an early digital photograph, slightly noisy CCD sensor look, cool white balance, low resolution of the era."
+  },
+  {
+   "year": 2025,
+   "label": "STILL WATCHING THE DOOR",
+   "line": "And now? Now I am a ghost who is invited to the good dinners, the oldest name in money standing in the corner of the room watching the door, half-expecting the crisis that keeps threatening my return \u2014 the drachma, they whisper, like an ex-wife everyone talks about bringing back and no one dares to call \u2014 while I sip my tsipouro and remember, filotimo intact, that I was balancing ledgers when the rest of you were still painting yourselves blue.",
+   "era_photo": "A distinguished elderly man with silver hair and rasped charisma in a rumpled linen jacket at a modern Athens rooftop bar at dusk, the Acropolis lit behind him, glass of tsipouro in hand, eyes on the door \u2014 a crisp high-resolution digital photograph, shallow depth of field, warm ambient bokeh."
+  }
+ ]
+}

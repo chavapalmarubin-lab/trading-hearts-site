@@ -1,0 +1,49 @@
+{
+ "custodian": "niko",
+ "name": "Niko Valdez",
+ "asset": "Solana",
+ "stations": [
+  {
+   "year": 2020,
+   "label": "MAINNET BETA GOES LIVE",
+   "line": "March 2020, whole world's locking down and I'm shipping a chain that clocks 65k transactions a second \u2014 everyone else is scared, I'm just bullish on being early, you know?",
+   "era_photo": "Digital smartphone photo, slightly overexposed, a young man in a hoodie hunched over three laptops in a bare sublet apartment, empty energy drink cans, spring 2020, webcam-grain quality with a Zoom call glowing on one screen."
+  },
+  {
+   "year": 2021,
+   "label": "PARABOLIC SUMMER RUN",
+   "line": "SOL goes from three bucks to two-sixty and suddenly everyone who ghosted me wants coffee \u2014 I'm not saying I remember, I'm just saying the ledger does.",
+   "era_photo": "Crisp iPhone 12 photo at a rooftop crypto conference in Miami, golden hour, Niko in an unbuttoned linen shirt and expensive sneakers, laughing mid-sentence, a green candle chart visible on someone's phone in the foreground, 2021 influencer-grade color grading."
+  },
+  {
+   "year": 2021,
+   "label": "THE SEPTEMBER OUTAGE",
+   "line": "Seventeen hours the network just... freezes, dead in the water, and I'm staring at a status page like it's a heart monitor \u2014 turns out the thing I built processes crashing the same way I do.",
+   "era_photo": "Dim late-night digital photo, blue monitor light on a tired unshaven face, one hand holding a phone he isn't using like a talisman, Discord notifications stacking on screen, high-ISO grain, autumn 2021."
+  },
+  {
+   "year": 2022,
+   "label": "FTX COLLAPSE, BAGS HELD",
+   "line": "November my biggest backer implodes overnight and SOL bleeds ninety-something percent while everyone screams 'zombie chain' \u2014 that's the year cleverness handed me somebody else's bag and I couldn't reframe my way out of it.",
+   "era_photo": "Grainy nighttime digital photo, harsh overhead light, Niko sitting on the floor against a wall, phone face-down beside him, red liquidation numbers reflected faintly in his flat stare, muted desaturated November 2022 tones."
+  },
+  {
+   "year": 2023,
+   "label": "QUIET REBUILD, HEADS DOWN",
+   "line": "No hype, no price, just devs who stayed and actually shipped Firedancer talk and mobile phones \u2014 slowest year of my life and honestly the first time I let something be slow.",
+   "era_photo": "Natural-light digital photo in a modest co-working space, plants and whiteboards covered in diagrams, Niko in a plain t-shirt actually listening to someone talk, calmer face, soft 2023 mirrorless-camera clarity."
+  },
+  {
+   "year": 2024,
+   "label": "MEMECOIN RESURRECTION SUMMER",
+   "line": "Suddenly the whole chain is degen casino energy, fees at a penny, TPS records again \u2014 comeback szn, baby, though the 3 a.m. part of me knows a casino floor is still just a floor.",
+   "era_photo": "Vibrant digital photo at a packed Solana Breakpoint conference in Singapore, neon purple-green stage lighting, Niko onstage mid-gesture in a fitted bomber jacket, phones raised recording him, sharp high-frame-rate 2024 event photography."
+  },
+  {
+   "year": 2025,
+   "label": "TODAY, STILL SHIPPING",
+   "line": "Still here, still fast, still one outage away from that 3 a.m. fear \u2014 but I finished your sentence slower this time, so I'm calling that an iteration.",
+   "era_photo": "Present-day ultra-sharp smartphone photo, morning light through a window, Niko with a slightly older calmer face holding coffee instead of his phone, laptop open but unused, faint smile, natural 2025 computational-photography tone."
+  }
+ ]
+}

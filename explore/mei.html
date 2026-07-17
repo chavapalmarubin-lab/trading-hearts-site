@@ -1,0 +1,225 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mei — Explore · Trading Hearts</title><style>
+:root{--navy:#0a1526;--navy2:#0e1c31;--card:#122241;--gold:#c9a961;--gold2:#e3c988;
+--ink:#e7e2d6;--dim:rgba(231,226,214,.62);--line:rgba(201,169,97,.22)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--navy);color:var(--ink);
+font:16px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+a{color:var(--gold2)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 26px 90px}
+header.hero{padding:54px 26px 30px;border-bottom:1px solid var(--line);background:var(--navy2)}
+header.hero .in{max-width:1120px;margin:0 auto;display:flex;gap:26px;align-items:center}
+.era{color:var(--gold);letter-spacing:.18em;text-transform:uppercase;font-size:.74rem}
+h1{font-family:Georgia,serif;font-size:2.5rem;margin:.15em 0 .1em;font-weight:400}
+.tag{color:var(--dim);max-width:62ch;font-style:italic}
+.pt{width:104px;height:104px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);flex:0 0 auto}
+h2{font-family:Georgia,serif;font-weight:400;font-size:1.6rem;margin:52px 0 6px;color:var(--gold2)}
+.sub{color:var(--dim);font-size:.92rem;margin:0 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;
+display:flex;flex-direction:column}
+.card img{width:100%;height:210px;object-fit:cover;background:#0a1526}
+/* The "cited, not shown" state must read as RIGOUR, not as a broken image. */
+.cite{height:210px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+text-align:center;padding:22px;gap:9px;
+background:linear-gradient(160deg,#0e1c31,#0a1526);border-bottom:1px solid var(--line)}
+.cite .seal{width:38px;height:38px;border:1px solid var(--gold);border-radius:50%;
+display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:1.05rem}
+.cite .acc{font:600 .96rem/1.3 Georgia,serif;color:var(--gold2);letter-spacing:.02em}
+.cite .inst{font-size:.78rem;color:var(--dim)}
+.cite .why{font-size:.7rem;color:rgba(231,226,214,.45);max-width:26ch;line-height:1.45}
+.cite a{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;
+border-bottom:1px solid var(--line);padding-bottom:2px}
+.attr{font-size:.7rem;color:rgba(231,226,214,.45);line-height:1.5}
+.attr a{color:rgba(231,226,214,.62)}
+.card .b{padding:16px 18px 18px;flex:1;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font:600 1.02rem/1.35 Georgia,serif;color:var(--ink)}
+.meta{font-size:.78rem;color:var(--dim)}
+.desc{font-size:.9rem;color:rgba(231,226,214,.85)}
+.sig{font-size:.88rem;color:var(--gold2);border-left:2px solid var(--gold);padding-left:10px}
+.badge{display:inline-block;font-size:.64rem;letter-spacing:.09em;text-transform:uppercase;
+padding:3px 8px;border-radius:5px;border:1px solid var(--line);color:var(--dim)}
+.badge.ok{color:#8fd6a0;border-color:rgba(143,214,160,.4)}
+.badge.warn{color:#e0b96a;border-color:rgba(224,185,106,.4)}
+.badge.bad{color:#e08c8c;border-color:rgba(224,140,140,.4)}
+.foot{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding-top:6px}
+.src{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.src li{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.src h3{margin:0 0 4px;font:600 1rem/1.4 Georgia,serif}
+.unk{background:rgba(224,140,140,.07);border:1px solid rgba(224,140,140,.3);
+border-radius:12px;padding:22px 24px}
+.unk li{margin:8px 0;color:rgba(231,226,214,.9)}
+.mapnodes{display:grid;gap:8px}
+.mapnodes div{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 14px;
+font-size:.9rem;display:flex;justify-content:space-between;gap:12px}
+.mapnodes span{color:var(--dim);font-size:.78rem;font-variant-numeric:tabular-nums}
+footer{border-top:1px solid var(--line);margin-top:60px;padding:26px;text-align:center;color:var(--dim);font-size:.8rem}
+
+/* NAVIGATION — a reader who cannot get back is a reader you lost. */
+.topnav{position:sticky;top:0;z-index:50;background:rgba(10,21,38,.94);
+backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid var(--line)}
+.topnav .in{max-width:1120px;margin:0 auto;padding:11px 26px;display:flex;align-items:center;
+gap:18px;flex-wrap:wrap}
+.home{display:inline-flex;align-items:center;gap:7px;text-decoration:none;color:var(--gold2);
+font:600 .82rem/1 -apple-system;letter-spacing:.04em;white-space:nowrap}
+.home:hover{color:#fff}
+.jump{display:flex;gap:14px;margin-left:auto;flex-wrap:wrap}
+.jump a{color:var(--dim);text-decoration:none;font-size:.78rem;letter-spacing:.06em;
+text-transform:uppercase;white-space:nowrap}
+.jump a:hover{color:var(--gold2)}
+.pager{display:flex;justify-content:space-between;gap:14px;margin-top:44px;
+border-top:1px solid var(--line);padding-top:22px}
+.pager a{text-decoration:none;color:var(--gold2);font-size:.85rem}
+.pager a:hover{color:#fff}
+.pager .nx{text-align:right}
+.pager small{display:block;color:var(--dim);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase}
+@media(max-width:640px){.jump{display:none}}
+</style></head><body>
+
+<nav class="topnav"><div class="in">
+<a class="home" href="../index.html">&larr; Trading Hearts</a>
+<a class="home" href="index.html" style="color:var(--dim)">All 28 characters</a>
+<div class="jump">
+<a href="#objects">Objects</a><a href="#sources">Sources</a>
+<a href="#map">Map</a><a href="#unknown">What we don't know</a>
+</div></div></nav>
+
+<header class="hero"><div class="in">
+<div style="flex:1">
+<div class="era">1948 · Founding of the People&#x27;s Republic Era · Chinese Yuan Renminbi</div>
+<h1>Mei</h1>
+<p class="tag">She arrives without ever seeming to move — and somehow she&#x27;s already in the room.</p>
+</div>
+<img class="pt" src="../media/characters/mei/mei_portrait.webp"
+ onerror="this.style.display='none'" alt="Mei">
+</div></header>
+<div class="wrap">
+
+<h2 id="objects">Museum objects</h2>
+<p class="sub">0 shown · 5 cited but not shown. An image only appears here if it is openly
+licensed <em>and</em> confirmed to depict the object we claim. Otherwise we cite it and link you to
+the museum — we would rather show you nothing than show you the wrong thing.</p>
+<div class="grid"><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">First Series RMB 1948</div>
+<div class="inst">Referenced via Wikipedia / historical archives</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://en.wikipedia.org/wiki/First_series_of_the_renminbi" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>First Series Renminbi Note (1948)</h3>
+<div class="meta">Referenced via Wikipedia / historical archives · First Series RMB 1948 · December 1, 1948</div>
+<div class="desc">The very first renminbi banknote, issued in Shijiazhuang, Hebei, with calligraphy by Dong Biwu.</div>
+<div class="sig">Mei arrived quietly in a provincial city, not a capital — and by the time anyone noticed, she was already the currency of the world&#x27;s most populous nation.</div>
+
+
+<div class="foot"><span class="badge warn">licence unruled</span><span class="badge">Creative Commons Attribution-ShareAlike 4.0 </span>
+<a class="badge" href="https://en.wikipedia.org/wiki/First_series_of_the_renminbi" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">Complete RMB printing plate set</div>
+<div class="inst">Shanghai Bank Museum</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://english.shanghai.gov.cn/en-MuseumsGalleries/20240725/f4e179b9611942b2b492b3d55857f60e.html" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>RMB Steel Printing Plates (Complete Set)</h3>
+<div class="meta">Shanghai Bank Museum · Complete RMB printing plate set · Mid-20th century</div>
+<div class="desc">The only complete set of original renminbi steel printing plates known to exist in the world.</div>
+<div class="sig">Every renminbi bill that has ever entered circulation traces back to plates like these — the literal fingerprint behind Mei&#x27;s entire physical existence.</div>
+
+
+<div class="foot"><span class="badge warn">licence unruled</span><span class="badge">Shanghai Municipal Government — Chinese gove</span>
+<a class="badge" href="https://english.shanghai.gov.cn/en-MuseumsGalleries/20240725/f4e179b9611942b2b492b3d55857f60e.html" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">Spink lot 233</div>
+<div class="inst">Spink Auction House (private sale record)</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://www.spink.com/media/view?id=233" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>&#x27;Famous Running Horse&#x27; Rare Note</h3>
+<div class="meta">Spink Auction House (private sale record) · Spink lot 233 · First Series RMB</div>
+<div class="desc">An extremely rare denomination of the first series renminbi, prized by collectors and auctioned by Spink.</div>
+<div class="sig">Most of these notes were destroyed or lost — the few that survive are treated almost like relics, evidence of how quickly and completely Mei&#x27;s early history vanished.</div>
+
+
+<div class="foot"><span class="badge bad">rights not cleared</span><span class="badge">Spink &amp; Son — auction house, all rights </span>
+<a class="badge" href="https://www.spink.com/media/view?id=233" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">O1061242</div>
+<div class="inst">Victoria and Albert Museum</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://collections.vam.ac.uk/item/O1061242/" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>Shanghai, 1949 (Cartier-Bresson Photograph)</h3>
+<div class="meta">Victoria and Albert Museum · O1061242 · 1949</div>
+<div class="desc">An iconic photograph by Henri Cartier-Bresson capturing the chaos and transition in Shanghai during the Communist takeover.</div>
+<div class="sig">This image is the human backdrop to Mei&#x27;s rise — an entire society reorganizing itself in real time, right as her currency was becoming the only one that mattered.</div>
+
+
+<div class="foot"><span class="badge ok">open licence</span><span class="badge">CC BY — Victoria and Albert Museum online co</span>
+<a class="badge" href="https://collections.vam.ac.uk/item/O1061242/" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article><article class="card"><div class="cite">
+<div class="seal">◈</div>
+<div class="acc">IMF SDR announcement Oct 2016</div>
+<div class="inst">International Monetary Fund</div>
+<div class="why">image failed verification (wrong object) — cited, not shown</div>
+<a href="https://www.imf.org/en/news/articles/2016/09/29/am16-na093016imf-adds-chinese-renminbi-to-special-drawing-rights-basket" target="_blank" rel="noopener">View it at the museum ↗</a>
+</div><div class="b">
+<h3>IMF SDR Basket Inclusion Announcement</h3>
+<div class="meta">International Monetary Fund · IMF SDR announcement Oct 2016 · October 2016</div>
+<div class="desc">The IMF&#x27;s official announcement adding the Chinese renminbi to its Special Drawing Rights basket of reserve currencies.</div>
+<div class="sig">Nearly seventy years after arriving quietly in a provincial city, Mei was finally recognized by the world&#x27;s most exclusive currency club — and she barely made a sound doing it.</div>
+
+
+<div class="foot"><span class="badge ok">open licence</span><span class="badge">IMF — open access for most publications; IMF</span>
+<a class="badge" href="https://www.imf.org/en/news/articles/2016/09/29/am16-na093016imf-adds-chinese-renminbi-to-special-drawing-rights-basket" target="_blank" rel="noopener">view at museum ↗</a></div>
+</div></article></div>
+
+<h2 id="sources">Primary sources</h2>
+<p class="sub">The documents themselves. We link and quote — that is citation, and it needs no licence.</p>
+<ul class="src"><li><h3>Wikipedia: First Series of the Renminbi</h3>
+<div class="meta">encyclopedia_entry · Ongoing · Wikipedia contributors · Wikipedia</div>
+<div class="desc">Reference overview on the original 1948 renminbi banknote series.</div>
+<div class="sig">Background on the very first version of China&#x27;s currency, from 1948.</div>
+<div class="foot"><span class="badge warn">tertiary — pointer only</span><span class="badge">Creative Commons Attribution-ShareAlike 4.0 </span>
+<a class="badge" href="https://en.wikipedia.org/wiki/First_series_of_the_renminbi" target="_blank" rel="noopener">read the source ↗</a></div></li><li><h3>IMF Adds Chinese Renminbi to Special Drawing Rights Basket</h3>
+<div class="meta">official_announcement · 2016 · International Monetary Fund · IMF</div>
+<div class="desc">Official IMF press release on the renminbi&#x27;s inclusion in the SDR basket.</div>
+<div class="sig">The IMF&#x27;s own announcement about adding China&#x27;s currency to its elite basket of reserve currencies.</div>
+<div class="foot"><span class="badge ok">open</span><span class="badge">IMF — open access for most publications; IMF</span>
+<a class="badge" href="https://www.imf.org/en/news/articles/2016/09/29/am16-na093016imf-adds-chinese-renminbi-to-special-drawing-rights-basket" target="_blank" rel="noopener">read the source ↗</a></div></li><li><h3>Shanghai Bank Museum Collection Records</h3>
+<div class="meta">museum_record · Ongoing · Shanghai Municipal Government · Shanghai Bank Museum</div>
+<div class="desc">Official documentation of the museum&#x27;s unique collection of RMB printing plates.</div>
+<div class="sig">Official records about a Shanghai museum&#x27;s unique collection of the original tools used to print China&#x27;s money.</div>
+<div class="foot"><span class="badge">unclear</span><span class="badge bad">link down</span><span class="badge">Shanghai Municipal Government — Chinese gove</span>
+<a class="badge" href="https://english.shanghai.gov.cn/en-MuseumsGalleries/20240725/f4e179b9611942b2b492b3d55857f60e.html" target="_blank" rel="noopener">read the source ↗</a></div></li><li><h3>V&amp;A Museum Collection Record: Shanghai, 1949</h3>
+<div class="meta">museum_record · Ongoing · Victoria and Albert Museum · Victoria and Albert Museum</div>
+<div class="desc">Museum documentation of Henri Cartier-Bresson&#x27;s iconic photograph of 1949 Shanghai.</div>
+<div class="sig">A British museum&#x27;s record of a famous 1949 photograph of Shanghai during China&#x27;s revolutionary transition.</div>
+<div class="foot"><span class="badge ok">open</span><span class="badge">CC BY — Victoria and Albert Museum online co</span>
+<a class="badge" href="https://collections.vam.ac.uk/item/O1061242/" target="_blank" rel="noopener">read the source ↗</a></div></li><li><h3>Spink Auction Record: Famous Running Horse Note</h3>
+<div class="meta">auction_record · Ongoing · Spink &amp; Son · Spink</div>
+<div class="desc">Auction house documentation of a rare first-series renminbi note.</div>
+<div class="sig">An auction house&#x27;s record of one of the rarest and most valuable early Chinese banknotes.</div>
+<div class="foot"><span class="badge">restricted</span><span class="badge">Spink &amp; Son — auction house, all rights </span>
+<a class="badge" href="https://www.spink.com/media/view?id=233" target="_blank" rel="noopener">read the source ↗</a></div></li></ul>
+
+<h2 id="map">Where this money travelled</h2>
+<p class="sub">Mei was born quietly in Shijiazhuang in 1948, a year before the People&#x27;s Republic was formally declared, and grew into one of the world&#x27;s most closely watched reserve currencies.</p>
+<div class="mapnodes"><div><b>Shijiazhuang, Hebei</b><span>38.0428, 114.5149</span></div><div><b>Beijing (Tiananmen)</b><span>39.9042, 116.4074</span></div><div><b>Yan&#x27;an</b><span>36.6000, 109.4900</span></div><div><b>Shanghai (Bank Museum)</b><span>31.2304, 121.4737</span></div><div><b>Washington, D.C. (IMF)</b><span>38.8994, -77.0447</span></div></div>
+
+<h2 id="unknown">What we don't know</h2>
+<p class="sub">The page no competitor will build.</p>
+<div class="unk"><ul><li>5 of 5 objects on this page are <strong>cited but not shown</strong> — either the rights are not cleared, or we could not verify that an available image really depicts the object. We would rather show you nothing than show you the wrong thing.</li><li>1 source(s) here are Wikipedia — a <strong>tertiary</strong> source. It is a pointer, not our evidence. These are being replaced with the primary documents Wikipedia itself cites.</li><li>2 link(s) on this page are currently unreachable and are being replaced.</li></ul></div>
+
+<div class="pager">
+<a href="klaus_richter.html"><small>Previous</small>&larr; Klaus Richter · 1948</a>
+<a class="nx" href="victoria_steele.html"><small>Next</small>Victoria Steele · 1957 &rarr;</a>
+</div>
+
+</div>
+<footer><a href="../index.html" style="color:var(--gold2);text-decoration:none">&larr; Back to Trading Hearts</a>
+&nbsp;·&nbsp; every claim carries a source ·
+sources re-verified weekly by <code>run_pipeline.sh</code></footer></body></html>

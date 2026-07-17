@@ -1,0 +1,505 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 13,
+  "character_key": "matteo_conti",
+  "character_name": "Matteo Conti",
+  "asset": "Italian Lira",
+  "ticker": "ITL",
+  "era": "1861",
+  "era_label": "Italian Unification",
+  "era_year": 1861,
+  "tagline": "He proved a country could become one thing — then spent a century drowning in zeros proving it again."
+ },
+ "museum_objects": [
+  {
+   "id": "matteo_conti_obj_1",
+   "title": "1861 5 Lire Coin (Florence Mint)",
+   "date": "1861",
+   "type": "coin",
+   "material": "silver",
+   "description": "One of the first coins struck under the newly unified Kingdom of Italy's monetary system.",
+   "significance": "Before this coin, 'Italy' was a collection of separate kingdoms with separate money. This coin is the first proof that unification was more than a map — it was a currency too.",
+   "museum": "Museo della Zecca di Roma",
+   "museum_location": "Rome, Italy",
+   "accession_number": "1861 5 Lire",
+   "collection_url": "https://www.museozecca.ipzs.it/",
+   "image_url": "https://www.museozecca.ipzs.it/",
+   "license": "Museo della Zecca terms",
+   "open_access": false,
+   "plain_language": "One of the first coins made after Italy's many separate kingdoms unified into one country in 1861.",
+   "url": "https://www.museozecca.ipzs.it/",
+   "accession": "1861 5 Lire",
+   "institution": "Museo della Zecca di Roma",
+   "licence": "Museo della Zecca terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.museozecca.ipzs.it/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Catalogue of the valuable collection of ... Oriental, medieval and modern coins and medals, ... formed by the late Baron S. de Chaudoir, of St. Petersburg (IA catalogueofvalua00slei 8).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Catalogue_of_the_valuable_collection_of_..._Oriental%2C_medieval_and_modern_coins_and_medals%2C_..._formed_by_the_late_Baron_S._de_Chaudoir%2C_of_St._Petersburg_%28IA_catalogueofvalua00slei_8%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Catalogue_of_the_valuable_collection_of_..._Oriental,_medieval_and_modern_coins_and_medals,_..._formed_by_the_late_Baron_S._de_Chaudoir,_of_St._Petersburg_(IA_catalogueofvalua00slei_8).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nS. Leigh Sotheby &amp; John Wilkinson"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Catalogue of the valuable collection of ... Oriental, medieval and modern coins and medals, ... formed by the late Baron S. de Chaudoir, of St. Petersburg (IA catalogueofvalua00soth 61).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Catalogue_of_the_valuable_collection_of_..._Oriental%2C_medieval_and_modern_coins_and_medals%2C_..._formed_by_the_late_Baron_S._de_Chaudoir%2C_of_St._Petersburg_%28IA_catalogueofvalua00soth_61%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Catalogue_of_the_valuable_collection_of_..._Oriental,_medieval_and_modern_coins_and_medals,_..._formed_by_the_late_Baron_S._de_Chaudoir,_of_St._Petersburg_(IA_catalogueofvalua00soth_61).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nSotheby, S. Leigh &amp; John Wilkinson"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "matteo_conti_obj_2",
+   "title": "Allied Military Currency (Italy, 1943)",
+   "date": "1943",
+   "type": "banknote",
+   "material": "paper",
+   "description": "Emergency currency issued by Allied forces in Italy during World War II occupation.",
+   "significance": "For a moment, Matteo wasn't even printed by his own country — a stark reminder of how fragile national identity can be during war.",
+   "museum": "Referenced via Wikimedia Commons",
+   "museum_location": "Italy (wartime issue)",
+   "accession_number": "AMC Italy 1943",
+   "collection_url": "https://commons.wikimedia.org/wiki/Category:Allied_Military_Currency",
+   "image_url": "https://commons.wikimedia.org/wiki/Category:Allied_Military_Currency",
+   "license": "Public Domain (Wikimedia)",
+   "open_access": true,
+   "plain_language": "Emergency wartime money printed by Allied forces occupying Italy during World War II, not by Italy itself.",
+   "url": "https://commons.wikimedia.org/wiki/Category:Allied_Military_Currency",
+   "accession": "AMC Italy 1943",
+   "institution": "Referenced via Wikimedia Commons",
+   "licence": "Public Domain (Wikimedia)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:Allied_Military_Currency",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "AMC italy 1 lire-1.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/AMC_italy_1_lire-1.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:AMC_italy_1_lire-1.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "US Government (c/o Allied Military Government for Occupied Territories)"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "AMC italy 5 lire-1.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/AMC_italy_5_lire-1.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:AMC_italy_5_lire-1.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "US Government (c/o Allied Military Government for Occupied Territories)"
+    }
+   ]
+  },
+  {
+   "id": "matteo_conti_obj_3",
+   "title": "Garibaldi's Red Shirt",
+   "date": "c. 1860",
+   "type": "clothing",
+   "material": "wool/cotton",
+   "description": "An original red shirt associated with Giuseppe Garibaldi and his 'Redshirts' who fought for Italian unification.",
+   "significance": "This shirt belongs to the man who made Matteo possible — Garibaldi's unification campaign is the reason there was ever a single lira to unify at all.",
+   "museum": "Musei di Genova",
+   "museum_location": "Genoa, Italy",
+   "accession_number": "Cat. 590",
+   "collection_url": "https://www.museidigenova.it/",
+   "image_url": "https://www.museidigenova.it/",
+   "license": "Musei di Genova terms",
+   "open_access": false,
+   "plain_language": "An actual red shirt worn by Giuseppe Garibaldi, the revolutionary leader who helped unify Italy and made a single Italian currency possible.",
+   "url": "https://www.museidigenova.it/",
+   "accession": "Cat. 590",
+   "institution": "Musei di Genova",
+   "licence": "Musei di Genova terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.museidigenova.it/it",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Shirt",
+     "match_text": "Shirt Chimú Shirt 1450–1550 Textiles-Woven",
+     "accession": "1979.206.588",
+     "date": "1450–1550",
+     "image_url": "https://images.metmuseum.org/CRDImages/ao/original/DT5094.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/312784",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Musée Masséna Nice - Giuseppe Garibaldi Portrait.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Mus%C3%A9e_Mass%C3%A9na_Nice_-_Giuseppe_Garibaldi_Portrait.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Mass%C3%A9na_Nice_-_Giuseppe_Garibaldi_Portrait.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Jean-Pierre Dalbéra"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Red Shirts.png",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Red_Shirts.png",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Red_Shirts.png",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Nino Bixio\n\n(Life time: 1821-1873)"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image shows a textile that is not clearly a shirt, and its association with Garibaldi is not evident from the image alone.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "matteo_conti_obj_4",
+   "title": "Italian Hyperinflation-Era Banknotes (1970s-1990s)",
+   "date": "1970s-1990s",
+   "type": "banknote",
+   "material": "paper",
+   "description": "High-denomination lira notes (100,000 and 500,000 lire) reflecting decades of inflation before the euro's adoption.",
+   "significance": "By the end, Matteo needed six zeros just to buy a cup of coffee — proof of how much trust can erode, one small devaluation at a time.",
+   "museum": "Referenced via Banca d'Italia numismatic archive",
+   "museum_location": "Rome, Italy",
+   "accession_number": "High-denomination lira notes",
+   "collection_url": "https://www.bancaditalia.it/",
+   "image_url": "https://www.bancaditalia.it/",
+   "license": "Banca d'Italia terms",
+   "open_access": false,
+   "plain_language": "Italian banknotes worth hundreds of thousands of lire, showing how much the currency's value shrank over decades.",
+   "url": "https://www.bancaditalia.it/",
+   "accession": "High-denomination lira notes",
+   "institution": "Referenced via Banca d'Italia numismatic archive",
+   "licence": "Banca d'Italia terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bancaditalia.it/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "3 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "matteo_conti_obj_5",
+   "title": "Museo del Risorgimento",
+   "date": "Founded 1878",
+   "type": "museum/building",
+   "material": "stone",
+   "description": "A museum in Turin dedicated to the history of Italian unification, the political movement that created Matteo's country.",
+   "significance": "Everything Matteo represents — one currency, one nation — is documented here in the city where the movement to unify Italy began.",
+   "museum": "Museo Nazionale del Risorgimento Italiano",
+   "museum_location": "Turin, Italy",
+   "accession_number": "Museo del Risorgimento collection",
+   "collection_url": "https://www.museorisorgimentotorino.it/",
+   "image_url": "https://www.museorisorgimentotorino.it/",
+   "license": "Museum terms",
+   "open_access": false,
+   "plain_language": "A museum in Turin entirely dedicated to the movement that unified Italy and made a single Italian currency possible.",
+   "url": "https://www.museorisorgimentotorino.it/",
+   "accession": "Museo del Risorgimento collection",
+   "institution": "Museo Nazionale del Risorgimento Italiano",
+   "licence": "Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.museorisorgimentotorino.it/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Museo del Risorgimento quadro.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Museo_del_Risorgimento_quadro.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Museo_del_Risorgimento_quadro.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Elpi61"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Museo del risorgimento. Ph Ivan Stesso.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Museo_del_risorgimento._Ph_Ivan_Stesso.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Museo_del_risorgimento._Ph_Ivan_Stesso.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Ivan Stesso"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "matteo_conti_src_1",
+   "title": "Wikipedia: Italian Lira",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Overview reference on the history of the Italian lira from unification to the euro.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Italian_lira",
+   "license": "CC BY-SA",
+   "plain_language": "A general history of the Italian lira from its creation to its replacement by the euro.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Italian_lira",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "matteo_conti_src_2",
+   "title": "Garibaldi and the Thousand",
+   "type": "historical_account",
+   "date": "1909",
+   "author": "George Macaulay Trevelyan",
+   "description": "Classic historical narrative of Garibaldi's military campaign that helped unify Italy.",
+   "held_at": "Internet Archive",
+   "url": "https://archive.org/details/garibaldithousan00trev",
+   "license": "Public Domain",
+   "plain_language": "A classic history book about Garibaldi's military campaign that helped unite Italy.",
+   "licence": "public domain / archive-hosted",
+   "licence_class": "open",
+   "institution": "Internet Archive",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://archive.org/details/garibaldithousan00trev",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "public domain / archive-hosted",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Internet Archive metadata API",
+    "title": "Garibaldi and the thousand"
+   }
+  },
+  {
+   "id": "matteo_conti_src_3",
+   "title": "Banca d'Italia Numismatic Archive",
+   "type": "official_publication",
+   "date": "Ongoing",
+   "author": "Banca d'Italia",
+   "description": "Central bank archive documenting the design and issuance history of Italian lira banknotes.",
+   "held_at": "Banca d'Italia",
+   "url": "https://www.bancaditalia.it/",
+   "license": "Banca d'Italia terms",
+   "plain_language": "Italy's central bank's own official records of every lira banknote it ever issued.",
+   "licence": "Banca d'Italia terms",
+   "licence_class": "unknown",
+   "institution": "Banca d'Italia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bancaditalia.it/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "matteo_conti_src_4",
+   "title": "Museo Nazionale del Risorgimento Italiano Archive",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Museo Nazionale del Risorgimento",
+   "description": "Historical archive documenting the Italian unification movement.",
+   "held_at": "Museo Nazionale del Risorgimento, Turin",
+   "url": "https://www.museorisorgimentotorino.it/",
+   "license": "Museum terms",
+   "plain_language": "A museum's official archive about the movement that united Italy into one country.",
+   "licence": "Museum terms",
+   "licence_class": "unknown",
+   "institution": "Museo Nazionale del Risorgimento, Turin",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.museorisorgimentotorino.it/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "matteo_conti_src_5",
+   "title": "Wikimedia Commons: Allied Military Currency",
+   "type": "photo_archive",
+   "date": "1943",
+   "author": "Wikimedia Commons contributors",
+   "description": "Archive of wartime emergency currency issued in occupied Italy.",
+   "held_at": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Category:Allied_Military_Currency",
+   "license": "Public Domain",
+   "plain_language": "A photo archive of emergency wartime money used in Italy during World War II.",
+   "licence": "Public Domain",
+   "licence_class": "open",
+   "institution": "Wikimedia Commons",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:Allied_Military_Currency",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 41.9028,
+  "center_lng": 12.4964,
+  "center_label": "Rome, Italy",
+  "era_start": 1861,
+  "era_end": 2002,
+  "map_description": "Matteo's lira was born from Italian unification in 1861, minted first in Florence and Turin, and lived through wars, hyperinflation, and its final retirement for the euro in 2002.",
+  "nodes": [
+   {
+    "label": "Rome (Museo della Zecca)",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "type": "destination",
+    "description": "Site of Italy's modern mint museum, documenting the full history of lira coinage."
+   },
+   {
+    "label": "Turin (Museo del Risorgimento)",
+    "lat": 45.0703,
+    "lng": 7.6869,
+    "type": "origin",
+    "description": "Birthplace of the Italian unification movement that created the need for a single national currency."
+   },
+   {
+    "label": "Florence Mint",
+    "lat": 43.7696,
+    "lng": 11.2558,
+    "type": "origin",
+    "description": "One of the earliest mints to strike coins under the newly unified Kingdom of Italy."
+   },
+   {
+    "label": "Marsala, Sicily",
+    "lat": 37.8003,
+    "lng": 12.4318,
+    "type": "landmark",
+    "description": "Where Garibaldi landed with his Redshirts in 1860, launching the campaign that led to Italian unification."
+   },
+   {
+    "label": "Frankfurt (ECB)",
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "type": "destination",
+    "description": "Where the lira's 141-year run officially ended with the adoption of the euro in 2002."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Museo Nazionale del Risorgimento Italiano",
+   "url": "https://www.museorisorgimentotorino.it/",
+   "license": "Museum terms"
+  }
+ },
+ "_verified": "2026-07-11 10:39"
+}

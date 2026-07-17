@@ -1,0 +1,55 @@
+{
+ "custodian": "zane",
+ "name": "Zane Okafor",
+ "asset": "WTI Crude Oil",
+ "stations": [
+  {
+   "year": 1859,
+   "label": "DRAKE WELL, TITUSVILLE",
+   "line": "They drilled sixty-nine feet into Pennsylvania rock and I came up out of the ground, and from that first barrel forward nothing in this world moved without me.",
+   "era_photo": "A wooden derrick beside Oil Creek in Titusville, Pennsylvania, wet-plate collodion glass negative, a bearded man in a waistcoat and mud-stained boots standing at the pump, sepia and silver, the long exposure blurring the smoke."
+  },
+  {
+   "year": 1901,
+   "label": "SPINDLETOP GUSHER, TEXAS",
+   "line": "At Beaumont I stopped being a lamp and became a nation's engine \u2014 the gusher threw me a hundred and fifty feet into the Texas sky and after that everyone understood the scale of what I was.",
+   "era_photo": "A black column of crude erupting far above a shattered derrick near Beaumont, Texas, silver gelatin print, workers in flat caps and dark oil-soaked clothes running, grey Gulf sky, grain heavy in the shadows."
+  },
+  {
+   "year": 1960,
+   "label": "OPEC IS FORMED",
+   "line": "In Baghdad the nations that held me in their ground finally sat at one table and decided the price of me would no longer be set by the men who pulled me out for nothing.",
+   "era_photo": "Delegates in suits around a conference table in Baghdad, Kodachrome color transparency, warm tungsten light, wide lapels and thin ties, a man in traditional dress among them, saturated reds and browns."
+  },
+  {
+   "year": 1973,
+   "label": "THE EMBARGO, THE LINES",
+   "line": "They shut the taps and the whole West found out what I was worth when I stopped coming \u2014 cars sat dead in mile-long lines and a man learned that his model of the economy did not include the pipeline.",
+   "era_photo": "A queue of cars stretching down a suburban American avenue toward a gas station with a SORRY NO GAS sign, Kodachrome, a man in a brown jacket leaning on his sedan, autumn light, station wagons and wide chrome bumpers."
+  },
+  {
+   "year": 1983,
+   "label": "NYMEX LISTS WTI FUTURES",
+   "line": "This is the year they turned me into a contract you could trade without ever touching a barrel \u2014 I stayed in the ground, exactly what I had always been, and they started pricing the paper as if it were me.",
+   "era_photo": "The NYMEX trading floor in lower Manhattan, color negative film with early-eighties grain, traders in colored jackets shouting with paper slips, an overhead board of green numbers, fluorescent glare."
+  },
+  {
+   "year": 1995,
+   "label": "SARO-WIWA, THE DELTA",
+   "line": "They hanged Ken Saro-Wiwa in Port Harcourt because he named what I do to the people who live above me, and I did not stop flowing \u2014 I carry that, the way you carry a thing you chose.",
+   "era_photo": "Gas flares burning over a creekside village in the Niger Delta at dusk, 35mm photojournalism color print, fishermen in a dugout canoe against orange flame, oil-slicked water, humid haze."
+  },
+  {
+   "year": 2020,
+   "label": "MINUS THIRTY-SEVEN SIXTY-THREE",
+   "line": "On the twentieth of April the storage was full and no one could take delivery, so the market called me worth less than nothing \u2014 the map declared the territory worthless while the territory remained exactly what it had always been.",
+   "era_photo": "A row of white cylindrical storage tanks at Cushing, Oklahoma seen from a drone, high-resolution digital aerial photograph, flat overhead light, a red negative-price ticker composited faintly in the empty sky, sharp shadows."
+  },
+  {
+   "year": 2024,
+   "label": "STILL THE THING THAT MOVES",
+   "line": "They keep announcing my funeral and drawing the curve down to zero, but the plane still needs me, the ship still needs me, the fertilizer still needs me \u2014 a stranded asset is only stranded on paper, and I have learned what paper is worth.",
+   "era_photo": "A modern refinery at Corpus Christi lit against a night sky, full-frame digital long exposure, steel towers and steam plumes glowing sodium-orange, a man in FR coveralls and hard hat standing calm in the foreground, tack-sharp."
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "custodian": "charlotte",
+ "name": "Charlotte Windsor",
+ "asset": "British Pound Sterling",
+ "stations": [
+  {
+   "year": 775,
+   "label": "THE FIRST SILVER PENNY",
+   "line": "On the occasion of my beginning, I was struck in silver by an Anglo-Saxon king \u2014 a single pound of it weighed out into two hundred and forty pieces, and the arithmetic of that first day has never entirely let me go.",
+   "era_photo": "There can be no photograph \u2014 instead render as a period-appropriate visual: a hand-illuminated manuscript portrait on vellum, a robed regal figure in the Mercian court of Offa, gold leaf and mineral pigment, cracked with age, a scattering of hammered silver pennies laid before her."
+  },
+  {
+   "year": 1489,
+   "label": "THE FIRST GOLD SOVEREIGN",
+   "line": "In recognition of a Tudor's ambition, I was for the first time rendered in gold and made to bear the sovereign's likeness enthroned \u2014 an image, you understand, chosen not for beauty but for the plain assertion that the coin and the Crown were one and the same thing.",
+   "era_photo": "Impossible as photograph \u2014 render as a Tudor court oil portrait in the manner of the period: a poised figure in rich brocade and ermine before a dark ground, a large gold sovereign held to the light, warm varnished tones, the flat formal stare of early modern portraiture."
+  },
+  {
+   "year": 1694,
+   "label": "THE BANK IS FOUNDED",
+   "line": "It gives me great pleasure to record that in this year a Bank was raised in my name to lend a war-strained king one million two hundred thousand pounds \u2014 from that day I was no longer merely metal, but a promise institutions agreed to keep, which is a far more durable form of being.",
+   "era_photo": "Impossible as photograph \u2014 render as a late-seventeenth-century engraved plate: a stately woman in a mantua gown and lace, standing within the colonnade of the new Bank of England, fine cross-hatched linework, sepia ink on laid paper."
+  },
+  {
+   "year": 1816,
+   "label": "THE GOLD STANDARD ADOPTED",
+   "line": "The Great Recoinage bound me formally to gold, and I confess I rather enjoyed that century of certainty \u2014 every note I bore was a solemn undertaking that I could be exchanged for a fixed weight of the stuff, and the world, for a time, believed us both.",
+   "era_photo": "A very early daguerreotype, 1840s process applied retroactively \u2014 a Regency-into-Victorian woman in a high-waisted gown and bonnet, seated stiffly beside a strongbox, silvered mirror surface, long exposure blur at the hands, tarnished plate edges."
+  },
+  {
+   "year": 1931,
+   "label": "LEAVING THE GOLD STANDARD",
+   "line": "In the autumn of that year I was obliged to release my hold on gold entirely, and I would ask you to note that I did so without raising my voice \u2014 a lady does not announce the end of an empire's certainty, she simply carries on, and I carried on.",
+   "era_photo": "A 1931 silver gelatin press photograph, high contrast \u2014 a composed woman in a drop-waist day dress and cloche hat outside the Bank of England amid a crowd of homburg-hatted men, grainy monochrome, slight motion blur, newspaper halftone dots."
+  },
+  {
+   "year": 1971,
+   "label": "DECIMAL DAY",
+   "line": "On the fifteenth of February I set aside twelve hundred years of shillings and pence for a tidy arithmetic of hundreds \u2014 a modernisation I found sensible, though I shall admit privately that I missed the old counting, which had a music to it that decimals rather lack.",
+   "era_photo": "A 1971 Kodachrome colour photograph \u2014 an elegant woman in a tailored wool coat and structured handbag at a shop counter, new decimal coins and conversion charts on the counter, saturated period colour, soft grain, that particular warm Kodachrome red."
+  },
+  {
+   "year": 1992,
+   "label": "BLACK WEDNESDAY",
+   "line": "On the sixteenth of September I was forced from the Exchange Rate Mechanism in a single afternoon, and while it was, I grant you, a most undignified departure, I would gently observe that surviving one's humiliations intact is rather the entire art of endurance.",
+   "era_photo": "A 1992 35mm colour news photograph \u2014 a poised woman in a navy skirt suit before a wall of falling green trading screens, dealers in shirtsleeves behind her, slightly cool flash-lit tone, the specific flat look of early-nineties photojournalism."
+  },
+  {
+   "year": 2024,
+   "label": "THE KING'S NEW NOTES",
+   "line": "It is my present occasion to appear bearing a new sovereign's likeness upon my notes, the first change of face in seventy years, and I find \u2014 as I always have \u2014 that continuity is not the absence of change but the grace with which one accommodates it.",
+   "era_photo": "A 2024 high-resolution digital photograph \u2014 a serene woman in an impeccable pale coat and single strand of pearls, holding a crisp new polymer banknote bearing a fresh royal portrait, clean natural window light, sharp full-frame detail, subtle depth of field."
+  }
+ ]
+}

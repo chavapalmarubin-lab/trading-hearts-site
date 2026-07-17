@@ -1,0 +1,243 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 17,
+  "character_name": "SIMÓN VARGAS",
+  "character_key": "simon",
+  "header": "SIMÓN VARGAS"
+ },
+ "museum_objects": [
+  {
+   "title": "First 1 bolívar coin (Brussels mint)",
+   "institution": "Banco Central de Venezuela, Museo Numismático",
+   "accession": "Described in BCV 50th-anniversary PDF",
+   "date": "1879",
+   "url": "https://www.bcv.org.ve/system/files/archivos-descargables/desplegable_50_anos_del_museo_numismatico_para_web.pdf",
+   "licence_raw": "Not explicitly stated — contact required",
+   "description": "Silver 23mm, 5g coin — Venezuela's first bolívar-denominated coin.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": false,
+    "status": null,
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "¼ real, 1804 (only 3 known examples)",
+   "institution": "BCV Museo Numismático, Maracaibo branch",
+   "accession": "Referenced in branch inauguration article",
+   "date": "1804",
+   "url": "http://bcvmaracaibo.blogspot.com/2019/12/presidente-del-bcv-inauguro-sala.html",
+   "licence_raw": "Not explicitly stated — contact required",
+   "description": "Extremely rare pre-bolívar Venezuelan coin; only three known surviving examples.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "http://bcvmaracaibo.blogspot.com/2019/12/presidente-del-bcv-inauguro-sala.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Bolívar portrait miniature, oil on ivory (Madrid)",
+   "institution": "Biblioteca Virtual Miguel de Cervantes (bicentennial catalog)",
+   "accession": "Described in \"Colección Bolivariana\"",
+   "date": "1799–1802",
+   "url": "https://www.cervantesvirtual.com/obra-visor/coleccion-bolivariana-ano-bicentenario-del-natalicio-del-libertador-simon-bolivar-17831983--0/html/ff5b12be-82b1-11df-acc7-002185ce6064_4.html",
+   "licence_raw": "Academic/cultural repository — verify reproduction terms",
+   "description": "Miniature portrait of the young Simón Bolívar, oil on ivory.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.cervantesvirtual.com/obra-visor/coleccion-bolivariana-ano-bicentenario-del-natalicio-del-libertador-simon-bolivar-17831983--0/html/ff5b12be-82b1-11df-acc7-002185ce6064_4.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "\"Simón Bolívar Honoring the Flag after the Battle of Carabobo\" (painting)",
+   "institution": "Attributed to Arturo Michelena",
+   "accession": "N/A",
+   "date": "Depicting June 24, 1821",
+   "url": "https://www.worldhistory.org/image/20825/battle-of-carabobo-1821/",
+   "licence_raw": "Verify per source — World History Encyclopedia states explicit CC0/PD policy",
+   "description": "Painting commemorating Bolívar's decisive victory at Carabobo.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.worldhistory.org/image/20825/battle-of-carabobo-1821/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "200/500 Bolívar Digital banknotes",
+   "institution": "Central Bank of Venezuela (BCV) issue, referenced via Keesing Technologies",
+   "accession": "N/A",
+   "date": "2021",
+   "url": "https://platform.keesingtechnologies.com/venezuelas-new-200-and-500-bolivar-digital-banknotes/",
+   "licence_raw": "Not explicitly stated — verify",
+   "description": "Modern hyperinflation-era banknote featuring three Bolívar portraits and the Battle of Lake Maracaibo.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://platform.keesingtechnologies.com/venezuelas-new-200-and-500-bolivar-digital-banknotes/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "BCV Museo Numismático 50th-anniversary PDF with detailed object specs — primary institutional catalog.",
+   "detail": "",
+   "url": "https://www.bcv.org.ve/system/files/archivos-descargables/desplegable_50_anos_del_museo_numismatico_para_web.pdf",
+   "licence_raw": "BCV Museo Numismático 50th-anniversary PDF with detailed object specs — primary institutional catalog.",
+   "licence_class": "contact_required",
+   "raw": "BCV Museo Numismático 50th-anniversary PDF with detailed object specs — primary institutional catalog.",
+   "verify": {
+    "ok": false,
+    "status": null,
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "New York Times archive: \"Venezuela's Oil Industry Is Formally Nationalized,\" Jan 2, 1976 — primary contemporary news documentation.",
+   "detail": "",
+   "url": "https://www.nytimes.com/1976/01/02/archives/venezuelas-oil-industry-is-formally-nationalized-venezuelan-oil-is.html",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "New York Times archive: \"Venezuela's Oil Industry Is Formally Nationalized,\" Jan 2, 1976 — primary contemporary news documentation.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Wikipedia: Currency of Venezuela, full monetary law history 1854–present — comprehensive primary reference.",
+   "detail": "",
+   "url": "https://en.wikipedia.org/wiki/Currency_of_Venezuela",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "Wikipedia: Currency of Venezuela, full monetary law history 1854–present — comprehensive primary reference.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Currency_of_Venezuela",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "IMF Venezuela country page and DataMapper — primary economic data.",
+   "detail": "",
+   "url": "https://www.imf.org/en/countries/ven",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "IMF Venezuela country page and DataMapper — primary economic data.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Library of Congress: historic Tia Juana oil field photographs — primary photographic documentation.",
+   "detail": "",
+   "url": "https://www.loc.gov/pictures/item/2003662228/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Library of Congress: historic Tia Juana oil field photographs — primary photographic documentation.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.loc.gov/pictures/item/2003662228/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "see LoC rights statement",
+    "licence_class": "check_required",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "[Creole Petroleum Corp. well being drilled in the Tia Juana field on Lake Maracaibo, Venezuela, Feb. 1944]"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: 1976, Venezuela. The government must decide how to nationalize the oil industry — through immediate, uncompensated seizure of foreign oil companies' assets (a dramatic break that could trigger international retaliation), or a negotiated, compensated transition that preserved diplomatic and business relationships but risked appearing weak to a public eager for full sovereignty over its own oil wealth. The outcome was genuinely uncertain: other Latin American nationalizations in this era had ranged from peaceful settlements to violent international disputes.Player choice: Seize foreign oil assets immediately without compensation, or negotiate a structured, compensated nationalization.Historical resolution: Venezuela pursued a negotiated, largely compensated nationalization, formally completed January 2, 1976, creating PDVSA — widely described by retrospectives as unusually quiet compared to other era nationalizations.",
+ "understand": {
+  "economic_impact": "Venezuela's economy became almost entirely dependent on oil revenue following the 1914 Zumaque-I discovery, and decades of institutional mismanagement following the 1976 nationalization eventually produced one of the most severe currency collapses in modern history, requiring three separate redenominations since 2008 Planet Banknote.",
+  "political_impact": "Naming the currency after Simón Bolívar tied Venezuela's national identity directly to its currency's fate — making the bolívar's collapse feel like a betrayal of the independence hero's legacy, not just an economic failure [TH Script Writing Bible voice profile]. The 1976 oil nationalization was a major assertion of national sovereignty over natural resources, following the same independence-era logic that named the currency Wikipedia: PDVSA.",
+  "why_it_still_matters": "Venezuela had one of the greatest natural advantages any country could ask for — more oil underground than almost anywhere else on Earth — and still ended up with one of history's worst currency collapses, forcing the government to cross zeros off its own money three separate times since 2008 just to keep numbers manageable. That gap between what a country has and what its people actually get to keep is the real lesson here: having valuable resources doesn't automatically mean people are protected from economic disaster, if the money and power around those resources aren't managed honestly. Simón's story matters because it's a warning about what happens when enormous wealth and weak accountability exist in the same place at the same time."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:40"
+}

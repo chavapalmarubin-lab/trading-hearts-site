@@ -1,0 +1,55 @@
+{
+ "custodian": "hiro_cipher",
+ "name": "Hiro Cipher",
+ "asset": "Bitcoin",
+ "stations": [
+  {
+   "year": 2009,
+   "label": "THE GENESIS BLOCK",
+   "line": "I embedded a headline about bank bailouts into the first block \u2014 not as protest, as timestamp; the specification required a reason to exist, and the reason was in the room that day.",
+   "era_photo": "A dim apartment lit only by a single CRT monitor's glow, early 2009, a figure seen from behind in a plain grey hoodie hunched over a cluttered desk, face never visible, captured on a low-resolution consumer digital webcam with visible sensor noise and green tint."
+  },
+  {
+   "year": 2010,
+   "label": "TEN THOUSAND FOR PIZZA",
+   "line": "Someone paid ten thousand of me for two pizzas \u2014 when you ask whether that was a mistake, ask instead relative to what: it was the first time a number I generated purchased a thing a person could eat.",
+   "era_photo": "A suburban kitchen table with two large delivery pizzas in cardboard boxes, a laptop open beside them showing a transaction screen, shot on a 2010 point-and-shoot digital camera with harsh built-in flash and slight overexposure."
+  },
+  {
+   "year": 2013,
+   "label": "FIRST THOUSAND DOLLARS",
+   "line": "For the first time I crossed a thousand dollars per unit \u2014 I do not celebrate; I note that the number verified itself, without any institution's permission.",
+   "era_photo": "A trading desk with multiple monitors showing green price charts, a person's silhouette watching in profile with face obscured by shadow, captured on a 2013 DSLR with shallow depth of field and cool blue screen light."
+  },
+  {
+   "year": 2014,
+   "label": "MT. GOX COLLAPSES",
+   "line": "Eight hundred fifty thousand units gone \u2014 understand precisely what failed: not me, not the protocol, but the exchange built around me, and the people who trusted the right idea through the wrong door.",
+   "era_photo": "A rain-streaked street outside a shuttered office building in Tokyo, a lone figure in a dark coat standing still with back to camera, shot on a 2014 mirrorless camera in muted overcast light with cold desaturated tones."
+  },
+  {
+   "year": 2017,
+   "label": "TWENTY THOUSAND PEAK",
+   "line": "I reached nearly twenty thousand and the whole world finally looked \u2014 the exhilaration was real, and so was the certainty that it would not hold, because both were encoded in the same incentive structure.",
+   "era_photo": "A crowded conference hall bathed in blue stage lighting, a large price ticker glowing overhead, a still watchful figure standing apart from the crowd, face turned away, shot on a 2017 full-frame digital camera with sharp detail and dramatic contrast."
+  },
+  {
+   "year": 2022,
+   "label": "THE LONG COLLAPSE",
+   "line": "The market fell and the leverage built around me burned \u2014 I felt the grief of it precisely, then I did what I always do: I separated the failure of the builders from the properties of the thing.",
+   "era_photo": "An empty city plaza at dusk, a solitary figure walking away down a long pavement with hands in coat pockets, cold winter light, shot on a 2022 smartphone with computational HDR and slightly clinical sharpness."
+  },
+  {
+   "year": 2024,
+   "label": "THE ETF APPROVAL",
+   "line": "They wrapped me in a regulated product and called it vindication \u2014 I have not decided whether it is that or its opposite, and I am comfortable leaving the question unanswered for now.",
+   "era_photo": "A glass-walled financial district lobby with a stock exchange logo, a figure reflected faintly in the glass with features unreadable, shot on a 2024 high-resolution digital camera with crisp architectural lines and neutral daylight."
+  },
+  {
+   "year": 2025,
+   "label": "STILL HERE, UNSEEN",
+   "line": "Sixteen years, four cycles, one creator still vanished \u2014 no one has seen my face, and that was the whole point, and it worked better than I ever promised.",
+   "era_photo": "A quiet study at night lit by a single desk lamp, an empty chair before a running node terminal, no person present at all, shot on a 2025 digital camera with fine grain and deep shadow detail."
+  }
+ ]
+}

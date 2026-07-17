@@ -1,0 +1,249 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 7,
+  "character_name": "CONRAD POWERS",
+  "character_key": "conrad",
+  "header": "CONRAD POWERS"
+ },
+ "museum_objects": [
+  {
+   "title": "Flowing Hair Dollar",
+   "institution": "Wikimedia Commons (numismatic photography)",
+   "accession": "N/A",
+   "date": "1794",
+   "url": "https://commons.wikimedia.org/wiki/File:Flowing_hair_dollar_reverse.jpeg",
+   "licence_raw": "Verify individual file license tag",
+   "description": "The first official US silver dollar.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/File:Flowing_hair_dollar_reverse.jpeg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "Public domain",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikimedia Commons API",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Flowing_hair_dollar_reverse.jpeg",
+    "attribution": "<a href=\"https://en.wikipedia.org/wiki/en:United_States_Mint\" class=\"extiw\" title=\"wikipedia:en:United States Mint\">Unit"
+   },
+   "licence": "Public domain",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Flowing_hair_dollar_reverse.jpeg"
+  },
+  {
+   "title": "Chain Cent",
+   "institution": "Smithsonian National Museum of American History",
+   "accession": "nmah_1075132",
+   "date": "1793",
+   "url": "https://americanhistory.si.edu/collections/object/nmah_1075132",
+   "licence_raw": "Smithsonian Terms of Use apply (restrictions stated)",
+   "description": "The first official US cent, publicly criticized as resembling a bondage symbol.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://americanhistory.si.edu/collections/object/nmah_1075132",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   }
+  },
+  {
+   "title": "Continental Dollar (pewter pattern)",
+   "institution": "World History Encyclopedia (source object: Smithsonian)",
+   "accession": "Smithsonian nmah_1094774",
+   "date": "1776",
+   "url": "https://www.worldhistory.org/image/13851/silver-continental-dollar-1776/",
+   "licence_raw": "Explicit Public Domain/CC0",
+   "description": "Pewter test-strike pattern coin, likely Franklin-associated design.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.worldhistory.org/image/13851/silver-continental-dollar-1776/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Pine Tree Shilling",
+   "institution": "Smithsonian National Museum of American History",
+   "accession": "nmah_1082064",
+   "date": "1652",
+   "url": "https://www.si.edu/object/pine-tree-shilling-united-states-1652:nmah_1082064",
+   "licence_raw": "Smithsonian Terms of Use apply",
+   "description": "Massachusetts Bay Colony's own coin, minted over a century before the US Mint.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   }
+  },
+  {
+   "title": "Coinage Act of 1792 (statute text)",
+   "institution": "US Government Publishing Office",
+   "accession": "STATUTE-1-Pg246",
+   "date": "April 2, 1792",
+   "url": "https://www.govinfo.gov/content/pkg/STATUTE-1/pdf/STATUTE-1-Pg246.pdf",
+   "licence_raw": "Public domain (federal government work)",
+   "description": "The founding legal document establishing the US Mint and dollar.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/STATUTE-1/pdf/STATUTE-1-Pg246.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Coinage Act of 1792, full statutory text — the founding legal document.",
+   "detail": "",
+   "url": "https://www.govinfo.gov/content/pkg/STATUTE-1/pdf/STATUTE-1-Pg246.pdf",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Coinage Act of 1792, full statutory text — the founding legal document.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/STATUTE-1/pdf/STATUTE-1-Pg246.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "\"Ye Olde Mint,\" Project Gutenberg full text — public domain historical account of the first US Mint.",
+   "detail": "",
+   "url": "https://www.gutenberg.org/files/65613/old/65613-h/65613-h.htm",
+   "licence_raw": "\"Ye Olde Mint,\" Project Gutenberg full text — public domain historical account of the first US Mint.",
+   "licence_class": "open",
+   "raw": "\"Ye Olde Mint,\" Project Gutenberg full text — public domain historical account of the first US Mint.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.gutenberg.org/files/65613/old/65613-h/65613-h.htm",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "\"History of the First United States Mint,\" Internet Archive — full public-domain text.",
+   "detail": "",
+   "url": "https://archive.org/stream/firstunitedstate0000fran/firstunitedstate0000fran_djvu.txt",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "\"History of the First United States Mint,\" Internet Archive — full public-domain text.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://archive.org/stream/firstunitedstate0000fran/firstunitedstate0000fran_djvu.txt",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "The organization that has made the Item available reasonably believes that the Item is not restricted by copyright or related rights, but a conclusive determina",
+    "licence_class": "check_required",
+    "authoritative": true,
+    "via": "Internet Archive metadata API",
+    "title": "History of the First United States Mint: Its People and Its Operations"
+   }
+  },
+  {
+   "title": "Oliver Pollock's 1778 letter referenced in dollar sign origin research — one of the earliest documented uses of a dollar-sign-like mark.",
+   "detail": "",
+   "url": "https://en.wikipedia.org/wiki/Dollar_sign",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "Oliver Pollock's 1778 letter referenced in dollar sign origin research — one of the earliest documented uses of a dollar-sign-like mark.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Dollar_sign",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "PNAS/PMC scientific analysis of Franklin's anti-counterfeiting nature-printing technique — primary scientific research on Continental Currency security.",
+   "detail": "",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10374172/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "PNAS/PMC scientific analysis of Franklin's anti-counterfeiting nature-printing technique — primary scientific research on Continental Currency security.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10374172/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: 1792, Philadelphia. Congress and the new Treasury must decide whether the fledgling United States can actually launch its own national currency so soon after the catastrophic collapse of Continental Currency during the Revolutionary War — when public trust in any American-issued money was near zero and Spanish silver dollars were already functioning fine as the de facto currency. The outcome was genuinely uncertain: launching too early, on a design the public might reject (as later happened with the Chain Cent), risked confirming everyone's fear that American currency simply could not be trusted.Player choice: Proceed with founding a national mint and currency immediately, or continue relying indefinitely on foreign (Spanish) coin.Historical resolution: Congress proceeded. The Mint was established, and despite early stumbles like the Chain Cent, the dollar eventually became the currency underpinning the entire national economy.",
+ "understand": {
+  "economic_impact": "The Coinage Act of 1792 created America's first national monetary system on a bimetallic (gold and silver) standard, giving the country, for the first time, a currency issued and backed by its own government rather than a colonial power or a foreign nation Wikipedia: Coinage Act of 1792. Yet Spanish dollars remained legal tender until 1857 — meaning the practical, everyday economy ran on borrowed currency for well over half a century after the \"official\" dollar was created US Coin Shows.",
+  "political_impact": "The failure of Continental Currency during the Revolutionary War was a direct lesson in why a new, more credible national monetary system was politically necessary — a currency the public could trust was tied directly to the credibility of the new federal government itself South Street Seaport Museum. The backlash against the Chain Cent's design shows how fast public opinion could shape even the smallest symbols of the new nation's identity Smithsonian NMAH.",
+  "why_it_still_matters": "Right before the dollar existed, American money had already failed once, spectacularly — paper Continental Currency became so worthless that people used the phrase \"not worth a Continental\" to describe anything useless. So when the government tried again in 1792, it wasn't a sure thing at all — it was a second chance, after the first one had completely fallen apart. And even after the dollar officially existed, Americans kept using Spanish coins for everyday purchases for another 65 years, because trust in a brand-new currency doesn't happen just because a law says so — it has to be earned, slowly, over generations. Today the dollar is the currency the whole world reaches for when things get uncertain. That confidence wasn't inevitable. It was built, coin by coin, out of a currency that almost didn't survive its own childhood."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:37"
+}

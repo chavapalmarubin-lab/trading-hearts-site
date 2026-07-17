@@ -1,0 +1,55 @@
+{
+ "custodian": "klaus",
+ "name": "Klaus Richter",
+ "asset": "German Deutsche Mark",
+ "stations": [
+  {
+   "year": 1948,
+   "label": "THE CURRENCY REFORM",
+   "line": "They handed me to a broken country on a Sunday, and by Monday the shelves were full \u2014 this was not a miracle, it was a decision.",
+   "era_photo": "A rubble-strewn West German street in June 1948, a queue of subdued civilians in worn wool coats and headscarves outside a distribution office, a man in a modest suit holding a fresh banknote; captured on grainy black-and-white silver gelatin with the harsh contrast and slight blur of postwar press photography."
+  },
+  {
+   "year": 1957,
+   "label": "THE BUNDESBANK IS BORN",
+   "line": "They built me a guardian and made it independent of politicians \u2014 one does not leave the vault key with the men who wish to spend.",
+   "era_photo": "The interior of the newly established Deutsche Bundesbank in Frankfurt, 1957, dark polished wood and modernist glass, officials in grey flannel suits examining ledgers; black-and-white silver gelatin print, formal institutional lighting, sharp and orderly composition."
+  },
+  {
+   "year": 1973,
+   "label": "THE FLOAT AGAINST THE DOLLAR",
+   "line": "When Bretton Woods dissolved, I was cut loose to find my own worth, and the market priced my credibility higher than I had dared to say aloud.",
+   "era_photo": "A Frankfurt trading floor in March 1973, men in wide-lapel suits and thick-framed glasses shouting over telephones, teletype machines and paper tape everywhere; early color film with the warm, slightly faded Kodachrome palette of the period."
+  },
+  {
+   "year": 1990,
+   "label": "THE ONE-TO-ONE CONVERSION",
+   "line": "They converted the Ostmark to me at parity against my counsel \u2014 the risks, I said quietly, had perhaps not been fully considered, and I have carried that compromise ever since.",
+   "era_photo": "A crowded East German bank in July 1990, citizens in dated 1980s clothing exchanging currency, a wall calendar and portrait removed leaving a pale rectangle; color photography with the muted, slightly overexposed tone of late East German film stock."
+  },
+  {
+   "year": 1998,
+   "label": "THE EURO IS DECIDED",
+   "line": "They agreed to fold me into a larger union, and I insisted the successor inherit my discipline \u2014 stability is not a gift, it is a decision, and I refused to let mine be forgotten.",
+   "era_photo": "A European summit hall in May 1998, finance ministers in dark tailored suits seated at a long table beneath flags, blue conference lighting; crisp early digital press photography, clean and cool in tone."
+  },
+  {
+   "year": 2002,
+   "label": "THE LAST DAY IN HAND",
+   "line": "On the first of the year they gave people euros, and by the end of February the coins that bore my name were no longer legal tender \u2014 I did not resist; I had done my work.",
+   "era_photo": "A German supermarket checkout in early 2002, a cashier's tray holding both Mark coins and new euro coins, shoppers in winter coats; sharp digital color photograph, fluorescent retail lighting, documentary clarity."
+  },
+  {
+   "year": 2012,
+   "label": "THE PERMANENT EXCHANGE WINDOW",
+   "line": "Even in retirement I keep my word \u2014 the Bundesbank still honours every Mark note without deadline, because a currency that abandons its promise abandons its meaning.",
+   "era_photo": "The Bundesbank exchange counter in Frankfurt around 2012, an elderly woman sliding faded Deutsche Mark notes across a glass counter to a clerk, banknote-counting machine visible; high-resolution digital color photograph, even institutional light."
+  },
+  {
+   "year": 2024,
+   "label": "STILL COUNTED, STILL KEPT",
+   "line": "Billions of me remain uncounted in drawers and behind clocks, never returned \u2014 we have seen this before: people trust what held the line, long after they were told to let it go.",
+   "era_photo": "A present-day close-up of aged Deutsche Mark notes and coins laid on a wooden table beside a smartphone showing an exchange app; contemporary high-resolution digital photograph, soft natural window light, shallow depth of field."
+  }
+ ]
+}

@@ -1,0 +1,316 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — no facts authored by an assistant",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 1,
+  "character_name": "ALEXANDROS",
+  "character_key": "alexandros",
+  "asset": "Greek Drachma (Owl Tetradrachm)",
+  "era": "600 BCE",
+  "id": "alexandros_01"
+ },
+ "museum_objects": [
+  {
+   "raw": "Tetradrachm | British Museum | 1905,0309.2 | 5th century BC | https://www.britishmuseum.org/collection/object/C_1905-0309-2 | Rights vary per object, verify before broadcast use | Classic Athenian owl tetradrachm, Athena obverse / owl reverse",
+   "title": "Tetradrachm",
+   "institution": "British Museum",
+   "accession": "1905,0309.2",
+   "date": "5th century BC",
+   "url": "https://www.britishmuseum.org/collection/object/C_1905-0309-2",
+   "licence_raw": "Rights vary per object, verify before broadcast use",
+   "note": "Classic Athenian owl tetradrachm, Athena obverse / owl reverse",
+   "kind": "museum_object",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "raw": "Dekadrachm | British Museum | G.3183 | 5th century BC, ex-Burgon collection purchased 1841, on display Gallery 68/G15 | https://www.britishmuseum.org/collection/object/C_G-3183 | Rights vary per object | One of only ~40 known Athenian dekadrachms in existence",
+   "title": "Dekadrachm",
+   "institution": "British Museum",
+   "accession": "G.3183",
+   "date": "5th century BC, ex-Burgon collection purchased 1841, on display Gallery 68/G15",
+   "url": "https://www.britishmuseum.org/collection/object/C_G-3183",
+   "licence_raw": "Rights vary per object",
+   "note": "One of only ~40 known Athenian dekadrachms in existence",
+   "kind": "museum_object",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "raw": "Tetradrachm of Athens | MFA Boston | Accession 95.129 | ~470–455 BC, 24mm/17.21g, purchased 1895 for $29,857.37 | https://collections.mfa.org/objects/4004/ | Rights vary per object | Classical-period owl tetradrachm with detailed provenance",
+   "title": "Tetradrachm of Athens",
+   "institution": "MFA Boston",
+   "accession": "Accession 95.129",
+   "date": "~470–455 BC, 24mm/17.21g, purchased 1895 for $29,857.37",
+   "url": "https://collections.mfa.org/objects/4004/",
+   "licence_raw": "Rights vary per object",
+   "note": "Classical-period owl tetradrachm with detailed provenance",
+   "kind": "museum_object",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 202,
+    "final_url": "https://collections.mfa.org/objects/4004/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "raw": "Silver Dekadrachm | Numismatic Museum of Athens | NM 1301/1999 | Donated 1999 | https://www.nummus.gr/en/project/silver-ten-drachm-of-athens-nm-1301-1999/ | Institutional, contact required | Displayed in a motorized rotating case, one of ~40 known dekadrachms",
+   "title": "Silver Dekadrachm",
+   "institution": "Numismatic Museum of Athens",
+   "accession": "NM 1301/1999",
+   "date": "Donated 1999",
+   "url": "https://www.nummus.gr/en/project/silver-ten-drachm-of-athens-nm-1301-1999/",
+   "licence_raw": "Institutional, contact required",
+   "note": "Displayed in a motorized rotating case, one of ~40 known dekadrachms",
+   "kind": "museum_object",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.nummus.gr/en/project/silver-ten-drachm-of-athens-nm-1301-1999/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "raw": "Silver tetradrachm | Metropolitan Museum of Art | Object 330160 | Classical period | https://www.metmuseum.org/art/collection/search/330160 | Open Access, many objects CC0 | High-resolution zoomable Met object photography",
+   "title": "Silver tetradrachm",
+   "institution": "Metropolitan Museum of Art",
+   "accession": "Object 330160",
+   "date": "Classical period",
+   "url": "https://www.metmuseum.org/art/collection/search/330160",
+   "licence_raw": "Open Access, many objects CC0",
+   "note": "High-resolution zoomable Met object photography",
+   "kind": "museum_object",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 429,
+    "error": "HTTP 429",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC0 (Met Open Access)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Met Collection API",
+    "accession": "2021.40.80",
+    "title": "Silver tetradrachm",
+    "image": "https://images.metmuseum.org/CRDImages/gr/original/KN366.JPG"
+   },
+   "licence": "CC0 (Met Open Access)",
+   "image_url": "https://images.metmuseum.org/CRDImages/gr/original/KN366.JPG"
+  }
+ ],
+ "primary_sources": [
+  {
+   "raw": "Wappenmünzen silver provenance analysis | Academic study | 2025 | Science.org | https://www.science.org/content/article/athens-s-oldest-coins-reveal-ancient-widespread-silver-trade | Academic article, free to read | 22 archaic Athenian coins scientifically analyzed, revealing imported (non-Laurion) silver origins",
+   "title": "Wappenmünzen silver provenance analysis",
+   "institution": "Academic study",
+   "accession": "2025",
+   "date": "Science.org",
+   "url": "https://www.science.org/content/article/athens-s-oldest-coins-reveal-ancient-widespread-silver-trade",
+   "licence_raw": "Academic article, free to read",
+   "note": "22 archaic Athenian coins scientifically analyzed, revealing imported (non-Laurion) silver origins",
+   "kind": "primary_source",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "raw": "Kraay & Hirmer, Greek Coins | Photographic reference book | 1966 | Internet Archive | https://archive.org/details/greekcoins00kraa | Public domain/archive hosting, free | 1,329 b/w plates plus 20 color plates — definitive coin photography reference",
+   "title": "Kraay & Hirmer, Greek Coins",
+   "institution": "Photographic reference book",
+   "accession": "1966",
+   "date": "Internet Archive",
+   "url": "https://archive.org/details/greekcoins00kraa",
+   "licence_raw": "Public domain/archive hosting, free",
+   "note": "1,329 b/w plates plus 20 color plates — definitive coin photography reference",
+   "kind": "primary_source",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://archive.org/details/greekcoins00kraa",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "public domain / archive-hosted",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Internet Archive metadata API",
+    "title": "Greek Coins"
+   },
+   "licence": "public domain / archive-hosted"
+  },
+  {
+   "raw": "John Kroll, The Athenian Agora, Volume XXVI: The Greek Coins | Academic monograph | 1993 | ASCSA open access | https://www.ascsa.edu.gr/uploads/media/oa_ebooks/oa_agora/Agora_XXVI.pdf | Free, open access | Site plans of the Athenian mint and full catalogue of Agora coin finds",
+   "title": "John Kroll, The Athenian Agora, Volume XXVI: The Greek Coins",
+   "institution": "Academic monograph",
+   "accession": "1993",
+   "date": "ASCSA open access",
+   "url": "https://www.ascsa.edu.gr/uploads/media/oa_ebooks/oa_agora/Agora_XXVI.pdf",
+   "licence_raw": "ASCSA open access",
+   "note": "Site plans of the Athenian mint and full catalogue of Agora coin finds",
+   "kind": "primary_source",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ascsa.edu.gr/uploads/media/oa_ebooks/oa_agora/Agora_XXVI.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "raw": "British Museum \"Large Print Guide, Room 68 Money\" | Museum guide/catalogue PDF | 2020 | British Museum | https://www.britishmuseum.org/sites/default/files/2021-05/Money_Gallery_LPG_2020_Room_68.pdf | Free institutional PDF | Illustrates Wappenmünzen and earliest Athenian coinage in context with Aegina and Corinth staters",
+   "title": "British Museum \"Large Print Guide, Room 68 Money\"",
+   "institution": "Museum guide/catalogue PDF",
+   "accession": "2020",
+   "date": "British Museum",
+   "url": "https://www.britishmuseum.org/sites/default/files/2021-05/Money_Gallery_LPG_2020_Room_68.pdf",
+   "licence_raw": "Free institutional PDF",
+   "note": "Illustrates Wappenmünzen and earliest Athenian coinage in context with Aegina and Corinth staters",
+   "kind": "primary_source",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.britishmuseum.org/sites/default/files/2021-05/Money_Gallery_LPG_2020_Room_68.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "raw": "Leake, Numismata Hellenica: A Catalogue of Greek Coins | Historic catalogue | 19th century | Internet Archive | https://archive.org/stream/numismatahelleni00leakuoft/numismatahelleni00leakuoft_djvu.txt | Public domain, free | Foundational historic cataloguing of Greek coinage",
+   "title": "Leake, Numismata Hellenica: A Catalogue of Greek Coins",
+   "institution": "Historic catalogue",
+   "accession": "19th century",
+   "date": "Internet Archive",
+   "url": "https://archive.org/stream/numismatahelleni00leakuoft/numismatahelleni00leakuoft_djvu.txt",
+   "licence_raw": "Public domain, free",
+   "note": "Foundational historic cataloguing of Greek coinage",
+   "kind": "primary_source",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://archive.org/stream/numismatahelleni00leakuoft/numismatahelleni00leakuoft_djvu.txt",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "public domain / archive-hosted",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Internet Archive metadata API",
+    "title": "Numismata hellenica: a catalogue of Greek coins; with notes, a map, and index"
+   },
+   "licence": "public domain / archive-hosted"
+  }
+ ],
+ "world_map": {
+  "nodes": [
+   {
+    "label": "",
+    "lat": 37.9755,
+    "lng": 23.7222
+   },
+   {
+    "label": "Laurion mines",
+    "lat": 37.7167,
+    "lng": 24.05
+   },
+   {
+    "label": "Athenian Agora/Mint",
+    "lat": 37.9755,
+    "lng": 23.7222
+   },
+   {
+    "label": "Piraeus port",
+    "lat": 37.9475,
+    "lng": 23.6378
+   },
+   {
+    "label": "Delphi",
+    "lat": 38.4824,
+    "lng": 22.501
+   },
+   {
+    "label": "dekadrachm hoard",
+    "lat": 36.7351,
+    "lng": 29.9152
+   }
+  ],
+  "raw": "Center point: 37.9755° N, 23.7222° E (Athens)\nReach radius/trade zone description: Athenian silver coinage circulated across the entire Eastern Mediterranean and Near East — hoards found from Egypt to Turkey\nKey nodes: Laurion mines (37.7167° N, 24.0500° E); Athenian Agora/Mint (37.9755° N, 23.7222° E); Piraeus port (37.9475° N, 23.6378° E); Delphi (38.4824° N, 22.5010° E); Elmalı, Turkey — site of 1984 dekadrachm hoard (36.7351° N, 29.9152° E)\nSuggested map era: 600–400 BCE\nHistorical map source: Dipylon \"Mapping Ancient Athens\" GIS project; Barbié du Bocage 1785 map of Ancient Attica"
+ },
+ "quiz": [
+  {
+   "q": "What creature is depicted on the reverse of the Athenian tetradrachm?",
+   "a": "An owl"
+  },
+  {
+   "q": "Where did Athens get the silver for its most famous coins?",
+   "a": "The Laurion mines in Attica"
+  },
+  {
+   "q": "What did Athens build with the profits from the 483 BC Laurion silver strike?",
+   "a": "A fleet of warships (triremes)"
+  },
+  {
+   "q": "About how many Athenian silver dekadrachms are known to survive today?",
+   "a": "About 40"
+  },
+  {
+   "q": "What ancient civilization first sourced Athens's earliest coin silver — from where?",
+   "a": "Imported silver from places like Spain and Turkey, before Laurion was fully exploited"
+  }
+ ],
+ "decision_simulation": "Scenario: It's 483 BC. Athens has just found a massive new silver vein at Laurion. Themistocles proposes spending the windfall on a war fleet instead of distributing it directly to citizens.\nOptions: (1) Distribute the silver directly to citizens as a cash dividend; (2) Build warships as Themistocles proposes; (3) Save the silver in the treasury\nHistorical outcome: Athens built the fleet — and those ships won the Battle of Salamis in 480 BC, saving Greece from Persian conquest and setting up Athens's naval empire\nEXPLORE IT (CURRENTLY OPEN — highest priority)",
+ "understand": {
+  "economic_impact": "One-line summary: Alexandros represents the very first time a government-backed coin became trusted enough to be used everywhere — the birth of money as we know it.\nThree key economic shifts: (1) Standardized, government-guaranteed coinage replaced barter and ad-hoc weighed silver; (2) a natural resource windfall (the Laurion strike) was converted into state military and infrastructure investment rather than simply distributed; (3) reliable coinage enabled long-distance trade because merchants across the Mediterranean trusted the owl's silver content\nModern parallel: a national currency backed by a central bank's credibility — the way people trust a dollar or euro today because they trust the institution behind it",
+  "political_impact": "One-line summary: The wealth from Laurion's silver mines funded the navy that saved Greek democracy from Persian conquest.\nThree key political shifts: (1) Silver wealth let Athens fund a citizen-rowed navy instead of relying only on wealthy citizens for military power, which strengthened democracy; (2) coinage minted with the city's symbol (the owl) became a tool of civic identity and soft power abroad; (3) control over minting became a marker of sovereignty that later civilizations would imitate\nModern parallel: a country's currency as a symbol of national sovereignty and reserve-currency-style regional influence, the way the euro's design carries collective political identity today",
+  "why_it_still_matters": "Plain-language answer: The coin in your pocket today exists because Athens figured out something 2,600 years ago — if people trust that a piece of metal is really worth what it says, they'll use it everywhere, and that trust can build empires. Money didn't start as government paper; it started as a promise stamped on silver.\nConnection to today's world: Every time you trust that a dollar bill or a bank app number is \"real\" money, you're relying on the same kind of trust Alexandros's owl coin first earned from merchants across the ancient world."
+ },
+ "_verified": "2026-07-11 10:43"
+}

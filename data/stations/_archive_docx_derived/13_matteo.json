@@ -1,0 +1,244 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 13,
+  "character_name": "MATTEO CONTI",
+  "character_key": "matteo",
+  "header": "MATTEO CONTI"
+ },
+ "museum_objects": [
+  {
+   "title": "1861 5 Lire (Florence mint, \"F\")",
+   "institution": "Wikimedia Commons (Kingdom of Italy coin collection)",
+   "accession": "Catalog refs Pagani 481, Montenegro 161, Davenport 139",
+   "date": "1861",
+   "url": "https://commons.wikimedia.org/wiki/Category:5_Italian_lira_coins_(1861%E2%80%931878)",
+   "licence_raw": "Public domain (pre-1928 2D coin photography)",
+   "description": "Only 21,000 minted; most melted in 1860s silver speculation.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:5_Italian_lira_coins_(1861%E2%80%931878)",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   }
+  },
+  {
+   "title": "1861 1 Lira, Florence mint",
+   "institution": "Wikimedia Commons / Numista catalog",
+   "accession": "KM# A5, Numista N# 46331, Gigante 60, Pagani 510",
+   "date": "1861",
+   "url": "https://en.numista.com/catalogue/ruler.php?id=1160",
+   "licence_raw": "Public domain (verify per file)",
+   "description": "Silver .900, 5g, 23mm — early unified-Italy circulating coin.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.numista.com/catalogue/ruler.php?id=1160",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Garibaldi's surviving red-shirt jacket",
+   "institution": "Musei di Genova",
+   "accession": "Cat. 590",
+   "date": "ca. 1860",
+   "url": "https://www.museidigenova.it/en/jacket-belonged-giuseppe-garibaldi",
+   "licence_raw": "Museum copyright — contact required",
+   "description": "Red cloth jacket, edged dark green; cloth originated from a Montevideo shipment repurposed by Garibaldi.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.museidigenova.it/en/jacket-belonged-giuseppe-garibaldi",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Cavour's tailcoat (\"la marsina di Cavour\")",
+   "institution": "Museo Nazionale del Risorgimento Torino",
+   "accession": "Part of permanent collection",
+   "date": "ca. 1860–61",
+   "url": "https://www.museorisorgimentotorino.it/en/patrimonio-collezioni/",
+   "licence_raw": "Museum copyright — contact catalogazione@museorisorgimentotorino.it",
+   "description": "Cavour's actual formal tailcoat, displayed with a reconstructed study.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.museorisorgimentotorino.it/en/patrimonio-collezioni/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "AM-Lira 100 lire note, Series 1943A",
+   "institution": "Wikimedia Commons / U.S. Currency Education Program",
+   "accession": "File AMC_italy_100_lire-2.jpg",
+   "date": "1943",
+   "url": "https://www.uscurrency.gov/media/48",
+   "licence_raw": "Public domain (US government wartime currency)",
+   "description": "Allied Military occupation currency printed with the \"Four Freedoms\" text.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.uscurrency.gov/media/48",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "ifo Institute academic PDF, \"The Latin Monetary Union (1865–1926)\" by Luca Einaudi — primary academic treaty analysis.",
+   "detail": "",
+   "url": "https://www.ifo.de/DocDL/dice-report-2018-3-einaudi-oct.pdf",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "ifo Institute academic PDF, \"The Latin Monetary Union (1865–1926)\" by Luca Einaudi — primary academic treaty analysis.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ifo.de/DocDL/dice-report-2018-3-einaudi-oct.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Wikipedia: Italian lira, full regime/denomination table — comprehensive currency history reference.",
+   "detail": "",
+   "url": "https://en.wikipedia.org/wiki/Italian_lira",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "Wikipedia: Italian lira, full regime/denomination table — comprehensive currency history reference.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Italian_lira",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "George Macaulay Trevelyan, \"Garibaldi and the Thousand\" full text, Internet Archive — primary period text with period plates.",
+   "detail": "",
+   "url": "https://archive.org/stream/garibaldithousan01trev/garibaldithousan01trev_djvu.txt",
+   "licence_raw": "",
+   "licence_class": "open",
+   "raw": "George Macaulay Trevelyan, \"Garibaldi and the Thousand\" full text, Internet Archive — primary period text with period plates.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://archive.org/stream/garibaldithousan01trev/garibaldithousan01trev_djvu.txt",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "public domain / archive-hosted",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Internet Archive metadata API",
+    "title": "Garibaldi: and the thousand"
+   },
+   "licence": "public domain / archive-hosted"
+  },
+  {
+   "title": "Wikimedia Commons: Allied Military Currency for Italy, Series 1943A — 9 downloadable public domain wartime currency images.",
+   "detail": "",
+   "url": "https://commons.wikimedia.org/wiki/Category:Allied_Military_Currency_for_Italy_(Series_1943A)",
+   "licence_raw": "Wikimedia Commons: Allied Military Currency for Italy, Series 1943A — 9 downloadable public domain wartime currency images.",
+   "licence_class": "open",
+   "raw": "Wikimedia Commons: Allied Military Currency for Italy, Series 1943A — 9 downloadable public domain wartime currency images.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:Allied_Military_Currency_for_Italy_(Series_1943A)",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   }
+  },
+  {
+   "title": "Banca d'Italia official lira-to-euro conversion page — primary institutional conversion documentation.",
+   "detail": "",
+   "url": "https://www.bancaditalia.it/servizi-cittadino/servizi/cambio-banconote/cambio-lira-euro/index.html",
+   "licence_raw": "Banca d'Italia official lira-to-euro conversion page — primary institutional conversion documentation.",
+   "licence_class": "contact_required",
+   "raw": "Banca d'Italia official lira-to-euro conversion page — primary institutional conversion documentation.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bancaditalia.it/servizi-cittadino/servizi/cambio-banconote/cambio-lira-euro/index.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: 1870, the Latin Monetary Union. Member nations must decide how to respond to the Papal States' silver coin debasement — Vatican coins were being minted with less silver (4.95-4.98g) than the treaty's required 5g standard, effectively cheating the shared monetary system. The outcome was genuinely uncertain: expelling a founding-adjacent member over a religious-political institution risked serious diplomatic fallout, but allowing debasement to continue risked collapsing trust in the entire union's shared currency.Player choice: Expel the Papal States from the Latin Monetary Union, or negotiate a grace period for compliance.Historical resolution: The Union expelled the Papal States in 1870, with the Vatican owing 20 million lire — a firm precedent that shared currencies require shared discipline.",
+ "understand": {
+  "economic_impact": "Italy's repeated 20th-century lira devaluations reduced the currency's international value again and again, effectively making Italian exports cheaper for foreign buyers while eroding domestic purchasing power — a pattern the Script Writing Bible frames as central to Matteo's identity [TH Script Writing Bible voice profile]. The 1865 Latin Monetary Union initially tied the lira's stability to France, Belgium, and Switzerland's shared silver standard ifo Institute PDF.",
+  "political_impact": "The lira's creation was inseparable from Italian political unification — Garibaldi's 1860 military campaign and Cavour's diplomacy made a single national currency possible for the first time in Italian history Museo Nazionale del Risorgimento Torino. The 1870 Papal States expulsion from the Latin Monetary Union directly reflected the broader Church-versus-secular-state conflict of the unification era Wikipedia: Latin Monetary Union.",
+  "why_it_still_matters": "Italy became one country in 1861, which meant it needed one money instead of dozens of separate coins used by its old kingdoms and city-states. But making a country whole doesn't automatically make its money stable — Italy's lira had to be devalued, or made worth less, again and again over the next 140 years, especially during and after two world wars. Yet through all of that instability, Italy kept producing some of the most admired food, fashion, art, and design in the world. Matteo's story matters because it shows that a country's money can struggle constantly while the people who use it keep creating incredible things anyway — instability and creativity aren't opposites, sometimes they grow from the same place."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:39"
+}

@@ -1,0 +1,244 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 10,
+  "character_name": "CLARA WEISS",
+  "character_key": "clara",
+  "header": "CLARA WEISS"
+ },
+ "museum_objects": [
+  {
+   "title": "Two Swiss francs, 1850",
+   "institution": "Swiss National Museum (Landesmuseum Zürich)",
+   "accession": "See object database",
+   "date": "1850",
+   "url": "https://blog.nationalmuseum.ch/en/2020/08/swiss-franc/",
+   "licence_raw": "Verify per object; Nomisma open-data project participant",
+   "description": "Early example of the first unified Swiss franc coinage.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://blog.nationalmuseum.ch/en/2020/08/swiss-franc/",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "5 Francs, 1850 (Paris-minted)",
+   "institution": "MoneyMuseum, Zurich (catalog reference)",
+   "accession": "Owner listed as \"Sunflower Foundation\"",
+   "date": "1850",
+   "url": "https://www.moneymuseum.com/pdf/yesterday/05_Modern_Times/06(08)%20Swiss%20Federal%20Coins%20Respectable%20and%20Trustworthy.pdf",
+   "licence_raw": "Unstated — contact required",
+   "description": "Detailed catalog data on the first federal silver 5-franc coin.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.moneymuseum.com/pdf/yesterday/05_Modern_Times/06(08)%20Swiss%20Federal%20Coins%20Respectable%20and%20Trustworthy.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "1886 5-Franc piece (rarity)",
+   "institution": "Swiss National Museum / Bern Historical Museum / Swissmint Collection",
+   "accession": "One specimen each at three institutions",
+   "date": "1886",
+   "url": "https://coinsweekly.com/swissmint-a-mint-of-records/",
+   "licence_raw": "Unstated — contact required",
+   "description": "Extremely rare 5-franc piece; only two specimens in private hands.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://coinsweekly.com/swissmint-a-mint-of-records/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "½ Franc, 1875",
+   "institution": "MoneyMuseum, Zurich",
+   "accession": "Object ID 1079",
+   "date": "1875",
+   "url": "https://www.moneymuseum.com/en/coins?id=1079",
+   "licence_raw": "Unstated — contact required",
+   "description": "Example of the standing Helvetia design transition.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.moneymuseum.com/en/coins?id=1079",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Ch. Durheim lithograph of the first Federal Palace",
+   "institution": "Swiss National Library (reproduced in Peter Meyer's \"Berner – deine Geschichte,\" 1981)",
+   "accession": "N/A",
+   "date": "1860 (depicting 1852–57 building)",
+   "url": "https://en.wikipedia.org/wiki/File:Bern,_Federal_Palace,_1857.jpg",
+   "licence_raw": "Public domain",
+   "description": "Period lithograph of Switzerland's first Federal Palace.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/File:Bern,_Federal_Palace,_1857.jpg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Federal Act on the Swiss Monetary System context, Numismatic News — historical account of the 1850 unification.",
+   "detail": "",
+   "url": "https://www.numismaticnews.net/the-swiss-franc-how-switzerland-found-its-currency",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Federal Act on the Swiss Monetary System context, Numismatic News — historical account of the 1850 unification.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.numismaticnews.net/the-swiss-franc-how-switzerland-found-its-currency",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Wikipedia: Sonderbund War, with public domain map — primary conflict documentation.",
+   "detail": "",
+   "url": "https://en.wikipedia.org/wiki/File:Sonderbund_War_Map_English.png",
+   "licence_raw": "Wikipedia: Sonderbund War, with public domain map — primary conflict documentation.",
+   "licence_class": "open",
+   "raw": "Wikipedia: Sonderbund War, with public domain map — primary conflict documentation.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/File:Sonderbund_War_Map_English.png",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  },
+  {
+   "title": "ifo Institut / EconStor academic PDF on Latin Monetary Union treaty mechanics — primary academic treaty analysis.",
+   "detail": "",
+   "url": "https://www.ifo.de/DocDL/dice-report-2018-3-einaudi-oct.pdf",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "ifo Institut / EconStor academic PDF on Latin Monetary Union treaty mechanics — primary academic treaty analysis.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ifo.de/DocDL/dice-report-2018-3-einaudi-oct.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Swiss National Museum open-data CSV export (numismatics collection) — structured primary collection data.",
+   "detail": "",
+   "url": "https://media.nationalmuseum.ch/Open_data/Numismatik_Siegel.csv",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Swiss National Museum open-data CSV export (numismatics collection) — structured primary collection data.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://media.nationalmuseum.ch/Open_data/Numismatik_Siegel.csv",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "BYU ScholarsArchive: A Military History of the Swiss Civil War of 1847 — academic primary military history.",
+   "detail": "",
+   "url": "https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=1148&context=sahs_review",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "BYU ScholarsArchive: A Military History of the Swiss Civil War of 1847 — academic primary military history.",
+   "verify": {
+    "ok": true,
+    "status": 202,
+    "final_url": "https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=1148&context=sahs_review",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: 1850, newly unified Switzerland. Federal authorities must decide whether to force all 40+ cantons to abandon their own historic currencies (some centuries old, deeply tied to local identity) in favor of a single national franc, right after a bitter civil war had already tested the fragile new federal union. The outcome was genuinely uncertain: cantons could resist currency unification the same way some had resisted political unification, potentially reigniting the tensions that caused the Sonderbund War.Player choice: Mandate full currency unification immediately, or allow a longer transition period with cantonal currencies still valid.Historical resolution: Switzerland unified quickly — the last cantonal coin was a 1-rappen piece from Zurich dated 1848, with full cantonal-to-franc conversion completed by 1851–1852.",
+ "understand": {
+  "economic_impact": "Unifying 40+ competing cantonal currencies into a single franc dramatically reduced the transaction costs and confusion of doing business across Swiss cantons, laying groundwork for the country's later emergence as a global financial safe haven UBS history archive. The 1865 Latin Monetary Union further integrated the franc with major European economies under one silver standard Wikipedia: Latin Monetary Union.",
+  "political_impact": "Currency unification was only possible because of the political unification forced by the 1847 Sonderbund War and the 1848 federal constitution — money and political stability were directly linked in Switzerland's founding Wikipedia: Sonderbund War. Switzerland's later reputation for neutrality and financial stability, cemented by institutions like the Bank for International Settlements (Basel, 1930), made it a preferred refuge for capital during periods of global instability BIS official history.",
+  "why_it_still_matters": "Imagine your town had its own money, and the next town over had different money, and you had to do math in your head every single time you bought something from them. That was Switzerland before 1850 — more than 40 different local currencies, all at once. After a short, sharp war forced the country to finally unite politically, they did the same with money: one franc, for everyone. That decision to trade local pride for shared simplicity is exactly why, nearly 175 years later, people from all over the world still send their savings to Switzerland when they're scared about the future. Being trusted with other people's money for that long isn't an accident — it's the result of one small, once-divided country deciding, once, to actually agree on something."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:38"
+}

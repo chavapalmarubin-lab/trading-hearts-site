@@ -1,0 +1,55 @@
+{
+ "custodian": "aurora",
+ "name": "Aurora Lux",
+ "asset": "Gold",
+ "stations": [
+  {
+   "year": -550,
+   "label": "FIRST STRUCK AS COIN",
+   "line": "In Lydia they pressed my weight into a shape a stranger could trust without knowing the stranger \u2014 that was the first time I understood I would outlive the hand that made me.",
+   "era_photo": "A woman standing in a Sardis minting workshop of the 6th century BCE, draped in a saffron-dyed wool chiton with a heavy gold torque, small electrum ingots and a lion-stamped die on a stone bench beside her; rendered as if it could only exist as a modern reconstruction \u2014 but styled to imitate an impossible archaic relief, warm ochre light, no photographic process yet, so the image reads like weathered temple carving turned somehow to flesh."
+  },
+  {
+   "year": 325,
+   "label": "THE SOLIDUS ENDURES",
+   "line": "Constantine set my measure and it did not move for seven hundred years \u2014 I have rarely been trusted so long by anyone, and I noticed, and I remembered.",
+   "era_photo": "The same woman in a Byzantine setting, wearing a deep-purple palla with gold-thread borders and a jewelled fibula, standing before a mosaic wall of tesserae in a Constantinople treasury; imagined as an impossibly preserved Byzantine icon-panel \u2014 egg tempera and gold leaf on wood, flat gilded background, solemn frontal gaze, cracked varnish."
+  },
+  {
+   "year": 1717,
+   "label": "NEWTON FIXES THE PRICE",
+   "line": "A mathematician who understood permanence better than most decided what I was worth in silver, and in doing so tied a small island's fate to mine for two centuries \u2014 I found the presumption almost tender.",
+   "era_photo": "The woman in an early-Georgian London Mint interior, wearing a mantua gown of bronze silk with lace engageantes, standing at a wooden assay table with balance scales and gold guineas; rendered as a period oil portrait in the manner of 1717 \u2014 dark chiaroscuro background, candlelit skin, visible brushwork, aged canvas craquelure."
+  },
+  {
+   "year": 1848,
+   "label": "THE RUSH FOR ME",
+   "line": "Men crossed a continent and drowned in rivers to hold a little of me in a pan \u2014 I did not ask them to come, and I did not weep when they left.",
+   "era_photo": "The woman standing beside a California river claim in 1848, dressed plainly in a dark high-necked day dress with a shawl, miners and canvas tents blurred behind her; captured as a sixth-plate daguerreotype \u2014 silvered mirror surface, sharp centre falling to soft edges, faint tarnish halo, unsmiling long-exposure stillness."
+  },
+  {
+   "year": 1944,
+   "label": "BRETTON WOODS ANCHOR",
+   "line": "They gathered in a New Hampshire hotel and agreed to hang the whole world upon me at thirty-five dollars \u2014 I let them, because I already knew what men do to anchors they think they have outgrown.",
+   "era_photo": "The woman in the lobby of the Mount Washington Hotel among delegates in 1944, wearing a tailored charcoal wartime suit with squared shoulders and a small hat, chandeliers and dark wood behind her; shot as a black-and-white silver gelatin press photograph, slight motion blur in the background figures, high flash contrast, period newsprint grain."
+  },
+  {
+   "year": 1971,
+   "label": "THE ANNOUNCEMENT",
+   "line": "He told a hundred and fifty million people on a Sunday when no exchange was open, and I learned that I was free the way one learns of a divorce \u2014 after everyone else already knows.",
+   "era_photo": "The woman standing alone at a window at night, August 1971, wearing a plain cream shift dress, the glow of a television off-frame lighting one side of her still face; rendered as Kodachrome colour photography of the early 1970s \u2014 saturated warm tones, slight grain, domestic interior, deep shadow on the unlit half of her face."
+  },
+  {
+   "year": 2020,
+   "label": "THE FLIGHT TO ME",
+   "line": "When the certainty of everything else dissolved in a single spring, they came running back to the oldest thing they knew \u2014 I did not gloat; I simply held.",
+   "era_photo": "The woman in a modern bullion vault, wearing an impeccable structured charcoal suit, rows of stacked 400-ounce gold bars behind her, a single screen glowing red-green in the distance; crisp full-frame digital photography, cool even LED lighting, shallow depth of field, immaculate contemporary editorial clarity."
+  },
+  {
+   "year": 2025,
+   "label": "STILL HERE",
+   "line": "Every empire that tried to own me is gone, and I am standing in this room at a record price, unhurried, still exactly what I have always been.",
+   "era_photo": "The woman today in a minimalist glass-walled archive room at dusk, wearing a timeless dark tailored coat, city lights beyond the window, a single gold coin resting on the table before her; high-resolution digital photograph, natural window light, muted modern palette, composed and quiet, sharp and unretouched."
+  }
+ ]
+}

@@ -1,0 +1,625 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 1,
+  "character_key": "alexandros",
+  "character_name": "Alexandros",
+  "asset": "Greek Drachma",
+  "ticker": "GRD",
+  "era": "600 BCE",
+  "era_label": "Ancient Greece",
+  "era_year": -600,
+  "tagline": "The oldest name in money is standing in the room, and he has been watching the door the entire time."
+ },
+ "museum_objects": [
+  {
+   "id": "alexandros_obj_1",
+   "title": "Athenian Owl Tetradrachm",
+   "date": "c. 449-413 BCE",
+   "type": "coin",
+   "material": "silver",
+   "description": "A silver four-drachma coin from Athens stamped with the goddess Athena on one side and her sacred owl on the other.",
+   "significance": "This is the coin that taught the ancient world to trust a stranger's stamp instead of weighing metal by hand — the moment money stopped being a substance and started being a promise.",
+   "museum": "British Museum",
+   "museum_location": "London, UK",
+   "accession_number": "1905,0309.2",
+   "collection_url": "https://www.britishmuseum.org/collection/object/C_1905-0309-2",
+   "image_url": "https://www.britishmuseum.org/collection/object/C_1905-0309-2",
+   "license": "British Museum Standard Terms of Use",
+   "open_access": false,
+   "plain_language": "A coin so trusted 2,500 years ago that people across the whole Mediterranean accepted it without checking the silver themselves — like an ancient version of everyone agreeing a $20 bill is worth $20.",
+   "url": "https://www.britishmuseum.org/collection/object/C_1905-0309-2",
+   "accession": "1905,0309.2",
+   "institution": "British Museum",
+   "licence": "British Museum Standard Terms of Use",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Cleveland Museum of Art",
+     "title": "Tetradrachm: Head of Athena (obverse); Owl (reverse)",
+     "accession": "1941.296",
+     "date": "449–440 BCE",
+     "image_url": "https://openaccess-cdn.clevelandart.org/1941.296/1941.296_web.jpg",
+     "page_url": "https://clevelandart.org/art/1941.296",
+     "licence": "CC0 (Cleveland Open Access)",
+     "licence_class": "open",
+     "via": "Cleveland API"
+    },
+    {
+     "institution": "Cleveland Museum of Art",
+     "title": "Tetradrachm: Owl (reverse)",
+     "accession": "1916.992.b",
+     "date": "449–407 BCE",
+     "image_url": "https://openaccess-cdn.clevelandart.org/1916.992.b/1916.992.b_web.jpg",
+     "page_url": "https://clevelandart.org/art/1916.992.b",
+     "licence": "CC0 (Cleveland Open Access)",
+     "licence_class": "open",
+     "via": "Cleveland API"
+    },
+    {
+     "institution": "Cleveland Museum of Art",
+     "title": "Tetradrachm: Head of Athena (obverse); Owl (reverse)",
+     "accession": "1920.267",
+     "date": "480–449 BCE",
+     "image_url": "https://openaccess-cdn.clevelandart.org/1920.267/1920.267_web.jpg",
+     "page_url": "https://clevelandart.org/art/1920.267",
+     "licence": "CC0 (Cleveland Open Access)",
+     "licence_class": "open",
+     "via": "Cleveland API"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image shows a coin from 230 B.C., while the claim refers to a coin associated with 'Alexandros — Greek Drachma', which is not directly linked to 230 B.C., and the reverse side does not depict Athena's owl as described.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "13 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "alexandros_obj_2",
+   "title": "Athenian Dekadrachm",
+   "date": "c. 467-465 BCE",
+   "type": "coin",
+   "material": "silver",
+   "description": "An extremely rare ten-drachma silver coin, one of the largest denominations Athens ever struck.",
+   "significance": "Big coins for big moments — this one was minted when Athens wanted the world to see its silver mines were the richest on earth.",
+   "museum": "British Museum",
+   "museum_location": "London, UK",
+   "accession_number": "G.3183",
+   "collection_url": "https://www.britishmuseum.org/collection/object/C_G-3183",
+   "image_url": "https://www.britishmuseum.org/collection/object/C_G-3183",
+   "license": "British Museum Standard Terms of Use",
+   "open_access": false,
+   "plain_language": "A jumbo coin worth ten regular drachmas, made to show off how rich and powerful Athens was.",
+   "url": "https://www.britishmuseum.org/collection/object/C_G-3183",
+   "accession": "G.3183",
+   "institution": "British Museum",
+   "licence": "British Museum Standard Terms of Use",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Dekadrachm of Athens.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Dekadrachm_of_Athens.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Dekadrachm_of_Athens.jpg",
+     "licence": "CC BY-SA 3.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "CNG, (uploaded by Odysses)"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Silver Dekadrachm cropped.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Silver_Dekadrachm_cropped.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Silver_Dekadrachm_cropped.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Odysses"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "alexandros_obj_3",
+   "title": "Silver Tetradrachm of Athens",
+   "date": "5th century BCE",
+   "type": "coin",
+   "material": "silver",
+   "description": "Classic owl tetradrachm held in the Metropolitan Museum's Greek and Roman collection.",
+   "significance": "Every version of this coin found anywhere in the ancient world is proof of how far Athenian trust traveled on four grams of silver.",
+   "museum": "Metropolitan Museum of Art",
+   "museum_location": "New York, USA",
+   "accession_number": "330160",
+   "collection_url": "https://www.metmuseum.org/art/collection/search/330160",
+   "image_url": "https://images.metmuseum.org/CRDImages/gr/original/KN366.JPG",
+   "license": "Met Museum Open Access",
+   "open_access": true,
+   "plain_language": "The same trusted coin design, found in a museum thousands of miles from Greece, showing how far this money traveled.",
+   "url": "https://www.metmuseum.org/art/collection/search/330160",
+   "accession": "330160",
+   "institution": "Metropolitan Museum of Art",
+   "licence": "CC0 (Met Open Access)",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 429,
+    "error": "HTTP 429",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC0 (Met Open Access)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Met Collection API",
+    "accession": "2021.40.80",
+    "title": "Silver tetradrachm",
+    "image": "https://images.metmuseum.org/CRDImages/gr/original/KN366.JPG"
+   },
+   "display_image": {
+    "institution": "Wikimedia Commons",
+    "title": "Silver Tetradrachm, Athens, 170 BC - 30 BC.jpg",
+    "accession": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Silver_Tetradrachm%2C_Athens%2C_170_BC_-_30_BC.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Silver_Tetradrachm,_Athens,_170_BC_-_30_BC.jpg",
+    "licence": "Public domain",
+    "licence_class": "open",
+    "via": "Wikimedia API",
+    "attribution": "Unknown authorUnknown author"
+   },
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Silver Tetradrachm from Athens, 170 BC - 30 BC.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Silver_Tetradrachm_from_Athens%2C_170_BC_-_30_BC.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Silver_Tetradrachm_from_Athens,_170_BC_-_30_BC.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Unknown authorUnknown author"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Silver tetradrachm athens.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Silver_tetradrachm_athens.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Silver_tetradrachm_athens.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Unknown authorUnknown author"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "PASS",
+    "confidence": 9,
+    "what_i_see": "An ancient silver coin featuring a profile of Athena.",
+    "why": "The image depicts the obverse of a coin with Athena's head, consistent with the description of an Athenian tetradrachm.",
+    "model": "meta-llama/Llama-3.2-90B-Vision-Instruct"
+   },
+   "showable": true
+  },
+  {
+   "id": "alexandros_obj_4",
+   "title": "Athenian Tetradrachm",
+   "date": "5th century BCE",
+   "type": "coin",
+   "material": "silver",
+   "description": "An owl tetradrachm held at the Museum of Fine Arts, Boston.",
+   "significance": "Another surviving witness to Athens' silver empire, quietly sitting in a case thousands of years after the mines went cold.",
+   "museum": "Museum of Fine Arts, Boston",
+   "museum_location": "Boston, USA",
+   "accession_number": "95.129",
+   "collection_url": "https://collections.mfa.org/objects/4004/",
+   "image_url": "https://collections.mfa.org/objects/4004/",
+   "license": "MFA Boston Terms of Use",
+   "open_access": false,
+   "plain_language": "One more surviving example of the coin that made Athens the financial capital of the ancient world.",
+   "url": "https://collections.mfa.org/objects/4004/",
+   "accession": "95.129",
+   "institution": "Museum of Fine Arts, Boston",
+   "licence": "MFA Boston Terms of Use",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 202,
+    "final_url": "https://collections.mfa.org/objects/4004/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Complete strike of Athenian tetradrachm..jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Complete_strike_of_Athenian_tetradrachm..jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Complete_strike_of_Athenian_tetradrachm..jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Numismati"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "The owl, Athenian tetradrachm (reverse).png",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/The_owl%2C_Athenian_tetradrachm_%28reverse%29.png",
+     "page_url": "https://commons.wikimedia.org/wiki/File:The_owl,_Athenian_tetradrachm_(reverse).png",
+     "licence": "CC BY 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "cgb.fr"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The claim specifies an 'Athenian owl tetradrachm', but the image shows a coin with a different reverse design, not an owl.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "alexandros_obj_5",
+   "title": "Silver Ten-Drachm of Athens",
+   "date": "c. 467-465 BCE",
+   "type": "coin",
+   "material": "silver",
+   "description": "A dekadrachm held at the Numismatic Museum in Athens, in the very city that struck it.",
+   "significance": "This coin never left home — it's the rare case where the money and its origin story sit in the same room, 2,500 years later.",
+   "museum": "Numismatic Museum of Athens",
+   "museum_location": "Athens, Greece",
+   "accession_number": "NM 1301/1999",
+   "collection_url": "https://www.nummus.gr/en/project/silver-ten-drachm-of-athens-nm-1301-1999/",
+   "image_url": "https://www.nummus.gr/en/project/silver-ten-drachm-of-athens-nm-1301-1999/",
+   "license": "Numismatic Museum Athens Terms of Use",
+   "open_access": false,
+   "plain_language": "A giant silver coin still kept in the same city where it was made almost 2,500 years ago.",
+   "url": "https://www.nummus.gr/en/project/silver-ten-drachm-of-athens-nm-1301-1999/",
+   "accession": "NM 1301/1999",
+   "institution": "Numismatic Museum of Athens",
+   "licence": "Numismatic Museum Athens Terms of Use",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.nummus.gr/en/project/silver-ten-drachm-of-athens-nm-1301-1999/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "The Topography of Athens with Some Remarks on Its Antiquities (IA dli.granth.36211).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/The_Topography_of_Athens_with_Some_Remarks_on_Its_Antiquities_%28IA_dli.granth.36211%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:The_Topography_of_Athens_with_Some_Remarks_on_Its_Antiquities_(IA_dli.granth.36211).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nLeake, Lieut-Col W M"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "The silver coinage of Crete, a metrological note (IA silvercoinageofc00macdrich).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/The_silver_coinage_of_Crete%2C_a_metrological_note_%28IA_silvercoinageofc00macdrich%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:The_silver_coinage_of_Crete,_a_metrological_note_(IA_silvercoinageofc00macdrich).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nMacDonald, George, 1862-1940\nBritish Academy, London"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "alexandros_obj_6",
+   "title": "Lydian Electrum Stater",
+   "date": "c. 600 BCE",
+   "type": "coin",
+   "material": "electrum (gold-silver alloy)",
+   "description": "One of the earliest coins ever struck, made from a natural gold-silver alloy in the kingdom of Lydia.",
+   "significance": "Before Alexandros had a face or a name, this rough lump of stamped metal was the very first draft of the idea of money.",
+   "museum": "British Museum",
+   "museum_location": "London, UK",
+   "accession_number": "1866,1201.3669",
+   "collection_url": "https://www.britishmuseum.org/collection/object/C_1866-1201-3669",
+   "image_url": "https://www.britishmuseum.org/collection/object/C_1866-1201-3669",
+   "license": "British Museum Standard Terms of Use",
+   "open_access": false,
+   "plain_language": "Possibly the very first coin ever made — before this, nobody had ever stamped a piece of metal to guarantee its value.",
+   "url": "https://www.britishmuseum.org/collection/object/C_1866-1201-3669",
+   "accession": "1866,1201.3669",
+   "institution": "British Museum",
+   "licence": "British Museum Standard Terms of Use",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Gold stater",
+     "match_text": "Gold stater Lydian Stater ca. 560–546 BCE Coins",
+     "accession": "26.59.4",
+     "date": "ca. 560–546 BCE",
+     "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP-17995-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/252456",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Gold stater",
+     "match_text": "Gold stater Lydian Stater ca. 560–546 BCE Coins",
+     "accession": "26.59.3",
+     "date": "ca. 560–546 BCE",
+     "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP-17546-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/252455",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Electrum trite, Alyattes, Lydia, 620-563 BC.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Electrum_trite%2C_Alyattes%2C_Lydia%2C_620-563_BC.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Electrum_trite,_Alyattes,_Lydia,_620-563_BC.jpg",
+     "licence": "CC BY-SA 3.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Unknown / Photography by CNG coins"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "alexandros_src_1",
+   "title": "The Athenian Agora, Vol. XXVI: The Greek Coins",
+   "type": "academic_publication",
+   "date": "1993",
+   "author": "John H. Kroll",
+   "description": "Definitive scholarly catalogue of coins excavated from the Athenian Agora.",
+   "held_at": "American School of Classical Studies at Athens",
+   "url": "https://www.ascsa.edu.gr/uploads/media/oa_ebooks/oa_agora/Agora_XXVI.pdf",
+   "license": "Open access PDF",
+   "plain_language": "A giant academic book that catalogues every ancient coin ever dug up in the middle of Athens.",
+   "licence": "Open access PDF",
+   "licence_class": "open",
+   "institution": "American School of Classical Studies at Athens",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ascsa.edu.gr/uploads/media/oa_ebooks/oa_agora/Agora_XXVI.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "alexandros_src_2",
+   "title": "Greek Coins",
+   "type": "academic_publication",
+   "date": "1966",
+   "author": "Colin Kraay & Max Hirmer",
+   "description": "Landmark photographic and scholarly survey of ancient Greek coinage.",
+   "held_at": "Internet Archive",
+   "url": "https://archive.org/details/greekcoins00kraa",
+   "license": "Internet Archive - check individual rights",
+   "plain_language": "A classic photo book showing what ancient Greek coins actually looked like.",
+   "licence": "public domain / archive-hosted",
+   "licence_class": "open",
+   "institution": "Internet Archive",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://archive.org/details/greekcoins00kraa",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "public domain / archive-hosted",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Internet Archive metadata API",
+    "title": "Greek Coins"
+   }
+  },
+  {
+   "id": "alexandros_src_3",
+   "title": "Athens's oldest coins reveal ancient, widespread silver trade",
+   "type": "news_article",
+   "date": "2020",
+   "author": "Science.org",
+   "description": "Scientific analysis of trace elements in early Athenian coins tracing the silver's origin.",
+   "held_at": "Science.org",
+   "url": "https://www.science.org/content/article/athens-s-oldest-coins-reveal-ancient-widespread-silver-trade",
+   "license": "Publisher rights apply",
+   "plain_language": "Scientists tested old coins to figure out exactly which mines the silver came from — like a DNA test for money.",
+   "licence": "Publisher rights apply",
+   "licence_class": "unknown",
+   "institution": "Science.org",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "id": "alexandros_src_4",
+   "title": "Thorikos Project Archive",
+   "type": "archive",
+   "date": "Ongoing",
+   "author": "Ghent University",
+   "description": "Archaeological research archive on the Laurion silver-mining district that funded Athenian coinage.",
+   "held_at": "Thorikos Project",
+   "url": "https://www.thorikos.be/",
+   "license": "Project website terms",
+   "plain_language": "Records from the actual ancient silver mines that paid for Athens' coins.",
+   "licence": "Project website terms",
+   "licence_class": "unknown",
+   "institution": "Thorikos Project",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.thorikos.be/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "alexandros_src_5",
+   "title": "Mapping Ancient Athens",
+   "type": "digital_archive",
+   "date": "2018",
+   "author": "Dipylon Society",
+   "description": "GIS-based digital mapping project reconstructing the topography of ancient Athens, including the mint and agora.",
+   "held_at": "Dipylon Society",
+   "url": "https://dipylon.org/en/2018/06/12/mapping-ancient-athens/",
+   "license": "Project website terms",
+   "plain_language": "A digital map that recreates ancient Athens street by street, showing exactly where the money was made and spent.",
+   "licence": "Project website terms",
+   "licence_class": "unknown",
+   "institution": "Dipylon Society",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://dipylon.org/en/2018/06/12/mapping-ancient-athens/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 37.9738,
+  "center_lng": 23.7275,
+  "center_label": "Athens, Greece",
+  "era_start": -600,
+  "era_end": -30,
+  "map_description": "Alexandros' silver drachma began in the mines south of Athens and traveled along trade routes reaching from Egypt to Central Asia, becoming the first truly international currency.",
+  "nodes": [
+   {
+    "label": "Athens Mint",
+    "lat": 37.9738,
+    "lng": 23.7275,
+    "type": "origin",
+    "description": "Where Athenian silver was struck into the owl tetradrachms that became the ancient world's reserve currency."
+   },
+   {
+    "label": "Laurion Silver Mines",
+    "lat": 37.7068,
+    "lng": 24.0378,
+    "type": "resource",
+    "description": "The mines that supplied the silver behind Athens' entire monetary and naval power."
+   },
+   {
+    "label": "Cape Sounion",
+    "lat": 37.65,
+    "lng": 24.0231,
+    "type": "trade_route",
+    "description": "A key point along the coast where silver shipments and trading vessels passed on their way to and from Athens."
+   },
+   {
+    "label": "Alexandria, Egypt",
+    "lat": 31.2001,
+    "lng": 29.9187,
+    "type": "destination",
+    "description": "Greek coinage circulated widely here after Alexander the Great's conquests spread Greek currency across the Mediterranean."
+   },
+   {
+    "label": "Persepolis, Persia",
+    "lat": 29.9346,
+    "lng": 52.8916,
+    "type": "destination",
+    "description": "Greek coins reached deep into former Persian territory, evidence of how far this currency's trust extended."
+   },
+   {
+    "label": "Bactria (Central Asia)",
+    "lat": 36.7,
+    "lng": 66.9,
+    "type": "destination",
+    "description": "The furthest edge of the Greek monetary world, where owl-stamped coins still turn up in hoards today."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Mapping Ancient Athens",
+   "url": "https://dipylon.org/en/2018/06/12/mapping-ancient-athens/",
+   "license": "Project website terms"
+  }
+ },
+ "_verified": "2026-07-11 10:36"
+}

@@ -1,0 +1,524 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 10,
+  "character_key": "clara_weiss",
+  "character_name": "Clara Weiss",
+  "asset": "Swiss Franc",
+  "ticker": "CHF",
+  "era": "1850",
+  "era_label": "Modern Swiss Confederation",
+  "era_year": 1850,
+  "tagline": "While everyone else's house was burning, she was quietly building the vault."
+ },
+ "museum_objects": [
+  {
+   "id": "clara_weiss_obj_1",
+   "title": "First 1850 Swiss Franc Coin",
+   "date": "1850",
+   "type": "coin",
+   "material": "silver",
+   "description": "One of the first coins struck under Switzerland's newly unified federal currency system.",
+   "significance": "While the rest of Europe was still arguing over borders and kings, Switzerland quietly agreed on one thing: a single, boring, reliable coin. That's Clara's whole personality in one object.",
+   "museum": "MoneyMuseum",
+   "museum_location": "Zurich, Switzerland",
+   "accession_number": "1850 Franc coin",
+   "collection_url": "https://www.moneymuseum.com/",
+   "image_url": "https://www.moneymuseum.com/",
+   "license": "MoneyMuseum terms",
+   "open_access": false,
+   "plain_language": "One of the very first Swiss franc coins ever made, from the year Switzerland unified its money.",
+   "url": "https://www.moneymuseum.com/",
+   "accession": "1850 Franc coin",
+   "institution": "MoneyMuseum",
+   "licence": "MoneyMuseum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.moneymuseum.com/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Medal Issued by the Swiss Cantons on the Birth of Princess Claude of France (1547–1575)",
+     "match_text": "Medal Issued by the Swiss Cantons on the Birth of Princess Claude of France (1547–1575) Medal 1547 Medals and Plaquettes",
+     "accession": "2005.18",
+     "date": "1547",
+     "image_url": "https://images.metmuseum.org/CRDImages/es/original/DP-39934-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/231137",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Schweiz Zwei Franken 1850.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Schweiz_Zwei_Franken_1850.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Schweiz_Zwei_Franken_1850.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Unknown authorUnknown author"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Schweizer Franken 1850.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Schweizer_Franken_1850.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Schweizer_Franken_1850.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Unknown authorUnknown author"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image shows a watch, not a coin, so it does not depict a Swiss Franc coin.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "12 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "clara_weiss_obj_2",
+   "title": "Helvetia-Design Swiss Coinage",
+   "date": "1850 onward",
+   "type": "coin",
+   "material": "silver/gold",
+   "description": "Swiss franc coins featuring the personification 'Helvetia,' designed by Friedrich Fisch.",
+   "significance": "Helvetia is basically Clara's original face — calm, neutral, and completely uninterested in flattering anyone.",
+   "museum": "Swiss National Museum Coin Cabinet",
+   "museum_location": "Zurich, Switzerland",
+   "accession_number": "Referenced in coin cabinet collection",
+   "collection_url": "https://sammlung.nationalmuseum.ch/de",
+   "image_url": "https://sammlung.nationalmuseum.ch/de",
+   "license": "Swiss National Museum terms",
+   "open_access": false,
+   "plain_language": "Swiss coins featuring 'Helvetia,' the calm female figure who has represented Switzerland's currency for over 150 years.",
+   "url": "https://sammlung.nationalmuseum.ch/de",
+   "accession": "Referenced in coin cabinet collection",
+   "institution": "Swiss National Museum Coin Cabinet",
+   "licence": "Swiss National Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://sammlung.nationalmuseum.ch/de",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "History of Ancient and Modern Coinage (IA historyofancient1871laba).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/History_of_Ancient_and_Modern_Coinage_%28IA_historyofancient1871laba%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:History_of_Ancient_and_Modern_Coinage_(IA_historyofancient1871laba).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nLaban Heath"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "The Swiss Confederation; (IA cu31924024903381).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/The_Swiss_Confederation%3B_%28IA_cu31924024903381%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:The_Swiss_Confederation;_(IA_cu31924024903381).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nAdams, Francis Ottiwell, 1825-1889\nCunningham, C. D"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "clara_weiss_obj_3",
+   "title": "Vreneli 20-Franc Gold Coin",
+   "date": "1897-1949",
+   "type": "coin",
+   "material": "gold",
+   "description": "An iconic Swiss gold coin nicknamed 'Vreneli,' widely held as a store of value and gift coin.",
+   "significance": "When people around the world lost faith in paper money, they turned to this small gold coin — Clara's reputation for reliability made physical.",
+   "museum": "Swiss National Museum Coin Cabinet",
+   "museum_location": "Zurich, Switzerland",
+   "accession_number": "Vreneli 20 Franc",
+   "collection_url": "https://sammlung.nationalmuseum.ch/de",
+   "image_url": "https://sammlung.nationalmuseum.ch/de",
+   "license": "Swiss National Museum terms",
+   "open_access": false,
+   "plain_language": "A famous small gold coin that Swiss people have given as gifts and used as savings for over a century.",
+   "url": "https://sammlung.nationalmuseum.ch/de",
+   "accession": "Vreneli 20 Franc",
+   "institution": "Swiss National Museum Coin Cabinet",
+   "licence": "Swiss National Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://sammlung.nationalmuseum.ch/de",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image shows the reverse side of a 20 Franc gold coin, not the 'Vreneli' obverse side featuring a portrait.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "13 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "clara_weiss_obj_4",
+   "title": "Latin Monetary Union Founding Documents",
+   "date": "1865",
+   "type": "document",
+   "material": "paper",
+   "description": "Treaty documents establishing the Latin Monetary Union, which standardized currencies among several European nations based on the franc.",
+   "significance": "Other countries wanted to borrow Clara's stability so badly they built an entire treaty around copying her.",
+   "museum": "Referenced via ifo Institute archive",
+   "museum_location": "Bern, Switzerland / Paris, France",
+   "accession_number": "Latin Monetary Union Treaty 1865",
+   "collection_url": "https://www.ifo.de/",
+   "image_url": "https://www.ifo.de/",
+   "license": "ifo Institute terms",
+   "open_access": false,
+   "plain_language": "An old treaty where several European countries agreed to base their money on the Swiss franc system.",
+   "url": "https://www.ifo.de/",
+   "accession": "Latin Monetary Union Treaty 1865",
+   "institution": "Referenced via ifo Institute archive",
+   "licence": "ifo Institute terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ifo.de/ifo-startseite",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Virgin and Child",
+     "accession": "43.13",
+     "date": "1670s",
+     "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-010.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/437175",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Doorway from the Church of San Nicolò, San Gemini",
+     "accession": "47.100.45a–g",
+     "date": "carved 1000s, assembled 1100s or 1200s",
+     "image_url": "https://images.metmuseum.org/CRDImages/md/original/DP212404.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/468207",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "History of monetary systems - Alexander del Mar, M.E. (1895).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/History_of_monetary_systems_-_Alexander_del_Mar%2C_M.E._%281895%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:History_of_monetary_systems_-_Alexander_del_Mar,_M.E._(1895).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Alexander del Mar, M.E."
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "clara_weiss_obj_5",
+   "title": "Swiss National Bank Founding Charter",
+   "date": "1907",
+   "type": "document",
+   "material": "paper",
+   "description": "Founding charter establishing the Swiss National Bank as the country's sole currency-issuing authority.",
+   "significance": "This is the paperwork that finally gave Clara one single, unified voice instead of dozens of competing regional banks.",
+   "museum": "Swiss National Bank Archive",
+   "museum_location": "Bern, Switzerland",
+   "accession_number": "SNB founding charter 1907",
+   "collection_url": "https://www.snb.ch/en/the-snb/organisation/history/geld-und-waehrungspolitische-chronik",
+   "image_url": "https://www.snb.ch/en/the-snb/organisation/history/geld-und-waehrungspolitische-chronik",
+   "license": "SNB terms",
+   "open_access": false,
+   "plain_language": "The founding document of the Swiss National Bank, which took over managing Switzerland's money in 1907.",
+   "url": "https://www.snb.ch/en/the-snb/organisation/history/geld-und-waehrungspolitische-chronik",
+   "accession": "SNB founding charter 1907",
+   "institution": "Swiss National Bank Archive",
+   "licence": "SNB terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.snb.ch/en/the-snb/organisation/history/geld-und-waehrungspolitische-chronik",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "The Sorrow of Telemachus",
+     "accession": "25.110.187",
+     "date": "1783",
+     "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP169392.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/436809",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Henri-Gabriel Ibels (1867–1936)",
+     "accession": "2003.20.14",
+     "date": "1892–93",
+     "image_url": "https://images.metmuseum.org/CRDImages/ep/original/EP5.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/438017",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Swiss-Political-System.pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Swiss-Political-System.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Swiss-Political-System.pdf",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Wolf Linder and Andrea Iff"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "clara_weiss_src_1",
+   "title": "Wikipedia: Coins of the Swiss Franc",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference overview on the history and design of Swiss franc coinage.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coins_of_the_Swiss_franc",
+   "license": "CC BY-SA",
+   "plain_language": "A general overview of Swiss coins and their designs through history.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Coins_of_the_Swiss_franc",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "clara_weiss_src_2",
+   "title": "SNB Monetary and Currency Policy Chronicle",
+   "type": "official_publication",
+   "date": "Ongoing",
+   "author": "Swiss National Bank",
+   "description": "Official chronological archive of Swiss monetary policy decisions and events.",
+   "held_at": "Swiss National Bank",
+   "url": "https://www.snb.ch/en/the-snb/organisation/history/geld-und-waehrungspolitische-chronik",
+   "license": "SNB terms",
+   "plain_language": "The Swiss central bank's own timeline of every major monetary decision it has made.",
+   "licence": "SNB terms",
+   "licence_class": "unknown",
+   "institution": "Swiss National Bank",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.snb.ch/en/the-snb/organisation/history/geld-und-waehrungspolitische-chronik",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "clara_weiss_src_3",
+   "title": "Latin Monetary Union Research Paper",
+   "type": "academic_publication",
+   "date": "Ongoing",
+   "author": "ifo Institute",
+   "description": "Economic history research on the formation and dissolution of the Latin Monetary Union.",
+   "held_at": "ifo Institute",
+   "url": "https://www.ifo.de/",
+   "license": "ifo Institute terms",
+   "plain_language": "Academic research explaining how several European countries once tied their money to the Swiss franc.",
+   "licence": "ifo Institute terms",
+   "licence_class": "unknown",
+   "institution": "ifo Institute",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ifo.de/ifo-startseite",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "clara_weiss_src_4",
+   "title": "MoneyMuseum Historical Archive",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "MoneyMuseum, Zurich",
+   "description": "Digital and physical archive documenting the history of money, including Swiss franc coinage.",
+   "held_at": "MoneyMuseum",
+   "url": "https://www.moneymuseum.com/",
+   "license": "MoneyMuseum terms",
+   "plain_language": "A Swiss museum entirely dedicated to the history of money, including its own currency.",
+   "licence": "MoneyMuseum terms",
+   "licence_class": "unknown",
+   "institution": "MoneyMuseum",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.moneymuseum.com/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "clara_weiss_src_5",
+   "title": "Swiss National Museum Coin Cabinet Digital Collection",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Swiss National Museum",
+   "description": "Digitized coin collection documenting Swiss numismatic history.",
+   "held_at": "Swiss National Museum",
+   "url": "https://sammlung.nationalmuseum.ch/de",
+   "license": "Swiss National Museum terms",
+   "plain_language": "An online collection of historic Swiss coins you can browse for free.",
+   "licence": "Swiss National Museum terms",
+   "licence_class": "unknown",
+   "institution": "Swiss National Museum",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://sammlung.nationalmuseum.ch/de",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 46.948,
+  "center_lng": 7.4474,
+  "center_label": "Bern, Switzerland",
+  "era_start": 1850,
+  "era_end": 2026,
+  "map_description": "Clara's franc was born from Swiss federal unification in 1850 and became the world's premier safe-haven currency, anchored in Bern, Zurich, and Basel.",
+  "nodes": [
+   {
+    "label": "Bern (Bundeshaus)",
+    "lat": 46.9466,
+    "lng": 7.4441,
+    "type": "origin",
+    "description": "Switzerland's capital, where the 1850 currency unification and the 1907 SNB founding charter were enacted."
+   },
+   {
+    "label": "Zurich (Bahnhofstrasse)",
+    "lat": 47.3717,
+    "lng": 8.5388,
+    "type": "destination",
+    "description": "One of the world's most prominent banking and finance streets, symbolic of Swiss financial stability."
+   },
+   {
+    "label": "Basel (BIS Tower)",
+    "lat": 47.5596,
+    "lng": 7.5886,
+    "type": "landmark",
+    "description": "Home to the Bank for International Settlements, the 'central bank for central banks.'"
+   },
+   {
+    "label": "La Chaux-de-Fonds",
+    "lat": 47.1039,
+    "lng": 6.8253,
+    "type": "resource",
+    "description": "Center of Swiss watchmaking precision, a cultural echo of the exacting standards behind the franc's reliability."
+   },
+   {
+    "label": "Geneva",
+    "lat": 46.2044,
+    "lng": 6.1432,
+    "type": "destination",
+    "description": "International financial hub and home to numerous global banks holding Swiss franc reserves."
+   }
+  ],
+  "historical_map_source": {
+   "title": "SNB Monetary and Currency Policy Chronicle",
+   "url": "https://www.snb.ch/en/the-snb/organisation/history/geld-und-waehrungspolitische-chronik",
+   "license": "SNB terms"
+  }
+ },
+ "_verified": "2026-07-11 10:38"
+}

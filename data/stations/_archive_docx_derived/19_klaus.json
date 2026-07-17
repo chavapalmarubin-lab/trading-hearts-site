@@ -1,0 +1,242 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 19,
+  "character_name": "KLAUS RICHTER",
+  "character_key": "klaus",
+  "header": "KLAUS RICHTER"
+ },
+ "museum_objects": [
+  {
+   "title": "20 DM banknote, Bank Deutscher Länder",
+   "institution": "Staatliche Museen zu Berlin (museum-digital)",
+   "accession": "Object 174110",
+   "date": "1948",
+   "url": "https://smb.museum-digital.de/object/174110",
+   "licence_raw": "Museum digital catalog — verify per object",
+   "description": "Early Deutsche Mark banknote from the founding currency reform.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://smb.museum-digital.de/object/174110",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Surviving wooden \"Bird Dog\" transport crate",
+   "institution": "Deutsches Historisches Museum, Berlin",
+   "accession": "Donated 1992 from Bad Homburg",
+   "date": "1947–1948",
+   "url": "https://www.dhm.de/blog/2018/02/28/stories-the-mickey-mouse-mark-and-the-wallpaper-mark/",
+   "licence_raw": "Institutional — contact required",
+   "description": "One of only 3 known surviving crates used to ship the new currency from the US.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Währungsreform Wechselstube photo",
+   "institution": "Haus der Geschichte / LeMO",
+   "accession": "DHM Inventory No. F 63/1350",
+   "date": "June 1948",
+   "url": "https://www.hdg.de/lemo/bestand/objekt/foto-waehrungsreform-wechselstube.html",
+   "licence_raw": "Institutional — contact required",
+   "description": "Photograph of a 1948 currency exchange office during the reform.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.hdg.de/lemo/bestand/objekt/foto-waehrungsreform-wechselstube.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "1 DM, Deutsche Notenbank",
+   "institution": "DDR Museum Berlin",
+   "accession": "Inventory No. 1018423",
+   "date": "Post-1948 (East German parallel)",
+   "url": "https://www.ddr-museum.de/de/objects/1018423",
+   "licence_raw": "Institutional — contact required",
+   "description": "East German parallel currency object, useful contrast to the West German DM.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.ddr-museum.de/de/objects/1018423",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "C-54 dropping candy during Berlin Airlift",
+   "institution": "National Museum of the US Air Force (via Wikimedia Commons)",
+   "accession": "050426-F-1234P-012",
+   "date": "c.1949",
+   "url": "https://commons.wikimedia.org/wiki/File:C-54_dropping_candy_during_Berlin_Airlift_c1949.jpg",
+   "licence_raw": "Public domain (US federal government work)",
+   "description": "Iconic image of the Berlin Airlift, the geopolitical backdrop to the currency reform.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/File:C-54_dropping_candy_during_Berlin_Airlift_c1949.jpg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "Public domain",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikimedia Commons API",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/C-54_dropping_candy_during_Berlin_Airlift_c1949.jpg",
+    "attribution": "USAF"
+   },
+   "licence": "Public domain",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/C-54_dropping_candy_during_Berlin_Airlift_c1949.jpg"
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Deutsche Bundesbank, \"The economic and currency reform of 1948\" — primary institutional historical account.",
+   "detail": "",
+   "url": "https://www.bundesbank.de/en/press/contributions/the-economic-and-currency-reform-of-1948-the-basis-for-stable-money-915302",
+   "licence_raw": "Deutsche Bundesbank, \"The economic and currency reform of 1948\" — primary institutional historical account.",
+   "licence_class": "contact_required",
+   "raw": "Deutsche Bundesbank, \"The economic and currency reform of 1948\" — primary institutional historical account.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bundesbank.de/en/press/contributions/the-economic-and-currency-reform-of-1948-the-basis-for-stable-money-915302",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "TIME Magazine archive, \"The Nations: Operation Bird Dog\" — contemporaneous 1948 reporting.",
+   "detail": "",
+   "url": "https://time.com/archive/6776285/the-nations-operation-bird-dog/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "TIME Magazine archive, \"The Nations: Operation Bird Dog\" — contemporaneous 1948 reporting.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://time.com/archive/6776285/the-nations-operation-bird-dog/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Truman Library: The Berlin Airlift collection — primary US government archival collection.",
+   "detail": "",
+   "url": "https://www.trumanlibrary.gov/library/online-collections/berlin-airlift",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Truman Library: The Berlin Airlift collection — primary US government archival collection.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.trumanlibrary.gov/library/online-collections/berlin-airlift",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Deutsche Bundesbank numismatic collection 2014 PDF catalog — primary institutional catalog.",
+   "detail": "",
+   "url": "https://www.bundesbank.de/resource/blob/607566/776f85490e4b732acb9aa1dbd54d83d5/mL/numismatic-collection-of-the-deutsche-bundesbank-data.pdf",
+   "licence_raw": "Deutsche Bundesbank numismatic collection 2014 PDF catalog — primary institutional catalog.",
+   "licence_class": "contact_required",
+   "raw": "Deutsche Bundesbank numismatic collection 2014 PDF catalog — primary institutional catalog.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bundesbank.de/resource/blob/607566/776f85490e4b732acb9aa1dbd54d83d5/mL/numismatic-collection-of-the-deutsche-bundesbank-data.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "GHDI: Currency Reform image, photo by Hans Hubmann — primary photographic documentation of the Munich Karmeliter-Schule payout.",
+   "detail": "",
+   "url": "https://ghdi.ghi-dc.org/sub_image.cfm?image_id=1018",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "GHDI: Currency Reform image, photo by Hans Hubmann — primary photographic documentation of the Munich Karmeliter-Schule payout.",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: June 1948, occupied West Germany. Allied administrators must decide whether to proceed with an entirely new currency reform in the western occupation zones — a move that would formally split Germany's currency (and likely deepen the East-West divide) right as Soviet forces watched closely. The outcome was genuinely uncertain: the Soviet Union responded within days by blockading West Berlin, testing whether the Western Allies would abandon the city rather than risk war.Player choice: Proceed with the West German currency reform despite the risk of Soviet retaliation, or delay reform to avoid provoking a crisis.Historical resolution: The Allies proceeded with the reform on June 20, 1948. The Soviet Union responded with the Berlin Blockade just days later, and the Allies answered with the Berlin Airlift rather than abandoning the city.",
+ "understand": {
+  "economic_impact": "The June 1948 currency reform is widely credited as the foundation of West Germany's \"Wirtschaftswunder\" (economic miracle), transforming empty, hoarded shelves into stocked stores almost overnight once money regained real value Bundesbank official history. The Deutsche Mark went on to become one of Europe's most respected and stable currencies for the remainder of the 20th century [TH Script Writing Bible voice profile].",
+  "political_impact": "The currency reform directly triggered the Soviet Union's Berlin Blockade (1948-49), one of the first major crises of the Cold War, met by the Western Allies with the Berlin Airlift rather than withdrawal Truman Library. The reform effectively formalized the economic (and soon political) division between West and East Germany.",
+  "why_it_still_matters": "Imagine a country so broken that store shelves are empty, not because there's nothing to sell, but because nobody trusts the money enough to sell it for. That was Germany in 1948, still living with the memory of 1923, when a loaf of bread cost 200 billion of the old currency. When a brand new currency was introduced almost overnight, with a small, guaranteed amount of money given to everyone, something remarkable happened — people started trusting money again, and stores filled back up almost immediately. Klaus's story matters because it shows that money is fundamentally about trust — when people believe a currency will hold its value, an entire economy can start working again almost overnight; when they don't, even full shelves might as well be empty."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:40"
+}

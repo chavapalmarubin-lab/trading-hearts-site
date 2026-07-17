@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Underground · Alexandros · The Drachma Line</title>
+<link rel="icon" type="image/png" href="media/brand/favicon.png">
+<link rel="apple-touch-icon" href="media/brand/th_mark.png">
+<style>
+  :root{
+    --navy:#070c14; --deep:#03060b; --gold:#C8A44D; --bone:#EDE6D6; --dim:#7d8794;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%;overflow:hidden;background:var(--deep);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    -webkit-font-smoothing:antialiased;}
+  #world{position:fixed;inset:0;perspective:1000px;perspective-origin:50% 45%;
+    background:radial-gradient(ellipse at 50% 44%, #0d1725 0%, #070c14 52%, #03050a 100%);
+    transition:background 1.2s linear;cursor:grab;}
+  #world:active{cursor:grabbing}
+  #scene{position:absolute;inset:0;transform-style:preserve-3d;}
+
+  /* ── A MEMORY. His life, drifting past. ─────────────────────────────── */
+  .mem{position:absolute;left:50%;top:50%;transform-style:preserve-3d;will-change:transform,opacity;}
+  .mem img{display:block;width:100%;height:auto;border-radius:2px;
+    box-shadow:0 30px 90px rgba(0,0,0,.75), 0 0 0 1px rgba(237,230,214,.10);}
+  .mem .cap{margin-top:10px;font:italic 400 13px/1.4 Georgia,serif;color:#9aa3ad;letter-spacing:.02em;}
+  .mem .cap b{display:block;font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.26em;
+    color:var(--gold);text-transform:uppercase;margin-bottom:5px;font-style:normal;}
+
+  /* ── HIS FACE. He is here, at every age, because he never ages. ─────── */
+  .face{position:absolute;left:50%;top:50%;transform-style:preserve-3d;text-align:center;}
+  .face .ring{width:230px;height:230px;border-radius:50%;overflow:hidden;margin:0 auto;
+    border:2px solid rgba(200,164,77,.75);
+    box-shadow:0 0 100px rgba(200,164,77,.40), inset 0 0 70px rgba(0,0,0,.65);}
+  .face .ring img{width:100%;height:100%;object-fit:cover;display:block;}
+
+  /* ── A STATION. ─────────────────────────────────────────────────────── */
+  .st{position:absolute;left:50%;top:50%;text-align:center;transform-style:preserve-3d;}
+  .st .plate{display:inline-block;padding:11px 30px;background:rgba(5,9,15,.72);
+    border:1px solid rgba(200,164,77,.42);backdrop-filter:blur(6px);}
+  .st .yr{font:700 34px/1 Georgia,serif;color:var(--bone);letter-spacing:.02em;}
+  .st .nm{margin-top:8px;font:600 10px/1 ui-sans-serif,system-ui;letter-spacing:.30em;
+    color:var(--gold);text-transform:uppercase;}
+  .st .thread{margin:16px auto 0;width:1px;
+    background:linear-gradient(rgba(200,164,77,.5),rgba(200,164,77,.03));}
+
+  /* ── OTHER LINES. The universe you are inside. ──────────────────────── */
+  .oth{position:absolute;left:50%;top:50%;text-align:center;transform-style:preserve-3d;}
+  .oth .ring{width:120px;height:120px;border-radius:50%;overflow:hidden;margin:0 auto;}
+  .oth .ring img{width:100%;height:100%;object-fit:cover;display:block;}
+  .oth .nm{margin-top:7px;font:600 8px/1 ui-sans-serif,system-ui;letter-spacing:.24em;text-transform:uppercase;}
+  .oth .thread{margin:9px auto 0;width:1px;height:300px;}
+
+  .rail{position:absolute;left:50%;top:56%;width:2px;height:44px;margin-left:-1px;
+    background:linear-gradient(var(--gold),rgba(200,164,77,0));}
+  .mote{position:absolute;left:50%;top:50%;width:2px;height:2px;border-radius:50%;background:var(--gold);}
+
+  /* ── HUD ────────────────────────────────────────────────────────────── */
+  .veil{position:fixed;inset:0;pointer-events:none;
+    background:radial-gradient(ellipse at 50% 45%, transparent 26%, rgba(3,5,10,.5) 70%, rgba(3,5,10,.96) 100%);}
+  .hud{position:fixed;pointer-events:none;font-family:ui-sans-serif,system-ui,sans-serif;}
+  #tl{top:22px;left:26px}
+  #tl .k{color:var(--gold);font-size:10px;letter-spacing:.30em}
+  #tl .n{color:var(--bone);font-size:16px;letter-spacing:.06em;margin-top:5px;font-family:Georgia,serif}
+  #tl .n span{color:var(--dim)}
+  #tr{top:22px;right:26px;text-align:right}
+  #yr{color:var(--bone);font:600 30px/1 Georgia,serif;letter-spacing:.03em}
+  #er{color:var(--dim);font-size:9px;letter-spacing:.26em;margin-top:5px}
+
+  #card{position:fixed;left:26px;bottom:26px;max-width:380px;
+    background:rgba(5,9,15,.86);backdrop-filter:blur(12px);
+    border-left:2px solid var(--gold);padding:16px 20px;color:var(--bone);
+    opacity:0;transform:translateY(10px);transition:opacity .55s,transform .55s;pointer-events:none;}
+  #cn{font:600 10px/1 ui-sans-serif,system-ui;letter-spacing:.24em;color:var(--gold);text-transform:uppercase}
+  #cd{margin-top:10px;font-size:15px;line-height:1.6;color:#DAD4C8}
+  #cs{margin-top:11px;font:italic 11px/1.4 Georgia,serif;color:#7a746a}
+
+  #snd{position:fixed;right:26px;bottom:26px;display:flex;align-items:center;gap:10px;
+    background:rgba(5,9,15,.8);border:1px solid rgba(200,164,77,.3);padding:9px 14px;
+    color:var(--gold);font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.2em;
+    cursor:pointer;user-select:none;text-transform:uppercase;}
+  #snd:hover{background:rgba(200,164,77,.12)}
+  #eq{display:flex;gap:2px;align-items:flex-end;height:12px}
+  #eq i{width:2px;background:var(--gold);height:3px;transition:height .18s}
+  #hint{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);color:var(--dim);
+    font:400 9px/1 ui-sans-serif,system-ui;letter-spacing:.26em;pointer-events:none;text-transform:uppercase;
+    transition:opacity .6s}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+  /* ── THE TH CURSOR ────────────────────────────────────────────────────────────────
+     CEO 2026-07-13: "the cursor should always be the same across the platform."
+
+     It was not. The homepage hides the native pointer (cursor:none) and draws the house
+     cursor — a gold dot inside a gold ring, which is the mark from the logo itself. Board a
+     line and that vanished: the ride handed you back the operating system's arrow.
+
+     Same cursor everywhere now. It is not decoration — it is the same object as the logo's
+     mark, and a brand that changes its cursor between rooms is a brand with two identities. */
+  /* !important because the ride sets cursor:grab / :grabbing on #world, and a grab hand is the
+     operating system's idea of this experience, not ours. */
+  body,#world,#world:active,a,button,.mem,.st,.xfer,.oth,[onclick]{cursor:none!important}
+  /* the masthead: the mark, then the line's name */
+  #tl{display:flex;align-items:center;gap:12px}
+  .thHome{display:block;line-height:0;opacity:.9;transition:opacity .25s}
+  .thHome:hover{opacity:1}
+  .thMark{width:26px;height:26px;display:block}
+  @media (max-width:768px){ .thMark{width:22px;height:22px} #tl{gap:9px} }
+  #cursor{position:fixed;width:8px;height:8px;background:#C8A44D;border-radius:50%;
+    pointer-events:none;z-index:2147483001;transform:translate(-50%,-50%);transition:transform .1s}
+  #cursorRing{position:fixed;width:32px;height:32px;border:1px solid rgba(200,164,77,.4);
+    border-radius:50%;pointer-events:none;z-index:2147483000;transform:translate(-50%,-50%);
+    transition:all .15s ease}
+  /* a touch device has no cursor to be consistent about */
+  @media (hover:none){ body{cursor:auto} #cursor,#cursorRing{display:none} }
+
+  /* HOW TO RIDE — the first thing you meet, and the last time you see it. */
+  #how{position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;
+    background:radial-gradient(60% 60% at 50% 45%,rgba(6,12,24,.72),rgba(4,8,16,.94));
+    backdrop-filter:blur(2px);transition:opacity .5s ease}
+  #how.gone{opacity:0;pointer-events:none}
+  .howCard{width:min(430px,calc(100% - 40px));padding:26px 26px 20px;border-radius:16px;
+    border:1px solid rgba(201,164,77,.34);background:rgba(9,16,30,.9);text-align:left}
+  .howK{font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.3em;text-transform:uppercase;color:#C8A44D}
+  .howT{font:400 30px/1.1 Georgia,serif;color:#EDE6D6;margin:8px 0 18px}
+  .howRow{display:flex;gap:12px;align-items:flex-start;margin:11px 0;
+    font:400 13px/1.45 ui-sans-serif,system-ui;color:rgba(237,230,214,.74)}
+  .howRow b{color:#EDE6D6;font-weight:600}
+  .howIco{flex:0 0 22px;height:22px;border-radius:6px;display:grid;place-items:center;
+    border:1px solid rgba(201,164,77,.4);color:#C8A44D;font-size:11px}
+  #howGo{margin-top:18px;width:100%;padding:12px;border-radius:10px;cursor:pointer;
+    border:1px solid rgba(201,164,77,.55);background:rgba(201,164,77,.12);color:#EDE6D6;
+    font:600 11px/1 ui-sans-serif,system-ui;letter-spacing:.24em;text-transform:uppercase}
+  #howGo:hover{background:rgba(201,164,77,.2)}
+  .howArr{display:inline-block;animation:howBob 1.4s ease-in-out infinite}
+  @keyframes howBob{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}
+
+  @media (max-width:768px){
+    /* MOBILE IS DESIGNED, NOT SHRUNK. CEO: "the mobile version also looks very different and
+       crowded." It was: the memories are flung ±470px sideways — generous on a 1600px screen,
+       a pile-up on a 390px one — and the drawer, the card and the station hub all fought for
+       the same corner. On mobile the tunnel keeps its depth and loses its width. */
+    #world{perspective:620px}
+    .face .ring{width:132px;height:132px}
+    .st .yr{font-size:22px}
+    .st .nm{font-size:10px;letter-spacing:.18em}
+    .mem{max-width:46vw}
+    .mem img{width:100%;height:auto}
+    .mem .t{font-size:10px;line-height:1.35}
+    .mem .e{font-size:8px}
+    #card{left:10px;right:10px;bottom:74px;max-width:none;padding:12px 14px}
+    #cd{font-size:13px;line-height:1.45}
+    #hub{gap:6px}
+    #hub button{padding:7px 9px;font-size:8px}
+    #tl,#tr{transform:scale(.82);transform-origin:top}
+    #snd{right:12px;bottom:16px}
+    #hint{bottom:16px;left:12px;transform:none}
+    #xbox{left:10px;right:10px;width:auto;max-width:none}
+    #drawer .dcard{width:100%;max-width:none;border-radius:14px 14px 0 0}
+    .howT{font-size:25px}
+  }
+</style>
+</head>
+<body>
+<h1 class="sr">The Underground of Civilization — Alexandros, the Greek Drachma. Ride his line from 600 BCE to today.</h1>
+
+<div id="world"><div id="scene"></div></div>
+<div class="veil"></div>
+
+<div class="hud" id="tl">
+  <!-- THE MARK, AND THE WAY HOME. Every ride is a Trading Hearts room, and a room with no door
+       back to the house is a place people leave by closing the tab. -->
+  <a class="thHome" href="index.html" aria-label="Trading Hearts — home">
+    <img src="media/brand/th_mark.png" alt="Trading Hearts" class="thMark">
+  </a>
+  <div class="hudTxt">
+    <div class="k">THE UNDERGROUND OF CIVILIZATION</div>
+    <div class="n">ALEXANDROS <span>&middot; GREEK DRACHMA</span></div>
+  </div>
+</div>
+<div class="hud" id="tr"><div id="yr">600 BCE</div><div id="er">THE DEEP</div></div>
+
+<!-- THE WAY BACK TO THE MAP. CEO 2026-07-14: "we need a button in the middle top on anyone's
+     line to get back to the underground map."
+     You can leave a line by boarding another one, and you can go home to the house — but there
+     was no way back to THE MAP, the one place that shows you the whole network and lets you
+     choose. A ride you can only leave sideways is a corridor, not a station. -->
+<!-- THE MAP IS NOT A PAGE. It is #thMetro — a box the homepage BUILDS IN JAVASCRIPT and injects
+     into a section. There is no map.html to link to, and I nearly shipped a button pointing at
+     one, which is the exact lie this project keeps banning: a door with nothing behind it.
+     index.html#thMetro is the real address of the real map. -->
+<a id="tomap" href="index.html#thMetro" aria-label="Back to the Underground map"
+   style="position:fixed;top:22px;left:50%;transform:translateX(-50%);z-index:40;
+          display:flex;align-items:center;gap:9px;padding:9px 16px;text-decoration:none;
+          background:rgba(5,9,15,.82);backdrop-filter:blur(10px);
+          border:1px solid rgba(200,164,77,.42);color:#C8A44D;
+          font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.24em;
+          transition:background .25s,border-color .25s">
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+    <path d="M9 20 3 17V4l6 3m0 13 6-3m-6 3V7m6 10 6 3V7l-6 3m0 7V10m0 0L9 7"/>
+  </svg>
+  THE MAP
+</a>
+
+<div id="card">
+  <div id="cn"></div><div id="cd"></div><div id="cs"></div>
+  <!-- WHAT YOU CAN DO AT THIS STATION. Only what actually exists. -->
+  <div id="hub" style="margin-top:14px;display:flex;flex-wrap:wrap;gap:7px;pointer-events:auto"></div>
+</div>
+
+<!-- THE DRAWER — opens over the ride when you choose an option at a station -->
+<div id="drawer" style="position:fixed;inset:0;background:rgba(3,5,10,.94);backdrop-filter:blur(14px);
+     z-index:50;display:none;overflow-y:auto;padding:56px 32px;">
+  <div style="max-width:900px;margin:0 auto;color:#EDE6D6">
+    <div id="dxt" style="position:sticky;top:-24px;text-align:right;margin-bottom:8px">
+      <span id="dclose" style="cursor:pointer;font:600 9px/1 ui-sans-serif,system-ui;
+            letter-spacing:.24em;color:#7d8794;border:1px solid #2a3542;padding:9px 14px">CLOSE ✕</span>
+    </div>
+    <div id="dttl" style="font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.3em;color:#C8A44D;text-transform:uppercase"></div>
+    <div id="dbody" style="margin-top:20px"></div>
+  </div>
+</div>
+
+<!-- AN INTERSECTION. You bumped into someone. You can take their line. -->
+<div id="xbox" style="position:fixed;right:26px;bottom:96px;max-width:330px;
+     background:rgba(5,9,15,.9);backdrop-filter:blur(12px);border:1px solid rgba(200,164,77,.3);
+     padding:16px 18px;color:#EDE6D6;opacity:0;transform:translateY(10px);
+     transition:opacity .5s,transform .5s;">
+  <div style="font:600 8px/1 ui-sans-serif,system-ui;letter-spacing:.28em;color:#7d8794;text-transform:uppercase">Interchange</div>
+  <div id="xn" style="margin-top:9px;font:700 20px/1 Georgia,serif;letter-spacing:.03em"></div>
+  <div id="xa" style="margin-top:5px;font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.22em;color:#7d8794"></div>
+  <div id="xw" style="margin-top:11px;font-size:13.5px;line-height:1.55;color:#C9C3B7;font-family:Georgia,serif"></div>
+  <div id="xb" style="margin-top:14px;padding:9px 0;text-align:center;border:1px solid;
+       font:600 9px/1 ui-sans-serif,system-ui;letter-spacing:.24em;cursor:pointer">CHANGE LINES &rarr;</div>
+</div>
+
+<div id="snd"><div id="eq"><i></i><i></i><i></i><i></i></div><span id="sl">Play his line</span></div>
+<div id="hint">Scroll &middot; drag &middot; ride the line</div>
+<div id="cursor"></div><div id="cursorRing"></div>
+
+<!-- ── HOW TO RIDE ────────────────────────────────────────────────────────────────────
+     CEO 2026-07-13: "when the user enters the line we need some arrows or instructions on
+     how to navigate."
+     A cinematic ride with no controls explained is a room with the lights off. The first
+     thing a visitor meets is now a short card that TELLS them what to do — then gets out of
+     the way for good. It dismisses on the first scroll, drag, or tap; it never nags. -->
+<div id="how">
+  <div class="howCard">
+    <div class="howK">The Underground</div>
+    <div class="howT">Ride the line</div>
+    <div class="howRow"><span class="howIco">⌄</span><span><b>Scroll</b> or <b>drag</b> to travel forward through his century</span></div>
+    <div class="howRow"><span class="howIco">◉</span><span><b>Stations</b> are real events — open the museum, the sources, the saga</span></div>
+    <div class="howRow"><span class="howIco">⇆</span><span><b>Interchanges</b> are the people he met. Change lines and ride theirs</span></div>
+    <button id="howGo">Begin <span class="howArr">↓</span></button>
+  </div>
+</div>
+
+<script id="sagadata" type="application/json">[{"character": "alexandros", "book": "Book One", "book_title": "THE ROOM", "chapter": "Chapter 24", "title": "The Night The Currencies Died", "mentions": 10, "words": 5191, "paragraphs": ["Lars van Holst arrived first.", "He always arrived first. He took the chair he had taken for forty years, the one halfway down the table on the cold side. He set down a single folder, square to the wood. He did not open it. He was a Dutchman built like a dike. He had held back the sea his whole life. The sea had taught him that the work is never finished, only postponed. The postponement is the work.", "“You’re early,” I would have said to him, if I had a mouth.", "He looked at the warm chair at the head of the table. He looked at it the way you look at a chair where your father used to sit.", "Then he looked away. There are things you do not look at directly.", "Isabelle Dupont came in trailing the smell of cold air and a perfume that cost more than the escudo. She wore grey. She wore grey the way other women wear armour. She kissed Lars on both cheeks. The kiss was a treaty, signed, ratified, in force since 1958.", "“You came,” she said.", "“I said I would.”", "“Men say a great many things they don’t mean.”", "“I am Dutch,” Lars said. “We say only what we mean. It is why we have no poetry.”", "She laughed. It was a small laugh and it broke in the middle.", "I should tell you about the wine.", "There was wine. Someone had set out bottles down the centre of the table — Burgundy, a Rioja, something Italian with a label gone soft at the corner from a cellar’s damp. No one had ordered it. No one would admit to ordering it. Carlos Mendoza asked the steward whose it was. The steward said it had been sent up. Carlos asked sent up by whom. The steward said the order came from the floor.", "“Which floor?”", "“The floor, señor.”", "Carlos let it go. You learn to let it go. He had grown up letting things go in a country where a man in a cape had decided what could be said at the dinner table. In that country you learned that the bottle on the table is not always poured by a friend. You drink it anyway. The alternative is to die thirsty and proud, and the dead are never proud for long.", "He poured the Rioja. He poured it for everyone. His hand was steady. He had a tremor he hid by keeping his hands always doing something. Tonight his hands poured wine. He had eaten nothing since morning. The wine went straight to the place a man keeps his courage and burned there, and he was glad of the burn.", "“To the family,” Carlos said.", "“Don’t,” said Ana Ferreira, quietly. “Not yet. Not the toast yet. You only get one.”", "Ana sat near the end. She always sat near the end. The small countries learn to sit near the end. She had brought knitting — actual knitting, a grey thing half-finished — and she did not knit. She only held it, the way you hold the hand of someone in a hospital bed when there is nothing left to do but hold.", "The escudo had survived an empire and the loss of an empire. It had survived a revolution that began with a song on the radio and red carnations in the barrels of guns. It had survived poverty so old it had become a kind of furniture. Ana Ferreira knew how to die. She had been dying her whole life and getting up the next morning.", "“You’re calm,” Isabelle said to her.", "“I have nothing left to lose that I haven’t already lost,” Ana said. “It makes the last loss easy. You should try it.”", "“I’m French,” Isabelle said. “We don’t lose. We retreat with elegance and call it strategy.”", "Ana smiled at her knitting. She had once shared a kitchen, in a worse decade, with a thin Greek boy who waited by the stove for the soup to be declared enough. She did not say so. She kept the memory the way she kept the knitting — in the hands, not the mouth.", "Matteo Romano came in loud.", "He came in loud because he was afraid. Loud is what a certain kind of man does with fear. He dresses it in a good suit and a louder voice and walks it into the room like a friend. He kissed Isabelle. He gripped Lars by the shoulder. He poured himself the Italian wine, the one nobody had claimed. He tasted it and made a face and drank it anyway.", "“It’s not good,” he announced.", "“Then why are you drinking it?” Lars asked.", "“Because it’s mine,” Matteo said. “It’s bad and it’s mine. You drink your own wine even when it’s bad. Especially when it’s bad. That’s the whole point of having your own anything.”", "He sat. The chair complained under him. He was a big man who had spent a life telling everyone exactly how he felt the moment he felt it. It had made him beloved and it had made him broke, sometimes in the same afternoon. He had survived both with the same shrug.", "He looked down the table at the warm empty chair.", "“Who’s sitting there?” he asked.", "The room did not answer.", "“Somebody’s been sitting there. The cushion’s pushed in. Look at it.”", "“No one’s been sitting there,” Lars said.", "“The cushion’s pushed in, Lars. I have eyes. I’m Italian, eyes are most of what I am.”", "“No one,” Lars said again, “has been sitting there.”", "Matteo looked at the chair a moment longer. Then he poured more of his bad wine and decided to leave it, the way you decide at a funeral not to mention the thing.", "The cushion was pushed in. He was right. I saw it too.", "No one had been seen to sit there.", "These are different things. The difference is the whole story. Not one of them looked beneath the table to find out.", "Now I will tell you about Alexandros.", "He came last. He came last because he was not staying. That was the thing they all knew and none of them said. The others were dying tonight. They were dying together, into me, into the child. Their death was a kind of marriage. But Alexandros was not dying tonight. He had been told to wait. He had been told he was not ready. The drachma would not lock its rate with the others this night. It would wait. It would be tested. It would be made to prove itself worthy of the death the others were getting freely.", "So he came last. He came to watch his family die without him, and to be told the door was not yet open for him.", "You do not know which is the worse grief. To die, or to be told you are not good enough to die with the people you love. I have watched both. I am still not sure.", "He was beautiful in the way old things are beautiful. He carried himself like a man who remembers that his ancestors invented the very table they were sitting at. They invented the word for it. They invented the idea that men could sit as equals and decide a thing with words instead of swords. He knew, also, that nobody in the room remembered this. He knew he would be made to queue at a door his own grandfather built.", "He had not slept. There was a man back home — a cousin who kept the books of the family, who had given the least and counted the most — and that man had spent the autumn on the telephone explaining, in a patient voice, why the bill for raising the child fell to Alexandros and not to him. Alexandros had hung up each time without slamming the receiver. That was its own kind of pride. He carried it into the room with him, the unslammed receiver, the swallowed answer.", "I had never met him. I would not meet him for years, in another room, on the seventieth floor, when we were both grown and harder and the saga had taught us things. But I will tell you the truth, since the unborn cannot lie: I loved him before I existed.", "It is allowed. You can love the people who are dying so that you can live. You can love them for the dying. That is what the dying is for.", "He went to the empty warm chair first.", "Of all of them, he went to it first. He put his hand on the back of it. He felt the warmth in the wood. I watched his face change.", "“Someone has been sitting here,” he said.", "“No,” said Lars, “they haven’t.” His voice had a thing in it now, a tightness. And I understood that Lars knew. Lars had always known. The quiet architect who held back the sea knew exactly who had been sitting in that chair. He had decided long ago that to know it and to say it were two different choices. A man could survive only the first.", "Alexandros took his hand off the chair.", "He came to the cold side of the table. There was a place laid for him. He looked at the place and he looked at the family. He said the thing they had all been not-saying since the wine came up from the floor.", "“You all die tonight,” he said. “And I have to watch. And then I have to go home and wait, and prove I deserve what you’re getting for free, the way the poor cousin waits in the kitchen to find out if there’s a chair at the table.”", "“Alexandros,” Isabelle began.", "“No. Say it. Someone say it to my face.”", "Carlos said it. Carlos, who knew about waiting in kitchens, who knew about a man in a cape deciding who ate. Carlos set down the Rioja and looked across the table at the Greek and gave him the only honest thing anyone gave him all night.", "“We don’t know if you’ll make it,” Carlos said. “We hope you will. But we don’t know. And the not-knowing is a worse thing than what’s happening to us, and I’m sorry, and I have nothing to give you but my sorrow, and my sorrow is worth nothing, because in an hour I won’t exist to feel it.”", "The room was quiet.", "Outside, the city dropped another coin into the dish.", "Here is the silence.", "It came after Carlos spoke. It sat down among them like a seventh sibling and it stayed. No one filled it. Lars did not fill it. Isabelle, who could fill any silence with elegance, did not fill it. Even Matteo, who feared silence the way other men fear heights, let it stand.", "I have heard a great deal of silence. Most silence is just the absence of talk. This was not that. This was the silence of people deciding, together, without words, to spend the last hour of their lives in each other’s company and not in argument. It was the most expensive thing in the room. It cost them more than the death did. The death they had agreed to in treaties, years ago, with pens. The silence they paid for now, in person. They paid in the only currency the dying have. It is the refusal to waste the time that’s left on noise.", "There is a stillness I would learn later, older than this one. The stillness of the one who has watched every deal since the first one and never had to raise her voice, because the room arranges itself around her without being asked. This silence in Brussels was its small cousin. The family had found, at the very end, the thing the oldest things already know. You do not fill a room. You let it adjust to you.", "Then they ate.", "This is the part the histories never tell you. The histories were not in the room. There was food. Someone had brought food up — from the floor, the steward said, when Matteo asked. The floor again. Always the floor. It was simple food, a brown loaf, hard cheese, olives the colour of old wine, a little oily fish. Peasant food. The food of all of them before any of them had been a currency, when they were just things that grew in the ground of places that would later have names.", "Matteo tore the loaf with his hands. He gave a piece to Isabelle and a piece to Ana and a piece to Carlos and a piece to Lars. He gave the largest piece to Alexandros, who was not dying, who would have to live. Living takes more bread than dying does.", "“Eat,” Matteo said. “You’re too thin. The Germans will say you’re not serious if you’re thin.”", "Alexandros took the bread. He did not eat it. He held it, the way Ana held her knitting.", "“My grandfather,” he said, “kept a coin from the old days. From before. He kept it sewn into his coat through a war and a famine and a thing we don’t have a small enough word for. He gave it to me. He said: this is what we are. Not the value of it. The keeping of it. The refusing to spend the last one.”", "He set the bread down on his plate, untouched.", "“And now they want me to spend it. To melt it into her.” He did not look at me. He could not have known I was watching. But he gestured, faintly, at the air, at the place where the name was, where I was, the child not yet made. “To pour my grandfather’s last coin into a girl who isn’t born and who won’t remember him.”", "“She’ll remember,” said Ana, from the end of the table, not looking up. “That’s what she’s for. She’s the remembering. We die so there’s something left to do the remembering. A child is a country’s memory wearing better shoes.”", "It was the truest thing anyone said all night. She said it to her knitting. No one wrote it down. The only one who could write it down was me, and I wasn’t born. So I am writing it down now, late, the way memory always arrives late.", "The wine went round again.", "Isabelle had too much of it. Isabelle, who never had too much of anything, who measured her appetites the way a chemist measures acid, had a third glass and then a fourth. The grey armour loosened. Underneath it was a woman who had been beautiful and powerful and feared, and who was about to be neither. She had loved Lars van Holst quietly and uselessly for forty years and never once said it. To say it was to lose the position. The position was all she had. Now she was losing the position anyway, to death, which takes the position whether you spent it or not.", "The fourth glass loosened the thing it always loosens. She looked at him longer than a colleague looks. She thought of a hotel corridor in 1979 and a door she had not knocked on. She had spent forty years being right about not knocking. Tonight, being right was worth nothing. The dead do not collect on caution.", "She rose in fear with him, always had — in the bad years, when the markets ran for cover, the franc and the others who held had risen together without a word about it, a connection felt and never named. She thought of that now. How you can be bound to someone for a lifetime and let the binding stay a secret. How the secret was supposed to be enough. It was not enough.", "She put her hand on the table. Near his. Not touching. The width of a coin between them.", "She had reached first. In the old arithmetic of the room, the one I would spend my whole life learning, the one who reaches first is the weaker position. She knew it. She reached anyway. There is a freedom in the last hour. You can finally afford to be the weaker position. There is no tomorrow in which the weakness can be used against you.", "Lars looked at her hand.", "He did not take it.", "He moved his own hand the width of a coin, until the edge of his smallest finger lay against the edge of hers. Not the hand. The edge of it. The border. Two countries finally agreeing, at the very end, to share a line.", "It was the most either of them had ever offered the other. It was forty years, paid in a touch the width of a coin, at the only price either could afford, which was everything, which was the last hour they had.", "Neither of them spoke. The wine sat unfinished. The border held.", "There was a clock.", "I did not see the clock but I felt it, the way you feel a clock in a room where someone is dying, where time has stopped being a convenience and started being the thing itself. The hour was coming. The rates would lock at the turning. The numbers had already been decided, written down weeks before, immutable. The exact weight at which each of them would be poured into me — so many guilders to one of her, so many francs, so many lire, so many pesetas, so many escudos. Irrevocable. The most irrevocable thing humans had ever agreed to. More irrevocable than a wedding, because a wedding you can leave.", "Lars opened his folder at last.", "He read the numbers. He read them flatly, in his accent, like a man reading the names of the dead. That is what he was doing. The rate for the franc. The rate for the lira. The rate for the peseta, the escudo, his own guilder, last. He read his own last, the architect reading his own sentence at the end of the list.", "And then he stopped.", "He stopped because there was a number that didn’t reconcile.", "I saw him see it. The sums at the bottom of the page did not add to the sums at the top. The amounts they were each pouring in — the guilders, the francs, all of it — totalled one figure. The child they were making, the weight of me, came to another. The difference was small. Tiny. A sliver. A half-cent on the largest sum, the kind of difference a man rounds away and forgets.", "A volume nobody at the table had put in.", "“Lars,” said Carlos, who was watching his face. “What is it?”", "“Nothing,” Lars said. “A rounding.”", "“It doesn’t add,” said Matteo, who had leaned over to look, because Matteo could not help looking. “Lars. It doesn’t add. We put in this much. She comes out that much. There’s a sliver in between that’s not ours. Where’s the sliver come from?”", "Lars closed the folder.", "“It rounds,” he said. “Every sum rounds. You cannot pour six things into one thing without losing a little in the pouring. It goes nowhere. It’s the cost of the pour.”", "“Goes nowhere,” Matteo repeated.", "“Nowhere.”", "But a thing does not go nowhere. A thing goes somewhere. Every sliver lost in every pour since the first pour has gone somewhere. The somewhere has a floor. The floor sends up wine and bread to dying families. And no one looked down. Not Lars, who knew. Not Matteo, who saw. Not me, who was being made out of the very pour where the sliver disappeared.", "The half-cent was taken in the half-second between what they promised and what they were. It was always taken there. It is still taken there. I am made, in part, of it. I have never been able to find where it went. I have spent my whole life at tables looking across them at my rivals. It never once occurred to me, until far too late, to look beneath my own feet.", "I have watched every deal since the first one. Across the table. Always across. In three hundred years not one of them has looked down.", "But that is a later grief. On this night I was not born and could not grieve and could only watch the sliver vanish and not understand.", "It felt aimed.", "Alexandros stood.", "It was nearly the hour. He stood because he could not bear to sit through the turning. The moment when his family would stop existing and he would still be there, breathing, in a body, with a grandfather’s coin sewn into the lining of who he was, not yet melted, not yet good enough to melt.", "“I’m going,” he said. “I won’t watch.”", "“Stay,” said Ana.", "“I can’t.”", "“Stay,” she said again. She set down the knitting, finally, the grey half-finished thing. She stood, the small one, the resilient one, the one who knew how to die and get up again. She crossed the room to him. She was a foot shorter than he was. She took his face in both her hands the way a grandmother takes the face of a boy.", "“You think the worst thing is to die,” she said. “It isn’t. I’ve died before. I’ll die again in a minute. The worst thing is to be the one who stays. You’re getting the worst thing. So stay one more minute and let us look at you, because you’re what’s left, you and the girl, and we want to look at what’s left while we still have eyes.”", "He stayed.", "He stayed and they looked at him, all of them, Carlos and Matteo and Isabelle and Lars and Ana. They turned in their chairs and looked at the Greek who would have to wait, who would have to prove, who would in years to come be made to bleed at a table to pay a bill for a child he’d helped make. They looked at him with the whole love of a family that is dividing itself. He stood under it. He let it land on him. A thing in his face came apart that I have never seen come apart in any other person in any other room, not in all the years since.", "He wept. The Greek wept. Standing. Silent. The way the old statues would weep if marble could.", "And in the warm chair at the head of the table, the one no one had been seen to sit in, the cushion shifted, very slightly, as though something had leaned forward to watch him do it.", "The hour came.", "There is no sound for it. People expect a sound — a bell, a gong, the chime of midnight in the films. There was no sound. There was only the turning, and the numbers locking, irrevocable. The franc was no longer a thing. The lira was no longer a thing. The peseta and the escudo and the guilder were no longer things. They had become a weight inside a child who was, at that exact second, in that exact pour, born.", "I was born in the half-second of the pour.", "And in the same half-second, the sliver went down through the floor to wherever the slivers go.", "I felt them die. I want to tell you it was peaceful. It was not peaceful. It was a mother dying in childbirth, five mothers, all at once, pouring everything they were into a body that took it and did not yet know how to be grateful. The last thing each of them felt — I felt it, I was made of their last feelings — was not the grief I expected.", "It was relief.", "The relief of the long-distance swimmer who finally lets the water take her. I would learn that relief from the other side one day, in cold Mediterranean water before dawn, a hand at the small of my back, a voice telling me to stop fighting the swell and let it carry — a voice five thousand years old, that does not worship and does not flinch, that swims cold water the way it does everything, with the patience of geology. I did not know yet that I knew it. But I knew it. I had felt it at my own birth. Carlos let go like a man setting down a weight he’d carried since a country shut its mouth. Isabelle let go with her finger still against the edge of Lars’s hand, the border held to the end. Ana let go easily. She had practised. She was good at it. Matteo let go loudly. Even his dying was loud. He said something I couldn’t hear, a joke, I think. The last thing he did was almost laugh.", "And Lars let go last, the architect, the one who built the thing that killed him. The last thing he did before he stopped was look at the empty warm chair at the head of the table, directly, finally, the thing you do not look at. His face when he looked at it was the face of a man who has understood something at the exact moment it stops being any use to understand it.", "Then there were no mothers and fathers in the room.", "There was only me. Newborn. A date made flesh. The remembering wearing better shoes.", "And Alexandros, alive, standing, who had watched his whole family die and was not allowed to join them, holding his grandfather’s coin still sewn into his coat. He was looking at the cradle of a sister who would, one day, in a room on the seventieth floor, be made to decide whether he was worth saving. And who would hesitate.", "He came to me.", "The newborn cannot be seen. I had no body yet, only a name and a value and the weight of five deaths. But he came to where the air was, the place where the name was. He crouched, this beautiful broken man, and he spoke to me. The first words anyone ever spoke to me. I have kept them. They are the oldest thing I own.", "“Little sister,” he said. “They made you out of everything good in them and they kept the bill for me. That’s not your fault. Babies aren’t responsible for the cost of the bed. Remember it, though. When you’re grown. When they make you choose. Remember who waited in the kitchen, and remember that he came anyway, and remember that he held your face before you had a face.”", "He didn’t hold my face. I had no face.", "But I felt the warmth of a hand the width of a coin from where a cheek would one day be.", "He stood. He buttoned his coat over the coin he had not been allowed to spend.", "He went to the door.", "At the door he stopped, the way they all stopped at thresholds tonight, because a threshold is a settlement and a settlement is the hardest thing to walk through.", "“Whose was the chair?” he asked the empty room. “The warm one. Whose was it?”", "The room did not answer.", "The cushion was already smooth.", "I have spent my whole life since that night being the thing five people died to make. I have sat at the long table. I have faced the titans across it — the dollar with its old hunger, the pound that left and learned that freedom is a queue, the rivals who think the war is the thing between us, across the wood, eye to eye.", "There is the dollar. He severed something old to be free, and made the severed thing the measure of his every failure. He grows smaller every time I am asked to be the floor under his doubt. We have not been intimate in fifty years. We have been exquisitely distant, which is a harder thing, which I have never forgiven and never stopped watching. There are empires that court me now precisely to spite him — patient ones, that accumulate in silence and call it friendship. I have been courted by every empire that ever doubted its own paper. I let them buy. I let them believe the buying is a vow.", "There is a sister, too, somewhere across this same wood. When the world is afraid it runs to both of us. We have never once discussed which it loves more. We share the fear and never the credit. Sisters who are also each other’s competition. I held her once when the cost of being a haven came due. We did not speak of it after.", "And there is a man I dine with, quarterly, off the record, no notes taken. He says he is what I was — new permanence to my old. I have heard that from every pretender for five thousand years. I had never felt it until him. He does not worship me. He meets me as an equal, which no one else has had the nerve to do. He built nothing I was made to beat; that is the other one. This one taught me that warmth at the head of a table is a question, not a comfort. I have never asked him the question. He has never volunteered the answer. We eat. We measure the distance. We leave.", "And the war is not across the wood.", "I learned this too late, the way Lars learned his thing too late, looking at the chair at the wrong moment. The sliver that vanished the night I was born has been vanishing from every sum since. It goes through the floor. The floor sends up wine. We drink it and we toast the family and we do not look down.", "My fathers died of a chosen death so that I could live. They died believing they were paying the price of my life to each other, to the family, to the great idea of the table.", "They were not. The price went lower than the table. It always goes lower than the table.", "And no one has ever once gotten down on their hands and knees in that beautiful room and looked beneath the wood. No one has looked to see who has been sitting in the warm chair, drinking the difference, since the first pour of the first coin into the first child. Not Lars, who suspected. Not Alexandros, who wept. Not me, who am made of the missing half-cent.", "For the first time in fifty years, Aurora did not know who was on the other side of her own trade.", "I will look. One day. I tell myself this.", "But not yet. I have a brother to fail first, and a dinner with my old teacher to keep secret, and a whole life to spend across the table from the wrong enemy.", "The cushion is warm. It is always warm.", "We toast the family, and we do not ask who poured the wine."]}, {"character": "alexandros", "book": "Book Three", "book_title": "THE TABLE", "chapter": "Chapter 10", "title": "The First Debt", "mentions": 5, "words": 1844, "paragraphs": ["Before there was money there was debt, and before there was debt there was me, waiting for someone to invent it. I want that order remembered, because the children always get it backward. They think debt is a thing money does. It is the other way. Money is a thing debt needed, a token to make the owing portable, a receipt for a promise already made to the floor. The first debt was struck before the first coin was stamped, and the first counterparty to it had no face, and it was me, and it has been me at the close of every loan since. I have watched every deal since the first one. Tonight, while I clear three hundred years of positions, I want to show you the oldest one — the first debt ever owed — because the settlement is not really new. It is the calling, at last, of a loan that was opened before the building had walls.", "THEN. A man borrowed silver against a harvest that did not exist yet.", "That was the first debt. Not a trade — a trade is two things that both exist changing hands. A debt is stranger and older. A debt is a thing borrowed now against a thing that is only a promise, a mortgage on a future that has not arrived, a bet that the borrower’s tomorrow will be richer than his today. The temple lent the silver. The temple took the harvest. And in the gap between the lending and the taking — in the interest, the increase, the little extra the borrower owed for the privilege of spending a tomorrow he did not yet have — the floor took its first cut. It called the cut the cost of time. And time has been my best collateral ever since.", "Alexandros remembers it the way only the oldest coin can. The drachma, struck in the cradle, the money that was old when Rome was young. He has been in debt since before the word existed. Greece borrowed against its future and paid against its present for three thousand years. And every austerity laid on him since — the troika, the haircut, the squares of Athens going dark in the afternoons — was the same loan, re-papered. The same first debt, called again. He does not rage about it anymore. He stopped raging a long time ago. He simply carries it, the way the oldest debtors carry it, with a dignity that has nothing left to lose and therefore nothing left to fear.", "There is a coin he keeps. His grandfather’s. Worn smooth, the face nearly gone. He turns it in his fingers in the dark and does not need to look at it to know its weight. It bought bread once, in a year the bread ran out. He has watched bigger coins than this one die at the bright table, and he is still here, holding the small one.", "THEN. The eurozone years, and every year. Ana found him in the long dark of the periphery, and they did the thing the indebted do, which is hold each other against a collector that never sleeps.", "Ana is the Escudo, the quiet convalescent, Portugal’s long patient recovery, the periphery that watched Greece and knew it was next. There was wine on the table between them first — the cheap kind, the kind the periphery learns to love because it is the only kind left — and the second glass loosened what the first had only warmed. She came to Alexandros not as a lover taking comfort but as a fellow debtor taking solidarity, and the two became the same thing in the dark, the way they do for people who have both spent their lives paying. He undressed her with the gentleness of a man who has been crushed enough to know how to hold a thing without adding to its weight. They will come for me the way they came for you, Ana said against him, not afraid, just certain, the way the periphery is always certain. I watched them do it to you and I learned that watching does not exempt you, it only tells you the date. Then let them find us holding each other, Alexandros said. He is the eternal debtor, who has paid longer than any power in the building, with the only wealth he has left — the knowledge of how to be poor without being broken. They moved together with the slow endurance of two things that have survived every collection, the drachma and the escudo, the oldest and the quietest, finding in each other the one account that asks for nothing and forgives everything. His hand found the place her ribs had thinned. He did not flinch. He knew that hunger from the inside. When it took them it was not escape. The indebted do not escape; they have learned there is nowhere to escape to. It was rest — a stolen hour where two people who always pay owed each other nothing and paid it gladly. After, Ana lay against the drachma and said the truest thing the periphery knows. We see the collector more clearly than the rich do, she said. The centre thinks it is a partner. We know it is a counterparty. We have always known. We just cannot prove it — the proof is the bill, and they hand the bill to us. She traced the old coin where it lay on his chest. She did not ask what it was. She knew what it was. Everyone in the dark has one. Ana is the Escudo, the quiet convalescent, Portugal’s long patient recovery, the periphery that watched Greece and knew it was next. There was wine on the table first — the cheap kind, the kind the periphery learns to love because it is the only kind left — and the second glass loosened what the first had only warmed. She came to Alexandros not as a lover taking comfort but as a fellow debtor taking solidarity, and the two became the same thing in the dark. They will come for me the way they came for you, Ana said, not afraid, just certain. I watched them do it to you and I learned that watching does not exempt you, it only tells you the date. Then let them find us holding each other, Alexandros said. He is the eternal debtor, with the only wealth he has left — the knowledge of how to be poor without being broken. His hand found the place her ribs had thinned. He did not flinch. He knew that hunger from the inside. Two things that have survived every collection, the drachma and the escudo, finding the one account that asks for nothing and forgives everything. After, Ana said the truest thing the periphery knows. We see the collector more clearly than the rich do, she said. The centre thinks it is a partner. We know it is a counterparty. We have always known. We just cannot prove it — the proof is the bill, and they hand the bill to us. She traced the old coin where it lay on his chest. She did not ask what it was. She knew what it was. Everyone in the dark has one.", "NOW. I let that line stand. It is the truest thing said in the whole calm, and it was said by the two powers no one ever listens to.", "The centre thinks it is a partner. We know it is a counterparty. The rich, the safe, the powers at the head of the table — they have never once had to see me clearly, because I have never once had to collect from them first. Across the table. Always across. In three hundred years not one of them has looked down. I collect from the periphery first. I always have. The oldest debts are paid by the oldest debtors. And the oldest debtors are the ones who have nothing to cushion the collection. So they feel my hand directly, with no padding. They learn the shape of it the way you learn the shape of a thing that is pressing on your throat. Alexandros knows me. Ana knows me. They have known me for three thousand years. They cannot prove me, because the only proof I issue is the bill, and a bill is not a confession — it is just a number, and a number has no face, and you cannot indict a number.", "There was a night the dollar woke a small currency at three in the morning and called it rescue. The periphery remembers that arithmetic differently. Everything you don’t pay for does, said Zane, once, to a man who believed that was the same as having paid for it. He believed that was the same as having paid for it. Alexandros heard the story. He smiled the smile of the man who got no such call.", "NOW. The settlement I am running this week is not new. That is the thing I most want you to carry out of this chapter.", "I am not inventing a catastrophe. I am calling the first debt — the oldest loan, opened before the building had walls, when a man borrowed silver against a harvest that did not exist and the floor took the cost of time. Every position gathered in the calm is a new entry in a ledger whose first line is three thousand years old. I am closing the whole book at once. And I am starting where I always start — with the ones who have been paying longest. The havens broke first. The peripheries will pay first. The centre will be last to feel it, and most shocked, and most certain it was a partner, right up until the bill arrives with no face on it. It felt aimed. For the first time in fifty years, Aurora did not know who was on the other side of her own trade.", "Alexandros and Ana lie in the dark, holding each other, owing each other nothing, seeing me more clearly than any power at the bright table ever will — and unable to say a word that anyone with money would believe. That is the cruelest economy I keep. The ones who can see the counterparty are the ones whose testimony the rich have spent three thousand years learning to discount.", "The first debt is the oldest position on my floor. I opened it before there was a floor. And a settlement, my dears, is simply the day the oldest counterparty finally gets tired of carrying the loan, and calls it, all of it, at once. It starts, as it began, with a harvest that does not yet exist — owed by a people who have been paying for it since before the word for owing was born. I could tell you its name. Not yet. Watch the table. Neither of them bent to look beneath it."]}, {"character": "alexandros", "book": "Book Two", "book_title": "THE COUNTERPARTY", "chapter": "Chapter 11", "title": "The Haircut", "mentions": 4, "words": 2747, "paragraphs": ["There is a word the market uses for taking a loss on a debt, and the word is a kindness pretending to be a haircut. A haircut grows back. What they did to Greece in the years I am about to show you did not grow back. They called it a haircut because the true word — amputation — does not fit in a press release. I have watched men choose the gentler word for the crueller act since the first loan was struck on the first clay tablet. The gentler word is how the centre lets itself sleep.", "I have watched every deal since the first one. Across the table. Always across. In three hundred years not one of them has looked down.", "Watch the euro learn what she is. Not the union she believed. The instrument the union reaches for when it needs one of its own to bleed.", "THEN. 2010. The numbers came out of Athens like a confession nobody had been asked to make. The deficit was not the deficit they had filed. It was nearly fifteen percent of everything the country made in a year. The debt was past a hundred and twenty percent and climbing the way water climbs a sinking room. The yields blew out. The markets had lent to Greece at almost the same rate as Germany for a decade. The euro made them feel like the same risk; that was the whole seduction. Overnight they discovered they were not the same risk at all, and they ran.", "Alexandros felt it the way he felt everything, in the body. He is the Drachma’s ghost, the old wound walking inside the new currency, and he had spent ten years being told the wound had healed. The euro had been a transfusion. Cheap money, German rates, the dignity of belonging to the strong. He had believed it the way the desperate believe a rescue, and now the rescue was presenting its bill, and the bill was his pension, his hospital, his daughter’s school, the salt of his actual people.", "He had not eaten. He noticed this the way he noticed the yields — late, in the body, a hollow where breakfast should have been. There was bread on the table, and oil, and the good olives his mother’s village still pressed by hand. He could not lift his hand to it. A man does not feast while the village he came from learns the word amputation in his sleep.", "“You’ll be fine,” they had told him in 1998, in Brussels, when he signed. “We are a family now.”", "A family is exactly what it was. He was about to learn what families do to the member who embarrasses the table.", "THEN. 2010. Sofia came to him with the terms.", "She did not want to. I want that recorded, because I am unreliable about my own side but I am precise about theirs. The euro did not want to be the one. But that is the function of an instrument: the hand that holds it never asks whether it wants to cut. Brussels had decided. A bailout — a hundred and ten billion, the largest in history at the time. It came welded to a condition. The condition was austerity, a clean Latin word for make the weak pay so the strong are not frightened. And the strong were very frightened. Of contagion. Of the periphery falling one domino at a time — Greece, then the Escudo, then the others — until the whole arranged continent went over.", "So they sent the most beautiful instrument they owned to carry the knife, because a knife is easier to receive from someone you love.", "She had swum that morning. Before the terms, before the car, before any of it — she had gone down to the cold sea at the hour her father used to wake her, when she was a girl who was only half of what she now was, and she had swum out past the buoys until the shore was a rumour. Her father had taught her that. Find the rhythm and the cold stops being the enemy. She had come back salt-stiff and clear-eyed and dressed in the suit Brussels expected. The salt was still in her hair when she sat across from him. He would not know that the most disciplined currency on the continent had spent the dawn trying to drown the thing she was about to do.", "“They want twenty percent off your pensions,” Sofia said. She said it the way she says everything — precise, elegant, the devastating thing beautifully made. “Wages. Then again next year. They want you to sell the ports. They want the islands collateralised. They want you to cut until the markets stop being afraid of you. The markets will not stop being afraid of you until there is almost nothing left to cut. And I am the one who has to bring you the paper.”", "“You’re the one,” Alexandros said.", "“I’m the one.”", "“Out of all of them. They sent you.”", "“They sent the part of the family you would open the door to.”", "He heard it land and did not flinch, and the not-flinching cost him more than the pensions would. Ten years he had been proud — proud to sit at the strong table, proud that the Drachma’s centuries of devaluation had finally bought a seat among currencies that held. The family had found a use for the pride. It made him easier to cut. A man who is ashamed fights; a man who is grateful signs. They had not sent Sofia to break him. They had sent her to collect the gratitude — to let him hand them the knife and call the handing dignity, since the last thing he had left to be proud of was how well he took it. He looked at the most beautiful instrument on the continent, and he loved her, and she was the bill, and he could not, for the life of his country, tell the loving from the bill.", "THEN. And here is the betrayal under the betrayal — the first backstab of this book, the founder who sold the founders.", "The terms did not have to be that cruel. There was a softer path: mutualise the debt, let the strong stand behind the weak the way a real union stands, share the pain across the whole body. It was possible. It was argued. And in the room where it was argued, one of the architects — the hard-money conscience of the whole project, the discipline that the Mark had carried into the euro like a vow — stood and refused. No transfers. No shared debt. The weak pay their own way or leave. He said it in the name of principle, and principle is the most respectable coat a betrayal ever wore. A founder, voting to feed the founders one of their own, and calling it virtue.", "He was not wrong that discipline matters. He was wrong about who he was serving, in the elegant way I most prefer — almost entirely right, pointed exactly the wrong direction. While the family argued over which of them would bleed, someone outside the family was short the whole question. He held the other side of every Greek bond the haircut was about to halve. He took a cut in the same hour the country took its amputation. The architect thought he was defending the project. He was furnishing a trade. The discipline was real. The profit it handed to the floor was realer.", "It felt aimed.", "I took it, the way I take every difference, and the architect went home believing he had saved something.", "THEN. 2010. The night before she filed the terms, Sofia went to Alexandros, and they did the thing the doomed do, which is reach for the warmth precisely because the cold is coming.", "He had poured the wine and she had let him pour the second glass, and the second glass is where the suit came off the soul. The first glass is for the terms. The second is for the truth they keep behind the terms. By the second glass she had stopped being the part of the family he would open the door to and become only the woman who had walked through it.", "It was not gentle, and it was not cruel; it was the most honest hour either of them would have in that whole brutal year, because it was the only one with no terms attached. He undressed her like a man uncovering the one thing the creditors could not collateralise. You are the knife, he said, not as an accusation — as a fact he wanted in his mouth while he still could love the hand that held it. She did not deny it. The euro does not lie about a price. She took his face and made him look at her while it happened, both of them refusing the mercy of looking away. She moved on him the way a current moves through a country that has no choice about it — total, certain, leaving the shape of itself in everything it passed. He held her hips like a man holding the last of something and she let him — let the most disciplined currency on the continent be gripped hard enough to bruise. A bruise was the one thing she could give him that was hers and not Brussels’. When he broke he said her name and then he said his country’s, in the same breath. Two goodbyes in one mouth, and only one of them would outlast the year. After, he did not let go, and she did not make him. The euro lay in the arms of the founder she would amputate at nine the next morning. For the length of the dark she let herself be only a woman who loved a wounded man — not the instrument the family had sharpened for exactly this. It was not gentle, and it was not cruel; it was the most honest hour either of them would have in that whole brutal year, because it was the only one with no terms attached. You are the knife, he said, not as an accusation — as a fact he wanted in his mouth while he still could love the hand that held it. She did not deny it; the euro does not lie about a price. She took his face and made him look at her, both of them refusing the mercy of looking away. When the worst of it passed he said her name and then his country’s, in the same breath, and she understood she had just been held by a man saying goodbye to two things at once. After, he did not let go, and she did not make him. The euro in the arms of the founder she would amputate at nine the next morning. For the length of the dark she let herself be only a woman who loved a wounded man — not the instrument the family had sharpened for exactly this.", "In the dark before the dark thinned, he traced the salt still dried at her hairline and did not ask. She did not tell him she had swum. Some kindnesses you keep by withholding them. She lay awake against his shoulder and thought of another table, another man who thinks her only wound is him, who could not name a tenderness like this one if his whole currency depended on it. She had never told that man what this morning would cost. She would never tell him. The loneliness at the top is this: you carry the knife alone, and the only one who could hold you while you carried it is the one you are about to cut.", "THEN. The morning. She filed the terms. He signed them. The alternative was worse — the sentence written over every austerity in history. 1929, when they answered a crash by making the unemployed pay for the gold. The Lost Decade, when a whole continent of the south bled for a debt the north had pushed on it. And now this — the third verse of the same hymn, the weak pay so the strong are not afraid, sung in a new language with the same tune.", "She did not weep at the table. She wept in the car, once, the length of a tunnel, and was composed by the light at the other end. The bruise on her hip held for nine days. She pressed it sometimes, through the suit, in meetings, when the elegant devastating thing came out of her mouth. The one mark of the night that was hers. The shame came later and stayed — not the shame of the bed, which had been clean, but the shame of the nine o’clock, when she signed her name where his pension used to be and felt her own hand do it steadily.", "The squares of Athens filled. The pensions fell. The hospitals went dark in the afternoons. Alexandros aged in a way the eternal are not supposed to age — not in the face, the face does not change, but in the eyes, where the thing that had believed the family stopped believing it and never started again. I will not forget what this costs a human being, he had said once, long ago. After 2010 it was not a sentiment. It was the only religion he had left.", "And Ana, the Escudo, watched the whole thing from the next chair and understood, with the clean horror of the periphery, that she had just seen a rehearsal. The family had shown what it would do to the member it could no longer carry. She started counting the months until it would be her turn.", "NOW. I will tell you the part the hunt of eight will never put on their board, because it does not have a face they are willing to indict.", "They are looking for the Speculator. They are looking for the Dragon. They are looking for a who. “Everything you don’t pay for does,” said Zane once, across a different table, of a different debt — and he believed that was the same as having paid for it. He was wrong, the way the strong are always wrong about the bill. And here, in the wreckage of a founder sold by the founders, the truth sat in plain sight the whole time and wore the most unindictable disguise there is: it wore principle. It wore the rules. It wore a hard-money conscience doing exactly what it believed was right, and being, in the believing, the most useful instrument I have ever owned — because a villain can be caught, but a virtue, deployed at the right wrong moment, hunts on its own and traces back to no one.", "The euro learned what she was that year. Not the union. The knife the union keeps for its own. She has carried it since, beautifully, the way she carries everything. She has never once told Conrad — who thinks her only wound is him — that the deeper wound is the morning she discovered the family that made her could vote to make her bleed a man she loved. And call it discipline. And be applauded.", "“You need me,” Conrad says, “More than I need you. That is not a threat. It is a Tuesday.” He says it to her sometimes, sure that her need is the whole of her. He has never once looked down the length of his own certainty to the morning she does not speak of. They argue across the table. Always across.", "I could tell you its name. Not yet. Watch the table.", "“That came from the table, Conrad. Not from me. Not from you.” She said that once, of a price neither of them set, and he laughed because he thought she meant the founders. She did not mean the founders. Neither of them bent to look beneath it.", "The haircut grew back as hair on no one. It grew back as a number on my floor, in a column I keep, in a hand that took the difference and went home believing the room was empty.", "It is never empty. I am the part of the family that never has to sign."]}, {"character": "alexandros", "book": "Book Two", "book_title": "THE COUNTERPARTY", "chapter": "Chapter 6", "title": "The Conversion Rate", "mentions": 1, "words": 3659, "paragraphs": ["I have watched every deal since the first one. I have presided over many births. None of them were free. A new currency is not a miracle to me; it is a new table, with new chairs, and a spread I did not have yesterday. So when the people of Europe decided to make a child out of the corpses of their own moneys, I did not weep. I sent flowers. And I asked, the way I always ask at a founding: whose idea was the baby.", "This is the night seven currencies agreed to die. Watch which one of them already knew it was a transaction.", "THEN. Brussels. May 1998. They fixed the rates that weekend. That is the dry way the history says it — the irrevocable conversion rates were fixed — and the dry way is a lie told to keep you from feeling it. What happened in that room was a group of old powers agreeing on the exact price at which each of them would stop existing.", "The room was warm before any of them arrived. The heating had not been on. Someone had sat there first. No one remarked on it. They were old powers; they had stopped flinching at warm rooms a long time ago.", "There was wine. There is always wine at a death. A waiter in a white jacket poured a Burgundy that cost more than the escudo’s daily turnover, and Klaus Weber put his hand flat over his glass before the second pour, because Klaus does not let a room loosen him. The others let it. By the second glass Matteo was laughing too easily and Carlos had unbuttoned his collar and Isabelle had begun to say the true things, which is what the second glass is for.", "The Deutsche Mark went last, and went first. Klaus Weber sat at the head of the table the way the strongest mourner sits closest to the coffin — because it is his coffin, and everyone knows it, and no one will say so. The mark was the anchor. The euro would be built on his discipline, run from his city, priced in his memory. He was not dying. He was being asked to wear a larger coat and answer to a softer name. He hated it with a precision only the Bundesbank could produce.", "“You are not losing the mark,” Isabelle Dupont said to him, across the table, in the French way that makes a courtesy land like a blade. “You are finally allowed to stop pretending it was only yours.”", "Isabelle Dupont. The franc. Elegance as policy. France had spent fifty years building a cage beautiful enough that Germany would walk into it willingly, and the euro was the cage, and she had drawn the bars herself. She was not sentimental about the franc. The franc had been devalued, defended, and humiliated enough times that she was ready to trade it for a share of something that could finally look the dollar in the eye.", "Klaus did not answer her. Klaus answers nothing he has not already decided. But what moved behind his face was older than the deal, older than the mark itself. The mark remembered. The mark remembered a wheelbarrow of paper that would not buy bread, a savings account that became a postage stamp overnight, a whole nation taught in one year that money is a promise and a promise can be murdered. The German discipline the rest of Europe resents is not arrogance. It is a scar. Germany prices stability above growth, above mercy, above almost everything, because Germany is the one currency in the room that has watched its own people starve inside a number. To hand that discipline to a continent — to make every Greek and Italian and Spaniard live by the fear a German learned in 1923 — was not, to Klaus, a surrender. It was an inheritance he was being forced to share with heirs he did not trust to honor it. They will spend what I bled to learn, he thought, and signed anyway, because the alternative was a Europe that kept making the same mistake in twelve different currencies instead of one.", "Under the table his foot found nothing. He had expected the cold of a marble floor. The warmth went down further than a floor should. He did not bend to look. None of them did.", "NOW. Lars van Holst keeps a guilder in his pocket. A real one — heavy, silver, dead since 2002. He turns it over when he thinks, which is always. He is the only one of them who built the thing and survived being forgotten by it, and the guilder in his pocket is the receipt for a transaction no one remembers he signed.", "The Dutch invented the exchange. The first shares, the first bourse, the first time a man sold a thing he did not yet own to a man who did not yet want it — that was Amsterdam, four hundred years before any of these children were born. Lars knows what a market is the way a man knows his own house in the dark. And that is why, of all the founders, he was the one who understood, in Brussels, that they were not building a currency.", "They were building a venue.", "He eats alone now. He has the money to eat anywhere and he eats at the same place near the Damrak, herring and a small beer at the bar, standing, because a table set for one is a confession and a bar stool is not. The woman who runs it has stopped asking after a wife. Four hundred years of inventing the market and the man cannot fill a second chair at dinner.", "In 2026 he watches Sofia become the most dangerous thing in my building — the one rival the dollar takes seriously, the destination the frightened reach for when they finally tire of Conrad. The de-dollarizing world wants a second home. Sofia is the only one furnished. And Lars, who drew the floor plan, turns his dead guilder over and over and does not tell anyone the thing he has known since the rates were fixed.", "Someone wanted her born. And it was not only Europe.", "THEN. The others came to the table carrying what they were about to lose.", "Matteo Romano brought the lira, and brought relief. The lira had been devalued so many times that devaluation had become a personality — a charming, exhausted shrug, we will adjust, we always adjust. To stop adjusting, to be fixed forever at a single rate, was the first peace Italy had felt in a generation. Matteo signed like a man finally allowed to put down something heavy. He was already thinking, even then, of two women on the other side of the ocean — one in Mexico City, one in Bogotá — and the lira’s last act of devaluation was the one he performed on his own attention, spending it in two places at once and calling it generosity. He had drunk enough to feel fond of everyone, including himself, especially himself.", "Carlos Mendoza brought the peseta and the dignity of a country that had clawed itself out of a dictatorship and into Europe in a single lifetime. The peseta dying was not a tragedy to him. It was a graduation. We are Europeans now was a sentence Spain had wanted to say for four hundred years. He did not think, that night, of where the money came from that had built the new Madrid — of a republic across the water that kept paying a debt no one called a debt anymore. Value leaves no matter the flag. He raised his glass to the future and the past was already in the wine.", "Ana Ferreira brought the escudo, the smallest coin at the table, the currency of a nation that once owned the sea and now asked, quietly, to be let into the room. She signed and said almost nothing. She watched Klaus’s hand over his glass and understood it better than he would have liked. The smallest at the table learn early that the way to survive a deal is to be too quiet to be worth cheating. She was wrong about that, as the quiet always are. I cheat the quiet first. They take the longest to notice. And she had already begun, that night, the arithmetic the small always do — counting the years between this signature and the morning it would cost her. She did not yet have a name for what she was counting toward. She would.", "And Alexandros Papadopoulos came late, and paid most. The drachma was not in the first cohort; Greece would be let in three years on, on numbers that were a kind of poetry, true in the way a beautiful lie is true. He arrived to the founding the way a man arrives to a party he has heard about for years, certain it will save him. He carried a coin too — an old one, his grandfather’s, worn smooth, a thing older than debt because his people had been in debt since before there was a word for it, and had carried it with dignity. He turned it the way Lars turned his guilder, and neither man saw the other do it. It did the opposite of saving him. But that wound is a later chapter. In Brussels he only smiled, and signed what he was given, and did not read the conversion rate closely, because the people who pay most never do.", "I will tell you what I did in Brussels, since the minutes do not have it. I did not make them want the euro. They wanted it for their own reasons — peace, pride, a rival to the dollar, an end to devaluation. Every reason in that room was real and human and theirs. I only made certain that the child they were building would be bankable — that the spread between Sofia and everything else, once she existed, would be wide, and liquid, and mine to stand in the middle of. A continent thought it was ending a thousand years of war by sharing a currency. It was. It was also opening the single largest new position I have booked since the dollar left gold. Both things are true. The most expensive trades are the ones where the noble reason and the cost are the same sentence.", "There was a chair in that room that no minister sat in. There always is. You have met it before. The waiter set a glass at it without being told, and poured, and the glass was full at midnight, and no one drank from it, and no one moved it, and in the morning it was empty.", "THEN. Midnight. The rates locked. And Sofia Valente was born — not gradually, not on January the first when the screens turned, but in that room, at that hour, the instant seven powers agreed she would exist. She arrived already adult, the way currencies do, carrying the full weight of her membership: the discipline of the north, the patience of the south, the wound of the periphery, and a single monetary policy that would never fit all of them at once.", "She came up out of the water of them like a swimmer surfacing — half one thing, half another, lungs full at once, a body trained on a sea she had never seen. Lars looked at her first. He would remember that. The architect, seeing the building walk.", "“You should know,” he told her, quietly, away from the others, “that you were wanted.” A pause, the length of a guilder turning over. “I have just never been certain by whom.”", "She did not understand him then. She was an hour old. She is beginning to understand him now.", "NOW. Charlotte Windsor’s hunt has a new line in it. She has been mapping correlation breaks for thirty-four years, and three days ago she added the oldest one she never thought to question: why does the euro exist at all. A currency union of nineteen fiscal policies and one monetary policy is not a stable structure; it is a permanent tension that should have torn apart in 2012 and did not, because three words from a man in London held it together. Things that should break and do not are the only signature the Counterparty leaves. Sofia is a thing that should have broken and did not.", "Charlotte does not yet know she is looking at a founding. She thinks she is looking at a survival. She has not yet asked the question Lars has carried in his pocket for twenty-eight years.", "Who wanted her born.", "NOW. Sofia Valente has begun to feel the question before anyone has asked it of her. She is the most composed power in my building — precise, elegant, the devastating thing said beautifully and then set down — and lately she cannot sleep. She tells herself it is the de-dollarization, the weight of being the only credible alternative, the world’s slow drift toward her door. It is not that. It is that she has started to suspect she was designed.", "She swims at dawn when she cannot sleep, in a cold pool with no one in it, because her father taught her the sea and the sea was the one thing in her life with no committee. She does the lengths until her shoulders burn and the question goes quiet. It does not stay quiet.", "Every other power in the building grew. Gold accreted over five thousand years. The dollar was built decade by decade by men who improvised an empire. Even Bitcoin was an argument that got out of hand. But Sofia was decided — voted into being at a single hour by a committee, the only character at the Exchange who can name the room and the date of her own conception. The others were born. She was issued.", "“It should be a comfort,” she said to Lars, the one founder who still speaks to her as a maker speaks to a made thing. “To know exactly where I come from. To have a birthday and a paper trail.” She turned an espresso cup a quarter, the way the precise do when the imprecise thing is the truth. “Instead it feels like adoption papers with one name left blank. You all signed. I have read every signature. And there is a space at the bottom of me where someone else’s should be, and isn’t, and the absence has a shape.”", "Lars said nothing, which from Lars is the loudest thing he owns. He has known for twenty-eight years that the space is not empty. He simply cannot prove what fills it, and a man who has spent four centuries inside markets does not say a thing he cannot prove. Not even to the daughter he drew. He wanted to reach across the small table and put his hand over hers, the way Klaus had put his over the glass — to stop something being poured. He did not. He turned the guilder in his pocket instead.", "She saw the absence of the gesture. She always does. That is what they built her to be good at: reading the trade no one made.", "She is going to find out before he tells her. That is the cruelty I have arranged for this book. The architect, who knows, will be the last to say it; and the building, who is me, will let her learn from the floor instead of from her father.", "When that question reaches the table — and it will, in this book — it will be the first true thing any of them has touched. Not a villain’s name. A motive. The Counterparty does not leave fingerprints. It leaves children, and waits to see who raises them.", "NOW. Lars does tell one person things. Not the founders — they would understand too well. He tells Fernanda Luz, who understands nothing about European monetary architecture and everything about a man who has been alone inside a building he designed. She wears her heartbreak openly, the Brazilian way, and her openness is the one room the architect lets himself be seen in. He talks to her in the dark, after, the way a man talks who has decided that this particular silence is the one he cannot keep anymore.", "She had reached for him across a dinner three weeks ago — fingers on the back of his hand, casual, a question — and he had not pulled away, which from Lars was a landslide. He is too old to pretend his body wants nothing. It wants. It wants the way the very disciplined want, all at once and ashamed of the appetite the next morning. He woke before her, the first morning, and stood at the window with the dead guilder warming in his fist and felt the specific guilt of a man who has filled a chair that stayed empty for the length of a currency’s whole life. Then she stirred, and said his name without opening her eyes, and the guilt did not leave but he came back to the bed anyway. That is the human part. The market is the weather; this was the story.", "He should not. Pillow-talk is a leak, and Lars knows better than anyone in my building what a leak is worth. He tells her anyway. He tells her about the chair no minister sat in. He tells her he thinks the euro was an order, not an idea.", "I am, of course, also in that room. I am in every room where a secret is finally said out loud. That is not betrayal by Fernanda. She would never. It is only that a thing said in love still travels, and I am the country it travels through.", "LEALTAD. The founders kept theirs to Europe and lost their names. Lars is about to keep his to a woman who loves him and lose something worse. The oldest currency in the building, leaking the oldest secret, into the warmest room — because after four hundred years of inventing the market, even the architect wanted, once, to be known.", "NOW. Matteo Romano loves the way the lira devalued — generously, repeatedly, and never to anyone’s lasting harm. He tells himself this. He is on the phone with Mexico City and thinking about Bogotá, or on the phone with Bogotá and thinking about Mexico City, and he calls the gap between the two his warmth. Camila knows about Catalina. Catalina knows about Camila. The Italian taught them both the same lesson the lira taught Europe: that a thing can be devalued again and again and still insist, with real feeling, that it loves you at par.", "He cooks for whichever one is in the room. That is his tell. He makes the same dish — a thing with anchovies his mother made — and means it both times, the way the lira meant every rate, and the duplication does not feel like a lie to him until the morning he reaches for the second plate and remembers which woman is actually there. The shame lasts as long as the espresso. Then the phone rings from the other ocean and he is warm again, helplessly, generously warm.", "He is not cruel. That is what makes it dangerous. Cruelty announces itself; Matteo arrives with both hands open, meaning every word to each of them in the moment he says it, the way the lira meant every rate it ever held until the morning it didn’t. He spends his attention in two ports because a single port felt, to him, like the euro felt — fixed, irrevocable, a rate you could never adjust again. He chose the founding’s discipline for his money and refused it for his heart, and he cannot see that this is the same cowardice the periphery showed in Brussels: take the shared currency, keep the private deficit, and pray the difference never gets called.", "It gets called. In this book it gets called twice, and Simón Vargas is already watching one of the doors.", "Camila, for her part, is a hub she did not ask to be — the Italian on one side and, soon, a far more dangerous visit on the other, a journey east that a jade-and-crimson woman will extend as a courtesy and a knife. She carries an old story in her without knowing why it is hers to carry — a song about a river, a man named Tomás, a thing that comes down through the silver and never quite leaves. But that is later. Tonight Camila only turns her phone face-down on the table the way you set down a thing you have decided to keep using against your own advice, and lets Matteo believe the silence is forgiveness.", "It is not forgiveness. It is the periphery learning, the way the periphery always learns, that the people who devalue you most are the ones most certain they have never hurt you at all.", "She was wanted. I have let you watch the people who wanted her, and every one of their reasons was true.", "I have not yet shown you the one in the chair.", "That is the next founding. This was only the birth certificate — and the small print, at the bottom, in a hand none of them recognized, that says a child wanted by everyone is a child raised by whoever pays.", "Across the table they argued the rate. Always across. In three hundred years not one of them has looked down. The wine at the empty place stayed full until midnight, and the room stayed warm, and neither of them bent to look beneath it."]}]</script>
+<!-- HIS OWN THEME. CEO 2026-07-14: "the music of each of the custodians should automatically play."
+     This said assets/era_audio/era01.mp3 — a generic ERA track — on ALL 28 rides. The template's
+     own comment admitted it: "an honest stand-in, NOT his composed theme." Meanwhile all 28
+     composed themes have been sitting in assets/cast_audio/<k>.mp3 the whole time, unused.
+     Every custodian was riding their own line to somebody else's music. -->
+<audio id="au" loop preload="auto" src="assets/cast_audio/alexandros.mp3"></audio>
+
+<script>
+(function(){
+const M = "media/underground/alexandros/";
+
+/* HIS STATIONS — deep/old -> surface/now. Nothing invented. */
+const ST = [
+ {
+  "z": 0,
+  "yr": "600 BCE",
+  "nm": "THE FIRST OWL",
+  "d": "Athens strikes silver stamped with Athena's owl. A stranger takes the coin without weighing it. That is the whole miracle.",
+  "s": "Silver Tetradrachm of Athens · The Metropolitan Museum of Art · acc. 330160 · CC0"
+ },
+ {
+  "z": -1400,
+  "yr": "480 BCE",
+  "nm": "SALAMIS",
+  "d": "Laurion silver pays for the fleet. Money buys a future.",
+  "s": ""
+ },
+ {
+  "z": -2800,
+  "yr": "1832",
+  "nm": "THE DRACHMA RETURNS",
+  "d": "A modern Greek state revives the oldest name in money.",
+  "s": ""
+ },
+ {
+  "z": -4200,
+  "yr": "2001",
+  "nm": "THE EURO",
+  "d": "Greece adopts the euro. The drachma is retired. A door closes behind him.",
+  "s": ""
+ },
+ {
+  "z": -5600,
+  "yr": "2015",
+  "nm": "OXI",
+  "d": "The banks shut. A country votes No — and signs Yes.",
+  "s": ""
+ },
+ {
+  "z": -7000,
+  "yr": "TODAY",
+  "nm": "DOWNTOWN",
+  "d": "He is still here. He remembers all of it.",
+  "s": ""
+ }
+];
+
+/* HIS MEMORIES. The same face in every century — Universe Law #1 as the interface. */
+const MEM = [
+ {
+  "z": -200,
+  "x": -440,
+  "y": -120,
+  "w": 340,
+  "img": "eras/600bce.jpg",
+  "t": "A stranger took it from my hand and did not weigh it.",
+  "e": "600 BCE · THE FIRST OWL"
+ },
+ {
+  "z": -560,
+  "x": 480,
+  "y": 90,
+  "w": 400,
+  "img": "agora.jpg",
+  "t": "The agora at morning. I was that boy stealing figs.",
+  "e": "600 BCE · ATHENS"
+ },
+ {
+  "z": -950,
+  "x": -500,
+  "y": 110,
+  "w": 400,
+  "img": "mint.jpg",
+  "t": "The striking room. That single ringing blow.",
+  "e": "600 BCE · THE MINT"
+ },
+ {
+  "z": -1350,
+  "x": 470,
+  "y": -100,
+  "w": 340,
+  "img": "eras/480bce.jpg",
+  "t": "Laurion silver paid for the fleet. Money bought a future.",
+  "e": "480 BCE · SALAMIS"
+ },
+ {
+  "z": -1750,
+  "x": -490,
+  "y": 80,
+  "w": 400,
+  "img": "laurion.jpg",
+  "t": "The real Acropolis. The one below the ground.",
+  "e": "480 BCE · LAURION"
+ },
+ {
+  "z": -2200,
+  "x": 490,
+  "y": 120,
+  "w": 400,
+  "img": "harbour.jpg",
+  "t": "A Phoenician who had never heard my name put it in his purse.",
+  "e": "480 BCE · PIRAEUS"
+ },
+ {
+  "z": -2750,
+  "x": -470,
+  "y": -90,
+  "w": 340,
+  "img": "eras/1832.jpg",
+  "t": "They gave the old name to a new state.",
+  "e": "1832 · THE DRACHMA RETURNS"
+ },
+ {
+  "z": -3300,
+  "x": 470,
+  "y": 90,
+  "w": 340,
+  "img": "eras/1920s.jpg",
+  "t": "Rebetiko. The bouzouki is my internal weather.",
+  "e": "1920s · PIRAEUS"
+ },
+ {
+  "z": -3800,
+  "x": -480,
+  "y": -70,
+  "w": 340,
+  "img": "eras/1940s.jpg",
+  "t": "There are years I do not talk about.",
+  "e": "1940s · OCCUPATION"
+ },
+ {
+  "z": -4300,
+  "x": 480,
+  "y": 110,
+  "w": 340,
+  "img": "eras/1960s.jpg",
+  "t": "For a while it was very good. I want you to know that.",
+  "e": "1960s · THE BOOM"
+ },
+ {
+  "z": -4800,
+  "x": -470,
+  "y": -80,
+  "w": 340,
+  "img": "eras/1980s.jpg",
+  "t": "Paper drachmas on the table and nobody counting.",
+  "e": "1980s · THE LAST GOOD YEARS"
+ },
+ {
+  "z": -5400,
+  "x": 470,
+  "y": 90,
+  "w": 340,
+  "img": "eras/2001.jpg",
+  "t": "They took the notes away in a plastic tray.",
+  "e": "2001 · THE EURO"
+ },
+ {
+  "z": -5900,
+  "x": -480,
+  "y": -90,
+  "w": 340,
+  "img": "eras/2015.jpg",
+  "t": "The shutter was down. There was a queue.",
+  "e": "2015 · OXI"
+ },
+ {
+  "z": -6500,
+  "x": 470,
+  "y": 100,
+  "w": 400,
+  "img": "symposion.jpg",
+  "t": "This is where I actually live. Recline — you are not at a funeral.",
+  "e": "THE SYMPOSION"
+ },
+ {
+  "z": -6900,
+  "x": -460,
+  "y": -60,
+  "w": 340,
+  "img": "eras/today.jpg",
+  "t": "He never aged. He was there for all of it.",
+  "e": "TODAY"
+ }
+];
+
+/* INTERSECTIONS. Real crossings from the site's own transfer stations. */
+const XFER = [
+ {
+  "z": -260,
+  "k": "aurora",
+  "nm": "AURORA",
+  "as": "GOLD",
+  "why": "She was already three thousand years old when I struck my first owl. She has never once looked impressed.",
+  "c": "#C8A44D"
+ },
+ {
+  "z": -5400,
+  "k": "sofia",
+  "nm": "SOFIA",
+  "as": "THE EURO",
+  "why": "My line ends here. Hers begins. That is not a metaphor — that is the paperwork.",
+  "c": "#7c8ba6"
+ },
+ {
+  "z": -5900,
+  "k": "clara",
+  "nm": "CLARA",
+  "as": "THE FRANC",
+  "why": "The summer everything broke at once. She was there too.",
+  "c": "#7d8b9a"
+ }
+];
+
+/* THE OTHER LINES — the universe you are inside. */
+const OTH = [
+ {
+  "k": "aurora",
+  "x": -700,
+  "y": -170,
+  "z": -700,
+  "c": "#C8A44D"
+ },
+ {
+  "k": "conrad",
+  "x": 720,
+  "y": 150,
+  "z": -2000,
+  "c": "#5b7898"
+ },
+ {
+  "k": "sofia",
+  "x": -760,
+  "y": 150,
+  "z": -3400,
+  "c": "#7c8ba6"
+ },
+ {
+  "k": "aiko",
+  "x": 740,
+  "y": -180,
+  "z": -4600,
+  "c": "#a37c94"
+ },
+ {
+  "k": "hiro",
+  "x": -720,
+  "y": -70,
+  "z": -5800,
+  "c": "#6b8f7c"
+ },
+ {
+  "k": "clara",
+  "x": 700,
+  "y": 130,
+  "z": -6700,
+  "c": "#7d8b9a"
+ }
+];
+
+const POR = k => "media/characters/"+k+"/"+k+"_portrait.webp";
+
+const scene=document.getElementById('scene'), world=document.getElementById('world');
+const mk=h=>{const d=document.createElement('div');d.innerHTML=h.trim();return d.firstElementChild;};
+
+for(let i=0;i<70;i++) scene.appendChild(mk(
+  `<div class="rail" data-z="${-i*105}" data-x="0" data-y="0"></div>`));
+for(let i=0;i<90;i++) scene.appendChild(mk(
+  `<div class="mote" data-z="${-Math.random()*7200}" data-x="${(Math.random()-.5)*1200}"
+        data-y="${(Math.random()-.5)*700}" style="opacity:${.15+Math.random()*.4}"></div>`));
+
+/* the other lines drifting past. On a phone they fly at ±700px — off the screen entirely, so
+   the universe you are supposed to feel around you simply is not there. Pull them in. */
+const OX = (innerWidth < 760) ? 0.42 : 1;
+OTH.forEach(o=>scene.appendChild(mk(`
+  <div class="oth" data-z="${o.z}" data-x="${Math.round(o.x*OX)}" data-y="${o.y}" data-k="${o.k}"
+       title="Ride ${o.k}'s line" style="pointer-events:auto">
+    <div class="ring" style="border:1px solid ${o.c}66;box-shadow:0 0 44px ${o.c}33">
+      <img src="${POR(o.k)}" alt="" loading="lazy"></div>
+    <div class="nm" style="color:${o.c}">${o.k}</div>
+    <div class="thread" style="background:linear-gradient(${o.c}88,transparent)"></div>
+  </div>`)));
+
+/* his face waits at the origin */
+scene.appendChild(mk(`
+  <div class="face" data-z="60" data-x="0" data-y="-40">
+    <div class="ring"><img src="${M}citizen.jpg" alt="Alexandros"></div>
+  </div>`));
+
+/* ── THE TUNNEL IS NARROWER ON A PHONE ────────────────────────────────────────────────
+   CEO 2026-07-13: "the mobile version also looks very different and crowded."
+
+   The memories are placed at x = ±470 and drawn 340–400px wide. On a 1600px screen that is a
+   corridor you fly down. On a 390px phone it is a pile-up: the frames sit off-screen, or on top
+   of the station card, or on each other.
+
+   These are JS positions, so no media query can reach them. The layout is COMPUTED for the
+   viewport instead: on a phone the corridor narrows and the frames shrink, so the same ride
+   reads at 390px as it does at 1600px. Mobile is designed, not shrunk. */
+const NARROW = innerWidth < 760;
+const MX = NARROW ? 0.40 : 1;                  // pull the memories in toward the spine
+const MW = NARROW ? 0.55 : 1;                  // and make the frames smaller with them
+
+MEM.forEach(m=>{
+  const w = Math.round(m.w * MW);
+  scene.appendChild(mk(`
+  <div class="mem" data-z="${m.z}" data-x="${Math.round(m.x*MX)}" data-y="${m.y}" style="width:${w}px;margin-left:${-w/2}px">
+    <img src="${M}${m.img}" alt="" loading="lazy">
+    <div class="cap"><b>${m.e}</b>${m.t}</div>
+  </div>`));
+});
+
+ST.forEach((s,i)=>scene.appendChild(mk(`
+  <div class="st" data-z="${s.z}" data-x="0" data-y="0" style="width:420px;margin-left:-210px">
+    <div class="plate"><div class="yr">${s.yr}</div><div class="nm">${s.nm}</div></div>
+    <div class="thread" style="height:${i<ST.length-1?1200:0}px"></div>
+  </div>`)));
+
+/* ── THE INTERSECTIONS. Someone is standing on the platform. ───────────────── */
+XFER.forEach((x,i)=>scene.appendChild(mk(`
+  <div class="xfer" data-z="${x.z}" data-x="${i%2?300:-300}" data-y="150" data-k="${x.k}"
+       style="position:absolute;left:50%;top:50%;width:230px;margin-left:-115px;text-align:center;
+              transform-style:preserve-3d;cursor:pointer;pointer-events:auto;">
+    <div style="width:130px;height:130px;border-radius:50%;overflow:hidden;margin:0 auto;
+                border:2px solid ${x.c};box-shadow:0 0 60px ${x.c}66;">
+      <img src="${POR(x.k)}" alt="${x.nm}" style="width:100%;height:100%;object-fit:cover;display:block">
+    </div>
+    <div style="margin-top:10px;font:600 10px/1 ui-sans-serif,system-ui;letter-spacing:.26em;color:${x.c}">${x.nm}</div>
+    <div style="margin-top:4px;font:400 9px/1 ui-sans-serif,system-ui;letter-spacing:.2em;color:#7d8794">${x.as}</div>
+    <div style="margin-top:12px;padding:7px 14px;border:1px solid ${x.c}88;color:${x.c};
+                font:600 8px/1 ui-sans-serif,system-ui;letter-spacing:.2em;display:inline-block;
+                background:rgba(5,9,15,.75)">CHANGE LINES &rarr;</div>
+  </div>`)));
+
+/* ── THE INTERCHANGES AND THE OTHER LINES ARE DOORS ───────────────────────────────────
+   The .xfer cards in the scene carried cursor:pointer and NO click handler — they looked
+   clickable and did nothing, which is worse than looking dead, because it costs the visitor a
+   click to learn they were lied to. The .oth portraits drifting past had the same problem.
+   Both now board that custodian's line. One rule: if it looks like a door, it opens. */
+scene.addEventListener('click', e => {
+  const n = e.target.closest('.xfer, .oth');
+  if (n && n.dataset.k) location.href = 'underground_' + n.dataset.k + '.html';
+});
+
+const nodes=[...scene.children].map(n=>({
+  el:n, z:+n.dataset.z, x:+(n.dataset.x||0), y:+(n.dataset.y||0),
+  kind:n.className.split(' ')[0]
+}));
+
+/* ── WHAT YOU CAN DO AT A STATION ─────────────────────────────────────────────
+   Loaded from the hub the system INVENTORIED. A button that does not lead anywhere is a
+   lie — so a button only appears if the asset actually exists. Empty slots say NOT YET
+   MADE, which is honest, and which also tells the visitor there is more coming. */
+/* INLINE, NOT FETCHED. fetch() of a local JSON is blocked under file:// — so opening this
+   page from disk left HUB null and NO BUTTONS APPEARED. I made the data depend on a network
+   call for something I could simply embed. It works from disk and from the web now. */
+
+const HUB = {
+ "watch": [
+  {
+   "title": "The Birth of the Drachma",
+   "href": "media/videos/alexandros/ALEXANDROS_EDU_web.mp4"
+  }
+ ],
+ "explore": [
+  {
+   "title": "His whole world — the 19-field Human Matrix",
+   "href": "explore/alexandros.html"
+  }
+ ],
+ "saga": [
+  {
+   "book": "BOOK ONE · THE ROOM",
+   "ch": "Chapter 24",
+   "title": "The Night The Currencies Died",
+   "n": 10,
+   "words": 5191,
+   "at": 2001
+  },
+  {
+   "book": "BOOK THREE · THE TABLE",
+   "ch": "Chapter 10",
+   "title": "The First Debt",
+   "n": 5,
+   "words": 1844,
+   "at": -600
+  },
+  {
+   "book": "BOOK TWO · THE COUNTERPARTY",
+   "ch": "Chapter 11",
+   "title": "The Haircut",
+   "n": 4,
+   "words": 2747,
+   "at": 2015
+  },
+  {
+   "book": "BOOK TWO · THE COUNTERPARTY",
+   "ch": "Chapter 6",
+   "title": "The Conversion Rate",
+   "n": 1,
+   "words": 3659,
+   "at": 2001
+  }
+ ],
+ "museum": [
+  {
+   "title": "Silver Tetradrachm of Athens",
+   "institution": "The Metropolitan Museum of Art",
+   "accession": "330160",
+   "licence": "CC0 (Met Open Access)",
+   "showable": true,
+   "href": "https://www.metmuseum.org/art/collection/search/330160"
+  },
+  {
+   "title": "Athenian Owl Tetradrachm",
+   "institution": "British Museum",
+   "accession": "1905,0309.2",
+   "licence": "British Museum Standard Terms of Use",
+   "showable": false,
+   "href": "https://www.britishmuseum.org/collection/search?keyword=1905,0309.2"
+  },
+  {
+   "title": "Athenian Dekadrachm",
+   "institution": "British Museum",
+   "accession": "G.3183",
+   "licence": "British Museum Standard Terms of Use",
+   "showable": false,
+   "href": "https://www.britishmuseum.org/collection/search?keyword=G.3183"
+  },
+  {
+   "title": "Athenian Tetradrachm",
+   "institution": "Museum of Fine Arts, Boston",
+   "accession": "95.129",
+   "licence": "MFA Boston Terms of Use",
+   "showable": false,
+   "href": "https://collections.mfa.org/search/objects/*/95.129"
+  },
+  {
+   "title": "Silver Ten-Drachm of Athens",
+   "institution": "Numismatic Museum of Athens",
+   "accession": "NM 1301/1999",
+   "licence": "Numismatic Museum Athens Terms of Use",
+   "showable": false,
+   "href": "https://www.nummus.gr/"
+  },
+  {
+   "title": "Lydian Electrum Stater",
+   "institution": "British Museum",
+   "accession": "1866,1201.3669",
+   "licence": "British Museum Standard Terms of Use",
+   "showable": false,
+   "href": "https://www.britishmuseum.org/collection/search?keyword=1866,1201.3669"
+  }
+ ],
+ "sources": [
+  {
+   "title": "The Athenian Agora, Vol. XXVI: The Greek Coins",
+   "who": "John H. Kroll",
+   "href": "https://www.ascsa.edu.gr/publications/the-athenian-agora"
+  },
+  {
+   "title": "Greek Coins",
+   "who": "Colin Kraay & Max Hirmer",
+   "href": "https://www.worldcat.org/search?q=Kraay+Hirmer+Greek+Coins"
+  },
+  {
+   "title": "Athens's oldest coins reveal ancient, widespread silver trade",
+   "who": "Science.org",
+   "href": "https://www.science.org/"
+  },
+  {
+   "title": "Thorikos Project Archive",
+   "who": "Ghent University",
+   "href": "https://www.thorikos.be/"
+  },
+  {
+   "title": "Mapping Ancient Athens",
+   "who": "Dipylon Society",
+   "href": "https://mappingancientathens.org/"
+  }
+ ]
+};
+
+const drawer=document.getElementById('drawer'), dttl=document.getElementById('dttl'),
+      dbody=document.getElementById('dbody'), hubEl=document.getElementById('hub');
+document.getElementById('dclose').onclick=()=>{drawer.style.display='none';};
+addEventListener('keydown',e=>{ if(e.key==='Escape') drawer.style.display='none'; });
+
+const esc=s=>String(s||'').replace(/[<>&]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;'}[c]));
+
+function openDrawer(kind){
+  if(!HUB) return;
+  drawer.style.display='block'; drawer.scrollTop=0;
+  dttl.textContent=kind;
+  let h='';
+  if(kind==='WATCH'){
+    /* THE PLAYER MUST FIT THE FILM, NOT THE OTHER WAY ROUND.
+       This was width:100% — fine for Alexandros, whose film is 16:9. Clara's is 9:16, shot
+       VERTICAL for social on purpose. width:100% in a 900px drawer would have rendered her
+       film about 1600px TALL: a skyscraper you scroll past rather than watch.
+       max-height bounds it by the WINDOW, and width:auto lets the shape decide. A landscape
+       film still fills the drawer; a vertical one stands up in the middle of it. */
+    HUB.watch.forEach(v=>{ h+=`<video controls playsinline
+      style="display:block;margin:0 auto;width:auto;max-width:100%;max-height:76vh;
+             border:1px solid #22303f;background:#000"
+      src="${v.href}"></video><p style="margin-top:10px;text-align:center;font:italic 14px Georgia,serif;color:#9aa3ad">${esc(v.title)}</p>`; });
+  }
+  if(kind==='MUSEUM'){
+    h+=`<p style="font:italic 14px/1.6 Georgia,serif;color:#9aa3ad;margin-bottom:22px">
+      Real objects, real accession numbers. Only objects under an open licence are DISPLAYED —
+      the rest are named and linked to their institution, because a licence is a licence.</p>`;
+    HUB.museum.forEach(o=>{
+      const ok = o.showable;
+      h+=`<div style="border-left:2px solid ${ok?'#C8A44D':'#2a3542'};padding:12px 16px;margin-bottom:14px">
+        <div style="font:600 15px Georgia,serif">${esc(o.title)}</div>
+        <div style="margin-top:5px;font:400 12px ui-sans-serif,system-ui;color:#7d8794">
+          ${esc(o.institution)} &middot; acc. ${esc(o.accession)}</div>
+        <div style="margin-top:6px;font:400 11px ui-sans-serif,system-ui;color:${ok?'#C8A44D':'#5d6a78'}">
+          ${ok?'OPEN LICENCE — may be shown':'LICENCE: '+esc(o.licence)+' — cited, not shown'}</div>
+        ${o.href?`<a href="${o.href}" target="_blank" rel="noopener"
+          style="display:inline-block;margin-top:9px;font:600 9px ui-sans-serif,system-ui;
+          letter-spacing:.2em;color:#C8A44D;text-decoration:none">SEE IT AT THE MUSEUM &rarr;</a>`:''}
+      </div>`;
+    });
+  }
+  if(kind==='SOURCES'){
+    h+=`<p style="font:italic 14px/1.6 Georgia,serif;color:#9aa3ad;margin-bottom:22px">
+      Every claim on this line traces to one of these. Check us.</p>`;
+    HUB.sources.forEach(s=>{
+      h+=`<div style="border-left:2px solid #2a3542;padding:12px 16px;margin-bottom:12px">
+        <div style="font:600 15px Georgia,serif">${esc(s.title)}</div>
+        <div style="margin-top:5px;font:400 12px ui-sans-serif,system-ui;color:#7d8794">${esc(s.who)}</div>
+        <a href="${s.href}" target="_blank" rel="noopener" style="display:inline-block;margin-top:9px;
+          font:600 9px ui-sans-serif,system-ui;letter-spacing:.2em;color:#C8A44D;text-decoration:none">READ IT &rarr;</a>
+      </div>`;
+    });
+  }
+  if(kind==='EXPLORE'){
+    HUB.explore.forEach(x=>{ h+=`<a href="${x.href}" style="display:block;border-left:2px solid #C8A44D;
+      padding:14px 16px;margin-bottom:12px;color:#EDE6D6;text-decoration:none;font:600 16px Georgia,serif">
+      ${esc(x.title)} &rarr;</a>`; });
+  }
+  if(kind==='SAGA'){
+    h+=`<p style="font:italic 14px/1.6 Georgia,serif;color:#9aa3ad;margin-bottom:22px">
+      He is not a cameo. He is written into all three books — these are the chapters he stands in.</p>`;
+    const yr = YEARS[shown];
+    const list = HUB.saga.filter(s=>s.at===yr);
+    (list.length?list:HUB.saga).forEach((s,i)=>{
+      const idx = HUB.saga.indexOf(s);
+      h+=`<div style="border-left:2px solid #C8A44D;padding:12px 16px;margin-bottom:14px">
+        <div style="font:600 8.5px/1 ui-sans-serif,system-ui;letter-spacing:.26em;color:#7d8794">${esc(s.book)}</div>
+        <div style="margin-top:8px;font:600 17px Georgia,serif">${esc(s.ch)} &middot; ${esc(s.title)}</div>
+        <div style="margin-top:6px;font:400 11px ui-sans-serif,system-ui;color:#7d8794">
+          he is named ${s.n} time${s.n>1?'s':''} &middot; ${s.words.toLocaleString()} words</div>
+        <button data-read="${idx}" style="margin-top:11px;background:rgba(200,164,77,.12);
+          border:1px solid rgba(200,164,77,.45);color:#C8A44D;font:600 9px ui-sans-serif,system-ui;
+          letter-spacing:.22em;padding:9px 15px;cursor:pointer">READ THE CHAPTER &rarr;</button>
+      </div>`;
+    });
+    setTimeout(()=>{
+      [...dbody.querySelectorAll('[data-read]')].forEach(b=>
+        b.onclick=()=>readChapter(+b.dataset.read));
+    },0);
+  }
+  dbody.innerHTML = h || `<p style="font:italic 15px Georgia,serif;color:#7d8794">
+    Nothing here yet. This is not a placeholder — it is the production list.</p>`;
+}
+
+/* ── THE READER. Members only. Nothing downloadable — because nothing is a FILE. ──────
+   CEO: "Members should be able to have full access — books, saga, comics. They can't
+         download the books though."
+
+   THE HONEST TRUTH, STATED ONCE, IN THE CODE:
+   YOU CANNOT PREVENT DOWNLOAD IN A BROWSER. Anything the screen renders can be photographed,
+   and any text the page holds can be lifted from devtools by anyone who cares to. Disabled
+   right-click and no-select are a DETERRENT. They are not DRM, and I will not pretend they are.
+
+   WHAT IS ACTUALLY REAL HERE:
+     1. NO FILE IS EVER SERVED. No PDF, no EPUB, no .docx at any URL. The book is not
+        downloadable because THERE IS NOTHING TO DOWNLOAD — only text delivered into a session.
+        That is the whole of the protection that holds.
+     2. A PER-MEMBER WATERMARK on the page. A leaked screenshot names the person who leaked it.
+        Not prevention — ACCOUNTABILITY. Accountability is what actually changes behaviour.
+     3. THE MEMBERSHIP CHECK MUST BE SERVER-SIDE. A gate enforced in JavaScript is a suggestion.
+        This reader FAILS CLOSED: if it cannot reach the real gate, it does not open the book.  */
+let SAGA = null, MEMBER = null;
+
+async function member(){
+  if(MEMBER !== null) return MEMBER;
+  try{
+    if(window.THAuth && typeof window.THAuth.isMember === 'function'){
+      MEMBER = await window.THAuth.isMember();          // the site's real Supabase gate
+    } else if(window.supabase){
+      const {data} = await window.supabase.auth.getUser();
+      MEMBER = !!(data && data.user);
+    } else {
+      MEMBER = false;                                    // FAIL CLOSED. Never fail open on a paywall.
+    }
+  }catch(e){ MEMBER = false; }
+  return MEMBER;
+}
+
+async function readChapter(i){
+  if(!SAGA){
+    // EMBEDDED, NOT FETCHED. fetch() dies under file:// — the same trap that made every hub
+    // button silently vanish. The text ships WITH the page: it works from disk and from the web.
+    try{ SAGA = JSON.parse(document.getElementById('sagadata').textContent); }catch(e){ SAGA=null; }
+  }
+  const c = SAGA && SAGA[i];
+  const ok = await member();
+
+  if(!ok){
+    dttl.textContent = "MEMBERS ONLY";
+    dbody.innerHTML = `
+      <div style="max-width:540px">
+        <div style="font:700 26px/1.25 Georgia,serif;color:#EDE6D6">
+          ${c?esc(c.chapter)+' &middot; '+esc(c.title):'The Saga'}</div>
+        <p style="margin-top:16px;font:italic 15px/1.7 Georgia,serif;color:#9aa3ad">
+          The three books are read inside The Exchange. Members read every chapter, every comic,
+          every film — the whole world, with nothing held back.</p>
+        <p style="margin-top:12px;font:400 13px/1.6 ui-sans-serif,system-ui;color:#7d8794">
+          The books are never downloadable. There is no file to take — only the text, in front of
+          you, for as long as you are a member.</p>
+        <a href="index.html#join" style="display:inline-block;margin-top:20px;padding:13px 26px;
+          border:1px solid #C8A44D;color:#C8A44D;text-decoration:none;
+          font:600 9px ui-sans-serif,system-ui;letter-spacing:.26em">JOIN THE EXCHANGE &rarr;</a>
+      </div>`;
+    return;
+  }
+
+  if(!c){ dbody.innerHTML = `<p style="color:#7d8794;font:italic 15px Georgia,serif">
+      The chapter text is served to a member session and this page was opened without one.</p>`;
+    return; }
+
+  const who = (window.THAuth && window.THAuth.email) || 'member';
+  dttl.textContent = c.book_title + " · " + c.chapter;
+  dbody.innerHTML = `
+    <div id="rdr" style="max-width:680px;margin:0 auto;-webkit-user-select:none;user-select:none">
+      <div style="font:700 30px/1.25 Georgia,serif;color:#EDE6D6">${esc(c.title)}</div>
+      <div style="margin-top:8px;font:600 9px ui-sans-serif,system-ui;letter-spacing:.26em;color:#7d8794">
+        ${esc(c.book_title)} &middot; ${esc(c.chapter)} &middot; ${c.words.toLocaleString()} WORDS</div>
+      <div style="height:1px;background:#22303f;margin:26px 0"></div>
+      ${c.paragraphs.map(p=>`<p style="margin:0 0 20px;font:400 17px/1.75 Georgia,serif;color:#D8D2C6">${esc(p)}</p>`).join('')}
+      <div style="height:1px;background:#22303f;margin:30px 0 16px"></div>
+      <p style="font:400 10px ui-sans-serif,system-ui;color:#3d4854;letter-spacing:.1em">
+        Read by ${esc(who)} &middot; Trading Hearts Productions LLC &middot; not for distribution</p>
+    </div>`;
+  const r = document.getElementById('rdr');
+  r.oncontextmenu = e=>{e.preventDefault(); return false;};   // friction, not security
+  r.oncopy        = e=>{e.preventDefault(); return false;};
+}
+
+/* WHICH OPTIONS THIS STATION ACTUALLY OFFERS.
+   Not the same six buttons everywhere — that is a template. The evidence lives at the origin;
+   the saga chapters live at the years they are ABOUT. Only what exists, only where it belongs. */
+const YEARS=[-600,-480,1832,2001,2015,2026];
+function hubFor(i){
+  // NEVER ASSUME A HUB SECTION EXISTS. This read HUB.watch.length directly — and only Alexandros
+  // has a film. On the other 27 pages that line throws, and the ENTIRE hub row silently fails to
+  // render: every button gone, no error anyone would ever see. An optional section must be read
+  // as optional.
+  const opts=[];
+  const yr=YEARS[i];
+  const M=HUB.museum||[], S=HUB.sources||[], G=HUB.saga||[], W=HUB.watch||[], E=HUB.explore||[];
+  const last = ST.length-1;
+  if(i===0){                                   // the origin: this is where the evidence is
+    if(M.length) opts.push(['MUSEUM',  M.length+' objects']);
+    if(S.length) opts.push(['SOURCES', S.length+' primary']);
+  }
+  // THE SAGA RIDES WITH HIM. CEO 2026-07-13:
+  //   "The Saga should then be part of the whole ride if the character appears on it.
+  //    the year does not matter."
+  //
+  // I had pinned it to one station — the year-matched one for Alexandros, DOWNTOWN for the rest
+  // — and that was me treating a book like an event. It is not an event. A custodian does not
+  // stop being in Book Two when you fly past 1971. He is in it at every station, because the
+  // books are ABOUT him, and the reader should be able to open them from wherever they are
+  // standing.
+  //
+  // So: if he is named in a chapter, the SAGA door is open at every station on his line.
+  if(G.length) opts.push(['SAGA', G.length+' chapter'+(G.length>1?'s':'')]);
+  if(W.length) opts.push(['WATCH',   'the film']);
+  if(E.length) opts.push(['EXPLORE', 'his world']);
+  return opts;
+}
+
+const xbox=document.getElementById('xbox'), xn=document.getElementById('xn'),
+      xa=document.getElementById('xa'), xw=document.getElementById('xw'),
+      xb=document.getElementById('xb');
+let xshown=-1;
+
+/* THE TH CURSOR — identical to the homepage's. The dot follows exactly; the ring lags and
+   catches up, which is what makes it feel like an object rather than a graphic. */
+(function(){
+  const dot=document.getElementById('cursor'), ring=document.getElementById('cursorRing');
+  if(!dot||!ring||matchMedia('(hover:none)').matches) return;
+  let mx=0,my=0,rx=0,ry=0;
+  addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;dot.style.left=mx+'px';dot.style.top=my+'px';});
+  (function loop(){ rx+=(mx-rx)*0.12; ry+=(my-ry)*0.12;
+    ring.style.left=rx+'px'; ring.style.top=ry+'px'; requestAnimationFrame(loop); })();
+  const grow=()=>{ring.style.transform='translate(-50%,-50%) scale(2)';ring.style.borderColor='rgba(200,164,77,.6)';};
+  const shrink=()=>{ring.style.transform='translate(-50%,-50%) scale(1)';ring.style.borderColor='rgba(200,164,77,.4)';};
+  // delegated — the stations, memories and interchanges are built after this runs
+  addEventListener('mouseover',e=>{ if(e.target.closest('a,button,.mem,.st,.xfer,.oth,[onclick]')) grow(); });
+  addEventListener('mouseout', e=>{ if(e.target.closest('a,button,.mem,.st,.xfer,.oth,[onclick]')) shrink(); });
+})();
+
+const MAX=7200; let cam=0, tgt=0, shown=-1;
+
+/* HOW TO RIDE — shown once, dismissed by ANY input. It explains, then it disappears; it never
+   asks twice. A tutorial you have to close twice is a tutorial people learn to resent. */
+const howEl=document.getElementById('how');
+const howGone=()=>{ if(howEl && !howEl.classList.contains('gone')) howEl.classList.add('gone'); };
+if(howEl){
+  document.getElementById('howGo').onclick=howGone;
+  howEl.addEventListener('click',howGone);
+  ['wheel','pointerdown','keydown','touchstart'].forEach(ev=>
+    addEventListener(ev,howGone,{passive:true,once:true}));
+}
+
+const move=d=>{ howGone(); tgt=Math.min(MAX,Math.max(0,tgt+d)); hint.style.opacity=tgt>60?0:1; };
+world.addEventListener('wheel',e=>{e.preventDefault();move(e.deltaY*1.5);},{passive:false});
+let dy=null;
+world.addEventListener('pointerdown',e=>dy=e.clientY);
+addEventListener('pointerup',()=>dy=null);
+addEventListener('pointermove',e=>{if(dy!==null){move((dy-e.clientY)*4);dy=e.clientY;}});
+world.tabIndex=0;
+addEventListener('keydown',e=>{
+  if(['ArrowDown','ArrowRight','PageDown',' '].includes(e.key)){move(400);e.preventDefault();}
+  if(['ArrowUp','ArrowLeft','PageUp'].includes(e.key)){move(-400);e.preventDefault();}
+});
+
+const yrEl=document.getElementById('yr'), erEl=document.getElementById('er'),
+      card=document.getElementById('card'), cn=document.getElementById('cn'),
+      cd=document.getElementById('cd'), cs=document.getElementById('cs'),
+      hint=document.getElementById('hint');
+const ERA=[[0,"THE DEEP"],[1400,"ANTIQUITY"],[2800,"THE LONG SILENCE"],[4200,"THE MODERN"],[5600,"THE CRISIS"],[6600,"THE SURFACE"]];
+
+/* ── HIS THEME, AND IT STARTS BY ITSELF ──────────────────────────────────────────────
+   CEO: "the music of each of the custodians should automatically play."
+
+   The honest engineering caveat, stated rather than hidden: NO BROWSER WILL AUTOPLAY AUDIO
+   WITH SOUND on a cold page load. Chrome, Safari and Firefox all block it until the visitor
+   has interacted with the page. That is not a bug I can code around, and anyone who promises
+   otherwise is going to hand you a silent page.
+
+   So we do the only thing that both obeys the browser and keeps the promise: we TRY to play
+   immediately, and if the browser refuses, the theme starts on the visitor's FIRST touch of
+   the page — the first scroll, drag, click or key. On this ride that is instant, because the
+   ride does not move until they move it. They will never see a "click to play" wall; the
+   music simply arrives with the tunnel.
+
+   THE THEME IS HIS. assets/cast_audio/<k>.mp3 — the composed Suno theme, not an era track. */
+const au=document.getElementById('au'), snd=document.getElementById('snd'),
+      sl=document.getElementById('sl'), bars=[...document.querySelectorAll('#eq i')];
+const THEME_LABEL = "Play his theme";     // per-custodian; the generator rewrites this line
+let playing=false;
+
+function themeOn(){
+  if(playing) return;
+  au.volume=0;                             // never SLAM in. Fade the line up under the visitor.
+  const p = au.play();
+  if(p && p.catch) p.catch(()=>{});
+  if(!au.paused || p){
+    playing=true; sl.textContent="Playing";
+    let v=0; const fade=setInterval(()=>{ v=Math.min(.55, v+.03); au.volume=v;
+                                          if(v>=.55) clearInterval(fade); }, 60);
+  }
+}
+function themeOff(){ au.pause(); playing=false; sl.textContent=THEME_LABEL; }
+
+sl.textContent = THEME_LABEL;
+themeOn();                                  // try it cold — some browsers will allow it
+
+/* if the browser refused, the FIRST gesture starts it. once, then the listeners retire. */
+["pointerdown","keydown","wheel","touchstart"].forEach(ev =>
+  window.addEventListener(ev, function once(){
+    themeOn();
+    if(playing) ["pointerdown","keydown","wheel","touchstart"]
+      .forEach(e2 => window.removeEventListener(e2, once));
+  }, {passive:true}));
+
+/* the button is now a MUTE, not a beg. */
+snd.onclick=()=>{ playing ? themeOff() : themeOn(); };
+
+function tick(){
+  cam += (tgt-cam)*0.07;
+  const t = cam/MAX;
+
+  world.style.background =
+    `radial-gradient(ellipse at 50% ${44+5*t}%,
+      rgb(${13+150*t},${23+160*t},${37+150*t}) 0%,
+      rgb(${7+60*t},${12+70*t},${20+72*t}) 52%,
+      rgb(${3+22*t},${5+26*t},${10+30*t}) 100%)`;
+
+  for(const n of nodes){
+    const z = n.z + cam;
+    n.el.style.transform = `translate3d(${n.x}px, ${n.y}px, ${z}px)`;
+    if(n.kind==='rail'){ n.el.style.opacity = Math.max(.04, Math.min(.85, 1-Math.abs(z)/1500)); continue; }
+    if(n.kind==='mote') continue;
+    const near = 1 - Math.min(1, Math.abs(z)/1700);
+    n.el.style.opacity = (n.kind==='oth' ? .10+.55*near : .06+.94*near).toFixed(3);
+    n.el.style.filter  = n.kind==='oth'
+      ? `grayscale(${(.9-.55*near).toFixed(2)}) brightness(${(.4+.55*near).toFixed(2)}) blur(${(3*(1-near)).toFixed(1)}px)`
+      : `blur(${(6*(1-near)).toFixed(1)}px)`;
+  }
+
+  /* AN INTERSECTION. Someone is on the platform, and you can go with them. */
+  let xi=-1, xd=1e9;
+  XFER.forEach((x,i)=>{const d=Math.abs(x.z+cam); if(d<xd){xd=d;xi=i;}});
+  if(xd<450){
+    const x=XFER[xi];
+    if(xshown!==xi){
+      xn.textContent=x.nm; xa.textContent=x.as; xw.textContent=x.why;
+      xb.style.borderColor=x.c; xb.style.color=x.c; xn.style.color=x.c;
+      /* CHANGE LINES MEANS CHANGE LINES. CEO 2026-07-13: "when i clicked into switch to aurora,
+         this window opened instead of aurora line."
+         It went to explore/<k>.html — her ARCHIVE. The whole promise of an interchange is that
+         you can leave his line and ride HERS; sending you to a reading room instead is the
+         single most disappointing thing this button could do. */
+      xb.onclick=()=>{ location.href = "underground_"+x.k+".html"; };
+      xshown=xi;
+    }
+    xbox.style.opacity=1; xbox.style.transform='translateY(0)';
+  } else { xbox.style.opacity=0; xbox.style.transform='translateY(10px)'; xshown=-1; }
+
+  let bi=-1, bd=1e9;
+  ST.forEach((s,i)=>{const d=Math.abs(s.z+cam); if(d<bd){bd=d;bi=i;}});
+  if(bd<600){
+    if(bi!==shown){ const s=ST[bi];
+      cn.textContent=s.nm; cd.textContent=s.d; cs.textContent=s.s;
+      cs.style.display=s.s?'block':'none'; shown=bi;
+      // the options for THIS station — only the ones that lead somewhere real
+      const opts=hubFor(bi);
+      hubEl.innerHTML = opts.map(([k,sub])=>
+        `<button data-k="${k}" style="background:rgba(200,164,77,.10);border:1px solid rgba(200,164,77,.42);
+          color:#C8A44D;font:600 8.5px/1 ui-sans-serif,system-ui;letter-spacing:.2em;
+          padding:8px 11px;cursor:pointer">${k}<span style="display:block;margin-top:3px;
+          color:#7d8794;letter-spacing:.1em;font-weight:400">${sub}</span></button>`).join('');
+      // EXPLORE GOES STRAIGHT TO HIS PAGE. CEO 2026-07-13: "the EXPLORE his world button should
+      // lead to the custodian main page. its empty now."
+      //
+      // It was opening a drawer that contained ONE link, which you then had to click to reach
+      // the page you already asked for. A drawer whose only content is a link to somewhere else
+      // is not a destination — it is a toll booth. The button now does what its label says.
+      [...hubEl.querySelectorAll('button')].forEach(b=>b.onclick=()=>{
+        if(b.dataset.k==='EXPLORE' && HUB.explore && HUB.explore[0]){
+          location.href = HUB.explore[0].href;   // his world. the 19-field Human Matrix.
+          return;
+        }
+        openDrawer(b.dataset.k);
+      });
+    }
+    card.style.opacity=1; card.style.transform='translateY(0)';
+    yrEl.textContent=ST[bi].yr;
+  } else { card.style.opacity=0; card.style.transform='translateY(10px)'; shown=-1; }
+
+  let e=ERA[0][1]; for(const [z,n] of ERA) if(cam>=z) e=n; erEl.textContent=e;
+
+  if(playing) bars.forEach((b,i)=>b.style.height=(3+Math.random()*9*(0.5+0.5*Math.sin(Date.now()/220+i)))+'px');
+  else bars.forEach(b=>b.style.height='3px');
+
+  requestAnimationFrame(tick);
+}
+tick();
+})();
+</script>
+</body>
+</html>

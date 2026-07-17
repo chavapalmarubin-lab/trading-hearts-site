@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Trading Hearts — The Founding Visionaries</title>
+<style>
+  :root{--navy:#070F1E;--navy2:#0B1A30;--gold:#C9A84C;--gold-soft:rgba(201,168,76,.75);--cream:#FAF7F2;--muted:rgba(250,247,242,.62);--line:rgba(201,168,76,.18);--serif:"Georgia","Times New Roman",serif;--sans:-apple-system,"Segoe UI",Roboto,sans-serif}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--navy);color:var(--cream);font-family:var(--sans);line-height:1.65;-webkit-font-smoothing:antialiased}
+  a{color:var(--gold)}
+  /* ===== GATE ===== */
+  #gate{position:fixed;inset:0;z-index:100;background:radial-gradient(ellipse 70% 60% at 50% 40%,#0c1a33,#05070d);display:flex;align-items:center;justify-content:center;flex-direction:column;padding:24px;text-align:center}
+  #gate.hidden{display:none}
+  #gate .g-mark{font:600 11px/1 var(--sans);letter-spacing:5px;text-transform:uppercase;color:var(--gold-soft);margin-bottom:22px}
+  #gate h1{font:300 clamp(2rem,6vw,3.4rem)/1.05 var(--serif);color:var(--cream);margin-bottom:10px}
+  #gate h1 span{color:var(--gold)}
+  #gate p{color:var(--muted);max-width:440px;font-size:14.5px;margin-bottom:30px}
+  #gate .g-row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+  #gate input{background:#070f1e;border:1px solid var(--line);border-radius:9px;padding:14px 16px;color:var(--cream);font:15px var(--sans);width:min(300px,80vw);outline:none}
+  #gate input:focus{border-color:var(--gold)}
+  #gate button{background:var(--gold);color:#1a1500;border:0;border-radius:9px;padding:14px 26px;font:600 14px var(--sans);cursor:pointer;letter-spacing:.04em}
+  #gate .g-err{color:#e0a3a3;font-size:13px;margin-top:14px;min-height:16px}
+  #gate .g-conf{margin-top:34px;font:600 10px/1 var(--sans);letter-spacing:2.5px;text-transform:uppercase;color:rgba(201,168,76,.4)}
+  /* ===== CONTENT ===== */
+  #doc{opacity:0;transition:opacity .6s}
+  #doc.show{opacity:1}
+  .wrap{max-width:960px;margin:0 auto;padding:0 26px}
+  header.top{border-bottom:1px solid var(--line);padding:22px 0}
+  header.top .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+  .brand{font:600 15px/1 var(--serif);letter-spacing:.32em;text-transform:uppercase;color:var(--gold)}
+  .conf-tag{font:600 10px/1 var(--sans);letter-spacing:2px;text-transform:uppercase;color:rgba(201,168,76,.55);border:1px solid var(--line);padding:6px 11px;border-radius:20px}
+  .hero{padding:92px 0 70px;text-align:center;background:radial-gradient(ellipse 80% 70% at 50% 0%,rgba(11,31,64,.7),transparent 70%)}
+  .hero .ey{font:600 11px/1 var(--sans);letter-spacing:4px;text-transform:uppercase;color:var(--gold-soft);margin-bottom:20px}
+  .hero h1{font:300 clamp(2.6rem,7vw,5rem)/1.02 var(--serif);color:var(--cream)}
+  .hero h1 em{font-style:italic;color:var(--gold)}
+  .hero .sub{color:var(--muted);max-width:640px;margin:26px auto 0;font-size:17px}
+  .hero .draft{margin-top:26px;font:600 10px/1 var(--sans);letter-spacing:2.5px;text-transform:uppercase;color:rgba(250,247,242,.35)}
+  section.blk{padding:60px 0;border-top:1px solid var(--line)}
+  .eyebrow{font:600 11px/1 var(--sans);letter-spacing:3px;text-transform:uppercase;color:var(--gold-soft);margin-bottom:16px}
+  h2.t{font:300 clamp(1.8rem,4vw,2.7rem)/1.1 var(--serif);color:var(--cream);margin-bottom:20px}
+  h3.st{font:400 1.25rem/1.3 var(--serif);color:var(--gold);margin:30px 0 10px}
+  p.body{color:var(--muted);font-size:16.5px;margin-bottom:16px;max-width:760px}
+  .lede{font-size:19px;color:rgba(250,247,242,.8);font-family:var(--serif);font-style:italic;max-width:760px}
+  .beliefs{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:24px}
+  @media(max-width:640px){.beliefs{grid-template-columns:1fr}}
+  .beliefs div{background:var(--navy2);padding:22px 22px;font-size:15.5px;color:rgba(250,247,242,.82)}
+  .beliefs div b{color:var(--gold);font-weight:400;font-family:var(--serif)}
+  .council{margin-top:26px;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .council .row{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line)}
+  .council .row>div{background:var(--navy2);padding:15px 20px;font-size:15px}
+  .council .row .p{color:var(--cream)}
+  .council .row .v{color:var(--gold-soft);text-align:right}
+  .council .row .v.filled{color:var(--gold);font-weight:600}
+  @media(max-width:560px){.council .row{grid-template-columns:1fr}.council .row .v{text-align:left;padding-top:0}}
+  .cameron{background:linear-gradient(180deg,rgba(201,168,76,.06),transparent 40%);border:1px solid var(--line);border-radius:16px;padding:40px 34px;margin-top:14px}
+  .cam-badge{display:inline-block;font:600 10px/1 var(--sans);letter-spacing:2px;text-transform:uppercase;color:#1a1500;background:var(--gold);padding:7px 13px;border-radius:20px;margin-bottom:18px}
+  ul.clean{list-style:none;margin:10px 0 0}
+  ul.clean li{position:relative;padding:8px 0 8px 24px;color:rgba(250,247,242,.8);font-size:16px}
+  ul.clean li:before{content:'\2726';position:absolute;left:0;color:var(--gold);font-size:11px;top:12px}
+  .structures{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:22px}
+  @media(max-width:640px){.structures{grid-template-columns:1fr}}
+  .structures .card{background:var(--navy2);border:1px solid var(--line);border-radius:12px;padding:20px}
+  .structures .card h4{font:400 1.05rem/1.2 var(--serif);color:var(--gold);margin-bottom:6px}
+  .structures .card p{color:var(--muted);font-size:14.5px}
+  .road{counter-reset:ph;margin-top:24px}
+  .road .ph{display:flex;gap:18px;padding:18px 0;border-bottom:1px solid var(--line)}
+  .road .ph:last-child{border-bottom:0}
+  .road .n{flex:0 0 auto;width:42px;height:42px;border:1px solid var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--gold);font:600 15px var(--sans)}
+  .road .ph h4{font:400 1.15rem/1.2 var(--serif);color:var(--cream);margin-bottom:3px}
+  .road .ph p{color:var(--muted);font-size:15px}
+  .closing{text-align:center;padding:80px 0 40px}
+  .closing p{font:300 clamp(1.6rem,4vw,2.4rem)/1.35 var(--serif);color:var(--cream);max-width:620px;margin:0 auto}
+  .closing .w{margin-top:26px;font:600 11px/1 var(--sans);letter-spacing:4px;text-transform:uppercase;color:var(--gold)}
+  footer.foot{border-top:1px solid var(--line);padding:30px 0;text-align:center;color:rgba(250,247,242,.4);font-size:12.5px}
+</style>
+</head>
+<body>
+
+<div id="gate">
+  <div class="g-mark">Trading Hearts · Private</div>
+  <h1>The Founding <span>Visionaries</span></h1>
+  <p>This is a confidential invitation. Please enter the access phrase you were given.</p>
+  <div class="g-row">
+    <input id="gpw" type="password" placeholder="Access phrase" autocomplete="off" autofocus>
+    <button id="gbtn" type="button">Enter</button>
+  </div>
+  <div class="g-err" id="gerr"></div>
+  <div class="g-conf">Confidential · Working Manifesto · Draft v1.0</div>
+</div>
+
+<div id="doc">
+  <header class="top"><div class="wrap">
+    <span class="brand">Trading Hearts</span>
+    <span class="conf-tag">Confidential · Draft v1.0</span>
+  </div></header>
+
+  <div class="hero"><div class="wrap">
+    <p class="ey">The Founding Visionaries</p>
+    <h1>People once built companies.<br>Now we build <em>worlds</em>.</h1>
+    <p class="sub">An invitation to help architect a new category of entertainment — where stories, AI, digital humans, communities, ownership, and entertainment finance converge into one persistent civilization.</p>
+    <p class="draft">Confidential Working Manifesto</p>
+  </div></div>
+
+  <section class="blk"><div class="wrap">
+    <p class="eyebrow">The Vision</p>
+    <h2 class="t">An Entertainment Civilization</h2>
+    <p class="lede">Trading Hearts is building a new category — a persistent ecosystem where characters are not intellectual property, but relationships; where audiences are not spectators, but co-creators; and where a story can be lived, owned, and traded, not merely watched.</p>
+    <p class="body" style="margin-top:20px">We are not building a product. We are building a world — and inviting a small circle of the people who invented the future to help architect its pillars.</p>
+  </div></section>
+
+  <section class="blk"><div class="wrap">
+    <p class="eyebrow">What We Believe</p>
+    <h2 class="t">Core Beliefs</h2>
+    <div class="beliefs">
+      <div><b>Stories</b> are humanity's oldest operating system.</div>
+      <div><b>Characters</b> are relationships, not merely intellectual property.</div>
+      <div><b>Artificial Intelligence</b> should amplify imagination, never replace it.</div>
+      <div><b>Creators</b> deserve ownership.</div>
+      <div><b>Communities</b> are co-creators, not audiences.</div>
+      <div><b>Entertainment</b> should be lived, not simply consumed.</div>
+      <div><b>Digital humanity</b> deserves dignity and purpose.</div>
+      <div><b>The future</b> belongs to worlds, not products.</div>
+    </div>
+  </div></section>
+
+  <section class="blk"><div class="wrap">
+    <p class="eyebrow">The Council</p>
+    <h2 class="t">The Founding Visionaries Council</h2>
+    <p class="body">Trading Hearts will invite a small group of globally respected pioneers to become architects of specific pillars of the platform — each a leader in their domain, each helping define a piece of the world.</p>
+    <div class="council">
+      <div class="row"><div class="p">Digital Humanity</div><div class="v filled">Cameron Wilson · #001</div></div>
+      <div class="row"><div class="p">Story Architecture</div><div class="v">Open</div></div>
+      <div class="row"><div class="p">AI &amp; Autonomous Agents</div><div class="v">Open</div></div>
+      <div class="row"><div class="p">Gaming</div><div class="v">Open</div></div>
+      <div class="row"><div class="p">Music</div><div class="v">Open</div></div>
+      <div class="row"><div class="p">Fashion &amp; Luxury</div><div class="v">Open</div></div>
+      <div class="row"><div class="p">Education</div><div class="v">Open</div></div>
+      <div class="row"><div class="p">Community</div><div class="v">Open</div></div>
+      <div class="row"><div class="p">Entertainment Finance</div><div class="v">Open</div></div>
+    </div>
+  </div></section>
+
+  <section class="blk"><div class="wrap">
+    <p class="eyebrow">Founding Visionary #001</p>
+    <h2 class="t">Cameron Wilson<br>The Architect of Digital Humanity</h2>
+    <div class="cameron">
+      <span class="cam-badge">Founding Visionary #001</span>
+      <h3 class="st" style="margin-top:0">The Invitation</h3>
+      <p class="body">This is not an employment offer. It is an invitation to help define the future of digital humanity inside Trading Hearts. Rather than asking you to create characters, Trading Hearts seeks a partner to help architect the world's most advanced digital character ecosystem.</p>
+
+      <h3 class="st">Why You</h3>
+      <ul class="clean">
+        <li>Creator of Shudu — the world's first widely recognized digital supermodel.</li>
+        <li>Builder of premium digital identity systems, not one-off images.</li>
+        <li>Deep expertise in luxury branding, visual consistency, licensing, and digital-human storytelling.</li>
+        <li>A rare ability to make digital personalities culturally believable — treated by luxury brands as real cultural properties.</li>
+      </ul>
+
+      <h3 class="st">Potential Areas of Leadership</h3>
+      <ul class="clean">
+        <li>Trading Hearts Character Studio</li>
+        <li>Digital Character DNA &amp; Visual Standards</li>
+        <li>The Premium Signature Character Collection</li>
+        <li>Fashion &amp; Luxury Partnerships</li>
+        <li>Character Licensing Strategy</li>
+        <li>Creative Innovation Lab</li>
+        <li>Investor storytelling around Digital Humanity</li>
+      </ul>
+
+      <h3 class="st">Partnership Philosophy</h3>
+      <p class="body">Creative freedom comes first. Trading Hearts is not seeking to constrain creativity with task lists — the platform should become the environment where exceptional creators build enduring ideas. Any long-term arrangement should align ownership with lasting value creation.</p>
+    </div>
+  </div></section>
+
+  <section class="blk"><div class="wrap">
+    <p class="eyebrow">How We Might Build Together</p>
+    <h2 class="t">Illustrative Collaboration Structures</h2>
+    <p class="body">Nothing here is fixed. These are starting points — chosen together, and shaped by where your ambitions and ours align.</p>
+    <div class="structures">
+      <div class="card"><h4>Founding Visionary</h4><p>An honored architect of a pillar — title, voice, and long-term stake in the world you help build.</p></div>
+      <div class="card"><h4>Strategic Advisor</h4><p>Lightweight engagement — quarterly strategy, creative direction, and standards.</p></div>
+      <div class="card"><h4>Milestone-Based Equity</h4><p>Ownership aligned to lasting value — vesting tied to deliverables, not a one-time grant.</p></div>
+      <div class="card"><h4>Revenue Participation</h4><p>A share of the value created by the characters and systems you directly develop.</p></div>
+      <div class="card"><h4>Joint Venture</h4><p>Trading Hearts × The Diigitals — co-created premium digital humans with carefully defined, co-owned IP.</p></div>
+      <div class="card"><h4>Exclusive Strategic Collaboration</h4><p>Official Fashion &amp; Luxury Character Partner — exclusive within Entertainment Finance.</p></div>
+    </div>
+  </div></section>
+
+  <section class="blk"><div class="wrap">
+    <p class="eyebrow">The Path</p>
+    <h2 class="t">Roadmap</h2>
+    <div class="road">
+      <div class="ph"><div class="n">1</div><div><h4>Manifesto &amp; Alignment</h4><p>Shared vision, character philosophy, and strategic alignment — relationship first.</p></div></div>
+      <div class="ph"><div class="n">2</div><div><h4>Character Studio &amp; Standards</h4><p>The Digital Human standards, DNA, and production pipeline that make TH characters unmistakable.</p></div></div>
+      <div class="ph"><div class="n">3</div><div><h4>Flagship Character Launches</h4><p>The first Signature Characters, launched with clear success metrics — quality, engagement, and commercial interest.</p></div></div>
+      <div class="ph"><div class="n">4</div><div><h4>Brand Partnerships &amp; Licensing</h4><p>Turning believable characters into luxury and cultural partnerships.</p></div></div>
+      <div class="ph"><div class="n">5</div><div><h4>Global Digital Humanity Platform</h4><p>A scalable studio and ecosystem — the world's leading home for digital humanity.</p></div></div>
+    </div>
+  </div></section>
+
+  <div class="closing"><div class="wrap">
+    <p>"Stories are humanity's oldest operating system. We're building the world where they finally come to life."</p>
+    <p class="w">Welcome to Trading Hearts</p>
+  </div></div>
+
+  <footer class="foot"><div class="wrap">
+    Confidential — prepared for the Founding Visionaries initiative. Not for distribution. © 2026 Trading Hearts Productions LLC.
+  </div></footer>
+</div>
+
+<script>
+(function(){
+  // Access phrase. Change the value below to update the password.
+  var PHRASE = "visionary001";
+  var gate=document.getElementById('gate'), doc=document.getElementById('doc'),
+      inp=document.getElementById('gpw'), btn=document.getElementById('gbtn'), err=document.getElementById('gerr');
+  function tryEnter(){
+    if((inp.value||'').trim().toLowerCase()===PHRASE){
+      gate.classList.add('hidden'); doc.classList.add('show'); try{sessionStorage.setItem('th_fv','1');}catch(e){}
+    } else { err.textContent='That access phrase is not recognized.'; inp.select(); }
+  }
+  btn.addEventListener('click',tryEnter);
+  inp.addEventListener('keydown',function(e){ if(e.key==='Enter')tryEnter(); });
+  try{ if(sessionStorage.getItem('th_fv')==='1'){ gate.classList.add('hidden'); doc.classList.add('show'); } }catch(e){}
+})();
+</script>
+</body>
+</html>

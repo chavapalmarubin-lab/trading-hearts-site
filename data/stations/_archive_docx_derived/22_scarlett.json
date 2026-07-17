@@ -1,0 +1,236 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 22,
+  "character_name": "SCARLETT RAYNE",
+  "character_key": "scarlett",
+  "header": "SCARLETT RAYNE"
+ },
+ "museum_objects": [
+  {
+   "title": "Holey Dollar, 5 Shillings, NSW",
+   "institution": "Museums Victoria",
+   "accession": "Item 55645",
+   "date": "1813",
+   "url": "https://collections.museumsvictoria.com.au/items/55645",
+   "licence_raw": "Check individual item rights statement",
+   "description": "Spanish dollar with center punched out by Governor Macquarie to prevent currency leaving the colony.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://collections.museumsvictoria.com.au/items/55645",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "\"Australian Notes: The Change to Decimal Currency\" specimen album",
+   "institution": "State Library of NSW",
+   "accession": "Call number Q655.318/1A1",
+   "date": "Acquired Jan 28, 1966",
+   "url": "https://www2.sl.nsw.gov.au/archive/curio/exhibit/1339/index9e72.html?from_collection=2&page=2",
+   "licence_raw": "Institutional — contact required",
+   "description": "Gordon Andrews' 1966 specimen banknote album documenting the decimal currency design process.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www2.sl.nsw.gov.au/archive/curio/exhibit/1339/index9e72.html?from_collection=2&page=2",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "\"Black Hill, Ballarat – gold mining\" photograph",
+   "institution": "State Library of Victoria (eGold archive)",
+   "accession": "Accession H36581 / Image b26795",
+   "date": "c.1861",
+   "url": "https://www.egold.net.au/archives/AEG000010.htm",
+   "licence_raw": "Not stated — verify with SLV",
+   "description": "Richard Daintree photograph of Ballarat gold mining operations.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.egold.net.au/archives/AEG000010.htm",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Bicentennial commemorative $10 polymer banknote",
+   "institution": "RBA Museum",
+   "accession": "N/A",
+   "date": "Released Jan 26, 1988",
+   "url": "https://museum.rba.gov.au/exhibitions/pocket-guides/the-reinvention-of-banknotes/the-reinvention-of-banknotes.html",
+   "licence_raw": "Treat as NOT STATED, contact RBA Museum",
+   "description": "World's first polymer banknote, developed with CSIRO.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://museum.rba.gov.au/exhibitions/pocket-guides/the-reinvention-of-banknotes/the-reinvention-of-banknotes.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Harold Holt's Briefcase",
+   "institution": "National Archives of Australia (via NFSA)",
+   "accession": "N/A",
+   "date": "1960s",
+   "url": "https://www.nfsa.gov.au/collection/item/harold-holts-briefcase",
+   "licence_raw": "Institutional — contact required",
+   "description": "Personal artifact of the Treasurer who announced the \"dollar\" name.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "RBA 1966 Annual Report — primary institutional changeover statistics.",
+   "detail": "",
+   "url": "https://www.rba.gov.au/publications/annual-reports/rba/1966/oth-act-bank.html",
+   "licence_raw": "RBA 1966 Annual Report — primary institutional changeover statistics.",
+   "licence_class": "contact_required",
+   "raw": "RBA 1966 Annual Report — primary institutional changeover statistics.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.rba.gov.au/publications/annual-reports/rba/1966/oth-act-bank.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "National Museum of Australia, \"Defining Moments — Decimal Currency\" — primary historical account of the naming debate.",
+   "detail": "",
+   "url": "https://www.nma.gov.au/defining-moments/resources/decimal-currency",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "National Museum of Australia, \"Defining Moments — Decimal Currency\" — primary historical account of the naming debate.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "PM transcript, opening speech, Feb 6, 1966 — primary government transcript.",
+   "detail": "",
+   "url": "https://pmtranscripts.pmc.gov.au/sites/default/files/original/00001065.pdf",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "PM transcript, opening speech, Feb 6, 1966 — primary government transcript.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://pmtranscripts.pmc.gov.au/sites/default/files/original/00001065.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "NFSA, \"New Decimal Coin Designs\" (1964) — primary archival film footage.",
+   "detail": "",
+   "url": "https://www.nfsa.gov.au/collection/curated/asset/98232-new-decimal-coin-designs",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "NFSA, \"New Decimal Coin Designs\" (1964) — primary archival film footage.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "CSIROpedia, \"Polymer Banknotes\" — primary institutional account of the 1988 world-first innovation.",
+   "detail": "",
+   "url": "https://csiropedia.csiro.au/polymer-banknotes/",
+   "licence_raw": "CSIROpedia, \"Polymer Banknotes\" — primary institutional account of the 1988 world-first innovation.",
+   "licence_class": "contact_required",
+   "raw": "CSIROpedia, \"Polymer Banknotes\" — primary institutional account of the 1988 world-first innovation.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://csiropedia.csiro.au/polymer-banknotes/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: 1963, Australia. Prime Minister Robert Menzies has publicly announced his preferred name for the new decimal currency — \"Royal\" — but the public reaction is immediate and hostile, with practical objections (like the awkward abbreviation for \"Royal cents\") circulating widely. The outcome was genuinely uncertain: would the government hold firm on the Prime Minister's chosen name, or bow to public pressure?Player choice: Keep the Prime Minister's chosen name \"Royal,\" or reverse course and adopt a different public-friendly name.Historical resolution: The government reversed course. Treasurer Harold Holt announced the name \"dollar\" about three months after the \"Royal\" backlash, and Australia officially adopted the decimal dollar on C-Day, February 14, 1966.",
+ "understand": {
+  "economic_impact": "The Australian dollar's value is closely tied to global commodity demand, particularly China's appetite for iron ore and other resources extracted in the Pilbara and elsewhere — when Chinese demand slows, the currency typically weakens [TH Script Writing Bible voice profile]. The 1966 decimal conversion itself required producing 153 million banknotes and modernized the entire national payments system in a single coordinated changeover RBA 1966 Annual Report.",
+  "political_impact": "The public rejection of Prime Minister Menzies' preferred currency name \"Royal\" in favor of \"dollar\" stands as a notable instance of public opinion directly overriding a government leader's stated preference on a national symbol National Museum of Australia.",
+  "why_it_still_matters": "Australia's money is directly tied to what's physically dug out of its own ground — iron ore, gold, coal — and to whether other countries, especially China, want to buy it. When China's factories slow down and need less iron ore, Australia sells less of it, and the Australian dollar tends to weaken almost immediately. Scarlett's story matters because it shows how a country's money can be a direct mirror of its physical economy — not banks or stock markets, but literally rocks in the ground and who wants to buy them."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:41"
+}

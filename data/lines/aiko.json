@@ -1,0 +1,61 @@
+{
+ "custodian": "aiko",
+ "name": "Aiko Satori",
+ "asset": "Japanese Yen",
+ "stations": [
+  {
+   "year": 1871,
+   "label": "THE NEW CURRENCY ACT",
+   "line": "In 1871 they gave me a decimal spine and a round name, and I began to count the country into being.",
+   "era_photo": "A young woman in early Meiji formal kimono standing beside a Meiji government minting building in Osaka, stiff wet-collodion tintype, sepia tones, long exposure holding her perfectly still."
+  },
+  {
+   "year": 1897,
+   "label": "I ENTERED THE GOLD",
+   "line": "In 1897 I was bound to gold, and for the first time the world agreed on what I was worth.",
+   "era_photo": "Standing at a Bank of Japan counter in a dark high-collared Meiji Western-influenced dress, albumen print, formal frontal composition, gold ledgers visible on the table."
+  },
+  {
+   "year": 1949,
+   "label": "FIXED AT 360",
+   "line": "In 1949 they pinned me at three hundred sixty to the dollar, and I learned to serve a rebuilding I did not choose the terms of.",
+   "era_photo": "A woman in austere postwar cotton clothing amid Occupation-era Tokyo rubble and reconstruction scaffolding, black-and-white silver gelatin print, harsh documentary daylight."
+  },
+  {
+   "year": 1971,
+   "label": "THE PEG BREAKS",
+   "line": "In 1971 the dollar let go of gold, and for the first time I was permitted to move \u2014 and I moved upward.",
+   "era_photo": "Standing near a Nihonbashi trading floor in a muted 1970s wool suit-dress, grainy Kodachrome color, teletype machines and paper tape blurred behind her."
+  },
+  {
+   "year": 1985,
+   "label": "THE PLAZA ACCORD",
+   "line": "In 1985 five men signed a paper in New York and I doubled in strength within three years; they called it agreement, and I was the price of it.",
+   "era_photo": "A composed woman in a sharp 1980s tailored blazer in a Tokyo office of glass and steel, saturated 35mm color film, bubble-era neon reflected in the window at dusk."
+  },
+  {
+   "year": 1990,
+   "label": "THE BUBBLE ENDS",
+   "line": "In 1990 the asset prices collapsed, and what followed was not a crash but two decades of a country quietly discovering the flaws in what it had believed.",
+   "era_photo": "Still, unsmiling woman in a dark restrained suit before a falling Nikkei board, cool early-90s color photography, fluorescent light, muted palette."
+  },
+  {
+   "year": 2013,
+   "label": "THE CARRY BEGINS",
+   "line": "In 2013 they set my rate near zero and left it there, and I became the funding the whole world borrowed without asking what the years cost me.",
+   "era_photo": "Woman in minimal charcoal modern attire in a quiet Bank of Japan corridor, clean digital DSLR image, soft shadowless institutional lighting, glass and pale wood."
+  },
+  {
+   "year": 2024,
+   "label": "THE STRUCTURE BECAME VISIBLE",
+   "line": "On the fifth of August the carry unwound in a single day, and the patience of eleven years completed itself; I would not call it revenge, only the structure becoming visible.",
+   "era_photo": "A perfectly still woman in precise contemporary black, standing before a plunging market display, high-resolution digital photograph, cold blue screen-light on her composed face."
+  },
+  {
+   "year": 2025,
+   "label": "TODAY, STILL COUNTING",
+   "line": "Today I hold a rate no longer zero and a discipline no longer questioned, and I remain what I have always been \u2014 present, at a price.",
+   "era_photo": "Woman in immaculate modern minimalist dress in a serene Tokyo interior with a shakuhachi resting nearby, crisp full-color digital photography, natural window light, deep quiet space around her."
+  }
+ ]
+}

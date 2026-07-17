@@ -1,0 +1,240 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 6,
+  "character_name": "CAMILA REYES",
+  "character_key": "camila",
+  "header": "CAMILA REYES"
+ },
+ "museum_objects": [
+  {
+   "title": "8 Reales, Mexico",
+   "institution": "Smithsonian National Museum of American History",
+   "accession": "NU.68.159.2418",
+   "date": "1805",
+   "url": "https://www.si.edu/es/object/nmah_1111342",
+   "licence_raw": "Verify via Smithsonian Open Access (si.edu/openaccess)",
+   "description": "Silver coin with Charles IV obverse, Pillars of Hercules reverse, bearing Chinese chop marks.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   }
+  },
+  {
+   "title": "Spanish Silver Half Dollar",
+   "institution": "Smithsonian National Museum of American History",
+   "accession": "Object nmah_1110689",
+   "date": "1788",
+   "url": "https://americanhistory.si.edu/collections/object/nmah_1110689",
+   "licence_raw": "Verify via Smithsonian Open Access",
+   "description": "Spanish colonial silver half-dollar denomination example.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   }
+  },
+  {
+   "title": "Codex Mendoza",
+   "institution": "Bodleian Library, University of Oxford",
+   "accession": "MS. Arch. Selden. A. 1",
+   "date": "c. 1541–1542",
+   "url": "https://digital.bodleian.ox.ac.uk/objects/2fea788e-2aa2-4f08-b6d9-648c00486220/",
+   "licence_raw": "Bodleian digital access terms apply",
+   "description": "Pictorial Aztec history and 38-province tribute-list manuscript.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://digital.bodleian.ox.ac.uk/objects/2fea788e-2aa2-4f08-b6d9-648c00486220/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Florentine Codex",
+   "institution": "Biblioteca Medicea Laurenziana, Florence (digital: Getty Research Institute)",
+   "accession": "N/A",
+   "date": "c. 1545–1590s",
+   "url": "https://florentinecodex.getty.edu/",
+   "licence_raw": "Getty digital access terms apply",
+   "description": "Sahagún's General History of the Things of New Spain, illustrating Aztec clothing and featherwork.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://florentinecodex.getty.edu/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Codex Mendoza folio 20r",
+   "institution": "Wikimedia Commons (source: Bodleian)",
+   "accession": "N/A",
+   "date": "c. 1541–1542",
+   "url": "https://en.wikipedia.org/wiki/File:Codex_Mendoza_folio_20r.jpg",
+   "licence_raw": "Public domain",
+   "description": "Sample tribute-list folio depicting goods owed to Moctezuma II.",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/File:Codex_Mendoza_folio_20r.jpg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "licence": "CC BY-SA (text)"
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Banco de México: \"The history of coins and banknotes in México\" — official numismatic history including founding decree text.",
+   "detail": "",
+   "url": "https://www.banxico.org.mx/banknotes-and-coins/d/%7BB8C0D87B-F55F-792A-A6C6-FC0F58CF2EA3%7D.pdf",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Banco de México: \"The history of coins and banknotes in México\" — official numismatic history including founding decree text.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.banxico.org.mx/banknotes-and-coins/d/%7BB8C0D87B-F55F-792A-A6C6-FC0F58CF2EA3%7D.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "UNESCO World Heritage listing: City of Potosí — official description of the Cerro Rico mining complex and mita-worker neighborhoods.",
+   "detail": "",
+   "url": "https://whc.unesco.org/en/list/420/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "UNESCO World Heritage listing: City of Potosí — official description of the Cerro Rico mining complex and mita-worker neighborhoods.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://whc.unesco.org/en/list/420/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Bernal Díaz del Castillo's account of the Tlatelolco market (bilingual excerpt) — primary conquest-era eyewitness description.",
+   "detail": "",
+   "url": "https://pages.ucsd.edu/~dkjordan/nahuatl/aztecfolio/AztecFolio03-Tlatel.html",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Bernal Díaz del Castillo's account of the Tlatelolco market (bilingual excerpt) — primary conquest-era eyewitness description.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://pages.ucsd.edu/~dkjordan/nahuatl/aztecfolio/AztecFolio03-Tlatel.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Codex Mendoza digital manuscript, Bodleian Library — primary Aztec tribute record.",
+   "detail": "",
+   "url": "https://digital.bodleian.ox.ac.uk/objects/2fea788e-2aa2-4f08-b6d9-648c00486220/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Codex Mendoza digital manuscript, Bodleian Library — primary Aztec tribute record.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://digital.bodleian.ox.ac.uk/objects/2fea788e-2aa2-4f08-b6d9-648c00486220/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Hernán Cortés's Fourth Letter to Charles V, Oct 15, 1524 (cacao-currency exchange rate reference) — primary conquest-era economic record.",
+   "detail": "",
+   "url": "https://jayarrchocolate.com/blog/aztec-cacao-currency-history/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Hernán Cortés's Fourth Letter to Charles V, Oct 15, 1524 (cacao-currency exchange rate reference) — primary conquest-era economic record.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://jayarrchocolate.com/blog/aztec-cacao-currency-history/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: 1572, Potosí. Viceroy Francisco de Toledo must decide whether to close the Lima mint and consolidate all Spanish silver coinage at a brand-new mint built directly at Potosí, right next to the silver source — an enormous logistical gamble, since Potosí was a remote, high-altitude mining town with none of Lima's existing infrastructure, skilled labor, or administrative systems. The outcome was genuinely uncertain: the new mint could fail to reach production targets, straining the Spanish crown's finances at a critical period of imperial expansion.Player choice: Build the new mint at Potosí, or keep coinage centralized at the established Lima mint.Historical resolution: Toledo built at Potosí. The mint operated continuously from 1573/1574 until 1773, becoming the source of the coinage that dominated world trade for two centuries.",
+ "understand": {
+  "economic_impact": "The Mexican peso's silver became the working capital of a genuinely global trading system for the first time in history — Chinese silk and porcelain flowed to Mexico via Manila, and Mexican-minted silver flowed back to China to settle the trade balance, for roughly 250 years Manila Galleon feature. The coin's design and reliability directly shaped the eventual U.S. dollar Smithsonian object page.",
+  "political_impact": "The mint's founding inside Moctezuma II's confiscated palace was a direct assertion of political conquest through currency — money itself became a tool of colonial replacement Wikipedia: Antonio de Mendoza. The mita forced-labor system that extracted Potosí's silver was one of the most consequential and lethal labor institutions of the Spanish colonial era, and it is now formally preserved as part of a UNESCO World Heritage designation precisely because of this history UNESCO: City of Potosí.",
+  "why_it_still_matters": "Before Camila's coin, there wasn't really a \"world economy\" — different regions traded with each other in small, disconnected ways. Her coin changed that. Silver mined by forced laborers in the mountains of Bolivia was turned into coins in Mexico City, shipped across the Pacific Ocean to the Philippines, and used to buy silk and tea directly from China — and it worked because everyone, everywhere, trusted that a Mexican peso was really made of the silver it claimed to be. That's the same reason you trust a $20 bill today: not because of the paper, but because everyone agrees to believe in it together. And the story has a hard truth in it too — that trust was built on the backs of people who never chose to be part of it, working in brutal conditions in the mountains, with none of the wealth their labor created ever coming back to them."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:37"
+}

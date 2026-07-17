@@ -1,0 +1,55 @@
+{
+ "custodian": "isabelle",
+ "name": "Isabelle Dupont",
+ "asset": "French Franc",
+ "stations": [
+  {
+   "year": 1360,
+   "label": "BORN TO RANSOM A KING",
+   "line": "I was struck in gold to buy back Jean le Bon from the English, and so my first act was to make a king's humiliation legible in metal \u2014 franc, meaning free, though nothing about my birth was free.",
+   "era_photo": "A medieval mint chamber lit by tallow candles, a woman in a fitted 14th-century houppelande of deep blue and gold thread standing beside an anvil where the franc \u00e0 cheval is being struck; the image rendered as an illuminated manuscript miniature, tempera and gold leaf on vellum, flat perspective and jewel-toned pigments."
+  },
+  {
+   "year": 1795,
+   "label": "THE REPUBLIC MAKES ME DECIMAL",
+   "line": "The Revolution took my chaos of sols and deniers and imposed reason upon it \u2014 one hundred centimes to the franc, because a republic that has just decapitated its king cannot tolerate an incoherent coinage.",
+   "era_photo": "A Directory-era Parisian bureau of assignats and coin, a woman in a high-waisted white Empire chemise gown with a tricolor sash standing among stacks of freshly minted silver francs; rendered as a hand-tinted engraving of the 1790s, fine crosshatched line work with pale watercolor washes."
+  },
+  {
+   "year": 1865,
+   "label": "I ANCHOR A CURRENCY UNION",
+   "line": "France, Belgium, Switzerland, Italy \u2014 they took my weight and fineness as their common law, and for the first time I was not merely a coin but an architecture, which is the only form of power I have ever respected.",
+   "era_photo": "A gilded Second Empire salon with heavy velvet drapes, a woman in a wide crinoline gown of bronze silk with lace at the throat seated at a marble table strewn with treaty documents; rendered as an albumen silver print, warm sepia tones, the slight softness and long-exposure stillness of 1860s photography."
+  },
+  {
+   "year": 1958,
+   "label": "THE GENERAL RESCUES ME",
+   "line": "I had collapsed under war and empire and inflation, a franc that meant nothing, until de Gaulle returned and gave me a new franc worth one hundred of the old \u2014 grandeur restored not by sentiment but by arithmetic.",
+   "era_photo": "A stark Banque de France office in the Fifth Republic's first year, a woman in a tailored grey Dior-line suit with structured shoulders and a single strand of pearls, standing before a portrait of de Gaulle; rendered as a black-and-white silver gelatin press photograph, high contrast, the crisp documentary style of 1958 Paris-Match."
+  },
+  {
+   "year": 1983,
+   "label": "THE NIGHT DISCIPLINE WON",
+   "line": "Mitterrand's socialist ambition collided with the market, and in a single grave decision we chose to stay in the European system and impose rigueur \u2014 I learned that night that one does not devalue a currency, one confesses a failure.",
+   "era_photo": "A nocturnal government meeting room at the \u00c9lys\u00e9e, a woman in a sober navy skirt suit with the wider silhouette of the early eighties, cigarette smoke and papers, exhaustion in the eyes; rendered as a grainy color press photograph on Kodak film, the muted greens and browns of early-1980s interior lighting."
+  },
+  {
+   "year": 1992,
+   "label": "THE SILENCE AT 3 A.M.",
+   "line": "When the speculators broke the sterling and turned upon me, we raised rates and did not blink, and I remember the precise quality of silence in the boardroom at three in the morning \u2014 the sound of an institution refusing to break.",
+   "era_photo": "A dim Banque de France boardroom during the ERM crisis, a woman in a charcoal power suit with a silk scarf, screens glowing with exchange rates behind her, coffee cups abandoned; rendered as a color 35mm photograph with the slightly cool cast and mild grain of early-1990s film stock."
+  },
+  {
+   "year": 2002,
+   "label": "I SIGN AWAY SIX CENTURIES",
+   "line": "On the first of January the notes and coins vanished from French hands and the euro took my place \u2014 I did the political groundwork, absorbed the criticism, and signed the paper that ended six hundred years of monetary sovereignty, and I still do not know whether it was transcendence or erasure.",
+   "era_photo": "A bright Paris bank branch in winter, a woman in an elegant black wool coat and grey cashmere scarf watching francs exchanged for euros at a counter; rendered as an early digital color photograph, slightly flat dynamic range and the clean crispness of a 2002 professional DSLR."
+  },
+  {
+   "year": 2024,
+   "label": "THE ARCHITECT REMEMBERS",
+   "line": "I no longer circulate, but I made Sofia Kraus possible, and I keep my Clairefontaine notebook still \u2014 for the market is a fact, the institution is a choice, and I chose to become something larger than myself.",
+   "era_photo": "A quiet contemporary study lined with books and framed old franc notes, a woman in a timeless tailored ivory blouse and dark trousers, silver in her hair, writing by hand in a notebook; rendered as a high-resolution modern digital photograph, natural window light, shallow depth of field, warm neutral tones."
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>Explore · Trading Hearts</title><style>
+:root{--navy:#0a1526;--navy2:#0e1c31;--card:#122241;--gold:#c9a961;--gold2:#e3c988;
+--ink:#e7e2d6;--dim:rgba(231,226,214,.62);--line:rgba(201,169,97,.22)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--navy);color:var(--ink);
+font:16px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+a{color:var(--gold2)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 26px 90px}
+header.hero{padding:54px 26px 30px;border-bottom:1px solid var(--line);background:var(--navy2)}
+header.hero .in{max-width:1120px;margin:0 auto;display:flex;gap:26px;align-items:center}
+.era{color:var(--gold);letter-spacing:.18em;text-transform:uppercase;font-size:.74rem}
+h1{font-family:Georgia,serif;font-size:2.5rem;margin:.15em 0 .1em;font-weight:400}
+.tag{color:var(--dim);max-width:62ch;font-style:italic}
+.pt{width:104px;height:104px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);flex:0 0 auto}
+h2{font-family:Georgia,serif;font-weight:400;font-size:1.6rem;margin:52px 0 6px;color:var(--gold2)}
+.sub{color:var(--dim);font-size:.92rem;margin:0 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;
+display:flex;flex-direction:column}
+.card img{width:100%;height:210px;object-fit:cover;background:#0a1526}
+/* The "cited, not shown" state must read as RIGOUR, not as a broken image. */
+.cite{height:210px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+text-align:center;padding:22px;gap:9px;
+background:linear-gradient(160deg,#0e1c31,#0a1526);border-bottom:1px solid var(--line)}
+.cite .seal{width:38px;height:38px;border:1px solid var(--gold);border-radius:50%;
+display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:1.05rem}
+.cite .acc{font:600 .96rem/1.3 Georgia,serif;color:var(--gold2);letter-spacing:.02em}
+.cite .inst{font-size:.78rem;color:var(--dim)}
+.cite .why{font-size:.7rem;color:rgba(231,226,214,.45);max-width:26ch;line-height:1.45}
+.cite a{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;
+border-bottom:1px solid var(--line);padding-bottom:2px}
+.attr{font-size:.7rem;color:rgba(231,226,214,.45);line-height:1.5}
+.attr a{color:rgba(231,226,214,.62)}
+.card .b{padding:16px 18px 18px;flex:1;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font:600 1.02rem/1.35 Georgia,serif;color:var(--ink)}
+.meta{font-size:.78rem;color:var(--dim)}
+.desc{font-size:.9rem;color:rgba(231,226,214,.85)}
+.sig{font-size:.88rem;color:var(--gold2);border-left:2px solid var(--gold);padding-left:10px}
+.badge{display:inline-block;font-size:.64rem;letter-spacing:.09em;text-transform:uppercase;
+padding:3px 8px;border-radius:5px;border:1px solid var(--line);color:var(--dim)}
+.badge.ok{color:#8fd6a0;border-color:rgba(143,214,160,.4)}
+.badge.warn{color:#e0b96a;border-color:rgba(224,185,106,.4)}
+.badge.bad{color:#e08c8c;border-color:rgba(224,140,140,.4)}
+.foot{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding-top:6px}
+.src{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.src li{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.src h3{margin:0 0 4px;font:600 1rem/1.4 Georgia,serif}
+.unk{background:rgba(224,140,140,.07);border:1px solid rgba(224,140,140,.3);
+border-radius:12px;padding:22px 24px}
+.unk li{margin:8px 0;color:rgba(231,226,214,.9)}
+.mapnodes{display:grid;gap:8px}
+.mapnodes div{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 14px;
+font-size:.9rem;display:flex;justify-content:space-between;gap:12px}
+.mapnodes span{color:var(--dim);font-size:.78rem;font-variant-numeric:tabular-nums}
+footer{border-top:1px solid var(--line);margin-top:60px;padding:26px;text-align:center;color:var(--dim);font-size:.8rem}
+
+/* NAVIGATION — a reader who cannot get back is a reader you lost. */
+.topnav{position:sticky;top:0;z-index:50;background:rgba(10,21,38,.94);
+backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid var(--line)}
+.topnav .in{max-width:1120px;margin:0 auto;padding:11px 26px;display:flex;align-items:center;
+gap:18px;flex-wrap:wrap}
+.home{display:inline-flex;align-items:center;gap:7px;text-decoration:none;color:var(--gold2);
+font:600 .82rem/1 -apple-system;letter-spacing:.04em;white-space:nowrap}
+.home:hover{color:#fff}
+.jump{display:flex;gap:14px;margin-left:auto;flex-wrap:wrap}
+.jump a{color:var(--dim);text-decoration:none;font-size:.78rem;letter-spacing:.06em;
+text-transform:uppercase;white-space:nowrap}
+.jump a:hover{color:var(--gold2)}
+.pager{display:flex;justify-content:space-between;gap:14px;margin-top:44px;
+border-top:1px solid var(--line);padding-top:22px}
+.pager a{text-decoration:none;color:var(--gold2);font-size:.85rem}
+.pager a:hover{color:#fff}
+.pager .nx{text-align:right}
+.pager small{display:block;color:var(--dim);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase}
+@media(max-width:640px){.jump{display:none}}
+
+.src li{display:flex;justify-content:space-between;gap:14px;align-items:baseline}</style></head><body>
+<header class="hero"><div class="in"><div><div class="era">The Archive</div>
+<h1>Explore</h1><p class="tag">28 characters. Every object real. Every claim sourced.</p></div></div></header>
+<div class="wrap"><h2>Characters</h2><ul class="src"><li><a href="alexandros.html">Alexandros</a> <span class="meta">600 BCE · Greek Drachma</span></li><li><a href="aurora_lux.html">Aurora Lux</a> <span class="meta">550 BCE · Gold</span></li><li><a href="charlotte_windsor.html">Charlotte Windsor</a> <span class="meta">775 · British Pound Sterling</span></li><li><a href="isabelle_dupont.html">Isabelle Dupont</a> <span class="meta">793 · French Franc</span></li><li><a href="lars_van_holst.html">Lars Van Holst</a> <span class="meta">1378 · Dutch Guilder</span></li><li><a href="camila_reyes.html">Camila Reyes</a> <span class="meta">1535 · Mexican Peso</span></li><li><a href="conrad_powers.html">Conrad Powers</a> <span class="meta">1792 · US Dollar</span></li><li><a href="valentina_paz.html">Valentina Paz</a> <span class="meta">1826 · Argentine Peso</span></li><li><a href="catalina_restrepo.html">Catalina Restrepo</a> <span class="meta">1837 · Colombian Peso</span></li><li><a href="clara_weiss.html">Clara Weiss</a> <span class="meta">1850 · Swiss Franc</span></li><li><a href="marisol_ferro.html">Marisol Ferro</a> <span class="meta">1857 · Cuban Peso</span></li><li><a href="zane_okafor.html">Zane Okafor</a> <span class="meta">1859 · WTI Crude Oil</span></li><li><a href="matteo_conti.html">Matteo Conti</a> <span class="meta">1861 · Italian Lira</span></li><li><a href="carlos_ibanez.html">Carlos Ibáñez</a> <span class="meta">1868 · Spanish Peseta</span></li><li><a href="aiko_satori.html">Aiko Satori</a> <span class="meta">1871 · Japanese Yen</span></li><li><a href="isabella_frost.html">Isabella Frost</a> <span class="meta">1871 · Canadian Dollar</span></li><li><a href="simon_vargas.html">Simón Vargas</a> <span class="meta">1879 · Venezuelan Bolívar</span></li><li><a href="ana_ferreira.html">Ana Ferreira</a> <span class="meta">1911 · Portuguese Escudo</span></li><li><a href="klaus_richter.html">Klaus Richter</a> <span class="meta">1948 · German Deutsche Mark</span></li><li><a href="mei.html">Mei</a> <span class="meta">1948 · Chinese Yuan Renminbi</span></li><li><a href="victoria_steele.html">Victoria Steele</a> <span class="meta">1957 · S&amp;P 500 Index</span></li><li><a href="scarlett_rayne.html">Scarlett Rayne</a> <span class="meta">1966 · Australian Dollar</span></li><li><a href="fernanda_luz.html">Fernanda Luz</a> <span class="meta">1994 · Brazilian Real</span></li><li><a href="sofia_valente.html">Sofia Valente</a> <span class="meta">1999 · Euro</span></li><li><a href="niko_valdez.html">Niko Valdez</a> <span class="meta">2020 · Solana</span></li><li><a href="wei.html">Wei</a> <span class="meta">2010 · Offshore Chinese Yuan</span></li><li><a href="hiro_cipher.html">Hiro Cipher</a> <span class="meta">2009 · Bitcoin</span></li><li><a href="zephyr_cole.html">Zephyr Cole</a> <span class="meta">2015 · Ethereum</span></li></ul></div>
+<footer>Trading Hearts</footer></body></html>

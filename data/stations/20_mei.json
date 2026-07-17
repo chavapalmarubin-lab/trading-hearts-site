@@ -1,0 +1,468 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 20,
+  "character_key": "mei",
+  "character_name": "Mei",
+  "asset": "Chinese Yuan Renminbi",
+  "ticker": "CNY",
+  "era": "1948",
+  "era_label": "Founding of the People's Republic Era",
+  "era_year": 1948,
+  "tagline": "She arrives without ever seeming to move — and somehow she's already in the room."
+ },
+ "museum_objects": [
+  {
+   "id": "mei_obj_1",
+   "title": "First Series Renminbi Note (1948)",
+   "date": "December 1, 1948",
+   "type": "banknote",
+   "material": "paper",
+   "description": "The very first renminbi banknote, issued in Shijiazhuang, Hebei, with calligraphy by Dong Biwu.",
+   "significance": "Mei arrived quietly in a provincial city, not a capital — and by the time anyone noticed, she was already the currency of the world's most populous nation.",
+   "museum": "Referenced via Wikipedia / historical archives",
+   "museum_location": "Shijiazhuang, Hebei, China",
+   "accession_number": "First Series RMB 1948",
+   "collection_url": "https://en.wikipedia.org/wiki/First_series_of_the_renminbi",
+   "image_url": "https://en.wikipedia.org/wiki/First_series_of_the_renminbi",
+   "license": "CC BY-SA (Wikimedia reference)",
+   "open_access": true,
+   "plain_language": "The very first version of China's currency, printed in 1948, a year before the People's Republic of China was even declared.",
+   "url": "https://en.wikipedia.org/wiki/First_series_of_the_renminbi",
+   "accession": "First Series RMB 1948",
+   "institution": "Referenced via Wikipedia / historical archives",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/First_series_of_the_renminbi",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "3 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "display_image": null
+  },
+  {
+   "id": "mei_obj_2",
+   "title": "RMB Steel Printing Plates (Complete Set)",
+   "date": "Mid-20th century",
+   "type": "printing_plate",
+   "material": "steel",
+   "description": "The only complete set of original renminbi steel printing plates known to exist in the world.",
+   "significance": "Every renminbi bill that has ever entered circulation traces back to plates like these — the literal fingerprint behind Mei's entire physical existence.",
+   "museum": "Shanghai Bank Museum",
+   "museum_location": "Shanghai, China",
+   "accession_number": "Complete RMB printing plate set",
+   "collection_url": "https://english.shanghai.gov.cn/en-MuseumsGalleries/20240725/f4e179b9611942b2b492b3d55857f60e.html",
+   "image_url": "https://english.shanghai.gov.cn/en-MuseumsGalleries/20240725/f4e179b9611942b2b492b3d55857f60e.html",
+   "license": "Shanghai Bank Museum terms",
+   "open_access": false,
+   "plain_language": "The only complete set of the original metal plates used to print China's very first currency — nothing else like it exists.",
+   "url": "https://english.shanghai.gov.cn/en-MuseumsGalleries/20240725/f4e179b9611942b2b492b3d55857f60e.html",
+   "accession": "Complete RMB printing plate set",
+   "institution": "Shanghai Bank Museum",
+   "licence": "Shanghai Bank Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": null,
+    "error": "URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Microscope",
+     "accession": "1986.1a–d",
+     "date": "ca. 1750",
+     "image_url": "https://images.metmuseum.org/CRDImages/es/original/DP108688.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/207549",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Presentation Sword and Scabbard of Brigadier General Daniel Davis (1777–1814) of the New York Militia",
+     "accession": "22.19a, b",
+     "date": "ca. 1815–17",
+     "image_url": "https://images.metmuseum.org/CRDImages/aa/original/DT751.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/22769",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "The Billboard 1922-03-25- Vol 34 Iss 12 (IA sim billboard 1922-03-25 34 12).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/The_Billboard_1922-03-25-_Vol_34_Iss_12_%28IA_sim_billboard_1922-03-25_34_12%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:The_Billboard_1922-03-25-_Vol_34_Iss_12_(IA_sim_billboard_1922-03-25_34_12).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": ""
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "mei_obj_3",
+   "title": "'Famous Running Horse' Rare Note",
+   "date": "First Series RMB",
+   "type": "banknote",
+   "material": "paper",
+   "description": "An extremely rare denomination of the first series renminbi, prized by collectors and auctioned by Spink.",
+   "significance": "Most of these notes were destroyed or lost — the few that survive are treated almost like relics, evidence of how quickly and completely Mei's early history vanished.",
+   "museum": "Spink Auction House (private sale record)",
+   "museum_location": "Hong Kong / London",
+   "accession_number": "Spink lot 233",
+   "collection_url": "https://www.spink.com/media/view?id=233",
+   "image_url": "https://www.spink.com/media/view?id=233",
+   "license": "Spink terms",
+   "open_access": false,
+   "plain_language": "An extremely rare first-edition Chinese banknote, one of the most valuable Chinese currency collectibles in the world.",
+   "url": "https://www.spink.com/media/view?id=233",
+   "accession": "Spink lot 233",
+   "institution": "Spink Auction House (private sale record)",
+   "licence": "Spink terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.spink.com/media/view?id=233",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Famous stars of light opera (IA famousstarsoflig00stra).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Famous_stars_of_light_opera_%28IA_famousstarsoflig00stra%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Famous_stars_of_light_opera_(IA_famousstarsoflig00stra).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nStrang, Lewis Clinton, 1869-1935"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Great Men and Famous Women Volume 1.djvu",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Great_Men_and_Famous_Women_Volume_1.djvu",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Great_Men_and_Famous_Women_Volume_1.djvu",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Charles Francis Horne"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "mei_obj_4",
+   "title": "Shanghai, 1949 (Cartier-Bresson Photograph)",
+   "date": "1949",
+   "type": "photograph",
+   "material": "gelatin silver print",
+   "description": "An iconic photograph by Henri Cartier-Bresson capturing the chaos and transition in Shanghai during the Communist takeover.",
+   "significance": "This image is the human backdrop to Mei's rise — an entire society reorganizing itself in real time, right as her currency was becoming the only one that mattered.",
+   "museum": "Victoria and Albert Museum",
+   "museum_location": "London, UK",
+   "accession_number": "O1061242",
+   "collection_url": "https://collections.vam.ac.uk/item/O1061242/",
+   "image_url": "https://collections.vam.ac.uk/item/O1061242/",
+   "license": "V&A Museum terms",
+   "open_access": false,
+   "plain_language": "A famous photograph of Shanghai in 1949 showing the chaotic transition as China became a Communist state.",
+   "url": "https://collections.vam.ac.uk/item/O1061242/",
+   "accession": "O1061242",
+   "institution": "Victoria and Albert Museum",
+   "licence": "V&A Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://collections.vam.ac.uk/item/O1061242/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "mei_obj_5",
+   "title": "IMF SDR Basket Inclusion Announcement",
+   "date": "October 2016",
+   "type": "official_announcement",
+   "material": "digital document",
+   "description": "The IMF's official announcement adding the Chinese renminbi to its Special Drawing Rights basket of reserve currencies.",
+   "significance": "Nearly seventy years after arriving quietly in a provincial city, Mei was finally recognized by the world's most exclusive currency club — and she barely made a sound doing it.",
+   "museum": "International Monetary Fund",
+   "museum_location": "Washington, D.C., USA",
+   "accession_number": "IMF SDR announcement Oct 2016",
+   "collection_url": "https://www.imf.org/en/news/articles/2016/09/29/am16-na093016imf-adds-chinese-renminbi-to-special-drawing-rights-basket",
+   "image_url": "https://www.imf.org/en/news/articles/2016/09/29/am16-na093016imf-adds-chinese-renminbi-to-special-drawing-rights-basket",
+   "license": "IMF terms",
+   "open_access": false,
+   "plain_language": "The official announcement from the world's top financial organization confirming China's currency had officially joined the world's most elite group of reserve currencies.",
+   "url": "https://www.imf.org/en/news/articles/2016/09/29/am16-na093016imf-adds-chinese-renminbi-to-special-drawing-rights-basket",
+   "accession": "IMF SDR announcement Oct 2016",
+   "institution": "International Monetary Fund",
+   "licence": "IMF terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "STRENGTHENING U.S. LEADERSHIP IN A TURBULENT GLOBAL ECONOMY (IA gov.gpo.fdsys.CHRG-114hhrg99730).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/STRENGTHENING_U.S._LEADERSHIP_IN_A_TURBULENT_GLOBAL_ECONOMY_%28IA_gov.gpo.fdsys.CHRG-114hhrg99730%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:STRENGTHENING_U.S._LEADERSHIP_IN_A_TURBULENT_GLOBAL_ECONOMY_(IA_gov.gpo.fdsys.CHRG-114hhrg99730).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nCommittee on Financial Services"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "mei_src_1",
+   "title": "Wikipedia: First Series of the Renminbi",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference overview on the original 1948 renminbi banknote series.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/First_series_of_the_renminbi",
+   "license": "CC BY-SA",
+   "plain_language": "Background on the very first version of China's currency, from 1948.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/First_series_of_the_renminbi",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "mei_src_2",
+   "title": "IMF Adds Chinese Renminbi to Special Drawing Rights Basket",
+   "type": "official_announcement",
+   "date": "2016",
+   "author": "International Monetary Fund",
+   "description": "Official IMF press release on the renminbi's inclusion in the SDR basket.",
+   "held_at": "IMF",
+   "url": "https://www.imf.org/en/news/articles/2016/09/29/am16-na093016imf-adds-chinese-renminbi-to-special-drawing-rights-basket",
+   "license": "IMF terms",
+   "plain_language": "The IMF's own announcement about adding China's currency to its elite basket of reserve currencies.",
+   "licence": "IMF terms",
+   "licence_class": "unknown",
+   "institution": "IMF",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "mei_src_3",
+   "title": "Shanghai Bank Museum Collection Records",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Shanghai Municipal Government",
+   "description": "Official documentation of the museum's unique collection of RMB printing plates.",
+   "held_at": "Shanghai Bank Museum",
+   "url": "https://english.shanghai.gov.cn/en-MuseumsGalleries/20240725/f4e179b9611942b2b492b3d55857f60e.html",
+   "license": "Municipal government terms",
+   "plain_language": "Official records about a Shanghai museum's unique collection of the original tools used to print China's money.",
+   "licence": "Municipal government terms",
+   "licence_class": "unknown",
+   "institution": "Shanghai Bank Museum",
+   "verify": {
+    "ok": false,
+    "status": null,
+    "error": "URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "mei_src_4",
+   "title": "V&A Museum Collection Record: Shanghai, 1949",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Victoria and Albert Museum",
+   "description": "Museum documentation of Henri Cartier-Bresson's iconic photograph of 1949 Shanghai.",
+   "held_at": "Victoria and Albert Museum",
+   "url": "https://collections.vam.ac.uk/item/O1061242/",
+   "license": "V&A Museum terms",
+   "plain_language": "A British museum's record of a famous 1949 photograph of Shanghai during China's revolutionary transition.",
+   "licence": "V&A Museum terms",
+   "licence_class": "unknown",
+   "institution": "Victoria and Albert Museum",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://collections.vam.ac.uk/item/O1061242/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "mei_src_5",
+   "title": "Spink Auction Record: Famous Running Horse Note",
+   "type": "auction_record",
+   "date": "Ongoing",
+   "author": "Spink & Son",
+   "description": "Auction house documentation of a rare first-series renminbi note.",
+   "held_at": "Spink",
+   "url": "https://www.spink.com/media/view?id=233",
+   "license": "Spink terms",
+   "plain_language": "An auction house's record of one of the rarest and most valuable early Chinese banknotes.",
+   "licence": "Spink terms",
+   "licence_class": "unknown",
+   "institution": "Spink",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.spink.com/media/view?id=233",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 38.0428,
+  "center_lng": 114.5149,
+  "center_label": "Shijiazhuang, Hebei, China",
+  "era_start": 1948,
+  "era_end": 2026,
+  "map_description": "Mei was born quietly in Shijiazhuang in 1948, a year before the People's Republic was formally declared, and grew into one of the world's most closely watched reserve currencies.",
+  "nodes": [
+   {
+    "label": "Shijiazhuang, Hebei",
+    "lat": 38.0428,
+    "lng": 114.5149,
+    "type": "origin",
+    "description": "Where the People's Bank of China was founded and the first renminbi notes were issued in December 1948."
+   },
+   {
+    "label": "Beijing (Tiananmen)",
+    "lat": 39.9042,
+    "lng": 116.4074,
+    "type": "landmark",
+    "description": "Site of Mao Zedong's proclamation of the People's Republic of China on October 1, 1949, formalizing the state Mei would represent."
+   },
+   {
+    "label": "Yan'an",
+    "lat": 36.6,
+    "lng": 109.49,
+    "type": "origin",
+    "description": "The Communist Party's wartime revolutionary base, where much of the ideology behind the new currency system was developed."
+   },
+   {
+    "label": "Shanghai (Bank Museum)",
+    "lat": 31.2304,
+    "lng": 121.4737,
+    "type": "destination",
+    "description": "China's financial capital, home to a museum preserving the unique original RMB printing plates."
+   },
+   {
+    "label": "Washington, D.C. (IMF)",
+    "lat": 38.8994,
+    "lng": -77.0447,
+    "type": "destination",
+    "description": "Where the renminbi was formally recognized as a global reserve currency in 2016."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Wikipedia — First Series of the Renminbi",
+   "url": "https://en.wikipedia.org/wiki/First_series_of_the_renminbi",
+   "license": "CC BY-SA"
+  }
+ },
+ "_verified": "2026-07-11 10:41"
+}

@@ -1,0 +1,549 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 2,
+  "character_key": "aurora_lux",
+  "character_name": "Aurora Lux",
+  "asset": "Gold",
+  "ticker": "XAU",
+  "era": "550 BCE",
+  "era_label": "Ancient Lydia",
+  "era_year": -550,
+  "tagline": "She has outlived every empire that ever tried to own her."
+ },
+ "museum_objects": [
+  {
+   "id": "aurora_lux_obj_1",
+   "title": "Croeseid Gold Coin of King Croesus",
+   "date": "c. 550 BCE",
+   "type": "coin",
+   "material": "gold",
+   "description": "One of the earliest pure gold coins in history, struck under King Croesus of Lydia, legendary for his wealth.",
+   "significance": "This is the coin that turned a rumor — 'rich as Croesus' — into something you could hold in your hand. Gold stopped being just beautiful and became the standard everything else would be measured against.",
+   "museum": "British Museum",
+   "museum_location": "London, UK",
+   "accession_number": "1877,0201.1",
+   "collection_url": "https://www.britishmuseum.org/collection/object/C_1877-0201-1",
+   "image_url": "https://www.britishmuseum.org/collection/object/C_1877-0201-1",
+   "license": "British Museum Standard Terms of Use",
+   "open_access": false,
+   "plain_language": "One of the first-ever pure gold coins, made for a king so rich his name is still used today to describe someone wealthy.",
+   "url": "https://www.britishmuseum.org/collection/object/C_1877-0201-1",
+   "accession": "1877,0201.1",
+   "institution": "British Museum",
+   "licence": "British Museum Standard Terms of Use",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Lydia - king Kroisos - 561-520 BC - gold stater - foreparts of lion and bull - two quadrata incusa - London BM.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Lydia_-_king_Kroisos_-_561-520_BC_-_gold_stater_-_foreparts_of_lion_and_bull_-_two_quadrata_incusa_-_London_BM.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Lydia_-_king_Kroisos_-_561-520_BC_-_gold_stater_-_foreparts_of_lion_and_bull_-_two_quadrata_incusa_-_London_BM.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "ArchaiOptix"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Lydia - king Kroisos - 561-546 BC - gold stater - foreparts of lion and bull - two quadrata incusa - München SMS.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Lydia_-_king_Kroisos_-_561-546_BC_-_gold_stater_-_foreparts_of_lion_and_bull_-_two_quadrata_incusa_-_M%C3%BCnchen_SMS.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Lydia_-_king_Kroisos_-_561-546_BC_-_gold_stater_-_foreparts_of_lion_and_bull_-_two_quadrata_incusa_-_M%C3%BCnchen_SMS.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "ArchaiOptix"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "aurora_lux_obj_2",
+   "title": "Sardis Gold Croeseid",
+   "date": "c. 550 BCE",
+   "type": "coin",
+   "material": "gold",
+   "description": "A gold Croeseid coin excavated at Sardis, the Lydian capital, where the coin type originated.",
+   "significance": "Found in the actual capital where the gold standard was born — this coin never had to travel far to prove its point.",
+   "museum": "Manisa Museum",
+   "museum_location": "Manisa, Turkey",
+   "accession_number": "inv. 19267",
+   "collection_url": "https://sardisexpedition.org/en/artifacts/latw-27",
+   "image_url": "https://sardisexpedition.org/en/artifacts/latw-27",
+   "license": "Sardis Expedition project terms",
+   "open_access": false,
+   "plain_language": "A gold coin dug up in the exact city where gold coins were invented.",
+   "url": "https://sardisexpedition.org/en/artifacts/latw-27",
+   "accession": "inv. 19267",
+   "institution": "Manisa Museum",
+   "licence": "Sardis Expedition project terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://sardisexpedition.org/en/artifacts/latw-27",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Gold stater",
+     "accession": "26.59.4",
+     "date": "ca. 560–546 BCE",
+     "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP-17995-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/252456",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Gold stater",
+     "accession": "26.59.3",
+     "date": "ca. 560–546 BCE",
+     "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP-17546-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/252455",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Gold stater. Lydia. ca. 560–546 B.C. The Metropolitan Museum of Art.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Gold_stater._Lydia._ca._560%E2%80%93546_B.C._The_Metropolitan_Museum_of_Art.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Gold_stater._Lydia._ca._560%E2%80%93546_B.C._The_Metropolitan_Museum_of_Art.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Ismoon (talk) 10:44, 11 February 2022 (UTC)"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "aurora_lux_obj_3",
+   "title": "Gold Jewelry from the Great Death Pit, Ur",
+   "date": "c. 2600-2400 BCE",
+   "type": "jewelry",
+   "material": "gold",
+   "description": "An elaborate gold earring recovered from the royal tombs of Ur in ancient Mesopotamia, predating coinage by two millennia.",
+   "significance": "Long before anyone thought to stamp gold into coins, people already knew it was worth killing and dying for. This is that instinct in its rawest form.",
+   "museum": "Metropolitan Museum of Art",
+   "museum_location": "New York, USA",
+   "accession_number": "33.35.45",
+   "collection_url": "https://www.metmuseum.org/art/collection/search/322907",
+   "image_url": "https://images.metmuseum.org/CRDImages/an/original/DP-23695-001.jpg",
+   "license": "CC0",
+   "open_access": true,
+   "plain_language": "A gold earring buried with royalty over 4,500 years ago — proof that people have treasured gold since long before money existed.",
+   "url": "https://www.metmuseum.org/art/collection/search/322907",
+   "accession": "33.35.45",
+   "institution": "Metropolitan Museum of Art",
+   "licence": "CC0 (Met Open Access)",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 429,
+    "error": "HTTP 429",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC0 (Met Open Access)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Met Collection API",
+    "accession": "33.35.45",
+    "title": "Earring",
+    "image": "https://images.metmuseum.org/CRDImages/an/original/DP-23695-001.jpg"
+   },
+   "display_image": {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Ganymede jewelry",
+    "match_text": "Ganymede jewelry Greek Ganymede Jewelry ca. 330–300 BCE Gold and Silver",
+    "accession": "37.11.8–.17",
+    "date": "ca. 330–300 BCE",
+    "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DT283.jpg",
+    "page_url": "https://www.metmuseum.org/art/collection/search/256975",
+    "licence": "CC0 (Met Open Access)",
+    "licence_class": "open",
+    "via": "Met API"
+   },
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Young attendant wearing gold headdress and jewelry of gold, lapis lazuli, carnelian and shell from the royal cemetery of Ur 2550-2450 BCE.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Young_attendant_wearing_gold_headdress_and_jewelry_of_gold%2C_lapis_lazuli%2C_carnelian_and_shell_from_the_royal_cemetery_of_Ur_2550-2450_BCE.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Young_attendant_wearing_gold_headdress_and_jewelry_of_gold,_lapis_lazuli,_carnelian_and_shell_from_the_royal_cemetery_of_Ur_2550-2450_BCE.jpg",
+     "licence": "CC BY 2.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Mary Harrsch"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "PASS",
+    "confidence": 9,
+    "what_i_see": "A collection of gold jewelry pieces from ancient Mesopotamia, including earrings, a necklace, and bracelets.",
+    "why": "The image shows a variety of gold jewelry items consistent with the description of 'Gold Jewelry from the Great Death Pit, Ur' and matches the context of ancient Mesopotamian royal tombs.",
+    "model": "meta-llama/Llama-3.2-90B-Vision-Instruct"
+   },
+   "showable": true
+  },
+  {
+   "id": "aurora_lux_obj_4",
+   "title": "Gold Necklace from the Royal Cemetery at Ur",
+   "date": "c. 2600-2400 BCE",
+   "type": "jewelry",
+   "material": "gold",
+   "description": "An elaborate gold necklace recovered by archaeologists from the royal tombs at Ur.",
+   "significance": "Buried with kings and queens who believed they'd need it in the next life — that's how deep gold's hold on humanity runs.",
+   "museum": "British Museum",
+   "museum_location": "London, UK",
+   "accession_number": "W_1929-1017-146",
+   "collection_url": "https://www.britishmuseum.org/collection/object/W_1929-1017-146",
+   "image_url": "https://www.britishmuseum.org/collection/object/W_1929-1017-146",
+   "license": "British Museum Standard Terms of Use",
+   "open_access": false,
+   "plain_language": "An ancient gold necklace buried with a king thousands of years before coins even existed.",
+   "url": "https://www.britishmuseum.org/collection/object/W_1929-1017-146",
+   "accession": "W_1929-1017-146",
+   "institution": "British Museum",
+   "licence": "British Museum Standard Terms of Use",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Lapis lazuli necklace with gold bull pendant recovered from the royal cemetery of Ur, Iraq 2550-2450 BCE.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Lapis_lazuli_necklace_with_gold_bull_pendant_recovered_from_the_royal_cemetery_of_Ur%2C_Iraq_2550-2450_BCE.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Lapis_lazuli_necklace_with_gold_bull_pendant_recovered_from_the_royal_cemetery_of_Ur,_Iraq_2550-2450_BCE.jpg",
+     "licence": "CC BY 2.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Mary Harrsch"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Necklace of agate, gold and carnelian beads with cosmetics palette recovered from the royal cemetery of Ur, Iraq 2550-2450 BCE.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Necklace_of_agate%2C_gold_and_carnelian_beads_with_cosmetics_palette_recovered_from_the_royal_cemetery_of_Ur%2C_Iraq_2550-2450_BCE.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Necklace_of_agate,_gold_and_carnelian_beads_with_cosmetics_palette_recovered_from_the_royal_cemetery_of_Ur,_Iraq_2550-2450_BCE.jpg",
+     "licence": "CC BY 2.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Mary Harrsch"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Necklace of gold, lapis lazuli and carnelian recovered from the royal cemetery of Ur, Iraq 2550-2450 BCE.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Necklace_of_gold%2C_lapis_lazuli_and_carnelian_recovered_from_the_royal_cemetery_of_Ur%2C_Iraq_2550-2450_BCE.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Necklace_of_gold,_lapis_lazuli_and_carnelian_recovered_from_the_royal_cemetery_of_Ur,_Iraq_2550-2450_BCE.jpg",
+     "licence": "CC BY 2.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Mary Harrsch"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image shows an Egyptian necklace, not a gold necklace from the Royal Cemetery at Ur, which is Sumerian, not Egyptian.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "aurora_lux_obj_5",
+   "title": "Golden Funerary Mask of Agamemnon",
+   "date": "c. 1550-1500 BCE",
+   "type": "mask",
+   "material": "gold",
+   "description": "A gold funerary mask discovered at Mycenae, one of the most famous gold artifacts of the Bronze Age Aegean.",
+   "significance": "A face made of gold to survive death itself — the oldest idea about this metal there is: it doesn't decay, and it doesn't forget who wore it.",
+   "museum": "National Archaeological Museum of Athens",
+   "museum_location": "Athens, Greece",
+   "accession_number": "NAMA 624",
+   "collection_url": "https://www.namuseum.gr/en/collection/mycenaean-antiquities/",
+   "image_url": "https://www.namuseum.gr/en/collection/mycenaean-antiquities/",
+   "license": "National Archaeological Museum of Athens terms",
+   "open_access": false,
+   "plain_language": "A gold mask placed over a dead king's face over 3,500 years ago, because gold doesn't rot the way everything else does.",
+   "url": "https://www.namuseum.gr/en/collection/mycenaean-antiquities/",
+   "accession": "NAMA 624",
+   "institution": "National Archaeological Museum of Athens",
+   "licence": "National Archaeological Museum of Athens terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Face",
+     "match_text": "Face Olmec Mask 900–400 BCE Stone-Sculpture Mesoamerica",
+     "accession": "1977.187.33",
+     "date": "900–400 BCE",
+     "image_url": "https://images.metmuseum.org/CRDImages/ao/original/DP-25390-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/310279",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Funerary mask",
+     "match_text": "Funerary mask Lambayeque (Sicán) Mask 900–1100 CE Metal-Sculpture North Coast",
+     "accession": "1979.206.556",
+     "date": "900–1100 CE",
+     "image_url": "https://images.metmuseum.org/CRDImages/ao/original/DP-25934-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/312752",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image does not depict the 'Golden Funerary Mask of Agamemnon', which is known to be a specific mask discovered at Mycenae; the mask in the image has a different design and style.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "15 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "aurora_lux_src_1",
+   "title": "Coins of Sardis",
+   "type": "academic_publication",
+   "date": "Ongoing",
+   "author": "Sardis Expedition / John Kroll",
+   "description": "Scholarly essay series on the numismatic finds at Sardis, capital of Lydia.",
+   "held_at": "Sardis Expedition, Harvard University",
+   "url": "https://sardisexpedition.org/en/essays/latw-kroll-coins-of-sardis",
+   "license": "Project terms",
+   "plain_language": "Academic research explaining exactly how and why the first gold coins were made in this city.",
+   "licence": "Project terms",
+   "licence_class": "unknown",
+   "institution": "Sardis Expedition, Harvard University",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://sardisexpedition.org/en/essays/latw-kroll-coins-of-sardis",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "aurora_lux_src_2",
+   "title": "Chasing the Lydian Hoard",
+   "type": "magazine_article",
+   "date": "2013",
+   "author": "Sharon Waxman, Smithsonian Magazine",
+   "description": "Investigative journalism on the looted Lydian gold hoard and its recovery.",
+   "held_at": "Smithsonian Magazine",
+   "url": "https://www.smithsonianmag.com/history/chasing-the-lydian-hoard-93685665/",
+   "license": "Publisher rights apply",
+   "plain_language": "The true story of ancient gold treasure that was stolen, smuggled, and eventually returned.",
+   "licence": "Publisher rights apply",
+   "licence_class": "unknown",
+   "institution": "Smithsonian Magazine",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.smithsonianmag.com/history/chasing-the-lydian-hoard-93685665/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "aurora_lux_src_3",
+   "title": "BBC History of the World — Croeseid Transcript",
+   "type": "broadcast_transcript",
+   "date": "2010",
+   "author": "BBC / British Museum",
+   "description": "Transcript from the BBC's history-of-money radio and museum series discussing the Croeseid coin.",
+   "held_at": "BBC",
+   "url": "https://www.britishmuseum.org/collection/object/C_1877-0201-1",
+   "license": "BBC/BM terms",
+   "plain_language": "A radio documentary explaining why this gold coin changed the ancient world's idea of value.",
+   "licence": "BBC/BM terms",
+   "licence_class": "unknown",
+   "institution": "BBC",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_substitution",
+    "via": "TIER 3 — no API, hard 403. Substitute with an open-licence equivalent."
+   }
+  },
+  {
+   "id": "aurora_lux_src_4",
+   "title": "Varna Necropolis Excavation Records",
+   "type": "archaeological_report",
+   "date": "Ongoing",
+   "author": "Bulgarian Academy of Sciences",
+   "description": "Excavation records for the oldest known gold treasure in the world, found in a Bulgarian burial site predating Ur.",
+   "held_at": "Varna Regional Museum of History",
+   "url": "https://www.varnamuseum.bg/en",
+   "license": "Museum terms",
+   "plain_language": "Records of the oldest gold treasure ever found, buried with people 6,500 years ago.",
+   "licence": "Museum terms",
+   "licence_class": "unknown",
+   "institution": "Varna Regional Museum of History",
+   "verify": {
+    "ok": false,
+    "status": null,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "aurora_lux_src_5",
+   "title": "Tutankhamun's Funerary Mask Conservation Records",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Egyptian Museum, Cairo",
+   "description": "Conservation and provenance documentation for the iconic gold mask of Tutankhamun.",
+   "held_at": "Egyptian Museum, Cairo",
+   "url": "https://egymonuments.gov.eg/museums/egyptian-museum",
+   "license": "Museum terms",
+   "plain_language": "Official records about the famous gold mask of the boy pharaoh, one of the most recognized gold objects on Earth.",
+   "licence": "Museum terms",
+   "licence_class": "unknown",
+   "institution": "Egyptian Museum, Cairo",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://egymonuments.gov.eg/museums/egyptian-museum",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 38.4863,
+  "center_lng": 28.0375,
+  "center_label": "Sardis, Lydia (modern Turkey)",
+  "era_start": -550,
+  "era_end": 2026,
+  "map_description": "Gold's story starts in the riverbeds of ancient Lydia and never really ends — it just keeps moving, from ancient temples to modern bank vaults.",
+  "nodes": [
+   {
+    "label": "Sardis, Lydia",
+    "lat": 38.4863,
+    "lng": 28.0375,
+    "type": "origin",
+    "description": "Capital of the Lydian kingdom, where King Croesus minted the first pure gold coins."
+   },
+   {
+    "label": "Pactolus River",
+    "lat": 38.49,
+    "lng": 28.05,
+    "type": "resource",
+    "description": "The gold-bearing river whose alluvial deposits made Lydia legendarily wealthy."
+   },
+   {
+    "label": "Temple of Artemis, Ephesus",
+    "lat": 37.9495,
+    "lng": 27.3639,
+    "type": "landmark",
+    "description": "One of the ancient world's great temples, funded partly by Lydian gold wealth and a pilgrimage site for centuries."
+   },
+   {
+    "label": "Bank of England Vaults",
+    "lat": 51.5142,
+    "lng": -0.0891,
+    "type": "destination",
+    "description": "One of the largest modern gold repositories in the world, holding gold from nations across the globe."
+   },
+   {
+    "label": "Fort Knox, Kentucky",
+    "lat": 37.891,
+    "lng": -85.949,
+    "type": "destination",
+    "description": "The famous U.S. gold depository, symbol of modern gold's role as a national reserve asset."
+   },
+   {
+    "label": "Las Médulas, Spain",
+    "lat": 42.4667,
+    "lng": -6.7667,
+    "type": "resource",
+    "description": "Ancient Roman gold-mining site, showing how the pursuit of gold reshaped entire landscapes."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Sardis Expedition Digital Archive",
+   "url": "https://sardisexpedition.org/en/essays/latw-kroll-coins-of-sardis",
+   "license": "Project terms"
+  }
+ },
+ "_verified": "2026-07-11 10:36"
+}

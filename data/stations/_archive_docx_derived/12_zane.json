@@ -1,0 +1,252 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "EXTRACTED from TH_CONTENT_MANIFEST.docx — real accessions + resolved hyperlink targets. No facts authored by an assistant.",
+ "_extracted": "2026-07-11",
+ "station": {
+  "chronology_number": 12,
+  "character_name": "ZANE OKAFOR",
+  "character_key": "zane",
+  "header": "ZANE OKAFOR"
+ },
+ "museum_objects": [
+  {
+   "title": "Surviving crude oil sample flask from Drake's original well",
+   "institution": "Drake Well Museum, Titusville, PA",
+   "accession": "Part of 4,000+ object collection",
+   "date": "1859",
+   "url": "https://www.drakewell.org/view-collections",
+   "licence_raw": "State-run museum, unstated — contact required",
+   "description": "The only surviving sample of crude oil from Drake's original 1859 well.",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.drakewell.org/view-collections",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "\"First Oil Well\" photograph (retouched reproduction)",
+   "institution": "Library of Congress",
+   "accession": "Digital ID cph 3a12058; LC Control Number 2010649521",
+   "date": "Copyrighted reproduction 1890 (depicting 1861 photo)",
+   "url": "https://www.loc.gov/item/2010649521/",
+   "licence_raw": "Public Domain / verify per LOC rights statement",
+   "description": "Reproduction of an 1861 photo showing early Titusville oil wells.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence": "Rights status not evaluated. For general information see \"Copyright and Other Restrictions...\" (http://lcweb.loc.gov/rr/print/195_copr.html).",
+    "licence_class": "check_required",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "This is a picture of first oil wells pumping in the U.S.A. at Titusville, Pa., Venango Co."
+   }
+  },
+  {
+   "title": "Drake Well Museum and Park color photograph",
+   "institution": "Library of Congress (Carol M. Highsmith America Project)",
+   "accession": "LC-DIG-highsm-58592",
+   "date": "2019",
+   "url": "https://www.loc.gov/pictures/item/2019691016/",
+   "licence_raw": "Explicit \"no known restrictions on publication\"",
+   "description": "Modern documentation of the historic Drake Well site.",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.loc.gov/pictures/item/2019691016/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "see LoC rights statement",
+    "licence_class": "check_required",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "Exhibit at Drake's Well Museum and Park outside Titusville, Pennsylvania"
+   }
+  },
+  {
+   "title": "Oil Creek disaster stereo photographs",
+   "institution": "Library of Congress",
+   "accession": "LOT 7119 (S)",
+   "date": "1892",
+   "url": "https://www.loc.gov/item/2005684366/",
+   "licence_raw": "Public domain / verify per LOC rights statement",
+   "description": "10 stereo photographs by Geo. Barker documenting an 1892 oil-region flood and disaster.",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence": "<p>The Library of Congress generally does not own rights to material in its  collections and, therefore, cannot grant or deny permission to publish  or otherwise distribute the mat",
+    "licence_class": "check_required",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "Oil Creek disaster, Titusville, Pa., 1892"
+   }
+  },
+  {
+   "title": "Lucas Gusher, Spindletop",
+   "institution": "Library of Congress",
+   "accession": "Item 2010649511",
+   "date": "1901",
+   "url": "https://www.loc.gov/item/2010649511/",
+   "licence_raw": "Public domain / verify per LOC rights statement",
+   "description": "Photograph of the Spindletop gusher that launched the modern Texas oil industry.",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence": "No known restrictions on publication.",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "Lucas gusher [Spindletop, Beaumont, Port Arthur, and vicinity, Texas - oil industry]."
+   },
+   "licence": "No known restrictions on publication."
+  }
+ ],
+ "primary_sources": [
+  {
+   "title": "Pennsylvania State Archives finding aid, Drake Well Museum holdings, MG-245 — official state archival record.",
+   "detail": "",
+   "url": "https://www.phmc.state.pa.us/bah/dam/mg/mg245.htm",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Pennsylvania State Archives finding aid, Drake Well Museum holdings, MG-245 — official state archival record.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.phmc.state.pa.us/bah/dam/mg/mg245.htm",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Library of Congress: \"First Oil Well\" 1861 photograph reproduction — primary photographic documentation.",
+   "detail": "",
+   "url": "https://www.loc.gov/item/2010649521/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Library of Congress: \"First Oil Well\" 1861 photograph reproduction — primary photographic documentation.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence": "Rights status not evaluated. For general information see \"Copyright and Other Restrictions...\" (http://lcweb.loc.gov/rr/print/195_copr.html).",
+    "licence_class": "check_required",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "This is a picture of first oil wells pumping in the U.S.A. at Titusville, Pa., Venango Co."
+   }
+  },
+  {
+   "title": "UN Treaty Series: OPEC founding agreement text, 1960 — primary legal/diplomatic document.",
+   "detail": "",
+   "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20443/volume-443-I-6363-English.pdf",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "UN Treaty Series: OPEC founding agreement text, 1960 — primary legal/diplomatic document.",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20443/volume-443-I-6363-English.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Harvard Business School Baker Library: Mather oil industry photographs — primary digitized 1860s–1890s visual archive.",
+   "detail": "",
+   "url": "https://www.library.hbs.edu/hc/nd/visual-evidence/oil-industry-photographs/",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Harvard Business School Baker Library: Mather oil industry photographs — primary digitized 1860s–1890s visual archive.",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "title": "Smithsonian NMAH.AC.0711: American Petroleum Institute Photograph and Film Collection finding aid — primary archival collection record, 1860s–1980s.",
+   "detail": "",
+   "url": "https://americanhistory.si.edu/collections/archival-collection/sova-nmah-ac-0711",
+   "licence_raw": "",
+   "licence_class": "unknown",
+   "raw": "Smithsonian NMAH.AC.0711: American Petroleum Institute Photograph and Film Collection finding aid — primary archival collection record, 1860s–1980s.",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   }
+  }
+ ],
+ "world_map": {
+  "nodes": []
+ },
+ "quiz": [],
+ "decision_simulation": "The real historical moment: 1859, Titusville, Pennsylvania. Edwin Drake and his investors must decide whether to continue drilling after nearly two years of failed, expensive attempts, mounting local ridicule (neighbors reportedly called it \"Drake's Folly\"), and dwindling funds — using an unproven iron pipe casing technique nobody had successfully used before at that depth. The outcome was genuinely uncertain: the technique could fail exactly as previous attempts had, potentially ending the venture and Drake's reputation for good.Player choice: Continue drilling with the iron pipe casing method, or abandon the well and cut losses.Historical resolution: Drake continued. The well struck oil at 69.5 feet on August 27, 1859, launching the modern petroleum industry.",
+ "understand": {
+  "economic_impact": "Drake's 1859 well and the subsequent standardization of the 42-gallon barrel in 1866 created the foundational infrastructure and units still used in global oil markets today Greif history feature. The 1973 oil crisis demonstrated how directly oil supply shocks could disrupt entire national economies, visible in the gas station lines that stretched around blocks across the United States NPR.",
+  "political_impact": "The 1960 founding of OPEC in Baghdad by five oil-producing nations fundamentally shifted global economic power, giving oil-exporting countries new collective leverage over pricing that had previously been controlled largely by Western companies like Standard Oil GeoExpro. The 1973 oil crisis, driven by OPEC's embargo, showed the direct political consequences of that shifted leverage Yale Energy History.",
+  "why_it_still_matters": "A single well in rural Pennsylvania, producing only 15 to 25 barrels a day at first — barely anything by today's standards — ended up completely reshaping how the entire world moves, heats itself, and manufactures almost everything you own. Oil started out replacing whale oil in lamps, then became the fuel for cars once those were invented, and today it's still in your phone case, your clothes, and the plane you might fly on. The reason oil prices matter on the news is that when the price of oil changes, it changes the price of nearly everything else too, because oil is hidden inside so much of modern life. Zane's story matters because it shows how one small discovery, in one small town, can end up touching literally every part of how billions of people live — even the parts that have nothing to do with cars or gas stations."
+ },
+ "slots_present": [
+  "Animated episode",
+  "Audio drama",
+  "Character narration (60–90 sec avatar monologue)",
+  "Comic",
+  "Decision simulation",
+  "Documentary",
+  "Economic impact",
+  "Explore the map",
+  "Historical article",
+  "Motion comic",
+  "Museum objects (5 real objects)",
+  "Podcast",
+  "Political impact",
+  "Primary sources",
+  "Quiz",
+  "The Saga (novel)",
+  "Why it still matters",
+  "World map"
+ ],
+ "_verified": "2026-07-11 10:38"
+}

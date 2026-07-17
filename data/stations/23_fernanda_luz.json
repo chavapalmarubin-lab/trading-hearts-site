@@ -1,0 +1,502 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 23,
+  "character_key": "fernanda_luz",
+  "character_name": "Fernanda Luz",
+  "asset": "Brazilian Real",
+  "ticker": "BRL",
+  "era": "1994",
+  "era_label": "Plano Real Brazil",
+  "era_year": 1994,
+  "tagline": "An entire nation had to be tricked into believing in her before she could become real."
+ },
+ "museum_objects": [
+  {
+   "id": "fernanda_luz_obj_1",
+   "title": "Peça da Coroação (Coronation Coin of Pedro I)",
+   "date": "1822",
+   "type": "coin",
+   "material": "gold",
+   "description": "An extremely rare commemorative gold coin from Pedro I's coronation, with only 64 ever minted.",
+   "significance": "Nearly two centuries before Fernanda existed, Brazil's very first independent ruler was already trying to prove his new nation was worth something in gold.",
+   "museum": "Museu de Valores, Banco Central do Brasil",
+   "museum_location": "Brasília, Brazil",
+   "accession_number": "Peça da Coroação 1822 (1 of 64)",
+   "collection_url": "https://www.bcb.gov.br/en/about/museum",
+   "image_url": "https://www.bcb.gov.br/en/about/museum",
+   "license": "Museu de Valores terms",
+   "open_access": false,
+   "plain_language": "An extremely rare gold coin made for the coronation of Brazil's first emperor in 1822 — only 64 were ever made.",
+   "url": "https://www.bcb.gov.br/en/about/museum",
+   "accession": "Peça da Coroação 1822 (1 of 64)",
+   "institution": "Museu de Valores, Banco Central do Brasil",
+   "licence": "Museu de Valores terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bcb.gov.br/en/about/museum",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Moeda a coroação de Pedro I 1822.png",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Moeda_a_coroa%C3%A7%C3%A3o_de_Pedro_I_1822.png",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Moeda_a_coroa%C3%A7%C3%A3o_de_Pedro_I_1822.png",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Governo do Império do Brasil"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Stamp of Brazil - 1982 - Colnect 261428 - Pedro I Coronation piece.jpeg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Stamp_of_Brazil_-_1982_-_Colnect_261428_-_Pedro_I_Coronation_piece.jpeg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Stamp_of_Brazil_-_1982_-_Colnect_261428_-_Pedro_I_Coronation_piece.jpeg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Post of Brazil"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "3 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "fernanda_luz_obj_2",
+   "title": "Unidade Real de Valor (URV) Documentation",
+   "date": "March-June 1994",
+   "type": "document",
+   "material": "paper/digital",
+   "description": "Records of the URV, a purely virtual accounting unit used to psychologically recalibrate prices before the real's physical launch.",
+   "significance": "Fernanda existed as an idea before she existed as money — an entire country had to practice believing in her before she was allowed to be real.",
+   "museum": "Banco Central do Brasil Archive",
+   "museum_location": "Brasília, Brazil",
+   "accession_number": "URV historical records",
+   "collection_url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+   "image_url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+   "license": "BCB terms",
+   "open_access": false,
+   "plain_language": "Records of a strange virtual currency Brazil used for a few months in 1994 to trick people's minds into trusting stable prices, before the real physically existed.",
+   "url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+   "accession": "URV historical records",
+   "institution": "Banco Central do Brasil Archive",
+   "licence": "BCB terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Grandes Julgamentos - Decisão sobre perdas decorrentes de conversão salarial para URV (08-11-13).webm",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Grandes_Julgamentos_-_Decis%C3%A3o_sobre_perdas_decorrentes_de_convers%C3%A3o_salarial_para_URV_%2808-11-13%29.webm",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Grandes_Julgamentos_-_Decis%C3%A3o_sobre_perdas_decorrentes_de_convers%C3%A3o_salarial_para_URV_(08-11-13).webm",
+     "licence": "CC BY 3.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Grandes Julgamentos / [ TV Justiça]"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Nao consigo me separar do banco do brasil, História no Museu da Pessoa (49753).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Nao_consigo_me_separar_do_banco_do_brasil%2C_Hist%C3%B3ria_no_Museu_da_Pessoa_%2849753%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Nao_consigo_me_separar_do_banco_do_brasil,_Hist%C3%B3ria_no_Museu_da_Pessoa_(49753).pdf",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Museu da Pessoa"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "6 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "fernanda_luz_obj_3",
+   "title": "Collor Plan Confiscation Photograph",
+   "date": "March 1990",
+   "type": "photograph",
+   "material": "digital/print",
+   "description": "A photograph of Economy Minister Zélia Cardoso de Mello announcing the 1990 freeze on Brazilian savings accounts.",
+   "significance": "Before Fernanda could be trusted, Brazil had to go through this — an entire generation watching their savings get frozen overnight by the government.",
+   "museum": "G1/Folhapress Archive",
+   "museum_location": "Brasília, Brazil",
+   "accession_number": "Collor Plan 1990 archive",
+   "collection_url": "https://g1.globo.com/economia/noticia/2020/03/17/entre-infartos-falencias-e-suicidios-os-30-anos-do-confisco-da-poupanca.ghtml",
+   "image_url": "https://g1.globo.com/economia/noticia/2020/03/17/entre-infartos-falencias-e-suicidios-os-30-anos-do-confisco-da-poupanca.ghtml",
+   "license": "G1/Folhapress terms",
+   "open_access": false,
+   "plain_language": "A photo from 1990 showing the government official who announced Brazil would freeze everyone's savings accounts overnight.",
+   "url": "https://g1.globo.com/economia/noticia/2020/03/17/entre-infartos-falencias-e-suicidios-os-30-anos-do-confisco-da-poupanca.ghtml",
+   "accession": "Collor Plan 1990 archive",
+   "institution": "G1/Folhapress Archive",
+   "licence": "G1/Folhapress terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://g1.globo.com/economia/noticia/2020/03/17/entre-infartos-falencias-e-suicidios-os-30-anos-do-confisco-da-poupanca.ghtml",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Lincoln's emancipation plan (IA lincolnsemancipa00blac).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Lincoln%27s_emancipation_plan_%28IA_lincolnsemancipa00blac%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Lincoln%27s_emancipation_plan_(IA_lincolnsemancipa00blac).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nBlackiston, Harry S"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "South Carolina. The condition and the prospects of the state. Confiscation of private property and repudiation of the public debt (IA southcarolinacon00lath).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/South_Carolina._The_condition_and_the_prospects_of_the_state._Confiscation_of_private_property_and_repudiation_of_the_public_debt_%28IA_southcarolinacon00lath%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:South_Carolina._The_condition_and_the_prospects_of_the_state._Confiscation_of_private_property_and_repudiation_of_the_public_debt_(IA_southcarolinacon00lath).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nLathers, Richard, 1820-1903. [from old catalog]\nYA Pamphlet Collection (Library of Congress) DLC [f"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "fernanda_luz_obj_4",
+   "title": "Museu de Valores Numismatic Collection",
+   "date": "Various",
+   "type": "museum/collection",
+   "material": "metal/paper",
+   "description": "Brazil's central bank museum, home to over 125,000 numismatic items spanning the country's entire monetary history.",
+   "significance": "Every failed currency that came before Fernanda — cruzeiros, cruzados, and more — sits in this collection, a graveyard of broken promises she had to overcome.",
+   "museum": "Museu de Valores, Banco Central do Brasil",
+   "museum_location": "Brasília, Brazil",
+   "accession_number": "Museu de Valores general collection (125,000+ items)",
+   "collection_url": "https://www.bcb.gov.br/en/about/museum",
+   "image_url": "https://www.bcb.gov.br/en/about/museum",
+   "license": "Museu de Valores terms",
+   "open_access": false,
+   "plain_language": "Brazil's central bank museum, holding over 125,000 historical money items, including all the failed currencies that came before the real.",
+   "url": "https://www.bcb.gov.br/en/about/museum",
+   "accession": "Museu de Valores general collection (125,000+ items)",
+   "institution": "Museu de Valores, Banco Central do Brasil",
+   "licence": "Museu de Valores terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bcb.gov.br/en/about/museum",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "O Serviço de Objetos do Museu Paulista, Anais do Museu Paulista.pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/O_Servi%C3%A7o_de_Objetos_do_Museu_Paulista%2C_Anais_do_Museu_Paulista.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:O_Servi%C3%A7o_de_Objetos_do_Museu_Paulista,_Anais_do_Museu_Paulista.pdf",
+     "licence": "CC BY 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Margarida Davina Andreatta / Adilson José de Almeida / Angela Maria Gianeze Ribeiro / Heloisa Barbuy"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "O Sobrado da Convenção em Itu na antiga Rua do Carmo (atual Rua Barão do Itaim) - uma pesquisa documental, Anais do Museu Paulista.pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/O_Sobrado_da_Conven%C3%A7%C3%A3o_em_Itu_na_antiga_Rua_do_Carmo_%28atual_Rua_Bar%C3%A3o_do_Itaim%29_-_uma_pesquisa_documental%2C_Anais_do_Museu_Paulista.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:O_Sobrado_da_Conven%C3%A7%C3%A3o_em_Itu_na_antiga_Rua_do_Carmo_(atual_Rua_Bar%C3%A3o_do_Itaim)_-_uma_pesquisa_documental,_Anais_do_Museu_Paulista.pdf",
+     "licence": "CC BY 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Anicleide Zequini"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "fernanda_luz_obj_5",
+   "title": "Plano Real Official Launch Documentation",
+   "date": "July 1, 1994",
+   "type": "document",
+   "material": "paper",
+   "description": "Official documentation of the Plano Real, the economic stabilization plan that introduced the Brazilian real.",
+   "significance": "This is the day Fernanda finally became real — after years of hyperinflation and five failed currencies, Brazil finally got one that stuck.",
+   "museum": "Banco Central do Brasil",
+   "museum_location": "Brasília, Brazil",
+   "accession_number": "Plano Real launch documents",
+   "collection_url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+   "image_url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+   "license": "BCB terms",
+   "open_access": false,
+   "plain_language": "The official launch documents for Brazil's current currency, the real, introduced in 1994 after decades of economic chaos.",
+   "url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+   "accession": "Plano Real launch documents",
+   "institution": "Banco Central do Brasil",
+   "licence": "BCB terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Cork, its trade & commerce - official handbook of the Cork Incorporated Chamber of Commerce & Shipping - with classified trade indices in English, French & Spanish (IA corkitstradecomm00corkrich).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Cork%2C_its_trade_%26_commerce_-_official_handbook_of_the_Cork_Incorporated_Chamber_of_Commerce_%26_Shipping_-_with_classified_trade_indices_in_English%2C_French_%26_Spanish_%28IA_corkitstradecomm00corkrich%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Cork,_its_trade_%26_commerce_-_official_handbook_of_the_Cork_Incorporated_Chamber_of_Commerce_%26_Shipping_-_with_classified_trade_indices_in_English,_French_%26_Spanish_(IA_corkitstradecomm00corkrich).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nCork Incorporated Chamber of Shipping and Commerce\nCoakley, D.J"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "6 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "fernanda_luz_src_1",
+   "title": "Real Plan (Official Page)",
+   "type": "official_publication",
+   "date": "Ongoing",
+   "author": "Banco Central do Brasil",
+   "description": "The Brazilian central bank's official explanation of the Plano Real stabilization program.",
+   "held_at": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+   "license": "BCB terms",
+   "plain_language": "Brazil's central bank's own explanation of how the Plano Real stabilized the country's economy.",
+   "licence": "BCB terms",
+   "licence_class": "unknown",
+   "institution": "Banco Central do Brasil",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "fernanda_luz_src_2",
+   "title": "Wikipedia: Unidade Real de Valor",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference on the virtual accounting unit used to transition Brazil to the real.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Unidade_real_de_valor",
+   "license": "CC BY-SA",
+   "plain_language": "Background on the strange virtual currency Brazil used briefly before launching the real.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Unidade_real_de_valor",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "fernanda_luz_src_3",
+   "title": "New Money No Novelty in Brazil",
+   "type": "news_article",
+   "date": "1994",
+   "author": "The New York Times",
+   "description": "Contemporary news coverage of the real's launch and Brazil's history of currency changes.",
+   "held_at": "The New York Times",
+   "url": "https://www.nytimes.com/1994/07/09/business/new-money-no-novelty-in-brazil.html",
+   "license": "NYT terms",
+   "plain_language": "A 1994 New York Times article about Brazil launching yet another new currency, after several failed attempts.",
+   "licence": "NYT terms",
+   "licence_class": "unknown",
+   "institution": "The New York Times",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "fernanda_luz_src_4",
+   "title": "Thirty Years of the Real Plan",
+   "type": "retrospective_report",
+   "date": "2024",
+   "author": "Fundação FHC",
+   "description": "A 30th-anniversary retrospective analyzing the successes and ongoing challenges of the Plano Real.",
+   "held_at": "Fundação FHC",
+   "url": "https://fundacaofhc.org.br/en/debate/thirty-years-of-the-real-plan-memories-lessons-learned-and-challenges/",
+   "license": "Fundação FHC terms",
+   "plain_language": "A 2024 retrospective looking back at 30 years of Brazil's currency and what worked and didn't.",
+   "licence": "Fundação FHC terms",
+   "licence_class": "unknown",
+   "institution": "Fundação FHC",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://fundacaofhc.org.br/en/debate/thirty-years-of-the-real-plan-memories-lessons-learned-and-challenges/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "fernanda_luz_src_5",
+   "title": "Entre Infartos, Falências e Suicídios: os 30 Anos do Confisco da Poupança",
+   "type": "news_article",
+   "date": "2020",
+   "author": "G1 Globo",
+   "description": "Retrospective news coverage on the human toll of the 1990 Collor Plan savings confiscation.",
+   "held_at": "G1 Globo",
+   "url": "https://g1.globo.com/economia/noticia/2020/03/17/entre-infartos-falencias-e-suicidios-os-30-anos-do-confisco-da-poupanca.ghtml",
+   "license": "G1 Globo terms",
+   "plain_language": "A news retrospective on how badly Brazilians were affected when the government froze their savings in 1990.",
+   "licence": "G1 Globo terms",
+   "licence_class": "unknown",
+   "institution": "G1 Globo",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://g1.globo.com/economia/noticia/2020/03/17/entre-infartos-falencias-e-suicidios-os-30-anos-do-confisco-da-poupanca.ghtml",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": -15.7939,
+  "center_lng": -47.8828,
+  "center_label": "Brasília, Brazil",
+  "era_start": 1994,
+  "era_end": 2026,
+  "map_description": "Fernanda was carefully engineered into existence through the Plano Real after decades of hyperinflation, and has since anchored Latin America's largest economy.",
+  "nodes": [
+   {
+    "label": "Brasília (BCB Museum)",
+    "lat": -15.7939,
+    "lng": -47.8828,
+    "type": "origin",
+    "description": "Brazil's capital, home to the central bank and its Museu de Valores documenting the real's creation."
+   },
+   {
+    "label": "Rio de Janeiro",
+    "lat": -22.9068,
+    "lng": -43.1729,
+    "type": "landmark",
+    "description": "Brazil's cultural capital, symbol of both the country's wealth and deep inequality that shaped economic reform debates."
+   },
+   {
+    "label": "São Paulo",
+    "lat": -23.5505,
+    "lng": -46.6333,
+    "type": "destination",
+    "description": "Brazil's financial capital and largest city, central to the real's role in the modern economy."
+   },
+   {
+    "label": "Amazon Rainforest",
+    "lat": -3.4653,
+    "lng": -62.2159,
+    "type": "landmark",
+    "description": "A defining natural resource shaping Brazil's economic identity and global trade relationships."
+   },
+   {
+    "label": "Pantanal",
+    "lat": -17.6,
+    "lng": -57.35,
+    "type": "landmark",
+    "description": "Brazil's vast wetland region, part of the agricultural economy that underpins the real's stability."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Banco Central do Brasil — Real Plan",
+   "url": "https://www.bcb.gov.br/en/monetarypolicy/realplan",
+   "license": "BCB terms"
+  }
+ },
+ "_verified": "2026-07-11 10:42"
+}

@@ -1,0 +1,467 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 5,
+  "character_key": "lars_van_holst",
+  "character_name": "Lars Van Holst",
+  "asset": "Dutch Guilder",
+  "ticker": "NLG",
+  "era": "1378",
+  "era_label": "Medieval Holland / Dutch Golden Age",
+  "era_year": 1378,
+  "tagline": "He financed the first stock exchange the world ever built, and he'd do it again tonight."
+ },
+ "museum_objects": [
+  {
+   "id": "lars_van_holst_obj_1",
+   "title": "Gold Guilder of Willem V",
+   "date": "14th century",
+   "type": "coin",
+   "material": "gold",
+   "description": "An early Dutch gold guilder coin from the reign of Count Willem V of Holland.",
+   "significance": "Before there were banks or exchanges, there was just this: a count deciding his gold coin would be the standard everyone in his territory trusted.",
+   "museum": "Rijksmuseum",
+   "museum_location": "Amsterdam, Netherlands",
+   "accession_number": "KOG-MP-1-1525C",
+   "collection_url": "https://www.rijksmuseum.nl/en/collection",
+   "image_url": "https://www.rijksmuseum.nl/en/collection",
+   "license": "Rijksmuseum terms",
+   "open_access": false,
+   "plain_language": "An early Dutch gold coin from centuries before Amsterdam became a financial superpower.",
+   "url": "https://www.rijksmuseum.nl/en/collection",
+   "accession": "KOG-MP-1-1525C",
+   "institution": "Rijksmuseum",
+   "licence": "Rijksmuseum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.rijksmuseum.nl/en/collection",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "lars_van_holst_obj_2",
+   "title": "VOC Share Certificate",
+   "date": "September 9, 1606",
+   "type": "document",
+   "material": "paper",
+   "description": "The oldest known share certificate in the world, issued by the Dutch East India Company.",
+   "significance": "This piece of paper is the actual birth certificate of the modern stock market — the moment ownership of a company first became something you could buy, sell, and trade like a coin.",
+   "museum": "Westfries Archief",
+   "museum_location": "Hoorn, Netherlands",
+   "accession_number": "VOC aandeel 1606",
+   "collection_url": "https://en.wikipedia.org/wiki/File:VOC_aandeel_9_september_1606.jpg",
+   "image_url": "https://en.wikipedia.org/wiki/File:VOC_aandeel_9_september_1606.jpg",
+   "license": "Public Domain",
+   "open_access": true,
+   "plain_language": "The oldest stock certificate in the entire world — the very first time a company let ordinary people buy a piece of it.",
+   "url": "https://en.wikipedia.org/wiki/File:VOC_aandeel_9_september_1606.jpg",
+   "accession": "VOC aandeel 1606",
+   "institution": "Westfries Archief",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/File:VOC_aandeel_9_september_1606.jpg",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "ERROR",
+    "confidence": 0,
+    "why": "HTTPError: HTTP Error 400: Bad Request",
+    "model": null
+   },
+   "showable": false,
+   "rights_note": "IMAGE QA ERROR: HTTPError: HTTP Error 400: Bad Request | IMAGE QA ERROR: HTTPError: HTTP Error 400: Bad Request | IMAGE QA ERROR: HTTPError: HTTP Error 400: Bad Request"
+  },
+  {
+   "id": "lars_van_holst_obj_3",
+   "title": "Regents of the Old Men's Almshouse",
+   "date": "1664",
+   "type": "painting",
+   "material": "oil on canvas",
+   "description": "A Frans Hals group portrait of the civic regents who administered Dutch charitable and financial institutions.",
+   "significance": "These are the faces of the men who ran Amsterdam's money — stern, wealthy, and utterly certain the whole world was watching how they managed it.",
+   "museum": "Frans Hals Museum",
+   "museum_location": "Haarlem, Netherlands",
+   "accession_number": "WGA11182",
+   "collection_url": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Regents_of_the_Old_Men%27s_Almshouse.jpg",
+   "image_url": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Regents_of_the_Old_Men%27s_Almshouse.jpg",
+   "license": "Public Domain",
+   "open_access": true,
+   "plain_language": "A famous painting of the wealthy men who managed Amsterdam's charities and finances during the Dutch Golden Age.",
+   "url": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Regents_of_the_Old_Men%27s_Almshouse.jpg",
+   "accession": "WGA11182",
+   "institution": "Frans Hals Museum",
+   "licence": "Public Domain",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   },
+   "display_image": {
+    "institution": "Metropolitan Museum of Art",
+    "title": "An old man crying into a tunic while his sons pull it away from him",
+    "match_text": "An old man crying into a tunic while his sons pull it away from him Print 1724 Prints",
+    "accession": "24.63.1264",
+    "date": "1724",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP884575.jpg",
+    "page_url": "https://www.metmuseum.org/art/collection/search/819856",
+    "licence": "CC0 (Met Open Access)",
+    "licence_class": "open",
+    "via": "Met API"
+   },
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Frans Hals - Regents of the Old Men's Almshouse (detail) - WGA11183.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Frans_Hals_-_Regents_of_the_Old_Men%27s_Almshouse_%28detail%29_-_WGA11183.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Regents_of_the_Old_Men%27s_Almshouse_(detail)_-_WGA11183.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Frans Hals"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Frans Hals - Regents of the Old Men's Almshouse - WGA11182.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Frans_Hals_-_Regents_of_the_Old_Men%27s_Almshouse_-_WGA11182.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Regents_of_the_Old_Men%27s_Almshouse_-_WGA11182.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Frans Hals"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image does not depict a Frans Hals group portrait of civic regents, but rather a biblical scene, likely related to Joseph and his brothers.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "confidence": 9,
+    "what_i_see": "A black-and-white engraving depicting a biblical scene with multiple figures around a bed.",
+    "why": "The image does not depict a Frans Hals group portrait of civic regents, but rather a biblical scene, likely related to Joseph and his brothers.",
+    "model": "meta-llama/Llama-3.2-90B-Vision-Instruct"
+   },
+   "showable": false
+  },
+  {
+   "id": "lars_van_holst_obj_4",
+   "title": "VOC Coinage",
+   "date": "17th-18th century",
+   "type": "coin",
+   "material": "silver/copper",
+   "description": "Coins minted specifically for use by the Dutch East India Company across its Asian trading network.",
+   "significance": "Money made not for a country, but for a company — proof that by Lars's era, corporations had become powerful enough to need their own currency.",
+   "museum": "Wikimedia Commons collection",
+   "museum_location": "Various",
+   "accession_number": "VOC coin category",
+   "collection_url": "https://commons.wikimedia.org/wiki/Category:Coins_of_the_Dutch_East_India_Company",
+   "image_url": "https://commons.wikimedia.org/wiki/Category:Coins_of_the_Dutch_East_India_Company",
+   "license": "CC0/Public Domain (Wikimedia)",
+   "open_access": true,
+   "plain_language": "Special coins made by a private company, not a government, to use in its trading posts across Asia.",
+   "url": "https://commons.wikimedia.org/wiki/Category:Coins_of_the_Dutch_East_India_Company",
+   "accession": "VOC coin category",
+   "institution": "Wikimedia Commons collection",
+   "licence": "CC0/Public Domain (Wikimedia)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:Coins_of_the_Dutch_East_India_Company",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "1 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "display_image": null
+  },
+  {
+   "id": "lars_van_holst_obj_5",
+   "title": "Bank of Amsterdam Ledger Records",
+   "date": "1609 onward",
+   "type": "document",
+   "material": "paper",
+   "description": "Surviving administrative ledgers from the Bank of Amsterdam, one of the world's first central banks.",
+   "significance": "Every entry in these ledgers is a tiny proof that trust, once written down carefully enough, can move more money than gold ever could.",
+   "museum": "Dutch National Archives",
+   "museum_location": "The Hague, Netherlands",
+   "accession_number": "Bank of Amsterdam records",
+   "collection_url": "https://www.dnb.nl/media/b11ekie2/wp_696.pdf",
+   "image_url": "https://www.dnb.nl/media/b11ekie2/wp_696.pdf",
+   "license": "DNB terms",
+   "open_access": false,
+   "plain_language": "Old handwritten account books from one of the world's first central banks.",
+   "url": "https://www.dnb.nl/media/b11ekie2/wp_696.pdf",
+   "accession": "Bank of Amsterdam records",
+   "institution": "Dutch National Archives",
+   "licence": "DNB terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Tales of the Bank of England - with anecdotes of London bankers (IA cu31924030174019).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Tales_of_the_Bank_of_England_-_with_anecdotes_of_London_bankers_%28IA_cu31924030174019%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Tales_of_the_Bank_of_England_-_with_anecdotes_of_London_bankers_(IA_cu31924030174019).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": ""
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "The old ledger (IA oldledger01stra).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/The_old_ledger_%28IA_oldledger01stra%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:The_old_ledger_(IA_oldledger01stra).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nStrauss, G. L. M. (Gustave Louis Maurice), 1807?-1887"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "14 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "lars_van_holst_src_1",
+   "title": "Oldest Share Certificate",
+   "type": "record",
+   "date": "2010",
+   "author": "Guinness World Records",
+   "description": "Official record confirming the VOC 1606 certificate as the world's oldest surviving share.",
+   "held_at": "Guinness World Records",
+   "url": "https://www.guinnessworldrecords.com/world-records/oldest-share-certificate",
+   "license": "Publisher rights apply",
+   "plain_language": "The official world record confirming this really is the oldest stock certificate ever found.",
+   "licence": "Publisher rights apply",
+   "licence_class": "unknown",
+   "institution": "Guinness World Records",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.guinnessworldrecords.com/world-records/oldest-share-certificate",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "lars_van_holst_src_2",
+   "title": "The Bank of Amsterdam and the Governance of Money",
+   "type": "academic_publication",
+   "date": "2021",
+   "author": "De Nederlandsche Bank (DNB) Working Paper 696",
+   "description": "Central bank research paper analyzing the monetary policy and governance of the historic Bank of Amsterdam.",
+   "held_at": "De Nederlandsche Bank",
+   "url": "https://www.dnb.nl/media/b11ekie2/wp_696.pdf",
+   "license": "DNB terms",
+   "plain_language": "A modern central bank's own research paper studying how its 400-year-old ancestor actually worked.",
+   "licence": "DNB terms",
+   "licence_class": "unknown",
+   "institution": "De Nederlandsche Bank",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "lars_van_holst_src_3",
+   "title": "VOC Company Records Archive",
+   "type": "archive",
+   "date": "1602-1799",
+   "author": "Dutch East India Company / National Archives",
+   "description": "Corporate and financial records of the VOC, the world's first multinational corporation.",
+   "held_at": "Nationaal Archief, The Hague",
+   "url": "https://www.nationaalarchief.nl/onderzoeken/index/nt00444",
+   "license": "National Archives terms",
+   "plain_language": "The actual surviving business records of the world's first major global corporation.",
+   "licence": "National Archives terms",
+   "licence_class": "unknown",
+   "institution": "Nationaal Archief, The Hague",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.nationaalarchief.nl/onderzoeken/index/nt00444",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "lars_van_holst_src_4",
+   "title": "History of the Amsterdam Stock Exchange",
+   "type": "academic_publication",
+   "date": "Ongoing",
+   "author": "Various economic historians",
+   "description": "Scholarly accounts of the founding of the Amsterdam Beurs, the first formal stock exchange.",
+   "held_at": "Amsterdam City Archives",
+   "url": "https://www.amsterdam.nl/stadsarchief/",
+   "license": "City Archives terms",
+   "plain_language": "Historical research on how Amsterdam built the world's first true stock exchange building.",
+   "licence": "City Archives terms",
+   "licence_class": "unknown",
+   "institution": "Amsterdam City Archives",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "lars_van_holst_src_5",
+   "title": "Wikipedia: Dutch East India Company",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Overview reference on the VOC's founding, structure, and financial innovations.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dutch_East_India_Company",
+   "license": "CC BY-SA",
+   "plain_language": "A general overview of the company that basically invented the modern stock market.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Dutch_East_India_Company",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 52.3676,
+  "center_lng": 4.9041,
+  "center_label": "Amsterdam, Netherlands",
+  "era_start": 1378,
+  "era_end": 2026,
+  "map_description": "Lars's guilder built the world's first stock exchange in Amsterdam, then followed Dutch trading ships to colonies and ports across four continents.",
+  "nodes": [
+   {
+    "label": "Amsterdam Beurs",
+    "lat": 52.3702,
+    "lng": 4.8952,
+    "type": "origin",
+    "description": "Site of the world's first formal stock exchange, where VOC shares were traded starting in 1611."
+   },
+   {
+    "label": "Dordrecht",
+    "lat": 51.8133,
+    "lng": 4.6901,
+    "type": "origin",
+    "description": "An early center of Dutch trade and minting before Amsterdam's rise to dominance."
+   },
+   {
+    "label": "New Amsterdam (Manhattan)",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "type": "destination",
+    "description": "The Dutch colonial settlement that became New York City, carrying guilder-based trade across the Atlantic."
+   },
+   {
+    "label": "Cape Town",
+    "lat": -33.9249,
+    "lng": 18.4241,
+    "type": "destination",
+    "description": "A key VOC resupply station on the route to Asia, extending Dutch financial reach to Africa."
+   },
+   {
+    "label": "Dejima, Japan",
+    "lat": 32.7503,
+    "lng": 129.8663,
+    "type": "destination",
+    "description": "The only point of contact between Japan and the West for over two centuries, run by the VOC."
+   },
+   {
+    "label": "Batavia (Jakarta)",
+    "lat": -6.2088,
+    "lng": 106.8456,
+    "type": "destination",
+    "description": "The VOC's Asian headquarters, the commercial hub of the entire Dutch trading empire."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Nationaal Archief VOC Records",
+   "url": "https://www.nationaalarchief.nl/onderzoeken/index/nt00444",
+   "license": "National Archives terms"
+  }
+ },
+ "_verified": "2026-07-11 10:37"
+}

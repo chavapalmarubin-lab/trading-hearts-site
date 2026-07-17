@@ -1,0 +1,55 @@
+{
+ "custodian": "ana",
+ "name": "Ana Ferreira",
+ "asset": "Portuguese Escudo",
+ "stations": [
+  {
+   "year": 1911,
+   "label": "BORN FROM THE REVOLUTION",
+   "line": "Com calma \u2014 the King had barely left the palace when they gave me my name, one hundred centavos to a single escudo, and I understood at once that I was born not from love but from a republic in a hurry to forget its monarchs.",
+   "era_photo": "A young woman in a high-collared 1911 Edwardian blouse and long dark skirt, standing before the neoclassical fa\u00e7ade of the Bank of Portugal in Lisbon, sepia-toned albumen print, slightly overexposed sky, formal and stiff-backed for the long exposure."
+  },
+  {
+   "year": 1931,
+   "label": "THE ACCOUNTANT'S IRON GRIP",
+   "line": "A man named Salazar, thin as a fasting priest, took my accounts in his hands and balanced them so tightly that my value held \u2014 and I did not yet know that a currency kept firm by a man who fears the sea is a currency kept in a cage.",
+   "era_photo": "A composed woman in a modest grey wool suit of the early 1930s, seated at a wooden desk covered in ledgers, black-and-white silver gelatin print, hard directional light from a single window, austere Estado Novo office interior."
+  },
+  {
+   "year": 1949,
+   "label": "TIED TO THE ATLANTIC ORDER",
+   "line": "Vamos ver, they said, and pinned me to Bretton Woods and to the dollar \u2014 I who had sailed past every horizon was now told which star to steer by, and I obeyed, because obedience had by then become a kind of survival.",
+   "era_photo": "A woman in a tailored postwar 1949 dress with padded shoulders, standing on a Lisbon quayside with cargo ships behind her, black-and-white silver gelatin print with fine grain, midday Atlantic glare softening her features."
+  },
+  {
+   "year": 1974,
+   "label": "THE CARNATION SPRING",
+   "line": "O que \u00e9 que a gente pode fazer? \u2014 the soldiers put flowers in their rifles and the dictatorship fell in a single April morning, and I felt the shutters of forty years thrown open at once, dizzy with a freedom I did not yet know how to spend.",
+   "era_photo": "A woman in a 1974 patterned blouse and flared trousers standing among a crowd on the Rua do Carmo, red carnations tucked into soldiers' rifles nearby, Kodachrome colour photograph, warm saturated reds, spring light, jubilant blurred motion in the background."
+  },
+  {
+   "year": 1983,
+   "label": "THE YEAR I ALMOST DROWNED",
+   "line": "Pessoa wrote that the poet is a feigner who feigns so completely he feigns even the pain he really feels \u2014 and so I smiled through the IMF men at my door while inside I was drowning, devalued and ashamed, the poorest daughter of a Europe that had already begun to look away.",
+   "era_photo": "A weary but dignified woman in an early-1980s beige trench coat, standing outside a shuttered Lisbon bank in autumn rain, colour film with the slightly faded muted tones of early-80s stock, overcast grey light, umbrellas in the background."
+  },
+  {
+   "year": 1986,
+   "label": "WELCOMED INTO EUROPE",
+   "line": "They opened the door to the Community and let me in, calls of solidarity and structural funds, and for once I let myself be helped without the old shame \u2014 I sat at the table of nations and did not have to explain that I had once ruled half the world.",
+   "era_photo": "A woman in a confident mid-1980s power suit with a silk scarf, seated among European delegates at a long table draped with flags in Lisbon, colour photograph with the crisp saturated look of 1986 print film, bright fluorescent institutional lighting."
+  },
+  {
+   "year": 1999,
+   "label": "THE DAY OF MY SENTENCE",
+   "line": "On the last day of the century's tail they fixed my fate at two hundred escudos and forty-four centavos to a single euro \u2014 a beautiful arithmetic, a kind, unarguable death sentence \u2014 and I said com calma, because what else does one say to one's own quiet ending.",
+   "era_photo": "A poised woman in a millennial dark suit standing before a screen displaying exchange rates and the new euro symbol, early digital photograph from 1999 with slightly soft resolution and cool colour cast, modern Lisbon financial office."
+  },
+  {
+   "year": 2002,
+   "label": "THE LAST COIN COUNTED",
+   "line": "In the first cold days of the new year they gathered me up from every pocket and till and I dissolved into the euro like a river reaching the sea \u2014 I am gone from the hands of the living now, but a currency that crossed oceans does not truly disappear; it only becomes memory, and I have always been made of that.",
+   "era_photo": "An older, luminously melancholic woman in an elegant dark coat, standing in a Lisbon caf\u00e9 at dawn holding a single last escudo coin, early-2000s digital photograph, muted winter light through caf\u00e9 windows, the golden hour softness she loves, an empty espresso cup beside her."
+  }
+ ]
+}

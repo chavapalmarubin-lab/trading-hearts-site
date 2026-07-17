@@ -1,0 +1,472 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 9,
+  "character_key": "catalina_restrepo",
+  "character_name": "Catalina Restrepo",
+  "asset": "Colombian Peso",
+  "ticker": "COP",
+  "era": "1837",
+  "era_label": "Early Republic of New Granada",
+  "era_year": 1837,
+  "tagline": "Everyone keeps mistaking her patience for smallness."
+ },
+ "museum_objects": [
+  {
+   "id": "catalina_obj_1",
+   "title": "Muisca Raft (Balsa Muisca)",
+   "date": "c. 1295–1410 AD",
+   "type": "ceremonial_object",
+   "material": "Tumbaga (gold-silver-copper alloy), lost-wax cast",
+   "description": "A miniature raft bearing a central gold-dusted chief (zipa) surrounded by attendant figures with ceremonial staffs and headdresses. Depicts the El Dorado gilding ceremony at Lake Guatavita.",
+   "significance": "The single most iconic artifact of Muisca goldwork. The real object behind the El Dorado legend — a Colombian national emblem that predates the peso by 400 years.",
+   "museum": "Museo del Oro (Gold Museum), Banco de la República",
+   "museum_location": "Carrera 6 #15-88, Bogotá, Colombia",
+   "accession_number": "Not publicly listed",
+   "collection_url": "https://www.banrepcultural.org/bogota/museo-del-oro",
+   "image_url": "https://commons.wikimedia.org/wiki/Category:Muisca_raft",
+   "license": "Institutional copyright (Banco de la República); Wikimedia Commons copies may carry CC licenses — verify per file",
+   "open_access": false,
+   "plain_language": "This tiny gold boat shows a real ceremony where a Colombian chief covered himself in gold dust and threw treasure into a lake — the true story behind the legend of El Dorado.",
+   "needs_research": false,
+   "url": "https://www.banrepcultural.org/bogota/museo-del-oro",
+   "accession": "Not publicly listed",
+   "institution": "Museo del Oro (Gold Museum), Banco de la República",
+   "licence": "Institutional copyright (Banco de la República); Wikimedia Commons copies may carry CC licenses — verify per file",
+   "licence_class": "contact_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.banrepcultural.org/bogota/museo-del-oro",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Serpent (Tunjo)",
+     "match_text": "Serpent (Tunjo) Muisca Snake 10th–16th century Metal-Ornaments",
+     "accession": "1979.206.740",
+     "date": "10th–16th century",
+     "image_url": "https://images.metmuseum.org/CRDImages/ao/original/DP-32946.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/312927",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Serpent (tunjo)",
+     "match_text": "Serpent (tunjo) Muisca Figure 10th–16th century Metal-Ornaments",
+     "accession": "1992.92.1",
+     "date": "10th–16th century",
+     "image_url": "https://images.metmuseum.org/CRDImages/ao/original/DP-32944-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/316723",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Muisca Raft Gold Museum BOG 03 2018 8511.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Muisca_Raft_Gold_Museum_BOG_03_2018_8511.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Muisca_Raft_Gold_Museum_BOG_03_2018_8511.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Mariordo (Mario Roberto Durán Ortiz)"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image does not depict a miniature raft with a central figure surrounded by attendants, as described in the claim",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "catalina_obj_2",
+   "title": "Gold 10 Peso Coin — Cóndor Design (Popayán Mint)",
+   "date": "1853",
+   "type": "coin",
+   "material": "Gold, .900 fine",
+   "description": "Obverse: Liberty bust with 'REPUBLICA DE LA NUEVA GRANADA · LIBERTAD'. Reverse: Andean condor with 'LIBERTAD Y ORDEN'. Established by the Law of 30 May 1853 as the gold cóndor standard at 10 pesos.",
+   "significance": "The coin that fixed Colombia's gold standard and gave the condor — its national bird — a permanent place on its money. The gold anchor of the peso for three decades.",
+   "museum": "American Numismatic Society (ANS)",
+   "museum_location": "New York, NY, USA",
+   "accession_number": "1960.166.309",
+   "collection_url": "https://numismatics.org/collection/",
+   "image_url": "https://numismatics.org/collection/",
+   "license": "Check ANS MANTIS individual object rights (generally open for research/educational use)",
+   "open_access": true,
+   "plain_language": "This gold coin had a condor — a giant Andean bird — because Colombia wanted its money to feel as powerful and free as the country itself.",
+   "needs_research": false,
+   "url": "https://numismatics.org/collection/",
+   "accession": "1960.166.309",
+   "institution": "American Numismatic Society (ANS)",
+   "licence": "Check ANS MANTIS individual object rights (generally open for research/educational use)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://numismatics.org/collection/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "display_image": null
+  },
+  {
+   "id": "catalina_obj_3",
+   "title": "Casa de Moneda de Bogotá",
+   "date": "Founded 1620–1621; milled coinage from 1756",
+   "type": "historic_building",
+   "material": "Colonial masonry architecture",
+   "description": "The first mint of the Nuevo Reino de Granada, in La Candelaria neighborhood. Colonial cobs, Republic-era pesos, and gold cóndores were all struck here over three centuries.",
+   "significance": "The physical origin point of all Colombian coinage — from hand-hammered colonial gold to the modern peso. Still standing and operating as a museum.",
+   "museum": "Museo Casa de Moneda (Banco de la República)",
+   "museum_location": "Calle 11 No. 4-93, La Candelaria, Bogotá, Colombia",
+   "accession_number": "N/A (building)",
+   "collection_url": "https://www.banrepcultural.org/bogota/casa-de-moneda",
+   "image_url": "https://commons.wikimedia.org/wiki/Category:Casa_de_la_Moneda_(Bogot%C3%A1)",
+   "license": "Wikimedia Commons images may carry CC licenses — verify per file",
+   "open_access": false,
+   "plain_language": "This building in Bogotá is where Colombia's first coins were made by hammering hot metal by hand — literally the birthplace of Colombian money.",
+   "needs_research": false,
+   "url": "https://www.banrepcultural.org/bogota/casa-de-moneda",
+   "accession": "N/A (building)",
+   "institution": "Museo Casa de Moneda (Banco de la República)",
+   "licence": "Wikimedia Commons images may carry CC licenses — verify per file",
+   "licence_class": "check_required",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://validate.perfdrive.com/dcdef976b89bc59cc7237e50085bb32a/?ssa=bbaaa484-ea6c-45cb-8c43-20cda636fbc2&ssb=82854213247&ssc=https%3A%2F%2Fwww.banrepcultural.org%2Fbogota%2Fcasa-de-moneda&ssi=9bc8a4e1-c583-4fa5-887a-afe891b65d6d&ssk=support@shieldsquare.com&ssm=87308963443103007102142767680604&ssn=9ceef29b3b05363f84faec852191c59488bac63c15f2-9430-4534-90dfe2&sso=49911e9d-8d02c97f062dd3355cf76ad6ef710a90685a49609a73b69e&ssp=19487196711783736750178378897658061&ssq=57057458069993467931080699755968245373431&ssr=NjcuODUuMzcuNjg=&sst=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/122%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBjNjNjMTVmMi05NDMwLTQ1MzQtOWU5ZC04ZDAyYzk3ZjA2MmQxLTE3ODM3ODA2OTkwOTYwLTAwNGU1ODk3Njg4Yjg0NTBjZDYxMCIsInV6bXgiOiI3ZjkwMDBiNDQzNDBlOC00YTBmLTQzYjMtYWQxYi0yZmJjY2ZiZjQ5NDExLTE3ODM3ODA2OTkwOTYwLWNiZmNlNDQxZTBiODkyNjUxMCIsInJkIjoiYmFucmVwY3VsdHVyYWwub3JnIn0=",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Casa de La Moneda (Bogotá) 05.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Casa_de_La_Moneda_%28Bogot%C3%A1%29_05.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Casa_de_La_Moneda_(Bogot%C3%A1)_05.jpg",
+     "licence": "CC BY-SA 3.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "MegavasCol"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Casa de la Moneda, Bogotá.JPG",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Casa_de_la_Moneda%2C_Bogot%C3%A1.JPG",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Casa_de_la_Moneda,_Bogot%C3%A1.JPG",
+     "licence": "CC BY 3.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Felipe Restrepo Acosta"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "catalina_obj_4",
+   "title": "Colombia 8 Reales Silver Coin, 1821",
+   "date": "1821",
+   "type": "coin",
+   "material": "Silver",
+   "description": "A milled silver 8-reales coin struck at the transition between Spanish colonial rule and independence — part of the 'piece of eight' tradition dating to 1627. The monetary bridge between colonial Real and Republic peso.",
+   "significance": "The coin Catalina was born from — the peso's direct ancestor. The 8 reales was the world's first global currency; the peso replaced it.",
+   "museum": "Wikimedia Commons (digitized from collector source)",
+   "museum_location": "N/A (digital image; physical coin in private/collector hands)",
+   "accession_number": "N/A",
+   "collection_url": "https://commons.wikimedia.org/wiki/Category:Coins_of_Colombia",
+   "image_url": "https://commons.wikimedia.org/wiki/Category:Coins_of_Colombia",
+   "license": "Creative Commons (verify exact CC variant on individual file page)",
+   "open_access": true,
+   "plain_language": "This silver coin was the last of the old Spanish-style money Colombia used just before it invented its own currency.",
+   "needs_research": false,
+   "url": "https://commons.wikimedia.org/wiki/Category:Coins_of_Colombia",
+   "accession": "N/A",
+   "institution": "Wikimedia Commons (digitized from collector source)",
+   "licence": "Creative Commons (verify exact CC variant on individual file page)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:Coins_of_Colombia",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "display_image": null
+  },
+  {
+   "id": "catalina_obj_5",
+   "title": "Comisión Corográfica Watercolor — 'View of the Mountains above Cali'",
+   "date": "c. 1853–1859",
+   "type": "watercolor_illustration",
+   "material": "Watercolor on paper",
+   "description": "Field illustration by artist Manuel María Paz, created during the government-commissioned Comisión Corográfica survey of New Granada led by Agustín Codazzi. Documents landscapes, costumes, and daily life.",
+   "significance": "The Comisión Corográfica is Colombia's richest 19th-century visual documentary record — direct production reference for Catalina's world. Over 90 paintings by Paz alone.",
+   "museum": "Library of Congress (digital); Biblioteca Nacional de Colombia (physical archive)",
+   "museum_location": "Washington D.C., USA / Bogotá, Colombia",
+   "accession_number": "LOC item 2021670051",
+   "collection_url": "https://www.loc.gov/item/2021670051/",
+   "image_url": "https://www.loc.gov/item/2021670051/",
+   "license": "Public domain / no known restrictions (19th-century acquisition — verify rights statement on item page)",
+   "open_access": true,
+   "plain_language": "A hand-painted picture of Colombia's mountains from the 1850s, made by an artist who traveled the whole country to draw what real life looked like — the closest thing to a photograph from that time.",
+   "needs_research": false,
+   "url": "https://www.loc.gov/item/2021670051/",
+   "accession": "LOC item 2021670051",
+   "institution": "Library of Congress (digital); Biblioteca Nacional de Colombia (physical archive)",
+   "licence": "Public domain / no known restrictions (19th-century acquisition — verify rights statement on item page)",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence": "<p>The Library of Congress is unaware of any copyright or other restrictions in the World Digital Library Collection. Absent any such restrictions, these materials are free to use ",
+    "licence_class": "check_required",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "View of the Mountains above Cali from a City Street, Province of Buenaventura."
+   },
+   "display_image": null,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "7 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "catalina_src_1",
+   "title": "Ley del 30 de mayo de 1853 — Monetary Law establishing the gold cóndor",
+   "type": "legislative_act",
+   "date": "30 May 1853",
+   "author": "Congress of the Republic of New Granada",
+   "description": "Renamed the 'granadino' monetary unit to 'peso' and established the gold cóndor coin at 10 pesos, 16.400g at .900 fine gold.",
+   "held_at": "Archivo General de la Nación, Bogotá (primary); referenced via Wikipedia monetary timeline",
+   "url": "https://en.wikipedia.org/wiki/Currency_of_Colombia",
+   "license": "Legislative text is public domain; Wikipedia summary is CC BY-SA",
+   "plain_language": "The law that created the condor gold coin worth ten pesos — the document that gave Colombia's money both its name and its bird symbol.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Archivo General de la Nación, Bogotá (primary); referenced via Wikipedia monetary timeline",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Currency_of_Colombia",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "catalina_src_2",
+   "title": "Manuel María Paz watercolor — Comisión Corográfica survey",
+   "type": "primary_visual_document",
+   "date": "c. 1853–1859",
+   "author": "Manuel María Paz",
+   "description": "Field watercolor produced during the Comisión Corográfica's systematic survey of New Granada. One of over 90 paintings by Paz documenting landscapes, people, and daily life.",
+   "held_at": "Library of Congress (digital); Biblioteca Nacional de Colombia (physical, Bogotá)",
+   "url": "https://www.loc.gov/item/2021670051/",
+   "license": "Public domain / no known restrictions",
+   "plain_language": "A real painting of Colombia in the 1850s, made by a government artist traveling the country — the best visual record we have of what Catalina's world actually looked like.",
+   "licence": "Public domain / no known restrictions",
+   "licence_class": "open",
+   "institution": "Library of Congress (digital); Biblioteca Nacional de Colombia (physical, Bogotá)",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence": "<p>The Library of Congress is unaware of any copyright or other restrictions in the World Digital Library Collection. Absent any such restrictions, these materials are free to use ",
+    "licence_class": "check_required",
+    "authoritative": true,
+    "via": "Library of Congress JSON API",
+    "title": "View of the Mountains above Cali from a City Street, Province of Buenaventura."
+   }
+  },
+  {
+   "id": "catalina_src_3",
+   "title": "ANS MANTIS — Gold 10 Peso, Popayán, 1853 (Cóndor design)",
+   "type": "numismatic_database",
+   "date": "1853",
+   "author": "American Numismatic Society",
+   "description": "Verified museum catalog record documenting a physical gold cóndor-design 10-peso coin from the Republic of New Granada, with weight and diameter measurements. Accession 1960.166.309.",
+   "held_at": "American Numismatic Society, New York",
+   "url": "https://numismatics.org/collection/",
+   "license": "Open for research/educational use (verify individual object terms)",
+   "plain_language": "The museum record proving a real ten-peso gold coin with a condor still exists today — more than 170 years after it was made.",
+   "licence": "Open for research/educational use (verify individual object terms)",
+   "licence_class": "check_required",
+   "institution": "American Numismatic Society, New York",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://numismatics.org/collection/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "catalina_src_4",
+   "title": "El Banco Nacional, 1880–1904: el fracaso de la moneda legal",
+   "type": "academic_publication",
+   "date": "1989",
+   "author": "Published in Lecturas de Economía",
+   "description": "Academic economic history analyzing the failure of Colombia's Banco Nacional and its forced paper currency — one of Catalina's six monetary crises.",
+   "held_at": "Lecturas de Economía journal, indexed via IDEAS/RePEc",
+   "url": "https://ideas.repec.org/a/lde/journl/y1989i28p29-76.html",
+   "license": "Academic journal copyright — check publisher for reuse",
+   "plain_language": "This academic paper explains how Colombia's first national bank printed too much paper money in the 1880s and ended up failing — a real financial crisis from Catalina's story.",
+   "licence": "Academic journal copyright — check publisher for reuse",
+   "licence_class": "unknown",
+   "institution": "Lecturas de Economía journal, indexed via IDEAS/RePEc",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://ideas.repec.org/a/lde/journl/y1989i28p29-76.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "catalina_src_5",
+   "title": "Colombia Devalues Peso by 10% in Emergency Decree",
+   "type": "newspaper",
+   "date": "29 June 1999",
+   "author": "The New York Times (International Business desk)",
+   "description": "Contemporary news report on Colombia's emergency 10% peso devaluation during the 1999 financial crisis — the most recent of Catalina's six major crises.",
+   "held_at": "The New York Times archive",
+   "url": "https://www.nytimes.com/1999/06/29/business/international-business-colombia-devalues-peso-by-10-in-emergency-decree.html",
+   "license": "NYT copyright — subscription/paywall may apply",
+   "plain_language": "In 1999 Colombia's government suddenly made its money worth 10% less overnight to deal with an economic emergency — proof that the peso's story includes real crashes.",
+   "licence": "NYT copyright — subscription/paywall may apply",
+   "licence_class": "unknown",
+   "institution": "The New York Times archive",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 4.711,
+  "center_lng": -74.0721,
+  "center_label": "Bogotá, Colombia",
+  "era_start": 1837,
+  "era_end": 2026,
+  "map_description": "Born in the heart of the Andes, Colombia's peso traces a journey from Muisca gold ceremonies at Lake Guatavita through colonial mints in Bogotá and Popayán, along Caribbean trade routes from Cartagena, and outward to international museum collections that hold the surviving evidence of her story.",
+  "nodes": [
+   {
+    "label": "Casa de Moneda de Bogotá",
+    "lat": 4.5967,
+    "lng": -74.0736,
+    "type": "origin",
+    "description": "The founding mint (1620–1621). All Colombian pesos and cóndores were struck here. La Candelaria, Bogotá."
+   },
+   {
+    "label": "Museo del Oro — Bogotá",
+    "lat": 4.6019,
+    "lng": -74.072,
+    "type": "origin",
+    "description": "Holds the Muisca Raft and ~55,000 pre-Columbian gold artifacts — the pre-monetary economy that preceded the peso."
+   },
+   {
+    "label": "Lake Guatavita",
+    "lat": 4.9714,
+    "lng": -73.7838,
+    "type": "origin",
+    "description": "Sacred Muisca lake where the El Dorado gilding ceremony took place. The mythic origin of Colombia's gold legend."
+   },
+   {
+    "label": "Muzo Emerald Mines",
+    "lat": 5.5333,
+    "lng": -74.1,
+    "type": "production",
+    "description": "The Emerald Republic's most prized resource — Colombian emeralds were used as proto-currency long before the peso existed."
+   },
+   {
+    "label": "Popayán Mint",
+    "lat": 2.4448,
+    "lng": -76.6147,
+    "type": "production",
+    "description": "Secondary Republic-era mint (opened 1758) that struck many surviving gold cóndor coins now held by the ANS."
+   },
+   {
+    "label": "Cartagena de Indias",
+    "lat": 10.4236,
+    "lng": -75.5528,
+    "type": "trade",
+    "description": "Colonial trade port and fortress. Site of the 2016 FARC peace agreement signing — history's bookend for Catalina's story."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Comisión Corográfica Maps of New Granada, 1850s",
+   "url": "https://www.loc.gov/item/2021670051/",
+   "license": "Public domain"
+  }
+ },
+ "_verified": "2026-07-11 10:38"
+}

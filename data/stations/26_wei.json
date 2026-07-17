@@ -1,0 +1,430 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 26,
+  "character_key": "wei",
+  "character_name": "Wei",
+  "asset": "Offshore Chinese Yuan",
+  "ticker": "CNH",
+  "era": "2010",
+  "era_label": "Offshore RMB Market Era",
+  "era_year": 2010,
+  "tagline": "Same blood as her sister, raised outside the walls — and far more willing to tell you the truth."
+ },
+ "museum_objects": [
+  {
+   "id": "wei_obj_1",
+   "title": "HKMA Official 2010 Press Release",
+   "date": "July 19, 2010",
+   "type": "document",
+   "material": "digital",
+   "description": "The Hong Kong Monetary Authority's official announcement establishing the formal offshore RMB trade settlement market.",
+   "significance": "This press release is Wei's actual birth certificate — the day she was allowed to exist outside the walls that keep her sister, Mei, so carefully controlled.",
+   "museum": "Hong Kong Monetary Authority",
+   "museum_location": "Hong Kong",
+   "accession_number": "HKMA press release 20100719-4",
+   "collection_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2010/07/20100719-4/",
+   "image_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2010/07/20100719-4/",
+   "license": "HKMA terms",
+   "open_access": false,
+   "plain_language": "The official 2010 announcement from Hong Kong's monetary authority that created an offshore version of China's currency, free from mainland controls.",
+   "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2010/07/20100719-4/",
+   "accession": "HKMA press release 20100719-4",
+   "institution": "Hong Kong Monetary Authority",
+   "licence": "HKMA terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2010/07/20100719-4/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "RL32882 (IA RL32882-crs).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/RL32882_%28IA_RL32882-crs%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:RL32882_(IA_RL32882-crs).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nCongressional Research Service"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "wei_obj_2",
+   "title": "HKMA 'Hong Kong as Offshore Renminbi Centre' Retrospective",
+   "date": "2014",
+   "type": "document",
+   "material": "digital",
+   "description": "A retrospective analysis by the HKMA on Hong Kong's development as the world's leading offshore renminbi trading hub.",
+   "significance": "Four years after she was born, this document proves Wei had already made herself indispensable — the market's preferred way to bet on China without China's rules.",
+   "museum": "Hong Kong Monetary Authority",
+   "museum_location": "Hong Kong",
+   "accession_number": "HKMA insight 20140218",
+   "collection_url": "https://www.hkma.gov.hk/eng/news-and-media/insight/2014/02/20140218/",
+   "image_url": "https://www.hkma.gov.hk/eng/news-and-media/insight/2014/02/20140218/",
+   "license": "HKMA terms",
+   "open_access": false,
+   "plain_language": "A 2014 report explaining how Hong Kong became the world's main hub for trading this offshore version of Chinese currency.",
+   "url": "https://www.hkma.gov.hk/eng/news-and-media/insight/2014/02/20140218/",
+   "accession": "HKMA insight 20140218",
+   "institution": "Hong Kong Monetary Authority",
+   "licence": "HKMA terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.hkma.gov.hk/eng/news-and-media/insight/2014/02/20140218/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "wei_obj_3",
+   "title": "BIS Working Paper: CNH-CNY Pricing Dynamics",
+   "date": "2015",
+   "type": "academic_publication",
+   "material": "digital PDF",
+   "description": "A Bank for International Settlements research paper analyzing the price relationship between onshore and offshore renminbi.",
+   "significance": "Economists needed an entire research paper just to explain how two currencies with the same name can have two different prices — that's basically Wei's whole complicated relationship with her sister in one document.",
+   "museum": "Bank for International Settlements",
+   "museum_location": "Basel, Switzerland",
+   "accession_number": "BIS working paper 492",
+   "collection_url": "https://www.bis.org/publ/work492.pdf",
+   "image_url": "https://www.bis.org/publ/work492.pdf",
+   "license": "BIS terms",
+   "open_access": false,
+   "plain_language": "An academic paper explaining why the offshore and onshore versions of Chinese currency sometimes trade at different prices.",
+   "url": "https://www.bis.org/publ/work492.pdf",
+   "accession": "BIS working paper 492",
+   "institution": "Bank for International Settlements",
+   "licence": "BIS terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bis.org/publ/work492.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "wei_obj_4",
+   "title": "Victoria Harbour / IFC Financial District Photographs",
+   "date": "Contemporary",
+   "type": "photograph",
+   "material": "digital",
+   "description": "Photographs of Hong Kong's financial district skyline, home to the institutions that trade and manage the offshore renminbi market.",
+   "significance": "This skyline is Wei's home turf — a place built specifically to let money move more freely than it's allowed to on the mainland.",
+   "museum": "Referenced via public photography archives",
+   "museum_location": "Hong Kong",
+   "accession_number": "Hong Kong skyline reference",
+   "collection_url": "https://en.wikipedia.org/wiki/Hong_Kong",
+   "image_url": "https://en.wikipedia.org/wiki/Hong_Kong",
+   "license": "CC BY-SA (Wikimedia reference)",
+   "open_access": true,
+   "plain_language": "Photos of Hong Kong's famous financial district, home to the banks and traders who deal in this offshore Chinese currency.",
+   "url": "https://en.wikipedia.org/wiki/Hong_Kong",
+   "accession": "Hong Kong skyline reference",
+   "institution": "Referenced via public photography archives",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Hong_Kong",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "display_image": null
+  },
+  {
+   "id": "wei_obj_5",
+   "title": "2020 Hong Kong National Security Law Documentation",
+   "date": "2020",
+   "type": "legal_document",
+   "material": "digital",
+   "description": "The controversial law imposed by Beijing on Hong Kong, raising questions about the territory's financial autonomy.",
+   "significance": "For the first time since her birth, Wei's whole reason for existing — being separate from the mainland's rules — came under real threat.",
+   "museum": "Referenced via Wikipedia / legal archives",
+   "museum_location": "Hong Kong",
+   "accession_number": "National Security Law 2020",
+   "collection_url": "https://en.wikipedia.org/wiki/2020_Hong_Kong_national_security_law",
+   "image_url": "https://en.wikipedia.org/wiki/2020_Hong_Kong_national_security_law",
+   "license": "CC BY-SA (Wikimedia reference)",
+   "open_access": true,
+   "plain_language": "A controversial 2020 law that raised big questions about how independent Hong Kong's financial system could remain from mainland China.",
+   "url": "https://en.wikipedia.org/wiki/2020_Hong_Kong_national_security_law",
+   "accession": "National Security Law 2020",
+   "institution": "Referenced via Wikipedia / legal archives",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/2020_Hong_Kong_national_security_law",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: the image shows people in cycling attire, not documentation related to the 2020 Hong Kong National Security Law",
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "WD1987 Hong Kong Island 58 27-08-2020.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/WD1987_Hong_Kong_Island_58_27-08-2020.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:WD1987_Hong_Kong_Island_58_27-08-2020.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "LN9267"
+    }
+   ]
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "wei_src_1",
+   "title": "HKMA Official 2010 Press Release",
+   "type": "official_announcement",
+   "date": "2010",
+   "author": "Hong Kong Monetary Authority",
+   "description": "The founding announcement of the formal offshore RMB trade settlement agreement.",
+   "held_at": "HKMA",
+   "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2010/07/20100719-4/",
+   "license": "HKMA terms",
+   "plain_language": "Hong Kong's official 2010 announcement creating this offshore Chinese currency market.",
+   "licence": "HKMA terms",
+   "licence_class": "unknown",
+   "institution": "HKMA",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2010/07/20100719-4/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "wei_src_2",
+   "title": "Hong Kong as Offshore Renminbi Centre",
+   "type": "official_report",
+   "date": "2014",
+   "author": "Hong Kong Monetary Authority",
+   "description": "HKMA retrospective report on Hong Kong's growth as the leading offshore RMB trading hub.",
+   "held_at": "HKMA",
+   "url": "https://www.hkma.gov.hk/eng/news-and-media/insight/2014/02/20140218/",
+   "license": "HKMA terms",
+   "plain_language": "A report explaining how Hong Kong became the top place to trade this offshore Chinese currency.",
+   "licence": "HKMA terms",
+   "licence_class": "unknown",
+   "institution": "HKMA",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.hkma.gov.hk/eng/news-and-media/insight/2014/02/20140218/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "wei_src_3",
+   "title": "CNH-CNY Pricing Dynamics",
+   "type": "academic_publication",
+   "date": "2015",
+   "author": "Bank for International Settlements",
+   "description": "Research paper analyzing the pricing relationship between onshore and offshore renminbi markets.",
+   "held_at": "Bank for International Settlements",
+   "url": "https://www.bis.org/publ/work492.pdf",
+   "license": "BIS terms",
+   "plain_language": "An academic study explaining why the onshore and offshore Chinese currencies sometimes have different prices.",
+   "licence": "BIS terms",
+   "licence_class": "unknown",
+   "institution": "Bank for International Settlements",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bis.org/publ/work492.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "wei_src_4",
+   "title": "Wikipedia: 2020 Hong Kong National Security Law",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference overview of the controversial law and its implications for Hong Kong's autonomy.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2020_Hong_Kong_national_security_law",
+   "license": "CC BY-SA",
+   "plain_language": "Background on a controversial 2020 law affecting Hong Kong's independence from mainland China.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/2020_Hong_Kong_national_security_law",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "wei_src_5",
+   "title": "Wikipedia: Renminbi",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "General reference on the Chinese currency system, including the onshore/offshore distinction.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Renminbi",
+   "license": "CC BY-SA",
+   "plain_language": "A general overview of Chinese currency, including how the onshore and offshore versions differ.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Renminbi",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 22.3193,
+  "center_lng": 114.1694,
+  "center_label": "Hong Kong",
+  "era_start": 2003,
+  "era_end": 2026,
+  "map_description": "Wei was born in Hong Kong's unique financial autonomy, growing from personal RMB services in 2003 into a full offshore trading market by 2010.",
+  "nodes": [
+   {
+    "label": "Hong Kong (HKMA)",
+    "lat": 22.2793,
+    "lng": 114.1628,
+    "type": "origin",
+    "description": "Where the offshore renminbi trade settlement market was formally established in 2010."
+   },
+   {
+    "label": "Victoria Harbour",
+    "lat": 22.2908,
+    "lng": 114.1725,
+    "type": "landmark",
+    "description": "Iconic harbor at the heart of Hong Kong's financial district."
+   },
+   {
+    "label": "IFC / HSBC Building",
+    "lat": 22.2849,
+    "lng": 114.1583,
+    "type": "landmark",
+    "description": "Major financial institutions central to offshore renminbi trading and settlement."
+   },
+   {
+    "label": "Bank of China Tower",
+    "lat": 22.2793,
+    "lng": 114.16,
+    "type": "landmark",
+    "description": "A key institution bridging mainland Chinese and Hong Kong financial systems."
+   },
+   {
+    "label": "Shanghai (onshore RMB)",
+    "lat": 31.2304,
+    "lng": 121.4737,
+    "type": "trade_route",
+    "description": "Home of the onshore renminbi (Mei), whose tightly controlled exchange rate contrasts with Wei's freer offshore trading."
+   }
+  ],
+  "historical_map_source": {
+   "title": "HKMA — Hong Kong as Offshore Renminbi Centre",
+   "url": "https://www.hkma.gov.hk/eng/news-and-media/insight/2014/02/20140218/",
+   "license": "HKMA terms"
+  }
+ },
+ "_verified": "2026-07-11 10:42"
+}

@@ -1,0 +1,456 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 11,
+  "character_key": "marisol_ferro",
+  "character_name": "Marisol Ferro",
+  "asset": "Cuban Peso",
+  "ticker": "CUP",
+  "era": "1857",
+  "era_label": "Colonial Cuba",
+  "era_year": 1857,
+  "tagline": "They cut her off from the world sixty years ago. She is still standing in the doorway."
+ },
+ "museum_objects": [
+  {
+   "id": "marisol_ferro_obj_1",
+   "title": "First Cuban Peso Notes (Banco Español de La Habana)",
+   "date": "1857",
+   "type": "banknote",
+   "material": "paper",
+   "description": "The earliest paper peso notes issued in Cuba, by the Spanish Bank of Havana.",
+   "significance": "Marisol's very first appearance was as a colonial bank's promise — long before anyone imagined she'd end up isolated from the entire global financial system.",
+   "museum": "Numismatic Museum of Havana",
+   "museum_location": "Havana, Cuba",
+   "accession_number": "Calle Obispo 305 collection",
+   "collection_url": "https://en.wikipedia.org/wiki/Cuban_peso",
+   "image_url": "https://en.wikipedia.org/wiki/Cuban_peso",
+   "license": "CC BY-SA (Wikimedia reference)",
+   "open_access": true,
+   "plain_language": "The very first paper peso notes issued in Cuba, printed by a Spanish colonial bank in 1857.",
+   "url": "https://en.wikipedia.org/wiki/Cuban_peso",
+   "accession": "Calle Obispo 305 collection",
+   "institution": "Numismatic Museum of Havana",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Cuban_peso",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "display_image": null,
+   "display_alternatives": []
+  },
+  {
+   "id": "marisol_ferro_obj_2",
+   "title": "Castillo de la Real Fuerza",
+   "date": "16th century fortress",
+   "type": "building",
+   "material": "stone",
+   "description": "A historic Spanish colonial fortress in Havana, symbol of the wealth and defense of Spain's Caribbean trade.",
+   "significance": "Long before Marisol existed, this fortress was already guarding the gold and silver that would define Cuba's colonial economy.",
+   "museum": "Museo de Navegación (housed within fortress)",
+   "museum_location": "Havana, Cuba",
+   "accession_number": "Castillo de la Real Fuerza",
+   "collection_url": "https://en.wikipedia.org/wiki/Castillo_de_la_Real_Fuerza",
+   "image_url": "https://en.wikipedia.org/wiki/Castillo_de_la_Real_Fuerza",
+   "license": "CC BY-SA (Wikimedia reference)",
+   "open_access": true,
+   "plain_language": "A centuries-old Spanish fort in Havana that once guarded the colony's treasure.",
+   "url": "https://en.wikipedia.org/wiki/Castillo_de_la_Real_Fuerza",
+   "accession": "Castillo de la Real Fuerza",
+   "institution": "Museo de Navegación (housed within fortress)",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Castillo_de_la_Real_Fuerza",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Habana - Castillo de la Fuerza 2.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Habana_-_Castillo_de_la_Fuerza_2.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Habana_-_Castillo_de_la_Fuerza_2.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Unknown author"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Havana - Castillo de la Real Fuerza.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Havana_-_Castillo_de_la_Real_Fuerza.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Havana_-_Castillo_de_la_Real_Fuerza.jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Libreria La Moderna Poesia, Havana (publisher)"
+    }
+   ]
+  },
+  {
+   "id": "marisol_ferro_obj_3",
+   "title": "Cuban Convertible Peso (CUC) Note",
+   "date": "1994-2021",
+   "type": "banknote",
+   "material": "paper",
+   "description": "A dual-currency system note created to attract foreign tourism dollars while isolating the domestic peso.",
+   "significance": "For decades, Marisol had to share her own house with a currency built specifically to keep the outside world at arm's length — and closer to her.",
+   "museum": "Referenced numismatic archives",
+   "museum_location": "Havana, Cuba",
+   "accession_number": "CUC banknote series",
+   "collection_url": "https://en.wikipedia.org/wiki/Cuban_convertible_peso",
+   "image_url": "https://en.wikipedia.org/wiki/Cuban_convertible_peso",
+   "license": "CC BY-SA (Wikimedia reference)",
+   "open_access": true,
+   "plain_language": "A special tourist-only currency Cuba created to run alongside the regular peso for nearly three decades.",
+   "url": "https://en.wikipedia.org/wiki/Cuban_convertible_peso",
+   "accession": "CUC banknote series",
+   "institution": "Referenced numismatic archives",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Cuban_convertible_peso",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "8 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image is a map, not a banknote",
+   "display_image": null,
+   "display_alternatives": []
+  },
+  {
+   "id": "marisol_ferro_obj_4",
+   "title": "Banco de España Historical Study on Cuban Currency",
+   "date": "Historical monograph",
+   "type": "document",
+   "material": "paper",
+   "description": "A Spanish central bank historical study analyzing 19th-century Cuban colonial monetary systems.",
+   "significance": "Even the bank that once controlled her is still writing papers trying to understand how Marisol survived.",
+   "museum": "Banco de España Archive",
+   "museum_location": "Madrid, Spain",
+   "accession_number": "roja44 monograph",
+   "collection_url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/EstudiosHistoriaEconomica/Fic/roja44.pdf",
+   "image_url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/EstudiosHistoriaEconomica/Fic/roja44.pdf",
+   "license": "Banco de España terms",
+   "open_access": false,
+   "plain_language": "A detailed research paper by Spain's central bank studying Cuba's old colonial-era money system.",
+   "url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/EstudiosHistoriaEconomica/Fic/roja44.pdf",
+   "accession": "roja44 monograph",
+   "institution": "Banco de España Archive",
+   "licence": "Banco de España terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/EstudiosHistoriaEconomica/Fic/roja44.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "7 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "marisol_ferro_obj_5",
+   "title": "Day Zero Currency Unification Coverage",
+   "date": "2021",
+   "type": "news_photograph",
+   "material": "digital",
+   "description": "News photography documenting Cuba's 2021 unification of its dual-currency system into a single peso.",
+   "significance": "After six decades of living split between two currencies, Marisol finally became one thing again — and the whole world watched it happen.",
+   "museum": "Al Jazeera archive",
+   "museum_location": "Havana, Cuba",
+   "accession_number": "Day Zero coverage 2021",
+   "collection_url": "https://www.aljazeera.com/economy/2021/1/1/what-will-cubas-new-single-currency-mean-for-the-island",
+   "image_url": "https://www.aljazeera.com/economy/2021/1/1/what-will-cubas-new-single-currency-mean-for-the-island",
+   "license": "Al Jazeera terms",
+   "open_access": false,
+   "plain_language": "News coverage of the day in 2021 when Cuba finally merged its two different currencies back into one.",
+   "url": "https://www.aljazeera.com/economy/2021/1/1/what-will-cubas-new-single-currency-mean-for-the-island",
+   "accession": "Day Zero coverage 2021",
+   "institution": "Al Jazeera archive",
+   "licence": "Al Jazeera terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.aljazeera.com/economy/2021/1/1/what-will-cubas-new-single-currency-mean-for-the-island",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "EUROPEAN COMMON FOREIGN, SECURITY AND DEFENSE POLICIES (IA gov.gpo.fdsys.CHRG-106hhrg64589).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/EUROPEAN_COMMON_FOREIGN%2C_SECURITY_AND_DEFENSE_POLICIES_%28IA_gov.gpo.fdsys.CHRG-106hhrg64589%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:EUROPEAN_COMMON_FOREIGN,_SECURITY_AND_DEFENSE_POLICIES_(IA_gov.gpo.fdsys.CHRG-106hhrg64589).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nCommittee on International Relations"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "RL30100 (IA RL30100-crs).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/RL30100_%28IA_RL30100-crs%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:RL30100_(IA_RL30100-crs).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nCongressional Research Service"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "2 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "marisol_ferro_src_1",
+   "title": "Banco de España Historical Study on Cuban Colonial Currency",
+   "type": "academic_publication",
+   "date": "Historical monograph",
+   "author": "Banco de España",
+   "description": "Scholarly economic history analysis of 19th-century Cuban monetary policy under Spanish rule.",
+   "held_at": "Banco de España",
+   "url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/EstudiosHistoriaEconomica/Fic/roja44.pdf",
+   "license": "Banco de España terms",
+   "plain_language": "An in-depth study by Spain's central bank on how Cuba's colonial money system worked.",
+   "licence": "Banco de España terms",
+   "licence_class": "unknown",
+   "institution": "Banco de España",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/EstudiosHistoriaEconomica/Fic/roja44.pdf",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "marisol_ferro_src_2",
+   "title": "What Will Cuba's New Single Currency Mean for the Island?",
+   "type": "news_article",
+   "date": "2021",
+   "author": "Al Jazeera",
+   "description": "News analysis of Cuba's 2021 currency unification and its economic implications.",
+   "held_at": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2021/1/1/what-will-cubas-new-single-currency-mean-for-the-island",
+   "license": "Al Jazeera terms",
+   "plain_language": "A news article explaining what happened when Cuba merged its two currencies into one in 2021.",
+   "licence": "Al Jazeera terms",
+   "licence_class": "unknown",
+   "institution": "Al Jazeera",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.aljazeera.com/economy/2021/1/1/what-will-cubas-new-single-currency-mean-for-the-island",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "marisol_ferro_src_3",
+   "title": "Wikipedia: Cuban Peso",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Overview reference on the history of the Cuban peso since colonial times.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cuban_peso",
+   "license": "CC BY-SA",
+   "plain_language": "A general history of Cuba's currency from colonial times to today.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Cuban_peso",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "marisol_ferro_src_4",
+   "title": "Wikipedia: Cuban Convertible Peso",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference on the tourist-oriented dual-currency system used in Cuba from 1994-2021.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cuban_convertible_peso",
+   "license": "CC BY-SA",
+   "plain_language": "Background on Cuba's special tourist currency that ran for nearly 30 years.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Cuban_convertible_peso",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "marisol_ferro_src_5",
+   "title": "US Embargo Legislation Archive (Cuban Assets Control Regulations)",
+   "type": "legal_document",
+   "date": "1963-present",
+   "author": "U.S. Department of Treasury",
+   "description": "Legal framework underpinning the decades-long U.S. financial embargo affecting the Cuban peso's global convertibility.",
+   "held_at": "U.S. Treasury / OFAC",
+   "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/cuba-sanctions",
+   "license": "U.S. Government Public Domain",
+   "plain_language": "The actual U.S. government rules that have cut Cuba off from much of the global financial system for over 60 years.",
+   "licence": "U.S. Government Public Domain",
+   "licence_class": "open",
+   "institution": "U.S. Treasury / OFAC",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/cuba-sanctions",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 23.1136,
+  "center_lng": -82.3666,
+  "center_label": "Havana, Cuba",
+  "era_start": 1857,
+  "era_end": 2026,
+  "map_description": "Marisol's peso was born in colonial Havana, and after the 1959 revolution and decades of U.S. embargo, has remained largely isolated from the global financial system.",
+  "nodes": [
+   {
+    "label": "Havana (Banco Español)",
+    "lat": 23.1136,
+    "lng": -82.3666,
+    "type": "origin",
+    "description": "Where the first Cuban peso notes were issued by the Spanish colonial bank in 1857."
+   },
+   {
+    "label": "Castillo de la Real Fuerza",
+    "lat": 23.1478,
+    "lng": -82.3553,
+    "type": "landmark",
+    "description": "Historic fortress guarding Havana's colonial-era wealth."
+   },
+   {
+    "label": "Miami, Florida",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "type": "destination",
+    "description": "Home to the largest Cuban exile community, whose remittances have long been a lifeline for the isolated peso economy."
+   },
+   {
+    "label": "Moscow",
+    "lat": 55.7558,
+    "lng": 37.6173,
+    "type": "trade_route",
+    "description": "Cuba's key economic patron during the Soviet era, propping up the peso through subsidized trade until 1991."
+   },
+   {
+    "label": "Washington, D.C.",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "type": "trade_route",
+    "description": "Source of the decades-long U.S. embargo that has isolated Cuba's currency from most of the global financial system."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Wikipedia — Cuban Peso",
+   "url": "https://en.wikipedia.org/wiki/Cuban_peso",
+   "license": "CC BY-SA"
+  }
+ },
+ "_verified": "2026-07-11 10:38"
+}

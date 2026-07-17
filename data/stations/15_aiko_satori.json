@@ -1,0 +1,493 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 15,
+  "character_key": "aiko_satori",
+  "character_name": "Aiko Satori",
+  "asset": "Japanese Yen",
+  "ticker": "JPY",
+  "era": "1871",
+  "era_label": "Meiji Restoration Japan",
+  "era_year": 1871,
+  "tagline": "Discipline is the only apology she's ever needed to give."
+ },
+ "museum_objects": [
+  {
+   "id": "aiko_satori_obj_1",
+   "title": "1 Yen Coin (1870)",
+   "date": "1870",
+   "type": "coin",
+   "material": "silver",
+   "description": "One of the earliest yen coins struck under Japan's New Currency Act, part of the Meiji government's modernization program.",
+   "significance": "Aiko was born the moment Japan decided to abandon centuries of feudal currency and adopt a single, disciplined, Western-style system almost overnight.",
+   "museum": "Smithsonian National Museum of American History",
+   "museum_location": "Washington, D.C., USA",
+   "accession_number": "2017.0060.2874",
+   "collection_url": "https://www.si.edu/object/1-yen-japan-1870:nmah_1848278",
+   "image_url": "https://www.si.edu/object/1-yen-japan-1870:nmah_1848278",
+   "license": "CC0",
+   "open_access": true,
+   "plain_language": "One of the first yen coins ever made, from when Japan completely redesigned its money system almost overnight.",
+   "url": "https://www.si.edu/object/1-yen-japan-1870:nmah_1848278",
+   "accession": "2017.0060.2874",
+   "institution": "Smithsonian National Museum of American History",
+   "licence": "CC0",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "needs_key",
+    "via": "TIER 2 — free API key required (CEO signup)"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "1 yen Meiji 3 - 1870.png",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/1_yen_Meiji_3_-_1870.png",
+     "page_url": "https://commons.wikimedia.org/wiki/File:1_yen_Meiji_3_-_1870.png",
+     "licence": "CC0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Windrain"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Japan 1870 20 Yen (alt).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Japan_1870_20_Yen_%28alt%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Japan_1870_20_Yen_(alt).jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "National Museum of American History\n"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "aiko_satori_obj_2",
+   "title": "Bank of Japan Currency Museum Collection",
+   "date": "Various",
+   "type": "museum/building",
+   "material": "stone",
+   "description": "The official currency museum of the Bank of Japan, housing the full history of Japanese money.",
+   "significance": "Everything Aiko has ever been — coin, note, digital balance — is documented here, steps from where the modern Bank of Japan itself sits.",
+   "museum": "Bank of Japan Currency Museum",
+   "museum_location": "Nihonbashi, Tokyo, Japan",
+   "accession_number": "BOJ Currency Museum general collection",
+   "collection_url": "https://www.imes.boj.or.jp/cm/english/",
+   "image_url": "https://www.imes.boj.or.jp/cm/english/",
+   "license": "Bank of Japan terms",
+   "open_access": false,
+   "plain_language": "Japan's central bank's own museum, dedicated entirely to the history of Japanese money.",
+   "url": "https://www.imes.boj.or.jp/cm/english/",
+   "accession": "BOJ Currency Museum general collection",
+   "institution": "Bank of Japan Currency Museum",
+   "licence": "Bank of Japan terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.imes.boj.or.jp/cm/english/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Orchid Pavilion Gathering; Autumn Harvest Festival",
+     "match_text": "Orchid Pavilion Gathering; Autumn Harvest Festival Japan Screens ca. 1763 Paintings",
+     "accession": "2015.300.163.1, .2",
+     "date": "ca. 1763",
+     "image_url": "https://images.metmuseum.org/CRDImages/as/original/DP362631.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/53456",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Six Jewel Rivers",
+     "match_text": "Six Jewel Rivers Japan Handscrolls ca. 1839 Paintings",
+     "accession": "2015.300.100a–f",
+     "date": "ca. 1839",
+     "image_url": "https://images.metmuseum.org/CRDImages/as/original/DT372445.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/53427",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Currency Museum-1.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Currency_Museum-1.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Currency_Museum-1.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "江戸村のとくぞう"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: the image shows a ceramic cup, not a currency or money-related item",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "12 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "aiko_satori_obj_3",
+   "title": "Meiji Tsuho Banknote",
+   "date": "1868-1872",
+   "type": "banknote",
+   "material": "paper",
+   "description": "Early Meiji-era paper currency issued before the yen's formal standardization, printed using German technology.",
+   "significance": "Before Aiko had her disciplined, modern form, she was this — an experimental note trying to hold together a government mid-transformation.",
+   "museum": "Osaka Mint Museum",
+   "museum_location": "Osaka, Japan",
+   "accession_number": "Meiji Tsuho note",
+   "collection_url": "https://www.mint.go.jp/",
+   "image_url": "https://www.mint.go.jp/",
+   "license": "Osaka Mint Museum terms",
+   "open_access": false,
+   "plain_language": "An early experimental banknote from just before Japan's currency was fully standardized into the yen.",
+   "url": "https://www.mint.go.jp/",
+   "accession": "Meiji Tsuho note",
+   "institution": "Osaka Mint Museum",
+   "licence": "Osaka Mint Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.mint.go.jp/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "10 Yen Meiji Tsuho note in Japan - reverse.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/10_Yen_Meiji_Tsuho_note_in_Japan_-_reverse.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:10_Yen_Meiji_Tsuho_note_in_Japan_-_reverse.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Heavy Frisker"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "1 Yen Meiji Tsuho note in Japan - reverse.jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/1_Yen_Meiji_Tsuho_note_in_Japan_-_reverse.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:1_Yen_Meiji_Tsuho_note_in_Japan_-_reverse.jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Heavy Frisker"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The banknote is not a Meiji Tsuho banknote, but rather a different type of Japanese currency, likely a 'Ten Yen' note from a different series",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "aiko_satori_obj_4",
+   "title": "New Currency Act Original Text (1871)",
+   "date": "1871",
+   "type": "document",
+   "material": "paper",
+   "description": "The founding legislation establishing the yen as Japan's national currency, replacing the old feudal system.",
+   "significance": "This law is the reason Aiko exists — the moment Japan chose modern discipline over centuries of feudal currency chaos.",
+   "museum": "National Archives of Japan",
+   "museum_location": "Tokyo, Japan",
+   "accession_number": "New Currency Act 1871",
+   "collection_url": "https://www.archives.go.jp/english/",
+   "image_url": "https://www.archives.go.jp/english/",
+   "license": "National Archives of Japan terms",
+   "open_access": false,
+   "plain_language": "The actual 1871 law that created the yen and replaced Japan's old, complicated feudal money system.",
+   "url": "https://www.archives.go.jp/english/",
+   "accession": "New Currency Act 1871",
+   "institution": "National Archives of Japan",
+   "licence": "National Archives of Japan terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.archives.go.jp/english/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Seated Hercules in the act of shooting at the stymphalian birds",
+     "match_text": "Seated Hercules in the act of shooting at the stymphalian birds Statuette ca. 1515–20 Sculpture-Bronze",
+     "accession": "64.304.2",
+     "date": "ca. 1515–20",
+     "image_url": "https://images.metmuseum.org/CRDImages/es/original/DP-456-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/204504",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image shows a colonial-era banknote from New York, not the New Currency Act of 1871 related to the Japanese Yen",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "1 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "aiko_satori_obj_5",
+   "title": "Osaka Mint Museum Historical Coin Press",
+   "date": "1871 onward",
+   "type": "machinery",
+   "material": "iron/steel",
+   "description": "An original 19th-century coin-striking press used at the newly established Osaka Mint.",
+   "significance": "This machine physically stamped Aiko's discipline into every coin — a literal engine of the modernization Japan chose for itself.",
+   "museum": "Osaka Mint Museum",
+   "museum_location": "Osaka, Japan",
+   "accession_number": "Osaka Mint historical press",
+   "collection_url": "https://www.mint.go.jp/",
+   "image_url": "https://www.mint.go.jp/",
+   "license": "Osaka Mint Museum terms",
+   "open_access": false,
+   "plain_language": "An actual antique coin-making machine used when Japan's mint first started producing yen coins.",
+   "url": "https://www.mint.go.jp/",
+   "accession": "Osaka Mint historical press",
+   "institution": "Osaka Mint Museum",
+   "licence": "Osaka Mint Museum terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.mint.go.jp/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image shows coins, not a coin-striking press as described in the claim.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "1 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "aiko_satori_src_1",
+   "title": "MoneyMuseum: History of the Yen",
+   "type": "museum_publication",
+   "date": "Ongoing",
+   "author": "MoneyMuseum",
+   "description": "Educational publication tracing the yen's history from the Meiji Restoration to today.",
+   "held_at": "MoneyMuseum",
+   "url": "https://www.moneymuseum.com/",
+   "license": "MoneyMuseum terms",
+   "plain_language": "An educational guide explaining the full history of the Japanese yen.",
+   "licence": "MoneyMuseum terms",
+   "licence_class": "unknown",
+   "institution": "MoneyMuseum",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.moneymuseum.com/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "aiko_satori_src_2",
+   "title": "Wikipedia: Meiji Tsuho",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference on the transitional paper currency issued before the yen's formal standardization.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Meiji_Tsuho",
+   "license": "CC BY-SA",
+   "plain_language": "Background on the experimental paper money Japan used right before creating the yen.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Meiji_Tsuho",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "aiko_satori_src_3",
+   "title": "New Currency Act of 1871 (Full Text)",
+   "type": "legal_document",
+   "date": "1871",
+   "author": "Meiji government of Japan",
+   "description": "The founding law establishing the yen as Japan's official currency.",
+   "held_at": "National Archives of Japan",
+   "url": "https://www.archives.go.jp/english/",
+   "license": "National Archives of Japan terms",
+   "plain_language": "The actual law text that created the yen in 1871.",
+   "licence": "National Archives of Japan terms",
+   "licence_class": "unknown",
+   "institution": "National Archives of Japan",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.archives.go.jp/english/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "aiko_satori_src_4",
+   "title": "Bank of Japan Currency Museum Official Archive",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Bank of Japan",
+   "description": "Official archive documenting the full history of Japanese currency.",
+   "held_at": "Bank of Japan Currency Museum",
+   "url": "https://www.imes.boj.or.jp/cm/english/",
+   "license": "Bank of Japan terms",
+   "plain_language": "Japan's central bank's own official archive about its currency's history.",
+   "licence": "Bank of Japan terms",
+   "licence_class": "unknown",
+   "institution": "Bank of Japan Currency Museum",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.imes.boj.or.jp/cm/english/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "aiko_satori_src_5",
+   "title": "Osaka Mint Historical Records",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Japan Mint",
+   "description": "Historical records documenting the establishment and operations of Japan's first modern mint.",
+   "held_at": "Osaka Mint Museum",
+   "url": "https://www.mint.go.jp/",
+   "license": "Japan Mint terms",
+   "plain_language": "Official records from Japan's first modern coin-making mint.",
+   "licence": "Japan Mint terms",
+   "licence_class": "unknown",
+   "institution": "Osaka Mint Museum",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.mint.go.jp/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 35.6762,
+  "center_lng": 139.6503,
+  "center_label": "Tokyo, Japan",
+  "era_start": 1871,
+  "era_end": 2026,
+  "map_description": "Aiko was born from Japan's Meiji-era modernization and became one of the world's most disciplined reserve currencies, shaped by Tokyo, Osaka, and decades of trade with the West.",
+  "nodes": [
+   {
+    "label": "Tokyo (Bank of Japan)",
+    "lat": 35.6875,
+    "lng": 139.7745,
+    "type": "origin",
+    "description": "Home of the Bank of Japan and its Currency Museum, documenting the full history of the yen."
+   },
+   {
+    "label": "Osaka Mint",
+    "lat": 34.6937,
+    "lng": 135.5023,
+    "type": "origin",
+    "description": "Site of Japan's first modern mint, established in 1871 to produce standardized yen coinage."
+   },
+   {
+    "label": "Yokohama",
+    "lat": 35.4437,
+    "lng": 139.638,
+    "type": "trade_route",
+    "description": "Japan's key international trading port during the Meiji era, central to the yen's early foreign exchange."
+   },
+   {
+    "label": "Hong Kong",
+    "lat": 22.3193,
+    "lng": 114.1694,
+    "type": "trade_route",
+    "description": "A major regional financial hub through which yen-denominated trade flowed across Asia."
+   },
+   {
+    "label": "Bretton Woods, New Hampshire",
+    "lat": 44.2601,
+    "lng": -71.4478,
+    "type": "landmark",
+    "description": "Where the yen's postwar fixed exchange rate to the dollar was established as part of the global monetary order."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Bank of Japan Currency Museum",
+   "url": "https://www.imes.boj.or.jp/cm/english/",
+   "license": "Bank of Japan terms"
+  }
+ },
+ "_verified": "2026-07-11 10:39"
+}

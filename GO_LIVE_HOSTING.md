@@ -1,3 +1,35 @@
+<!-- TH-LAW:BEGIN -->
+> ## ⛔ NO-DECISION LAW — READ BEFORE ANYTHING ELSE
+>
+> **Claude does not drive. Claude does not decide. The TH SYSTEM drives.**
+>
+> Claude coordinates and supervises. It does not choose models, durations, prompts,
+> providers, substitutions, or shortcuts. It does not "use its judgment."
+>
+> **Every step in this document must be followed exactly, in order.**
+>
+> If a step cannot be executed as written — a provider will not do it, a rule conflicts
+> with a tool, a required asset is missing — the system **STOPS AND REPORTS TO THE CEO.**
+> It does NOT pick the nearest alternative. It does NOT proceed and flag it afterwards.
+> It does NOT spend a single credit against a rule it cannot satisfy.
+>
+> **No spend, no generation, no substitution without an explicit CEO ruling.**
+>
+> A deviation discovered *after* the money is gone is not a report. It is a failure.
+>
+> ### THE CHLOE LAW
+>
+> TH videos are **Chloe-standard in every respect**. We have the Chloe videos, the
+> reference channel, the frame-by-frame analysis, the rubric and the ingredients.
+>
+> **NO SELFIE is the ONLY permitted difference.** The camera is observed, never held.
+>
+> Everything else — structure, pacing, length, shot grammar, delivery — follows Chloe.
+> Nothing else is "adapted", "improved", or reinterpreted.
+<!-- TH-LAW:END -->
+
+---
+
 # Trading Hearts — Self-Hosting the Public Site (independence from Rhodium)
 
 Goal: reuse Rhodium's site, but **TH controls the deploy and the money**. The page is a single static

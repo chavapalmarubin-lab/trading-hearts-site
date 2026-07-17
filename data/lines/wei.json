@@ -1,0 +1,55 @@
+{
+ "custodian": "wei",
+ "name": "Wei",
+ "asset": "Offshore Chinese Yuan",
+ "stations": [
+  {
+   "year": 2010,
+   "label": "BORN OUTSIDE THE WALLS",
+   "line": "I was created in Hong Kong so that the world could hold the yuan without holding the mainland \u2014 a controlled aperture, opened deliberately, on our terms.",
+   "era_photo": "A composed figure in a dark tailored suit standing in a Hong Kong bank clearing hall, 2010, LED screens showing early CNH quotes; crisp full-frame DSLR digital photograph, cool fluorescent lighting, slight depth of field."
+  },
+  {
+   "year": 2011,
+   "label": "THE DIM SUM OPENS",
+   "line": "The dim sum bond market gave me a voice in the international capital markets; I spoke quietly at first, but I spoke, and the world listened for the first time.",
+   "era_photo": "Same figure reviewing a printed bond prospectus at a polished conference table in a Hong Kong tower, 2011, city skyline through glass; digital photograph, warm interior tones, formal posture, muted grey palette."
+  },
+  {
+   "year": 2015,
+   "label": "THE AUGUST DEVALUATION SHOCK",
+   "line": "When the fixing moved on the eleventh of August, the gap between my sister onshore and myself widened into a chasm, and I felt the market test whether our sovereignty could hold \u2014 it held.",
+   "era_photo": "The figure standing before a red-lit trading floor, screens flashing sharp declines, 2015; digital photograph, high contrast, tense red-and-black tonality, unhurried expression amid movement."
+  },
+  {
+   "year": 2016,
+   "label": "ADMITTED TO THE SDR",
+   "line": "The International Monetary Fund placed the yuan among the reserve currencies of the world \u2014 the same institution whose conditions I was built to refuse now recognised what we had built without its permission.",
+   "era_photo": "Formal portrait of the figure in a dark suit beside an IMF-blue backdrop in Washington, 2016; digital photograph, even studio lighting, dignified and still, precise composition."
+  },
+  {
+   "year": 2018,
+   "label": "THE TRADE WAR STRAIN",
+   "line": "As tariffs fell like blows, they watched to see whether I would break past seven to the dollar; I did not hurry, because a currency that panics has already lost the argument.",
+   "era_photo": "The figure at a window overlooking Hong Kong harbour at dusk, 2018, phone screens dim in the room; digital photograph, low warm light, contemplative, long shadows."
+  },
+  {
+   "year": 2019,
+   "label": "BREAKING SEVEN",
+   "line": "In August I crossed seven to the dollar for the first time, and Washington named us a manipulator within hours \u2014 I have been accused for thirty years by accusers who change while the project continues.",
+   "era_photo": "The figure standing composed as a screen displays the rate crossing 7.00, 2019, muted office at night; digital photograph, single cool light source, calm face, sharp focus on the number."
+  },
+  {
+   "year": 2022,
+   "label": "CAPITAL SEEKS THE EXIT",
+   "line": "When rates rose across the ocean and confidence thinned, capital pressed against the aperture, and I let it flex without letting it flood \u2014 the discipline of the managed line is precisely this restraint.",
+   "era_photo": "The figure reviewing capital-flow charts on a large monitor in a Beijing-facing office, 2022, subdued lighting; digital photograph, cool blue tones, measured expression, orderly desk."
+  },
+  {
+   "year": 2024,
+   "label": "THE LONG ARC HOLDS",
+   "line": "I remain what I was made to be: the yuan the world may hold, on terms we set each morning \u2014 the path is not yet proven, but I am still here, and I am patient.",
+   "era_photo": "Present-day portrait of the figure in a dark suit before a wall of live currency screens, 2024, ultra-sharp 8K digital photograph, natural balanced light, still and authoritative, faint reflection of the CNH quote in his glasses."
+  }
+ ]
+}

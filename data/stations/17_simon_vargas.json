@@ -1,0 +1,514 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 17,
+  "character_key": "simon_vargas",
+  "character_name": "Simón Vargas",
+  "asset": "Venezuelan Bolívar",
+  "ticker": "VEF",
+  "era": "1879",
+  "era_label": "Early Venezuelan Republic / Oil Era",
+  "era_year": 1879,
+  "tagline": "He was named for a liberator. He is now a warning."
+ },
+ "museum_objects": [
+  {
+   "id": "simon_vargas_obj_1",
+   "title": "1879 Silver Bolívar (Brussels Mint)",
+   "date": "1879",
+   "type": "coin",
+   "material": "silver",
+   "description": "The first bolívar coin, struck in Brussels and named after independence leader Simón Bolívar.",
+   "significance": "Named for the man who freed a continent, Simón's coin started as a tribute — before oil, debt, and inflation turned that name into something closer to a cautionary tale.",
+   "museum": "Banco Central de Venezuela Numismatic Collection",
+   "museum_location": "Caracas, Venezuela",
+   "accession_number": "BCV 50th anniversary reference",
+   "collection_url": "https://www.bcv.org.ve/billetes-y-monedas/coleccion-numismatica",
+   "image_url": "https://www.bcv.org.ve/billetes-y-monedas/coleccion-numismatica",
+   "license": "BCV terms",
+   "open_access": false,
+   "plain_language": "The very first bolívar coin, made in Belgium in 1879 and named after Simón Bolívar, the hero who helped free much of South America from Spain.",
+   "url": "https://www.bcv.org.ve/billetes-y-monedas/coleccion-numismatica",
+   "accession": "BCV 50th anniversary reference",
+   "institution": "Banco Central de Venezuela Numismatic Collection",
+   "licence": "BCV terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": null,
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "James Stuart (1612–1655), Duke of Richmond and Lennox",
+     "accession": "89.15.16",
+     "date": "ca. 1633–35",
+     "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-25646-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/436252",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Circus Sideshow (Parade de cirque)",
+     "accession": "61.101.17",
+     "date": "1887–88",
+     "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP375450_cropped.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/437654",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Catalogue of European silver coins ... (12-12-1894) (IA catalogueofeurop00scot).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Catalogue_of_European_silver_coins_..._%2812-12-1894%29_%28IA_catalogueofeurop00scot%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Catalogue_of_European_silver_coins_..._(12-12-1894)_(IA_catalogueofeurop00scot).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nScott Stamp &amp; Coin Co."
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "10 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "simon_vargas_obj_2",
+   "title": "Battle of Carabobo Painting",
+   "date": "19th century",
+   "type": "painting",
+   "material": "oil on canvas",
+   "description": "A painting by Arturo Michelena depicting the decisive 1821 battle that secured Venezuelan independence.",
+   "significance": "This is the founding myth Simón was born to carry — a currency named after the war that made an independent Venezuela possible in the first place.",
+   "museum": "Museo Bolivariano",
+   "museum_location": "Caracas, Venezuela",
+   "accession_number": "Museo Bolivariano collection",
+   "collection_url": "https://cneh.gob.ve/museo-bolivariano/",
+   "image_url": "https://cneh.gob.ve/museo-bolivariano/",
+   "license": "Museo Bolivariano terms",
+   "open_access": false,
+   "plain_language": "A painting of the famous battle that won Venezuela its independence — the historical event Simón's currency is named to honor.",
+   "url": "https://cneh.gob.ve/museo-bolivariano/",
+   "accession": "Museo Bolivariano collection",
+   "institution": "Museo Bolivariano",
+   "licence": "Museo Bolivariano terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": null,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "The Battle of Vercellae",
+     "match_text": "The Battle of Vercellae Painting 1725–29 Paintings",
+     "accession": "65.183.3",
+     "date": "1725–29",
+     "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DT2944.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/437794",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Batalla de Carabobo.png",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Batalla_de_Carabobo.png",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Batalla_de_Carabobo.png",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Martin Tovar y Tovar"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Carabobo 1825.png",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Carabobo_1825.png",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Carabobo_1825.png",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "anonimous"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: The image does not depict a painting by Arturo Michelena, nor does it relate to the Battle of Carabobo or Simón Bolívar.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "simon_vargas_obj_3",
+   "title": "Zumaque-I Oil Well Historical Site",
+   "date": "April 15, 1914",
+   "type": "site/landmark",
+   "material": "steel/earth",
+   "description": "The site of Venezuela's first major oil discovery, which transformed the national economy.",
+   "significance": "The exact moment Simón stopped being just about independence and started being about oil — a discovery that would define, and eventually destabilize, an entire nation's currency.",
+   "museum": "Referenced via Wikipedia / historical records",
+   "museum_location": "Mene Grande, Venezuela",
+   "accession_number": "Zumaque-I well site",
+   "collection_url": "https://en.wikipedia.org/wiki/History_of_the_petroleum_industry_in_Venezuela",
+   "image_url": "https://en.wikipedia.org/wiki/History_of_the_petroleum_industry_in_Venezuela",
+   "license": "CC BY-SA (Wikimedia reference)",
+   "open_access": true,
+   "plain_language": "The site of Venezuela's first big oil discovery in 1914, the moment oil started shaping the entire country's money.",
+   "url": "https://en.wikipedia.org/wiki/History_of_the_petroleum_industry_in_Venezuela",
+   "accession": "Zumaque-I well site",
+   "institution": "Referenced via Wikipedia / historical records",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Emperor Antoninus Pius",
+     "accession": "65.202",
+     "date": "1519–24",
+     "image_url": "https://images.metmuseum.org/CRDImages/es/original/DP234101.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/204587",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "3 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "simon_vargas_obj_4",
+   "title": "1976 Oil Nationalization Archive",
+   "date": "January 1, 1976",
+   "type": "newspaper_archive",
+   "date_detail": "1976",
+   "material": "digital/print",
+   "description": "New York Times archival coverage of Venezuela's formal nationalization of its oil industry.",
+   "significance": "The day Venezuela decided oil belonged entirely to the state — a decision that would tie Simón's fate to the price of crude for the next half-century.",
+   "museum": "The New York Times Archive",
+   "museum_location": "Caracas, Venezuela",
+   "accession_number": "NYT archive 1976",
+   "collection_url": "https://www.nytimes.com/1976/01/02/archives/venezuelas-oil-industry-is-formally-nationalized-venezuelan-oil-is.html",
+   "image_url": "https://www.nytimes.com/1976/01/02/archives/venezuelas-oil-industry-is-formally-nationalized-venezuelan-oil-is.html",
+   "license": "NYT terms",
+   "open_access": false,
+   "plain_language": "An old New York Times article covering the day Venezuela took full government control of its oil industry.",
+   "url": "https://www.nytimes.com/1976/01/02/archives/venezuelas-oil-industry-is-formally-nationalized-venezuelan-oil-is.html",
+   "accession": "NYT archive 1976",
+   "institution": "The New York Times Archive",
+   "licence": "NYT terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "1976-V004-05-dem-left.pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/1976-V004-05-dem-left.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:1976-V004-05-dem-left.pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Democratic Left  Michael Harrington, editor  Democratic Socialist Organizing Committee"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "1976-V004-06-dem-left.pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/1976-V004-06-dem-left.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:1976-V004-06-dem-left.pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "Democratic Left  Michael Harrington, editor  Democratic Socialist Organizing Committee"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "9 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "simon_vargas_obj_5",
+   "title": "BCV 50th Anniversary Museum Publication",
+   "date": "Anniversary edition",
+   "type": "document",
+   "material": "paper",
+   "description": "An official publication by Venezuela's central bank documenting fifty years of monetary history.",
+   "significance": "Even the bank tasked with managing Simón's fate has had to publicly reckon with just how far he's fallen from his original promise.",
+   "museum": "Banco Central de Venezuela",
+   "museum_location": "Caracas, Venezuela",
+   "accession_number": "BCV 50th anniversary PDF",
+   "collection_url": "https://www.bcv.org.ve/",
+   "image_url": "https://www.bcv.org.ve/",
+   "license": "BCV terms",
+   "open_access": false,
+   "plain_language": "An official book from Venezuela's central bank looking back at fifty years of its currency's history.",
+   "url": "https://www.bcv.org.ve/",
+   "accession": "BCV 50th anniversary PDF",
+   "institution": "Banco Central de Venezuela",
+   "licence": "BCV terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": null,
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Head of a Woman",
+     "accession": "2018.50",
+     "date": "ca. 1250–1070 B.C.",
+     "image_url": "https://images.metmuseum.org/CRDImages/eg/original/DP-15553-001.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/773251",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "3 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "simon_vargas_src_1",
+   "title": "Wikipedia: Venezuelan Bolívar",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Overview reference on the bolívar's history, including hyperinflation and redenominations.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar",
+   "license": "CC BY-SA",
+   "plain_language": "A general history of Venezuela's currency, including its extreme hyperinflation crises.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "simon_vargas_src_2",
+   "title": "History of the Petroleum Industry in Venezuela",
+   "type": "encyclopedia_entry",
+   "date": "Ongoing",
+   "author": "Wikipedia contributors",
+   "description": "Reference on the development of Venezuela's oil industry from the 1914 Zumaque-I discovery onward.",
+   "held_at": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_the_petroleum_industry_in_Venezuela",
+   "license": "CC BY-SA",
+   "plain_language": "A history of how Venezuela's oil industry grew from its first discovery in 1914.",
+   "licence": "CC BY-SA (text)",
+   "licence_class": "open",
+   "institution": "Wikipedia",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence": "CC BY-SA (text)",
+    "licence_class": "open",
+    "authoritative": true,
+    "via": "Wikipedia",
+    "warning": "TERTIARY SOURCE — acceptable as a pointer, NOT as TH's evidence. Replace with the primary source it cites."
+   }
+  },
+  {
+   "id": "simon_vargas_src_3",
+   "title": "Venezuela's Oil Industry Is Formally Nationalized",
+   "type": "news_article",
+   "date": "1976",
+   "author": "The New York Times",
+   "description": "Contemporary news coverage of Venezuela's 1976 oil nationalization.",
+   "held_at": "The New York Times Archive",
+   "url": "https://www.nytimes.com/1976/01/02/archives/venezuelas-oil-industry-is-formally-nationalized-venezuelan-oil-is.html",
+   "license": "NYT terms",
+   "plain_language": "A news article from 1976 covering the day Venezuela nationalized its oil industry.",
+   "licence": "NYT terms",
+   "licence_class": "unknown",
+   "institution": "The New York Times Archive",
+   "verify": {
+    "ok": false,
+    "status": 403,
+    "error": "HTTP 403",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "simon_vargas_src_4",
+   "title": "BCV Numismatic Collection Archive",
+   "type": "official_publication",
+   "date": "Ongoing",
+   "author": "Banco Central de Venezuela",
+   "description": "Official central bank archive documenting bolívar coins and banknotes throughout history.",
+   "held_at": "Banco Central de Venezuela",
+   "url": "https://www.bcv.org.ve/billetes-y-monedas/coleccion-numismatica",
+   "license": "BCV terms",
+   "plain_language": "Venezuela's central bank's own collection of every bolívar coin and note it has issued.",
+   "licence": "BCV terms",
+   "licence_class": "unknown",
+   "institution": "Banco Central de Venezuela",
+   "verify": {
+    "ok": false,
+    "status": null,
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "simon_vargas_src_5",
+   "title": "Museo Bolivariano Historical Archive",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Museo Bolivariano, Caracas",
+   "description": "Museum archive documenting Simón Bolívar's independence campaign and its legacy.",
+   "held_at": "Museo Bolivariano",
+   "url": "https://cneh.gob.ve/museo-bolivariano/",
+   "license": "Museo Bolivariano terms",
+   "plain_language": "A museum dedicated to Simón Bolívar, the independence hero the currency is named after.",
+   "licence": "Museo Bolivariano terms",
+   "licence_class": "unknown",
+   "institution": "Museo Bolivariano",
+   "verify": {
+    "ok": false,
+    "status": null,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "method": "GET"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 10.4806,
+  "center_lng": -66.9036,
+  "center_label": "Caracas, Venezuela",
+  "era_start": 1879,
+  "era_end": 2026,
+  "map_description": "Simón's bolívar was born from independence-era pride, transformed by the discovery of oil, and has suffered some of the worst hyperinflation crises in modern history.",
+  "nodes": [
+   {
+    "label": "Caracas (Plaza Bolívar)",
+    "lat": 10.5061,
+    "lng": -66.9146,
+    "type": "origin",
+    "description": "Venezuela's capital, named central square honoring the independence leader the bolívar is named for."
+   },
+   {
+    "label": "BCV, Maracaibo",
+    "lat": 10.6427,
+    "lng": -71.6125,
+    "type": "destination",
+    "description": "Major economic hub near Venezuela's oil-producing region, historically vital to the bolívar's value."
+   },
+   {
+    "label": "Zumaque-I Well, Mene Grande",
+    "lat": 9.8167,
+    "lng": -70.9333,
+    "type": "resource",
+    "description": "Site of Venezuela's first major oil discovery in 1914, which transformed the national economy and currency's fate."
+   },
+   {
+    "label": "Angel Falls",
+    "lat": 5.9701,
+    "lng": -62.5362,
+    "type": "landmark",
+    "description": "A natural wonder symbolizing Venezuela's vast, underutilized potential beyond its oil dependency."
+   }
+  ],
+  "historical_map_source": {
+   "title": "BCV Numismatic Collection",
+   "url": "https://www.bcv.org.ve/billetes-y-monedas/coleccion-numismatica",
+   "license": "BCV terms"
+  }
+ },
+ "_verified": "2026-07-11 10:40"
+}

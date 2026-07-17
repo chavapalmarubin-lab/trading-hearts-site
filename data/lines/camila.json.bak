@@ -1,0 +1,55 @@
+{
+ "custodian": "camila",
+ "name": "Camila Reyes",
+ "asset": "Mexican Peso",
+ "stations": [
+  {
+   "year": 1535,
+   "label": "THE FIRST MINT OPENS",
+   "line": "They struck me in Mexico City from the silver of Zacatecas and Potos\u00ed, and before I understood what I was, the whole world already wanted me.",
+   "era_photo": "A colonial mint courtyard in Mexico City, a woman in 16th-century Spanish-colonial dress standing beside stacked silver reales, rendered as an aged oil portrait on cracked canvas \u2014 the only 'photographic' process the era allowed, warm umber tones and candlelit shadow."
+  },
+  {
+   "year": 1732,
+   "label": "THE COIN THAT CIRCLED EARTH",
+   "line": "My Spanish dollar \u2014 the pillar dollar \u2014 moved through Manila, Canton, and the American colonies alike; I was the first currency to be spoken everywhere, and I have never forgotten how that feels.",
+   "era_photo": "A merchant's counting-house lit by oil lamp, a woman in mid-18th-century Bourbon-era gown holding a milled pillar dollar, painted as a formal Rococo portrait \u2014 deep varnish, gold leaf detailing, brushwork visible under close inspection."
+  },
+  {
+   "year": 1905,
+   "label": "THE GOLD STANDARD ANCHOR",
+   "line": "Under Porfirio D\u00edaz they pinned me to gold and called it modernity \u2014 I looked stable in the photographs, and stability is a thing you can photograph long before you can feel it.",
+   "era_photo": "A Mexico City bank interior of the Porfiriato, a woman in an Edwardian high-collared dress and upswept hair, sepia-toned silver gelatin print, slightly stiff pose from the long exposure, faint vignetting at the edges."
+  },
+  {
+   "year": 1982,
+   "label": "THE NATIONALIZATION OF DEBT",
+   "line": "L\u00f3pez Portillo wept on television and seized the banks, and I lost most of myself that year \u2014 I learned early that the men who promise to defend you are often the ones already spending you.",
+   "era_photo": "A crowded Mexican bank lobby in 1982, a woman in a boxy blazer and feathered hair standing amid anxious depositors, grainy Kodak color print with the muddy oranges and browns of early-eighties film stock."
+  },
+  {
+   "year": 1994,
+   "label": "DECEMBER, THE FLOOR VANISHES",
+   "line": "They told me the peg would hold, they told me the reserves were there, and then in one night the hot money ran and the floor was simply gone \u2014 I have never again believed a man who tells me not to worry.",
+   "era_photo": "A trading floor at night, December 1994, a woman in a dark tailored suit lit hard by monitor glow, her face composed, captured on 35mm color film with harsh flash \u2014 reds blown out, the shadows deep and unforgiving."
+  },
+  {
+   "year": 2008,
+   "label": "THE FIRST TIME I HELD",
+   "line": "When the world broke in 2008 I bent but I did not shatter \u2014 the reserves were real this time, the institutions were mine, and for once the confidence was not a performance.",
+   "era_photo": "A modern Banxico briefing room, a woman in a precise charcoal suit at a lectern with data screens behind her, clean early-digital DSLR photography, cool fluorescent white balance, sharp and unromantic."
+  },
+  {
+   "year": 2020,
+   "label": "THE PANDEMIC AND THE PIVOT",
+   "line": "The peso fell hard when the world stopped, but the factories moving out of Shen's supply chains began drifting toward me \u2014 I have learned to read opportunity even when it arrives disguised as catastrophe.",
+   "era_photo": "An empty industrial park near Monterrey under overcast light, a woman in a mask and structured blazer standing at the fence line, high-resolution smartphone photograph, flat neutral tones, slightly overexposed sky."
+  },
+  {
+   "year": 2024,
+   "label": "TODAY, STILL STANDING",
+   "line": "Nearshoring, remittances, a central bank that finally guards its own credibility \u2014 I float freely now, anchored to Conrad's dollar but no longer lying about it, and that honesty is the only stability I trust.",
+   "era_photo": "A rooftop in contemporary Mexico City at golden hour, a woman in a tailored modern suit looking out over the skyline, crisp full-frame digital capture, natural warm light, shallow depth of field, quietly confident composition."
+  }
+ ]
+}

@@ -1,0 +1,450 @@
+{
+ "_schema": "TH_STATION_DEPTH_STANDARD v1",
+ "_source": "TH_EXPLORE_IT_DATA.json (authoritative structured data). Real accessions, per-item licence + open_access flag. Nothing authored by an assistant.",
+ "station": {
+  "chronology_number": 19,
+  "character_key": "klaus_richter",
+  "character_name": "Klaus Richter",
+  "asset": "German Deutsche Mark",
+  "ticker": "DEM",
+  "era": "1948",
+  "era_label": "Post-WWII West Germany",
+  "era_year": 1948,
+  "tagline": "He was handed to a broken country overnight, and by morning the shelves were full again."
+ },
+ "museum_objects": [
+  {
+   "id": "klaus_richter_obj_1",
+   "title": "20 Deutsche Mark Banknote (1948)",
+   "date": "1948",
+   "type": "banknote",
+   "material": "paper",
+   "description": "An original 20 DM note from the June 1948 currency reform that replaced the worthless Reichsmark overnight.",
+   "significance": "Overnight, an entire country's shattered economy was handed a fresh start in the form of this note — shelves that had been empty for years filled up within days.",
+   "museum": "Haus der Geschichte / LeMO",
+   "museum_location": "Bonn, Germany",
+   "accession_number": "numismatik-zwanzig-deutsche-mark-1948",
+   "collection_url": "https://www.hdg.de/lemo/bestand/objekt/numismatik-zwanzig-deutsche-mark-1948.html",
+   "image_url": "https://www.hdg.de/lemo/bestand/objekt/numismatik-zwanzig-deutsche-mark-1948.html",
+   "license": "Haus der Geschichte terms",
+   "open_access": false,
+   "plain_language": "One of the very first Deutsche Mark bills, handed out in 1948 to instantly replace Germany's worthless wartime money.",
+   "url": "https://www.hdg.de/lemo/bestand/objekt/numismatik-zwanzig-deutsche-mark-1948.html",
+   "accession": "numismatik-zwanzig-deutsche-mark-1948",
+   "institution": "Haus der Geschichte / LeMO",
+   "licence": "Haus der Geschichte terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.hdg.de/lemo/bestand/objekt/numismatik-zwanzig-deutsche-mark-1948.html",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Wikimedia Commons",
+     "title": "FRG-2a-Allied West Germany-1 Deutsche Mark (1948).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/FRG-2a-Allied_West_Germany-1_Deutsche_Mark_%281948%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:FRG-2a-Allied_West_Germany-1_Deutsche_Mark_(1948).jpg",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "National Museum of American History\n"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "GDR-1-Soviet Germany-1 Deutsche Mark (1948).jpg",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/GDR-1-Soviet_Germany-1_Deutsche_Mark_%281948%29.jpg",
+     "page_url": "https://commons.wikimedia.org/wiki/File:GDR-1-Soviet_Germany-1_Deutsche_Mark_(1948).jpg",
+     "licence": "CC BY-SA 4.0",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "National Museum of American History\n"
+    }
+   ],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so. | IMAGE QA FAIL: the image shows a 2 DM note, not a 20 DM note as claimed",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "11 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "klaus_richter_obj_2",
+   "title": "'Bird Dog' Wooden Currency Transport Crate",
+   "date": "1948",
+   "type": "artifact",
+   "material": "wood",
+   "description": "One of only three surviving wooden crates used in the secret U.S. military operation to transport the new Deutsche Mark currency into occupied Germany.",
+   "significance": "Klaus arrived in secrecy, smuggled in under a codename, inside crates like this one — proof that rebuilding trust sometimes has to start as a covert operation.",
+   "museum": "Deutsches Historisches Museum (DHM)",
+   "museum_location": "Berlin, Germany",
+   "accession_number": "1 of 3 surviving crates",
+   "collection_url": "https://www.dhm.de/blog/2018/02/28/stories-the-mickey-mouse-mark-and-the-wallpaper-mark/",
+   "image_url": "https://www.dhm.de/blog/2018/02/28/stories-the-mickey-mouse-mark-and-the-wallpaper-mark/",
+   "license": "DHM terms",
+   "open_access": false,
+   "plain_language": "One of only three surviving wooden crates from the secret U.S. military mission that smuggled new German money into the country in 1948.",
+   "url": "https://www.dhm.de/blog/2018/02/28/stories-the-mickey-mouse-mark-and-the-wallpaper-mark/",
+   "accession": "1 of 3 surviving crates",
+   "institution": "Deutsches Historisches Museum (DHM)",
+   "licence": "DHM terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [
+    {
+     "institution": "Metropolitan Museum of Art",
+     "title": "Hunters in a Landscape",
+     "accession": "2009.280",
+     "date": "ca. 1575–95",
+     "image_url": "https://images.metmuseum.org/CRDImages/es/original/DP220306.jpg",
+     "page_url": "https://www.metmuseum.org/art/collection/search/236691",
+     "licence": "CC0 (Met Open Access)",
+     "licence_class": "open",
+     "via": "Met API"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Punch and Judy, with instructions how to manage the little wooden actors- containing new and easy dialogues .. (IA punchjudywithins00war).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Punch_and_Judy%2C_with_instructions_how_to_manage_the_little_wooden_actors-_containing_new_and_easy_dialogues_.._%28IA_punchjudywithins00war%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Punch_and_Judy,_with_instructions_how_to_manage_the_little_wooden_actors-_containing_new_and_easy_dialogues_.._(IA_punchjudywithins00war).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nWard, Thomas A. M. [from old catalog]"
+    },
+    {
+     "institution": "Wikimedia Commons",
+     "title": "Punch and Judy, with instructions how to manage the little wooden actors; (IA punchjudywithins00ward).pdf",
+     "accession": null,
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Punch_and_Judy%2C_with_instructions_how_to_manage_the_little_wooden_actors%3B_%28IA_punchjudywithins00ward%29.pdf",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Punch_and_Judy,_with_instructions_how_to_manage_the_little_wooden_actors;_(IA_punchjudywithins00ward).pdf",
+     "licence": "Public domain",
+     "licence_class": "open",
+     "via": "Wikimedia API",
+     "attribution": "\nWard, Thomas A. M"
+    }
+   ],
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "klaus_richter_obj_3",
+   "title": "Operation Bird Dog Archive",
+   "date": "1948",
+   "type": "archive/news",
+   "material": "print/digital",
+   "description": "TIME magazine's contemporary coverage of the covert American operation to introduce the new Deutsche Mark.",
+   "significance": "The American press called it 'Operation Bird Dog' — a codename for the exact moment Klaus was smuggled into existence.",
+   "museum": "TIME Archive",
+   "museum_location": "USA",
+   "accession_number": "TIME archive 1948",
+   "collection_url": "https://time.com/archive/6776285/the-nations-operation-bird-dog/",
+   "image_url": "https://time.com/archive/6776285/the-nations-operation-bird-dog/",
+   "license": "TIME terms",
+   "open_access": false,
+   "plain_language": "An old TIME magazine article covering the secret U.S. operation that introduced Germany's new currency in 1948.",
+   "url": "https://time.com/archive/6776285/the-nations-operation-bird-dog/",
+   "accession": "TIME archive 1948",
+   "institution": "TIME Archive",
+   "licence": "TIME terms",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://time.com/archive/6776285/the-nations-operation-bird-dog/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "display_alternatives": [],
+   "rights_note": "CITED: the original object (rights unclear/blocked). DISPLAYED: an openly-licensed image of the same kind of object, credited to its own institution. We cite one and show the other, and we say so.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "1 candidates, none verified"
+   },
+   "showable": false
+  },
+  {
+   "id": "klaus_richter_obj_4",
+   "title": "Trümmerfrauen ('Rubble Women') Photographs",
+   "date": "late 1940s",
+   "type": "photograph",
+   "material": "print",
+   "description": "Photographs documenting the German women who cleared war rubble by hand in the years before and during the currency reform.",
+   "significance": "This is the Germany Klaus was born into — physically shattered, rebuilt one brick at a time by hand, right before his arrival gave that labor real economic meaning.",
+   "museum": "Bundesarchiv (via Wikimedia Commons)",
+   "museum_location": "Germany",
+   "accession_number": "Trümmerfrauen category",
+   "collection_url": "https://commons.wikimedia.org/wiki/Category:Tr%C3%BCmmerfrauen",
+   "image_url": "https://commons.wikimedia.org/wiki/Category:Tr%C3%BCmmerfrauen",
+   "license": "CC-BY-SA (Bundesarchiv)",
+   "open_access": true,
+   "plain_language": "Photos of German women clearing war rubble by hand after World War II, right before the new currency arrived to rebuild the economy.",
+   "url": "https://commons.wikimedia.org/wiki/Category:Tr%C3%BCmmerfrauen",
+   "accession": "Trümmerfrauen category",
+   "institution": "Bundesarchiv (via Wikimedia Commons)",
+   "licence": "CC-BY-SA (Bundesarchiv)",
+   "licence_class": "open",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:Tr%C3%BCmmerfrauen",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   },
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "5 candidates, none verified"
+   },
+   "showable": false,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "display_image": null
+  },
+  {
+   "id": "klaus_richter_obj_5",
+   "title": "Bundesbank Geldmuseum DM Banknotes and Coins Archive",
+   "date": "1948-2001",
+   "type": "museum_archive",
+   "material": "paper/metal",
+   "description": "The Deutsche Bundesbank's comprehensive archive of every Deutsche Mark note and coin ever issued.",
+   "significance": "Every single design change across five decades of Klaus's life is documented here, down to the smallest security thread.",
+   "museum": "Deutsche Bundesbank Geldmuseum",
+   "museum_location": "Frankfurt, Germany",
+   "accession_number": "DM banknotes and coins archive",
+   "collection_url": "https://www.bundesbank.de/en/bundesbank/numismatics/pictures-archive/dm-banknotes-and-coins-623502",
+   "image_url": "https://www.bundesbank.de/en/bundesbank/numismatics/pictures-archive/dm-banknotes-and-coins-623502",
+   "license": "Free use with credit line (Bundesbank)",
+   "open_access": false,
+   "plain_language": "Germany's central bank's complete archive of every Deutsche Mark bill and coin ever made.",
+   "url": "https://www.bundesbank.de/en/bundesbank/numismatics/pictures-archive/dm-banknotes-and-coins-623502",
+   "accession": "DM banknotes and coins archive",
+   "institution": "Deutsche Bundesbank Geldmuseum",
+   "licence": "Free use with credit line (Bundesbank)",
+   "licence_class": "unknown",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bundesbank.de/en/bundesbank/numismatics/pictures-archive/dm-banknotes-and-coins-623502",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   },
+   "display_image": null,
+   "rights_note": "NO OPEN IMAGE FOUND — panel must show text/citation only.",
+   "image_qa": {
+    "verdict": "FAIL",
+    "why": "0 candidates, none verified"
+   },
+   "showable": false
+  }
+ ],
+ "primary_sources": [
+  {
+   "id": "klaus_richter_src_1",
+   "title": "The Economic and Currency Reform of 1948: The Basis for Stable Money",
+   "type": "official_publication",
+   "date": "Ongoing",
+   "author": "Deutsche Bundesbank",
+   "description": "The Bundesbank's own official history of the 1948 currency reform.",
+   "held_at": "Deutsche Bundesbank",
+   "url": "https://www.bundesbank.de/en/press/contributions/the-economic-and-currency-reform-of-1948-the-basis-for-stable-money-915302",
+   "license": "Bundesbank terms",
+   "plain_language": "Germany's central bank's own account of how the 1948 currency reform stabilized the country's economy.",
+   "licence": "Bundesbank terms",
+   "licence_class": "unknown",
+   "institution": "Deutsche Bundesbank",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bundesbank.de/en/press/contributions/the-economic-and-currency-reform-of-1948-the-basis-for-stable-money-915302",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "klaus_richter_src_2",
+   "title": "The Nation's Operation Bird Dog",
+   "type": "magazine_article",
+   "date": "1948",
+   "author": "TIME Magazine",
+   "description": "Contemporary journalism covering the secret U.S. military operation to distribute new German currency.",
+   "held_at": "TIME Archive",
+   "url": "https://time.com/archive/6776285/the-nations-operation-bird-dog/",
+   "license": "TIME terms",
+   "plain_language": "A 1948 TIME magazine article about the secret mission to bring new money into Germany.",
+   "licence": "TIME terms",
+   "licence_class": "unknown",
+   "institution": "TIME Archive",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://time.com/archive/6776285/the-nations-operation-bird-dog/",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "klaus_richter_src_3",
+   "title": "Wikimedia Commons: Trümmerfrauen",
+   "type": "photo_archive",
+   "date": "late 1940s",
+   "author": "Bundesarchiv / Wikimedia Commons",
+   "description": "Photo archive documenting German women who cleared rubble after WWII.",
+   "held_at": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Category:Tr%C3%BCmmerfrauen",
+   "license": "CC-BY-SA",
+   "plain_language": "A photo collection of German women rebuilding their cities by hand after World War II.",
+   "licence": "CC-BY-SA",
+   "licence_class": "unknown",
+   "institution": "Wikimedia Commons",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Category:Tr%C3%BCmmerfrauen",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "unknown",
+    "via": "adapter returned nothing"
+   }
+  },
+  {
+   "id": "klaus_richter_src_4",
+   "title": "Stories: The Mickey Mouse Mark and the Wallpaper Mark",
+   "type": "museum_publication",
+   "date": "2018",
+   "author": "Deutsches Historisches Museum",
+   "description": "Museum blog documenting the covert currency transport operation and nicknames for the new mark.",
+   "held_at": "Deutsches Historisches Museum",
+   "url": "https://www.dhm.de/blog/2018/02/28/stories-the-mickey-mouse-mark-and-the-wallpaper-mark/",
+   "license": "DHM terms",
+   "plain_language": "A museum article explaining the nicknames Germans gave the new currency and how it was secretly transported.",
+   "licence": "DHM terms",
+   "licence_class": "unknown",
+   "institution": "Deutsches Historisches Museum",
+   "verify": {
+    "ok": false,
+    "status": 404,
+    "error": "HTTP 404",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  },
+  {
+   "id": "klaus_richter_src_5",
+   "title": "Bundesbank Numismatics Pictures Archive",
+   "type": "museum_record",
+   "date": "Ongoing",
+   "author": "Deutsche Bundesbank",
+   "description": "Comprehensive photographic archive of all Deutsche Mark banknotes and coins.",
+   "held_at": "Deutsche Bundesbank",
+   "url": "https://www.bundesbank.de/en/bundesbank/numismatics/pictures-archive/dm-banknotes-and-coins-623502",
+   "license": "Free use with credit line",
+   "plain_language": "A complete photo archive of every design of the Deutsche Mark ever issued.",
+   "licence": "Free use with credit line",
+   "licence_class": "unknown",
+   "institution": "Deutsche Bundesbank",
+   "verify": {
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.bundesbank.de/en/bundesbank/numismatics/pictures-archive/dm-banknotes-and-coins-623502",
+    "method": "HEAD"
+   },
+   "resolved": {
+    "licence_class": "manual_rule",
+    "via": "long tail — needs a per-domain licence rule"
+   }
+  }
+ ],
+ "world_map": {
+  "center_lat": 50.1109,
+  "center_lng": 8.6821,
+  "center_label": "Frankfurt, West Germany",
+  "era_start": 1948,
+  "era_end": 2002,
+  "map_description": "Klaus was smuggled into a broken postwar Germany in secret military crates and became the anchor currency of Europe's strongest economy before retiring for the euro.",
+  "nodes": [
+   {
+    "label": "Frankfurt (Reichsbank Building)",
+    "lat": 50.1155,
+    "lng": 8.6842,
+    "type": "origin",
+    "description": "Site of the old Reichsbank building used for the 1948 currency distribution across occupied Germany."
+   },
+   {
+    "label": "Berlin (Airlift/Blockade)",
+    "lat": 52.52,
+    "lng": 13.405,
+    "type": "landmark",
+    "description": "The Soviet blockade of Berlin began just days after the currency reform, tying Klaus's birth directly to Cold War tensions."
+   },
+   {
+    "label": "Bremerhaven",
+    "lat": 53.5396,
+    "lng": 8.5809,
+    "type": "trade_route",
+    "description": "The port where the secret 'Bird Dog' currency shipment crates landed from the United States."
+   },
+   {
+    "label": "Bad Homburg",
+    "lat": 50.2266,
+    "lng": 8.6183,
+    "type": "landmark",
+    "description": "Location where one of the three surviving 'Bird Dog' transport crates is preserved today."
+   },
+   {
+    "label": "Frankfurt (ECB)",
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "type": "destination",
+    "description": "Where Klaus's story ended in 2002 as the Deutsche Mark was retired for the euro."
+   }
+  ],
+  "historical_map_source": {
+   "title": "Bundesbank — The Economic and Currency Reform of 1948",
+   "url": "https://www.bundesbank.de/en/press/contributions/the-economic-and-currency-reform-of-1948-the-basis-for-stable-money-915302",
+   "license": "Bundesbank terms"
+  }
+ },
+ "_verified": "2026-07-11 10:40"
+}

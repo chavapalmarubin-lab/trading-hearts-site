@@ -1,0 +1,55 @@
+{
+ "custodian": "isabella",
+ "name": "Isabella Frost",
+ "asset": "Canadian Dollar",
+ "stations": [
+  {
+   "year": 1871,
+   "label": "THE UNIFORM CURRENCY ACT",
+   "line": "It will be recalled that in 1871 the Dominion resolved to speak in a single denomination rather than the colonial cacophony that preceded it \u2014 a modest decision, and the correct one, which is the only kind worth remembering.",
+   "era_photo": "Albumen print, sepia and slightly foxed at the edges, a composed woman in a high-necked dark bombazine dress with a cameo brooch standing beside a Parliament Hill clerk's desk in Ottawa, wet-collodion sharpness in the face and soft blur at the hands from the long exposure."
+  },
+  {
+   "year": 1935,
+   "label": "THE BANK IS FOUNDED",
+   "line": "Given that a country of that size had until then relied on the improvisation of chartered banks, the establishment of a central bank in 1935 was not innovation so much as the belated arrival of adult supervision.",
+   "era_photo": "Silver gelatin black-and-white photograph, a woman in a tailored 1930s wool suit with padded shoulders and a felt hat, standing in the marble lobby of the new Bank of Canada building, harsh flashbulb lighting casting a single crisp shadow behind her."
+  },
+  {
+   "year": 1950,
+   "label": "THE FLOAT NO ONE WATCHED",
+   "line": "In 1950 I did something the orthodoxy of the age considered nearly heretical \u2014 I floated, quietly, a full generation before Bretton Woods conceded the point, and I permitted the world not to notice.",
+   "era_photo": "Early Kodachrome colour, muted and slightly warm, a woman in a fitted postwar day dress of navy blue standing on a Toronto street corner with period automobiles behind her, the colour saturation soft and the grain fine."
+  },
+  {
+   "year": 1962,
+   "label": "PEGGED AT NINETY-TWO CENTS",
+   "line": "Whereas the float had suited me, in 1962 I was returned to a fixed rate at ninety-two and a half cents \u2014 a number chosen, one suspects, less by arithmetic than by the wish to appear decisive.",
+   "era_photo": "Kodachrome, crisper and cooler than the fifties frame, a woman in a slim tailored suit and short gloves at a currency exchange counter, fluorescent overhead light, sharp mid-century clarity."
+  },
+  {
+   "year": 1970,
+   "label": "THE FLOAT, PERMANENTLY",
+   "line": "By 1970 the peg had become a fiction I was no longer required to maintain, and I resumed floating \u2014 this time without apology and, as it happens, without ever again looking back.",
+   "era_photo": "Faded 1970s Ektachrome with a slight amber cast, a woman in a structured knit dress standing before a wall of ticker displays, the colours dulled and the film grain visible in the shadows."
+  },
+  {
+   "year": 2007,
+   "label": "PARITY WITH THE DOLLAR",
+   "line": "In 2007 I stood, briefly, at par with the American dollar \u2014 an occasion the newspapers treated as a triumph, and which I regarded as a data point requiring no particular emotion in either direction.",
+   "era_photo": "Early digital photograph, high resolution but with the flat colour rendering of a mid-2000s DSLR, a woman in a charcoal business suit on a glass-walled trading floor in Toronto, screens glowing green and red behind her."
+  },
+  {
+   "year": 2020,
+   "label": "THE OIL SHOCK YEAR",
+   "line": "Given how thoroughly my fortunes are tethered to what comes out of the ground in Alberta, the collapse of 2020 was less a surprise than a recurrence \u2014 and I have, by now, an ample library of recurrences.",
+   "era_photo": "Sharp modern digital photograph, a woman in an immaculate dark suit and a discreet mask lowered to one side, standing in an almost empty office with muted daylight, clean high-dynamic-range colour and shallow depth of field."
+  },
+  {
+   "year": 2024,
+   "label": "TODAY, STILL STANDING",
+   "line": "I remain what I have always been \u2014 a competent, resource-backed currency of the northern kind, neither reserve nor ruin, which is a position I find has aged rather better than the grander ambitions of my contemporaries.",
+   "era_photo": "Contemporary full-frame digital portrait, crisp and naturally lit, a composed woman in a tailored slate-grey suit standing before a window overlooking a modern Canadian skyline, subtle colour grading and precise focus on her steady, faintly amused expression."
+  }
+ ]
+}
