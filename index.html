@@ -8301,8 +8301,8 @@ g.innerHTML=html;
    {px:740,py:430,y:'1973',n:'Oil & the Petrodollar',L:['zane','conrad'],e:'06'},
    {px:610,py:470,y:'1981',n:'The Bond Peak',L:['clara'],e:'06'},
    {px:700,py:520,y:'1983',n:'The Aussie Floats',L:['scarlett']},
-   {px:500,py:660,y:'1991',n:'Peru’s New Sol',L:['marisol']},
-   {px:160,py:560,y:'1535',n:'The Mexico City Mint',L:['camila']},{px:640,py:630,y:'1994',n:'Real, Tequila & the Yuan',L:['camila','fernanda','wei']},
+   {px:500,py:660,y:'1991',n:'Cuba’s Special Period',L:['marisol']},
+   {px:200,py:205,y:'1535',n:'The Mexico City Mint',L:['camila']},{px:640,py:630,y:'1994',n:'Real, Tequila & the Yuan',L:['camila','fernanda','wei']},
    {px:720,py:700,y:'1999',n:'Colombia’s Crisis',L:['catalina']},
    {px:810,py:675,y:'2001',n:'Argentina Defaults',L:['valentina']},
    {px:900,py:375,y:'2002',n:'The Euro; the Drachma Retires',L:['sofia','alexandros'],e:'07'},
@@ -8412,6 +8412,7 @@ g.innerHTML=html;
     [['👣','My Routes'],['♥','Favorite Characters'],['◷','Recent Stations'],['🏅','Achievements'],['📈','Learning Progress']].forEach(function(e,i){var yy=898+i*17;s+='<text x="'+(PX+22)+'" y="'+(yy+4)+'" font-size="12" fill="#C9A84C">'+e[0]+'</text><text x="'+(PX+46)+'" y="'+(yy+4)+'" fill="#f0ead6" font-size="10">'+e[1]+'</text>';});
     s+='<text x="'+HUBX+'" y="'+(hubY(27)+30)+'" text-anchor="middle" fill="#C9A84C" font-size="13" font-weight="700" letter-spacing="1">TODAY</text>';
     s+='<text x="'+FUTX+'" y="484" text-anchor="middle" fill="#C9A84C" font-size="10" font-weight="700">THE FUTURE</text>';
+    s+='<rect x="'+(HUBX-10)+'" y="466" width="'+(FUTX-HUBX+96)+'" height="60" fill="#000" fill-opacity="0" pointer-events="all" style="cursor:pointer" onclick="openVideo(&#39;media/exchange/THE_EXCHANGE.mp4&#39;,&#39;THE EXCHANGE&#39;,&#39;Where every market has a face&#39;)"></rect>';
     s+='<text x="150" y="70" fill="rgba(250,247,242,.4)" font-size="11" letter-spacing="2">THE SUBURBS · ancient origins</text>';
     STN.forEach(function(st,i){s+='<circle cx="'+st.px+'" cy="'+st.py+'" r="18" fill="transparent" style="cursor:pointer" onclick="thOpenHub('+i+')"><title>'+st.y+' — '+esc(st.n)+'</title></circle>';});
     return s+'</svg>';
