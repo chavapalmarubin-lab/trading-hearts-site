@@ -1,0 +1,51 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+:root{--gold:#c9a84c;--cream:#faf7f2;--font-display:Georgia,serif}
+body{background:#0a1526;margin:0;padding:40px;font-family:-apple-system,Georgia,serif}
+.thn-w{max-width:1080px;margin:0 auto}
+.thn-ey{font:600 .55rem/1 -apple-system;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);text-align:center}
+.thn-h{font-family:var(--font-display);font-size:2.4rem;color:var(--cream);text-align:center;margin:8px 0}
+.thn-h .g{color:var(--gold)}
+.thn-s{color:rgba(250,247,242,.6);text-align:center;font-family:var(--font-display);font-style:italic}
+</style></head><body>
+<div class="thn-w">
+  <p class="thn-ey">The Universe</p>
+  <h2 class="thn-h">Pick a world. <span class="g">Someone lived it.</span></h2>
+  <p class="thn-s">Tap a world — the character who carried it steps forward and tells you a true story.</p>
+  <style>
+    .tw-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-top:26px}
+    .tw-tile{background:#08182b;border:1px solid rgba(201,168,76,.16);border-radius:10px;padding:20px 8px;cursor:pointer;text-align:center;transition:.25s;color:var(--cream)}
+    .tw-tile:hover{border-color:var(--gold);transform:translateY(-3px);background:#0b2036}
+    .tw-tile.on{border-color:var(--gold);background:#0b2036;box-shadow:0 8px 30px rgba(201,168,76,.15)}
+    .tw-tile .i{font-size:1.7rem;line-height:1}
+    .tw-tile .l{margin-top:9px;font:600 .52rem/1.2 -apple-system;letter-spacing:.16em;text-transform:uppercase;color:rgba(250,247,242,.72)}
+    .tw-tile.on .l{color:var(--gold)}
+    .tw-reveal{margin-top:16px;background:linear-gradient(180deg,#0b2036,#08182b);border:1px solid rgba(201,168,76,.22);border-radius:12px;padding:26px 30px;display:flex;gap:24px;align-items:center;min-height:150px;opacity:0;transform:translateY(8px);transition:.4s}
+    .tw-reveal.show{opacity:1;transform:none}
+    .tw-reveal .pic{width:96px;height:96px;border-radius:50%;flex:0 0 96px;background-size:cover;background-position:center top;border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:1.8rem;color:var(--gold)}
+    .tw-reveal .tx .as{font:600 .55rem/1 -apple-system;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+    .tw-reveal .tx .nm{font-family:var(--font-display);font-size:1.5rem;color:var(--cream);margin:4px 0 8px}
+    .tw-reveal .tx .ft{font-size:.98rem;line-height:1.6;color:rgba(250,247,242,.82);font-family:var(--font-display);font-style:italic}
+    .tw-reveal .tx .go{display:inline-block;margin-top:14px;font:600 .55rem/1 -apple-system;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid rgba(201,168,76,.4);padding-bottom:3px;cursor:pointer}
+  </style>
+  <div class="tw-grid" id="twGrid"></div>
+  <div class="tw-reveal" id="twReveal"></div>
+  <script>
+  window.CHARS={aurora:{portrait:''},alexandros:{portrait:''},conrad:{portrait:''},hiro:{portrait:''},valentina:{portrait:''},zephyr:{portrait:''}};
+  (function(){
+    var TW=[
+     {id:'history',icon:'🏛',label:'History',key:'alexandros',name:'Alexandros',asset:'The Drachma',fact:'The first coin the world could trust was struck in Athens 2,600 years ago. Before it, you had to bite every lump of silver to check it was real.'},
+     {id:'money',icon:'💰',label:'Money',key:'aurora',name:'Aurora Lux',asset:'Gold',fact:'Gold has outlasted every currency ever made — five thousand years. It never rusts, never rots, and no king can print more of it.'},
+     {id:'power',icon:'🌍',label:'Power',key:'conrad',name:'Conrad Powers',asset:'US Dollar',fact:'Since 1971 the dollar has not been backed by gold — only by belief and the economy behind it.'},
+     {id:'innovation',icon:'⚡',label:'Innovation',key:'hiro',name:'Hiro Cipher',asset:'Bitcoin',fact:'In 2009 a stranger published nine pages and vanished. Money with no government was born.'},
+     {id:'human',icon:'🧠',label:'Human Nature',key:'valentina',name:'Valentina Paz',asset:'Argentine Peso',fact:"Inflation is not a number — it is a feeling."},
+     {id:'future',icon:'🚀',label:'The Future',key:'zephyr',name:'Zephyr Cole',asset:'Ethereum',fact:'Money is becoming programmable — code that carries rules, not just value.'}
+    ];
+    function portrait(k){try{var c=window.CHARS[k];return c&&c.portrait;}catch(e){return null;}}
+    function meet(k){location.hash='#characters';} window.thMeet=meet;
+    var grid=document.getElementById('twGrid'), rev=document.getElementById('twReveal');
+    TW.forEach(function(w,i){var b=document.createElement('div'); b.className='tw-tile'; b.innerHTML='<div class="i">'+w.icon+'</div><div class="l">'+w.label+'</div>'; b.onclick=function(){select(i);}; grid.appendChild(b);});
+    function select(i){var w=TW[i];[].forEach.call(grid.children,function(c,j){c.classList.toggle('on',j===i);});var p=portrait(w.key);var pic=p?('style="background-image:url(\''+p+'\')"'):'';var mono=p?'':w.name.charAt(0);rev.classList.remove('show');setTimeout(function(){rev.innerHTML='<div class="pic" '+pic+'>'+mono+'</div><div class="tx"><div class="as">'+w.asset+'</div><div class="nm">'+w.name+'</div><div class="ft">“'+w.fact+'”</div><span class="go" onclick="thMeet(\''+w.key+'\')">Meet '+w.name.split(' ')[0]+' →</span></div>';rev.classList.add('show');},50);}
+    select(0);
+  })();
+  </script>
+</div></body></html>

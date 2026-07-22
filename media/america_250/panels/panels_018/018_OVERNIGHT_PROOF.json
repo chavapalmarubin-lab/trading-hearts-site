@@ -1,0 +1,29 @@
+{
+  "comic_id": "018",
+  "title": "The Panic of 1837",
+  "series": "America 250 — 250 Moments That Built The Exchange",
+  "era": "II — Industrial Ascent",
+  "year_depicted": 1837,
+  "rendered_at": "2026-06-11",
+  "render_path": "overnight manual-operator via Jenova Comic Creator (fresh session, Global Memory ON)",
+  "jenova_session": "01ktvj6hntb7k280amey4bqr2k",
+  "panels": [
+    "018_page_00_intro.jpeg",
+    "018_page_01.jpeg", "018_page_02.jpeg", "018_page_03.jpeg",
+    "018_page_04.jpeg", "018_page_05.jpeg", "018_page_06.jpeg",
+    "018_page_07.jpeg", "018_page_08.jpeg", "018_page_09.jpeg"
+  ],
+  "characters": ["Conrad Powers (panel 3)", "Charlotte Windsor (panels 4,5 hands,6,7,8)", "anonymous clerk/line men (1,2,9)"],
+  "refs_used": {"conrad": "canonical_refs/conrad_ref.png (re-attached for panel 3 + Panel 0)", "charlotte": "canonical_refs/charlotte_ref.png (re-attached every Charlotte panel + Panel 0)"},
+  "operator_canon_notes": [
+    "Panel 0 intro card: tagline + prose composed in TH voice; portraits CONRAD POWERS / CHARLOTTE WINDSOR · The British Pound from canonical refs; text rendered verbatim.",
+    "Aurora does not appear in this comic (per script); no Aurora-blonde check applicable beyond that.",
+    "Script header label 'Charlotte Ashworth' vs Panel-0 label 'CHARLOTTE WINDSOR': rendered card uses CHARLOTTE WINDSOR per the locked Panel 0 spec.",
+    "Panel 8 dialogue rendered verbatim: 'He has failed publicly. Good. Let him learn that the difference between a country and a confidence trick is one bad morning.'",
+    "Panels 6/7/8: a Big-Ben-like clock tower is visible through the London windows — anachronistic for 1837 (built 1859). Flagged for CEO judgment; not regenerated.",
+    "All captions visually checked against the locked script: verbatim.",
+    "All 10 files verified >50KB on disk. Assembled strip 1080px-wide vertical, 10 panels stacked."
+  ],
+  "qa_disclaimer": "No automated QA was run (panel_qa_runner has a known era_02 tooling bug). This assembled comic is the CEO's review artifact.",
+  "assembly": {"strip": "018_FINAL_COMIC.jpg", "html": "018_FINAL_ASSEMBLY.html"}
+}

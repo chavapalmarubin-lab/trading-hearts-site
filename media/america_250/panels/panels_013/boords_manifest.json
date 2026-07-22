@@ -1,0 +1,18 @@
+{
+  "storyboard_id": "7n1myk",
+  "production": "America 250 #013 \u2014 The Burning of Washington",
+  "pages": [
+    {
+      "page": "013_page_00_intro",
+      "frame_id": 31228367,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_013/013_page_00_intro.jpeg"
+    },
+    {
+      "page": "013_page_01_regen",
+      "frame_id": 31228368,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_013/013_page_01_regen.jpeg"
+    }
+  ]
+}

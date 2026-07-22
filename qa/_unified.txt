@@ -1,0 +1,167 @@
+<!-- ===== TH UNDERGROUND OF CIVILIZATION: 28-line metro + key + zones + hubs + station hub ===== -->
+<style>
+#thMetro{max-width:1500px;margin:0 auto;padding:8px 12px 6px}
+#thMetro .mx-head{text-align:center;margin-bottom:6px}
+#thMetro .mx-ey{font:600 .55rem/1 -apple-system;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin:0}
+#thMetro .mx-h{font-family:var(--font-display);font-size:1.9rem;color:var(--cream);margin:5px 0 4px}
+#thMetro .mx-h .g{color:var(--gold)}
+#thMetro .mx-sub{color:rgba(250,247,242,.55);font-family:var(--font-display);font-style:italic;font-size:.92rem;margin:0 auto;max-width:900px}
+#thMetro .mx-key{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;margin:8px auto 2px;max-width:1050px}
+#thMetro .mx-key span{display:inline-flex;align-items:center;gap:7px;font:600 .52rem/1 -apple-system;letter-spacing:.08em;text-transform:uppercase;color:rgba(250,247,242,.52)}
+#thMetro .mx-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;padding:4px 0}
+#thMetro .mx-legend{display:flex;flex-wrap:wrap;gap:6px 13px;justify-content:center;margin:8px auto 0;max-width:1300px}
+#thMetro .mx-legend span{display:inline-flex;align-items:center;gap:6px;font:600 .5rem/1.3 -apple-system;letter-spacing:.05em;text-transform:uppercase;color:rgba(250,247,242,.6)}
+#thMetro .mx-legend i{width:15px;height:4px;border-radius:2px;display:inline-block;flex:0 0 15px}
+#thMetro .mx-hubs{margin:16px auto 0;max-width:1320px}
+#thMetro .mx-hubs .ht{text-align:center;font:600 .58rem/1 -apple-system;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:13px}
+#thMetro .mx-hubrow{display:flex;flex-wrap:wrap;gap:14px 10px;justify-content:center}
+#thMetro .mx-hub{width:106px;cursor:pointer;text-align:center;transition:.2s}
+#thMetro .mx-hub:hover{transform:translateY(-3px)}
+#thMetro .mx-hub .med{width:56px;height:56px;margin:0 auto;border-radius:50%;border:2px solid var(--gold);background:radial-gradient(circle at 50% 35%,#12233b,#0a1526);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:.8rem;color:var(--gold)}
+#thMetro .mx-hub:hover .med{box-shadow:0 6px 20px rgba(201,168,76,.25)}
+#thMetro .mx-hub .hn{margin-top:6px;font:600 .48rem/1.3 -apple-system;letter-spacing:.04em;text-transform:uppercase;color:rgba(250,247,242,.62)}
+#thHubOv{position:fixed;inset:0;z-index:12000;background:rgba(4,8,16,.86);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:none;overflow-y:auto;padding:40px 16px 70px}
+#thHubOv.on{display:block}
+#thHubOv .hubCard{max-width:1000px;margin:0 auto;background:linear-gradient(180deg,#0b2036,#08182b);border:1px solid rgba(201,168,76,.25);border-radius:16px;padding:34px 30px 34px;position:relative;box-shadow:0 30px 90px rgba(0,0,0,.55)}
+#thHubOv .hubX{position:absolute;top:15px;right:16px;width:38px;height:38px;border-radius:50%;border:1px solid rgba(201,168,76,.35);background:transparent;color:var(--gold);font-size:19px;cursor:pointer;line-height:1}
+#thHubOv .hubYr{font-family:var(--font-display);font-size:1.1rem;color:var(--gold);letter-spacing:.05em}
+#thHubOv .hubT{font-family:var(--font-display);font-size:2.05rem;color:var(--cream);margin:2px 0 10px}
+#thHubOv .hubPlat{font:600 .55rem/1 -apple-system;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,247,242,.45);margin:0 0 8px}
+#thHubOv .hubWho{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 6px}
+#thHubOv .hubChip{display:inline-flex;align-items:center;gap:7px;cursor:pointer;border:1px solid rgba(201,168,76,.3);border-radius:20px;padding:6px 13px 6px 9px;font-family:var(--font-display);font-size:.9rem;color:var(--cream);transition:.2s}
+#thHubOv .hubChip:hover{border-color:var(--gold);background:rgba(201,168,76,.08)}
+#thHubOv .hubChip i{width:9px;height:9px;border-radius:50%;display:inline-block}
+#thHubOv .hubQ{margin:22px 0 13px;font:600 .6rem/1 -apple-system;letter-spacing:.24em;text-transform:uppercase;color:rgba(250,247,242,.5);text-align:center}
+#thHubOv .hubGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
+#thHubOv .hubG{background:#08182b;border:1px solid rgba(201,168,76,.14);border-radius:12px;padding:15px 15px 16px}
+#thHubOv .hubG .gi{font-size:1.25rem;line-height:1}
+#thHubOv .hubG .gk{font:600 .58rem/1 -apple-system;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin:7px 0 8px}
+#thHubOv .hubIt{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:7px 0;border-top:1px solid rgba(255,255,255,.05);font-family:var(--font-display);font-size:.94rem;color:rgba(250,247,242,.85)}
+#thHubOv .hubIt.live{cursor:pointer;color:var(--cream)}
+#thHubOv .hubIt.live:hover{color:var(--gold)}
+#thHubOv .hubIt.soon{color:rgba(250,247,242,.4)}
+#thHubOv .hubTag{font:600 .46rem/1 -apple-system;letter-spacing:.1em;text-transform:uppercase;padding:3px 6px;border-radius:5px;white-space:nowrap}
+#thHubOv .hubTag.g{color:var(--gold);border:1px solid rgba(201,168,76,.4)}
+#thHubOv .hubTag.s{color:rgba(250,247,242,.35);border:1px solid rgba(255,255,255,.12)}
+#thHubOv .hubTag.p{color:#e8c97a;border:1px solid rgba(232,201,122,.5)}
+#thHubOv .hubNext{display:flex;justify-content:space-between;align-items:center;margin-top:22px;padding-top:16px;border-top:1px solid rgba(201,168,76,.2)}
+#thHubOv .hubNext a{color:var(--gold);cursor:pointer;font:600 .62rem/1 -apple-system;letter-spacing:.16em;text-transform:uppercase;text-decoration:none}
+@media(max-width:760px){#thHubOv .hubGrid{grid-template-columns:1fr}#thHubOv .hubT{font-size:1.55rem}}
+</style>
+<script>(function(){
+  var LINES=[
+   {k:'alexandros',n:'Alexandros',a:'Drachma',c:'#19A7A7'},{k:'aurora',n:'Aurora',a:'Gold',c:'#C9A84C'},
+   {k:'conrad',n:'Conrad',a:'US Dollar',c:'#3EA55E'},{k:'isabella',n:'Isabella',a:'Pound',c:'#4C6FBF'},
+   {k:'sofia',n:'Sofia',a:'Euro',c:'#3D8FD4'},{k:'aiko',n:'Aiko',a:'Yen',c:'#D24B6A'},
+   {k:'victoria',n:'Victoria',a:'Swiss Franc',c:'#C0453B'},{k:'charlotte',n:'Charlotte',a:'Canadian $',c:'#B5533A'},
+   {k:'scarlett',n:'Scarlett',a:'Aussie $',c:'#E0A33C'},{k:'clara',n:'Clara',a:'Bonds',c:'#8A93A8'},
+   {k:'zane',n:'Zane',a:'Oil',c:'#6C7A89'},{k:'hiro',n:'Hiro',a:'Bitcoin',c:'#E8873A'},
+   {k:'zephyr',n:'Zephyr',a:'Ethereum',c:'#7C6CD0'},{k:'niko',n:'Niko',a:'Solana',c:'#B84DBE'},
+   {k:'camila',n:'Camila',a:'Brazil Real',c:'#2FA36B'},{k:'fernanda',n:'Fernanda',a:'Mexican Peso',c:'#8FA83A'},
+   {k:'valentina',n:'Valentina',a:'Argentine Peso',c:'#5AA6D6'},{k:'simon',n:'Simón',a:'Bolívar',c:'#9A6A2B'},
+   {k:'catalina',n:'Catalina',a:'Colombian Peso',c:'#2A9D8F'},{k:'marisol',n:'Marisol',a:'Peru Sol',c:'#C97B4A'},
+   {k:'mei',n:'Mei',a:'Yuan · offshore',c:'#E0524E'},{k:'wei',n:'Wei',a:'Yuan · onshore',c:'#46B37A'},
+   {k:'klaus',n:'Klaus',a:'Weimar Mark',c:'#9A7B5F'},{k:'isabelle',n:'Isabelle',a:'The Saga',c:'#9488A8'},
+   {k:'lars',n:'Lars',a:'The Saga',c:'#6E8FA0'},{k:'matteo',n:'Matteo',a:'The Saga',c:'#A0788E'},
+   {k:'carlos',n:'Carlos',a:'The Saga',c:'#7A9E86'},{k:'ana',n:'Ana',a:'The Saga',c:'#A89A6E'}
+  ];
+  var STN=[
+   {x:70, y:'600 BCE',n:'The Birth of Money',L:['alexandros']},
+   {x:132,y:'480 BCE',n:'Silver Wins a War',L:['alexandros']},
+   {x:214,y:'50 BCE', n:'Rome Mints Gold',L:['aurora']},
+   {x:300,y:'1694',  n:'The Bank of England',L:['isabella']},
+   {x:360,y:'1871',  n:'The Yen Is Born',L:['aiko']},
+   {x:410,y:'1913',  n:'The Federal Reserve',L:['conrad'],e:'03'},
+   {x:452,y:'1923',  n:'When Money Died',L:['klaus']},
+   {x:508,y:'1944',  n:'Bretton Woods',L:['conrad','aurora','isabella','aiko','victoria'],e:'05'},
+   {x:568,y:'1971',  n:'The Gold Window Closes',L:['aurora','conrad','isabella','aiko','victoria','charlotte'],e:'05'},
+   {x:608,y:'1973',  n:'Oil & the Petrodollar',L:['zane','conrad'],e:'06'},
+   {x:646,y:'1981',  n:'The Bond Peak',L:['clara'],e:'06'},
+   {x:682,y:'1983',  n:'The Aussie Floats',L:['scarlett']},
+   {x:718,y:'1991',  n:'Peru’s New Sol',L:['marisol']},
+   {x:758,y:'1994',  n:'Real, Tequila & the Yuan',L:['camila','fernanda','wei']},
+   {x:798,y:'1999',  n:'Colombia’s Crisis',L:['catalina']},
+   {x:836,y:'2001',  n:'Argentina Defaults',L:['valentina']},
+   {x:876,y:'2002',  n:'The Euro; the Drachma Retires',L:['sofia','alexandros'],e:'07'},
+   {x:920,y:'2008',  n:'Satoshi & the Crisis',L:['hiro','conrad','victoria'],e:'08'},
+   {x:958,y:'2010',  n:'The Offshore Yuan',L:['mei']},
+   {x:1004,y:'2015', n:'Franc Shock · Greek No · Ethereum',L:['victoria','alexandros','sofia','zephyr','mei','wei'],e:'09'},
+   {x:1044,y:'2018', n:'The Bolívar Collapses',L:['simon']},
+   {x:1086,y:'2020', n:'Oil Negative · Solana',L:['zane','niko'],e:'09'},
+   {x:1138,y:'2024', n:'The Exchange — present day',L:['isabelle','lars','matteo','carlos','ana'],e:'09'}
+  ];
+  window.TH_STN=STN;
+  var DTX=1240,FTX=1350,byk={},col={};
+  LINES.forEach(function(l){byk[l.k]=l;col[l.k]=l.c;});
+  function esc(s){return (s||'').replace(/&/g,'&amp;');}
+  function nm(k){return byk[k]?byk[k].n:k;}
+  function metroSVG(){
+    var ys={};LINES.forEach(function(l,i){ys[l.k]=86+i*22;});
+    var topY=ys[LINES[0].k],botY=ys[LINES[LINES.length-1].k],midY=(topY+botY)/2;
+    var W=1420,H=botY+98,s='<svg viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMinYMin meet" style="min-width:1300px;width:100%;height:auto;font-family:-apple-system,Segoe UI,Roboto,sans-serif">';
+    s+='<rect x="30" y="'+(topY-48)+'" width="448" height="'+(botY-topY+96)+'" fill="rgba(255,255,255,.03)"/><rect x="1196" y="'+(topY-48)+'" width="'+(FTX+34-1196)+'" height="'+(botY-topY+96)+'" fill="rgba(201,168,76,.055)"/>';
+    s+='<line x1="478" y1="'+(topY-8)+'" x2="478" y2="'+(botY+8)+'" stroke="rgba(250,247,242,.1)" stroke-width="1" stroke-dasharray="2 5"/><line x1="1196" y1="'+(topY-8)+'" x2="1196" y2="'+(botY+8)+'" stroke="rgba(250,247,242,.1)" stroke-width="1" stroke-dasharray="2 5"/>';
+    LINES.forEach(function(l){var xs=[];STN.forEach(function(st){if(st.L.indexOf(l.k)>=0)xs.push(st.x);});var y=ys[l.k];var x0=xs.length?Math.min.apply(null,xs):(DTX-70);s+='<line x1="'+x0+'" y1="'+y+'" x2="'+DTX+'" y2="'+y+'" stroke="'+l.c+'" stroke-width="4.2" stroke-linecap="round" opacity="0.92"/>';});
+    STN.forEach(function(st){if(st.L.length>1){var yy=st.L.map(function(k){return ys[k];});s+='<line x1="'+st.x+'" y1="'+Math.min.apply(null,yy)+'" x2="'+st.x+'" y2="'+Math.max.apply(null,yy)+'" stroke="#aeb8c3" stroke-width="3" opacity="0.4"/>';}});
+    STN.forEach(function(st){var inter=st.L.length>1;st.L.forEach(function(k){var y=ys[k];if(inter)s+='<circle cx="'+st.x+'" cy="'+y+'" r="6" fill="#fff" stroke="'+(col[k]||'#333')+'" stroke-width="2"/>';else s+='<line x1="'+st.x+'" y1="'+(y-5)+'" x2="'+st.x+'" y2="'+(y+5)+'" stroke="'+(col[k]||'#fff')+'" stroke-width="3" stroke-linecap="round"/>';});});
+    s+='<rect x="'+(DTX-7)+'" y="'+(topY-8)+'" width="14" height="'+(botY-topY+16)+'" rx="7" fill="#0a1526" stroke="#C9A84C" stroke-width="2.5"/>';
+    LINES.forEach(function(l){s+='<circle cx="'+DTX+'" cy="'+ys[l.k]+'" r="4.6" fill="'+l.c+'"/>';});
+    s+='<line x1="'+DTX+'" y1="'+midY+'" x2="'+FTX+'" y2="'+midY+'" stroke="#C9A84C" stroke-width="4" stroke-dasharray="3 6" opacity="0.8"/><circle cx="'+FTX+'" cy="'+midY+'" r="8" fill="#0a1526" stroke="#C9A84C" stroke-width="2.5"/>';
+    s+='<text x="150" y="22" fill="rgba(250,247,242,.55)" font-size="11.5" font-weight="700" letter-spacing="2" text-anchor="middle">THE SUBURBS</text><text x="150" y="36" fill="rgba(250,247,242,.32)" font-size="8.5" letter-spacing="1.5" text-anchor="middle">the beginning</text>';
+    s+='<text x="640" y="22" fill="rgba(250,247,242,.55)" font-size="11.5" font-weight="700" letter-spacing="2" text-anchor="middle">THE INTERSECTIONS</text><text x="640" y="36" fill="rgba(250,247,242,.32)" font-size="8.5" letter-spacing="1.5" text-anchor="middle">where history connects us</text>';
+    s+='<text x="'+DTX+'" y="22" fill="#C9A84C" font-size="11.5" font-weight="700" letter-spacing="2" text-anchor="middle">DOWNTOWN</text><text x="'+DTX+'" y="36" fill="rgba(250,247,242,.4)" font-size="8.5" letter-spacing="1.5" text-anchor="middle">today</text>';
+    s+='<text x="'+FTX+'" y="22" fill="#C9A84C" font-size="11.5" font-weight="700" letter-spacing="1" text-anchor="middle">THE FUTURE</text><text x="'+FTX+'" y="36" fill="rgba(250,247,242,.4)" font-size="8.5" letter-spacing="1" text-anchor="middle">what next</text>';
+    s+='<text x="'+DTX+'" y="'+(botY+30)+'" text-anchor="middle" fill="#C9A84C" font-size="12" font-weight="700" letter-spacing="1">TODAY</text>';
+    s+='<text x="'+FTX+'" y="'+(midY-15)+'" text-anchor="middle" fill="#C9A84C" font-size="10" font-weight="700">END OF LINE</text>';
+    STN.forEach(function(st){s+='<text transform="rotate(-42 '+st.x+' '+(botY+18)+')" x="'+st.x+'" y="'+(botY+22)+'" text-anchor="end" fill="#C9A84C" font-size="10" font-weight="600">'+st.y+'</text>';});
+    STN.forEach(function(st,i){s+='<rect x="'+(st.x-16)+'" y="'+(topY-16)+'" width="32" height="'+(botY-topY+34)+'" fill="transparent" style="cursor:pointer" onclick="thOpenHub('+i+')"><title>'+st.y+' — '+esc(st.n)+(st.L.length>1?'  ('+st.L.length+' lines transfer here)':'')+'</title></rect>';});
+    return s+'</svg>';
+  }
+  function ovl(){var o=document.getElementById('thHubOv');if(o)return o;o=document.createElement('div');o.id='thHubOv';o.innerHTML='<div class="hubCard"><button class="hubX" onclick="thCloseHub()">&times;</button><div id="hubBody"></div></div>';document.body.appendChild(o);o.addEventListener('click',function(e){if(e.target===o)thCloseHub();});return o;}
+  function groups(st){return [
+    {i:'🎬',k:'Watch it',items:[{l:'Documentary',tag:'p'},{l:'Animated episode',tag:'s'},{l:'Motion comic',tag:'s'}]},
+    {i:'📖',k:'Read it',items:[{l:'Comic',act:st.e?'era':null},{l:'The Saga — novel',act:'saga'},{l:'Historical article',tag:'s'}]},
+    {i:'🎧',k:'Hear it',items:[{l:'Character narration',tag:'s'},{l:'Podcast',tag:'s'},{l:'Audio drama',tag:'p'}]},
+    {i:'🎮',k:'Live it',items:[{l:'Explore the map',act:'timeline'},{l:'Quiz',tag:'s'},{l:'Decision simulation',tag:'p'}]},
+    {i:'🏛',k:'Explore it',items:[{l:'Museum objects',act:'sources'},{l:'Primary sources',act:'sources'},{l:'World map',act:'map'}]},
+    {i:'🧠',k:'Understand it',items:[{l:'Economic impact',tag:'s'},{l:'Political impact',tag:'s'},{l:'Why it still matters',tag:'s'}]}
+  ];}
+  function itemHtml(it){if(it.act)return '<div class="hubIt live" data-act="'+it.act+'">'+it.l+'<span class="hubTag g">Open</span></div>';return '<div class="hubIt soon">'+it.l+(it.tag==='p'?'<span class="hubTag p">TH+ soon</span>':'<span class="hubTag s">Soon</span>')+'</div>';}
+  window.thOpenHub=function(i){var st=STN[i];if(!st)return;var o=ovl();
+    var chips=st.L.map(function(k){return '<span class="hubChip" data-char="'+k+'"><i style="background:'+(col[k]||'#fff')+'"></i>'+nm(k)+'</span>';}).join('');
+    var gh=groups(st).map(function(g){return '<div class="hubG"><div class="gi">'+g.i+'</div><div class="gk">'+g.k+'</div>'+g.items.map(itemHtml).join('')+'</div>';}).join('');
+    var nextI=(i+1<STN.length)?i+1:null;
+    document.getElementById('hubBody').innerHTML='<div class="hubYr">'+st.y+'</div><div class="hubT">'+esc(st.n)+'</div><p class="hubPlat">'+(st.L.length>1?'On the platform · '+st.L.length+' hearts lived this moment':'On the platform')+'</p><div class="hubWho">'+chips+'</div><div class="hubQ">How would you like to experience this story?</div><div class="hubGrid">'+gh+'</div><div class="hubNext"><a onclick="thCloseHub()">&times; Close</a>'+(nextI!=null?'<a onclick="thOpenHub('+nextI+')">Continue to '+STN[nextI].y+' &rarr;</a>':'<span></span>')+'</div>';
+    [].forEach.call(o.querySelectorAll('.hubChip'),function(n){n.onclick=function(){thMeet(n.getAttribute('data-char'));};});
+    [].forEach.call(o.querySelectorAll('.hubIt.live'),function(n){n.onclick=function(){thHubAct(n.getAttribute('data-act'),st);};});
+    o.classList.add('on');document.body.style.overflow='hidden';o.scrollTop=0;
+  };
+  window.thCloseHub=function(){var o=document.getElementById('thHubOv');if(o)o.classList.remove('on');document.body.style.overflow='';};
+  function toId(id){var s=document.getElementById(id);if(s)s.scrollIntoView({behavior:'smooth'});}
+  window.thMeet=function(k){thCloseHub();if(window.thShowHome)thShowHome();toId('characters');if(window.openChar)setTimeout(function(){openChar(k);},480);};
+  window.thHubAct=function(a,st){thCloseHub();
+    if(a==='era'){if(window.eraDrawer)eraDrawer(st.e);else toId('eramap');}
+    else if(a==='saga'){if(window.thShowHome)thShowHome();toId('saga');}
+    else if(a==='timeline'){if(window.thShowHome)thShowHome();toId('thtimeline');}
+    else if(a==='map'){if(window.thShowHome)thShowHome();toId('thworld');}
+    else if(a==='sources'){if(window.thShowAbout){thShowAbout();setTimeout(function(){toId('thsources');},220);}else toId('thsources');}
+  };
+  window.tlOpen=function(i){thOpenHub(i);};
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')thCloseHub();});
+  function ready(fn){document.readyState!=='loading'?fn():document.addEventListener('DOMContentLoaded',fn);}
+  ready(function(){try{
+    var sec=document.getElementById('thtimeline');if(!sec||document.getElementById('thMetro'))return;
+    var scroll=sec.querySelector('.tht-scroll');
+    var key='<div class="mx-key">'
+     +'<span><svg width="26" height="8"><line x1="1" y1="4" x2="25" y2="4" stroke="#C9A84C" stroke-width="4" stroke-linecap="round"/></svg>Character line</span>'
+     +'<span><svg width="12" height="14"><line x1="6" y1="1" x2="6" y2="13" stroke="#C9A84C" stroke-width="3" stroke-linecap="round"/></svg>Station &middot; an event</span>'
+     +'<span><svg width="14" height="14"><circle cx="7" cy="7" r="5.5" fill="#fff" stroke="#C9A84C" stroke-width="2"/></svg>Transfer &middot; many hearts</span>'
+     +'<span><svg width="14" height="14"><rect x="5" y="1" width="4" height="12" rx="2" fill="#0a1526" stroke="#C9A84C" stroke-width="1.6"/></svg>Downtown &middot; Today</span>'
+     +'<span><svg width="26" height="8"><line x1="1" y1="4" x2="25" y2="4" stroke="#C9A84C" stroke-width="3" stroke-dasharray="2 4"/></svg>The Future</span></div>';
+    var hubrow=STN.map(function(st,i){return {i:i,st:st};}).filter(function(o){return o.st.L.length>1;}).map(function(o){return '<div class="mx-hub" onclick="thOpenHub('+o.i+')"><div class="med">'+o.st.y+'</div><div class="hn">'+esc(o.st.n)+'</div></div>';}).join('');
+    var legend=LINES.map(function(l){return '<span><i style="background:'+l.c+'"></i>'+l.n+' · '+l.a+'</span>';}).join('');
+    var box=document.createElement('div');box.id='thMetro';
+    box.innerHTML='<div class="mx-head"><p class="mx-ey">The Trading Hearts</p><h3 class="mx-h">Underground of <span class="g">Civilization</span></h3><p class="mx-sub">28 characters, 28 lines. The oldest begin far out in the suburbs and ride inbound through history to Downtown — Today — where every line meets. The Future is the end of the line. Tap any station to travel the story.</p></div>'+key+'<div class="mx-scroll">'+metroSVG()+'</div><div class="mx-legend">'+legend+'</div><div class="mx-hubs"><div class="ht">Major Transfer Stations · moments that changed everything</div><div class="mx-hubrow">'+hubrow+'</div></div>';
+    if(scroll){sec.insertBefore(box,scroll);scroll.style.display='none';}else sec.appendChild(box);
+  }catch(e){if(window.console)console.warn('TH metro',e);}});
+})();</script>

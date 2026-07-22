@@ -1,0 +1,57 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+:root{--gold:#C9A84C;--cream:#faf7f2;--font-display:Georgia,serif}
+body{background:#0a1526;margin:0;padding:24px;font-family:-apple-system,Georgia,serif}
+#thJourney{max-width:1240px;margin:10px auto 0}
+#thJourney .jr-card{background:linear-gradient(180deg,#0b2036,#08182b);border:1px solid rgba(201,168,76,.22);border-radius:14px;padding:22px 24px}
+#thJourney .jr-h{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-size:1.3rem;color:var(--cream);margin:0}
+#thJourney .jr-h .b{font:600 .5rem/1 -apple-system;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(201,168,76,.4);border-radius:20px;padding:4px 9px}
+#thJourney .jr-sub{color:rgba(250,247,242,.5);font-family:var(--font-display);font-style:italic;font-size:.9rem;margin:4px 0 16px}
+#thJourney .jr-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+#thJourney .jr-cell{background:#08182b;border:1px solid rgba(201,168,76,.12);border-radius:11px;padding:14px 15px}
+#thJourney .jr-cell h4{margin:0 0 10px;font:600 .56rem/1 -apple-system;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+#thJourney .jr-bar{height:8px;border-radius:5px;background:rgba(255,255,255,.07);overflow:hidden;margin-bottom:8px}
+#thJourney .jr-bar i{display:block;height:100%;background:linear-gradient(90deg,#C9A84C,#E8C97A)}
+#thJourney .jr-num{font-family:var(--font-display);color:rgba(250,247,242,.8);font-size:.95rem}
+#thJourney .jr-num b{color:var(--gold);font-size:1.4rem}
+#thJourney .jr-chips{display:flex;flex-wrap:wrap;gap:6px}
+#thJourney .jr-chip{display:inline-flex;align-items:center;gap:6px;cursor:pointer;border:1px solid rgba(201,168,76,.25);border-radius:16px;padding:4px 10px;font-family:var(--font-display);font-size:.82rem;color:rgba(250,247,242,.85)}
+#thJourney .jr-chip:hover{border-color:var(--gold);color:var(--gold)}
+#thJourney .jr-chip i{width:8px;height:8px;border-radius:50%;display:inline-block}
+#thJourney .jr-route{font-family:var(--font-display);font-size:.92rem;color:rgba(250,247,242,.8);line-height:1.8}
+#thJourney .jr-route .ar{color:var(--gold);margin:0 5px}
+#thJourney .jr-badges{display:flex;flex-wrap:wrap;gap:12px}
+#thJourney .jr-badge{display:flex;flex-direction:column;align-items:center;gap:5px;width:72px;text-align:center}
+#thJourney .jr-badge .bi{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.15rem;border:2px solid rgba(201,168,76,.35)}
+#thJourney .jr-badge.on .bi{border-color:var(--gold);background:radial-gradient(circle at 50% 35%,#1a3050,#0a1526)}
+#thJourney .jr-badge.off{opacity:.34;filter:grayscale(1)}
+#thJourney .jr-badge span{font:600 .44rem/1.2 -apple-system;letter-spacing:.04em;text-transform:uppercase;color:rgba(250,247,242,.6)}
+#thJourney .jr-muted{color:rgba(250,247,242,.4);font-family:var(--font-display);font-size:.85rem}
+#thJourney .jr-locked{text-align:center;padding:22px 16px}
+#thJourney .jr-locked .lk{font-size:1.9rem}
+#thJourney .jr-locked h3{font-family:var(--font-display);font-size:1.5rem;color:var(--cream);margin:8px 0 6px}
+#thJourney .jr-locked p{color:rgba(250,247,242,.6);font-family:var(--font-display);max-width:560px;margin:0 auto 16px;font-size:.95rem;line-height:1.6}
+#thJourney .jr-cta{background:var(--gold);color:#0a1526;border:none;border-radius:9px;padding:12px 26px;font:700 .78rem/1 -apple-system;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+</style></head><body>
+<h3 style="color:#888;font:600 11px -apple-system;letter-spacing:2px;text-transform:uppercase">Member view</h3>
+<div id="thMetro"></div>
+<h3 style="color:#888;font:600 11px -apple-system;letter-spacing:2px;text-transform:uppercase;margin-top:30px">Guest view (locked)</h3>
+<div id="thMetro2"></div>
+<script>
+window.TH_STN=[{y:'600 BCE',n:'The Birth of Money',L:['alexandros']},{y:'1944',n:'Bretton Woods',L:['conrad','aurora','isabella','aiko','victoria']},{y:'1971',n:'The Gold Window Closes',L:['aurora','conrad']},{y:'2008',n:'Satoshi & the Crisis',L:['hiro','conrad','victoria']},{y:'2015',n:'Franc Shock · Greek No · Ethereum',L:['victoria','zephyr']}];
+window.TH_LINES=[{k:'aurora',n:'Aurora',c:'#C9A84C'},{k:'hiro',n:'Hiro',c:'#E8873A'},{k:'conrad',n:'Conrad',c:'#3EA55E'}];
+function uniqRecent(seq,n){var out=[],seen={};for(var i=seq.length-1;i>=0&&out.length<n;i--){if(!seen[seq[i]]){seen[seq[i]]=1;out.push(seq[i]);}}return out;}
+function achievements(d,STN){var idx=Object.keys(d.visited).map(Number);var n=idx.length;var inter=idx.some(function(i){return STN[i]&&STN[i].L.length>1;});var anc=idx.some(function(i){return i<=3;});return [{i:'🎫',t:'First Ride',on:n>=1},{i:'🏛',t:'Time Traveler',on:anc},{i:'🔀',t:'Interchange',on:inter},{i:'🧭',t:'Explorer',on:n>=10},{i:'🌍',t:'Whole Network',on:n>=STN.length}];}
+function LM(){var m={};window.TH_LINES.forEach(function(l){m[l.k]=l;});return m;}
+function panel(d,STN,lm,isMember){
+  if(!isMember)return '<div class="jr-card"><div class="jr-locked"><div class="lk">🔒</div><h3>Your Journey</h3><p>Join Trading Hearts to save your routes through history, follow your favorite characters, and track your learning progress across the whole network — on every device.</p><button class="jr-cta">Join to start your journey</button></div></div>';
+  var idx=Object.keys(d.visited).map(Number);var n=idx.length,total=STN.length;var pct=total?Math.round(n/total*100):0;
+  var recent=uniqRecent(d.seq,6).map(function(i){var s=STN[i];return s?'<span class="jr-chip">'+s.y+' · '+s.n.split(' · ')[0]+'</span>':'';}).join('')||'<span class="jr-muted">Tap a station to begin.</span>';
+  var favs=d.fav.map(function(k){var l=lm[k];return l?'<span class="jr-chip"><i style="background:'+l.c+'"></i>'+l.n+'</span>':'';}).join('')||'<span class="jr-muted">Star a character in any station.</span>';
+  var route=d.seq.slice(-8).map(function(i){return STN[i]?STN[i].y:'';}).join('<span class="ar">→</span>');
+  var badges=achievements(d,STN).map(function(b){return '<div class="jr-badge '+(b.on?'on':'off')+'"><div class="bi">'+b.i+'</div><span>'+b.t+'</span></div>';}).join('');
+  return '<div class="jr-card"><div class="jr-h">Your Journey <span class="b">Member</span></div><p class="jr-sub">Your ride through the Underground of Civilization — saved to your account.</p><div class="jr-grid"><div class="jr-cell"><h4>Learning progress</h4><div class="jr-bar"><i style="width:'+pct+'%"></i></div><div class="jr-num"><b>'+n+'</b> / '+total+' stations explored</div></div><div class="jr-cell"><h4>Recent stations</h4><div class="jr-chips">'+recent+'</div></div><div class="jr-cell"><h4>Favorite characters</h4><div class="jr-chips">'+favs+'</div></div><div class="jr-cell"><h4>Your route</h4><div class="jr-route">'+route+'</div></div><div class="jr-cell" style="grid-column:1/-1"><h4>Achievements</h4><div class="jr-badges">'+badges+'</div></div></div></div>';
+}
+var d={visited:{0:1,1:2,2:1,3:1},seq:[0,1,2,3,1],fav:['aurora','hiro']};
+var h=document.createElement('div');h.id='thJourney';h.innerHTML=panel(d,window.TH_STN,LM(),true);document.getElementById('thMetro').appendChild(h);
+var h2=document.createElement('div');h2.id='thJourney';h2.innerHTML=panel(d,window.TH_STN,LM(),false);document.getElementById('thMetro2').appendChild(h2);
+</script></body></html>

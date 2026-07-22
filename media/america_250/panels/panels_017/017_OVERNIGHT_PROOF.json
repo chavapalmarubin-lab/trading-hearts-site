@@ -1,0 +1,29 @@
+{
+  "comic_id": "017",
+  "title": "The First Railroad",
+  "series": "America 250 — 250 Moments That Built The Exchange",
+  "era": "II — Industrial Ascent",
+  "year_depicted": 1825,
+  "rendered_at": "2026-06-11",
+  "render_path": "overnight manual-operator via Jenova Comic Creator (fresh session, Global Memory ON)",
+  "jenova_session": "01ktvf817nfqqa6wr6kqey7583",
+  "panels": [
+    "017_page_00_intro.jpeg",
+    "017_page_01.jpeg", "017_page_02.jpeg", "017_page_03.jpeg",
+    "017_page_04.jpeg", "017_page_05.jpeg", "017_page_06.jpeg",
+    "017_page_07.jpeg", "017_page_08.jpeg", "017_page_09.jpeg"
+  ],
+  "characters": ["Conrad Powers (panels 4,5,6 hand,7,8,9)", "anonymous foreman/workers (1,3,8,9)"],
+  "refs_used": {"conrad": "canonical_refs/conrad_ref.png (re-attached every Conrad panel)", "charlotte": "canonical_refs/charlotte_ref.png (Panel 0 portrait inset only)", "aurora": "canonical_refs/aurora_ref.png (Panel 0 portrait inset only)"},
+  "operator_canon_notes": [
+    "Panel 0 intro card: tagline + prose composed in TH voice; gold-on-dark painted; portrait insets CONRAD POWERS / CHARLOTTE WINDSOR · The British Pound / AURORA LUX · Gold rendered from canonical refs.",
+    "Aurora-blonde verification: Aurora appears ONLY in the Panel 0 portrait inset; visually verified platinum golden blonde (champagne-gold), not dark. No other Aurora panels in this comic.",
+    "Panel 8 dialogue rendered verbatim: 'I have just bought myself a body that can outrun my own conscience. God help whoever stands between the two.'",
+    "Panel captions visually checked against the locked script; verbatim or near-verbatim (Panel 1 caption shows a minor typographic artifact after '1825,' — flagged for CEO review).",
+    "Panel 2 bootprint sole tread reads slightly modern — flagged for CEO judgment, not regenerated.",
+    "Panel 6 intentionally textless per script (Caption: none, Dialogue: none).",
+    "All 10 files verified >50KB on disk. Assembled strip 1080px-wide vertical, 10 panels stacked."
+  ],
+  "qa_disclaimer": "No automated QA was run (panel_qa_runner has a known era_02 tooling bug). This assembled comic is the CEO's review artifact.",
+  "assembly": {"strip": "017_FINAL_COMIC.jpg", "html": "017_FINAL_ASSEMBLY.html"}
+}

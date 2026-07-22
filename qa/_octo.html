@@ -1,0 +1,66 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+:root{--gold:#C9A84C;--cream:#faf7f2;--font-display:Georgia,serif}
+body{background:#0a1526;margin:0;padding:16px;font-family:-apple-system,Georgia,serif}
+#m{max-width:1480px;margin:0 auto}
+.hd{text-align:center}.ey{font:600 .55rem/1 -apple-system;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
+.h{font-family:var(--font-display);font-size:1.7rem;color:var(--cream);margin:4px 0}.h .g{color:var(--gold)}
+</style></head><body><div id="m"><div class="hd"><p class="ey">The Trading Hearts</p><h2 class="h">Underground of <span class="g">Civilization</span></h2></div><div id="svg"></div></div><script>
+var LINES=[
+ {k:'alexandros',n:'Alexandros',c:'#19A7A7'},{k:'aurora',n:'Aurora',c:'#C9A84C'},{k:'conrad',n:'Conrad',c:'#3EA55E'},
+ {k:'isabella',n:'Isabella',c:'#4C6FBF'},{k:'aiko',n:'Aiko',c:'#D24B6A'},{k:'victoria',n:'Victoria',c:'#C0453B'},
+ {k:'charlotte',n:'Charlotte',c:'#B5533A'},{k:'clara',n:'Clara',c:'#8A93A8'},{k:'zane',n:'Zane',c:'#6C7A89'},
+ {k:'scarlett',n:'Scarlett',c:'#E0A33C'},{k:'sofia',n:'Sofia',c:'#3D8FD4'},{k:'hiro',n:'Hiro',c:'#E8873A'},
+ {k:'zephyr',n:'Zephyr',c:'#7C6CD0'},{k:'niko',n:'Niko',c:'#B84DBE'},{k:'camila',n:'Camila',c:'#2FA36B'},
+ {k:'fernanda',n:'Fernanda',c:'#8FA83A'},{k:'valentina',n:'Valentina',c:'#5AA6D6'},{k:'simon',n:'Simón',c:'#9A6A2B'},
+ {k:'catalina',n:'Catalina',c:'#2A9D8F'},{k:'marisol',n:'Marisol',c:'#C97B4A'},{k:'mei',n:'Mei',c:'#E0524E'},
+ {k:'wei',n:'Wei',c:'#46B37A'},{k:'klaus',n:'Klaus',c:'#9A7B5F'},{k:'isabelle',n:'Isabelle',c:'#9488A8'},
+ {k:'lars',n:'Lars',c:'#6E8FA0'},{k:'matteo',n:'Matteo',c:'#A0788E'},{k:'carlos',n:'Carlos',c:'#7A9E86'},{k:'ana',n:'Ana',c:'#A89A6E'}];
+var STN=[
+ {x:120,y:250,yr:'600 BCE',n:'The Birth of Money',L:['alexandros']},
+ {x:200,y:250,yr:'480 BCE',n:'Silver Wins a War',L:['alexandros']},
+ {x:290,y:300,yr:'50 BCE',n:'Rome Mints Gold',L:['aurora']},
+ {x:320,y:185,yr:'1694',n:'Bank of England',L:['isabella']},
+ {x:430,y:160,yr:'1871',n:'The Yen Is Born',L:['aiko']},
+ {x:450,y:110,yr:'1923',n:'When Money Died',L:['klaus']},
+ {x:520,y:215,yr:'1913',n:'The Federal Reserve',L:['conrad']},
+ {x:660,y:285,yr:'1944',n:'Bretton Woods',L:['conrad','aurora','isabella','aiko','victoria']},
+ {x:800,y:330,yr:'1971',n:'Gold Window Closes',L:['aurora','conrad','isabella','aiko','victoria','charlotte']},
+ {x:740,y:430,yr:'1973',n:'Oil & Petrodollar',L:['zane','conrad']},
+ {x:610,y:470,yr:'1981',n:'The Bond Peak',L:['clara']},
+ {x:700,y:520,yr:'1983',n:'The Aussie Floats',L:['scarlett']},
+ {x:500,y:660,yr:'1991',n:'Peru New Sol',L:['marisol']},
+ {x:640,y:630,yr:'1994',n:'Real · Tequila · Yuan',L:['camila','fernanda','wei']},
+ {x:720,y:700,yr:'1999',n:'Colombia Crisis',L:['catalina']},
+ {x:810,y:675,yr:'2001',n:'Argentina Defaults',L:['valentina']},
+ {x:900,y:375,yr:'2002',n:'Euro · Drachma Retires',L:['sofia','alexandros']},
+ {x:910,y:545,yr:'2008',n:'Satoshi & the Crisis',L:['hiro','conrad','victoria']},
+ {x:860,y:825,yr:'2010',n:'The Offshore Yuan',L:['mei']},
+ {x:1015,y:470,yr:'2015',n:'Franc · Greek · ETH',L:['victoria','alexandros','sofia','zephyr','mei','wei']},
+ {x:930,y:735,yr:'2018',n:'Bolívar Collapses',L:['simon']},
+ {x:1025,y:625,yr:'2020',n:'Oil Negative · Solana',L:['zane','niko']},
+ {x:1090,y:905,yr:'2024',n:'The Exchange',L:['isabelle','lars','matteo','carlos','ana']}];
+var col={},li={};LINES.forEach(function(l,i){col[l.k]=l.c;li[l.k]=i;});
+var HUBX=1200,FUTX=1380,HY0=250,HDY=15;
+function hubY(i){return HY0+i*HDY;}
+function oc(x1,y1,x2,y2){var dx=x2-x1,dy=y2-y1,adx=Math.abs(dx),ady=Math.abs(dy),sx=dx<0?-1:1,sy=dy<0?-1:1;if(adx>=ady)return ' L'+(x2-sx*ady)+' '+y1+' L'+x2+' '+y2;return ' L'+x1+' '+(y2-sy*adx)+' L'+x2+' '+y2;}
+function pathFor(k){var ss=STN.filter(function(s){return s.L.indexOf(k)>=0;}).sort(function(a,b){return a.x-b.x;});var pts=ss.map(function(s){return [s.x,s.y];});pts.push([HUBX,hubY(li[k])]);var d='M'+pts[0][0]+' '+pts[0][1];for(var i=1;i<pts.length;i++)d+=oc(pts[i-1][0],pts[i-1][1],pts[i][0],pts[i][1]);return d;}
+function svg(){var W=1480,H=1000,s='<svg viewBox="0 0 '+W+' '+H+'" style="width:100%;height:auto;font-family:-apple-system,Segoe UI,Roboto,sans-serif">';
+ // concentric zone rings around Today (fare zones)
+ [[430,'rgba(255,255,255,.02)'],[300,'rgba(255,255,255,.028)'],[170,'rgba(201,168,76,.05)']].forEach(function(z){s+='<circle cx="'+HUBX+'" cy="500" r="'+z[0]+'" fill="'+z[1]+'"/>';});
+ // lines
+ LINES.forEach(function(l){s+='<path d="'+pathFor(l.k)+'" fill="none" stroke="'+l.c+'" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.9"/>';});
+ // hub interchange bar
+ s+='<rect x="'+(HUBX-7)+'" y="'+(hubY(0)-9)+'" width="14" height="'+(hubY(27)-hubY(0)+18)+'" rx="7" fill="#0a1526" stroke="#C9A84C" stroke-width="2.5"/>';
+ LINES.forEach(function(l,i){s+='<circle cx="'+HUBX+'" cy="'+hubY(i)+'" r="4.4" fill="'+l.c+'"/>';});
+ // future
+ s+='<line x1="'+HUBX+'" y1="500" x2="'+FUTX+'" y2="500" stroke="#C9A84C" stroke-width="4" stroke-dasharray="3 6"/><circle cx="'+FUTX+'" cy="500" r="8" fill="#0a1526" stroke="#C9A84C" stroke-width="2.5"/>';
+ // stations
+ STN.forEach(function(s2){if(s2.L.length>1)s+='<circle cx="'+s2.x+'" cy="'+s2.y+'" r="7" fill="#fff" stroke="#333" stroke-width="2"/>';else s+='<circle cx="'+s2.x+'" cy="'+s2.y+'" r="4.6" fill="'+col[s2.L[0]]+'"/>';});
+ // year labels
+ STN.forEach(function(s2){s+='<text x="'+s2.x+'" y="'+(s2.y-12)+'" text-anchor="middle" fill="#C9A84C" font-size="10" font-weight="600">'+s2.yr+'</text>';});
+ s+='<text x="'+HUBX+'" y="'+(hubY(27)+30)+'" text-anchor="middle" fill="#C9A84C" font-size="13" font-weight="700" letter-spacing="1">TODAY</text>';
+ s+='<text x="'+FUTX+'" y="484" text-anchor="middle" fill="#C9A84C" font-size="10" font-weight="700">THE FUTURE</text>';
+ s+='<text x="150" y="60" fill="rgba(250,247,242,.4)" font-size="11" letter-spacing="2">THE SUBURBS · ancient origins</text>';
+ return s+'</svg>';}
+document.getElementById('svg').innerHTML=svg();
+</script></body></html>

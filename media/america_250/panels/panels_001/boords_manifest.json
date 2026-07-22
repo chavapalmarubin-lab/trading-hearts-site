@@ -1,0 +1,72 @@
+{
+  "storyboard_id": "meyn61",
+  "production": "America 250 #001 \u2014 The Declaration",
+  "frames": [
+    {
+      "panel": "panel_00_intro_card",
+      "frame_id": 31229098,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_001/panel_00_intro_card.jpeg"
+    },
+    {
+      "panel": "panel_01_conrad_street",
+      "frame_id": 31229099,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_001/panel_01_conrad_street.jpeg"
+    },
+    {
+      "panel": "panel_02_hand_declaration",
+      "frame_id": 31231680,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_001/panel_02_hand_declaration.jpeg"
+    },
+    {
+      "panel": "panel_03_aurora_scale",
+      "frame_id": 31231696,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_001/panel_03_aurora_scale.jpeg"
+    },
+    {
+      "panel": "panel_04_charlotte_london",
+      "frame_id": 31231697,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_001/panel_04_charlotte_london.jpeg"
+    },
+    {
+      "panel": "panel_05_charlotte_face",
+      "frame_id": 31231698,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_001/panel_05_charlotte_face.jpeg"
+    },
+    {
+      "panel": "panel_06_globe_hand",
+      "frame_id": 31231699,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_001/panel_06_globe_hand.jpeg"
+    },
+    {
+      "panel": "panel_07_split_aurora_conrad",
+      "frame_id": 31231700,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_001/panel_07_split_aurora_conrad.jpeg"
+    },
+    {
+      "panel": "panel_08_charlotte_ledger",
+      "frame_id": 31231701,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_001/panel_08_charlotte_ledger.jpeg"
+    },
+    {
+      "panel": "panel_09_charlotte_closing",
+      "frame_id": 31231702,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_001/panel_09_charlotte_closing.jpeg"
+    },
+    {
+      "panel": "panel_closing_card",
+      "frame_id": 31231703,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_001/panel_closing_card.jpeg"
+    }
+  ]
+}

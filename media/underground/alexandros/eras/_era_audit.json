@@ -1,0 +1,164 @@
+{
+ "character": "alexandros",
+ "reachable": [],
+ "unreachable": [
+  {
+   "era": "600bce",
+   "label": "600 BCE \u00b7 THE FIRST OWL",
+   "worn": "?",
+   "why": [
+    "background stalls have modern canvas awnings",
+    "architecture includes classical columns and entablature not typical of 600 bce athenian agora",
+    "crowd contains figures in anachronistic draped garments with modern tailoring and fit",
+    "background architecture shows classical greek columns and entablature, which were not fully developed or standardized in 600 bce",
+    "market stalls have white canvas awnings \u2014 anachronistic textile technology and form for 600 bce",
+    "crowd in background wears uniformly clean, tailored garments with modern drape and cut, not consistent with 6th century bce athenian dress",
+    "background market stalls with modern-style white canvas awnings",
+    "crowd includes figures wearing dark tailored trousers and modern-cut tunics",
+    "architecture shows classical temple columns and masonry too refined for 600 bce athens"
+   ]
+  },
+  {
+   "era": "480bce",
+   "label": "480 BCE \u00b7 SALAMIS",
+   "worn": "?",
+   "why": [
+    "no visible triremes on beach",
+    "no pitch smell visible (implied but not shown)",
+    "beach lacks shingle texture, appears smooth sand",
+    "no ancient harbour architecture or debris",
+    "no period-appropriate objects (oars, amphorae, rigging, etc.)",
+    "no visible triremes or ancient harbor structures",
+    "beach appears empty and modern, no period-appropriate debris or activity",
+    "lack of pitch smell or visual cues (smoke, tar barrels, shipyard tools)",
+    "no triremes visible on beach",
+    "no pitch smell or tar residue visible",
+    "no ancient harbor architecture or artifacts",
+    "beach appears groomed and modern, lacking debris or shipyard clutter"
+   ]
+  },
+  {
+   "era": "1832",
+   "label": "1832 \u00b7 THE DRACHMA RETURNS",
+   "worn": "?",
+   "why": [
+    "modern suit jacket with notched lapels and slim fit",
+    "no scaffolding visible on neoclassical facade"
+   ]
+  },
+  {
+   "era": "1920s",
+   "label": "1920s \u00b7 REBETIKO",
+   "worn": "?",
+   "why": [
+    "digital-looking high-contrast black and white with no silver gelatin grain"
+   ]
+  },
+  {
+   "era": "1940s",
+   "label": "1940s \u00b7 OCCUPATION",
+   "worn": "?",
+   "why": [
+    "no heavy overcoat (required for wet 1940s night scene)",
+    "modern slim-fit suit jacket with narrow lapels",
+    "unbuttoned shirt collar (1940s men typically buttoned collars, especially outdoors at night)",
+    "digital high-contrast processing with no visible film grain",
+    "excessive sharpness and clarity inconsistent with 1940s press photography",
+    "no heavy overcoat (required for wet 1940s night)",
+    "collar down (should be up for wind/rain)",
+    "modern slim-fit suit jacket (1940s coats were boxier, heavier)",
+    "no visible trench coat or wool overcoat",
+    "digital high-contrast processing (not film grain)",
+    "clean, crisp digital blacks (not 1940s press film)",
+    "modern streetlamp design (too sleek, not 1940s cast iron)",
+    "background crowd too sharply rendered for 1940s press photo",
+    "modern slim-fit overcoat with sharp lapels",
+    "clean, modern button-down shirt with visible placket",
+    "digital high-contrast processing with no film grain",
+    "excessive dynamic range and clarity typical of digital capture"
+   ]
+  },
+  {
+   "era": "1960s",
+   "label": "1960s \u00b7 THE BOOM",
+   "worn": "?",
+   "why": [
+    "modern slim-fit suit cut",
+    "clean white dress shirt with stiff collar",
+    "black tie too narrow for 1960s",
+    "acropolis visible through window but street scene has modern vehicles and pedestrians",
+    "digital sharpness and color saturation not matching 1960s kodachrome",
+    "chandeliers and interior decor too ornate for typical 1960s athens kafeneio",
+    "three-piece suit with slim modern cut",
+    "spread-collar shirt with sharp points",
+    "skinny tie (1960s ties were wider)",
+    "modern tailored jacket with narrow lapels",
+    "digital clarity and color grading",
+    "no visible film grain or kodachrome fade",
+    "contemporary street scene with modern cars and pedestrians visible outside",
+    "three-piece suit with modern slim cut and lapel width",
+    "clean, high-contrast digital rendering with no film grain or dye fade",
+    "overly sharp focus and dynamic range inconsistent with 1960s kodachrome"
+   ]
+  },
+  {
+   "era": "1980s",
+   "label": "1980s \u00b7 THE DRACHMA'S LAST GOOD YEARS",
+   "worn": "?",
+   "why": [
+    "tailored suit jacket (not linen or casual 80s outerwear)",
+    "no cigarette or smoke visible",
+    "no paper drachma notes on table"
+   ]
+  },
+  {
+   "era": "2001",
+   "label": "2001 \u00b7 THE EURO",
+   "worn": "?",
+   "why": [
+    "opulent chandeliers and gilded mirrors suggest 18th\u201319th century palace or opera house, not a modern 2001 greek bank",
+    "crowd in formal evening wear (tuxedos) inconsistent with casual bank visit on euro changeover day",
+    "no visible bank counters, tellers, drachma notes, or euro signage",
+    "photograph has high dynamic range, shallow depth of field, and digital sharpness inconsistent with early 2000s consumer digital cameras",
+    "opulent chandeliers",
+    "gilded baroque mirrors and moldings",
+    "formal ballroom architecture",
+    "no bank teller counter or drachma exchange visible",
+    "crowd in evening wear, not bank customers",
+    "ornate gilded mirrors",
+    "crystal chandeliers",
+    "baroque-style ceiling moldings",
+    "polished marble floors",
+    "formal evening wear crowd in background",
+    "lack of bank teller counter or euro/dracma exchange equipment"
+   ]
+  },
+  {
+   "era": "2015",
+   "label": "2015 \u00b7 OXI",
+   "worn": "?",
+   "why": [
+    "digital clarity and dynamic range inconsistent with 35mm film from 2015"
+   ]
+  },
+  {
+   "era": "today",
+   "label": "TODAY \u00b7 DOWNTOWN",
+   "worn": "?",
+   "why": [
+    "man wearing a tailored suit jacket and collared shirt \u2014 not appropriate for closing a taverna on a greek island",
+    "background shows crowded waterfront promenade with many people \u2014 contradicts 'chairs up on tables, sea black behind him'",
+    "digital photography with high dynamic range and sharp focus \u2014 not a warm, shallow-depth, practical-lit scene as specified",
+    "man wearing tailored suit jacket and shirt \u2014 not dark wool as specified",
+    "background crowd dressed in modern casual wear, not closing-hour taverna patrons",
+    "chairs not up on tables",
+    "no single lamp lit as focal point",
+    "sea not black, visible city lights and boats contradict 'closing hour' atmosphere",
+    "man wearing modern tailored suit jacket and shirt",
+    "background shows bustling evening promenade with modern streetlights and crowd",
+    "no chairs up on tables, no taverna closing hour indicators",
+    "sea is lit with ambient city glow, not black as specified"
+   ]
+  }
+ ]
+}

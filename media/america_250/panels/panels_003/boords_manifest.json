@@ -1,0 +1,49 @@
+{
+  "storyboard_id": "3km61d",
+  "production": "America 250 #003 \u2014 Hamilton Invents the Future",
+  "note": "Pages 1-2 lost to virtual scroll; comic covers pages 3-8",
+  "pages": [
+    {
+      "page": "003_page_00_intro",
+      "frame_id": 31227169,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_003/003_page_00_intro.jpeg"
+    },
+    {
+      "page": "003_page_03_regen",
+      "frame_id": 31227170,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_003/003_page_03_regen.jpeg"
+    },
+    {
+      "page": "003_page_04_regen",
+      "frame_id": 31227171,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_003/003_page_04_regen.jpeg"
+    },
+    {
+      "page": "003_page_05_regen",
+      "frame_id": 31227172,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_003/003_page_05_regen.jpeg"
+    },
+    {
+      "page": "003_page_06_regen",
+      "frame_id": 31227173,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_003/003_page_06_regen.jpeg"
+    },
+    {
+      "page": "003_page_07_regen",
+      "frame_id": 31227174,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_003/003_page_07_regen.jpeg"
+    },
+    {
+      "page": "003_page_08_regen",
+      "frame_id": 31227175,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_003/003_page_08_regen.jpeg"
+    }
+  ]
+}

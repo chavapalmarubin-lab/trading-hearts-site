@@ -1,0 +1,28 @@
+{
+  "comic_id": "019",
+  "title": "The Panic",
+  "series": "America 250 — 250 Moments That Built The Exchange",
+  "era": "II — Industrial Ascent",
+  "year_depicted": 1857,
+  "rendered_at": "2026-06-11",
+  "render_path": "overnight manual-operator via Jenova Comic Creator (fresh session, Global Memory ON)",
+  "jenova_session": "01ktvmxrrdewy7q300am15h7tc",
+  "panels": [
+    "019_page_00_intro.jpeg",
+    "019_page_01.jpeg", "019_page_02.jpeg", "019_page_03.jpeg",
+    "019_page_04.jpeg", "019_page_05.jpeg", "019_page_06.jpeg",
+    "019_page_07.jpeg", "019_page_08.jpeg", "019_page_09.jpeg"
+  ],
+  "characters": ["Aurora Lux (panels 5,6,7,8,9)", "Conrad Powers (panels 4,6,7 edge,8,9)", "anonymous telegraph operators (1,2,3)"],
+  "refs_used": {"aurora": "canonical_refs/aurora_ref.png (re-attached every Aurora panel + Panel 0; packet refs_located is authority — script's older v5_ref_aurora_solo.jpg NOT used)", "conrad": "canonical_refs/conrad_ref.png (re-attached every Conrad panel + Panel 0)"},
+  "operator_canon_notes": [
+    "Panel 0 intro card: tagline + prose composed in TH voice; portraits AURORA LUX · Gold / CONRAD POWERS from canonical refs; text verbatim.",
+    "AURORA-BLONDE VERIFICATION (Universe Law #3): Aurora visually verified platinum golden blonde in ALL appearances — Panel 0 inset, Panel 5, Panel 6, Panel 7, Panel 8, Panel 9. No dark-hair drift observed; no regenerations needed.",
+    "Panel 8 dialogue rendered verbatim: 'Sit. You are bleeding in eleven cities at once. Welcome to scale. It is exactly as lonely as you feared.'",
+    "All captions visually checked against the locked script: verbatim.",
+    "Panel 0 background skyline reads slightly taller/denser than 1857 Manhattan — flagged for CEO judgment, not regenerated.",
+    "All 10 files verified >50KB on disk. Assembled strip 1080px-wide vertical, 10 panels stacked."
+  ],
+  "qa_disclaimer": "No automated QA was run (panel_qa_runner has a known era_02 tooling bug). This assembled comic is the CEO's review artifact.",
+  "assembly": {"strip": "019_FINAL_COMIC.jpg", "html": "019_FINAL_ASSEMBLY.html"}
+}

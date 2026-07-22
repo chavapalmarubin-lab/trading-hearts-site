@@ -1,0 +1,34 @@
+{
+  "comic_id": "015",
+  "title": "The Erie Canal",
+  "era": "02",
+  "year": 1817,
+  "assembled_at": "2026-06-10T18:49:33.158776",
+  "panels": [
+    "015_page_00_intro.jpeg",
+    "015_page_01.jpeg",
+    "015_page_02.jpeg",
+    "015_page_03.jpeg",
+    "015_page_04.jpeg",
+    "015_page_05.jpeg",
+    "015_page_06.jpeg",
+    "015_page_07.jpeg",
+    "015_page_08.jpeg",
+    "015_page_09.jpeg"
+  ],
+  "panel_count": 10,
+  "required_characters": [
+    "Conrad Powers",
+    "Charlotte Windsor"
+  ],
+  "render_engine": "Jenova Comic Creator (GPT-Image-2) \u2014 manual operator, fresh session",
+  "refs_used": "fal.ai LoRA canonical_refs/conrad_ref.png + charlotte_ref.png, re-attached per character panel",
+  "operator_canon_notes": "Per-panel visual check during render: Conrad early-30s/clean-shaven held; Charlotte warm dark chestnut hair (not black) held; period 1817 / no anachronisms; verbatim captions + 6 thought bubbles present; P1 & P3 character-less by script.",
+  "final_comic_jpg": "015_FINAL_COMIC.jpg",
+  "final_html": "015_FINAL_ASSEMBLY.html",
+  "qa_status": "NOT_RUN_panel_qa_runner (era_02 tooling caveat) \u2014 CEO reviews assembled comic per render doctrine",
+  "strip_dimensions": [
+    1080,
+    16200
+  ]
+}

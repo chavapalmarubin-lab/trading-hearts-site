@@ -1,0 +1,52 @@
+[
+ {
+  "key": "600bce",
+  "label": "600 BCE \u00b7 THE FIRST OWL",
+  "file": "media/underground/alexandros/eras/600bce.jpg"
+ },
+ {
+  "key": "480bce",
+  "label": "480 BCE \u00b7 SALAMIS",
+  "file": "media/underground/alexandros/eras/480bce.jpg"
+ },
+ {
+  "key": "1832",
+  "label": "1832 \u00b7 THE DRACHMA RETURNS",
+  "file": "media/underground/alexandros/eras/1832.jpg"
+ },
+ {
+  "key": "1920s",
+  "label": "1920s \u00b7 REBETIKO",
+  "file": "media/underground/alexandros/eras/1920s.jpg"
+ },
+ {
+  "key": "1940s",
+  "label": "1940s \u00b7 OCCUPATION",
+  "file": "media/underground/alexandros/eras/1940s.jpg"
+ },
+ {
+  "key": "1960s",
+  "label": "1960s \u00b7 THE BOOM",
+  "file": "media/underground/alexandros/eras/1960s.jpg"
+ },
+ {
+  "key": "1980s",
+  "label": "1980s \u00b7 THE DRACHMA'S LAST GOOD YEARS",
+  "file": "media/underground/alexandros/eras/1980s.jpg"
+ },
+ {
+  "key": "2001",
+  "label": "2001 \u00b7 THE EURO",
+  "file": "media/underground/alexandros/eras/2001.jpg"
+ },
+ {
+  "key": "2015",
+  "label": "2015 \u00b7 OXI",
+  "file": "media/underground/alexandros/eras/2015.jpg"
+ },
+ {
+  "key": "today",
+  "label": "TODAY \u00b7 DOWNTOWN",
+  "file": "media/underground/alexandros/eras/today.jpg"
+ }
+]

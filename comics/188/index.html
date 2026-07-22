@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trading Hearts · America 250 · #188 — Temporary Is a Long Time</title>
+<style>:root{--gold:#C9A84C;--dark:#08080C;--panel:#101018;--text:#E8E0D0;--muted:#7c7c8a;--border:#23232f;}
+*{box-sizing:border-box;margin:0;padding:0;}html,body{background:var(--dark);color:var(--text);font-family:Georgia,serif;}
+header{position:sticky;top:0;z-index:10;background:rgba(8,8,12,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--gold);padding:14px 20px;text-align:center;}
+.series{font-size:10px;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);}.title{font-size:20px;letter-spacing:.06em;margin-top:3px;}.title b{color:var(--muted);font-weight:normal;font-size:14px;}
+.back{position:absolute;left:18px;top:16px;color:var(--muted);text-decoration:none;font-size:13px;font-family:system-ui,sans-serif;}.back:hover{color:var(--gold);}
+.stage{display:flex;justify-content:center;padding:28px 16px 12px;}.comic{width:clamp(300px,96vw,1000px);position:relative;min-height:60vh;}
+.comic img{display:block;width:100%;height:auto;border:1px solid var(--border);border-radius:10px;box-shadow:0 10px 40px rgba(0,0,0,.6),0 0 0 1px rgba(201,168,76,.18);}
+.loader{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:var(--panel);border:1px solid var(--border);border-radius:10px;transition:opacity .45s ease;}.loader.hide{opacity:0;pointer-events:none;}
+.spin{width:40px;height:40px;border:3px solid rgba(201,168,76,.22);border-top-color:var(--gold);border-radius:50%;animation:sp .9s linear infinite;}@keyframes sp{to{transform:rotate(360deg);}}
+.ltxt{font-family:system-ui,sans-serif;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+.controls{position:fixed;right:16px;bottom:16px;display:flex;gap:8px;z-index:20;font-family:system-ui,sans-serif;}
+.controls button{background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:9px 13px;font-size:13px;cursor:pointer;}.controls button:hover{border-color:var(--gold);color:var(--gold);}
+footer{text-align:center;color:var(--muted);font-size:11px;line-height:1.6;padding:24px 20px 40px;max-width:680px;margin:0 auto;font-family:system-ui,sans-serif;}footer .law{color:#555;font-style:italic;}
+body.w-narrow .comic{width:clamp(280px,92vw,560px);}body.w-mid .comic{width:clamp(300px,92vw,760px);}</style></head><body>
+<header><a class="back" href="javascript:void(0)" onclick="parent.fpClose&&parent.fpClose()">‹ Close</a>
+<div class="series">Trading Hearts · America 250</div><div class="title">Temporary Is a Long Time <b>· #188</b></div></header>
+<div class="stage"><figure class="comic"><div class="loader" id="ld"><div class="spin"></div><div class="ltxt">Loading comic…</div></div>
+<img src="comic.jpg" alt="Trading Hearts America 250 #188" loading="eager" onload="document.getElementById('ld').classList.add('hide');"></figure></div>
+<div class="controls"><button onclick="document.body.className='w-narrow'">Narrow</button><button onclick="document.body.className='w-mid'">Medium</button><button onclick="document.body.className=''">Wide</button></div>
+<footer>A work of fiction. The characters are dramatized embodiments of financial assets; nothing here is financial advice or a depiction of real persons.<br><span class="law">© Trading Hearts Productions.</span></footer></body></html>

@@ -1,0 +1,66 @@
+{
+  "storyboard_id": "dkg8xm",
+  "production": "America 250 #002 \u2014 The Debt That Built a Nation",
+  "pages": [
+    {
+      "page": "002_page_00_intro",
+      "frame_id": 31229100,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_002/002_page_00_intro.jpeg"
+    },
+    {
+      "page": "002_page_01_regen",
+      "frame_id": null,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_002/002_page_01_regen.jpeg"
+    },
+    {
+      "page": "002_page_02_regen",
+      "frame_id": 31229101,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_002/002_page_02_regen.jpeg"
+    },
+    {
+      "page": "002_page_03_regen",
+      "frame_id": 31231856,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_002/002_page_03_regen.jpeg"
+    },
+    {
+      "page": "002_page_04_regen",
+      "frame_id": 31231857,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_002/002_page_04_regen.jpeg"
+    },
+    {
+      "page": "002_page_05_regen",
+      "frame_id": 31231858,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_002/002_page_05_regen.jpeg"
+    },
+    {
+      "page": "002_page_06_regen",
+      "frame_id": 31231859,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_002/002_page_06_regen.jpeg"
+    },
+    {
+      "page": "002_page_07_regen",
+      "frame_id": 31231860,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_002/002_page_07_regen.jpeg"
+    },
+    {
+      "page": "002_page_08_regen",
+      "frame_id": null,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_002/002_page_08_regen.jpeg"
+    },
+    {
+      "page": "002_page_09_regen",
+      "frame_id": null,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_002/002_page_09_regen.jpeg"
+    }
+  ]
+}

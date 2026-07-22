@@ -1,0 +1,18 @@
+{
+  "storyboard_id": "8ml7y9",
+  "production": "America 250 #009 \u2014 The Alien and Sedition Acts",
+  "pages": [
+    {
+      "page": "009_page_00_intro",
+      "frame_id": 31228303,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_009/009_page_00_intro.jpeg"
+    },
+    {
+      "page": "009_page_01_regen",
+      "frame_id": 31228304,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_009/009_page_01_regen.jpeg"
+    }
+  ]
+}

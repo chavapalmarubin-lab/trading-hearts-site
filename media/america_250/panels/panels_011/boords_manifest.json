@@ -1,0 +1,18 @@
+{
+  "storyboard_id": "meyn3o",
+  "production": "America 250 #011 \u2014 The Duel",
+  "pages": [
+    {
+      "page": "011_page_00_intro",
+      "frame_id": 31228330,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_011/011_page_00_intro.jpeg"
+    },
+    {
+      "page": "011_page_01_regen",
+      "frame_id": 31228331,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_011/011_page_01_regen.jpeg"
+    }
+  ]
+}

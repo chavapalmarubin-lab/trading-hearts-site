@@ -1,0 +1,18 @@
+{
+  "storyboard_id": "7n1mxk",
+  "production": "America 250 #004 \u2014 The Louisiana Purchase",
+  "pages": [
+    {
+      "page": "004_page_00_intro",
+      "frame_id": 31228033,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_004/004_page_00_intro.jpeg"
+    },
+    {
+      "page": "004_page_01_regen",
+      "frame_id": 31228034,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_004/004_page_01_regen.jpeg"
+    }
+  ]
+}

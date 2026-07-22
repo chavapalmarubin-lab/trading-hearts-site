@@ -1,0 +1,18 @@
+{
+  "storyboard_id": "jp1kgo",
+  "production": "America 250 #006 \u2014 The Constitutional Convention",
+  "pages": [
+    {
+      "page": "006_page_00_intro",
+      "frame_id": 31228270,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_006/006_page_00_intro.jpeg"
+    },
+    {
+      "page": "006_page_01_regen",
+      "frame_id": 31228271,
+      "status": "ok",
+      "url": "https://iczlfnpueipelzdyoypm.supabase.co/storage/v1/object/public/reference-images/america250_006/006_page_01_regen.jpeg"
+    }
+  ]
+}

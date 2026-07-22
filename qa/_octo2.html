@@ -1,0 +1,67 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+:root{--gold:#C9A84C;--cream:#faf7f2;--font-display:Georgia,serif}
+body{background:#0a1526;margin:0;padding:14px;font-family:-apple-system,Georgia,serif}
+#m{max-width:1520px;margin:0 auto}
+.hd{text-align:center}.ey{font:600 .55rem/1 -apple-system;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
+.h{font-family:var(--font-display);font-size:1.7rem;color:var(--cream);margin:4px 0}.h .g{color:var(--gold)}
+</style></head><body><div id="m"><div class="hd"><p class="ey">The Trading Hearts</p><h2 class="h">Underground of <span class="g">Civilization</span></h2></div><div id="svg"></div></div><script>
+var LINES=[
+ {k:'alexandros',n:'Alexandros',a:'Drachma',c:'#19A7A7'},{k:'aurora',n:'Aurora',a:'Gold',c:'#C9A84C'},{k:'conrad',n:'Conrad',a:'US Dollar',c:'#3EA55E'},
+ {k:'isabella',n:'Isabella',a:'Pound',c:'#4C6FBF'},{k:'aiko',n:'Aiko',a:'Yen',c:'#D24B6A'},{k:'victoria',n:'Victoria',a:'Swiss Franc',c:'#C0453B'},
+ {k:'charlotte',n:'Charlotte',a:'Canadian $',c:'#B5533A'},{k:'clara',n:'Clara',a:'Bonds',c:'#8A93A8'},{k:'zane',n:'Zane',a:'Oil',c:'#6C7A89'},
+ {k:'scarlett',n:'Scarlett',a:'Aussie $',c:'#E0A33C'},{k:'sofia',n:'Sofia',a:'Euro',c:'#3D8FD4'},{k:'hiro',n:'Hiro',a:'Bitcoin',c:'#E8873A'},
+ {k:'zephyr',n:'Zephyr',a:'Ethereum',c:'#7C6CD0'},{k:'niko',n:'Niko',a:'Solana',c:'#B84DBE'},{k:'camila',n:'Camila',a:'Brazil Real',c:'#2FA36B'},
+ {k:'fernanda',n:'Fernanda',a:'Mex Peso',c:'#8FA83A'},{k:'valentina',n:'Valentina',a:'Arg Peso',c:'#5AA6D6'},{k:'simon',n:'Simón',a:'Bolívar',c:'#9A6A2B'},
+ {k:'catalina',n:'Catalina',a:'Col Peso',c:'#2A9D8F'},{k:'marisol',n:'Marisol',a:'Peru Sol',c:'#C97B4A'},{k:'mei',n:'Mei',a:'Yuan offshore',c:'#E0524E'},
+ {k:'wei',n:'Wei',a:'Yuan onshore',c:'#46B37A'},{k:'klaus',n:'Klaus',a:'Weimar',c:'#9A7B5F'},{k:'isabelle',n:'Isabelle',a:'Saga',c:'#9488A8'},
+ {k:'lars',n:'Lars',a:'Saga',c:'#6E8FA0'},{k:'matteo',n:'Matteo',a:'Saga',c:'#A0788E'},{k:'carlos',n:'Carlos',a:'Saga',c:'#7A9E86'},{k:'ana',n:'Ana',a:'Saga',c:'#A89A6E'}];
+var STN=[
+ {px:120,py:250,y:'600 BCE',n:'The Birth of Money',L:['alexandros']},{px:200,py:250,y:'480 BCE',n:'Silver Wins a War',L:['alexandros']},
+ {px:290,py:300,y:'50 BCE',n:'Rome Mints Gold',L:['aurora']},{px:320,py:185,y:'1694',n:'Bank of England',L:['isabella']},
+ {px:430,py:160,y:'1871',n:'The Yen Is Born',L:['aiko']},{px:520,py:215,y:'1913',n:'Federal Reserve',L:['conrad']},
+ {px:450,py:110,y:'1923',n:'When Money Died',L:['klaus']},{px:660,py:285,y:'1944',n:'Bretton Woods',L:['conrad','aurora','isabella','aiko','victoria']},
+ {px:800,py:330,y:'1971',n:'Gold Window Closes',L:['aurora','conrad','isabella','aiko','victoria','charlotte']},{px:740,py:430,y:'1973',n:'Oil & Petrodollar',L:['zane','conrad']},
+ {px:610,py:470,y:'1981',n:'The Bond Peak',L:['clara']},{px:700,py:520,y:'1983',n:'The Aussie Floats',L:['scarlett']},
+ {px:500,py:660,y:'1991',n:'Peru New Sol',L:['marisol']},{px:640,py:630,y:'1994',n:'Real · Tequila · Yuan',L:['camila','fernanda','wei']},
+ {px:720,py:700,y:'1999',n:'Colombia Crisis',L:['catalina']},{px:810,py:675,y:'2001',n:'Argentina Defaults',L:['valentina']},
+ {px:900,py:375,y:'2002',n:'Euro · Drachma Retires',L:['sofia','alexandros']},{px:910,py:545,y:'2008',n:'Satoshi & the Crisis',L:['hiro','conrad','victoria']},
+ {px:860,py:825,y:'2010',n:'The Offshore Yuan',L:['mei']},{px:1015,py:470,y:'2015',n:'Franc · Greek · ETH',L:['victoria','alexandros','sofia','zephyr','mei','wei']},
+ {px:930,py:735,y:'2018',n:'Bolívar Collapses',L:['simon']},{px:1025,py:625,y:'2020',n:'Oil Negative · Solana',L:['zane','niko']},
+ {px:1090,py:905,y:'2024',n:'The Exchange',L:['isabelle','lars','matteo','carlos','ana']}];
+var col={},byk={};LINES.forEach(function(l){col[l.k]=l.c;byk[l.k]=l;});
+function esc(s){return s.replace(/&/g,'&amp;');}
+function metroSVG(){
+  var HUBX=1200,FUTX=1380,HY0=250,HDY=15,li={};LINES.forEach(function(l,i){li[l.k]=i;});
+  function hubY(i){return HY0+i*HDY;}
+  function oc(x1,y1,x2,y2){var dx=x2-x1,dy=y2-y1,adx=Math.abs(dx),ady=Math.abs(dy),sx=dx<0?-1:1,sy=dy<0?-1:1;if(adx>=ady)return ' L'+(x2-sx*ady)+' '+y1+' L'+x2+' '+y2;return ' L'+x1+' '+(y2-sy*adx)+' L'+x2+' '+y2;}
+  function pathFor(k){var ss=STN.filter(function(z){return z.L.indexOf(k)>=0;}).sort(function(a,b){return a.px-b.px;});var pts=ss.map(function(z){return [z.px,z.py];});pts.push([HUBX,hubY(li[k])]);var d='M'+pts[0][0]+' '+pts[0][1];for(var i=1;i<pts.length;i++)d+=oc(pts[i-1][0],pts[i-1][1],pts[i][0],pts[i][1]);return d;}
+  var W=1520,H=1010,s='<svg viewBox="0 0 '+W+' '+H+'" style="width:100%;height:auto;font-family:-apple-system,Segoe UI,Roboto,sans-serif">';
+  [[430,'rgba(255,255,255,.02)'],[300,'rgba(255,255,255,.028)'],[170,'rgba(201,168,76,.05)']].forEach(function(z){s+='<circle cx="'+HUBX+'" cy="500" r="'+z[0]+'" fill="'+z[1]+'"/>';});
+  LINES.forEach(function(l){s+='<path d="'+pathFor(l.k)+'" fill="none" stroke="'+l.c+'" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.9"/>';});
+  s+='<rect x="'+(HUBX-7)+'" y="'+(hubY(0)-9)+'" width="14" height="'+(hubY(27)-hubY(0)+18)+'" rx="7" fill="#0a1526" stroke="#C9A84C" stroke-width="2.5"/>';
+  LINES.forEach(function(l,i){s+='<circle cx="'+HUBX+'" cy="'+hubY(i)+'" r="4.4" fill="'+l.c+'"/>';});
+  LINES.forEach(function(l,i){s+='<text x="'+(HUBX+13)+'" y="'+(hubY(i)+3)+'" fill="'+l.c+'" font-size="8.5" font-weight="600">'+l.n+'</text>';});
+  s+='<line x1="'+HUBX+'" y1="500" x2="'+FUTX+'" y2="500" stroke="#C9A84C" stroke-width="4" stroke-dasharray="3 6"/><circle cx="'+FUTX+'" cy="500" r="8" fill="#0a1526" stroke="#C9A84C" stroke-width="2.5"/>';
+  STN.forEach(function(st){if(st.L.length>1)s+='<circle cx="'+st.px+'" cy="'+st.py+'" r="7" fill="#fff" stroke="#333" stroke-width="2"/>';else s+='<circle cx="'+st.px+'" cy="'+st.py+'" r="4.6" fill="'+(col[st.L[0]]||'#fff')+'"/>';});
+  STN.forEach(function(st){s+='<text x="'+st.px+'" y="'+(st.py-12)+'" text-anchor="middle" fill="#C9A84C" font-size="10" font-weight="600">'+st.y+'</text>';});
+  [[0,'alexandros'],[2,'aurora'],[3,'isabella'],[4,'aiko'],[5,'conrad'],[6,'klaus']].forEach(function(o){var st=STN[o[0]],l=byk[o[1]];if(st&&l)s+='<text x="'+st.px+'" y="'+(st.py+17)+'" text-anchor="middle" fill="'+l.c+'" font-size="9" font-weight="600">'+l.n+'</text>';});
+  // ---- explanation panels in the empty lower-left ----
+  var PX=70;
+  s+='<rect x="'+PX+'" y="498" width="344" height="140" rx="8" fill="rgba(255,255,255,.022)" stroke="rgba(201,168,76,.25)"/><text x="'+(PX+18)+'" y="524" fill="#C9A84C" font-size="11" font-weight="700" letter-spacing="2">HOW TO READ THE MAP</text>';
+  var ry=546;
+  s+='<line x1="'+(PX+18)+'" y1="'+ry+'" x2="'+(PX+42)+'" y2="'+ry+'" stroke="#C9A84C" stroke-width="4" stroke-linecap="round"/><text x="'+(PX+52)+'" y="'+(ry+4)+'" fill="#d8d2c4" font-size="10">A line is a character — an asset</text>';ry+=21;
+  s+='<line x1="'+(PX+30)+'" y1="'+(ry-5)+'" x2="'+(PX+30)+'" y2="'+(ry+5)+'" stroke="#C9A84C" stroke-width="3" stroke-linecap="round"/><text x="'+(PX+52)+'" y="'+(ry+4)+'" fill="#d8d2c4" font-size="10">A station is a real event</text>';ry+=21;
+  s+='<circle cx="'+(PX+30)+'" cy="'+ry+'" r="5.5" fill="#fff" stroke="#C9A84C" stroke-width="2"/><text x="'+(PX+52)+'" y="'+(ry+4)+'" fill="#d8d2c4" font-size="10">A white circle is a transfer — many hearts</text>';ry+=21;
+  s+='<rect x="'+(PX+27)+'" y="'+(ry-6)+'" width="5" height="12" rx="2.5" fill="#0a1526" stroke="#C9A84C" stroke-width="1.6"/><text x="'+(PX+52)+'" y="'+(ry+4)+'" fill="#d8d2c4" font-size="10">Downtown is TODAY — every line meets</text>';ry+=21;
+  s+='<line x1="'+(PX+18)+'" y1="'+ry+'" x2="'+(PX+42)+'" y2="'+ry+'" stroke="#C9A84C" stroke-width="3" stroke-dasharray="2 4"/><text x="'+(PX+52)+'" y="'+(ry+4)+'" fill="#d8d2c4" font-size="10">The Future is the end of the line</text>';
+  s+='<rect x="'+PX+'" y="650" width="344" height="176" rx="8" fill="rgba(255,255,255,.022)" stroke="rgba(201,168,76,.25)"/><text x="'+(PX+18)+'" y="676" fill="#C9A84C" font-size="11" font-weight="700" letter-spacing="2">CHOOSE YOUR EXPERIENCE</text><text x="'+(PX+18)+'" y="690" fill="rgba(250,247,242,.4)" font-size="8.5">tap any station to open it</text>';
+  [['🎬','Watch it','documentary · animated episode'],['📖','Read it','comic · novel · article'],['🎧','Hear it','podcast · narration'],['🎮','Live it','quiz · simulation'],['🏛','Explore it','museum objects · sources'],['🧠','Understand it','why it still matters today']].forEach(function(e,i){var yy=710+i*19;s+='<text x="'+(PX+20)+'" y="'+(yy+4)+'" font-size="13">'+e[0]+'</text><text x="'+(PX+44)+'" y="'+(yy+4)+'" fill="#f0ead6" font-size="10">'+e[1]+' — <tspan fill="rgba(250,247,242,.45)" font-size="8.5">'+e[2]+'</tspan></text>';});
+  s+='<rect x="'+PX+'" y="838" width="344" height="150" rx="8" fill="rgba(255,255,255,.022)" stroke="rgba(201,168,76,.25)"/><text x="'+(PX+18)+'" y="864" fill="#C9A84C" font-size="11" font-weight="700" letter-spacing="2">YOUR JOURNEY</text><text x="'+(PX+18)+'" y="878" fill="rgba(250,247,242,.4)" font-size="8.5">members · saved to your account</text>';
+  [['👣','My Routes'],['♥','Favorite Characters'],['◷','Recent Stations'],['🏅','Achievements'],['📈','Learning Progress']].forEach(function(e,i){var yy=898+i*17;s+='<text x="'+(PX+22)+'" y="'+(yy+4)+'" font-size="12" fill="#C9A84C">'+e[0]+'</text><text x="'+(PX+46)+'" y="'+(yy+4)+'" fill="#f0ead6" font-size="10">'+e[1]+'</text>';});
+  s+='<text x="'+HUBX+'" y="'+(hubY(27)+30)+'" text-anchor="middle" fill="#C9A84C" font-size="13" font-weight="700" letter-spacing="1">TODAY</text>';
+  s+='<text x="'+FUTX+'" y="484" text-anchor="middle" fill="#C9A84C" font-size="10" font-weight="700">THE FUTURE</text>';
+  s+='<text x="150" y="70" fill="rgba(250,247,242,.4)" font-size="11" letter-spacing="2">THE SUBURBS · ancient origins</text>';
+  return s+'</svg>';
+}
+document.getElementById('svg').innerHTML=metroSVG();
+</script></body></html>
