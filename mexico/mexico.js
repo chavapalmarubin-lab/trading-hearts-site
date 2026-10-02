@@ -111,7 +111,7 @@
   function renderMedia(c, media){
     const one=$('#modalOnePager'), gallery=$('#modalGallery'), videos=$('#modalVideos'), comics=$('#modalComics');
     if(one){
-      one.innerHTML=media.onePager?`<a class="onepager-link" href="${esc(media.onePager)}" target="_blank" rel="noopener"><div class="media-fallback">EXPEDIENTE VISUAL · ACTIVO PENDIENTE</div><img src="${esc(media.onePager)}" alt="Expediente visual de ${esc(c.name)}" loading="lazy" onerror="this.style.display='none'"><span>Abrir expediente visual ↗</span></a>`:`<div class="modal-coming">EXPEDIENTE EN PREPARACIÓN</div>`;
+      one.innerHTML=media.onePager?`<a class="onepager-link" href="${esc(media.onePager)}" target="_blank" rel="noopener"><div class="media-fallback">EXPEDIENTE VISUAL · ACTIVO PENDIENTE</div><img src="${esc(media.onePager)}" alt="Expediente visual de ${esc(c.name)}" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('missing');this.parentElement.removeAttribute('href');this.parentElement.removeAttribute('target');this.parentElement.querySelector('span').textContent='ACTIVO CANÓNICO PENDIENTE'"><span>Abrir expediente visual ↗</span></a>`:`<div class="modal-coming">EXPEDIENTE EN PREPARACIÓN</div>`;
     }
     if(gallery){
       gallery.innerHTML=media.gallery.length?media.gallery.map((src,i)=>`<a class="media-tile" href="${esc(src)}" target="_blank" rel="noopener"><img src="${esc(src)}" alt="${esc(c.name)} · galería ${i+1}" loading="lazy"><span>${String(i+1).padStart(2,'0')}</span></a>`).join(''):`<div class="modal-coming media-empty">GALERÍA EN PREPARACIÓN</div>`;
