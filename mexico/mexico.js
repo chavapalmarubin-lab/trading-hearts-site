@@ -29,8 +29,20 @@
 
   // cards
   const grid=$('#charGrid');
+  function mediaFor(c){
+    const base=c.media||{};
+    const override=(window.THMX_MEDIA&&window.THMX_MEDIA[c.id])||{};
+    return {
+      headshot:override.headshot||base.headshot||c.image||'',
+      onePager:override.onePager||base.onePager||'',
+      gallery:Array.isArray(override.gallery)?override.gallery:(base.gallery||[]),
+      videos:Array.isArray(override.videos)?override.videos:(base.videos||[]),
+      comics:Array.isArray(override.comics)?override.comics:(base.comics||[])
+    };
+  }
   function portrait(c, cls='char-portrait'){
-    return `<div class="char-fallback">${esc(c.initials)}</div><img class="${cls}" src="${esc(c.image)}" alt="${esc(c.name)}" loading="lazy" onerror="this.style.display='none'">`;
+    const m=mediaFor(c);
+    return `<div class="char-fallback">${esc(c.initials)}</div><img class="${cls}" src="${esc(m.headshot)}" alt="${esc(c.name)}" loading="lazy" onerror="this.style.display='none'">`;
   }
   if(grid){
     grid.innerHTML=cast.map((c,i)=>`<button class="char-card reveal" data-id="${esc(c.id)}" aria-label="Abrir perfil de ${esc(c.name)}">
@@ -85,15 +97,33 @@
   function openCharacter(id){
     const c=cast.find(x=>x.id===id); if(!c)return; current=c;
     $('#modalDomain').textContent=c.domain; $('#modalName').textContent=c.name; $('#modalRole').textContent=c.role; $('#modalQuote').textContent=c.quote; $('#modalBio').textContent=c.bio;
+    const media=mediaFor(c);
     $('#modalImgWrap').innerHTML=portrait(c,'modal-hero-img');
     $('#modalInfoStrip').innerHTML=[
       ['Edad',c.age+' años'],['Región',c.region],['Matriz Humana','26 campos']
     ].map(([a,b])=>`<div class="modal-info-cell"><span class="modal-info-label">${esc(a)}</span><span class="modal-info-value">${esc(b)}</span></div>`).join('');
+    renderMedia(c, media);
     const tabs=$('#hmTabs');tabs.innerHTML=c.hm.map((h,i)=>`<button class="hm-tab ${i===0?'active':''}" role="tab" aria-selected="${i===0?'true':'false'}" data-i="${i}"><b>${String(h.n).padStart(2,'0')}</b><span>${esc(h.label)}</span></button>`).join('');
     tabs.querySelectorAll('.hm-tab').forEach(b=>b.addEventListener('click',()=>showHM(c,Number(b.dataset.i))));
     showHM(c,0);
     modal.classList.add('open');backdrop.classList.add('open');document.body.style.overflow='hidden';close.focus();
   }
+  function renderMedia(c, media){
+    const one=$('#modalOnePager'), gallery=$('#modalGallery'), videos=$('#modalVideos'), comics=$('#modalComics');
+    if(one){
+      one.innerHTML=media.onePager?`<a class="onepager-link" href="${esc(media.onePager)}" target="_blank" rel="noopener"><div class="media-fallback">EXPEDIENTE VISUAL · ACTIVO PENDIENTE</div><img src="${esc(media.onePager)}" alt="Expediente visual de ${esc(c.name)}" loading="lazy" onerror="this.style.display='none'"><span>Abrir expediente visual ↗</span></a>`:`<div class="modal-coming">EXPEDIENTE EN PREPARACIÓN</div>`;
+    }
+    if(gallery){
+      gallery.innerHTML=media.gallery.length?media.gallery.map((src,i)=>`<a class="media-tile" href="${esc(src)}" target="_blank" rel="noopener"><img src="${esc(src)}" alt="${esc(c.name)} · galería ${i+1}" loading="lazy"><span>${String(i+1).padStart(2,'0')}</span></a>`).join(''):`<div class="modal-coming media-empty">GALERÍA EN PREPARACIÓN</div>`;
+    }
+    if(videos){
+      videos.innerHTML=media.videos.length?media.videos.map(src=>`<video class="media-video" controls preload="metadata"><source src="${esc(src)}"></video>`).join(''):`<div class="modal-coming media-empty">VIDEO EN PREPARACIÓN</div>`;
+    }
+    if(comics){
+      comics.innerHTML=media.comics.length?media.comics.map((src,i)=>`<a class="media-comic" href="${esc(src)}" target="_blank" rel="noopener">Cómic ${i+1} ↗</a>`).join(''):`<div class="modal-coming">PRÓXIMAMENTE</div>`;
+    }
+  }
+
   function showHM(c,i){
     const h=c.hm[i]; if(!h)return;
     $('#hmNum').textContent=String(h.n).padStart(2,'0');$('#hmTitle').textContent=h.label;$('#hmBody').textContent=h.text;
