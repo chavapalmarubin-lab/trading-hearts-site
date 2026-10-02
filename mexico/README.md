@@ -1,33 +1,28 @@
-# Trading Hearts México — sitio v1
+# Trading Hearts México — sitio v1.2
 
-Construcción inicial de `/mexico`, diseñada para replicar el lenguaje visual y la arquitectura pública de Trading Hearts antes de hacer cambios de diseño propios de México.
+Construcción de `/mexico`, manteniendo el lenguaje visual y la arquitectura pública de Trading Hearts, completamente en español.
 
-## Qué incluye
-
-- Sitio completamente en español.
+## Incluye
 - 15 personajes de Trading Hearts México.
-- Modal individual para cada personaje.
-- 26 campos de Matriz Humana en español por personaje (390 entradas).
-- Underground de México con 15 líneas, una por personaje.
-- Identidad deportiva de los 15 personajes.
-- Sección Cómics marcada **Próximamente**.
-- Diario México marcado **Próximamente**.
-- Responsive para escritorio y móvil.
-- Fallback visual seguro si todavía no están copiados los retratos canónicos.
+- 26 campos de Matriz Humana por personaje (390 entradas).
+- Underground México con 15 líneas.
+- Matriz deportiva con Liga MX, F1, NFL, LFA/ONEFA y deportes específicos.
+- Arquitectura de medios por Custodio: Headshot, One-Pager, Galería, Video y Cómics.
+- Cómics y Diario México marcados **Próximamente**.
+- Responsive y fallback visual si un activo canónico no está instalado.
 
-## Archivos
-
-- `index.html` — página.
-- `mexico.css` — sistema visual, basado en el lenguaje actual de tradinghearts.com.
-- `mexico-data.js` — elenco y Matrices Humanas.
-- `mexico.js` — tarjetas, modal, Matriz Humana, mapa Underground y navegación.
-- `ASSET_MAP.md` — correspondencia entre retratos canónicos de iCloud y nombres web.
-- `assets/characters/` — destino de los 15 retratos.
+## Archivos clave
+- `index.html` — página y paneles de medios.
+- `mexico-data.js` — elenco/HM y contrato de medios.
+- `mexico-media.js` — manifiesto generado de archivos disponibles.
+- `mexico.js` — render del sitio, Matriz Humana, Underground y medios.
+- `MEDIA_WORKFLOW.md` — flujo de activos.
+- `ASSET_MAP.md` — mapeo iCloud → IDs web.
+- `_install_assets_from_icloud.sh` — copia segura de Headshots/One-Pagers.
+- `_rebuild_media_manifest.py` — descubre galería/video/cómics.
+- `_qa_mexico.sh` — QA estructural y de activos base.
 
 ## Estado
+Rama de construcción/revisión. Los originales permanecen en iCloud; el sitio consume copias aprobadas. No implica autorización de publicación en producción.
 
-Esta es una **rama de construcción / revisión**, no una autorización para reemplazar la página principal de Trading Hearts ni para publicar producción. Las imágenes canónicas todavía deben copiarse desde iCloud cuando el Mac vuelva a estar accesible.
-
-## Ruta de publicación propuesta
-
-`https://tradinghearts.com/mexico/`
+Ruta propuesta: `https://tradinghearts.com/mexico/`
