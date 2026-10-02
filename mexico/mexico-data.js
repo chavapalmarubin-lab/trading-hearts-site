@@ -617,15 +617,15 @@ window.THMX_DATA = {
         {
           "n": 26,
           "label": "IDENTIDAD DEPORTIVA Y MATRIZ DE RIVALIDADES",
-          "text": "Identidad deportiva ficticia: fútbol; Rayados. Secundarios: Fórmula 1 y tenis. Intensidad 3/5. Rayados–Tigres alimenta la rivalidad con Valeria; compartir Rayados con Mercedes convierte el fútbol en territorio familiar; la estrategia de F1 refleja su instinto de control. Resultados reales requieren fuente oficial."
+          "text": "Identidad deportiva ficticia: fútbol como deporte principal; Rayados como equipo. Secundarios: Fórmula 1, NFL — Dallas Cowboys y tenis. Intensidad 4/5. La rivalidad Rayados–Tigres con Valeria y la tradición Cowboys compartida con Mercedes convierten el deporte en territorio familiar; la Fórmula 1 activa su obsesión con estrategia, capital y control. Marcadores, calendarios y resultados reales requieren fuente oficial."
         }
       ],
       "bio": "Creció entre Monterrey y círculos sociales de élite de Ciudad de México; estudió fuera y volvió al grupo familiar. Se mueve con comodidad en negocios bilingües. No se avergüenza de ser mexicano ni conoce automáticamente vidas ajenas a su clase. Quiere financiar infraestructura que importe, no heredar importancia ceremonial. En privado quiere que Lucía vea a una persona, no a un apellido. Su prueba es apoyar el resultado independiente de ella aun cuando no le dé ninguna ventaja romántica.",
       "sports": {
         "primary": "Fútbol",
         "team": "Rayados",
-        "secondary": "Fórmula 1 · Tenis",
-        "intensity": "3/5"
+        "secondary": "Fórmula 1 · NFL — Dallas Cowboys · Tenis",
+        "intensity": "4/5"
       }
     },
     {
@@ -774,14 +774,14 @@ window.THMX_DATA = {
         {
           "n": 26,
           "label": "IDENTIDAD DEPORTIVA Y MATRIZ DE RIVALIDADES",
-          "text": "Identidad deportiva ficticia: fútbol; Club América. Secundarios: boxeo y fútbol amateur de barrio. Intensidad 5/5. Chivas–América con Rafael convierte el partido en arena relacional; el boxeo refleja su respeto por quien recibe un golpe y sigue negociando. Marcadores y calendarios reales exigen fuente oficial."
+          "text": "Identidad deportiva ficticia: fútbol como deporte principal; Club América como equipo. Secundarios: boxeo, NFL — Pittsburgh Steelers y LFA — Mexicas. Intensidad 5/5. La rivalidad Chivas–América con Rafael vive en el mercado; Cowboys–Steelers con Damián y Mercedes añade una segunda arena generacional; seguir a Mexicas mantiene el futbol americano mexicano dentro de su mundo cotidiano. Resultados reales requieren fuente oficial."
         }
       ],
       "bio": "Empezó cargando cajas y comprando lotes pequeños; hoy dirige una operación mayorista ficticia de gran escala. Todavía llega antes del amanecer y come con trabajadores veteranos. Rechaza que el estatus heredado haga que el dinero de otra persona parezca más respetable que el suyo. Quiere que la casa mayorista sobreviva a su vida y que Jimena reconozca su valor. Se opone a medidas fiscales y tributarias que considera gravosas y a stablecoins que ve como amenaza al efectivo y a su papel. Son creencias del personaje, no un veredicto político del proyecto.",
       "sports": {
         "primary": "Fútbol",
         "team": "Club América",
-        "secondary": "Boxeo · Fútbol amateur",
+        "secondary": "Boxeo · NFL — Pittsburgh Steelers · LFA — Mexicas",
         "intensity": "5/5"
       }
     },
@@ -931,14 +931,14 @@ window.THMX_DATA = {
         {
           "n": 26,
           "label": "IDENTIDAD DEPORTIVA Y MATRIZ DE RIVALIDADES",
-          "text": "Identidad deportiva ficticia: básquetbol; Capitanes de Ciudad de México. Secundario: fútbol femenil, Cruz Azul Femenil. Intensidad 3/5. El básquet la separa del mundo futbolero de Octavio y le permite discutir pagos, boletaje y datos de aficionados. Hechos deportivos reales se verifican por fuente oficial."
+          "text": "Identidad deportiva ficticia: básquetbol como deporte principal; Capitanes de Ciudad de México como equipo. Secundarios: NFL — San Francisco 49ers y Cruz Azul Femenil. Intensidad 3/5. Le interesan la analítica, el ticketing y los sistemas de pago alrededor del deporte; la NFL le permite discutir datos y escala con su padre sin convertir todo en fintech. La rivalidad 49ers–Rams con Alma puede volver personal una conversación sobre California y México. Resultados reales requieren fuente oficial."
         }
       ],
       "bio": "Creció haciendo tarea arriba de la bodega; estudió computación y trabajó fuera del negocio familiar. Conoce márgenes de producto y rutinas de carga, no sólo lenguaje de startup. El trabajo de su padre financió oportunidades que ella ahora quiere hacer menos dependientes de acceso familiar. Quiere que pequeños productores creen historiales comerciales portables y comparen contrapartes. En privado quiere que Octavio llame útil a su logro en lugar de desleal. Su empresa no debe sustituir una dependencia por otra centrada en ella.",
       "sports": {
         "primary": "Básquetbol",
         "team": "Capitanes CDMX",
-        "secondary": "Cruz Azul Femenil",
+        "secondary": "NFL — San Francisco 49ers · Cruz Azul Femenil",
         "intensity": "3/5"
       }
     },
@@ -997,7 +997,8 @@ window.THMX_DATA = {
         },
         {
           "n": 8,
-          "label": "TIPO DE INTELIGENCIA",          "text": "Fuerte en planeación y análisis institucional. Comprende restricciones formales, pero subestima cuánto influye su miedo al fracaso en sus juicios de riesgo. Pierde capacidad para escuchar evidencia que amenaza el proyecto con el que se identifica."
+          "label": "TIPO DE INTELIGENCIA",
+          "text": "Fuerte en planeación y análisis institucional. Comprende restricciones formales, pero subestima cuánto influye su miedo al fracaso en sus juicios de riesgo. Pierde capacidad para escuchar evidencia que amenaza el proyecto con el que se identifica."
         },
         {
           "n": 9,
@@ -1087,15 +1088,15 @@ window.THMX_DATA = {
         {
           "n": 26,
           "label": "IDENTIDAD DEPORTIVA Y MATRIZ DE RIVALIDADES",
-          "text": "Identidad deportiva ficticia: fútbol; Pumas UNAM. Secundario: correr por recreación. Intensidad 2/5. Admira esfuerzo y reglas mientras empieza a doblarlas en el poder; Pumas–América Femenil crea una rivalidad doméstica con Mariana. Datos deportivos reales requieren verificación oficial."
+          "text": "Identidad deportiva ficticia: fútbol americano como deporte principal; Pumas CU / ONEFA como ancla. Secundarios: Pumas UNAM en fútbol y carrera recreativa. Intensidad 3/5. El futbol americano le ofrece reglas visibles, castigos y responsabilidad de equipo: exactamente los principios que empieza a relativizar en el poder. Su afición universitaria puede contrastar con las excepciones que justifica en gobierno. Resultados reales requieren fuente oficial."
         }
       ],
       "bio": "Proviene de una familia de clase media vinculada a educación pública y servicio profesional. Creció viendo obras anunciadas que no llegaban y construyó su identidad alrededor de lograr resultados verificables. Su patriotismo cívico no se confunde con afiliación partidista real. Quiere que el proyecto de cadena fría y acceso funcione y quede como logro público útil. Se convence de que ciertas conductas impropias son necesarias; la historia conserva alternativas y responsabilidad personal en vez de declarar que la corrupción es inevitable.",
       "sports": {
-        "primary": "Fútbol",
-        "team": "Pumas UNAM",
-        "secondary": "Carrera recreativa",
-        "intensity": "2/5"
+        "primary": "Fútbol americano",
+        "team": "Pumas CU · ONEFA",
+        "secondary": "Pumas UNAM — fútbol · Carrera recreativa",
+        "intensity": "3/5"
       }
     },
     {
@@ -1244,15 +1245,15 @@ window.THMX_DATA = {
         {
           "n": 26,
           "label": "IDENTIDAD DEPORTIVA Y MATRIZ DE RIVALIDADES",
-          "text": "Identidad deportiva ficticia: béisbol; Diablos Rojos del México. Secundario: ajedrez. Intensidad 3/5. El béisbol le da lenguaje de entradas y segundas oportunidades; el ajedrez se vuelve peligroso cuando sigue tratando personas como piezas. Resultados reales requieren verificación oficial."
+          "text": "Identidad deportiva ficticia: fútbol americano como deporte principal; Pittsburgh Steelers como equipo. Secundarios: béisbol — Diablos Rojos del México y ajedrez. Intensidad 4/5. Su lealtad de décadas al futbol americano encaja con memoria, disciplina y segundas oportunidades; el béisbol conserva su ritmo estratégico. Cowboys–Steelers con la familia de la Vega puede parecer una broma hasta que viejas deudas políticas vuelven personal la rivalidad. Resultados reales requieren fuente oficial."
         }
       ],
       "bio": "Ascendió desde una familia profesional provincial a una red política cómoda. Es socialmente elegante, recuerda nombres y sabe hacer que un visitante se sienta importante. Su familia organizó la vida alrededor de arreglos que él enseñó a considerar normales. Quiere detener daño continuado y enfrentar su responsabilidad. También quiere que su familia crea en el cambio. La tentación incompatible es conservar todas las ventajas que hicieron posible el daño mientras recibe crédito por renunciar a él.",
       "sports": {
-        "primary": "Béisbol",
-        "team": "Diablos Rojos del México",
-        "secondary": "Ajedrez",
-        "intensity": "3/5"
+        "primary": "Fútbol americano",
+        "team": "Pittsburgh Steelers",
+        "secondary": "Béisbol — Diablos Rojos · Ajedrez",
+        "intensity": "4/5"
       }
     },
     {
@@ -1401,15 +1402,15 @@ window.THMX_DATA = {
         {
           "n": 26,
           "label": "IDENTIDAD DEPORTIVA Y MATRIZ DE RIVALIDADES",
-          "text": "Identidad deportiva ficticia: tenis; afinidad futbolera con Rayados. Secundarios: fútbol y eventos ecuestres de élite. Intensidad 2/5. Comparte Rayados con Damián; la lealtad de Valeria a Tigres se vuelve pequeña provocación familiar y de clase. Hechos reales requieren fuente oficial."
+          "text": "Identidad deportiva ficticia: tenis como deporte principal; Rayados y Dallas Cowboys como lealtades familiares. Secundarios: NFL, fútbol y eventos ecuestres. Intensidad 3/5. Comparte Cowboys y Rayados con Damián, de modo que los rituales deportivos funcionan como tradición familiar y filtro social. Steelers de Ernesto y Octavio introducen una rivalidad que puede sobrevivir décadas y resentimientos. Resultados reales requieren fuente oficial."
         }
       ],
       "bio": "Creció en una familia industrial establecida y fue entrenada para parecer decorativa mientras aprendía el negocio. Asumió autoridad real después de ser subestimada. Rechaza que «sólo se casó con poder», aunque reproduce exclusión cuando lo protege. Quiere que el grupo sobreviva una sucesión generacional y el cambio competitivo. En privado desea reconocimiento de que construyó parte de la riqueza, no sólo la custodió. Considera peligroso el juicio independiente de Damián hasta que coincide con el suyo.",
       "sports": {
         "primary": "Tenis",
-        "team": "Rayados · afinidad futbolera",
-        "secondary": "Fútbol · Ecuestres",
-        "intensity": "2/5"
+        "team": "Rayados · Dallas Cowboys",
+        "secondary": "NFL — Dallas Cowboys · Fútbol · Ecuestres",
+        "intensity": "3/5"
       }
     },
     {
@@ -1558,15 +1559,15 @@ window.THMX_DATA = {
         {
           "n": 26,
           "label": "IDENTIDAD DEPORTIVA Y MATRIZ DE RIVALIDADES",
-          "text": "Identidad deportiva ficticia: fútbol; Tigres UANL. Secundarios: Fórmula 1 y tenis. Intensidad 4/5. Tigres–Rayados alimenta tensión con Damián y Mercedes; la ingeniería de F1 crea terreno común con Santiago y Elena. Resultados reales se verifican con fuentes oficiales."
+          "text": "Identidad deportiva ficticia: Fórmula 1 como deporte principal; Sergio “Checo” Pérez y Cadillac F1 Team como lealtad central. Secundarios: Tigres UANL y tenis. Intensidad 5/5. Como ejecutiva automotriz, la F1 mezcla ingeniería, manufactura, estrategia y orgullo mexicano; el regreso de Checo en 2026 le da presión narrativa viva sin inventar resultados. Tigres–Rayados mantiene su rivalidad con Damián y Mercedes. Datos de carrera y temporada requieren fuente oficial."
         }
       ],
       "bio": "Proviene de una familia empresarial del norte, pero construyó credibilidad técnica dentro de plantas y equipos de producción. Conoce la etiqueta de Monterrey sin depender de ella. Habla con una cadencia norteña reconocible pero contenida. Quiere una transición de proveedores viable sin sacrificar trabajadores experimentados a una narrativa de presentación. En privado quiere ser elegida sin ser útil a otra familia. No debe convertirse en la rival rica que Lucía simplemente derrota.",
       "sports": {
-        "primary": "Fútbol",
-        "team": "Tigres UANL",
-        "secondary": "Fórmula 1 · Tenis",
-        "intensity": "4/5"
+        "primary": "Fórmula 1",
+        "team": "Sergio “Checo” Pérez · Cadillac F1 Team",
+        "secondary": "Tigres UANL · Tenis",
+        "intensity": "5/5"
       }
     },
     {
@@ -1715,14 +1716,14 @@ window.THMX_DATA = {
         {
           "n": 26,
           "label": "IDENTIDAD DEPORTIVA Y MATRIZ DE RIVALIDADES",
-          "text": "Identidad deportiva ficticia: ciclismo; Gallos Blancos de Querétaro como afinidad futbolera. Secundarios: fútbol y escalada recreativa. Intensidad 3/5. El deporte convierte medición, resistencia y márgenes de seguridad en presión personal con Mariana y Valeria. Hechos reales requieren fuente oficial."
+          "text": "Identidad deportiva ficticia: ciclismo como deporte principal; Gallos Blancos como lealtad futbolera. Secundarios: Fórmula 1, fútbol y escalada. Intensidad 3/5. La F1 le interesa como laboratorio de ingeniería, riesgo y márgenes de seguridad; eso crea terreno común con Valeria y Elena y fricción con quienes confunden velocidad con control. Resultados reales requieren fuente oficial."
         }
       ],
       "bio": "Viene de una familia de clase media en Querétaro; su padre reparaba equipos y su madre trabajaba en contabilidad. Estudió ingeniería, trabajó en sitios industriales y fundó una pequeña consultora. Aprendió el lenguaje de inversionistas sin perder respeto por mantenimiento. Quiere un diseño de cadena fría y eficiencia hídrica que pueda mantenerse, no otro proyecto prestigioso que falle después de la inauguración. También quiere demostrar que una advertencia pasada suya era correcta, y ese deseo puede sesgar su juicio actual.",
       "sports": {
         "primary": "Ciclismo",
-        "team": "Gallos Blancos · afinidad futbolera",
-        "secondary": "Fútbol · Escalada",
+        "team": "Gallos Blancos",
+        "secondary": "Fórmula 1 · Fútbol · Escalada",
         "intensity": "3/5"
       }
     },
@@ -1872,13 +1873,13 @@ window.THMX_DATA = {
         {
           "n": 26,
           "label": "IDENTIDAD DEPORTIVA Y MATRIZ DE RIVALIDADES",
-          "text": "Identidad deportiva ficticia: bádminton; selección mexicana de fútbol como lealtad nacional. Secundarios: Fórmula 1 y fútbol. Intensidad 3/5. Los partidos de México exponen su lado emocional; F1 conecta con Valeria y la cadena manufacturera. Hechos reales requieren verificación oficial."
+          "text": "Identidad deportiva ficticia: bádminton como deporte principal; Selección Mexicana y Checo Pérez como lealtades nacionales. Secundarios: Fórmula 1 y fútbol. Intensidad 3/5. La F1 conecta México con cadenas globales de suministro, manufactura y tecnología sin reducir su mundo China–México a una sola rivalidad. Puede discutir con Valeria sobre proveedores y con Damián sobre capital mientras ambos creen estar hablando sólo de carreras. Resultados reales requieren fuente oficial."
         }
       ],
       "bio": "Nació en Manzanillo de madre mexicana y padre nacido en China que se estableció en México. Esta historia familiar es ficción original, no señal de lealtad secreta. Creció entre comercio portuario y expectativas de familia extendida. Quiere capacidades duraderas para proveedores mexicanos y un negocio de abastecimiento rentable. También quiere ser reconocida como principal que toma decisiones, no como intermediaria que transporta la posición de otros.",
       "sports": {
         "primary": "Bádminton",
-        "team": "Selección Mexicana",
+        "team": "Selección Mexicana · Checo Pérez",
         "secondary": "Fórmula 1 · Fútbol",
         "intensity": "3/5"
       }
@@ -1996,7 +1997,8 @@ window.THMX_DATA = {
           "label": "OBJETOS EMBLEMÁTICOS",
           "text": "Un teléfono viejo con mensajes de voz de la familia; una libreta de recetas; la primera llave de su propio local. El material de investigación nunca puede usar grabaciones de migrantes reales sin permiso."
         },
-        {          "n": 20,
+        {
+          "n": 20,
           "label": "SISTEMA NARRATIVO — PERSONAJE (v1.0)",
           "text": "El Story OS completo vive en Character OS y su perfil JSON/HTML; esta entrada sirve como navegación."
         },
@@ -2028,15 +2030,15 @@ window.THMX_DATA = {
         {
           "n": 26,
           "label": "IDENTIDAD DEPORTIVA Y MATRIZ DE RIVALIDADES",
-          "text": "Identidad deportiva ficticia: béisbol; Toros de Tijuana. Secundarios: selección mexicana de fútbol y Dodgers de Los Ángeles como lealtad transfronteriza secundaria. Intensidad 3/5. El deporte explora migración, hogar y pertenecer a dos lugares sin traicionar ninguno. Hechos deportivos reales requieren fuente oficial."
+          "text": "Identidad deportiva ficticia: béisbol como deporte principal; Toros de Tijuana y Los Angeles Dodgers como lealtades transfronterizas. Secundarios: NFL — Los Angeles Rams y Selección Mexicana de fútbol. Intensidad 4/5. Sus equipos vuelven visible una vida repartida entre México y California; Rams–49ers con Jimena puede convertir una broma en conversación sobre pertenencia, migración y quién tiene derecho a llamar hogar a dos lugares. Resultados reales requieren fuente oficial."
         }
       ],
       "bio": "Creció en Michoacán, trabajó en Estados Unidos y después decidió volver a México. Su historia migratoria ficticia incluye trabajo cotidiano, amistades y decepciones. No se reduce a sacrificio ni a una cifra de remesas. Quiere un negocio que pague de forma confiable y una relación con su familia que no se mida por transferencias. Apoya mejores opciones de pago pero exige explicaciones utilizables y recursos reales. Su meta es tiempo y capacidad de elegir, no hacerse rica como prueba de dignidad.",
       "sports": {
         "primary": "Béisbol",
-        "team": "Toros de Tijuana",
-        "secondary": "Selección Mexicana · Dodgers",
-        "intensity": "3/5"
+        "team": "Toros de Tijuana · Los Angeles Dodgers",
+        "secondary": "NFL — Los Angeles Rams · Selección Mexicana",
+        "intensity": "4/5"
       }
     },
     {
