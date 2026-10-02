@@ -16,7 +16,14 @@ window.THMX_DATA = {
         "Exportación",
         "HOY"
       ],
-      "image": "assets/characters/mx_rafael.png",
+      "image": "assets/characters/mx_rafael/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_rafael/headshot.png",
+        "onePager": "assets/characters/mx_rafael/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -173,7 +180,14 @@ window.THMX_DATA = {
         "Entrega",
         "HOY"
       ],
-      "image": "assets/characters/mx_ines.png",
+      "image": "assets/characters/mx_ines/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_ines/headshot.png",
+        "onePager": "assets/characters/mx_ines/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -330,7 +344,14 @@ window.THMX_DATA = {
         "Precio justo",
         "HOY"
       ],
-      "image": "assets/characters/mx_lucia.png",
+      "image": "assets/characters/mx_lucia/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_lucia/headshot.png",
+        "onePager": "assets/characters/mx_lucia/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -487,7 +508,14 @@ window.THMX_DATA = {
         "Condiciones",
         "HOY"
       ],
-      "image": "assets/characters/mx_damian.png",
+      "image": "assets/characters/mx_damian/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_damian/headshot.png",
+        "onePager": "assets/characters/mx_damian/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -644,7 +672,14 @@ window.THMX_DATA = {
         "Crédito",
         "HOY"
       ],
-      "image": "assets/characters/mx_octavio.png",
+      "image": "assets/characters/mx_octavio/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_octavio/headshot.png",
+        "onePager": "assets/characters/mx_octavio/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -801,7 +836,14 @@ window.THMX_DATA = {
         "Consentimiento",
         "HOY"
       ],
-      "image": "assets/characters/mx_jimena.png",
+      "image": "assets/characters/mx_jimena/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_jimena/headshot.png",
+        "onePager": "assets/characters/mx_jimena/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -958,7 +1000,14 @@ window.THMX_DATA = {
         "Excepción",
         "HOY"
       ],
-      "image": "assets/characters/mx_adrian.png",
+      "image": "assets/characters/mx_adrian/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_adrian/headshot.png",
+        "onePager": "assets/characters/mx_adrian/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -1115,7 +1164,14 @@ window.THMX_DATA = {
         "Confesión",
         "HOY"
       ],
-      "image": "assets/characters/mx_ernesto.png",
+      "image": "assets/characters/mx_ernesto/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_ernesto/headshot.png",
+        "onePager": "assets/characters/mx_ernesto/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -1272,7 +1328,14 @@ window.THMX_DATA = {
         "Control",
         "HOY"
       ],
-      "image": "assets/characters/mx_mercedes.png",
+      "image": "assets/characters/mx_mercedes/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_mercedes/headshot.png",
+        "onePager": "assets/characters/mx_mercedes/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -1429,7 +1492,14 @@ window.THMX_DATA = {
         "Competencia",
         "HOY"
       ],
-      "image": "assets/characters/mx_valeria.png",
+      "image": "assets/characters/mx_valeria/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_valeria/headshot.png",
+        "onePager": "assets/characters/mx_valeria/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -1586,7 +1656,14 @@ window.THMX_DATA = {
         "Capacidad",
         "HOY"
       ],
-      "image": "assets/characters/mx_santiago.png",
+      "image": "assets/characters/mx_santiago/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_santiago/headshot.png",
+        "onePager": "assets/characters/mx_santiago/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -1743,7 +1820,14 @@ window.THMX_DATA = {
         "México–China",
         "HOY"
       ],
-      "image": "assets/characters/mx_elena.png",
+      "image": "assets/characters/mx_elena/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_elena/headshot.png",
+        "onePager": "assets/characters/mx_elena/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -1900,7 +1984,14 @@ window.THMX_DATA = {
         "Regreso",
         "HOY"
       ],
-      "image": "assets/characters/mx_alma.png",
+      "image": "assets/characters/mx_alma/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_alma/headshot.png",
+        "onePager": "assets/characters/mx_alma/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -2057,7 +2148,14 @@ window.THMX_DATA = {
         "Publicación",
         "HOY"
       ],
-      "image": "assets/characters/mx_renata.png",
+      "image": "assets/characters/mx_renata/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_renata/headshot.png",
+        "onePager": "assets/characters/mx_renata/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
@@ -2214,7 +2312,14 @@ window.THMX_DATA = {
         "Integridad",
         "HOY"
       ],
-      "image": "assets/characters/mx_mariana.png",
+      "image": "assets/characters/mx_mariana/headshot.png",
+      "media": {
+        "headshot": "assets/characters/mx_mariana/headshot.png",
+        "onePager": "assets/characters/mx_mariana/one-pager.png",
+        "gallery": [],
+        "videos": [],
+        "comics": []
+      },
       "hm": [
         {
           "n": 1,
